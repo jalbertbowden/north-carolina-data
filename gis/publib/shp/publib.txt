@@ -1,0 +1,402 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: State Library of North Carolina
+      Publication_Date: 20030325
+      Title: Public Libraries
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: State Library of North Carolina
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      NC Center for Geographic Information and Analysis developed the digital
+      Public Libraries data from addresses provided by the State Library
+      of North Carolina on 3/20/03.  This file enables users to identify public
+      library locations. This data covers the entire extent of North Carolina.
+    Purpose:
+      This data was created to assist governmental agencies and others
+      in making resource management decisions through use of a Geographic
+      Information System (GIS).
+    Supplemental_Information:
+      >system filename: library     file size = 0.15 mb
+      >
+      >Revisions and updates to this layer include:
+      >1) filename: libbrnch    The 03/25/03 version was the first verion
+      >of this data.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20030318
+        Ending_Date: 20030325
+    Currentness_Reference: Data creation and revision dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.116839
+      East_Bounding_Coordinate: -75.636531
+      North_Bounding_Coordinate: 36.539582
+      South_Bounding_Coordinate: 33.809097
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Public Library
+      Theme_Keyword: Libraries
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: structure
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of products derived from this data set
+    should cite the following: The source of the Public Libraries
+    data is the North Carolina Corporate Geographic Database.
+    Earlier versions of this data set may exist. The user
+    must be sure to use the appropriate data set for the time period
+    of interest.While efforts have been made to ensure that these
+    data are accurate and reliable within the state of the art,
+    CGIA cannot assume liability for any damages or misrepresentation
+    caused by any inaccuracies in the data or as a result of changes
+    to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Timothy Owens
+        Contact_Organization: State Library of North Carolina
+      Contact_Position: Library Consultant
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 4641 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-4641
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-733-2570
+      Contact_Facsimile_Telephone: 919-733-8748
+      Contact_Electronic_Mail_Address: towens@library.dcr.state.nc.us
+      Hours_of_Service: 8:00 am to 5:00 pm
+      Contact_Instructions: Preferred contact is by mail or telephone
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      Point locations were generated using geocoding in Arcview from
+      the public libraries address list provided by the State
+      Library of North Carolina on 3/20/03.  Points that could not be
+      generated using geocoding were interactively added in arcedit using
+      mapquest.com.  This digital file is updated as changes occur.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the dataset was built for
+    point topology using the "build" command.  Topology has not been
+    edited since the last build or clean.
+  Completeness_Report:
+    These data represent the locations of Public Libraries in North
+    Carolina as listed by the State Library of North Carolina.  The locations
+    were either address-matched using ArcView geocoding or matched manually
+    using mapquest.com.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The majority of Public Libraries were generated using geocoding
+        in Arcview.  The point generated in the processing would be snapped to
+        the road identified in the address field.  Therefore, point locations
+        are coincident with the GDT roads data.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: State Library of North Carolina
+          Publication_Date: 20030325
+          Title: Public Libraries
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: State Library of North Carolina
+          Other_Citation_Details: Generated at NCCGIA
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20030310
+            Ending_Date: 20030325
+        Source_Currentness_Reference: Original release date and revision date, respectively
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Public Libraries
+    Process_Step:
+      Process_Description:
+        Point locations were generated using geocoding in Arcview from
+        the public libraries address list provided by the State
+        Library of North Carolina on 3/20/03.  Points that could not be
+        generated using geocoding were interactively added in arcedit using
+        mapquest.com.  This digital file is updated as changes occur.
+      Process_Date: 20030325
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Jeffrey Brown
+            Contact_Organization: NC Center for Geographic Information and Analysis
+          Contact_Position: Project Manager
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: _Method: None
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 382
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Public Libraries
+      Entity_Type_Definition: Point locations of Public Libraries in North Carolina
+      Entity_Type_Definition_Source: State Library of North Carolina
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: FSCS_ID
+      Attribute_Definition: Federal public library ID
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: As needed planned
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Total perimeter in coverage units
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 0.000
+          Attribute_Units_of_Measure: Meters
+          Attribute_Measurement_Resolution: .001
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: LIB_SYSTEM
+      Attribute_Definition: Public library system
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: BRNCH_NAME
+      Attribute_Definition: Public library name
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: ADDRESS
+      Attribute_Definition: Street address of public library
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: CITY
+      Attribute_Definition: City of public library
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County of public library
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: ZIPCODE
+      Attribute_Definition: Zip code of public library
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: ZIP4
+      Attribute_Definition: Zip code 4-digit suffix of public library
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: PHONE
+      Attribute_Definition: Phone number of public library
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: LIB_ID
+      Attribute_Definition: State public library ID
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C-*
+          Enumerated_Domain_Value_Definition: County
+          Enumerated_Domain_Value_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M-*
+          Enumerated_Domain_Value_Definition: Municipality
+          Enumerated_Domain_Value_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: R-*
+          Enumerated_Domain_Value_Definition: Regional
+          Enumerated_Domain_Value_Definition_Source: State Library of North Carolina
+      Attribute_Measurement_Frequency: As needed planned
+    Attribute:
+      Attribute_Label: TYPE
+      Attribute_Definition: Public library type (Headquarters or Branch)
+      Attribute_Definition_Source: State Library of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies
+      Attribute_Measurement_Frequency: As needed planned
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/publib.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

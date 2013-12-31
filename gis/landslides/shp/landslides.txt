@@ -1,0 +1,742 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Richard M. Wooten assisted by Rebecca Latham and Jeffrey C. Reid
+      Publication_Date: 20050215
+      Title: Landslides - Slope Movements and Slope Movement Deposits
+      Edition: Version 1.0
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Asheville, North Carolina
+        Publisher: North Carolina Geological Survey
+      Other_Citation_Details: Refer to information is supplemental information and abstract in this document. Data derived from U.S. Geological Survey Digital Data Series 52 and edited as indicated in the supplemental information.
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: North Carolina Geological Survey
+          Publication_Date: 20050215
+          Title: Landslide database for North Carolina as of 15 February 2005
+  Description:
+    Abstract:
+      The North Carolina slope movement-slope movement deposit database (NCSM-SMD database) covers all of North Carolina. The NCSM-SMD databases includes slopemovement and deposit type, location, dimensions, dates, geologic (rock and soil), geomorphic and other site data for individual slope movements, and slope movement deposits. While the majority of the slope movement (landslide) events have occured mountainous western North Carolina, other parts of the state are not immune from such events. Initial data collection by the North Carolina Geological Survey (NCGS) began in 1990, but the impetus to assemble these data arose from a collaborative effort, beginning in 2004, between the North Carolina Division of Emergency Management, NCDEM, and the NCGS, to establish a statewide inventory of geological hazards. The geological hazard inventory currently includes the locations of and information on slope movements and slope movement deposits, earthquakes, historic mines, sinkholes, and a number of additional geological hazards. Further impetus to develop the NCSM-SMD database resulted from at least 90 slope meovements triggered by the  inland tracking of hurricanes during September 2004. These slope movements resulted in a total of five deaths and 27 destroyed or heavily damaged homes. Reported landslides for which there are geographic coordinates are in the accomapanying data table and are present in the ESRI shape file. As of 15 February 2005 there are a total 497 slope movement-slope movement deposit records in the database; of these 446 have geographic coordinates. Those deposits without coordinates are not plotted but listed in the metadata abstract in an abbeviated format. The following is a glossary of terms used to describe the slope movements and slope movement deposits in this database. The project data is stored in a MS Access database in the NCGS's Swannanoa office.
+
+      NCGS Slope Movement ? Deposit Database Fields
+
+      Deliverable Metadata
+
+      Field Name
+
+      ID:  Sequential database number beginning with 1.
+
+      Project is a name for a project, example Blue Ridge Parkway or Geohazards
+
+      Entry Type is an entry specifying either
+
+      Process: A known specific slope movement where a movement mechanism is known, or can be readily inferred
+
+      Deposit: Slope movement deposit
+
+      Slope Movement Name is the informal geographic name of slope movement designated by NCGS, example Charley Branch #4
+
+      Slope Movement Type is the classification of slope movement, example process 1, debris flow, debris slide, debris slide-flow, rockslide, rock fall, weathered-rock slide, embankment failure, other-specify
+
+      Slope Movement Deposit is the classification of slope movement deposit, these include debris1 undifferentiated, debris1 fan, composite debris fan, colluvial-alluvial fan, earth1 undiff, colluvium undiff, colluvium toe slope, colluvial hollow, block field, block stream, talus, or other that is specified
+
+      Date Data Collected is that the date the data was collected in month, day, year data format
+
+      Date of Movement in date of movement in month, day, year data format
+
+      County is the county name
+
+      Quad is the 7.5-minute United States Geological Survey quadrangle name
+
+      Coordinates2
+
+      Latitude3 is the latitude in decimal degrees to 5 decimal places if possible.
+
+      Longitude3 is the longitude in decimal degrees to 5 decimal places if possible.
+
+      State Plane Meters4 is the northing and Easting to 5 decimal places where possible.
+
+      Elevation Head/Apex is the elevation in feet from USGS 7.5-minute topographic map of head of slope movement or apex of slope movement deposit.
+
+      Highway-Road is the road name and/or number
+
+      Data Source is the source of data, example NCGS, USFS, EM-Swain County.
+
+      Location Confidence:  Confidence in accuracy of location
+
+      NCGS field verified: 7.5-minute US Geological Survey quadrangle with a positional accuracy accurate within a 400-foot radius in the worst case
+
+      NCCS field verified: using another source with accuracy unknown
+
+      NCGS field verified: field verified GPS with an accuracy to be accurate within a 40-foot radius
+
+      NCGS field verified aerial photograph is accurate within a 200-foot radius in the worst case
+
+      NCGS not field Verified: accuracy is unknown, location not field verified by other means.
+
+      Accuracy of height ismade from dimensions for slope movements and deposits made by visual estimates, or scaled from maps and or aerial photographs
+
+      Slope Configuration:  Configuration of slope on which movement occurred types, road cut, road embankment, road unspecified or unmodified
+
+      cut slope ? not road related
+
+      embankment-not road related
+
+      other-specify
+
+      Displaced Mass Length is the estimated length of displaced mass in feet.
+
+      Displaced Mass Width is the estimated width of displaced mass in feet.
+
+      Displaced Mass Thickness is the estimated thickness of displaced mass in feet.
+
+      Track Length is th length of track from the head to the toe in feet, mainly for debris flows.
+
+      Damage-Impacts is the text narrative of any damage or impacts of slope movement, example road damage, stream sedimentation, house damage.
+
+      Movement History is the text narrative of movement history, example, dates, rates of movement if continued beyond initial date of movement; also includes information on any stabilization actions.
+
+      Remarks is the text narrative of any additional information pertinent to entry, example reference for a source, general comments, repairs.
+
+      NCGS Investigators is the initial or initials of NCGS investigators.
+
+      Notes
+
+      Vertical lists within fields indicate specified categories for database entries.
+
+      Classified in general accordance with
+
+      Cruden, D.M. and Varnes, D.J., 1996, Landslide types and processes,in Landslides: Investigation and Mitigation, Turner, A.K. and Schuster, R.L., eds. Transportation Research Board Special Report No. 247, National Research Council, National Academy Press, Washington, D.C., p. 36-75.
+
+      Varnes, D.J., 1978, Slope movement types and processes, in Landslide Analysis and Control, edited by R.L. Schuster and R.J. Krizak, Transportation Research Board Special Report No. 176, National Academy of Sciences, Washington, D.C., p. 11-33.
+
+      Coordinates given in latitude, longitude; and, NAD83 state plane meters in the spreadsheet version of the database for NCEM.
+
+      Latitude and longitude location at initiation point, usually head scarp, for slope movements; or at apex of slope movement deposits.
+
+      State plane coordinate location at initiation point, usually head scarp, for slope movements; or at apex of slope movement deposits.
+
+      Glossary of North Carolina Slope Movement follows
+
+      alluvium is clay, silt, sand, gravel or similar unconsolidated detrital material deposited during relatively recent geologic time by a stream or other body of running water. Alluvium usually contains rounded particles and usually collects in the channels and floodplains of creeks, streams, rivers, and lakes (adj alluvial).
+
+      apex is the uppermost and usually narrowest part of a debris fan deposit nearest the source area of the fan.
+
+      block stream is an accumulation of boulders or angular blocks of rock, with little or no fine sediment in the upper part over bedrock or other hillslope deposit.  Block streams usually occur at heads of ravines, as narrow bodies more extensive downslope than along slope.
+
+      block field is a thin accumulation of boulders or angular blocks of rock, with little or no fine sediment in the upper part over bedrock or other hillslope deposit without a cliff or a ledge above as an apparent source.  Block fields usually occur on high mountain slopes where they are most extensive along slopes parallel to contour.
+
+      boulder is a detached rock mass larger than a cobble, having a diameter greater than 256 mm.
+
+      clay is a rock or mineral fragment or a detrital particle of any composition smaller than a very fine silt grain, having a diameter less than 0.004 mm.
+
+      cobble is a rock fragment larger than a pebble and smaller than a boulder, having a diameter in the range of 64 mm to 256 mm.
+
+      colluvium is any loose, heterogeneous, and unconsolidated mass of soil and rock particles deposited by rainwash, sheetwash, or slow, continuous downslope creep.  Colluvium usually contains angular to subrounded rock particles and usually collects at the base of gentle slopes or hillsides.
+
+      colluvial-alluvial fan is a fan deposit that contains both alluvium and colluvium.
+
+      colluvial-hollow is a hillslope landform represented by a depression or concave portion of the slope containing colluvium.
+
+      colluvium toe slope is a database category of colluvial deposit that has accumulated along the lower part, or toe, of a hillslope, but without a distinctive fan shape.
+
+      composite debris fan is a debris fan composed of more than one generation of either colluvium or  alluvium that reflects more than one period of fan deposition.
+
+      creep is the slow, more or less continuous downslope movement of mineral, rock, and soil particles by gravity.
+
+      cut slope is a slope exposed by excavating earth materials.
+
+      debris is regolith that contains a significant proportion of coarse material in which 20% to 80% of the particles are greater than sand sized in the range of 0.08 in or 2 mm. Debris is a general term used to classify the coarser-grained material in the source area of a slope movement,  example debris flow or debris slide.
+
+      debris fan is a fan-shaped accumulation of debris typically along the lower gentle slope of a hillside.
+
+      debris flow is a type of slope movement in which the water content in the displaced mass is sufficient for the material to liquefy and resemble a viscous fluid.  Flows involve the movement of unconsolidated earth materials, such as earth and debris, in a semi-fluid state.
+
+      debris slide is slope movements initiated by slippage along a well-defined failure surface that is usually planar or curvi-planar.  Slides are divided into two classes, rotational and translational. Slides usually consist of displaced and deformed blocks of material
+
+      debris slide-flow is a slope movement with characteristics of a debris slide and a debris flow. A slope movement may begin as a debris slide, and then mobilize into a debris flow if sufficient water is available
+
+      deposit is earth material of any type that has accumulated by some natural process or agent 'vb deposited' or, an accumulation of ore or other valuable earth material
+
+      dip slope is a slope of the land surface, roughly determined by and conforming with, the direction and angle of the dip of the underlying rock
+
+      earth is regolith in which about 80% or more of the particles are smaller than 2 mm.  Earth is a general term used to classify the finer-grained type of material in the source area of a slope movement, examples earth flow or earth slide
+
+      embankment is an-made deposits of natural earth materials, example rock, soil, or gravel, used to extend a sideslope or a land surface, example for a roadway or building site, build up low-lying land, hold back water, example a dam, or fill in an enclosed space, example mine workings. Synonymous with man-made fill, but distinguished from naturally occurring, sedimentary fill.
+
+      foot slope is the lower gentle slope of a hillside below a steep rock face or escarpment including lower slopes of diminishing steepness.
+
+      formation is a body of rock identified by its unique lithologic characteristics and stratigraphic position.
+
+      gravel is an unconsolidated, natural accumulation of rounded rock fragments resulting from erosion and consisting predominantly of particles larger than sand but smaller than cobbles greater than >2mm and smaller than <64mm.
+
+      ground water is water below the surface of the Earth. Also spelled: groundwater, ground-water.
+
+      head is the upper parts of the slope movement material in contact between the displaced material and the main scarp.
+
+      joint is a fracture or parting in a rock, without displacement.
+
+      landslide is a wide variety of mass movement landforms and processes involving the downslope transport, under gravitational influence, of soil and rock material en masse.  The term ?slope movement? is used here instead to include movement by flowing, falling and sliding.
+
+      lithology is the description of rocks, especially in hand specimen and in outcrop, on the basis of such characteristics as color, mineral composition, and grain size (adj lithologic).
+
+      mineral is a naturally occurring, inorganic substance having an orderly internal crystalline structure, characteristic chemical composition, and physical properties.
+
+      oblique slope is a relatively steeper face of a hillslope, facing in a direction at an angle to the dip of the rock layers.  An oblique slope faces a direction that lies between a dip slope and a scarp slope.
+
+      pebble is a general term for a small, rounded, water- worn stone; specifically, a rock fragment larger than a granule and smaller than a cobble, having a diameter in the range of 4 mm to 64 mm.
+
+      pore water is subsurface water in the voids of rock, sediment, or soil.
+
+      quadrangle is a rectangular area bounded by parallels of latitude and meridians of longitude.  In this database ?quadrangle? means a 7.5-minute U.S. Geological Survey topographic quadrangle map, 1:24,000 scale.
+
+      regolith is a general term for the layer or mantle of fragmental and unconsolidated rock material that nearly everywhere forms the surface of land and overlies or covers bedrock.  It includes alluvium, colluvium, residuum, debris, earth, and soil.
+
+      residuum is a unconsolidated or partly weathered parent material, soil, that developed in place by the physical and chemical weathering from the consolidated rock on which it lies.
+
+      rock is an aggregate of one or more minerals, undifferentiated mineral matter, or solid organic material.
+
+      rock fall is a type of slope movement in which a single mass of rock of any size is detached from a steep slope or cliff along a surface on which little or no shear displacement occurs. The detached material descends mostly through the air by free fall, bounding, or rolling.
+
+      rotational movementis a term used to describe the type of movement in a slide in which the displaced material has moved along a curved, concave upward, failure surface
+
+      sand is a rock or mineral fragment or a detrital particle of any composition smaller than a granule and larger than a coarse silt grain, having a diameter between 0.004 mm and 2 mm.
+
+      saprolite is a soft, earthlike, completely decomposed,or weathered, in-place rock material typically formed in humid environments.  Saprolite is characterized by the preservation of structures that were present in the unweathered rock.
+
+      scar is a cliff, precipice, or other steep slope, that corresponds to the zone of depletion, or the area from which  a slope movement originated
+
+      scarp is a cliff like face or slope that breaks the general continuity of the land surface around or in a slope movement,  and coincides with a  rupture of the ground surface with differential displacement. The main scarp is above the head of the slope movement, and usually forms the upper periphery of the displaced mass; a minor scarp is a rupture of the ground surface with differential displacement in the body of the displaced mass.
+
+      scarp slope is a relatively steeper face of a hillslope, facing in a direction opposite the dip of the rock strata or layers.
+
+      sediment is loose, unconsolidated, fragmental material that originates from weathering of rocks and is transported or deposited by air, water, or ice.
+
+      shear strength is the internal resistance of a body to shear stress.
+
+      silt is a rock or mineral fragment or a detrital particle of any composition smaller than a very fine sand grain and larger than coarse clay, having a diameter between 0.004 mm and 0.06 mm.
+
+      slope movement is the gradual or rapid downslope movement by falling, flowing, or sliding or combinations of these of regolith or rock by gravity. Used here in place of the term ?landslide.?
+
+      strike is the direction or trend taken by a structural surface,example a bedding, foliation, or fault plane, as it intersects the horizontal.
+
+      structure is a feature in the rock that results from rock deformation.
+
+      surficial deposit is an unconsolidated and residual, alluvial, or glacial deposits lying on bedrock or occurring on the Earth?s surface.
+
+      talus is a rock fragments of any size or shape, usually coarse and angular, derived from and lying at the base of a cliff or very steep rocky slope.
+
+      tension crack is a crack or rupture in the ground surface caused by extension or tensile stress but not showing differential vertical displacement.  With continued displacement a scarp can form from a tension crack.
+
+      toe is the lowest part of a slope, slope movement or slope movement deposit.
+
+      topographic map is a map showing the topographic features of the land surface.
+
+      track is the path of a channelized debris flow between the scar or source area upslope, and the toe or depositional area downslope.  The track usually coincides with a pre-existing stream channel or drainage way.
+
+      translational movement is a term used to describe the type of movement in a slide in which the displaced material has moved along a generally planar failure surface.
+
+      weathered-rock slide is a term used to describe a rockslide where the displaced rock is partly- to completely decomposed from physical and chemical weathering processes.
+
+      weathering is the physical disintegration and chemical decomposition of rock at the Earth?s surface.
+
+      Boone100klines shape file:  Outline of area containing major slope movements triggered by back-to-back hurricanes in July and August 1940.  September 1940 vintage aerial photographs for the Deep Gap-Boone area were viewed using a stereoscope. Aerial photographs containing significant numbers of slope movements, greater than approximately 10 per photo, were selected from the group of photos.  Using the selected aerial photographs, slope movements were mapped onto transparent overlays at an approximate scale of 1:18,000.  The selected aerial photographs were located on the Boone 1:100,000 scale topographic map, and a dot was placed on the map indicating the approximate center of the photo.  A boundary was drawn on the 100k topographic map based on the location of the selected aerial photographs as well as the topography.  The boundary was ?heads-up? digitized by NCGS staff.  Boundary represents area with high concentration of debris flows primarily attributed to the August 10-17, 1940 storm event. Accurac      y of boundary placement is estimated to be within 1000 feet.  No features have been field checked.  Aerial photography interpretation occurred between May 2004 and July 2004.
+    Purpose: These data provide an inventory or landslides in North Carolina as of 15 February 2005 in support of a geohazards inventory of North Carolina funded through FEMA and the North Carolina Division of Emergency Managment
+    Supplemental_Information:
+      Landslides are known at the following locations but geographic coordinates are not available for them as of 15 Febraury 2005. The ID number correspondes to the NCGS landslide database. Note fields deleted herein for brevity, see original database for these locations.
+
+      ID	Project	Entry 	Type	Slope Movement Name	Slope Movement Type	Slope Movement Deposit Type	Date Data Collected	Date of  Movement	NC County	24KQuad	Lat 			Highway-Road			Data Source	Location Confidence				Damage				Remarks
+
+      12	Geohazards	Process	Shelton Laurel					Madison	WHITE ROCK (?)
+
+      404	Geohazards	Process	Bald Rock									09/06-08/2004					Henderson	BAT CAVE			NCDOT TIMS					Not Field Verified - NCDOT			Road collapse			Failed during Hurricane Frances
+
+      410	Geohazards	Process	Old Linville Rd F-1	Debris Slide						09/15/2004		09/06-08/2004		McDowell	ASHFORD				Old Linville Road		NCGS		Not Field Verified - Specify Source		Blocked road (?)		Failed during Hurricane Frances
+
+      411	Geohazards	Process	Hwy 221 F3		Rock Slide						09/15/2004		09/06-08/2004		McDowell	LINVILLE FALLS			Highway 221			NCGS		Field Verified NCGS - 7.5' Quad			Blocked road			Failed during Hurricane Frances
+
+      428	Geohazards	Process											09/06-08/2004					Henderson					Shepherd/N.C. 191		ACT (09/08/2004)Not Field Verified-ACT				Blocked road			Failed during Hurricane Frances
+
+      429	Geohazards	Process											09/06-08/2004					Henderson	CLIFFIELD MTN			Deep Gap (NC1799)		NCDOT TIMS	Not Field Verified - NCDOT			Blocked road			Failed during Hurricane Frances
+
+      430	Geohazards	Process											09/06-08/2004					Henderson	BAT CAVE			Slick Rock Road (SR1613)			Not Field Verified - NCDOT			Blocked road			Failed during Hurricane Frances
+
+      431	Geohazards	Process											09/06-08/2004					Henderson	HORSE SHOE			Patterson Road			NCDOT TIMS	Not Field Verified - NCDOT			Road blocked by 2 mudslides	Failed during Hurricane Frances
+
+      432	Geohazards	Process				Embankment Failure					09/06-08/2004					Alleghany	ROARING GAP			Oklahona (SR1100)		NCDOT TIMS	Not Field Verified - NCDOT			Road collapsed			Failed during Hurricane Frances
+
+      433	Geohazards	Process				Debris Slide						09/06-08/2004					Jackson		LAKE TOXAWAY			N.C. 281(near Rock Bridge Road)	Sylva Herald & Ruralite	Not Field Verified - Sylva Herald	Blocked road			Failed during Hurricane Frances
+
+      446	Geohazards	Process											09/16-17/2004					Macon						U.S. Highway 64	LQS				Not Field Verified - LQS			Road closed			Failed during Hurricane Ivan
+
+      447	Geohazards	Process											09/16-17/2004					Jackson		TUCKASEGEE / BIG RIDGE		N.C. 107			Asheville Citizen Times	Not Field Verified - ACT		Road blocked in both directions	Failed during Hurricane Ivan
+
+      448	Geohazards	Process											09/16-17/2004					Jackson						U.S. Highway 64	LQS				Not Field Verified - LQS							Failed during Hurricane Ivan
+
+      451	Geohazards	Process											09/16-17/2004					Buncombe					Warren Creek Road (SR1110)	NCDOT TIMS	Not Field Verified - NCDOT			Road closed in both directions	Failed during Hurricane Ivan
+
+      452	Geohazards	Process				Embankment Failure/ Debris Flow				09/16-17/2004					Buncombe	DUNSMORE MOUNTAIN		N.C. 151/Pisgah Highway		NCDOT TIMS	Not Field Verified - NCDOT			Road closed in both directions	Failed during Hurricane Ivan
+
+      453	Geohazards	Process	Sunrise Mobile Home Park							09/16-17/2004					Buncombe					Asheville Citizen Times		Not Field Verified - Asheville Citizen Times			Blocked road			Failed during Hurricane Ivan
+
+      454	Geohazards	Process											09/16-17/2004					Buncombe					Early's Mountain		Asheville Citizen Times	Not Field Verified - ACT						Failed during Hurricane Ivan
+
+      455	Geohazards	Process											09/16-17/2004					Buncombe	SANDYMUSH			North Turkey Creek		Asheville Citizen Times	Not Field Verified - ACT		Closed road in both directions	Failed during Hurricane Ivan
+
+      456	Geohazards	Process											09/16-17/2004					Buncombe					Ingle Mountain Road				Not Field Verified 				Closed road in both directions	Failed during Hurricane Ivan
+
+      457	Geohazards	Process											09/16-17/2004					Buncombe					Gorman Road			ACT		Not Field Verified - ACT			Closed road in both directions	Failed during Hurricane Ivan
+
+      458	Geohazards	Process											09/16-17/2004					Buncombe	LEICESTER			Mink Farm Road			ACT		Not Field Verified - ACT			Blocked traffic both directions	Failed during Hurricane Ivan
+
+      459	Geohazards	Process											09/16-17/2004					Buncombe					Newfound Road			ACT		Not Field Verified - ACTs							Failed during Hurricane Ivan
+
+      460	Geohazards	Process				Embankment Failure/ Debris Flow 			09/16-17/2004					Buncombe					Hooker Gap Road			ACT		Not Field Verified - Frank Obusek--NCCGIA					Failed during Hurricane Ivan
+
+      461	Geohazards	Process											09/16-17/2004					Avery						Old Toe River Road (SR1157)	NCDOT TIMS	Not Field Verified - NCDOT			Closed road			Failed during Hurricane Ivan
+
+      462	Geohazards	Process											09/16-17/2004					Avery						Buckeye Road (SR 1312)		NCDOT TIMS	Not Field Verified - NCDOT			Closed road			Failed during Hurricane Ivan
+
+      463	Geohazards	Process											09/16-17/2004					Buncombe					RR tracks			Asheville Radio	Not Field Verified - 				Blocked rail line		Failed during Hurricane Ivan
+
+      464	Geohazards	Process											09/16-17/2004					Macon		FRANKLIN			Wayah Road (SR 1310)		NCDOT TIMS	Not Field Verified - NCDOT			Closed road			Failed during Hurricane Ivan
+
+      465	Geohazards	Process											09/16-17/2004					Madison						N.C. Highway 63			ACT		Not Field Verified - ACT			Closed road			Failed during Hurricane Ivan
+
+      466	Geohazards	Process											09/16-17/2004					Madison		SPRING CREEK			Baltimore Branch-Johnson Brown	ACT		Not Field Verified - ACT			Closed road			Failed during Hurricane Ivan
+
+      467	Geohazards	Process											09/16-17/2004					Madison		HOT SPRINGS (?)			River Road			ACT		Not Field Verified - ACT			Closed road			Failed during Hurricane Ivan
+
+      468	Geohazards	Process											09/16-17/2004					Madison		LEICESTER			Teague Road			ACT		Not Field Verified - ACT			Closed road			Failed during Hurricane Ivan
+
+      469	Geohazards	Process											09/16-17/2004					McDowell	LITTLE SWITZERLAND (?)		N.C. 266 Alt			NCDOT TIMS	Not Field Verified - NCDOT			Rocks on road			Failed during Hurricane Ivan
+
+      470	Geohazards	Process				Embankment Failure					09/16-17/2004					Swain						Highway 19A (SR1195)		NCDOT TIMS	Not Field Verified - NCDOT			Closed road			Failed during Hurricane Ivan
+
+      471	Geohazards	Process											09/16-17/2004					Transylvania	BREVARD (?)			Wilson Road (SR 1540)		NCDOT TIMS	Not Field Verified - NCDOT			Closed road			Failed during Hurricane Ivan
+
+      472	Geohazards	Process											09/16-17/2004					Transylvania	BREVARD (?)			Tinsley Road (SR 1353)		NCDOT TIMS	Not Field Verified - NCDOT			Closed road			Failed during Hurricane Ivan
+
+      473	Geohazards	Process											09/16-17/2004					Watauga						Lee Gaultney Road (SR1130)	NCDOT TIMS	Not Field Verified - NCDOT			Blocked road			Failed during Hurricane Ivan
+
+      474	Geohazards	Process											09/16-17/2004					Buncombe	ENKA				Frank Obusek			NCCGIA		Not Field Verified - Frank Obusek--NCCGIA	Blocked trail and bike path	Failed during Hurricane Ivan
+
+      475	Geohazards	Process				Debris Flow						09/16-17/2004					Macon		PRENTISS			Mark Riedell--Coweeta Hydro Lab			Not Field Verified - Mark Riedell						Failed during Hurricane Ivan
+
+      476	Geohazards	Process											09/06-08/2004					Jackson		LAKE TOXAWAY			N.C. 281			Sylva Herald	Not Field Verified - Sylva Herald		Closed road			Failed during Hurricane Frances
+
+      477	Geohazards	Process											09/06-08/2004					Macon						Wayah Road			Franklin Press	Not Field Verified - Franklin Press		One lane of traffice closed	Failed during Hurricane Frances
+
+      478	Geohazards	Process											09/16-17/2004					Haywood										ACT		Not Field Verified - ACT 							Failed during Hurricane Ivan
+
+      479	Geohazards	Process											09/16-17/2004					Henderson					Middle Fork Road		Hend. Times	Not Field Verified - Hendersonville Times News	One lane closed			Failed during Hurricane Ivan
+
+      480	Geohazards	Process											09/16-17/2004					Henderson									ACT		Not Field Verified - ACT			Failed during Hurricane Ivan	In Gerton
+
+      481	Geohazards	Process				Embankment Failure					09/16/2004					Jackson						U.S. Highway 19			ACT		Not Field Verified - ACT							Failed during Hurricane Ivan
+
+      482	Geohazards	Process				Embankment Failure					09/17/2004					Jackson		BIG RIDGE			N.C. 281			Sylva Herald 	Not Field Verified - Sylva Herald 		Removed roadway			Failed during Hurricane Ivan
+
+      483	Geohazards	Process											09/16-17/2004					Jackson		TUCKASEGEE / BIG RIDGE		N.C. 107			Sylva Herald 	Not Field Verified - Sylva Herald 		Closed road			Failed during Hurricane Ivan
+
+      484	Geohazards	Process											09/16-17/2004					Polk		SALUDA				Pearson Falls Road		ACT		Not Field Verified - ACT			Closed road			Failed during Hurricane Ivan
+
+      485	Geohazards	Process											09/16-17/2004					Macon		HIGHLANDS			Buck Creek Road			The Highlander 	Not Field Verified				Closed road			Failed during Hurricane Ivan
+
+      487	Geohazards	Process				Embankment Failure					09/16-17/2004					Jackson		HAZELWOOD			Dark Ridge Road			Deirdre Martin	Not Field Verified - Deirder Martin						Failed during Hurricane Ivan;
+
+      488	Geohazards	Process				Rock Slide						12/12-13/2004					Graham		TUSKEEGEE			N.C. 28				Carl Merschat	Not Field Verified - NCDOT			Closed road
+
+      489	Geohazards	Process											11/24/2004					Graham		TUSKEEGEE			N.C. 28				Beth Fields-res	Not Field Verified - NCDOT			Road gave way, new development
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2006
+        Time_of_Day: unknown
+    Currentness_Reference: Data as of 20060201
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.322
+      East_Bounding_Coordinate: -75.460
+      North_Bounding_Coordinate: -75.8699
+      South_Bounding_Coordinate: -77.958
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Landslides
+      Theme_Keyword: Geologic Hazards
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: geoscientificInformation
+    Place:
+      Place_Keyword_Thesaurus: North Carolina
+      Place_Keyword: North Carolina
+  Access_Constraints: None.
+  Use_Constraints: None.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Richard M. Wooten
+        Contact_Organization: North Carolina Geological Survey
+      Contact_Position: Senior Geologist - Geohazards and Engineering Geology
+      Contact_Address:
+        Address_Type: physical address
+        Address: 2090 U.S. Highway 70
+        City: Swannanoa
+        State_or_Province: North Carolina
+        Postal_Code: 28778
+        Country: United States of America
+      Contact_Voice_Telephone: 828.296.4500 ext. 216
+      Contact_TDD/TTY_Telephone: None
+      Contact_Facsimile_Telephone: 828.299.7043
+      Contact_Electronic_Mail_Address: rick.wooten@ncmail.net
+      Hours_of_Service: 0800 hours to 1500 hours eastern time zone
+      Contact_Instructions: Prefer initial contact by e-mail, followed by voice contact.
+  Cross_Reference:
+    Citation_Information:
+      Originator: Jeffrey C. Reid
+      Publication_Date: 200312
+      Publication_Time: Unknown
+      Title: Landslide Database for North Carolina
+      Edition: Version 1.0
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: North Carolina Geological Survey
+      Online_Linkage: None
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: None
+          Publication_Date: 20050216
+          Title: None
+          Other_Citation_Details: This work is part of a geological hazards investigation program in North Carolina being conducted by the North Carolina Geological Survey, Raleigh, North Carolina
+Data_Quality_Information:
+  Logical_Consistency_Report: Data attributes developed by North Carolina Geological Survey staff geologists
+  Completeness_Report: All of the landslides for North Carolina except for those noted to have been deleted in the abstract owing to latitude and longitude locations outside the State of North Carolina.
+  Lineage:
+    Process_Step:
+      Process_Description: Latitude/Longitude fields in in the landslide database, which is stored in Microsoft Access are imported as X,Y events and then converted to a shapefile.
+      Process_Date: 20060201
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 1975
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Database of Landslides in North Carolina
+      Entity_Type_Definition: North Carolina Geological Survey
+      Entity_Type_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+    Attribute:
+      Attribute_Label: ID
+      Attribute_Definition: Internal ascension number.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers.
+    Attribute:
+      Attribute_Label: Project
+      Attribute_Definition: Internal project name, such as Geohazards, for database.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Landslide project name
+    Attribute:
+      Attribute_Label: Type
+      Attribute_Definition: Entry specifying either a process, such as a known specific slope movement where a movement mechanism is known or easlily inferred, or a deposit
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Process
+          Enumerated_Domain_Value_Definition: A known specific slope movement where a movement mechanism is known, or can be readily inferred
+          Enumerated_Domain_Value_Definition_Source: North Carolina Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Deposit
+          Enumerated_Domain_Value_Definition: Slope movement deposit
+          Enumerated_Domain_Value_Definition_Source: North Carolina Geological Survey
+    Attribute:
+      Attribute_Label: SM_Name
+      Attribute_Definition: Informal geographic name of slope movment designated by North Carolina Geological Survey staff geologists, for example Charley Branch #4 or Lands Creek 1
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Informal name of slope movement feature.
+    Attribute:
+      Attribute_Label: SM_Type
+      Attribute_Definition: Classification of slope movement, such as type of process, also see types listed in abstract
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Classification of slope movement.
+    Attribute:
+      Attribute_Label: SMD_Type
+      Attribute_Definition: Classification of slope movement deposit, such as product - see types listed in abstract
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Classification of slope movment deposit.
+    Attribute:
+      Attribute_Label: MvmtDate
+      Attribute_Definition: Calendar date that data were collected using format month/day/year
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Calendar date that movement occurred, if known
+    Attribute:
+      Attribute_Label: Col_Date
+      Attribute_Definition: Calendar date that data was collected using format month/day/year
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Calendar date that data was collected
+    Attribute:
+      Attribute_Label: NC_Cnty
+      Attribute_Definition: Name of North Carolina county where process initiated or apex of deposit is located.
+      Attribute_Definition_Source: State of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name of North Carolina county.
+    Attribute:
+      Attribute_Label: Quad_24K
+      Attribute_Definition: Name of U.S. Geological Survey 7.5-minute topographic quadrangle where process initiated or apex of deposit is located.
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name of U.S. Geological Survey 7.5-minute topographic quadrangle
+    Attribute:
+      Attribute_Label: NSPM
+      Attribute_Definition: Northing of location in state plane coordinates as NAD 83
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Northing of location in state plane coordinates as NAD 83.
+    Attribute:
+      Attribute_Label: ESPM
+      Attribute_Definition: Easting of location in state plane coordinates as NAD 83
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Easting of location in state plane coordinates as NAD 83.
+    Attribute:
+      Attribute_Label: EL_Head
+      Attribute_Definition: Elevation in feet from the U.S. Geological Survey 7.5-minute topographic map of head of slope movement.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 6684
+          Attribute_Units_of_Measure: Feet
+    Attribute:
+      Attribute_Label: Road
+      Attribute_Definition: Road name and or number
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name or number of road.
+    Attribute:
+      Attribute_Label: Data_Src
+      Attribute_Definition: Source of information about feature.  An example would be the North Carolina Geological Survey or NCGS, United States Forest Service or USFS, etc.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name of Source such as United States Forest Service
+    Attribute:
+      Attribute_Label: Loc_Conf
+      Attribute_Definition: This provides an assessment of the confidence in accuracy of earth movement location, see glossary for further explanation of accuracy.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Field Verified
+          Enumerated_Domain_Value_Definition: Not Checked in Field but ususally by AirPhoto
+          Enumerated_Domain_Value_Definition_Source: North Carolina Geological Survey staff geologists
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Field Verified
+          Enumerated_Domain_Value_Definition: Checked in the filed by staff geologist
+          Enumerated_Domain_Value_Definition_Source: North Carolina Geological Survey staff geologists
+    Attribute:
+      Attribute_Label: Slp_Cnfg
+      Attribute_Definition: Configuration of slope on which movement occurred.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Road Cut
+          Codeset_Source: NCGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Road Embankment
+          Codeset_Source: NCGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Unmodified
+          Codeset_Source: NCGS
+    Attribute:
+      Attribute_Label: D_Mass_L
+      Attribute_Definition: Estimated length of displaced mass in feet
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Estimated length of displaced mass in feet.
+    Attribute:
+      Attribute_Label: D_Mass_W
+      Attribute_Definition: Estimated maximum width of displaced mass in feet
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Estimated maximum width of displaced mass in feet.
+    Attribute:
+      Attribute_Label: D_Mass_T
+      Attribute_Definition: Estimated maximum perpendicular to the slope of displaced mass in feet
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Estimated maximum thickness of displaced mass in feet.
+    Attribute:
+      Attribute_Label: TrkLeng
+      Attribute_Definition: Length of debris flow track from head to toe in feet, mainly for debris flows.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Length of track debris flow from head to toe in feet, mainly for debris flows.
+    Attribute:
+      Attribute_Label: Damage
+      Attribute_Definition: Text narrative of any damage or impacts of slope movement, such as road damage, stream sedimentation, house damage
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text narrative of any damage or impacts of slope movements such as road damage, stream sedimentation, house damage.
+    Attribute:
+      Attribute_Label: Mvmt_His
+      Attribute_Definition: Text narrative of movement history, such as dates, rates of movmeent if continued beyond initial date of movement, also includes information on any stabilization actions
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text narrative of movement history such as dates, rates of movment if continued beyond initial date of movement, also includes information on any stabilization actions
+    Attribute:
+      Attribute_Label: Remarks
+      Attribute_Definition: Text narrative of any additional information pertinent to entry, such as reference for a source,general comments, repairs, etc.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text narrative of any additional pertinent to entry such as reference for a source,general comments, repairs, etc.
+    Attribute:
+      Attribute_Label: NCGSInvs
+      Attribute_Definition: Initials of NCGS investigators who collected data at site
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: NCGS investigator or investigators.
+    Attribute:
+      Attribute_Label: IZLatDD
+      Attribute_Definition: Latitude in Decimal Degrees for initiation zone of a process entry.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 33.723
+          Range_Domain_Maximum: 36.618
+          Attribute_Units_of_Measure: Decimal Degrees
+    Attribute:
+      Attribute_Label: IZLongDD
+      Attribute_Definition: Initiation zone in Longitude Decimal Degrees
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -84.422
+          Range_Domain_Maximum: -75.417
+          Attribute_Units_of_Measure: Decimal Degrees
+    Attribute:
+      Attribute_Label: ApxLatDD
+      Attribute_Definition: Apex of process Latitude Decimal Degress
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 33.723
+          Range_Domain_Maximum: 36.618
+          Attribute_Units_of_Measure: Decimal Degrees
+    Attribute:
+      Attribute_Label: ApxLongDD
+      Attribute_Definition: Apex of process in Longitude Decimal Degress
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -84.422
+          Range_Domain_Maximum: -75.417
+          Attribute_Units_of_Measure: Decimal Degrees
+    Attribute:
+      Attribute_Label: EL_Apex
+      Attribute_Definition: Elevation in feet from the U.S. Geological Survey 7.5-minute topographic map of head of slope movement.
+      Attribute_Definition_Source: Compiled by North Carolina Geological Survey staff geologists
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 6684
+          Attribute_Units_of_Measure: Feet
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/landslides.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

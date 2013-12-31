@@ -1,0 +1,686 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC Center for Geographic Information & Analysis
+      Publication_Date: 20070306
+      Title: Public Municipal Stormwater Systems
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NC Center for Geographic Information & Analysis
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: Metadata - www.nconemap.com
+  Description:
+    Abstract:
+      The NC Center for Geographic Information and Analysis developed the
+      GIS data set, Public Municipal Stormwater Systems, as mapped by contractors
+      to the NC Rural Center (engineering firms McGill & Associates and
+      Hobbs, Upchurch & Associates) during 2004, 2005, and 2006 to facilitate
+      planning, siting and impact analysis in the 100 individual counties of
+      North Carolina. This file enables the user to make various county-level
+      determinations when used in conjunction with other data layers. The survey was in 2004, so this data would normally have been for calendar year 2003.
+    Purpose:
+      The purpose of this data set is to inform users of key information about
+      Public Municipal Stormwater Systems in North Carolina, with particular focus
+      on system size and growth, regulatory compliance, and capital improvement
+      needs of the systems.
+    Supplemental_Information:
+      Revisions and updates to this layer include:
+      1.) March 2007 version was the first recorded release of this data.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 2007
+        Ending_Date: 20070306
+    Currentness_Reference: Data creation and revision date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Irregular
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.421925
+      East_Bounding_Coordinate: -75.416567
+      North_Bounding_Coordinate: 36.617518
+      South_Bounding_Coordinate: 33.723370
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Stormwater System
+      Theme_Keyword: Public Stormwater
+      Theme_Keyword: Capital Improvement
+      Theme_Keyword: Bond Funding
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: utilitiesCommunication
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina
+        GAZETTEER, A Dictionary of Tar Heel Places,(Chapel Hill: University of
+        North Carolina Press, August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of products derived form this dataset should cite the following:
+    The source of the Public Municipal Stormwater Systems data is NC OneMap.
+    Earlier versions of this data set may exist. The user must be sure to use
+    the appropriate dataset for the time period of interest.  While efforts
+    have been made to ensure that these data are accurate and reliable within
+    the state of the art, CGIA cannot assume liability for any damages or
+    misrepresentation caused by any inaccuracies in the data or as a result
+    of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC CGIA
+      Contact_Address:
+        Address_Type: Physical
+        Address: 301 N. Wilmington Street, Suite 700
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27601-2825
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 733-2090
+      Contact_Facsimile_Telephone: (919)715-0725
+      Contact_Electronic_Mail_Address: dataq@ncmail.net
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      This data was collected by engineering firms McGill & Associates and
+      Hobbs, Upchurch & Associates by survey and site visit.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the data set was built for arc and
+    polygon topology using the "build" command.  The data set was then cleaned
+    with a fuzzy tolerance of 10 meters.  Topology has not been edited since
+    the last build or clean.
+  Completeness_Report:
+    This data layer represents the Public Municipal Stormwater Systems of all
+    counties in North Carolina.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        System boundaries were reviewed by CGIA for accuracy and modified
+        as needed.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: McGill & Associates and Hobbs, Upchurch & Associates
+          Publication_Date: 2004-2007
+          Title: Public Municipal Stormwater Systems
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Contractor offices
+            Publisher: McGill & Associates and Hobbs, Upchurch & Associates
+          Other_Citation_Details: Map series
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 2004
+            Ending_Date: 2007
+        Source_Currentness_Reference: Publication date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Paper maps on which 1998 service area boundaries were plotted.
+    Process_Step:
+      Process_Description:
+        The contractors collected graphic data from water and sewer
+        system managers, and collected numeric data from water, sewer,
+        and stormwater system managers throughout North Carolina.
+        Graphic data was collected in one of two ways.  If the system
+        of interest was evaluated during the prior system survey of
+        1998, the new graphic data was collected by forwarding or
+        delivering to each system manager a map of the water or sewer
+        system pipes as they existed in 1998, having the system
+        manager adjust system boundaries to reflect current and
+        expected future boundaries, and making those edits to the
+        1998 polygons.  If the system of interest was not evaluated
+        in the 1998 survey, a map of the current and expected future
+        boundaries of the system was requested from the system manager.
+        In both cases, the current and expected future boundaries of
+        the water or sewer system were ultimately digitized from the
+        data provided by the system manager.  In some cases, system
+        managers reported no change in current or expected future
+        system boundaries, and in those cases the resulting polygons
+        are identical to those produced from the 1998 survey.  For
+        this study, current system boundaries were defined as those
+        boundaries in existence at the time of the survey (2004).
+        Future system boundaries were defined as the boundaries
+        expected to exist in the year 2010.
+        Numeric data was collected by crafting a table structure for
+        the required data, forwarding a paper questionnaire developed
+        from this data structure to each system manager, collecting
+        that data as a written response to the questionnaire (via
+        return mail or face-to-face meeting), then entering this data
+        into the table structure.
+      Process_Date: 2004-2007
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: McGill & Associates
+            Contact_Person: Harry Buckner
+          Contact_Address:
+            Address_Type: physical
+            Address: 55 Broad Street
+            City: Asheville
+            State_or_Province: North Carolina
+            Postal_Code: 28801
+            Country: U.S.A.
+          Contact_Voice_Telephone: (828) 252-0575
+          Contact_Facsimile_Telephone: (828) 252-2518
+          Contact_Electronic_Mail_Address: hbbuckner@mcgillengineers.com
+          Hours_of_Service: 8:30AM - 5:30PM
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description:
+        Same process as outlined in previous step was followed for second
+        contractor.
+      Process_Date: 2004-2007
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Hobbs, Upchurch & Associates
+            Contact_Person: Angela Mettlen
+          Contact_Address:
+            Address_Type: physical
+            Address: 2411 N. Oak Street, Suite 204
+            City: Myrtle Beach
+            State_or_Province: South Carolina
+            Postal_Code: 29577
+            Country: U.S.A.
+          Contact_Voice_Telephone: (843) 626-1910
+          Contact_Facsimile_Telephone: (843) 626-1745
+          Contact_Electronic_Mail_Address: info@hobbsupchurch.com
+          Hours_of_Service: 8:30AM - 5:30PM
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description:
+        AMEC Earth and Environmental, Inc. of North Carolina (AMEC)
+        took responsibility for managing the data structure, data
+        connectivity, and quality control aspects of the graphic
+        and numeric data generated for this project.  AMEC integrated
+        individual polygons into a statewide coverage of systems of
+        various types, and also performed quality control reviews
+        on numeric data and data ranges for numeric fields.  AMEC
+        identified disconnections between polygons and the underlying
+        tabular data and worked with the other contractors and CGIA
+        to rectify these disconnects.  Using linear multivariate
+        regression techniques, AMEC estimated current and future
+        capital improvement needs for systems which had no published
+        capital improvement plans.
+      Process_Date: 2004-2007
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: AMEC Earth & Environmental
+            Contact_Person: Keith Readling
+          Contact_Address:
+            Address_Type: physical
+            Address: 4513 Creedmoor Road, Suite 400
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27612
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 420-0590
+          Contact_Facsimile_Telephone: (919) 420-0890
+          Contact_Electronic_Mail_Address: keith.readling@amec.com
+          Hours_of_Service: 8:30AM - 5:30PM
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description:
+        Service area boundaries and database were extensively
+        reviewed by CGIA for accuracy and modified where needed.
+      Process_Date: 2004-2007
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: CGIA
+            Contact_Person: David Giordano
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: _Method: County name
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 1691
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.001877
+          Ordinate_Resolution: 0.001877
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: storm
+      Entity_Type_Definition: Boundary extents of Public Municipal Stormwater Systems
+      Entity_Type_Definition_Source: NC CGIA
+    Attribute:
+      Attribute_Label: SWSYID
+      Attribute_Definition:
+        System ID number: 3 digit FIPS code plus “SW” plus “2004”
+        plus 3 digit unique ID = 12 characters
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: LOCGOVNM
+      Attribute_Definition: Name of Local Government
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: NPDESRST
+      Attribute_Definition: NPDES Stormwater Regulatory Status
+      Attribute_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: No permit
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Phase 1 permit
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Phase 2 permit
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+    Attribute:
+      Attribute_Label: STPCS
+      Attribute_Definition: Primary County(s) Served
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: STPCP
+      Attribute_Definition: Primary Contact Person
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: STPCPT
+      Attribute_Definition: Superintendent, Director, etc)
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: STADDR
+      Attribute_Definition: Mailing Address
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: STPHN
+      Attribute_Definition: Phone Number
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: STFAX
+      Attribute_Definition: Fax Number
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: STEMAIL
+      Attribute_Definition: Email address
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: STUTIL
+      Attribute_Definition: Stormwater Utility
+      Attribute_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Stormwater utility is in place
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Stormwater utility is not in place
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+    Attribute:
+      Attribute_Label: STUTILRE
+      Attribute_Definition:
+        Annual revenue from most recent fiscal year, in thousands of dollars.
+        (Figure provided only if STUTIL = "Y".)
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: WQPROGIP
+      Attribute_Definition:
+        Water quality programs administered locally: sediment and erosion control,
+        water supply watershed, specific river basin rules (e.g. Neuse), CAMA rules,
+        local buffer rules, or other.
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: SWGENSYC
+      Attribute_Definition: General System Condition
+      Attribute_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: G
+          Enumerated_Domain_Value_Definition: Good
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: Fair
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: P
+          Enumerated_Domain_Value_Definition: Poor
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+    Attribute:
+      Attribute_Label: TOPOCODE
+      Attribute_Definition: Topographic Code
+      Attribute_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: Flat
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M
+          Enumerated_Domain_Value_Definition: Moderate
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: S
+          Enumerated_Domain_Value_Definition: Steep
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+    Attribute:
+      Attribute_Label: STMAP
+      Attribute_Definition: System Map
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: System is mapped
+          Enumerated_Domain_Value_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: System is not mapped
+          Enumerated_Domain_Value_Definition_Source: Stormwater system owner
+    Attribute:
+      Attribute_Label: STGIS
+      Attribute_Definition: GIS Data
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: System map is in GIS format
+          Enumerated_Domain_Value_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: System map is not in GIS format
+          Enumerated_Domain_Value_Definition_Source: Stormwater system owner
+    Attribute:
+      Attribute_Label: BMPSINPL
+      Attribute_Definition:
+        BMP’s in service, owned or maintained by local government, "None"
+        if none exist.
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: FLOODING
+      Attribute_Definition:
+        Flooding Indicator (extent of flooding problems in the local
+        government)
+      Attribute_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L
+          Enumerated_Domain_Value_Definition: Low
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M
+          Enumerated_Domain_Value_Definition: Medium
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: H
+          Enumerated_Domain_Value_Definition: High
+          Enumerated_Domain_Value_Definition_Source: Sewer system owner
+    Attribute:
+      Attribute_Label: NFIPSTAT
+      Attribute_Definition:
+        NFIP regulatory status (no participation, participate at federal
+        standard, or participate at higher standard).
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: NFIPCONT
+      Attribute_Definition: Name of the contact person at the local government.
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: NFIPPHON
+      Attribute_Definition: NFIP Contact Phone
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: STUPDATE
+      Attribute_Definition: Update Willingness
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Service owner is willing to update data annually
+          Enumerated_Domain_Value_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Service owner is not willing to update data annually
+          Enumerated_Domain_Value_Definition_Source: Stormwater system owner
+    Attribute:
+      Attribute_Label: STSHARE
+      Attribute_Definition:
+        Data Sharing.  Local ordinance or policy regarding
+        sharing electronic data about your system ("no ordinance
+        or policy", "no sharing", or "limited sharing").
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: OMSW04T
+      Attribute_Definition:
+        Annual O&M Expenditure 2004.  Total amount in thousands of dollars
+        of most recent fiscal year O&M expenditure, 999999 if unknown.
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: CURCIP
+      Attribute_Definition:
+        Current CIP Need (total amount in thousands
+        of dollars for the estimated CIP needs for the
+        system for the period FY04-05 through FY09-10
+        -- a 5 year period, defined as current need)
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: FUTCIP
+      Attribute_Definition:
+        Future CIP Need (total amount in thousands
+        of dollars for the estimated CIP needs for the
+        system for the period FY10-11 through FY29-30
+        -- a 20 year period, defined as future need)
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: CURSOUR
+      Attribute_Definition:
+        Source of current CIP value (either estimated
+        by consultant or reported by system)
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+    Attribute:
+      Attribute_Label: FUTSOUR
+      Attribute_Definition:
+        Source of future CIP value (either estimated
+        by consultant or reported by system).
+      Attribute_Definition_Source: Stormwater system owner
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Item varies
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      A dataset depicting the North Carolina Public Municipal Stormwater
+      Systems. Polygons have attribute data including total area in
+      coverage units (square meters), total perimeter (linear meters),
+      polygon internal identification number, polygon user
+      identification number, and pertinent system information.
+    Entity_and_Attribute_Detail_Citation: None
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/pmss.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

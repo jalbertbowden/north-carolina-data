@@ -1,0 +1,860 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC DENR Division of Environmental Health (DEH), Public Water Supply Section (PWSS)
+      Publication_Date: 20091118
+      Title: Public Water Supply Water Sources, Including Ground Water and Surface Water Sources
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NC DENR Division of Environmental Health, Public Water Supply Section
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract: The North Carolina Department of Environment and Natural Resources, Division of Environmental Health, Public Water Supply Section in cooperation with the NC Center for Geographic Information and Analysis, has developed the geographic data to provide accurate location of public water supply system sources in North Carolina.
+    Purpose: These data were created for North Carolina's Source Water Assessment Program and to assist governmental agencies and others in making resource management decisions through use of a Geographic Information System (GIS).
+    Supplemental_Information:
+      Revisions and updates to this layer include:
+
+      1) The 03/02/04 version was the first released version of this data.
+
+      2) The 05/12/05 version is the next version of this data.
+
+      3) The 09/01/06 version is an updated version of this data.
+
+      4) The 11/18/09 version is an updated version of this data.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1995
+        Beginning_Time: unknown
+        Ending_Date: 20091118
+        Ending_Time: unknown
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Semi-annual
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.356659
+      East_Bounding_Coordinate: -75.419624
+      North_Bounding_Coordinate: 36.585768
+      South_Bounding_Coordinate: 33.739456
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: wells
+      Theme_Keyword: well sites
+      Theme_Keyword: public water supply
+      Theme_Keyword: source water
+      Theme_Keyword: drinking water
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: inlandWaters
+    Place:
+      Place_Keyword_Thesaurus: William S. Powell, The North Carolina GAZETTEER, A Dictionary of Tar Heel Places, (Chapel Hill: University of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: Acknowledgement of products derived from this data set should cite the following: The source of this GIS data layer for Public Water Supply Sources is the North Carolina Corporate Geographic Database. Earlier versions of this dataset may exist. The user must be sure to use the appropriate data set for the time period of interest. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, CGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Robert Midgette
+        Contact_Organization: NC DENR Div. of Environmental Health, Public Water Supply Section
+      Contact_Position: Supervisor
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 1634 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699-1634
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-715-3224
+      Contact_Facsimile_Telephone: 919-715-4374
+      Contact_Electronic_Mail_Address: robert.midgette@ncmail.net
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Preferred contact is by email or telephone.
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: The well locations were collected with Trimble GeoExplorer using data dictionary developed by PWSS which allowed field input of system id, well id, distance and direction to well, etc. during the collection of satellite readings. Following conversion to tabular text, cross-checking with the existing database and editing were made.
+  Logical_Consistency_Report: Using Trimble's Pathfinder software, the data from GPS units were differentially corrected and converted to GIS format to be used with ESRI's ArcGIS software.
+  Completeness_Report: These GPS derived locations are obtained incidental to routine water system inspections, sanitary surveys, and site visits. The locating of the public water supply sources is the first step in wellhead protection. Accurately locating PWS sources will enable other divisions/agencies to determine what potentially harmful activities are within specified distances of these wells.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Well locations were differentially corrected using base station files, which resulted in positions within 2m to 5m of the actual positions.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC DENR - Div. of Environmental Health, Public Water Supply Section
+          Publication_Date: 2010
+          Title: Public Water Supply Wells
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC DENR - Div. of Environmental Health, Public Water Supply Section
+          Other_Citation_Details: none
+      Type_of_Source_Media: Trimble GeoExplorer GPS receiver
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1995
+            Ending_Date: 20091118
+        Source_Currentness_Reference: Original release date and update date,
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Locations of sites and facility names supplied by Public Water Supply Section
+    Process_Step:
+      Process_Description: PWSS regions' GPS rover units data were transferred to DEH server. Well locations were calculated by using Pathfinder software and base station files. The data were then converted to tabular text form so they could be imported into ArcGIS software for visual inspection purpose. The data were reviewed and necessary corrections made.
+      Process_Date: 20091118
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Robert Midgette
+            Contact_Organization: DENR
+          Contact_Position: Supervisor
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 1634 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699-1634
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-715-3224
+          Contact_Facsimile_Telephone: 919-715-4374
+          Contact_Electronic_Mail_Address: robert.midgette@ncmail.net
+          Hours_of_Service: 8:30 am to 5:30 pm
+          Contact_Instructions: Phone or electronic mail preferred
+
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: _Method: None
+  Direct_Spatial_Reference_Method: Point
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 9179
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 4410
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: pws_sources_1109
+      Entity_Type_Definition: Active Public Water Supply Sources are ground water and surface water sources for community (CWS), non-transient non-community (NTNC) and transient non-community (TNC) water systems.
+      Entity_Type_Definition_Source: NC DENR-Div of Environmental Health, Public Water Supply Section
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 0.000
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: .001
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 0.000
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: 0.001
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: shapeSrc
+      Attribute_Definition: Internal Identification Number
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Identification numbers vary in value
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Point internal identification number
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 4410
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SOURCEID
+      Attribute_Definition: Point internal identification number
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 4410
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: PWS_ID
+      Attribute_Definition: Unique 7-digit identification number for PWS system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique identification numbers vary
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: PRDTN_CA_3
+      Attribute_Definition: Maximum production capacity of system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Capacity numbers vary in value.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: EPA_SRC_ID
+      Attribute_Definition: EPA Source Identification Number
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique identification numbers vary
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: OWN_LOC_CO
+      Attribute_Definition: Owner Location Code
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique identification names vary
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SRC_TYPE
+      Attribute_Definition: PWS Source Type
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: S
+          Enumerated_Domain_Value_Definition: Surface Water Source
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: G
+          Enumerated_Domain_Value_Definition: Ground Water Source
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Combination of both ground and surface source
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: PWSTypeDes
+      Attribute_Definition: PWS Type Description
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: PWS type descriptions vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: PWSTypeNam
+      Attribute_Definition: PWS Type Name
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: PWS type names vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: SRC_NAME
+      Attribute_Definition: Source Name
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Source names vary in length and number of words.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: SRC_AVL
+      Attribute_Definition: Source Availability
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: E
+          Enumerated_Domain_Value_Definition: Emergency availability
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O
+          Enumerated_Domain_Value_Definition: Other type of availability
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: P
+          Enumerated_Domain_Value_Definition: Permanent availability
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: SRC_LOCATI
+      Attribute_Definition: Source Location Description
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Location descriptions vary in length and number of words.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: LOCN_DTRM
+      Attribute_Definition: The method used to locate the source
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M
+          Enumerated_Domain_Value_Definition: Mapped
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C
+          Enumerated_Domain_Value_Definition: Post Processed GPS, unknown number of GPS positions
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: D
+          Enumerated_Domain_Value_Definition: Post Processed GPS from inspection form
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: E
+          Enumerated_Domain_Value_Definition: Post Processed GPS less than 120 GPS positions
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: Post Processed GPS greater than 120 GPS positions
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: G
+          Enumerated_Domain_Value_Definition: GPS, post process pending, unknown number of GPS positions
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: H
+          Enumerated_Domain_Value_Definition: GPS, post process pending, less than 120 GPS positions
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: I
+          Enumerated_Domain_Value_Definition: GPS, post process pending, greater than 120 GPS positions
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O
+          Enumerated_Domain_Value_Definition: Other type of location method, GPS pending
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: S
+          Enumerated_Domain_Value_Definition: Surveyed
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: WELL_I_RAT
+      Attribute_Definition: Well integrity rating
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L
+          Enumerated_Domain_Value_Definition: Low Well Integrity Rating
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M
+          Enumerated_Domain_Value_Definition: Medium Well Integrity Rating
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: H
+          Enumerated_Domain_Value_Definition: High Well Integrity Rating
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: WSWCLASS
+      Attribute_Definition: Water Supply Watershed Classification for Surface Water
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-I
+          Enumerated_Domain_Value_Definition: Waters used as sources of water supply for drinking, culinary, or food processing purposes for those users desiring maximum protection for their water supplies. These waters are also protected for Class C uses. WS-I waters are those within natural and undeveloped watersheds in public ownership with no permitted point source (wastewater) discharges. All WS-I waters are HQW by definition.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-II
+          Enumerated_Domain_Value_Definition: Waters used as sources of potable water where a WS-I classification is not feasible. These waters are also protected for Class C uses. WS-II waters are generally in predominantly undeveloped watersheds and only general permits for discharges are allowed.  All WS-II waters are HQW by definition.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-III
+          Enumerated_Domain_Value_Definition: Waters used as sources of potable water where a more protective WS-I or II classification is not feasible. These waters are also protected for Class C uses. WS-III waters are generally in low to moderately developed watersheds. General discharge permits only are allowed near the water supply intake whereas domestic and nonprocess industrial discharges are allowed in the rest of the water supply watershed.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-IV
+          Enumerated_Domain_Value_Definition: Waters used as sources of potable water where a WS-I, II or III classification is not feasible. These waters are also protected for Class C uses. WS-IV waters are generally in moderately to highly developed watersheds or Protected Areas, and involve no categorical restrictions on discharges.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-V
+          Enumerated_Domain_Value_Definition: Waters protected as water supplies which are generally upstream and draining to Class WS-IV waters or waters used by industry to supply their employees with drinking water or as waters formerly used as water supply. These waters are also protected for Class C uses. WS-V has no categorical restrictions on watershed development or wastewater discharges unlike other WS classifications and local governments are not required to adopt watershed protection ordinances.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Water Quality
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RWQ_RATE
+      Attribute_Definition: Raw Water Quality Rating for Surface Water
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: H
+          Enumerated_Domain_Value_Definition: High Raw Water Quality Rating
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M
+          Enumerated_Domain_Value_Definition: Medium Raw Water Quality Rating
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L
+          Enumerated_Domain_Value_Definition: Low Raw Water Quality Rating
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: INTK_LOC
+      Attribute_Definition: Intake Location for Surface Water
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Class 1
+          Enumerated_Domain_Value_Definition: The surface water intake is located in a small water supply reservior.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Class 2
+          Enumerated_Domain_Value_Definition: The surface water intake is located in a small water supply reservior.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Class 3
+          Enumerated_Domain_Value_Definition: The surface water intake is located in a large multi-purpose water supply reservior.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Direct Stream
+          Enumerated_Domain_Value_Definition: The surface water intake is located in stream.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: YIELD_GPM
+      Attribute_Definition: Well Yield for Ground Water Sources
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Yield values varies in number.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DEG_CONF
+      Attribute_Definition: Degree of Confinement
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HC
+          Enumerated_Domain_Value_Definition: Ground water sources within the coastal plain with a depth value greater than 180 feet.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SC
+          Enumerated_Domain_Value_Definition: Ground water sources within the coastal plain with a depth value between 70 and 180 feet.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: UC
+          Enumerated_Domain_Value_Definition: Ground water sources within the coastal plain with a depth value less than or equal to 70 feet.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DEPTH
+      Attribute_Definition: The depth of the well given in feet
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Depth values vary in number.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RECHRATE
+      Attribute_Definition: The aquifer recharge rate
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Recharge values vary in number.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: AQRATE
+      Attribute_Definition: Aquifer Rating
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: H
+          Enumerated_Domain_Value_Definition: High Aquifer Rating
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M
+          Enumerated_Domain_Value_Definition: Medium Aquifer Rating
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+          Enumerated_Domain_Value_Definition: Low Aquifer Rating
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DELN_TYPE
+      Attribute_Definition: Delineation Type
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Spring
+          Enumerated_Domain_Value_Definition: A custom delineated assessment area was created because the source is a spring
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: GWUDI
+          Enumerated_Domain_Value_Definition: A custom delineated assessment area was created because the source is Ground Water Under Direct Influence of surface water
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: PWS_Type
+      Attribute_Definition: The type of PWS system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Adjacent
+          Enumerated_Domain_Value_Definition: An adjacent water system is a type of community water system that has two or more systems that are adjacent and are owned or operated by the same supplier of water, and together serve 15 or more connections or 25 or more persons. Examples of adjacent water systems are two mobile home parks that together meet the community water system definition.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Campground
+          Enumerated_Domain_Value_Definition: A campground water system is a type of community water system that serves 15 or more connections and is not serving 25 or more of the same persons more than 6 months per year. In addition to campgrounds these water systems include travel trailer parks, and marinas.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Community
+          Enumerated_Domain_Value_Definition: A community water system serves 15 or more service connections or regularly serves at least 25 year-round residents
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Non-TransientNon-Community
+          Enumerated_Domain_Value_Definition: A public water system that is not a community water system and regularly serves 25 of the same persons for at least 6 months a year.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TransientNon-Community
+          Enumerated_Domain_Value_Definition: A non-community water system that does not regularly serve 25 of the same persons over six months per year.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RTL_NBR_CN
+      Attribute_Definition: Number of connections to distribution system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Connection values vary in number.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RTL_POP
+      Attribute_Definition: Population served by the PWS system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Population values vary in number.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: SYSTEM_NAM
+      Attribute_Definition: PWS system name
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: System names vary in length and name.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DESCRIPT_1
+      Attribute_Definition: Road directions to system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Road directions vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DESCRIPT_2
+      Attribute_Definition: Additional road directions to system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Road directions vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: LOC_ADDR1
+      Attribute_Definition: Address of office
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: LOC_CITY
+      Attribute_Definition: Address of office - City
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: City names vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: LOC_STATE
+      Attribute_Definition: Address of office - State
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: State names vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: LOC_ZIP2
+      Attribute_Definition: Address of office - + 4 zip
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Zip codes vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: LOC_ZIP1
+      Attribute_Definition: Address of office - Zip code
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Zip codes vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County of PWS System
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: County names vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: Owner
+      Attribute_Definition: Name of Owner
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Owner names vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: Ownr_ADDR1
+      Attribute_Definition: Address of Owner
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Owner addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: Ownr_ADDR2
+      Attribute_Definition: Secondary owner address
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Owner addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: Ownr_CITY
+      Attribute_Definition: Address of owner - City
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Owner addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: Ownr_ST
+      Attribute_Definition: Address of Owner - State
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Owner addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: Ownr_ZIP1
+      Attribute_Definition: Address of Owner - Zip code
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Owner addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: Ownr_ZIP2
+      Attribute_Definition: Address of Owner - Zip + 4
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Owner addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RESPON_PRS
+      Attribute_Definition: Person designated by owner to receive non billing information e.g violations
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RP_ADDR1
+      Attribute_Definition: Address of responsible person
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RP_ADDR2
+      Attribute_Definition: Secondary address for responsible person
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RP_CITY
+      Attribute_Definition: Address of responsible person - City
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RP_ST
+      Attribute_Definition: Responsible person address - State
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RP_ZIP1
+      Attribute_Definition: Address of responsible person - Zip Code
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RP_ZIP2
+      Attribute_Definition: Responsible person address - Zip Code + 4
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Addresses vary in length and description.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RP_WPHONE
+      Attribute_Definition: Work phone for responsible person
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Phone numbers vary in value.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: PRDTN_CAPT
+      Attribute_Definition: Average production capacity of system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Capacity numbers vary in value.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: PRDTN_CA_1
+      Attribute_Definition: Design production capacity of system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Capacity numbers vary in value.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: PRDTN_CA_2
+      Attribute_Definition: Emergency production capacity of system
+      Attribute_Definition_Source: NC DENR-Division of Environmental Health, Public Water Supply Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Capacity numbers vary in value.
+      Attribute_Measurement_Frequency: As needed
+  Overview_Description:
+    Entity_and_Attribute_Overview: The attributes were supplied by the Public Water Supply Section of the Division of Environmental Health relating to system type, source and system name, size, location, population served, responsible party and owner information, and contact information.
+
+    Entity_and_Attribute_Detail_Citation: None
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/pwsws.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

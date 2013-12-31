@@ -1,0 +1,505 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC DENR Ecosystem Enhancement Program
+      Publication_Date: 20100110
+      Title: Ecosystem Enhancement Program Local Watershed Plans
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: USDA, Natural Resources Conservation Service
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract: The NC DENR Ecosystem Enhancement Program (EEP) Watershed Planning Section produces Watershed Restoration Plans, which identify Targeted Local Watersheds (TLWs) across each of the major river basins, and Local watershed plans that develop comprehensive solutions to local water quality problems within selected local watersheds (14-digit hydrologic units).  Local Watershed Plans are a focused effort of the EEP planning program. These Local Watershed Plans help identify nonpoint source watershed problems and project opportunities to help meet future compensatory mitigation needs within the context of comprehensive local watershed planning. This version (2010) identifies 61 local watersheds in 25 planning areas currently in the process of Local Watershed Plan development or implementation. Additional information can be found at http://h2o.enr.state.nc.us/wrp/plans/localplan.htm
+    Purpose: The purpose of this theme is to provide the set of watersheds that represent existing EEP local watershed planning efforts.
+    Supplemental_Information:
+      The Ecosystem Enhancement Program issues a companion GIS theme representing targeted local watersheds. The 2010 update was the sixth version of Local Watershed Plans.  The first was developed in 2001.
+      The boundaries for watersheds are based on 14-digit hydrologic units (hunc.shp).  Notes on Hunc.shp include the following:
+      Data from the protected and critical watersheds layer for the state were used during the development of the Hunc boundaries. This coverage supersedes data on past versions, particularly the cama24.hu coverage, which was completed as a preliminary to this statewide version.  Some boundaries may have changed between the two versions. There are two additional coverages which were generated from these data, the huncrb-river basins; and huncsb-subbasins files.
+      See the cross references section for details.
+      The following is an excerpt from the "North Carolina Hydrologic Unit River Basin Study," USDA, Natural Resources Conservation Service, November 1995. Under the sponsorship of the Water Resources Council,
+      a nationally uniform hydrologic unit system was developed in 1974 by the US Geological Survey's Office of Water Data
+      Coordination. This system divides the country into 21 regions, 222 subregions, 352 accounting units, and 2,149 cataloging units, based on surface hydrologic features.  A hierarchical code consisting of two digits for each of the above four levels combine to form an eight-digit hydrologic unit. The hydrologic unit system is used to identify any hydrologic area of interest. An eight-digit hydrologic unit generally covers 700 or more square miles.
+      In 1978, the USDA-Natural Resources Conservation Service (NRCS) issued a policy that all resource inventories and surveys were to be coded with and capable of being retrieved by hydrologic unit codes (HUCs).  At about the same time, NRCS initiated a national program to further subdivide HUCs into watershed-sized areas (nominally 250,000 acres, or 390 square miles) for use in water resource planning.  An extension of three digits was added to the eight-digit HUC to designate sub-watersheds, thus forming elevin-digit HUCs.  This 1995 Hydrologic Unit (HU) Study divides the state river
+      basins and subbasins into smaller fourteen-digit hydrologic units that will be useful in targeting project activities, resource
+      inventories, and reporting conservation activities. These fourteen-digit hydrologic units of approximately 4,000 acres
+      (6 sqare miles) to 50,000 acres (78 square miles) are small enough in size to be useful as a planning and reporting tool
+      for the USDA-Natural Resources Conservation Service (NRCS) and other government and state agencies.
+      This 1995 fourteen-digit HU map will replace the 1974 eight-digit HU map [U.S. Water Resource Council (WRC)] and the 1978 NRCS eleven-digit HU map as the locating tool for planning in NRCS.  The 1995 HU map were produced using 7.5 minute USGS quadrangle base maps (1:24,000 scale).
+      14-digit number breakdown: Assigned by US Water Subunit Reporting Unit (established Resource Council (1978 NRCS)   during this study)
+      |---------------------|----------|--------|
+      0  3  0  6  0  1  0  1  0  1  0    0  1  0
+      |----|----|-----|-----|
+      |    |    |     |
+      |    |    |      Cataloging Unit Boundary
+      |    |     Accounting Unit Boundary
+      |     Subregional Boundary
+      Regional Boundary
+      NOTE: The subbasin 6-digit code (SUBBASIN#) was developed independently from the hydrologic unit codes, from an entirely different numbering system.  (Example of code: 03-03-01.)  The first two numbers identify the river basin designations adopted by the Environmental Protection Agency. (Date of source: 1974.)  Subbasin boundaries were added within individual river basin boundaries (by the office that is now known as the Division of Water Quality, Water Quality Planning Section).  Sequential numbers (example -01) were added by DWQ to the first four-digit EPA code to give each subbasin a unique six-digit identifier.  (Each subbasin incorporates three or more hydrologic units.  The subbasin boundaries have been modified to be coincident with the hydrologic unit boundaries.)
+      Contact DWQ for more information on the subbasin# code (733-5083).
+      system filename: hunc     file size = 1.7 mb
+      This theme and huncrb and huncsb need to be updated whenever hunc is updated)
+      Revisions and updates to the hunc layer include:
+      6.) Data updated 09172010.
+      5.) Data updated 01012007.
+      4.) filename: hunc1298  The December 1998 update to this layer consisted of projecting the data from NAD27 datum, State Plane projection, units of measure feet TO: NAD83 DATUM, State Plane PROJECTION, UNITS OF MEASURE METERS.  This was done to comply with the NC Geographic Information Coordinating Council's "Statement of Direction for North Carolina Corporate Geographic Database Horizontal Reference, Datum and Unit of Measure".  This
+      reprojecting was done in various ways depending on the data type and content.  Vector data was projected using the 'project' command in ESRI's Arc software and topology was cleaned and built based on coverage needs.  Raster data werre projected using ESRI's Grid module and various steps as applicable.
+      3.)filename: hunc496   The April 15, 1996 update included restoring the Arc Attribute Table (AAT) to the coverage.  This
+      was lost while processing the file for river basins and subbasins attributes. It also included names and 6-digit identification numbers added for subbasins as well as names and abbreviations added for river basins.  Some minor boundary adjustments were made throughout the coverage to make the Hydrologic Units boundaries coincident with the Water Supply Watershed boundaries.
+      2.) filename: nc24hu1194  This is the first version of the hydrologic units as studied by NCDWQ and NRCS, statewide.
+      1.) filename: cam24.hu1194  This file contains only the coastal area of NC, and has been superceded by the full state coverage.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20040121
+        Ending_Date: 20100110
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Annually
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.160957
+      East_Bounding_Coordinate: -75.896718
+      North_Bounding_Coordinate: 36.583441
+      South_Bounding_Coordinate: 33.807676
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Hydrologic units
+      Theme_Keyword: River basin
+      Theme_Keyword: River subbasin
+      Theme_Keyword: watershed
+      Theme_Keyword: planning
+      Theme_Keyword: local government
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: inlandWaters
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: Acknowledgement of products derived from this data set should cite the following: The source of the North Carolina Local Watershed Plans data is the Ecosystem Enhancement Program.  Earlier versions of this dataset may exist. The user must be sure to use the appropriate data set for the time period of interest.  While efforts have been made to ensure that these data are accurate and reliable within the state of the art, EEP and CGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.  A secondary source of this data is the NC Corporate Geographic Database.  Data derived from this set should cite the following: The source of the EEP Local Watershed Plans is the North Carolina data is the North Carolina Corporate Geographic Database on behalf of the Ecosystem Enhancement Program. Earlier versions of this data set may exist. The user must be sure to use the appropriate data set for the time period of interest. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, CGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC DENR Ecosystem Enhancement Program
+        Contact_Person: Colleen Kiley
+      Contact_Position: GIS Administrator
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1619 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699-1619
+        Country: USA
+      Contact_Voice_Telephone: (919) 733-5208
+      Contact_Electronic_Mail_Address: colleen.kiley@ncdenr.gov
+      Hours_of_Service: 8:00am to 5:00pm
+      Contact_Instructions: Preferred contact is by email or telephone.
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: The USDA-Natural Resources Conservation Service delineated the hydrologic units for North Carolina on 24k USGS topographic maps.  These boundaries were attributed with USDA-NRCS classification information, acres per polygon, and square miles per polygon.  The digital files were plotted and overlayed to the originals and linework and label corrections were made. Once complete and under the direction of DENR-DWQ, the digital file was further defined by subbasins derived from HUs and the river basins derived by subbasins. Appropiate ids were added to the attribute files.  Attribute accuracy is considered high. There are no lookup tables, annotation or cartosets for this data.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the data set of watershed boundaries was built for arc and polygon topology using the "build" command. The data set was then cleaned with a fuzzy tolerance of 1 foot.  Topology has not been edited since the last build or clean.
+    The Ecosystem Enhancement Program selected hydrologic units relating to local watershed plans and added fields to describe the plans.
+  Completeness_Report: These data depict the boundaries and unit numbers from the USDA-NRCS Hydrologic Unit River Basin Study, 1995. The study divides the state river basins into subbasins used to track resource and conservation activities.  The Ecosystem Enhancement Program is a statewide program and completed work on the attributes in early 2004.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Hydrologic Units for North Carolina were delineated on 7.5 Minute USGS paper topographic maps which meet National Map Accuracy Standards, using a best estimate with reference to surrounding features.
+        Boundaries drawn were digitized and checkplots were used to ensure correct boundary location, within a line-width.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: USDA-Natural Resources Conservation Service
+          Publication_Date: 19960415
+          Title: Hydrologic Units - North Carolina
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: USDA-Natural Resources Conservation Service
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 2004
+            Ending_Date: 2004
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Hydrologic units delineations for North Carolina
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Geological Survey
+          Publication_Date: 1938-1990
+          Title: USGS 7.5 Minute series quadrangles
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: US Geological Survey
+          Other_Citation_Details: Published map series
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1938
+            Ending_Date: 1990
+        Source_Currentness_Reference: Publication dates of quadrangles
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Paper maps used to delineate the hydrologic units
+    Process_Step:
+      Process_Description:
+        Hydrologic Units were delineated on USGS 1:24,000 paper topographic maps by following contour lines.  HU codes were written onto the topo maps for later attribute coding.  All topo maps within the Coastal Area Management Act (CAMA) area were given to CGIA for digitization. All other topos across the state were given to Westinghouse-Landmark GIS, Inc. for digitization. The USDA-Natural Resources Conservation Service delineated the hydrologic units for North Carolina on 24k USGS topographic maps.  The digital files were plotted by CGIA and
+        overlayed to the originals and reviewed by staff at NRCS and DENR-DWQ. Needed corrections were made. Once an agreed upon, digital file was created.  DWQ assisted NRCS in modifying certain boundaries which were not at the time coincident with the subbasins that DWQ manages. After that was completed, NRCS met with officials from neighboring states (Virginia, South Carolina, Georgia, and Tennessee) to edgematch the Hydrologic Unit boundaries across the state line. This was done to the 11-digit boundary, not the 14-digit.  Once this file was complete, DWQ assisted CGIA in establishing new subbasin boundaries derived from HU boundaries, and then established new river basin boundaries derived from subbasin boundaries.  This digital file is updated as changes occur.
+      Process_Date: 19941130
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Sherman Biggerstaff
+            Contact_Organization: USDA-Natural Resources Conservation Service
+          Contact_Position: Planning Engineer
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 4405 Bland Road
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 873-2132
+          Contact_Facsimile_Telephone: (919) 790-2904
+          Hours_of_Service: 8:00am to 5:00pm
+          Contact_Instructions: Preferred contact is by mail or phone.
+    Process_Step:
+      Process_Description:
+        Hydrologic units were digitized from hand delineated boundaries on USGS 7.5 Minute series paper base maps.  The digital files were attributed and checkplots were created for review by the Natural Resources Conservation Service and the NC Division of Water Quality. Necessary corrections were made and new plots were run.
+        Post processing involved edgematching and mapjoining of USGS 7.5 Minute series maps used to create the digitized data.  This process generated one statewide polygon coverage.  CGIA updates the digital file as needed.
+      Process_Date: 19960415
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC CGIA
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Road
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description: Delineated hydrologic unit boudaries on 24k topographic maps were given to Westinghouse-Landmark GIS, Inc. by the NRCS. The HU boundaries were hand-digitized and combined into on file.  After some review by NRCS and DWQ, this file was given to NCCGIA where it was joined to the existing 24 counties of coastal HU data.  This file was then checked by NRCS and DWQ staff. Corrections were made.
+      Process_Date: 19941130
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: William Moore
+            Contact_Organization: Westinghouse-Landmark GIS, Inc.
+          Contact_Position: GIS Dept. Supervisor
+          Contact_Address:
+            Address_Type: physical
+            Address: 1903 North Harrison Avenue
+            City: Cary
+            State_or_Province: North Carolina
+            Postal_Code: 27513
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 677-0040
+          Contact_Facsimile_Telephone: (919) 677-0942
+          Hours_of_Service: 8:30AM - 5:30PM
+          Contact_Instructions: Phone preferred
+    Process_Step:
+      Process_Description: The Ecosystem Enhancement Program identified local watershed planning areas and related those to hydrologic units. Contact NC Ecosystem Enhancement Program for processing details.
+      Process_Date: 2004
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Colleen Kiley
+            Contact_Organization: NC DENR, Ecosystem Enhancement Program
+          Contact_Position: Colleen Kiley
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1619 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1619
+            Country: USA
+          Contact_Voice_Telephone: (919) 733-5208
+          Contact_Electronic_Mail_Address: colleen.kiley@ncdenr.gov
+          Hours_of_Service: 9:00 to 5:00
+          Contact_Instructions: Email or phone preferred
+    Process_Step:
+      Process_Description:
+        Dataset updated for 2007.  Seven new 14-digit HUCs were added.
+        Time_of_Day  09533000
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Mike Herrmann
+            Contact_Organization: EEP
+          Contact_Position: Watershed Planner
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1619 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1619
+            Country: USA
+          Contact_Voice_Telephone: 919-715-5458
+          Contact_Electronic_Mail_Address: michael.herrmann@ncmail.net
+      Process_Date: 20070502
+    Process_Step:
+      Process_Description: Three new HUs were added to the dataset (one LWP) to represent the Indian and Howards Creek LWP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Mike Herrmann
+            Contact_Organization: EEP
+          Contact_Position: Watershed Planner
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1619 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1619
+            Country: USA
+          Contact_Voice_Telephone: 715-5458
+          Contact_Electronic_Mail_Address: Michael.herrmann@ncmail.net
+      Process_Date: 20080110
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: _Method: 14-digit HU id number
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 48
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1602
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Node, planar graph
+      Point_and_Vector_Object_Count: 5511
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Area point
+      Point_and_Vector_Object_Count: 1601
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: LWP
+      Entity_Type_Definition: Local Watershed Plan represented by boundaries and unit numbers for the river basins and subbasins in North Carolina
+      Entity_Type_Definition_Source: NC DENR, Ecosystem Enhancement Program
+    Attribute:
+      Attribute_Label: HUCODE8
+      Attribute_Definition: Original 8-digit HU code
+      Attribute_Definition_Source: USDA-Natural Resources Conservation Service
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Hydrologic Units
+          Codeset_Source: USDA-Natural Resources Conservation Service
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: RIVBASIN_N
+      Attribute_Definition: river basin name
+      Attribute_Definition_Source: DENR-Div. of Water Quality
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique value for each basin
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: complete_d
+      Attribute_Definition: Completed date
+      Attribute_Definition_Source: Ecosystem Enhancement Program
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Dates vary by polygon.
+    Attribute:
+      Attribute_Label: LWP
+      Attribute_Definition: Indicates whether the HUC is part of a planning area
+      Attribute_Definition_Source: EEP
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yes
+          Enumerated_Domain_Value_Definition: The HUC is part of an LWP
+          Enumerated_Domain_Value_Definition_Source: EEP
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: The HUC is not part of a planning area
+          Enumerated_Domain_Value_Definition_Source: EEP
+      Attribute_Measurement_Frequency: Unknown
+    Attribute:
+      Attribute_Label: TLW
+      Attribute_Definition: Indicates whether the HUC is a Targeted Local Watershed
+      Attribute_Definition_Source: EEP
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Yes
+          Enumerated_Domain_Value_Definition: The HUC is a targeted local watershed
+          Enumerated_Domain_Value_Definition_Source: EEP
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: No
+          Enumerated_Domain_Value_Definition: The HUC is not a targeted Local Watershed
+          Enumerated_Domain_Value_Definition_Source: EEP
+      Attribute_Measurement_Frequency: Unknown
+    Attribute:
+      Attribute_Label: LWP_NAME
+      Attribute_Definition: Name of the local watershed plan
+      Attribute_Definition_Source: EEP
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names are unique to each watershed plan.
+      Attribute_Measurement_Frequency: Unknown
+    Attribute:
+      Attribute_Label: Shape_area
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape_len
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+  Overview_Description:
+    Entity_and_Attribute_Overview: A polygon feature class with areas depicting local watershed plans based on the boundaries and unit numbers of the state's river basins and subbasins. The polygons have attribute data including total area in coverage units, total perimeter, polygon internal identification number, polygon user identification number, several NRCS codes indicating HU divisions, acres per polygon, square miles per polygon, the name and identity number of the subbasin, and the name and abbreviated name of the river basin.
+    Entity_and_Attribute_Detail_Citation: See Cross_Reference item.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/lclwshdplns.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

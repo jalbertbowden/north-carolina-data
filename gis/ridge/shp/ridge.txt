@@ -1,0 +1,366 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC Division of Community Assistance and North Carolina Geodetic Survey
+      Publication_Date: 200607
+      Title: North Carolina Ridge Law Final 2006 - Ridge Lines
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: http://www.ncgs.state.nc.us
+  Description:
+    Abstract: The North Carolina Department of Commerce, Division of Community Assistance and the NC Geodetic Survey developed North Carolina Protected Mountain Ridges data to enhance enforcement of the Mountain Ridge Protection Act of 1983 and 1985 amendment.  This file enables users to identify areas within North Carolina where there are protected ridges and associated building height limitations.  No updates are planned unless further Act amendments by the General Assembly of North Carolina.
+    Purpose: Identification of protected ridges as required by the Mountain Ridge Protection Act of 1983, G.S. 113A Article 14.
+    Supplemental_Information:
+      YELLOW Category: identifies a ridge for protection because it has an elevation of 3,000 or more feet AND it rises 500 feet or more above the valley floor.
+      ORANGE Category: indicates that a ridge identified for protection with an elevation of 3,000 feet or higher also forms the COMMON BOUNDARY between two counties.
+      GREEN Category: identifies a ridge or part or a ridge rising 500 feet or more above the valley floor, but having an elevation of LESS than the 3,000 or more feet defining primary eligibility for protection in the Act.
+      BLUE Category: indicates that a ridge identified for protection rising 500 feet or more above the valley floor, but having LESS than 3,000 feet foot elevation, also forms the COMMON BOUNDARY between two counties.
+      The degree and kind of protection to which ridges identified for protection are subject is dependant on which options available under the Act are chosen by the local government units having jurisdiction. For that reason, if ridges rising 500 feet or more above the valley floor, but with less than 3,000 foot elevation, have been identified on this map, their actual protection under the act is entirely dependent on whether or not the local government with jurisdiction has elected to remove the act's 3,000 foot elevation requirement. Local government authorities should be consulted to determine applicable ridge protection when interpreting this map.
+      See: http://www.ncga.state.nc.us/EnactedLegislation/Statutes/RTF/ByArticle/Chapter_113A/Article_14.rtf  for the full text of the act.
+      Ridge means the elongated crest or series of crests at the apex or uppermost point of intersection between two opposite slopes or sides of a mountain, and includes all land within 100 feet below the elevation of any portion of such line or surface along the crest. Ridge protection extends by 100 vertical feet on both sides of a ridge.  Within this area, tall buildings are prohibited from measuring over 40 feet from the top of the foundation to the top of the building or protruding over 35 feet above the crest of the ridge.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 200607
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.396792
+      East_Bounding_Coordinate: -80.487881
+      North_Bounding_Coordinate: 36.602397
+      South_Bounding_Coordinate: 34.955112
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: Environment
+      Theme_Keyword: Elevation
+      Theme_Keyword: Boundaries
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Ridge
+      Theme_Keyword: Protected
+      Theme_Keyword: Mountain Ridge
+      Theme_Keyword: Mountain
+      Theme_Keyword: construction
+      Theme_Keyword: law
+      Theme_Keyword: ridge lines
+      Theme_Keyword: ridge line
+      Theme_Keyword: ridges
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: The ridge identification lines are only for the purpose of identifying protected ridges.  They are not meant to show the extent of the 100 foot elevation protection zone.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Geodetic Survey
+        Contact_Person: Gary Thompson
+      Contact_Position: Director
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 20323 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-0323
+        Country: USA
+      Contact_Voice_Telephone: 919-733-3836
+      Contact_Facsimile_Telephone: 919-733-4407
+      Contact_Electronic_Mail_Address: gary.thompson@ncdps.gov
+  Data_Set_Credit: Glen Locascio, NC Division of Community Assistance, and Katie Schwing, NC Geodetic Survey
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: The NC Department of Natural Resources and Community Development drew the original lines for protected ridges on 7.5 Minute USGS paper topographic maps.  NC Division of Community Assistance and the NC Geodetic Survey digitized these protected ridge lines 'on screen' using DRG 7.5 Minute USGS topographic maps as the base. The NC Geodetic Survey edited these lines for Ridge Law category mapping purposes.
+  Logical_Consistency_Report: None
+  Completeness_Report:
+    These data represent the locations of protected ridges as mapped on 7.5 Minute USGS paper topographic maps in 1984 and 1985.  These are the official protected ridges as delineated under the Mountain Ridge Protection Act.
+    The ridge identification lines are only for the purpose of identifying protected ridges.  They are not meant to show the extent of the 100 foot elevation protection zone.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Protected ridge lines were marked on 7.5 Minute USGS paper topographic maps.  'On screen' digitizing utilized the same 7.5 Minute USGS  topographic map base, using a best estimate with reference to surrounding features.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Geological Survey
+          Publication_Date: 200508
+          Title: USGS 7.5 Minute series quadrangles
+          Geospatial_Data_Presentation_Form: map
+          Other_Citation_Details: Published map series
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1941
+            Ending_Date: 1982
+        Source_Currentness_Reference: Publication dates of quadrangles
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Protected ridge lines
+    Process_Step:
+      Process_Description: The NC Department of Natural Resources and Community Development drew the original lines for protected ridges on 7.5 Minute USGS paper topographic maps.
+      Process_Date: 1984-1985
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC Department of Natural Resources and Community Development
+          Contact_Address:
+            Address_Type: mailing address
+            Address: Historic
+            City: Historic
+            State_or_Province: NC
+            Postal_Code: Historic
+            Country: US
+          Contact_Voice_Telephone: Historic
+    Process_Step:
+      Process_Description: NC Division of Community Assistance digitized these protected ridge lines 'on screen' using DRG 7.5 Minute USGS topographic maps as the base for Buncombe, Burke, Jackson, Macon, Madison, and Yancey counties.
+      Process_Date: 200508
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC Division of Community Assistance
+            Contact_Person: Glen Locascio
+          Contact_Position: Computing Consultant
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: 31 College Pl.  B102
+            City: Asheville
+            State_or_Province: NC
+            Postal_Code: 28804
+            Country: USA
+          Contact_Voice_Telephone: 828-251-6914
+          Contact_Facsimile_Telephone: 828-251-6918
+          Contact_Electronic_Mail_Address: glocascio@nccommerce.com
+    Process_Step:
+      Process_Description: NC Geodetic digitized these protected ridge lines 'on screen' using DRG 7.5 Minute USGS topographic maps as the base for the remaining affected counties and assigned attribute data for previously digitized lines.
+      Process_Date: 200605
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC Geodetic Survey
+            Contact_Person: Katie Schwing
+          Contact_Position: State Government Intern
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 20323 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699
+          Contact_Voice_Telephone: 919-733-3836
+          Contact_Facsimile_Telephone: 919-733-4407
+    Process_Step:
+      Process_Description: County shapefiles merged into current NC Ridge law shapefile.
+      Process_Date: 200606
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC Geodetic Survey
+            Contact_Person: Katie Schwing
+          Contact_Position: State Government Intern
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 20323 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699
+          Contact_Voice_Telephone: 919-733-3836
+          Contact_Facsimile_Telephone: 919-733-4407
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 4668
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Conformal Conic
+        Lambert_Conformal_Conic:
+          Standard_Parallel: 36.166667
+          Standard_Parallel: 34.333333
+          Longitude_of_Central_Meridian: -79.000000
+          Latitude_of_Projection_Origin: 33.750000
+          False_Easting: 609601.220000
+          False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.0000100
+          Ordinate_Resolution: 0.0000100
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: D_NAD83
+      Ellipsoid_Name: Geodetic_Reference_System_of_1980
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: ridgelaw_final
+      Entity_Type_Definition: Protected ridge lines as identified on 7.5 Minute USGS paper topographic maps
+      Entity_Type_Definition_Source: NC Department of Natural Resources and Community Development
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature identification number (0-4667).
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 4668
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ADMAPKEY
+      Attribute_Definition: Number assigned to each line in the dataset
+      Attribute_Definition_Source: NC Geodetic Survey or NC Department of Commerce
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: numbers vary
+    Attribute:
+      Attribute_Label: ALTQUAD
+      Attribute_Definition: Alternative Quad Name of 7.5 Minute USGS paper topographic maps.
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Names of USGS Quad Maps
+          Codeset_Source: USGS 7.5" Topographic Map Series
+    Attribute:
+      Attribute_Label: ALT_CATEGO
+      Attribute_Definition: Alternative category if any assigned to ridge lines as defined by the Mountain Ridge Protection Act of 1983, G.S. 113A Article 14
+      Attribute_Definition_Source: Mountain Ridge Protection Act of 1983, G.S. 113A Article 14.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: yellow
+          Enumerated_Domain_Value_Definition: represents a ridge identified for protection because the ridge has an elevation of 3,000 or more feet AND it rises 500 feet or more above the valley floor.
+          Enumerated_Domain_Value_Definition_Source: NC Geodetic Survey
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: orange
+          Enumerated_Domain_Value_Definition: represents a ridge identified for protection that has an elevation of 3,000 feet or higher, that also forms the COMMON BOUNDARY between two counties.
+          Enumerated_Domain_Value_Definition_Source: NC Geodetic Survey
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: green
+          Enumerated_Domain_Value_Definition: represents a ridge or part of a ridge rising 500 feet or more above the valley floor, but having an elevation of LESS than the 3,000 feet defining primary eligibility for protection in the Act.
+          Enumerated_Domain_Value_Definition_Source: NC Geodetic Survey
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: blue
+          Enumerated_Domain_Value_Definition: represents a ridge identified for protection rising 500 feet or more above the valley floor, that has an elevation of LESS than 3,000 feet elevation, that also forms the COMMON BOUNDARY between two counties.
+          Enumerated_Domain_Value_Definition_Source: NC Geodetic Survey
+    Attribute:
+      Attribute_Label: CATEGORY
+      Attribute_Definition: Categories assigned to ridge lines as defined by the Mountain Ridge Protection Act of 1983, G.S. 113A Article 14
+      Attribute_Definition_Source: Mountain Ridge Protection Act of 1983, G.S. 113A Article 14.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: yellow
+          Enumerated_Domain_Value_Definition: represents a ridge identified for protection because the ridge has an elevation of 3,000 or more feet AND it rises 500 feet or more above the valley floor.
+          Enumerated_Domain_Value_Definition_Source: NC Geodetic Survey
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: orange
+          Enumerated_Domain_Value_Definition: represents a ridge identified for protection that has an elevation of 3,000 feet or higher, that also forms the COMMON BOUNDARY between two counties.
+          Enumerated_Domain_Value_Definition_Source: NC Geodetic Survey
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: green
+          Enumerated_Domain_Value_Definition: represents a ridge or part of a ridge rising 500 feet or more above the valley floor, but having an elevation of LESS than the 3,000 feet defining primary eligibility for protection in the Act.
+          Enumerated_Domain_Value_Definition_Source: NC Geodetic Survey
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: blue
+          Enumerated_Domain_Value_Definition: represents a ridge identified for protection rising 500 feet or more above the valley floor, that has an elevation of LESS than 3,000 feet elevation, that also forms the COMMON BOUNDARY between two counties.
+          Enumerated_Domain_Value_Definition_Source: NC Geodetic Survey
+    Attribute:
+      Attribute_Label: LANDMARK
+      Attribute_Definition: Identification of ridge lines using place names found on topographic maps
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: over 4,000 landmarks from USGS 7.5" Topographic Maps
+    Attribute:
+      Attribute_Label: QUAD
+      Attribute_Definition: Name of 7.5 Minute USGS paper topographic maps.
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Names of USGS Quad Maps
+          Codeset_Source: USGS 7.5" Topographic Map Series
+    Attribute:
+      Attribute_Label: QUAD_NMBR
+      Attribute_Definition: Number of 7.5 Minute USGS paper topographic maps.
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Numbers of USGS Quad Maps
+          Codeset_Source: USGS 7.5" Topographic Map Series
+  Overview_Description:
+    Entity_and_Attribute_Overview: A line shapefile depicting protected ridges as identified in the Mountain Ridge Protection Act.  The Name attribute corresponds to the ridge or landform on 7.5 Minute USGS paper topographic maps.
+    Entity_and_Attribute_Detail_Citation: Refer to source agency for protected ridge documents
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Geodetic Survey
+        Contact_Person: Gary Thompson
+      Contact_Position: Director
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 20323 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-0323
+        Country: USA
+      Contact_Voice_Telephone: 919-733-3836
+      Contact_Facsimile_Telephone: 919-733-4407
+      Contact_Electronic_Mail_Address: gary.thompson@ncdps.gov
+  Resource_Description: Downloadable Data
+  Distribution_Liability: The ridge identification line are only for the purpose of identifying protected ridges.  They are not meant to show the extent of the 100 foot elevation protection zone. NCCGIA is charged with the development and maintenance of NC OneMap and, in cooperation with other mapping organizations, is committed to offering its users accurate, useful, and current information. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop this dataset may be reflected in the data supplied. The user must be aware of possible conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. The use of trade names or commercial products does not constitute their endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/ridge.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process:
+    Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov
+    or 919-754-6580 for more information.
+  Technical_Prerequisites:
+    All formats available from www.nconemap.com are in ESRI shapefile.
+    Other formats are available on a cost-recovery basis - contact
+    dataq@its.nc.gov or 919-754-6580 for more information. Format
+    compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 200607
+  Metadata_Review_Date: 20120905
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Gary Thompson
+        Contact_Organization: NC Geodetic Survey
+      Contact_Position: Director
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 20323 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-0323
+        Country: USA
+      Contact_Voice_Telephone: 919-733-3836
+      Contact_Facsimile_Telephone: 919-733-4407
+      Contact_Electronic_Mail_Address: gary.thompson@ncdps.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time

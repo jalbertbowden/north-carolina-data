@@ -1,0 +1,642 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC DENR, Div. of Parks and Recreation
+      Publication_Date: 20010409
+      Title: Paddle Trails - Coastal Plain
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NC DENR, Div. of Parks and Recreation
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      North Carolina Sea Grant and the North Carolina
+      Department of Environment and Natural Resources, Division
+      of Parks and Recreation, in cooperation with the NC Center
+      for Geographic Information and Analysis, developed the
+      digital geographic information system (GIS) Paddle Trails, Coastal Plain
+      data to as part of an ongoing effort to inventory and publicize
+      watertrails through DPR's trails programs.  This data contains
+      the trail locations and access points for the inventoried trails
+      in the coastal plain of North Carolina. Other trails in the
+      coastal plain and in other portions of the state are to be
+      inventoried as resources allow.
+    Purpose:
+      This data was created as part of the North Carolina Coastal Plain
+      Paddle Trails Initiative, a private grant funded program with
+      NC Sea Grant.  This initiative consisted off multiple parts that
+      ranged from a paddler's inventory to economic impact assessments.
+      This effort has developed an understanding of how paddling and paddling
+      related actions impact and interact with the environment, local
+      establishment and infrastructure and can help guide efforts in
+      the development of ecotourism.
+    Supplemental_Information:
+      >system filename : sgpt    file size = 2.7 mb
+      >
+      >Revisions and updates to this layer include:
+      >1) filename: ptcp401    The April 9, 2001 version was the original
+      >version of this data.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20010409
+        Ending_Date: 20010409
+    Currentness_Reference: Data creation and revision dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As funding allows
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -79.451227
+      East_Bounding_Coordinate: -75.828990
+      North_Bounding_Coordinate: 36.578351
+      South_Bounding_Coordinate: 33.818230
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: ecotourism
+      Theme_Keyword: paddle trails
+      Theme_Keyword: trails
+      Theme_Keyword: water trails
+      Theme_Keyword: vacation
+      Theme_Keyword: canoeing
+      Theme_Keyword: kayaking
+      Theme_Keyword: coastal recreation
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: inlandWaters
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+      Place_Keyword: coastal plain
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of products derived from this data set
+    should cite the following: The source of the Paddle Trails,
+    Coastal Plain, data is the North Carolina Corporate Geographic
+    Database. Earlier versions of this dataset may exist. The
+    user must be sure to use the appropriate data set for the
+    time period of interest.  While efforts have been made to
+    ensure that these data are accurate and reliable within the
+    state of the art, CGIA cannot assume liability for any damages
+    or misrepresentation caused by any inaccuracies in the data or
+    as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Sea Grant
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: NC State University, Box 8605
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27695-8605
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 515-2454
+      Contact_Facsimile_Telephone: (919) 515-7095
+      Contact_Electronic_Mail_Address: www.ncsu.edu/seagrant
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Preferred contact is by mail or telephone.
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      The attribute values in this data were input from existing
+      hardcopy source maps or from compiled descriptions created
+      by the NC DPR trials coordinator.  The content was reveiwed
+      using multiple hardcopy printouts and maps, and cross-checked
+      with the descriptive content on the paddle trails website.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the dataset was built for
+    arc topology using the "build" command. The data
+    set was then cleaned with the default fuzzy tolerance of 32.434 feet,
+    a value within the 40 ft NMAS for 1:24,000-scale data. Topology
+    has not been edited since the last build or clean.
+  Completeness_Report:
+    These mapped trails were the trails recognized by the DPR trails
+    program as meeting some basic requirments as of the creation date
+    of this data.  For information on these requirements, contact
+    NC DPR (919) 778-9499
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The trail locations were digitized on screen using buffers
+        and offsets from existing hydrography shoreline files.  These
+        1:100,000 and 1:24,000-scale hydro features are also used as
+        the background hydro features on the printed maps and graphics.
+        This method of data creation enable the best presentation by
+        ensure direct overlay of trails on their respective hydrographic
+        bodies.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC DPR
+          Publication_Date: Unknown
+          Title: Various local trail maps
+          Geospatial_Data_Presentation_Form: Map
+          Other_Citation_Details:
+            Individual trail maps and multiple
+            trail maps of various scales were supplied by DPR
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2001
+        Source_Currentness_Reference: Compilation date of map sources
+      Source_Citation_Abbreviation: None
+      Source_Contribution:
+        Hard copy map sources include USGS quadrangles, local trail
+        organization maps, park maps, and hand annotated multisource maps.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Geological Survey
+          Publication_Date: 1990
+          Title: USGS 7.5 Minute series quadrangles
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: US Geological Survey
+          Other_Citation_Details: Published map series
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: GIS data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1938
+            Ending_Date: 1990
+        Source_Currentness_Reference: Publication dates of quadrangles
+      Source_Citation_Abbreviation: None
+      Source_Contribution: 1:24,000-scale digital linework
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC Center for Geographic Information and Analysis
+          Publication_Date: 19970721
+          Title: Hydrography 100000
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC Center for Geographic Information and Analysis
+          Other_Citation_Details: Data is updated as needed
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: GIS data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2001
+        Source_Currentness_Reference: Latest revision date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: 1:100,000-scale digital linework
+    Process_Step:
+      Process_Description:
+        Using on-screen digitizing, the location of paddle trails
+        identified on existing maps were transferred into a GIS
+        digital file.  Node features were created and coded to
+        represent the location of trail access points. Lines were
+        created by buffering or off-setting new line locations from
+        existing shoreline features in the hydrography source data.
+        Feature locations were determined by using the GIS to overlay
+        various thematic layers and by underlying aerial imagery.
+      Process_Date: 20010409
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NCCGIA
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: River basin name
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 668
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Node, planar graph
+      Point_and_Vector_Object_Count: 683
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000512
+          Ordinate_Resolution: 0.000512
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Paddle Trails - Coastal Plain
+      Entity_Type_Definition: Routes on water bodies identified for use by paddled watercraft
+      Entity_Type_Definition_Source: CGIA
+    Attribute:
+      Attribute_Label: MINOR2
+      Attribute_Definition: Digital line graph code for hydro feature
+      Attribute_Definition_Source: USGS, NMD
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Digital Line Graph Codes
+          Codeset_Source: USGS, NMD
+    Attribute:
+      Attribute_Label: CON_AGENCY
+      Attribute_Definition: Name of the agency with oversight of the trail
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary in length and number of words
+    Attribute:
+      Attribute_Label: CON_ADDRESS
+      Attribute_Definition: Address of the agency with oversight of the trail
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary in length and number of words
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: LENGTH
+      Attribute_Definition: Length of arc in coverage units
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 33,636.770
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: .001
+    Attribute:
+      Attribute_Label: MINOR1
+      Attribute_Definition: Digital line graph code for hydro feature
+      Attribute_Definition_Source: USGS, NMD
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Digital Line Graph Codes
+          Codeset_Source: USGS, NMD
+    Attribute:
+      Attribute_Label: STREAM_NAME
+      Attribute_Definition: Name of stream
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: values differ
+    Attribute:
+      Attribute_Label: RIV_BASIN
+      Attribute_Definition: Name of river basin
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: values differ
+    Attribute:
+      Attribute_Label: CON_PHONE_
+      Attribute_Definition: Contact phone number
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: values differ
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Paddle Trails, Coastal Plain Access Points
+      Entity_Type_Definition:
+        Boat ramps and other access areas for
+        lauching watercraft.
+      Entity_Type_Definition_Source: DPR
+    Attribute:
+      Attribute_Label: ARC#
+      Attribute_Definition: Number of the arc feature where the node is located
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 670
+    Attribute:
+      Attribute_Label: PTCP#
+      Attribute_Definition: Node internal identification number
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 683
+    Attribute:
+      Attribute_Label: PTCP-ID
+      Attribute_Definition: User defined internal identification number
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 51624
+    Attribute:
+      Attribute_Label: CODE#
+      Attribute_Definition: CGIA internal processing code
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Used only during intial processing
+    Attribute:
+      Attribute_Label: TRAIL1-ACCESS#
+      Attribute_Definition:
+        Sequencial trail access site number for the
+        first coincident trail, starts with 1 and increase by one each time
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary by trail
+    Attribute:
+      Attribute_Label: ACCESS/ROAD-NAME
+      Attribute_Definition: Name of the road or route of the access point
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary in length and number of words
+    Attribute:
+      Attribute_Label: TRAIL1-NAME
+      Attribute_Definition: Name of first coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary in length and number of words
+    Attribute:
+      Attribute_Label: TRAIL1#
+      Attribute_Definition:
+        Trail number assigned as part of DPR unique
+        trail ID system based on a combination of region letter, county
+        name abbreviations where trail exists, sequential number of first
+        coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values and length vary by trail
+    Attribute:
+      Attribute_Label: TRAIL2-NAME
+      Attribute_Definition: Name of second coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary in length and number of words
+    Attribute:
+      Attribute_Label: TRAIL2#
+      Attribute_Definition:
+        Trail number assigned as part of DPR unique
+        trail ID system based on a combination of region letter, county
+        name abbreviations where trail exists, sequential number of second
+        coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values and length vary by trail
+    Attribute:
+      Attribute_Label: TRAIL2-ACCESS#
+      Attribute_Definition:
+        Sequencial trail access site number for the
+        second coincident trail, starts with 1 and increase by one each time
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary by trail
+    Attribute:
+      Attribute_Label: TRAIL3-NAME
+      Attribute_Definition: Name of third coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary in length and number of words
+    Attribute:
+      Attribute_Label: TRAIL3#
+      Attribute_Definition:
+        Trail number assigned as part of DPR unique
+        trail ID system based on a combination of region letter, county
+        name abbreviations where trail exists, sequential number of third
+        coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values and length vary by trail
+    Attribute:
+      Attribute_Label: TRAIL3-ACCESS#
+      Attribute_Definition:
+        Sequencial trail access site number for the
+        third coincident trail, starts with 1 and increase by one each time
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary by trail
+    Attribute:
+      Attribute_Label: TRAIL4-NAME
+      Attribute_Definition: Name of forth coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary in length and number of words
+    Attribute:
+      Attribute_Label: TRAIL4#
+      Attribute_Definition:
+        Trail number assigned as part of DPR unique
+        trail ID system based on a combination of region letter, county
+        name abbreviations where trail exists, sequential number of forth
+        coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values and length vary by trail
+    Attribute:
+      Attribute_Label: TRAIL4-ACCESS#
+      Attribute_Definition:
+        Sequencial trail access site number for the
+        forth coincident trail, starts with 1 and increase by one each time
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary by trail
+    Attribute:
+      Attribute_Label: TRAIL5-NAME
+      Attribute_Definition: Name of fifth coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary in length and number of words
+    Attribute:
+      Attribute_Label: TRAIL5#
+      Attribute_Definition:
+        Trail number assigned as part of DPR unique
+        trail ID system based on a combination of region letter, county
+        name abbreviations where trail exists, sequential number of fifth
+        coincident trail for feature
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values and length vary by trail
+    Attribute:
+      Attribute_Label: TRAIL5-ACCESS#
+      Attribute_Definition:
+        Sequencial trail access site number for the
+        fifth coincident trail, starts with 1 and increase by one each time
+      Attribute_Definition_Source: DPR
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary by trail
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      An line feature table and node feature table are defined as follows:
+
+      >PTCP.AAT  ARC Attribute Table
+      >COLUMN  ITEM NAME   WIDTH OUTPUT TYPE  DEC  DESCRIPTION
+      >1     FNODE#            4    5   B     -  From-node ID of arc
+      >5     TNODE#            4    5   B     -  To-node ID of arc
+      >9     LPOLY#            4    5   B     -  Left-poly ID
+      >13    RPOLY#            4    5   B     -  Right-poly ID
+      >17    LENGTH            4   12   F     3  Length of arc in meters
+      >21    PTCP#             4    5   B     -  System feature ID
+      >25    PTCP-ID           4    5   B     -  User defined feature ID
+      >29    MINOR1            6    6   I     -  USGS DLG line code
+      >35    MINOR2            6    6   I     -  USGS DLG line code
+      >41    STREAM-NAME      60   60   C     -  Waterbody feature name
+      >101   RIV-BASIN        20   20   C     -  River basin name
+      >121   CGIA-FMS          4    5   B     -  Feature maintenance status
+      >125   TRAIL1-NAME     100  100   C     -  Trail name 1
+      >225   TRAIL1#         100  100   C     -  DPR trail number of trail 1
+      >325   TRAIL2-NAME     100  100   C     -  Trail name 2 (if coincident)
+      >425   TRAIL2#         100  100   C     -  DPR trail number of trail 2
+      >525   TRAIL3-NAME     100  100   C     -  Trail name 3 (if coincident)
+      >625   TRAIL3#         100  100   C     -  DPR trail number of trail 3
+      >725   TRAIL4-NAME     100  100   C     -  Trail name 4 (if coincident)
+      >825   TRAIL4#         100  100   C     -  DPR trail number of trail 4
+      >925   TRAIL5-NAME     100  100   C     -  Trail name 5 (if coincident)
+      >1025  TRAIL5#         100  100   C     -  DPR trail number of trail 5
+      >1125  CON_AGENCY      100  100   C     -  Trail's contact agency name
+      >1225  CON_ADDRESS     100  100   C     -  Trail's contact address
+      >1325  CON_PHONE#       20   20   C     -  Trail's contact phone number
+
+      >PTCP.NAT  NODE Attribute Table
+      >COLUMN  ITEM NAME     WIDTH OUTPUT TYPE DEC  DESCRIPTION
+      >1     ARC#                4    5    B   -  Arc feature number
+      >5     PTCP#               4    5    B   -  System node ID
+      >9     PTCP-ID             4    5    B   -  User defined node ID
+      >13    CODE#               4    5    B   -  CGIA processing code
+      >17    TRAIL1-ACCESS#      4    5    B   -  Trail Access number, trail 1
+      >21    ACCESS/ROAD-NAME  100  100    C   -  Trail Access location name
+      >121   TRAIL1-NAME       100  100    C   -  Trail name 1
+      >221   TRAIL1#           100  100    C   -  DPR Trail number of trail 1
+      >321   TRAIL2-NAME       100  100    C   -  Trail name 2 (coincident)
+      >421   TRAIL2#           100  100    C   -  DPR Trail number of trail 2
+      >521   TRAIL2-ACCESS#      4    5    B   -  Trail Access number, trail 2
+      >525   TRAIL3-NAME       100  100    C   -  Trail name 3 (coincident)
+      >625   TRAIL3#           100  100    C   -  DPR Trail number of trail 3
+      >725   TRAIL3-ACCESS#      4    5    B   -  Trail Access number, trail 3
+      >729   TRAIL4-NAME       100  100    C   -  Trail name 4 (coincident)
+      >829   TRAIL4#           100  100    C   -  DPR Trail number of trail 4
+      >929   TRAIL4-ACCESS#      4    5    B   -  Trail Access number, trail 4
+      >933   TRAIL5-NAME       100  100    C   -  Trail name 5 (coincident)
+      >1033  TRAIL5#           100  100    C   -  DPR Trail number of trail 5
+      >1133  TRAIL5-ACCESS#      4    5    B   -  Trail Access number, trail 5
+    Entity_and_Attribute_Detail_Citation: None
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/ptcp.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

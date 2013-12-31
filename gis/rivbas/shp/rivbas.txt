@@ -1,0 +1,340 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Department of Agriculture, North Carolina Natural Resources Conservation Service State Office
+      Publication_Date: 20130618
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: Natural Resources Conservation Service
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Title: North Carolina River Basins
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract: This river basin data set was developed from the subwatershed (12-digit) 6th level hydrologic watershed boundary dataset (WBD) for the State of North Carolina.
+    Purpose: This data set is intended to be used as a tool for water-resource management and planning activities.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20130618
+    Currentness_Reference: Publication date of sources
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Unknown
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -85.178073
+      East_Bounding_Coordinate: -75.309710
+      North_Bounding_Coordinate: 37.365506
+      South_Bounding_Coordinate: 33.136798
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: HUC
+      Theme_Keyword: Hydrologic Units
+      Theme_Keyword: Hydrologic Unit Code
+      Theme_Keyword: Region
+      Theme_Keyword: Sub-region
+      Theme_Keyword: Basin
+      Theme_Keyword: Sub-basin
+      Theme_Keyword: Watershed
+      Theme_Keyword: Watershed Boundaries
+      Theme_Keyword: boundaries
+      Theme_Keyword: Subwatershed
+      Theme_Keyword: WBD
+      Theme_Keyword: Watershed Boundary Dataset
+      Theme_Keyword: Riverbasins
+      Theme_Keyword: River basins
+      Theme_Keyword: Riverbasin
+      Theme_Keyword: River basin
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: None.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC CGIA
+      Contact_Address:
+        Address_Type: Physical
+        Address: 3700 Wake Forest Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Data_Set_Credit:
+    Funding for the North Carolina Watershed Boundary Dataset (WBD) was provided by the U.S. Department of
+    Agriculture-Natural Resources Conservation Service, North Carolina Department of Environment and Natural
+    Resources (NCDENR)-Division of Coastal Management, and the US Geological Survey. Representatives from the
+    NCDENR-Division of Coastal Management, NCDENR-Division of Land Resources-Geological Survey,
+    NCDENR-Division of Water Quality, NCDENR-Division of Water Resources, NCDENR-Division of Water
+    Resources-Groundwater Section, ITS-Center for Geographic Information and Analysis, US Geological Survey
+    (USGS), National Oceanic and Atmospheric Administration (NOAA), and US Fish and Wildlife Service contributed a
+    substantial amount of time and salary towards oversight and quality review of the dataset.
+    Special recognition goes to Randy Ferguson (NOAA), Ted Mew (NCDENR), Kathleen Farrell (NCDENR), Alan
+    Clark (NCDENR), and Silvia Terziotti (USGS) who contributed greatly of their time and expertise to guide
+    this project and develop the science necessary to produce this Watershed Boundary Dataset. Additionally,
+    a special thanks to Karen Hanson (USGS) and Sarah Walton (USGS) for all their hard work revising the WBD
+    and adding the final touches.
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500
+Data_Quality_Information:
+  Logical_Consistency_Report:
+    There are no unclosed polygons, intersections without nodes, or polygons without labels or
+    with more than one label. Arc/Info's topological correction program CLEAN was used to
+    correct intersections without nodes, identify unclosed polygons and remove duplicate lines
+    with the same beginning and ending nodes. All sliver polygons were removed either using
+    eliminate, merge or manually in ArcEdit.
+  Completeness_Report:
+    All fields for all polygons in the .pat are attributed. Some polygons in the Ncontrb_a field might
+    have a 0 value. All fields for the lines in the .aat are attributed. The lines adjacent to the
+    universal polygon are attributed with a 0 for the hu_level. These cannot be attributed until the
+    adjacent states complete their linework at which point the highest level of hydrologic unit can be
+    determined.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The WBD was revised in 2008 by the USGS using Enhanced USGS Digital Raster
+        Graphics (DRG-Es) county mosaic MrSID images as a base map for the land data. This revision process
+        brought all of the North Carolina WBD over-land boundary lines to be within a 12 meter buffer (+/- 40 feet)
+        of where visual interpretation put the actual boundary for the DRG-E map base. Previous WBD work by the NRCS
+        used either Enhanced Digital Raster Graphics (DRG-Es) images as source map for land data (work in 2002-2005)
+        or data manually digitized from paper USGS 7.5' quadrangle maps (early work in 1993-1994). The WBD for North
+        Carolina was started in 1993 using paper USGS quad maps and digitized into the NC Coordinate system, feet,
+        NAD27. Edits since then have used this Coordinate base, until 2008 when the USGS used the reprojected WBD
+        map in the North Carolina coordinate system, meters, and NAD83 for their revisions.
+        Maps in other coordinate systems were produced using the ArcInfo 9 project utility from this revised 2008
+        WBD base map. The WBD used NOAA Nautical Charts for over-water data, when the DRG-Es were not adequate.
+        Data completeness for DRG files reflect content of the source graphic and may therefore be reflected in
+        the completeness and accuracy of the WBD. The WBD map was digitized from USGS 1:24,000-scale digital raster
+        graphic base maps, with accuracy being stated for this scale. Accuracy and adequacy of the WBD at any other
+        scale shall be determined by the user. It should be noted that while general rules of hydrology were used
+        (i.e. water flows downhill), the location of boundaries is still somewhat subjective as the 1:24,000-scale
+        DRG-E do not always provide enough information for identifying the location of the boundaries. In these
+        instances group consensus was used. In the extremely flat areas (such as the Great Dismal Swamp) located in
+        the coastal plains of North Carolina, boundaries were adjusted for drainage effects and other surface flow
+        impediments such as highways which act like dikes. Please refer to the methods section for more details on
+        watershed delineation rules. Unquantifiable errors may be associated with coordinate shift (fuzzy tolerance
+        was set to 0.0001 meters, double precision), dangle (set to 15 meters). The default was used for all other
+        ArcEdit tolerances.  As with the original DRGs, DRG-E is cast in the Universal Transverse Mercator
+        projection and is referenced to the NAD27 datum. When the DRG-Es are used in the NAD83 datum the alternate
+        world files only approximate the NAD83 by shifting the coordinates of the imagery. The total error introduced
+        using this shift is less than 2 meters for all DRG-E imagery.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Agriculture-Natural Resources Conservation Service
+          Publication_Date: 2008
+          Title: North Carolina Watershed Boundary Dataset
+          Geospatial_Data_Presentation_Form: document, map
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: CD-ROM or OnLine
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 2001
+            Ending_Date: 2008
+        Source_Currentness_Reference: map delineation
+      Source_Citation_Abbreviation: NRCS DRG
+      Source_Contribution: map delineation
+    Process_Step:
+      Process_Description: Dissolve boundary lines on attribute BASIN.
+      Process_Date: 20130613
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC Center for Geographic Information and Analysis
+            Contact_Person: David Giordano
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 Six Forks Rd.
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27609
+            Country: USA
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: david.giordano@nc.gov
+          Hours_of_Service: 8:30AM - 5:30PM
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 14
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 1
+          Ordinate_Resolution: 1
+        Planar_Distance_Units: meters
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: rivbas
+      Entity_Type_Definition: identifies river basin boundaries
+      Entity_Type_Definition_Source: n/a
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: Esri
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: BASIN
+      Attribute_Definition: Name of HUC6 region (river basin name). Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Basin names differ by feature.
+    Attribute:
+      Attribute_Label: SHAPE_area
+      Attribute_Definition: Area of feature in internal units squared.
+      Attribute_Definition_Source: Esri
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: SHAPE_len
+      Attribute_Definition: Length of feature.
+      Attribute_Definition_Source: Esri
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values differ by feature.
+  Overview_Description:
+    Entity_and_Attribute_Overview: River basin boundaries with BASIN name.
+    Entity_and_Attribute_Detail_Citation: None.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC CGIA
+      Contact_Address:
+        Address_Type: Physical
+        Address: 3700 Wake Forest Road
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Resource_Description: Downloadable Data
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/rivbas.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process:
+    Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov
+    or 919-754-6580 for more information.
+  Technical_Prerequisites:
+    All formats available from www.nconemap.com are in ESRI shapefile.
+    Other formats are available on a cost-recovery basis - contact
+    dataq@its.nc.gov or 919-754-6580 for more information. Format
+    compatibility is the user's responsibility.
+  Available_Time_Period:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20130722
+        Ending_Date: Present
+Metadata_Reference_Information:
+  Metadata_Date: 20130722
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC CGIA
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Road
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints:
+    This metadata file is to accompany the dataset. NCCGIA does not
+    support secondary distribution of this dataset without its current,
+    compliant metadata record. If the dataset described in this metadata
+    record was received from anyone besides NCCGIA, this metadata and
+    the dataset it describes may contain discrepancies.

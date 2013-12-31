@@ -1,0 +1,481 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: US Geological Survey-National Mapping Division
+      Publication_Date: 1987
+      Title: Railroads
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Reston, Virginia
+        Publisher: US Geological Survey-National Mapping Division
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      The US Geological Survey-National Mapping Division created
+      the 1:100,000-scale Railroads data from their published maps. The 1:24,000
+      scale railroads were derived from USGS's DLG (Digital Line Graph) Program
+      The NC Center for Geographic Information and Analysis, combined these
+      two data sources to develop the NC statewide Transportation-Railroads
+      digital data as a base layer showing railroad features. 24 k data was
+      use when duplicate tracks existed from both sources.
+    Purpose:
+      This data was created to assist governmental
+      agencies and others in making resource management
+      decisions through use of a Geographic Information System (GIS).
+    Supplemental_Information:
+      Refer to "USGS Digital Cartographic Data Standards,"
+      circular 895-G for USGS Coding Classification. Also, see
+      www.usgs.gov for further information on the DLG Program.
+
+      >system filename : rr24_100  approx. file size = 2.4 mb
+      >
+      >Revisions and updates to this layer include:
+      >3) filename: rr24_1001298 - the December, 1998 release of this
+      >data was the first release as a statewide combined file. This
+      >file is a combination of the 24 k dlg data previously stored
+      >by quad tile, and the 100k statewide rail file from the 100k
+      >dlg data.
+      >2) filename: rrt10098  This is the 100k rail only (superceded
+      >by the combined file) in the 83/sp/m projection. This was
+      >performed in 1998. This is a statewide file.
+      >3) filename: rrt10087  The 1987 version was the first release
+      >of the 100k rail data. This is a statewide file.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 19981201
+    Currentness_Reference: First CGIA release date.
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.293944
+      East_Bounding_Coordinate: -76.089377
+      North_Bounding_Coordinate: 36.615359
+      South_Bounding_Coordinate: 33.836698
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: DLG
+      Theme_Keyword: railroads
+      Theme_Keyword: transportation
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: transportation
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of products derived from this
+    data set should cite the following: The source of the
+    Transportation- Railroads (1:24,000/1:100,000)
+    data is the North Carolina Corporate Geographic
+    Database. Earlier versions of this dataset may exist. The user
+    must be sure to use the appropriate data set for the time period
+    of interest.  While efforts have been made to ensure that these
+    data are accurate and reliable within the state of the art,
+    CGIA cannot assume liability for any damages or
+    misrepresentation caused by any inaccuracies in the data or
+    as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      The digital line graphs (DLGs)for
+      transportation - railroads were delineated on USGS 1:100,000-scale
+      topographic maps and 1:24,000 scale topographic maps and attributed
+      with USGS DLG codes.  The digital files were supplied to NC CGIA who
+      edits the attributes as changes occur.  The two datasets were merged
+      to fill in gaps that occured in both datasets allowing for a more
+      complete statewide railroad coverage.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the data set was built for arc topology
+    using the "build" command. Topology has not been edited since the last
+    build.
+  Completeness_Report:
+    These data represent transportation features for railroads, as determined
+    by the US Geological Survey 1:100,000-scale Digital Line Graph program and
+    1:24,000-scale Digital Line Graph program. Each feature is attributed with
+    various DLG codes. Data represent all known railroads at time of publication
+    of sources.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Features were delineated on USGS 30 x 60 Minute and 7.5 minute series
+        topographic maps, which meet National Map Accuracy Standards. The
+        DLGs were digitized and supplied to NC CGIA who converted them into
+        ARC/INFO format. The data was projected, and features are added as
+        changes occur.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            U.S. Geological Survey or another mapping agency in
+            cooperation with USGS.
+          Publication_Date: Unknown
+          Title:
+            The Topographic Map Names Data Base designation for
+            the source quadrangle.
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+          Other_Citation_Details: Data is updated irregularly.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: stable-base material
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1938
+            Ending_Date: 1990
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: MAP1
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Geological Survey
+          Publication_Date: Unknown
+          Title: Digital Line Graphs
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: US Geological Survey
+          Other_Citation_Details: USGS 1:100,000-scale DLG Program
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1984
+            Ending_Date: 1986
+        Source_Currentness_Reference: Publication dates of quadrangles
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Digital Line Graphs
+    Process_Step:
+      Process_Description:
+        For Digital Revision Status = Not digitally revised:
+        This Digital Line Graph was digitized from the USGS source
+        quadrangle, by either the National Mapping Division, one of
+        their cooperators, or one of their contractors.  The digital data
+        were produced by one of the following methods:
+        - scanning a stable-based copy of the graphic materials.
+        The scanning process captured the digital data at a
+        scanning resolution of at least 0.001 inches;  the
+        resulting raster data were vectorized and then attributed
+        on an interactive editing station.
+        o scanning the paper map.  The scanning process captured
+        the digital data at a scanning resolution of at least
+        0.001 inches;  the resulting raster data were vectorized
+        and then attributed on an interactive editing station.
+        - scanning a stable-based copy of the graphic materials.
+        The resulting raster data were then manually digitized
+        and attributed on an interactive editing station.  The
+        resolution of the digital data is at least 0.001 inches.
+        o scanning the paper map.  The resulting raster data were
+        then manually digitized and attributed on an interactive
+        editing station.  The resolution of the digital data is
+        at least 0.001 inches.
+        - manually digitizing from a stable-based copy of the
+        graphic material using a digitizing table to capture the
+        digital data at a resolution of at least 0.001 inches;
+        attribution was performed either as the data were
+        digitized, or on an interactive edit station after the
+        digitizing was completed.
+        - manually digitizing from the paper map using a digitizing
+        table to capture the digital data at a resolution of at
+        least 0.001 inches;  attribution was performed either as
+        the data were digitized, or on an interactive edit
+        station after the digitizing was completed.
+        The determination of the DLG production method was based on
+        various criteria, including feature density, feature
+        symbology, and availability of production systems.  Four
+        control points corresponding to the four corners of the
+        quadrangle were used for registration during data
+        collection.  An eight parameter projective transformation
+        was performed on the coordinates used in the data collection
+        and editing systems to register the digital data to the
+        internal coordinates used in PROSYS, and a four parameter linear
+        transformation was performed from the PROSYS internal coordinates
+        to Universal Transverse Mercator (UTM) grid coordinates.  The DLG
+        data were checked for position by one or more of the following
+        processes:
+        - comparing plots of the digital data to the graphic source.
+        - comparing the digital data to the digital raster scan.
+        DLG data classification was checked by at least one of the
+        following processes.
+        - comparing plots of the digital data to the graphic source
+        - comparing the digital data to the digital raster scan.
+      Source_Used_Citation_Abbreviation: MAP1
+      Process_Date: Unknown
+    Process_Step:
+      Process_Description:
+        NCCGIA received the dlg linework for the railroads from the USGS
+        in a digital format.  These files were refined at NCCGIA, including
+        edgematching, deletion of neatlines. Errors in dlg label codes or
+        inconsistencies in label order are corrected as they are found.
+        Additional linework is added as needed. The 24,000 and 100,000 scale
+        data was combined into one statewide file for ease of use.
+      Process_Date: 19981201
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NCCGIA
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: _Method: None
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 10837
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Node, planar graph
+      Point_and_Vector_Object_Count: 2185
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Railroads
+      Entity_Type_Definition:
+        Railroad features as designated on USGS 24,000 and 100,000 scale
+        digital line graphs.
+      Entity_Type_Definition_Source: US Geological Survey, National Mapping Div.
+    Attribute:
+      Attribute_Label: LENGTH
+      Attribute_Definition: Length of arc in coverage units
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 23.828
+          Range_Domain_Maximum: 60371.680
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: 0.001
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: MINOR1
+      Attribute_Definition: Minor DLG numeric code
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: USGS DLG Codes
+          Codeset_Source: USGS Digital Cartographic Data Standards, circular 895-G
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: MAJOR1
+      Attribute_Definition: Major DLG numeric code
+      Attribute_Definition_Source: USGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: USGS DLG Codes
+          Codeset_Source: USGS Digital Cartographic Data Standards, circular 895-G
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: SCALE
+      Attribute_Definition: Scale of feature source
+      Attribute_Definition_Source: The scale denominator of the feature source
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 100000
+          Enumerated_Domain_Value_Definition: Source is 1:100,000-scale dlgs
+          Enumerated_Domain_Value_Definition_Source: NC CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 24,000
+          Enumerated_Domain_Value_Definition: Source is 1:24,000-scale dlgs
+          Enumerated_Domain_Value_Definition_Source: NC CGIA
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      An arc coverage depicting the
+      locations of railroads mapped in both 1:24,000 and 1:100,000 scales
+      delineated by the US Geological Survey.  The arc attribute table (AAT) has
+      data including to- and from-node identifiers, left- and right-
+      side polygon identifiers, length of linear feature in meters, and two
+      internal identification numbers.  There are three additional items, which
+      describe the features, according to USGS Digital Line Graph codes, as well
+      as a base map scale attribute.
+
+      >COLUMN  ITEM NAME     WDTH OPUT TYP N.DEC  ALTERNATE NAME
+      >1       FNODE#          4    5  B    -     From node id
+      >5       TNODE#          4    5  B    -     To node id
+      >9       LPOLY#          4    5  B    -     Left poly id
+      >13      RPOLY#          4    5  B    -     Right poly id
+      >17      LENGTH          4   12  F    3     Length in meters
+      >21      RR24_100#       4    5  B    -     Internal id
+      >25      RR24_100-ID     4    5  B    -     Internal id
+      >29      MAJOR1          6    6  I    -     USGS DLG code
+      >35      MINOR1          6    6  I    -     USGS DLG code
+      >41      SCALE           6    6  I    -     Base map scale
+    Entity_and_Attribute_Detail_Citation:
+      Refer to USGS Digital Cartographic Data Standards, circular 895-G for
+      descriptions of the DLG major/minor codes.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/rr.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

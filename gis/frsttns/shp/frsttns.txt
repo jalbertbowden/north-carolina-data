@@ -1,0 +1,945 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: TechniGraphics, Inc.
+      Publication_Date: 20080919
+      Title: Fire Stations
+      Edition: 4th Quarter 2008
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      Fire Stations in North Carolina
+
+      Any location where fire fighters are stationed or based out of, or where equipment that such personnel use in carrying out their jobs is stored for ready use. Fire Departments not having a permanent location are included, in which case their location has been depicted at the city/town hall or at the center of their service area if a city/town hall does not exist. This dataset includes those locations primarily engaged in forest or grasslands fire fighting, including fire lookout towers if the towers are in current use for fire protection purposes. This dataset includes both private and governmental entities. Fire fighting training academies are also included.
+
+      This dataset is comprised completely of license free data.
+
+      The Fire Station dataset and the EMS dataset were merged into one working file.  TGS processed as one file and then separated for delivery purposes.
+
+      Records with "-DOD" appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries.
+
+      Text fields in this dataset have been set to all upper case to facilitate consistent database engine search results.
+
+      All diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics.
+
+      The currentness of this dataset is indicated by the [CONTDATE] field. Based upon this field, the oldest record dates from 01/19/2005 and the newest record dates from 07/21/2008.
+    Purpose:
+      Homeland Security
+
+      Use Cases: Use cases describe how the data may be used and help to define and clarify requirements.
+
+      1. An assessment of whether or not the total fire fighting capability in a given area is adequate.
+
+      2. A list of resources to draw upon by surrounding areas when local resources have temporarily been overwhelmed by a disaster - route analysis can determine those entities that are able to respond the quickest.
+
+      3. A resource for Emergency Management planning purposes.
+
+      4. A resource for catastrophe response to aid in the retrieval of equipment by outside responders in order to deal with the disaster.
+
+      5. A resource for situational awareness planning and response for Federal Government events.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20050119
+        Ending_Date: 20080721
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Unknown
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.297253
+      East_Bounding_Coordinate: -75.466267
+      North_Bounding_Coordinate: 36.549450
+      South_Bounding_Coordinate: 33.858430
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: LCSH - Library of Congress subject headings (Washington, DC: LC, Cataloging Distribution Service) http://authorities.loc.gov/
+      Theme_Keyword: Airplane ambulances
+      Theme_Keyword: Ambulances
+      Theme_Keyword: Ambulance service.
+      Theme_Keyword: Emergency medical services.
+      Theme_Keyword: Emergency medical personnel.
+      Theme_Keyword: Fire departments.
+      Theme_Keyword: Fire stations.
+      Theme_Keyword: Helicopter ambulances
+      Theme_Keyword: Search and rescue operations.
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: structure
+    Place:
+      Place_Keyword_Thesaurus: LCSH - Library of Congress subject headings (Washington, DC: LC, Cataloging Distribution Service) http://authorities.loc.gov/
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: None
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Mike Thompson
+        Contact_Organization: TechniGraphics, Inc.
+      Contact_Position: Director of Geospatial Datasets
+      Contact_Address:
+        Address_Type: Physical
+        Address: 3351 Eastbrook Drive
+        City: Fort Collins
+        State_or_Province: CO
+        Postal_Code: 80525
+        Country: USA
+      Contact_Voice_Telephone: 970-224-4996
+      Contact_Facsimile_Telephone: 970-224-3001
+      Contact_Electronic_Mail_Address: mthompson@tgstech.com
+      Hours_of_Service: Monday - Friday, 0800 - 1700 MST
+  Security_Information:
+    Security_Classification_System: DOD
+    Security_Classification: Unclassified
+    Security_Handling_Description: Unclassified
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      For entities that were contacted, the name, address, city, state, and five (5) digit zip codes were verified to be correct as of the date indicated by the [CONTDATE] field. The existence of the entity was also verified, as well as whether or not it met the criteria for inclusion in this dataset. Four (4) digit zip code extensions were derived from USPS (United States Postal Service) data and were not verified.
+
+      ID Check: The [ID] field is not blank and each of its values is unique.
+
+      Coordinate Check: Coordinates are not null or zero and the x and y fields match the shape.
+
+      Basic Address Check: Physical addresses were verified to be non blank and to not be a "PO Box", "General Delivery", "Highway Contract", or "Rural Route" address.
+
+      Highway Address without Type Check: Physical addresses containing the word "Highway" or "Route" were verified to also contain a type designator such as "State", "US", or "County", if one actually exists for the highway or route. These type designators are often missing from addresses, leading to confusion if more than one "Highway" of the given number exists in an area.
+
+      Basic Name Check: Entity name is not blank, is not the same as entity city, and has a minimum of 2 characters. Name does not contain punctuation characters that can interfere with database operations, such as " (quote) and * (asterisk).
+
+      City Check: Entity's [CITY] field is not blank, and entity is located within 25 miles of its tabular city as found in the NAVTEQ Named Places reference file.
+
+      State Check: The entity is located within its tabular state.
+
+      County FIPS to State Compare Check: The county represented by the tabular FIPS Code is actually in the state specified in the [STATE] field.
+
+      County Name to State Compare Check: The county represented by the tabular county name is actually in the state specified in the [STATE] field.
+
+      Basic Phone Check: All phone numbers (including the area code) are ten (10) numeric digits. Alphabetic characters have been converted to the corresponding numeric digit.
+
+      NPA_NXX Check: Area codes (sometimes called "Number Planning Areas", or NPA's) and central office codes (sometimes known as exchanges, or NXX's) were validated against data from the North American Number Planning Administration (NANPA). In some cases, NPA-NXX combinations did not show up in the NANPA data but were verified to work.
+
+      Area Code Distance Check: The entity's area code (NPA) is valid, and the entity is not more than 25 miles from its area code boundary, as defined by data from the North American Number Planning Administration (NANPA), unless TGS has previously verified that the phone number rings to a headquarters location or otherwise does not ring to the entity's location.
+
+      Zip Code Check: The zip code is five (5) or nine (9) numeric digits, is listed in the postal database, is in the same state as indicated by the entity's [STATE] value, and is not a PO Box only zip code.
+
+      Zip City Check: The entity's zip code and its city were verified to match according to the USPS Address Information System (AIS).
+
+      Zip Code Distance Check: The entity is located within 25 miles of its zip code boundary, as defined by the U.S. Census Bureau's 1999 Zip Code file.
+
+      NAICS Code Check: The NAICS field is not blank, the NAICS Code is one of the accepted codes for this layer, the NAICS Description is an acceptable Index Entry for the NAICS Code, and certain key words in the entity name do not conflict with the NAICS Code.
+
+      Collocation Check: Entities with different addresses must not share the exact same geospatial location.
+
+      Geographic Spell Check: Words that appear in the entity name were checked against a standard English word list (and Spanish word list for entities in Puerto Rico).  Words not appearing in these standard word lists were then checked against names appearing in the Geographic Names Information System (GNIS) of geographic features that are located within 25 miles of the entity.  Proper names were manually reviewed for correct spelling.
+  Logical_Consistency_Report: See "Attribute_Accuracy_Report". Many of the checks described in that section check for both attribute accuracy and logical consistency.
+  Completeness_Report: Administrative Locations: Locations that serve only an administrative function (e.g., a business office) are intended to be excluded from this dataset. Locations that serve both an administrative function as well as an operational function are included in the dataset.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The geographic location of entities was verified to be correct relative to the street data and version indicated by the [ST_VENDOR] and [ST_VERSION] fields. The horizontal accuracy is indicated by the [GEOPREC] field. A value of "BLOCKFACE" indicates the entity was geocoded on the correct street segment (block) and correct side of the street. A value of "ONENTITY" indicates that the location is on the entity's facility, as determined by USGS DOQQ imagery, and that it is on the correct street segment (block) and correct side of the street. Entities that are part of a larger institution (e.g., University Campus or Military Base) with "BLOCKFACE" precision may be located at the main entrance to the larger institution.
+
+        Records with "-DOD" appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries.
+
+        Fire Departments not having a permanent location are depicted at the city/town hall or at the center of the town or service area if a city/town hall does not exist.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: TechniGraphics, Inc.
+          Publication_Date: 20080513
+          Title: Fire Stations 2008 Q2
+          Edition: 2nd Quarter 2008
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: Digital Database File
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20050103
+            Ending_Date: 20080501
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: FireStations_2008_Q2
+      Source_Contribution: The basic attribution (name, address, city, state, zip code, and telephone number) came from this dataset, unless the entity was updated by TGS during Q408 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: North Carolina State Center for Health Statistics (NCSCHS)
+          Publication_Date: 20040301
+          Title: NCEMS
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: Electronic Mail System
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20040301
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NC_FireStations_1
+      Source_Contribution: This was used as a source for fire stations in North Carolina.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: North Carolina Office of State Fire Marshal (NCOSFM)
+          Publication_Date: 20080305
+          Title: Directory of Fire Departments and Rescue Squads
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: http://www.ncdoi.com/osfm/publications/directory%20of%20fire%20departments%20and%20rescue%20squads/department%20directory.pdf
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080305
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NC_FireStations_2
+      Source_Contribution: This was used as a source for fire stations in North Carolina.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: United States Fire Administration (USFA)
+          Publication_Date: 20061201
+          Title: USFA National Fire Department Census Database
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20061201
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NFDC_1
+      Source_Contribution: This was used as a source for fire stations in the United States.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: United States Fire Administration (USFA)
+          Publication_Date: 20071128
+          Title: USFA National Fire Department Census Database
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20071128
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NFDC_2
+      Source_Contribution: This was used as a source for fire stations in the United States.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NAVTEQ
+          Publication_Date: 2007
+          Title: NAVSTREETS
+          Edition: 2007.2
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2007
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NAVTEQ_Streets_2007_Q2
+      Source_Contribution: This version of NAVTEQ streets was used as a reference for automatic shifting of entities that were previously manually geocoded and for the automatic geocoding and manual geolocating of entities.
+    Process_Step:
+      Process_Description:
+        1) The Fire Station dataset and the EMS dataset were merged into one working file. TGS processed as one file and then separated for delivery purposes.
+        >
+        2) Entities were processed to determine or verify their name, physical address, city, state, five (5) digit zip code, phone number, and geospatial location. Entities that were contacted were also asked if they provided fire protection services, EMS services, or both. Entities not located on military bases were contacted and asked to describe their location relative to landmarks in reference data (mainly streets) and features visible in ortho imagery. A phone number was not available for some entities, so their information was verified using other verbal contacts made through a telephone call.
+        >
+        3) Due to a request made by the Department of Defense, TGS made every effort to not contact military bases starting 03/27/2007 and ending 05/28/2008. During this time, entities located on military bases were verified through alternate resources, such as maps and ortho imagery. These records have not been contacted by TGS, and therefore, do not have directions.
+        >
+        4) All text fields were set to all upper case.
+        >
+        5) Leading and trailing spaces were trimmed from all text fields.
+        >
+        6) Non printable and diacritic characters were removed from all text fields.
+        >
+      Source_Used_Citation_Abbreviation: FireStations_2008_Q2
+      Source_Used_Citation_Abbreviation: NC_FireStations_1
+      Source_Used_Citation_Abbreviation: NC_FireStations_2
+      Source_Used_Citation_Abbreviation: NFDC_1
+      Source_Used_Citation_Abbreviation: NFDC_2
+      Source_Used_Citation_Abbreviation: NAVTEQ_Streets_2007_Q2
+      Process_Date: 20080919
+      Source_Produced_Citation_Abbreviation: NC_FireStations_2008_Q4
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Nicole Hackworth
+            Contact_Organization: TechniGraphics, Inc.
+          Contact_Position: Project Manager
+          Contact_Address:
+            Address_Type: Mailing and Physical Address
+            Address: 2000 Noble Drive
+            City: Wooster
+            State_or_Province: Ohio
+            Postal_Code: 44691
+            Country: USA
+          Contact_Voice_Telephone: 330-263-6222
+          Contact_Electronic_Mail_Address: nhackworth@tgstech.com
+          Hours_of_Service: Monday - Friday, 0730 - 1630 EST
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 1,947
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Planar_Distance_Units: meters
+        Coordinate_Representation:
+          Abscissa_Resolution: 1.000000
+          Ordinate_Resolution: 1.000000
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Fire Stations in North Carolina
+      Entity_Type_Definition: Any location where fire fighters are stationed or based out of, or where equipment that such personnel use in carrying out their jobs is stored for ready use. Fire Departments not having a permanent location are included, in which case their location has been depicted at the city/town hall or at the center of their service area if a city/town hall does not exist. This dataset includes those locations primarily engaged in forest or grasslands fire fighting, including fire lookout towers if the towers are in current use for fire protection purposes. This dataset includes both private and governmental entities. Fire fighting training academies are also included.
+      Entity_Type_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ID
+      Attribute_Definition: Unique identifier for feature.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: SECCLASS
+      Attribute_Definition: Security classification of feature.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: UNCLASSIFIED
+          Enumerated_Domain_Value_Definition: Entity is unclassified.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: NAME
+      Attribute_Definition: Name of entity.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: TELEPHONE
+      Attribute_Definition: Ten (10) digit telephone number for entity formatted as nnn-nnn-nnnn.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Phone numbers formatted as nnn-nnn-nnnn. Only numeric digits are used. The area code and exchange must form a valid combination. A list of valid area code and exchange combinations can be obtained from <http://www.nanpa.com>.
+    Attribute:
+      Attribute_Label: ADDRESS
+      Attribute_Definition: Physical street address for entity. "PO Box", "General Delivery", "Rural Route", and "Highway Contract" addresses are not considered physical addresses and should not appear in this field. Some areas do not have regular city style addressing, so entities in those areas may not have a street number. In such cases, the name of the road on which they are located is listed in this field. Some rural areas may not have named roads. In these rare cases, this field will be blank.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: ADDRESS2
+      Attribute_Definition: Location within physical address, e.g., floor, suite, building.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: CITY
+      Attribute_Definition:
+        The name of the city associated with the entity's physical address. For physical addresses that the U.S. Postal Service (USPS) delivers to, this should be a "city" acceptable to the USPS as defined in their Address Information System (AIS). Sometimes the USPS does not deliver mail to a physical address but recognizes the location (i.e., they list the location as "undeliverable"). The cities associated with these locations are acceptable. In some cases, the USPS does not recognize individual physical addresses in a city, rather, they list the city as having "General Delivery". In these cases, the city and associated zip code are acceptable (the entity's [ADDRESS] field will contain a street address, not "general delivery"). The entity may not actually be located within the city limits of the "city" specified in its [CITY] field. Instead, it may actually be located within the city limits of another city. In some cases, the "city" that appears in this field may not even be a city in an administrative sense, but it is still an acceptable "city" to the USPS. An example of this is "Notre Dame, IN". There is no city in Indiana called "Notre Dame", but this is considered an acceptable city by the USPS for any delivery going to the University of Notre Dame which is actually located in the city of South Bend. "Notre Dame", like most USPS cities, is an easily recognized place, and it gives the user of the data a good general idea of where the entity is located (if the entity is located in a small municipality, the USPS "city" may be more recognizable than the name of the municipality), and it would be part of the address one would use to send a shipment to the entity's location. Using the USPS acceptable "city" also allows someone to do a logical consistency check between the zip code and the city by using the USPS AIS.
+
+        Sometimes an entity may report a city that is not accepted by the USPS, and although TGS has tried to replace those cities with an acceptable alternative, some of them may remain in this dataset.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: Two (2) character abbreviation for state associated with the entity's physical address. In almost all cases, this is the same as the state where the entity has been depicted geospatially. However, there are cases, particularly where an entity is part of a larger facility that cuts across state lines, where the entity's location may be depicted in a state other than the one indicated in this field. Also, the state in which an entity appears to be located may change depending on the scale of the state boundary theme being used.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Official USPS Abbreviations - State Abbreviations
+          Codeset_Source: United States Postal Service http://www.usps.com/ncsc/lookups/usps_abbreviations.html
+    Attribute:
+      Attribute_Label: ZIP
+      Attribute_Definition: Five (5) digit USPS zip code for entity's physical location.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: USPS Address Information System - Domain is further restricted by only allowing physical (non PO Box) zip codes.
+          Codeset_Source: United States Postal Service
+    Attribute:
+      Attribute_Label: ZIPP4
+      Attribute_Definition: Four (4) digit USPS zip code extension.  These values are automatically assigned using the entity's physical address and USPS address information system (AIS) data.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: USPS Address Information System (AIS) - ZIP9
+          Codeset_Source: United States Postal Service
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County name where entity is located.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Geographic Names Information System (GNIS)
+          Codeset_Source: US Department of the Interior - US Geologic Survey
+    Attribute:
+      Attribute_Label: FIPS
+      Attribute_Definition: Five (5) digit FIPS (Federal Information Processing Standards) Code for the County where entity is located. The first two (2) digits represent the state and the last three (3) digits identify the county within the state.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Information Processing Standards Publications - Counties and Equivalent Entities of the U.S., Its Possessions, and Associated Areas
+          Codeset_Source: National Institute of Standards and Technology (NIST) http://www.itl.nist.gov/fipspubs/co-codes/states.txt
+    Attribute:
+      Attribute_Label: DIRECTIONS
+      Attribute_Definition: Directions to entity location, or description of the entity's location.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: EMERGTITLE
+      Attribute_Definition: Title of person or name of office for emergency point of contact.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: EMERGTEL
+      Attribute_Definition: Ten (10) digit telephone number of emergency point of contact formatted as nnn-nnn-nnnn. All alphabetic characters have been translated to the corresponding numeric digit.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Phone numbers, including area code, formatted as nnn-nnn-nnnn. A list of valid area code and exchange combinations can be found at http://www.nanpa.com
+    Attribute:
+      Attribute_Label: EMERGEXT
+      Attribute_Definition: Telephone extension for emergency point of contact.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: CONTDATE
+      Attribute_Definition: Date entity was contacted by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Date
+    Attribute:
+      Attribute_Label: CONTHOW
+      Attribute_Definition: Method by which entity was contacted.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PHONE
+          Enumerated_Domain_Value_Definition: Entity was contacted by phone.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FAX
+          Enumerated_Domain_Value_Definition: Entity was contacted by fax.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MAIL
+          Enumerated_Domain_Value_Definition: Entity was contacted by mail.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: EMAIL
+          Enumerated_Domain_Value_Definition: Entity was contacted by email.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WEB
+          Enumerated_Domain_Value_Definition: Entity information was gathered and/or verified by official entity website as a last resort.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ALT REF
+          Enumerated_Domain_Value_Definition: Geospatial reference information obtained from local authorities, e.g., downloadable parcel maps, 911 streets, and shape files.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Entity has not been contacted by TGS.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: GEODATE
+      Attribute_Definition: Date entity was geocoded by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Date
+    Attribute:
+      Attribute_Label: GEOHOW
+      Attribute_Definition: Method by which entity was geocoded.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AUTO
+          Enumerated_Domain_Value_Definition: Entity was automatically geocoded.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MANUAL
+          Enumerated_Domain_Value_Definition: Entity was manually geocoded.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ADJUSTED
+          Enumerated_Domain_Value_Definition: Entity was shifted by TGS to an updated set of NAVTEQ streets. This only applies if the entity was manually geocoded by TGS to a previous version of NAVTEQ streets.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PROVIDED
+          Enumerated_Domain_Value_Definition: Entity was geocoded using coordinates provided by the original source.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: NAICSCODE
+      Attribute_Definition: NAICS (North American Industry Classification System) Code for entity. NAICS Codes (and NAICS Descriptions) have been assigned based upon the entity's primary function, regardless of if that is the function that qualified it to be included in this dataset.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: North American Industry Classification System (NAICS 2007)
+          Codeset_Source: US Census Bureau - http://www.census.gov/epcd/www/naics.html
+    Attribute:
+      Attribute_Label: NAICSDESCR
+      Attribute_Definition:
+        NAICS (North American Industry Classification System) Description for entity. The "Index Entries" that appear on the NAICS webpage (http://www.census.gov/epcd/www/naics.html) are being used to populate this field, as opposed to the "NAICS Title". While there is a one to one correspondence between NAICS Codes and "NAICS Titles", there is a one to many relationship between NAICS Codes and the "Index Entries". By using the "Index Entries", we have placed the entities that make up this layer into more specific categories; however, the user of this data should be aware that this was not the intended purpose of these "Index Entries". The "Index Entries" were intended as a way to search the NAICS database and as a way of enumerating ways in which establishments falling under the given NAICS Code may be named. Thus, there are often two or more "Index Entries" that are synonyms, for example: "Prisons" and "Penitentiaries". In cases like this, we have standardized on one "Index Entry".
+
+        NAICS Descriptions (and NAICS Codes) have been assigned based upon the entity's primary function, regardless of if that is the function that qualified it to be included in this dataset.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AIR AMBULANCE SERVICES
+          Enumerated_Domain_Value_Definition: AIR AMBULANCE SERVICES - [NAICS Code 621910]: Entities that are primarily engaged in providing transportation of patients by air that have medical care capabilities are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AMBULANCE AND FIRE SERVICE COMBINED
+          Enumerated_Domain_Value_Definition: AMBULANCE AND FIRE SERVICE COMBINED - [NAICS Code 922160]: Entities providing ambulance services with fire protection service are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AMBULANCE SERVICES, AIR OR GROUND
+          Enumerated_Domain_Value_Definition: AMBULANCE SERVICES, AIR OR GROUND - [NAICS Code 621910]: Entities that are primarily engaged in providing transportation of patients by ground or air that have medical care capabilities are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FIRE AND RESCUE SERVICE
+          Enumerated_Domain_Value_Definition: FIRE AND RESCUE SERVICE - [NAICS Code 922160]: Entities that are involved in fire fighting and rescue service are classified under this description, unless they are privately owned or primarily involved in forest fire fighting.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FIRE DEPARTMENTS (E.G., GOVERNMENT, VOLUNTEER (EXCEPT PRIVATE))
+          Enumerated_Domain_Value_Definition: FIRE DEPARTMENTS (E.G., GOVERNMENT, VOLUNTEER (EXCEPT PRIVATE)) - [NAICS Code 922160]: Entities that are involved in fire fighting are classified under this description, unless they are privately owned, are primarily involved in forest fire fighting, or also operate a rescue service.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FIREFIGHTING, FOREST
+          Enumerated_Domain_Value_Definition: FIREFIGHTING, FOREST - [NAICS Code 115310]: Entities that are primarily involved in forest fire fighting are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FIRE FIGHTER TRAINING SCHOOLS
+          Enumerated_Domain_Value_Definition: FIRE FIGHTER TRAINING SCHOOLS - [NAICS Code 611519]: Entities that are primarily involved in training fire fighters are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FIRE FIGHTING SERVICES AS A COMMERCIAL ACTIVITY
+          Enumerated_Domain_Value_Definition: FIRE FIGHTING SERVICES AS A COMMERCIAL ACTIVITY - [NAICS Code 561990]: Entities providing fire protection for a commercial facility are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FIRE MARSHALS' OFFICES
+          Enumerated_Domain_Value_Definition: FIRE MARSHALS' OFFICES - [NAICS Code 922160]: Entities that are fire marshals' offices are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: POLICE AND FIRE DEPARTMENTS, COMBINED
+          Enumerated_Domain_Value_Definition: POLICE AND FIRE DEPARTMENTS, COMBINED - [NAICS Code 922120]: Entities providing combined police and fire protection service are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PRIVATE VOLUNTEER FIRE FIGHTING
+          Enumerated_Domain_Value_Definition: PRIVATE VOLUNTEER FIRE FIGHTING - [NAICS Code 561990]: Entities providing fire fighting services that are privately owned and whose fire fighters are volunteers are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: GEOLINKID
+      Attribute_Definition: Link ID for the street segment to which the entity was geocoded. Refer to the [ST_VENDOR] and [ST_VERSION] fields for the street vendor and version that was used to geocode the entity.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: X
+      Attribute_Definition: Longitude in WGS 84 Decimal Degrees.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -180
+          Range_Domain_Maximum: 180
+          Attribute_Units_of_Measure: WGS 84 Decimal Degrees
+    Attribute:
+      Attribute_Label: Y
+      Attribute_Definition: Latitude in WGS 84 Decimal Degrees.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -90
+          Range_Domain_Maximum: 90
+          Attribute_Units_of_Measure: WGS 84 Decimal Degrees
+    Attribute:
+      Attribute_Label: ST_VENDOR
+      Attribute_Definition: Indicates name of vendor providing original street data used for geocoding.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NAVTEQ
+          Enumerated_Domain_Value_Definition: NAVTEQ streets were used for geocoding.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TGS
+          Enumerated_Domain_Value_Definition: TGS drew in a new street segment that does not exist in the file supplied by NAVTEQ.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TIGER
+          Enumerated_Domain_Value_Definition: TIGER/Line streets were used for geocoding.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: ST_VERSION
+      Attribute_Definition: Indicates the year and quarter of streets used for geocoding.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2007Q2
+          Enumerated_Domain_Value_Definition: 2nd Quarter 2007 NAVTEQ street data was used for geocoding.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2006FE
+          Enumerated_Domain_Value_Definition: 2006fe version of TIGER/Line streets were used for geocoding in areas where NAVTEQ does not have coverage.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: GEOPREC
+      Attribute_Definition: Geocoding precision.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: BLOCKFACE
+          Enumerated_Domain_Value_Definition: Entity is geocoded to correct block and correct side of street per street data indicated by [ST_VENDOR] and [ST_VERSION].
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ONENTITY
+          Enumerated_Domain_Value_Definition: Entity is geocoded on entity rooftop per aerial imagery (in most cases USGS DOQQs).
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: PHONELOC
+      Attribute_Definition: Indicates whether the phone number in the [TELEPHONE] field rings to the actual location of the entity.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Phone number rings to the actual entity location.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: Phone number does not ring to the actual entity location. It may ring to an administrative office or central location.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown - It is not known if the entity's phone number rings to the entity's location.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: QC_QA
+      Attribute_Definition: Organization that performed Quality Control/Quality Assurance on the record.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TGS
+          Enumerated_Domain_Value_Definition: TGS has performed Quality Control/Quality Assurance on all TGS added records and all records contacted since 01/01/2005.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: The record is not TGS added or has not had Quality Control/Quality Assurance performed by TGS, or Quality Control/Quality Assurance was performed prior to 01/01/2005.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: STATE_ID
+      Attribute_Definition: State Fire Station Data ID. For states that contributed data, this field is populated with the unique ID used by the state to track Fire Stations.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: FDID
+      Attribute_Definition: A unique five-character identifier assigned by the state to identify a particular fire department within the state. The first two characters designate the county and the last three designate the department within the county. This identifier is only unique within each state, not nationwide.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: FRST_MBRS
+      Attribute_Definition:
+        Total number of fire fighter members associated with the DEPARTMENT.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: EMS_MBRS
+      Attribute_Definition:
+        Total number of EMS members associated with the DEPARTMENT.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: TOTALPERS
+      Attribute_Definition:
+        Total number of members associated with the DEPARTMENT.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: NUMTRKS
+      Attribute_Definition:
+        Total number of fire trucks associated with the DEPARTMENT.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: NUMABUL
+      Attribute_Definition:
+        Total number of ambulances associated with the DEPARTMENT.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: TOTAL_VEHI
+      Attribute_Definition:
+        Total number of vehicles associated with the DEPARTMENT.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: NBR_STA
+      Attribute_Definition:
+        The total number of stations associated with the DEPARTMENT.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: OWNER
+      Attribute_Definition:
+        The type of ownership for the entity.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: LEVEL
+      Attribute_Definition:
+        Indicates the level of medical services provided.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: TYPE
+      Attribute_Definition:
+        Type of employees.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: SPECIALTY
+      Attribute_Definition:
+        Indicates any type of specialty unit available at the facility.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: EMSLICENSE
+      Attribute_Definition:
+        License number for EMS agency provided by the state.
+
+        The values that this field is populated with came from individual states and have not been validated or checked by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: EMERPHONE
+      Attribute_Definition:
+        Emergency Contact Number as provided by individual states.  Some values also include telephone extensions and/or alternate telephone numbers.  All alphabetic characters have been translated to the corresponding numeric digit.
+
+        The values in this field have not been verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Phone numbers, including area code, formatted as nnn-nnn-nnnn. A list of valid area code and exchange combinations can be found at <http://www.nanpa.com>
+    Attribute:
+      Attribute_Label: EMS
+      Attribute_Definition: Indicates if the entity also has EMS capabilities.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Indicates the entity has EMS capabilities.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Indicates the entity does not have EMS capabilities.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unable to determine if entity has EMS capabilities.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: PERM_ID
+      Attribute_Definition:
+        The unique permanent identifier of The National Structures Dataset.
+
+        The values in this field have not been verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: GNIS_ID
+      Attribute_Definition:
+        The unique permanent identifier of the Geographic Names Information System that is up to eight (8) digits in length and unique within the nation.
+
+        The values in this field have not been verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/frsttns.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

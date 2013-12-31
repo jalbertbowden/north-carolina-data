@@ -1,0 +1,369 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: North Carolina Natural Heritage Program
+      Publication_Date: 20131016
+      Title: Federal Lands in North Carolina (October 2013)
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: http://data.nconemap.com
+  Description:
+    Abstract: This dataset represents land owned by the federal government in North Carolina. This is a subset of the North Carolina Natural Heritage Program's Managed Areas.  The Managed Areas shapefile is primarily a collection of fee simple properties and easements where conservation is one of the management goals. It does include a number of properties and easements that are not primarily managed for conservation, but that are of conservation interest. This conservation interest ranges from properties and easements which support rare species and intact, high-quality natural communities to those that are open spaces in places where open space is scarce. The property and easement boundaries in this shapefile were acquired from a wide variety of sources, and in some cases their boundaries are approximate. Because of these inaccuracies, this shapefile is intended to be used as an aid to conservation planning only and not as a substitute for land survey data. Inclusion of an area in this shapefile in no way implies that the area is open to the public.
+    Purpose: This dataset is intended as a resource for conservation planning purposes.  The collection includes lands in conservation status as well as large publicly owned properties. The dataset is not a substitute for land survey data.
+    Supplemental_Information: The completeness and consistency of the federal subset of Managed Areas was verified in 2012 by the Federal Interagency Committee under the NC Geographic Information Coordinating Council.  The committee assembled federal land ownership data from various federal agencies and compared the results to Managed Areas and the related federal Protected Areas Database.  The committee found only minor differences in geometry and properties.  Given the business need for the Natural Heritage Program to compile Managed Areas, including federal land, the committee concluded that the most efficient and effective method for maintaining a geospatial dataset for federal land in North Carolina is to derive a subset of federal lands from Managed Areas when the Natural Heritage Program publishes updates to Managed Areas.  This compilation of federal lands does not include small properties relating to federal office buildings or facilities of the US Postal Service; and this selection does not include easements managed by federal programs on non-federal property. Also, this dataset is the current equivalent of "Federal Land Ownership" in North Carolina (published in 2006).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20131016
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Quarterly
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.383621
+      East_Bounding_Coordinate: -75.417094
+      North_Bounding_Coordinate: 36.617275
+      South_Bounding_Coordinate: 33.732007
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: PlanningCadastre
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: conservation
+      Theme_Keyword: land
+      Theme_Keyword: lands
+      Theme_Keyword: easement
+      Theme_Keyword: property
+      Theme_Keyword: preservation
+      Theme_Keyword: recreation
+      Theme_Keyword: federal
+      Theme_Keyword: managed
+      Theme_Keyword: areas
+      Theme_Keyword: open space
+      Theme_Keyword: protection
+      Theme_Keyword: protected
+      Theme_Keyword: parks
+      Theme_Keyword: preserve
+      Theme_Keyword: natural heritage
+      Theme_Keyword: registered heritage area
+      Theme_Keyword: ownership
+      Theme_Keyword: dedicated nature preserve
+      Theme_Keyword: forest
+      Theme_Keyword: park
+      Theme_Keyword: managed area
+      Theme_Keyword: managed areas
+      Theme_Keyword: wildlife
+      Theme_Keyword: natural
+      Theme_Keyword: refuge
+      Theme_Keyword: coastal
+      Theme_Keyword: plant
+      Theme_Keyword: wild scenic
+      Theme_Keyword: natural and scenic
+      Theme_Keyword: plant protection
+      Theme_Keyword: federal lands
+      Theme_Keyword: federal land
+      Theme_Keyword: federally owned land
+      Theme_Keyword: government owned land
+    Place:
+      Place_Keyword_Thesaurus: William S. Powell, The North Carolina GAZETTEER, A
+      Place_Keyword: North Carolina
+      Place_Keyword: USA
+      Place_Keyword: North America
+  Access_Constraints: None
+  Use_Constraints: Because these data can quickly become outdated, the North Carolina Natural Heritage Program (Division of Natural  Resources Planning and Conservation, Department of Environment and Natural Resources, MSC 1601, Raleigh, NC 27699-1601) should be contacted before use of the data set to ensure data currency. Acknowledgment of products derived from this data set should cite the North Carolina Natural Heritage Program. While efforts have been made to ensure that these data are accurate and reliable, the North Carolina Natural Heritage Program cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: John Finnegan
+        Contact_Organization: North Carolina Natural Heritage Program (Division of Natural Resources Planning and Conservation, Department of Environment and Natural Resources)
+      Contact_Position: NHP Conservation Information Manager
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1601 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-1601
+        Country: USA
+      Contact_Voice_Telephone: 919-707-8630
+      Contact_Electronic_Mail_Address: john.finnegan@ncdenr.gov
+      Hours_of_Service: 8:30 - 5:00
+      Contact_Instructions: email preferred
+  Data_Set_Credit: NC Natural Heritage Program
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500
+  Cross_Reference:
+    Citation_Information:
+      Originator: North Carolina Natural Heritage Program
+      Publication_Date: 20120502
+      Title: Managed Areas in North Carolina
+      Geospatial_Data_Presentation_Form: shapefile
+Data_Quality_Information:
+  Logical_Consistency_Report: Managed areas are consistently represented as polygons that approximate property boundaries.  Nonetheless, inclusion in this dataset is arbitrary and in no way implies that included areas are protected or accessible to the public.  In some instances, boundaries of adjacent properties provided by different sources may be inconsistent, creating minor overlaps or gaps in managed areas of conservation interest.  Given the tendency to publish quarterly, the discrepancies are not resolved each time a source dataset is integrated in the compilation.
+  Completeness_Report: The dataset is complete based on the best available source datasets and representations of managed areas.  The source data may change frequently.  Users should contact the North Carolina Natural Heritage Program (Division of Natural Resources Planning and Conservation, Department of Environment and Natural Resources, MSC 1601, Raleigh, NC 27699-1601) before use of the data set to ensure data currency.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Natural Heritage Program, Department of Environment and Natural Resources
+          Publication_Date: 2011
+          Title: State agencies areas of conservation interest
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: none
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2011
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: State agencies
+      Source_Contribution: State agencies: Boundaries of state parks from the NC Division of Parks and Recreation, game lands from the Wildlife Resources Commission, coastal reserves from the NC Division of Coastal Management, plant conservation preserves from the NC Department of Agriculture and Consumer Services, Plant Conservation Program,  state forests from the NC Forest Service, other state property of conservation interest and state-owned easements (primarily from the Ecosystem Enhancement Program and the Clean Water Management Trust Fund) from the State Property Office.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Natural Heritage Program, Department of Environment and Natural Resources
+          Publication_Date: 2011
+          Title: Local government managed areas
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: none
+      Source_Scale_Denominator: 4800
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2011
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Local governments
+      Source_Contribution: Local governments: Boundaries of lands owned by municipal and county governments in North Carolina.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Natural Heritage Program, Department of Environment and Natural Resources
+          Publication_Date: 2011
+          Title: Federal government areas of conservation interest
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: none
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2011
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Federal lands
+      Source_Contribution: Federal agencies: Boundaries of national parks & national seashores from the National Park Service, national wildlife refuges from the US Fish & Wildlife Service, national forests from the US Forest Service, military lands from the US Department of Defense, and other federal lands of conservation interest.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Natural Heritage Program, Department of Environment and Natural Resources
+          Publication_Date: 2011
+          Title: Preserves and Easements Owned or Managed by Private Organizations
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: none
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2011
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Private lands
+      Source_Contribution: Private organizations: Boundaries of preserves and easements owned or managed by private land trusts or private conservation organizations, and other private lands of conservation interest.
+    Process_Step:
+      Process_Description: Obtained source data from a variety of sources. Boundaries of federal lands, such as national parks and forest, wildlife refuges, and military bases, were primarily obtained from federal agencies; when primary sources were not available, county cadastral data were used instead.  State agencies provided boundaries for state parks & natural areas, state forests, game lands, coastal reserves, plant conservation preserves, and other state-owned lands & easements.  Boundaries of local parks and easements were provided by local governments or were copied from county cadastral data.  Boundaries of private nature preserves and easements were obtained from private land trusts and conservation organizations. The original compilation included boundaries digitized from lines drawn on paper USGS topographic maps.  These have largely been replaced with better data, as updates tend to be digital in origin in recent years.  Initially attempts were made to resolve boundary discrepancies, but this is no longer done, and as a result minor overlaps or gaps often occur between adjacent properties.  Processing includes integration of all polygons and attribution of each polygon.  Quality control includes checks for attribute consistency to enable efficient querying and symbolization. The Federal Lands subset (lands under federal ownership) was derived by selecting all records where OWNER_TYPE = "Federal" AND CATEGORY = "Fee" and exporting that selection to a new feature class. This selection does not include easements on non-federal property.
+      Process_Date: 2012
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: John Finnegan
+            Contact_Organization: Natural Heritage Program
+          Contact_Position: NHP Conservation Information Manager
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1601 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1601
+            Country: USA
+          Contact_Voice_Telephone: 919-707-8630
+          Contact_Electronic_Mail_Address: john.finnegan@ncdenr.gov
+          Hours_of_Service: 8:30-5:00
+          Contact_Instructions: email preferred
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 972
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.1
+          Ordinate_Resolution: 0.1
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: federal_lands_NC
+      Entity_Type_Definition: Federal land ownership subset of areas managed for conservation related purposes
+      Entity_Type_Definition_Source: NC Natural Heritage Program
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: MA_ID
+      Attribute_Definition: Managed Area Identifier. A number that uniquely identifies the managed area.
+      Attribute_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential number
+    Attribute:
+      Attribute_Label: ACRES
+      Attribute_Definition: Area of each polygon in acres.
+      Attribute_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Size of each property varies.
+    Attribute:
+      Attribute_Label: MA_NAME
+      Attribute_Definition: Managed Area Name.
+      Attribute_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary.
+    Attribute:
+      Attribute_Label: OWNER
+      Attribute_Definition: The owner of the property, or, if the area is an easement, the holder of the easement.
+      Attribute_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Ownership varies.
+    Attribute:
+      Attribute_Label: GIS_SRC
+      Attribute_Definition: GIS Source. The original source of GIS spatial and attribute information for each record.
+      Attribute_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sources vary by feature.
+    Attribute:
+      Attribute_Label: SRC_DATE
+      Attribute_Definition: GIS Source Date. The date (yyyy-mm-dd) the GIS data was obtained. If year, month, or day are unknown, they are left blank.
+      Attribute_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Dates vary by feature.
+    Attribute:
+      Attribute_Label: GAP_STATUS
+      Attribute_Definition: GAP Status Code. The GAP Status Code is a measure of management intent to conserve biodiversity as defined by values below.
+      Attribute_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: An area having permanent protection from conversion of natural land cover and a mandated management plan in operation to maintain a natural state within which disturbance events (of natural type, frequency, intensity, and legacy) are allowed to proceed without interference or are mimicked through management.
+          Enumerated_Domain_Value_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: An area having permanent protection from conversion of natural land cover and a mandated management plan in operation to maintain a primarily natural state, but which may receive uses or management practices that degrade the quality of existing natural communities, including suppression of natural disturbance.
+          Enumerated_Domain_Value_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: An area having permanent protection from conversion of natural land cover for the majority of the area, but subject to extractive uses of either a broad, low-intensity type (e.g., logging, OHV recreation) or localized intense type (e.g., mining). It also confers protection to federally listed endangered and threatened species throughout the area.
+          Enumerated_Domain_Value_Definition_Source: NC Natural Heritage Program
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: There are no known public or private institutional mandates or legally recognized easements or deed restrictions held by the managing entity to prevent conversion of natural habitat types to anthropogenic habitat types. The area generally allows conversion to unnatural land cover throughout or management intent is unknown.
+          Enumerated_Domain_Value_Definition_Source: NC Natural Heritage Program
+  Overview_Description:
+    Entity_and_Attribute_Overview: Attributes relate to land ownership.
+    Entity_and_Attribute_Detail_Citation: None
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Center for Geographic Information and Analysis
+      Contact_Position: NC OneMap Database Administrator
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-20322
+        Country: USA
+      Contact_Voice_Telephone: 919-754-6585
+      Contact_Electronic_Mail_Address: nconemap@its.nc.gov
+      Hours_of_Service: 8:30-5:00
+      Contact_Instructions: email preferred
+  Resource_Description: Downloadable Data
+  Distribution_Liability: Because these data can quickly become outdated, the North Carolina Natural Heritage Program (Division of Natural Resources Planning and Conservation, Department of Environment and Natural Resources, MSC 1601, Raleigh, NC 27699-1601) should be contacted before use of the data set to ensure data currency. Acknowledgment of products derived from this data set should cite the North Carolina Natural Heritage Program. While efforts have been made to ensure that these data are accurate and reliable, the North Carolina Natural Heritage Program cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data. NCCGIA is charged with the development and maintenance of NC OneMap and, in cooperation with other mapping organizations, is committed to offering its users accurate, useful, and current information. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop this dataset may be reflected in the data supplied. The user must be aware of possible conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. The use of trade names or commercial products does not constitute their endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ArcGIS
+        Format_Version_Number: 10.x
+        Format_Specification: shapefile
+        Transfer_Size: 32.812
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/fedlands.zip
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: shapefile
+    Fees: None for online download; for offline distribution, contact nconemap@its.nc.gov
+    Ordering_Instructions: see http://data.nconemap.com and search on "federal" or other keywords.
+  Custom_Order_Process: Contact the Natural Heritage Program, 919-707-8630
+  Technical_Prerequisites: Software that can display geospatial data.
+  Available_Time_Period:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2011
+Metadata_Reference_Information:
+  Metadata_Date: 20131120
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Natural Heritage Program
+        Contact_Person: John Finnegan
+      Contact_Position: NHP Conservation Information Manager
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1601 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-1601
+        Country: USA
+      Contact_Voice_Telephone: 919-707-8630
+      Contact_Electronic_Mail_Address: john.finnegan@ncdenr.gov
+      Hours_of_Service: 830-5:00
+      Contact_Instructions: email preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: none
+  Metadata_Use_Constraints: none

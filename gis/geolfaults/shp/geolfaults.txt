@@ -1,0 +1,416 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC DEHNR-Division of Land Resources, NC Geological Survey
+      Publication_Date: 19981201
+      Title: Geology - Faults
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NC DEHNR-Division of Land Resources, NC Geological Survey
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      The North Carolina Department of Environment, Health, and
+      Natural Resources, Division of Land Resources, NC Geological
+      Survey, in cooperation with the North Carolina Center for
+      Geographic Information and Analysis, developed the GIS data set
+      version of the Geology of North Carolina.  The data represents
+      the digital equivalent of the official State Geology map (1:500,000-scale),
+      but was digitized from (1:250,000-scale) base maps.  This file
+      contains the line attributes which identify faults in North Carolina.
+      The geologic formation id is the only attribute present.  There
+      are two additional files which accompany this layer, formations and dikes.
+      These should be used together with the faults layer. All three files come
+      together. (Refer to the cross references section for more detail on
+      the formations and dikes).
+    Purpose:
+      This data was created to assist governmental agencies and
+      others in making resource management decisions through use of
+      a Geographic Information System (GIS).
+    Supplemental_Information:
+      This data includes three coverages: geol250, which contains
+      geologic formations; geol250d, which contains dikes; and
+      geol250f, which contains faults.
+
+      To purchase a hardcopy of this data layer (the official 1985
+      NC State Geologic Map, shown at a 1:500,000 scale), contact:
+      NC Geologic Survey
+      PO Box 27687
+      Raleigh, NC 27611
+      (919) 733-2423
+      As of December, 1995, map cost is approximately $10.00.
+      Call to confirm availability and price.
+
+      This coverage corresponds to the DOT county boundary file.
+      Other county boundary files may not be compatible with this
+      layer.
+
+      >system filename: geol250f     file size = 0.2 mb
+      >
+      >Revisions and updates to this layer include:
+      >3.) filename: geol250f1298  The December 1998 update to this layer
+      >consisted of projecting the data from NAD27 datum, State Plane
+      >projection, units of measure feet TO: NAD83 DATUM, State Plane
+      >PROJECTION, UNITS OF MEASURE METERS.  This was done to comply
+      >with the NC Geographic Information Coordinating Council's
+      >"Statement of Direction for North Carolina Corporate Geographic
+      >Database Horizontal Reference, Datum and Unit of Measure".
+      >This reprojecting was done in various ways depending on the
+      >data type and content.  Vector data was projected using the
+      >'project' command in ESRI's Arc software and topology was
+      >cleaned and built based on coverage needs.  Raster data was
+      >projected using ESRI's Grid module and various steps as applicable.
+      >2.)geol250f93 - This represents the 1993 version which contains
+      >the following correction. In the spring of 1993, a geologic
+      >formation (ZYba, Amphibolite) in Macon County was added in order
+      >to correct the digital file of the formation layer. This formation
+      >had been omitted in the original digitization. The file containing
+      >the omitted information has been deleted.  The associated files names
+      >are: geol250d for dikes and geol250 for formations.
+      >1.) filename: geol250f86  The 1986 version was the first release.
+      >(previously named nc250.geoflt).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1986
+        Ending_Date: 19981201
+    Currentness_Reference: Data creation and edit dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.412159
+      East_Bounding_Coordinate: -76.530838
+      North_Bounding_Coordinate: 36.613567
+      South_Bounding_Coordinate: 34.115024
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: General geology
+      Theme_Keyword: Faults
+      Theme_Keyword: Dikes
+      Theme_Keyword: Geologic map
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: geoscientificInformation
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints:
+    None, but all three coverages (Geology North Carolina,
+    Dikes, and Faults) are to be distributed together, and a copy of the
+    1985 map legend should accompany them.
+  Use_Constraints:
+    Acknowledgement of products derived form this data
+    set should cite the following: The source of the Geologic (1:250,000) Faults
+    data is the North Carolina Corporate Geographic Database. Earlier versions
+    of this data set may exist. The user must be sure to use the appropriate
+    data set for the time period of interest.  While efforts have been made to
+    ensure that these data are accurate and reliable within the state of the art,
+    CGIA cannot assume liability for any damages or misrepresentation caused by
+    any inaccuracies in the data or as a result of changes to the data caused by
+    system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Jeff Reid
+        Contact_Organization: NC Geological Survey
+      Contact_Position: Chief Geologist
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 512 N. Salisbury Street
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27604-1148
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 733-2423
+      Hours_of_Service: 8:00am to 5:00pm
+      Contact_Instructions: Preferred contact is by mail or telephone.
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      NCCGIA digitized the geology features and faults
+      from mylar stable bases identifying boundary and name attributes of
+      geologic features.  A review by check plot overlay was used to determine
+      label discrepancies and found discrepancies were corrected.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the
+    dataset was built for arc topology using the "build" command.
+    The data set was then cleaned with a fuzzy tolerance of 1 foot.  Topology
+    has not been edited since the last build or clean.
+  Completeness_Report:
+    These data represent faults found on the official geologic map
+    of North Carolina.  The information consists of three coverages, which
+    depict the state's geologic formations, its faults, and its dikes. Only
+    geology formation names are attributed.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        No official accuracy assessment has be performed on this data
+        set. The digital files were checked to within a linewidth of
+        the original base maps.  The base maps were delineated with
+        geologic extents identified by the U.S. Geological Survey and
+        the NC Geologic Survey.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC DEHNR-Division of Land Resources, NC Geological Survey
+          Publication_Date: 1993
+          Title: Geology - North Carolina (1;250,000) Faults
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC DEHNR-Division of Land Resources, NC Geological Survey
+          Other_Citation_Details: This data set contains 3 files
+      Source_Scale_Denominator: 250000
+      Type_of_Source_Media: Mylar
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1986
+            Ending_Date: 1993
+        Source_Currentness_Reference: Original release date and revision date, respectively
+      Source_Citation_Abbreviation: None
+      Source_Contribution:
+        Data depicting the official geology of North Carolina, on mylar
+        stable bases.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC Center for Geographic Information and Analysis
+          Publication_Date: 1993
+          Title: Geology - North Carolina (1;250,000) Faults
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC Center for Geographic Information and Analysis
+          Other_Citation_Details: CGIA distributes the data
+      Source_Scale_Denominator: 250000
+      Type_of_Source_Media: Mylar
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1986
+            Ending_Date: 1993
+        Source_Currentness_Reference: Original release and latest revision date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Digitization of faults and formation ID attribution.
+    Process_Step:
+      Process_Description: Delineation of the official NC State Geologic formations.
+      Process_Date: 1986
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Jeff Reid
+            Contact_Organization: NC DEHNR-Division of Land Resources, NC Geological Survey
+          Contact_Position: Chief Geologist
+          Contact_Address:
+            Address_Type: physical
+            Address: 512 N. Salisbury Street
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27604-1148
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 733-2423
+          Hours_of_Service: 8:00am to 5:00pm
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description:
+        Digital conversion of the geologic formation delineations
+        through the use of Calcomp digitizing tables into ESRI's
+        ARC/INFO software.
+      Process_Date: 1993
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: David Giordano
+            Contact_Organization: NC CGIA
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: None
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 1108
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Node, planar graph
+      Point_and_Vector_Object_Count: 18
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.001024
+          Ordinate_Resolution: 0.001024
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Geology - Faults
+      Entity_Type_Definition: Linear features along which occur plate shifting.
+      Entity_Type_Definition_Source: NC DEHNR-Division of Land Resources, Geological Survey
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      An arc coverage depicting the faultS located on the official
+      geologic map of North Carolina (1985) as published by the NC
+      Geological Survey and the US Geologic Survey.  The information
+      consists of three coverages: geologic formations, dikes, and
+      faults. The arc attribute table (AAT) includes computer generated
+      identifiers and the length of the arc.
+
+      >GEOL250F.AAT  Arc Attribute Table
+      >COLUMN  ITEM NAME    WIDTH OUTPUT TYPE  DEC  DESCRIPTION
+      >1    FNODE#         4      5    B     -   From-node id of linear feature
+      >5    TNODE#         4      5    B     -   To-node id of linear feature
+      >9    LPOLY#         4      5    B     -   Left-side polygon id of linear
+      >feature
+      >13   RPOLY#         4      5    B     -   Right-side polygon id of linear
+      >feature
+      >17   LENGTH         4     12    F     3   Length of linear feature in meters
+      >21   GEOL250F#      4      5    B     -   Internal id number
+      >25   GEOL250F-ID    4      5    B     -   Internal id number
+    Entity_and_Attribute_Detail_Citation:
+      Refer to: "Geologic Map of North Carolina, 1985" for a hardcopy
+      version, and detailed descriptions of the Major Litho-Tectonic
+      Features, Geologic Time Scale, and Paleozoic Metamorphic Facies.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/geolfaults.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

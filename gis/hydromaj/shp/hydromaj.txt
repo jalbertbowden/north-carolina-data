@@ -1,0 +1,740 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC Center for Geographic Information and Analysis
+      Publication_Date: 20020702
+      Title: Major Hydrography
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, NC
+        Publisher: NC Center for Geographic Information and Analysis
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract: The NC Center for Geographic Information and Analysis, developed this digital Major Hydrography data to enhance planning, siting and impact analysis in areas directly affecting surface waters consisting of streams and rivers, lakes, reservoirs, and shorelines. The data is a subset of the 1:24,000-scale detailed hydrography data. This file is updated as changes occur.
+    Purpose: This data was created to assist governmental agencies and others in making resource management decisions through the use of a Geographic Information System (GIS) where information on general hydrographic features is needed.
+    Supplemental_Information:
+      system filename: hydromaj      file size = 6.40 mb
+      Revisions and updates to this layer include:
+      3.) Previous 1:100,000-scale version was used to select hydro features from 1:24,000-scale coverage to create a new subset of the detailed hydro for purposes of larger scale mapping and making additional attributes available in the major hydrography coverage.  Arcs and polygons were created as major_hydro_arcs.shp and major_hydro_polys.shp.  In the shapefile version of the polygons, label = 216 was excluded (water offshore) to make the shapefile more suitable for cartographic purposes.
+      2.) filename: hydromaj299  The February 9, 1999 updates include:
+      a.) Projecting the data from NAD27 datum, State Plane projection, units of measure feet TO: NAD83 DATUM, State Plane PROJECTION, UNITS OF MEASURE METERS.  This was done to comply with the NC Geographic Information Coordinating Council's "Statement of Direction for North Carolina Corporate Geographic Database Horizontal Reference, Datum and Unit of Measure".  This reprojecting was done in various ways depending on the data type and content.
+      Vector data was projected using the 'project' command in ESRI's Arc software and topology was cleaned and built based on coverage needs.  Raster data was projected using ESRI's Grid module and various steps as applicable.
+      b.) Replaced the lake boundary for Falls Lake.  Corrected lake boundary digitized from US Army Corps of Engineers  51.5 foot contour overlay that was transferred onto 1:24,000-scale topo sheets.  (The original lake contours were surveyed incorrectly and the lake level has since been raised to the correct 251.5 ft level.)
+      c.) Added more detailed stream annotation (anno level 1 - primary streams; anno level 2 - secondary streams).
+      1.) filename: hydromaj997  The original version was dated September 1997. (perviousl named majhydro) Any previous versions were not offical database releases.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 199709
+        Ending_Date: 19990209
+    Currentness_Reference: Data creation and revision dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.385435
+      East_Bounding_Coordinate: -75.425187
+      North_Bounding_Coordinate: 36.596914
+      South_Bounding_Coordinate: 33.740263
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Hydrography
+      Theme_Keyword: Surface waters
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: inlandWaters
+    Place:
+      Place_Keyword_Thesaurus: William S. Powell, The North Carolina GAZETTEER, A Dictionary of Tar Heel Places, (Chapel Hill: University of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: Acknowledgement of products derived form this data set should cite the following: The source of the Major Hydrography data is the North Carolina Corporate Geographic Database. Earlier versions of this data set may exist. The user must be sure to use the appropriate data set for the time period of interest. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, CGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NCCGIA
+        Contact_Person: David Giordano
+      Contact_Position: Database Administrator
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: All attribute codes have been extensively edited for accuracy by the associated agency. Stream codes, classifications and use support - NCDENR, DWQ; Linework, DLG code - NCCGIA. Attribute accuracy is considered high.
+  Logical_Consistency_Report: Using ESRI's ARC/INFO GIS software, the dataset was built for arc and polygon topology using the "build" command. The data set was then cleaned with a fuzzy tolerance of 1 meter. Topology has not been edited since the last build or clean.
+  Completeness_Report: These data represent the locations and identities of surface waters consisting of streams and rivers, lakes, ponds, and shorelines, as depicted on USGS 1:24,000-scale digital line graphs and supplemented to reflect hydrographic features classified by the state but not represented on the original DLG linework. Each stream reach is labeled with stream classification and use support information. All stream segments are approved by DWQ whether they are the original DWQ boundaries or changes to original boundaries.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Hydrography 1:24,000-scale features were taken from the USGS 1:24,000-scale DLGs.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC DENR - Div. of Water Quality, Water Quality Planning Section
+          Publication_Date: 19990301
+          Title: Detailed Hydrography (1:24,000 scale)
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC DENR - Div. of Water Quality, Water Quality Planning
+          Other_Citation_Details: Data is updated as needed
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 19980601
+            Ending_Date: unknown
+        Source_Currentness_Reference: Original release date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Use support spreadsheet and stream classification schedules
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Geological Survey
+          Publication_Date: 1990
+          Title: USGS 7.5 Minute series quadrangles
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: US Geological Survey
+          Other_Citation_Details: Published Map Series
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1938
+            Ending_Date: 1990
+        Source_Currentness_Reference: Publication dates of quadrangles
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Paper maps used to locate the stream reaches
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC Center for Geographic Information and Analysis
+          Publication_Date: 19970721
+          Title: Hydrography 100000
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC Center for Geographic Information and Analysis
+          Other_Citation_Details: Data is updated as needed
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1988
+            Ending_Date: 19970721
+        Source_Currentness_Reference: Original release date of hybrid hydro files
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Locations of surface waters consisting of streams and rivers, lakes, ponds, and shorelines combined from both 1:24,000 and 1:100,000-scale sources.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: RTI, Inc
+          Publication_Date: 19981231
+          Title: Use Support/hydrography project
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: RTI, Inc.
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: ftp file
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1998
+            Ending_Date: 1998
+        Source_Currentness_Reference: Original release date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Creation of statewide 100k hydrography by joining 1:100,000 tiles; attributed files with 305(b) data received from DWQ.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC Center for Geographic Information and Analysis
+          Publication_Date: 19990115
+          Title: Hydrography with Use Support (1:100,000)
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC Center for Geographic Information and Analysis
+          Other_Citation_Details: CGIA distributes the data
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 19980601
+            Ending_Date: 19990901
+        Source_Currentness_Reference: Original release date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Edgematching of 100k tiles, clipping of coverage to river basins,editing of ARC/INFO files to split arcs to match DWQ use support reaches, additional attributes added for use support and stream classification information.
+    Process_Step:
+      Process_Description: 1:100,000-scale Digital Line Graph Files were taken from the USGS and refined. Post DLG and data refinements include: a) Translation of DLG to ARC/INFO data format b) Review and correction for incompleteness and/or incorrect DLG attributes c) Internal and external (in-progress) coordinate edgematching of features along map edges d) Addition of hydrographic features as required by DWQ for stream classifications e) Addition of hydrographic attributes as identified in attribute table specifications f) Deletion of all swamp apparent limits and area label points DWQ Stream classification index numbers were marked onto 1:24,000-scale vellum plots of the 1:100,000-scale hydrography. The index numbers were added to the digital files on screen. Where streams were coded by DWQ but not present in the digital file, 1:24,000-scale hydrographic features were digitized off of USGS base maps. Index numbers, stream classes, and stream locations were checked by DWQ using plots generated by CGIA. The linework is tiled to 1:100,000-scale map extents and stored in a digital library. These files are updated as needed.
+      Process_Date: 19970721
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: David Giordano
+            Contact_Organization: NCCGIA
+          Contact_Position: Database Administrator
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description: Water quality for specific stream reaches was evaluated by DWQ and a use support rating assigned. This rating identifies how well a stream reach meets its designated uses. Ratings and additional attributes are maintained in an ACCESS database or EXCEL spreadsheet and updated by river basin on a 5-year rotation. DWQ provided this spreadsheet to RTI for joining to the 100k hydrography data layer. DWQ provides CGIA with updates as they occur.
+      Process_Date: 19970831
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Andrea Leslie
+            Contact_Organization: NC DENR - Div. of Water Quality, Water Quality Planning Section
+          Contact_Position: Use Support Coordinator
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 1617 Mail Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699-1617
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 733-5083
+          Contact_Facsimile_Telephone: (919) 715-5637
+          Contact_Electronic_Mail_Address: andrea_leslie@h2o.enr.state.nc.us
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: prefer telephone or e-mail
+    Process_Step:
+      Process_Description: 100k hydrography was obtained for North Carolina from the Geographic Information & Analysis. 40 1:100,000 quadrangle tiles were imported to ArcView. Tiles were exported as .dbf files to FoxPro. A statewide FoxPro database was created. 305(b) data was obtained as an EXCEL spreadsheet from DWQ and converted to FoxPro. The 305(b) spreadsheet was joined to the hydrography data by index# using FoxPro. Shapefile created in ArcView and exported to ArcInfo. The ArcInfo file was supplied to NC CGIA for final editing.
+      Process_Date: 19980601
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Randy Dodd
+            Contact_Organization: RTI, Inc.
+          Contact_Position: Environmental Scientist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: P.O. Box 12194
+            City: Research Triangle Park
+            State_or_Province: North Carolina
+            Postal_Code: 27709-21194
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 563-4694
+          Contact_Facsimile_Telephone: (919)
+          Contact_Electronic_Mail_Address: dodo@rti.org
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: prefer telephone or e-mail
+    Process_Step:
+      Process_Description: The statewide 100k hydrography tiles were edgematched and mapjoined. The neatlines were removed and the coverage clipped to the North Carolina State boundary. This file was then clipped to the 17 river basins. Each river basin was edited such that index numbers matched. Attributes were re-named and edited in cooperation with DWQ. GIA updates the digital files as needed.
+      Process_Date: 19990301
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC Center for Geographic Information and Analysis
+          Contact_Position: GIS Analyst
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: River basin name
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 315
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Node, planar graph
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Area point
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Major Hydrography
+      Entity_Type_Definition: Locations of surface waters consisting of streams and rivers,lakes, ponds, and shorelines combined from both 1:24,000 and 1:100,000 -scale sources. Arc and polygn attributes include rating of how well a waterbody supports its designated uses as defined by its stream classification.
+      Entity_Type_Definition_Source: NC DENR - Division of Water Qualtiy, Water Quality Planning Section
+    Attribute:
+      Attribute_Label: COMMENT
+      Attribute_Definition: Supplemental descriptive information
+      Attribute_Definition_Source: NC Center for Geographic Information and Analysis
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies in length and number of words
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+      Attribute_Measurement_Frequency: non planned
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Total perimeter length in coverage units
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Variable
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: TEST_
+      Attribute_Definition: Polygon internal identification number
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Software computed
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: TEST_ID
+      Attribute_Definition: Polygon internal identification number
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Software computed
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: MINOR1
+      Attribute_Definition: DLG standard code for feature
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Standards for Digital Line Graphs
+          Codeset_Source: US Geological Survey, NMD
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: MINOR2
+      Attribute_Definition: DLG standard code for feature
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Standards for Digital Line Graphs
+          Codeset_Source: US Geological Survey, NMD
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: STREAM_NAM
+      Attribute_Definition: Stream name as listed in DWQ Classification Guide
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names of streams vary in length and number of words.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: WATERBODY
+      Attribute_Definition: Waterbody name as listed in DWQ Classification Guide
+      Attribute_Definition_Source: NC DENR-Div. Of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names of streams vary in length and number of words.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: RIV_BASIN
+      Attribute_Definition: River basin
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TAR-PAMLICO
+          Enumerated_Domain_Value_Definition: Feature in the Tar-Pamlico river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAPE FEAR
+          Enumerated_Domain_Value_Definition: Feature in the Cape Fear river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CHOWAN
+          Enumerated_Domain_Value_Definition: Feature in the Chowan river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FRENCH BROAD
+          Enumerated_Domain_Value_Definition: Feature in the French Broad river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NEUSE
+          Enumerated_Domain_Value_Definition: Feature in the Neuse river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NEW
+          Enumerated_Domain_Value_Definition: Feature in the New river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PASQUOTANK
+          Enumerated_Domain_Value_Definition: Feature in the Pasquotank river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WHITE OAK
+          Enumerated_Domain_Value_Definition: Feature in the White Oak river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: BROAD
+          Enumerated_Domain_Value_Definition: Feature in the Broad river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CATAWBA
+          Enumerated_Domain_Value_Definition: Feature in the Catawba river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LITTLE TENNESSEE
+          Enumerated_Domain_Value_Definition: Feature in the Little Tennessee river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HIWASSEE
+          Enumerated_Domain_Value_Definition: Feature in the Hiwassee river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SAVANNAH
+          Enumerated_Domain_Value_Definition: Feature in the Savannah river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YADKIN
+          Enumerated_Domain_Value_Definition: Feature in the Yadkin river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LUMBER
+          Enumerated_Domain_Value_Definition: Feature in the Lumber river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ROANOKE
+          Enumerated_Domain_Value_Definition: Feature in the Roanoke river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WATAUGA
+          Enumerated_Domain_Value_Definition: Feature in the Watauga river basin
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SUBBASIN
+      Attribute_Definition: Sub-basin number
+      Attribute_Definition_Source: NC DENR-Div. Of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary in length and number of words.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: CGIA_FMS
+      Attribute_Definition: Internal feature maintenance status
+      Attribute_Definition_Source: NC CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition:
+            Feature not originally on 1:000,000
+            scale DLG base. Added to complete network for DEM stream system.
+          Enumerated_Domain_Value_Definition_Source: NC CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Feature modified from original delineation
+          Enumerated_Domain_Value_Definition_Source: NC CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Other values to be determined
+          Enumerated_Domain_Value_Definition: Other values not currently recorded
+          Enumerated_Domain_Value_Definition_Source: NC CGIA
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: DWQ_INDEX_
+      Attribute_Definition: DWQ stream classification index number (ex: 9-53-1)
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Classification number used internally
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: DWQ_CLASS
+      Attribute_Definition: DWQ stream classification (ex: WS-III)
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-I
+          Enumerated_Domain_Value_Definition: Waters protected as water supplies which are in natural and undeveloped watersheds
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-II
+          Enumerated_Domain_Value_Definition: Waters protected as water supplies which are generally in predominantly undeveloped watersheds
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-III
+          Enumerated_Domain_Value_Definition: Waters protected as water supplies which are generally in low to moderately developed watersheds
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-IV
+          Enumerated_Domain_Value_Definition: Waters protected as water supplies which are generally in moderately to highly developed watersheds
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-V
+          Enumerated_Domain_Value_Definition: Waters protected as water supplies which are generally upstream and draining to Class WS-IV waters
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: B
+          Enumerated_Domain_Value_Definition: Primary recreation and any other usage specified by the "C" classification
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C
+          Enumerated_Domain_Value_Definition: Aquatic life propagation and survival, fishing, wildlife, secondary recreation, and agriculture
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SA
+          Enumerated_Domain_Value_Definition: Shellfishing for market purposes and any other usage specified by the "SB" and "SC" classification
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SB
+          Enumerated_Domain_Value_Definition: Primary recreation and any other usage specified by the "SC" classification
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SC
+          Enumerated_Domain_Value_Definition: Aquatic life propagation and survival, fishing, wildlife, and secondary recreation
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Tr
+          Enumerated_Domain_Value_Definition: Suitable for natural trout propagation and maintenance of stocked trout
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Sw
+          Enumerated_Domain_Value_Definition: Waters which have low velocities and other natural characteristics which are different from adjacent streams
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HQW
+          Enumerated_Domain_Value_Definition: High Quality Waters which are waters that are rated as excellent based on biological and physical/chemical characteristics through division monitoring or special studies; native and special native trout waters (and their tributaries) designated by the Wildlife Resources Commission; primary nursery areas (PNA) designated by the Marine Fisheries Commission and other functional nursery areas designated by the Wildlife Resources Commission; critical habitat areas designated by the Wildlife Resources Commission or the Department of Agriculture; all water supply watersheds which are either classified as WS-I or WS-II or those for which a formal petition for reclassification as WS-I or WS-II has been received from the appropriate local government and accepted by the Division of Water Quality; and all Class SA waters.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NSW
+          Enumerated_Domain_Value_Definition: Nutrient Sensitive Waters which require limitations on nutrient inputs
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ORW
+          Enumerated_Domain_Value_Definition: Outstanding Resource Waters which are unique and special waters of exceptional state or national recreational or ecological significance which require special protection to maintain existing uses.
+          Enumerated_Domain_Value_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DWQ_CLDATE
+      Attribute_Definition: Date of last feature classification
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Variable by river basin
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DESCRIP_CL
+      Attribute_Definition: Description of classification stream reach beginning and end
+      Attribute_Definition_Source: NC DENR-Div. Of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies in length and number of words
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: AREA
+      Attribute_Definition: Area of feature in map units
+      Attribute_Definition_Source: Software
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: values differ
+
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      A polygon coverage depicting surface waters consisting of streams and rivers, lakes, ponds, reservoirs, and shorelines. The arc attribute table (AAT) arc length (linear meters), polygon internal identification number, polygon user identification number, a DWQ internal index number that relates to the identification of the stream, the stream's use support rating, the classification of the surface water, the river basin name, the name of the stream, the date the feature was last classified, the name of the USGS 1:100,000-scale river basin on which the feature is located, two DLG standard feature codes, and a CGIA feature type.
+      HWP.PAT  Polygon Attribute Table
+      COLUMN  ITEM NAME   WIDTH OUTPUT TYPE  DEC  DESCRIPTION
+      1      AREA            4     12     F      3     Total area in feet
+      5      PERIMETER       4     12     F      3     Total perimeter
+      9      HWP_            4      5     B      -     Poly internal
+      13     HWP_ID          4      5     B      -     Poly user id number
+      17     MINOR1          8     18     F      5     DLG standard code for feature
+      25     MINOR2          8     18     F      5     DLG standard code for feature
+      33     STREAM_NAM    100    100     C      -     Stream name as listed in DWQ Classification Guide
+      133    WATERBODY     100    100     C      -     Waterbody name as listed in DWQ Classification Guide
+      233    RIV_BASIN      20     20     C      -     River basin name
+      253    SUBBASIN        8     13     F      5     Identification number of subbasin
+      261    CGIA_FMS        8     18     F      0     Feature maintenance status
+      269    DWQ_INDEX_     25     25     C      -     DWQ stream classification index number (ex: 9-53-1)
+      296    DWQ_CLASS      15     15     C      -     DWQ stream classification
+      311    DWQ_CLDATE      8      8     C      -     Date of stream classification
+      319    DESCRIP_CL    170    170     C      -     Description of stream classification reach
+      489    COMMENT        60     60     C      -     Supplemental information
+    Entity_and_Attribute_Detail_Citation: Refer to source agency for published stream classification documents and use support methodolgy.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/hydromaj.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

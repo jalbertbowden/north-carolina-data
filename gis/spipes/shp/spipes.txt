@@ -1,0 +1,644 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NCREDC - N.C. Rural Economic Development Center
+      Publication_Date: 20000320
+      Title: Sewer Pipes
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NC Center for Geographic Information & Analysis
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      The NCREDC in conjunction with Hobbs, Upchurch & Associates
+      developed the digital sewer pipe network as mapped by
+      individual system owners as required by contract. The data
+      collected will facilitate planning, siting and impact analysis
+      in the 70 individual counties of North Carolina. This file
+      enables the user to make various county-level determinations
+      when used in conjunction with other data layers. This data
+      contains information on sewer pipes, including: original
+      construction date, lastest renovation date, material type,
+      pipe diameter, type of flow, and pipe utilization. Other
+      coverages exist with other appurtenances.
+    Purpose:
+      This data was created to assist governmental agencies and
+      others in making resource management decisions through use
+      of a Geographic Information System (GIS).
+    Supplemental_Information:
+      The water and sewer data was collected in multiple phases.  There
+      is an associated owner and contact table (wsp2cont.dbf) for the
+      phase 2 counties which include:
+      Beaufort, Bertie, Bladen, Brunswick, Camden, Caswell,
+      Chatham, Chowan, Columbus, Currituck, Dare, Duplin, Franklin,
+      Gates, Granville, Greene, Halifax, Harnett, Hertford, Hoke, Hyde,
+      Iredell, Jones, Lee, Lenoir, Lincoln, Martin, Montgomery, Moore,
+      Northampton, Onslow, Pasquotank, Pender, Perquimans, Pitt, Richmond,
+      Robeson, Sampson, Scotland, Stanly, Union, Vance, Warren,
+      Washington and Wilson counties. 45 counties.
+
+      Phase 1 counties included:
+      Alexander, Alleghany, Ashe, Avery, Buncombe, Burke, Caldwell,
+      Cherokee, Clay, Cleveland, Davie, Forsyth, Graham, Haywood,
+      Henderson, Jackson, Macon, Madison, McDowell, Mitchell, Polk,
+      Rutherford, Stokes, Surry, Swain, Transylvania, Watauga, Wilkes,
+      Yadkin, and Yancey counties. 30 counties.
+
+      For more information on the water and sewer systems attributes
+      refer to:
+      Geographic Data Content Standard for Water Distribution Systems
+      and Sanitary Sewer Systems, Version 2.2; State of North Carolina;
+      Center for Geographic Information and Analysis; 301 North Wilmington
+      Street; Suite 700; Raleigh, NC 27601-2825; April 1997.
+      This document is available online through the
+      www.cgia.state.nc.us/gicc/index.html
+      Geographic Information North Carolina, Geographic Information
+      Coordinating Council Web Page</A>.
+
+      system filename: spipes approx. filesize = 15.6 MB
+
+      Revisions and updates to this layer include:
+      1.) March 20, 2000: Addition of data for Carteret, Craven, and Johnston counties.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 1997
+    Currentness_Reference: Data creation date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.128996
+      East_Bounding_Coordinate: -75.615176
+      North_Bounding_Coordinate: 36.553384
+      South_Bounding_Coordinate: 33.774228
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: NC Sewer Systems
+      Theme_Keyword: North Carolina sewer distribution systems
+      Theme_Keyword: NCREDC
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: utilitiesCommunication
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places,(Chapel Hill: University
+        of North Carolina Press, August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of products derived form this data set should
+    cite the following: The source of the Sewer Systems - sewer distribution
+    systems data is the North Carolina Corporate Geographic Database.
+    Earlier versions of this data set may exist. The user
+    must be sure to use the appropriate data set for the
+    time period of interest. While efforts have been made to ensure
+    that these data are accurate and reliable within the state of the
+    art, CGIA cannot assume liability for any damages or
+    misrepresentation caused by any inaccuracies in the data or as a
+    result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NCREDC
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 4021 Carya Drive
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27601
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 250-4314
+      Contact_Facsimile_Telephone: (919)250-4325
+      Contact_Electronic_Mail_Address: CHBOCK@MINDSPRING.COM
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      Hobbs, Upchurch & Associates digitized sewer distribution networks from
+      owner supplied maps and digital files. All tabular data was supplied by
+      the owner or field verified by Hobbs, Upchurch. For more information on
+      data sources and contacts, see the "Owner and Contact Table".
+  Logical_Consistency_Report:
+    Using ESRI's ArcCAD GIS software, the data set was built for
+    linear topology using the "build" command. Topology has not been
+    edited since the last build or clean.
+  Completeness_Report:
+    This data layer represents the sewer distribution network and tabular
+    data supplied by the owner of each system. For more information on data
+    sources and contacts, see the "Owner and Contact Table".
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The sewer distribution network was heads-up digitized to match with the
+        state supplied base mapping. In some cases actual road centerlines were
+        used. The overall threshold however is 40 feet or less. All features were
+        verified by both HUA engineers as well as NCREDC for accuracy. For more
+        information on data sources and contacts, see the "Owner and Contact Table".
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: System Owners and Hobbs,Upchurch
+          Publication_Date: Unknown
+          Title: Owner supplied system information
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Varies
+            Publisher: Varies
+          Other_Citation_Details:
+            The source information and material
+            dates vary by system. An associated "Owner and Contact Table"
+            contains specific information on source materials supplied.
+      Type_of_Source_Media: Varies
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1997
+            Ending_Date: 199803
+        Source_Currentness_Reference: Approximate range of source material dates
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Owner supplied/HUA defined
+    Process_Step:
+      Process_Description:
+        sewer distribution systems were heads-up digitized onto state supplied base
+        mapping and located on the appropriate side of the road.
+      Process_Date: 1997
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NCEDC
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 4021 Carya Drive
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27601
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 250-4314
+          Contact_Facsimile_Telephone: (919)250-4325
+          Contact_Electronic_Mail_Address: Chbock@Mindspring.com
+          Hours_of_Service: 8:00AM - 5:00PM
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description:
+        Hobbs, Upchurch & Associates digitized/compiled maps supplied
+        by the participating counties. Also all tabular data was input
+        into the CGIA supplied data standard. All heads-up digitizing
+        was performed in AutoCAD R12-14/ArcCAD with NC DOT supplied
+        road centerlines and hydro. Digital files were then converted
+        into ArcView 3.0 Shape files with the appropriate dBase
+        information. The data was completed in NAD83 Meters. Once compiled,
+        the data was delivered to John Soles at NCREDC for review and supplied
+        to the appropriate officials for each county for review for accurateness.
+      Process_Date: 1990
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: Hobbs, Upchurch & Associates
+          Contact_Position: Eddie Staley
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 290 S.W. Broad St.
+            City: Southern Pines
+            State_or_Province: North Carolina
+            Postal_Code: 28388
+            Country: U.S.A.
+          Contact_Voice_Telephone: (910) 692-5616
+          Contact_Facsimile_Telephone: (910) 692-7342
+          Contact_Electronic_Mail_Address: huagis@pinehurst.net
+          Hours_of_Service: 8:00AM - 5:00PM
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description:
+        The sewer distribution networks were mappjoined into one statewide
+        GIS coverage using ARC/INFO GIS software.  On-screen review of
+        the data and attributes was performed by a GIS analyst to make
+        sure the processing did not change the data. The draft metadata
+        supplied by Hobbs, Upchurch and Associates was finalized for
+        inclusion into the Corporate Geographic Database.  An additional
+        table containing source data contact and system owner information
+        was created by HUA and has been incorporated into the data
+        available through CGIA.
+      Process_Date: 199802
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC Center for Geographic Information and Analysis
+            Contact_Person: David Giordano
+          Contact_Position: GIS Analyst
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: None
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 91712
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Sewer Pipes
+      Entity_Type_Definition: Sewer systems in 70 rural counties
+      Entity_Type_Definition_Source: NCREDC
+    Attribute:
+      Attribute_Label: SSPIMATR
+      Attribute_Definition: Material type of pipe segment
+      Attribute_Definition_Source: By owner and HUA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ABS
+          Enumerated_Domain_Value_Definition: any pipe in the ABS category
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ASBESTOS CEMENT
+          Enumerated_Domain_Value_Definition:
+            any pipe containing asbestos with a cement
+            coating (i.e. ASB)
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: BRICK
+          Enumerated_Domain_Value_Definition: any pipe containing brick as the primary.
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAST IRON
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of cast iron as
+            the primary material. (i.e. CIP)
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CONCRETE
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of concrete
+            as the primary material (i.e. RCP)
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CORRUGATED METAL
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of metal in a
+            corrugated form as the primary material (i.e. CMP)
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DUCTILE IRON
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of ductile
+            iron as the primary material (i.e. DIP)
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FIBERGLASS
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of fiberglass
+            as the primary material.
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: GALVANIZED STEEL
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of galvanized
+            steel as the primary material (i.e. GAL)
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: POLYSTYRENE
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of polystyrene as
+            the primary material.
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: POLYVINYL CHLORIDE
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of polyvinyl chloride
+            as the primary material (i.e. PVC)
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: STEEL
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of steel
+            as the primary material (i.e. STL)
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VITRIFIED CLAY
+          Enumerated_Domain_Value_Definition:
+            any pipe consisting of clay or
+            vitrified clay as the primary material (i.e. VCP)
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: UNKNOWN
+          Enumerated_Domain_Value_Definition: pipe material type was not known by the owner
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OTHER
+          Enumerated_Domain_Value_Definition:
+            pipe material did not meet any of
+            the above standards.
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+    Attribute:
+      Attribute_Label: LENGTH
+      Attribute_Definition: Total length in coverage units
+      Attribute_Definition_Source: software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 20055.753906
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: .00001
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SSSYID
+      Attribute_Definition: system identification number
+      Attribute_Definition_Source: 9+FIPS+HUA Unique ID
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: ID varies by system
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SSPIRENV
+      Attribute_Definition: latest renovation performed to the pipe segment
+      Attribute_Definition_Source: By owner and HUA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Renovation date is variable
+    Attribute:
+      Attribute_Label: SSPIDIAM
+      Attribute_Definition: Pipe segment diameter
+      Attribute_Definition_Source: By owner and HUA
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 99
+    Attribute:
+      Attribute_Label: SSTYIOC
+      Attribute_Definition: Pipe utilization
+      Attribute_Definition_Source: By owner and HUA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: INTERCEPTOR
+          Enumerated_Domain_Value_Definition:
+            pipe is used to transport directly
+            to the treatment facility usually 15' or larger in diameter
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OUTFALL
+          Enumerated_Domain_Value_Definition:
+            pipe used to discharge from
+            the treatment facility.
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: COLLECTION
+          Enumerated_Domain_Value_Definition:
+            any pipe in the sewer collection
+            system used to transport to the interceptors
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OTHER
+          Enumerated_Domain_Value_Definition:
+            any mode of sewer transport that
+            does not fit the standard above
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SSPICSTR
+      Attribute_Definition: Year of original construction
+      Attribute_Definition_Source: By owner and HUA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Construction date is variable
+    Attribute:
+      Attribute_Label: SSPITYPGV
+      Attribute_Definition: Type of flow
+      Attribute_Definition_Source: By owner and HUA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PRESSURE
+          Enumerated_Domain_Value_Definition:
+            force main or other form of transport
+            using pressure.
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: GRAVITY
+          Enumerated_Domain_Value_Definition: any pipe flowing by means of gravity
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: VACUUM
+          Enumerated_Domain_Value_Definition: any pipe transporting fluid by use of vacuum.
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: OTHER
+          Enumerated_Domain_Value_Definition:
+            pipe transport method did not meet any
+            of the above standards.
+          Enumerated_Domain_Value_Definition_Source: NCREDC
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      A line coverage depicting existing sewer distribution networks of sewer
+      systems in 70 rural counties. Fields including system id, original construction
+      date, latest renovation, material type, and pipe diameter.
+
+      >SPIPES.AAT  ARC Attribute Table
+      >COLUMN ITEM NAME WIDTH OUTPUT TYPE  DEC  DESCRIPTION
+      >1   FNODE#          4     5     B     -  From-node ID
+      >5   TNODE#          4     5     B     -  To-node ID
+      >9   LPOLY#          4     5     B     -  Left poly number
+      >13  RPOLY#          4     5     B     -  Right poly number
+      >17  LENGTH          4    12     F     3  Length in coverage units
+      >21  SPIPES#         4     5     B     -  Unique coverage feature number
+      >25  SPIPES-ID       4     5     B     -  User defined ID
+      >29  SSSYID          7     7     C     -  System ID
+      >36  SSPICSTR        4     4     B     -  Original construction date
+      >40  SSPIRENV        4     4     B     -  Latest renovation date
+      >44  SSPIMATR       25    25     C     -  Material type
+      >69  SSPIDIAM        4     2     B     -  Pipe diameter
+      >73  SSPITYPGV      15    15     C     -  Type of flow (gravity, pressure)
+      >88  SSTYIOC        15    15     C     -  Pipe utilization (outfall, collection)
+      >
+      >WSP2CONT.DBF Contact and Owner attribute table.
+      >COLUMN ITEM NAME WIDTH OUTPUT TYPE  DEC  DESCRIPTION
+      >1    COUNTY         3     3     C     -  County FIPS Code
+      >4    FEATID        13    13     C     -  Feature ID for linking tables
+      >17   SYSID          7     7     C     -  System Id number
+      >24   OWNERID        5     5     C     -  HUA defined ID Number
+      >29   OWNAME        50    50     C     -  Owner name
+      >79   CONTACT       48    48     C     -  Contact name
+      >127  PHONE         11    11     C     -  Contact phone number
+      >138  DATA         103   103     C     -  Type of information collected
+      >241  CITY          19    19     C     -  Contact city
+      >260  ST             4     4     C     -  Contact state
+      >264  ZIP            6     6     C     -  Contact zip code
+      >270  ENGINEER_N    40    40     C     -  Name of HUA engineer
+      >310  ENG_PHONE     12    12     C     -  HUA engineer phone number
+      >HUA is Hobbs, Upchurch & Associates
+
+      This table"Owner and Contact Table" can be used by performing a join with
+      the fields FeatID and The feature ID field with any one of the themes (ie:
+      Intakes, Wsysa, Etc.) The information in this table will tell who HUA
+      contacted and the types of data received from that person or system.
+    Entity_and_Attribute_Detail_Citation:
+      and Sanitary Sewer Systems, Version 2.2; State of North Carolina;
+      Center for Geographic Information and Analysis; 301 North Wilmington
+      Street; Suite 700; Raleigh, NC 27601-2825; April 1997.
+      This document is available online through the
+      www.cgia.state.nc.us/gicc/index.html
+      Geographic Information North Carolina, Geographic Information
+      Coordinating Council Web Page</A>.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/spipes.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

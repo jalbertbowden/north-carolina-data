@@ -1,0 +1,416 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC Shellfish Sanitation and Recreational Water Quality Section
+      Publication_Date: 20130627
+      Title: Shellfish Growing Areas
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Morehead City, NC
+        Publisher: NC Shellfish Sanitation and Recreational Water Quality Section
+  Description:
+    Abstract: The North Carolina (NC) Department of Environment and Natural Resources (DENR) Division of Marine Fisheries (DMF) - Shellfish Sanitation and Recreational Water Quality Section (SSRWQ) identifies Designated Shellfish Growing Areas (SGA) covering the entire NC coast.  The SSRWQ performs water sampling at designated stations throughout the year to determine the extent of contamination of waters in each SGA. Based on these results, shoreline survey information, and hydrographic factors, the DMF disseminates proclamations to create closed harvesting areas with specified closure boundaries, in which the harvest of shellfish is prohibited.  Waters within each SGA may be permanently closed (prohibited), open (approved), or subject to being opened or closed (conditionally approved  open or conditionally approved  closed) based on an existing management plan for the area.
+    Purpose: To delineate the designated shellfish growing areas of North Carolina and the classify harvesting areas within each SGA.
+    Supplemental_Information: For online maps of growing areas and more information, see http://portal.ncdenr.org/web/mf/shellfish-sanitation-and-recreational-water-quality/maps.htm. A shapefile of this dataset may be downloaded at http://www.nconemap.com.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20130627
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -79.073262
+      East_Bounding_Coordinate: -75.355695
+      North_Bounding_Coordinate: 36.591781
+      South_Bounding_Coordinate: 33.736641
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: boundaries
+      Theme_Keyword: environment
+      Theme_Keyword: health
+      Theme_Keyword: oceans
+    Theme:
+      Theme_Keyword_Thesaurus: EPA GIS Keyword Thesaurus
+      Theme_Keyword: Environment
+      Theme_Keyword: Estuary
+      Theme_Keyword: Health
+      Theme_Keyword: Water
+    Theme:
+      Theme_Keyword_Thesaurus: Shellfish Sanitation
+      Theme_Keyword: FDA
+      Theme_Keyword: Growing Areas
+      Theme_Keyword: Pollution
+      Theme_Keyword: Sanitation
+      Theme_Keyword: Shellfish
+      Theme_Keyword: Water Quality
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: North Carolina
+      Place_Keyword: United States
+  Access_Constraints: None.
+  Use_Constraints: This data consists of shellfish growing area classifications valid as of 06/27/2013. Acknowledgement of products derived from this data set should cite the following: North Carolina Department of Natural Resources (NCDENR), Division of Marine Fisheries, Shellfish Sanitation and Recreational Water Quality Section. While efforts have been made to ensure that this data is accurate and reliable within the state of the art, NCDENR cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Shellfish Sanitation and Recreational Water Quality Section
+        Contact_Person: Brad Pogue
+      Contact_Position: GIS Analyst
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: P.O. Box 769
+        Address: 3441 Arendell St
+        City: Morehead City
+        State_or_Province: NC
+        Postal_Code: 28557
+      Contact_Voice_Telephone: (252) 726-6827
+      Contact_Facsimile_Telephone: (252) 726-8475
+      Contact_Electronic_Mail_Address: brad.pogue@ncdenr.gov
+      Contact_Instructions: http://portal.ncdenr.org/web/mf/shellfish-sanitation-and-recreational-water-quality/
+  Data_Set_Credit:
+    Shellfish Sanitation and Recreational Water Quality Section of the NC Division of Marine Fisheries;
+    NC Division of Marine Fisheries
+  Security_Information:
+    Security_Classification_System: FIPS Pub 199
+    Security_Classification: No Confidentiality
+    Security_Handling_Description: Standard Technical Controls
+  Native_Data_Set_Environment: Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.3500
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: The Shellfish Sanitation and Recreational Water Quality Section delineated the boundaries and associated classifications based on program documents.
+  Logical_Consistency_Report: Topologically clean. Verified using topology tools in ArcGIS Desktop 9.x.
+  Completeness_Report: Dataset is a complete representation of all shellfish growing areas in North Carolina.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Using a GIS software (ESRI's ARCGIS) polygons were created to represent shellfish growing areas as well as non-growing areas for a complete representation of coastal areas. Shellfish growing areas were delineated using 1:24,000-scale maps, 1:12,000-scale ortho imagery, and 1:200-scale GPS points for reference. GPS data collected using Trimble GeoXT handheld GPS units in the field. Data has been differentially corrected, either in real-time or through post-processing, in order to reduce error. Corrected data should achieve sub-meter accuracy, according to manufacturer specifications.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Geological Survey
+          Publication_Date: 1990
+          Title: USGS 7.5 Minute series quadrangles
+          Geospatial_Data_Presentation_Form: Digital geospatial data
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: US Geological Survey
+          Other_Citation_Details: Published map series
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1938
+            Ending_Date: 1990
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Digital files used to delineate the boundaries
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Counties of North Carolina
+          Publication_Date: Unknown
+          Publication_Time: Unknown
+          Title: County digital orthophotograpy
+          Geospatial_Data_Presentation_Form: Digital geospatial data
+          Publication_Information:
+            Publication_Place: varies by county
+            Publisher: varies by county
+          Other_Citation_Details: none
+      Source_Scale_Denominator: 12000
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: unknown
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: none
+      Source_Contribution: Reference layer used to delineate the boundaries
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Shellfish Sanitation and Recreational Water Quality Section
+          Publication_Date: Unknown
+          Publication_Time: Unknown
+          Title: None
+          Geospatial_Data_Presentation_Form: Digital geospatial data
+          Publication_Information:
+            Publication_Place: varies by county
+            Publisher: Shellfish Sanitation and Recreational Water Quality Section
+          Other_Citation_Details: none
+      Source_Scale_Denominator: 200
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: unknown
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: GPS
+      Source_Contribution: Reference points used to delineate the boundaries
+    Process_Step:
+      Process_Description: GPS points collected with mapping grade GPS receivers, data post-processed with Trimble software, points entered into GIS,  points used to create boundary lines and the closing of polygons to determine areas.
+      Process_Date: Unknown
+    Process_Step:
+      Process_Description: Points entered into GIS;  points used to create boundary lines and the closing of polygons to determine areas.
+      Process_Date: Unknown
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 8994
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 8994
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 8994
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 4
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 421
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.100000
+          Ordinate_Resolution: 0.100000
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Shellfish Growing Areas
+      Entity_Type_Definition: Polygons for Shellfish Growing Areas dataset. The SGA contain waters that are permanently closed (prohibited), open (approved), or subject to being opened or closed (conditionally approved - open or conditionally approved - closed).
+      Entity_Type_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: DSHA_NAME
+      Attribute_Definition: Name of Designated Shellfish Harvesting Area (DSHA)
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary (example: 'A-1').
+    Attribute:
+      Attribute_Label: DSHA_ID
+      Attribute_Definition: Name of Designated Shellfish Harvesting Area.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary (example: 'A-1').
+    Attribute:
+      Attribute_Label: HA_CLASS
+      Attribute_Definition: Harvest area classification by DEH-SSB.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Approved
+          Enumerated_Domain_Value_Definition: Open to shellfish harvesting.
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CSHA-Prohibited
+          Enumerated_Domain_Value_Definition: Closed to shellfish harvesting.
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Conditionally Approved - Closed
+          Enumerated_Domain_Value_Definition: Closed, conditionally, to shellfish harvesting.
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Conditionally Approved - Open
+          Enumerated_Domain_Value_Definition: Open, conditionally, to shellfish harvesting.
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+    Attribute:
+      Attribute_Label: HA_CLASSID
+      Attribute_Definition: Harvest area classification identifier
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: APP
+          Enumerated_Domain_Value_Definition: Approved
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CHSA-P
+          Enumerated_Domain_Value_Definition: CSHA-Prohibited
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CA-C
+          Enumerated_Domain_Value_Definition: Conditionally Approved - Closed
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CA-O
+          Enumerated_Domain_Value_Definition: Conditionally Approved - Open
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+    Attribute:
+      Attribute_Label: HA_NAME
+      Attribute_Definition: Name of harvest area.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary.
+    Attribute:
+      Attribute_Label: HA_STATUS
+      Attribute_Definition: Harvest area status.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: open
+          Enumerated_Domain_Value_Definition: Harvest area open to shellfishing.
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: closed
+          Enumerated_Domain_Value_Definition: Harvest area closed to shellfishing.
+          Enumerated_Domain_Value_Definition_Source: Shellfish Sanitation and Recreational Water Quality Section
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County in which growing are is located.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary.
+    Attribute:
+      Attribute_Label: SURFACE
+      Attribute_Definition: Type of surface feature for polygon.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: water
+          Enumerated_Domain_Value_Definition: Surface waters.
+          Enumerated_Domain_Value_Definition_Source: DWQ mapping, USGS quadrangles, aerial imagery
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: mhw
+          Enumerated_Domain_Value_Definition: Mean high waters.
+          Enumerated_Domain_Value_Definition_Source: DWQ mapping, USGS quadrangles, aerial imagery
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: land
+          Enumerated_Domain_Value_Definition: Land.
+          Enumerated_Domain_Value_Definition_Source: DWQ mapping, USGS quadrangles, aerial imagery
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: canal
+          Enumerated_Domain_Value_Definition: Man-made canals.
+          Enumerated_Domain_Value_Definition_Source: DWQ mapping, USGS quadrangles, aerial imagery
+    Attribute:
+      Attribute_Label: CREATED
+      Attribute_Definition: Date polygon was created.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Dates vary.
+    Attribute:
+      Attribute_Label: UPDATED
+      Attribute_Definition: Date polygon status was updated.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Dates vary.
+    Attribute:
+      Attribute_Label: ACRES
+      Attribute_Definition: Calculated acreage of polygon.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary.
+    Attribute:
+      Attribute_Label: SQ_MILES
+      Attribute_Definition: Calculated square mileage of polygon.
+      Attribute_Definition_Source: NC Shellfish Sanitation and Recreational Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary.
+  Overview_Description:
+    Entity_and_Attribute_Overview: Locations of shellfish growing areas.
+    Entity_and_Attribute_Detail_Citation: None available
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Shellfish Sanitation and Recreational Water Quality Section
+        Contact_Person: Brad Pogue
+      Contact_Position: GIS Analyst
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: P.O. Box 769
+        Address: 3441 Arendell St
+        City: Morehead City
+        State_or_Province: NC
+        Postal_Code: 28557
+      Contact_Voice_Telephone: (252) 726-6827
+      Contact_Facsimile_Telephone: (252) 726-8475
+      Contact_Electronic_Mail_Address: brad.pogue@ncdenr.gov
+      Contact_Instructions: http://portal.ncdenr.org/web/mf/shellfish-sanitation-and-recreational-water-quality/
+  Resource_Description: Downloadable Data
+  Distribution_Liability: This GIS data product is made available as a public service.  It is to be used for reference purposes only and is not to be construed as a legal document or survey instrument.  It is understood that the origin of the information contained in this GIS data product is subject to constant change, and that its accuracy cannot be guaranteed.  NC DENR makes no warranty, representation or guaranty as to the content, sequence, accuracy, timeliness or completeness of any of the database information provided herein.  No responsibility is assumed for damages or other liabilities due to the accuracy, availability, use or misuse of the information herein provided.  This GIS data product has been developed using public funds and is therefore in the public domain.  Users agree that they will not sell this data, will not sell access to the data, nor will they provide for such to be sold except as allowed in NC General Statutes Chapter 132.  GIS information may be copied without permission; citation of the source is appreciated.  Metadata should accompany this dataset at all times.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/sga.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Contact Shellfish Sanitation and Recreation Water Quality Section.
+  Available_Time_Period:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20130627
+Metadata_Reference_Information:
+  Metadata_Date: 20130627
+  Metadata_Future_Review_Date: 20140101
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Shellfish Sanitation and Recreational Water Quality Section
+        Contact_Person: Brad Pogue
+      Contact_Position: GIS Analyst
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: P.O. Box 769
+        Address: 3441 Arendell St
+        City: Morehead City
+        State_or_Province: NC
+        Postal_Code: 28557
+      Contact_Voice_Telephone: (252) 726-6827
+      Contact_Facsimile_Telephone: (252) 726-8475
+      Contact_Electronic_Mail_Address: brad.pogue@ncdenr.gov
+      Contact_Instructions: http://portal.ncdenr.org/web/mf/shellfish-sanitation-and-recreational-water-quality/
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None

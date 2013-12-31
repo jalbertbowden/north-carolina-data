@@ -1,0 +1,526 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC Dept. of Administration, State Property Office
+      Publication_Date: 20120402
+      Title: State-Owned Lands
+      Geospatial_Data_Presentation_Form: Map
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NC Dept. of Administration, State Property Office
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: Metadata - www.nconemap.com
+  Description:
+    Abstract:
+      The North Carolina Department of Administration, State
+      Property Office, in cooperation with the NC Center for Geographic
+      Information and Analysis, developed the GIS data set, State-owned
+      Complexes, to define the exterior boundaries of state-owned complexes
+      in North Carolina; e.g.:DOT maintenance yards, state parks, state
+      universities, etc.
+    Purpose:
+      This data was created to assist governmental agencies
+      and others in making resource management decisions through use of a Geographic Information System (GIS).
+    Supplemental_Information:
+      Revisions and updates to this layer include:
+      18.) Regular update.  Febraury 2, 2012
+      17.) Regular update.  September 9, 2010
+      16.) Regular update.  Febuarary 1, 2008
+      15.) Regular update.  October 17, 2007
+      14.) Regular update.  January 8, 2007.
+      13.) Regular update.  March 13, 2006.
+      12.) Regular update.  May 4, 2004.
+      11.) Regular update.  November 3, 2003.
+      10.) Regular update.  July 22, 2002.
+      9.) Regular update.  March 29, 2000.
+      8.) The June 28, 1999 update includes addition of
+      several polygons to the coverage and deletion of the arc attribute
+      table (.aat).
+      7.) The December 1998 update to this layer consisted
+      of projecting the data from NAD27 datum, State Plane projection, units
+      of measure feet TO: NAD83 DATUM, State Plane PROJECTION, UNITS OF MEASURE
+      METERS.  This was done to comply with the NC Geographic Information
+      Coordinating Council's "Statement of Direction for North Carolina
+      Corporate Geographic Database Horizontal Reference, Datum and Unit of
+      Measure".  This reprojecting was done in various ways depending on the
+      data type and content.  Vector data was projected using the 'project'
+      command in ESRI's Arc software and topology was cleaned and built based
+      on coverage needs.  Raster data was projected using ESRI's Grid module
+      and various steps as applicable.
+      6.) Revision on April 28, 1998 consisted of
+      the addition of several complexes.
+      5.) Revision on August 8, 1996 consisted
+      of the addition of several complexes.
+      4.) (previously named nc.soc995)
+      The September 8, 1995 revision consisted of the addition of
+      several complexes, as well as polygon attribute item changes.
+      3.) (previously named nc.soc1094)
+      The October 26, 1994 revision consisted of the removal of
+      a bogus polygon.
+      2.) (previously named nc.soc794)
+      The July 14, 1994 update consisted of replacing lookup tables
+      with new items in the polygon attribute table.
+      1.) (previously named nc.soc793)
+      The July 1993 file was still a current representation as
+      of February 18, 1994.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 199307
+        Ending_Date: present
+    Currentness_Reference: Data creation and revision dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -83.9143
+      East_Bounding_Coordinate: -75.4816
+      North_Bounding_Coordinate: 36.5453
+      South_Bounding_Coordinate: 33.7371
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: State property
+      Theme_Keyword: Public property
+      Theme_Keyword: State complexes
+      Theme_Keyword: State ownership
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: planningCadastre
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina
+        GAZETTEER, A Dictionary of Tar Heel Places,(Chapel Hill: University
+        of North Carolina Press, August 1984).
+      Place_Keyword: North Carolina
+      Place_Keyword: statewide
+  Access_Constraints:
+    Spatial data accuracy varies greatly in this data layer due to the
+    wide variety of data sources used for compilation.  This spatial data
+    layer should be used for illustrative and planning purposes only, and
+    should not be accepted as definitive in any legal dispute or other
+    situation where precise ownership data is required.  The SPO can provide
+    some information concerning the source data and compilation method used
+    for complexes in particular counties.  The State Property Office is notified
+    monthly of the users of this data.
+
+    DISCLAIMER: The State Property Office databases are continually updated
+    as new information is acquired.  The locational database at CGIA is
+    updated as needed for applications.  Users should determine from CGIA
+    the date of the last update, and if necessary, see that an update is
+    done prior to their application being run.  All printed maps from the
+    GIS should be dated.  Depending on activity in a given area, a map may
+    quickly become outdated, or may remain current for several years.  It
+    is not possible to set a specific expiration date on maps; however,
+    you may wish to check with the State Property Office for accuracy.
+    All land records have a start date and were entered into the
+    GIS with the best knowledge available from several different sources.
+    The State Property Office is planning to go through a reconciliation
+    process in 1994, which would hopefully clear up any discrepancies.
+  Use_Constraints:
+    Acknowledgement of products derived form this data set should cite the
+    following: The source of the State-owned Complexes data is the NC OneMap.
+    Earlier versions of this data set may exist. The user must be sure to use
+    the appropriate data set for the time period of interest.  While efforts
+    have been made to ensure that these data are accurate and reliable within
+    the state of the art, CGIA cannot assume liability for any damages or
+    misrepresentation caused by any inaccuracies in the data or as a result
+    of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Jeff Mulligan
+        Contact_Organization: NC Dept. of Administration, State Property Office
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 116 W. Jones Street
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27601-2825-8003
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 807-4675
+      Contact_Facsimile_Telephone: (919) 733-1431
+      Hours_of_Service: 8:00am to 5:00pm
+      Contact_Instructions: Preferred contact is by mail or telephone.
+  Data_Set_Credit:
+    NC Dept. of Administration; State Property Office
+    NC Dept. of Environement and Natural Resources; North Carolina Center for Geographic Information and Analysis
+  Native_Data_Set_Environment: Microsoft Windows; ESRI ArcGIS
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Data was checked for errors.
+  Logical_Consistency_Report:
+    Using ESRI's Arc/Info GIS software, the data set was built for
+    arc and polygon topology using the "build" command. Topology
+    has not been edited since the last build or clean.
+  Completeness_Report:
+    These data show the extents of state-owned complexes
+    throughout the state.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Data were supplied by the counties.  Since each was in
+        its own stage of data development, error tolerances for
+        sites varied depending on how the data were originally
+        furnished. Contact SPO for details on a particular site.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC Dept. of Administration, State Property Office
+          Publication_Date: 19980430
+          Title: State-owned Complexes
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC Dept. of Administration, State Property Office
+          Other_Citation_Details: Data is updated as needed
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 199307
+            Ending_Date: 20101025
+        Source_Currentness_Reference: Publication Date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Exterior boundaries of state-owned complexes in a digital file.
+    Process_Step:
+      Process_Description:
+        Data were supplied by the counties in the state.
+        Since each county was at their own stage of data
+        development, complex sites were furnished by means
+        of digital cadastral data, paper orthophoto quads,
+        paper maps, or deeds.  Scales of maps varied from
+        1:50 through 1:24,000. Those sites delineated on
+        maps were digitized and then appended to data
+        originally supplied in digital form, to produce
+        a final file.
+      Process_Date: 19980430
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Jeff Mulligan
+            Contact_Organization: NC Dept. of Administration, State Property Office
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 512 N. Salisbury Street
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27604-1148
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 807-4675
+          Contact_Facsimile_Telephone: (919) 733-1431
+          Hours_of_Service: 8:00am to 5:00pm
+          Contact_Instructions: Preferred contact is by phone or mail.
+    Process_Step:
+      Process_Description:
+        Boundaries and attributes were supplied
+        to CGIA for input into NC OneMap geodatabase.
+      Process_Date: 20080201
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: North Carolina Center for Geographic Information and Analysis
+            Contact_Person: David Giordano
+          Contact_Position: Database Administration
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: _Method: Complex name, location
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 4907
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.001877
+          Ordinate_Resolution: 0.001877
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: State-owned properties
+      Entity_Type_Definition: Areas owned by the State of North Carolina
+      Entity_Type_Definition_Source: NC Dept of Administration, State Property Office
+    Attribute:
+      Attribute_Label: AREA
+      Attribute_Definition: Total area in coverage units
+      Attribute_Definition_Source: software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.202
+          Range_Domain_Maximum: 194285104.000
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: .001
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SOL-ID
+      Attribute_Definition: Polygon internal identification number
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 4480
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: CTY
+      Attribute_Definition: Complex type
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Polygon is part or all of state-owned complex
+          Enumerated_Domain_Value_Definition_Source: NC Dept. of Administration, State Property Office
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Blank
+          Enumerated_Domain_Value_Definition:
+            Polygon is an island and not state-owned property
+            (surrounded by state-owned property)
+          Enumerated_Domain_Value_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: CO
+      Attribute_Definition: County number
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 100
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: COMP
+      Attribute_Definition: Complex number (within county)
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Complex number used internally
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: ASSET
+      Attribute_Definition: Land asset number
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 273
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RELASSET
+      Attribute_Definition: Link ID to land asset table
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Link ID used internally
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: GRAPHIC_DA
+      Attribute_Definition: Graphic date (Contact the SPO office for details)
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Dates vary in length and number of characters
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: BUILD_NAME
+      Attribute_Definition: Building Name (Contact the SPO office for details)
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary in length and number of characters
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: RELCOMP
+      Attribute_Definition: Link ID to complex table
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Link ID used internally
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: SPO_FILE
+      Attribute_Definition: SPO file number
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: File number used internally
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DEED_ACRES
+      Attribute_Definition: Deed acreage
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 47,821.9
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: GIS_ACRES
+      Attribute_Definition: Calculated acreage
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 47,861
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: COMPLEX_NA
+      Attribute_Definition: Name of state-owned compelx
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DEPT_NAME
+      Attribute_Definition: Name of department.
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DIV_NAME
+      Attribute_Definition: Name of division.
+      Attribute_Definition_Source: NC Dept. of Administration, State Property Office
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary.
+      Attribute_Measurement_Frequency: As needed
+  Overview_Description:
+    Entity_and_Attribute_Overview: A dataset depicting boundaries of state-owned complexes in North Carolina.
+    Entity_and_Attribute_Detail_Citation: None
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Production Services
+      Contact_Address:
+        Address_Type: Physical
+        Address: 301 N. Wilmington Street, Suite 700
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27601-2825
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 733-2090
+      Contact_Facsimile_Telephone: (919) 715-0725
+      Contact_Electronic_Mail_Address: dataq@ncmail.net
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Resource_Description: State-Owned Complexes
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/sol.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process:
+    Data can be customized on a cost-recovery basis. Contact
+    dataq@ncmail.net or 919-733-2090 for more information.
+  Technical_Prerequisites:
+    All formats available from www.nconemap.com are in ESRI shapefile.
+    Other formats are available on a cost-recovery basis - contact
+    dataq@ncmail.net or 919.733.2090 for more information. Format
+    compatibility is the user's responsibility.
+  Available_Time_Period:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 199307
+        Ending_Date: Present
+Metadata_Reference_Information:
+  Metadata_Date: 20120411
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Management
+      Contact_Address:
+        Address_Type: Physical
+        Address: 301 N. Wilmington Street, Suite 700
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27601-2825
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 733-2090
+      Contact_Facsimile_Telephone: (919) 715-0725
+      Contact_Electronic_Mail_Address: dataq@nc.mail.net
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints:
+    This metadata file is to
+    accompany the dataset. NCCGIA does not support secondary
+    distribution of this dataset without its current,
+    compliant metadata record. If the dataset described
+    in this metadata record was received from anyone
+    besides NCCGIA, this metadata and the dataset it
+    describes may contain discrepancies.

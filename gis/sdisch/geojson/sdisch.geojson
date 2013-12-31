@@ -1,0 +1,435 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 1, "SDISCH_ID": 1, "SSTPDCID": "0020648001", "SSDCLOC": "@ TAR RIVER", "SSDCCSTR": 1995, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 784266.749299, 201436.437002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 2, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 2, "SDISCH_ID": 2, "SSTPDCID": "0021521001", "SSDCLOC": "@ SOUTH CREEK", "SSDCCSTR": 1965, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 811842.313299, 173721.140002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 3, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 3, "SDISCH_ID": 3, "SSTPDCID": "0026492001", "SSDCLOC": "@ BATTALINA CREEK", "SSDCCSTR": 1970, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 826334.375299, 201339.782002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 4, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 4, "SDISCH_ID": 4, "SSTPDCID": "0026751001", "SSDCLOC": "BROAD BRANCH", "SSDCCSTR": 1974, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 794522.811299, 249680.954002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 5, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 5, "SDISCH_ID": 5, "SSTPDCID": "0023116001", "SSDCLOC": "CASHIE RIVER", "SSDCCSTR": 1969, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 774391.999299, 265434.406002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 6, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 6, "SDISCH_ID": 6, "SSTPDCID": "0026352001", "SSDCLOC": "BRYANT SWAMP", "SSDCCSTR": 1970, "SSDCRENV": 1980, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 627537.063299, 87533.657002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 7, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 7, "SDISCH_ID": 7, "SSTPDCID": "0021610001", "SSDCLOC": "BROWN MARSH SWAMP", "SSDCCSTR": 1960, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 642786.250299, 80259.298002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 8, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 8, "SDISCH_ID": 8, "SSTPDCID": "0026671001", "SSDCLOC": "CAPE FEAR RIVER", "SSDCCSTR": 1978, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 647226.125299, 97867.906002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 9, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 9, "SDISCH_ID": 9, "SSTPDCID": "0023353001", "SSDCLOC": "COLLY CREEK", "SSDCCSTR": 1961, "SSDCRENV": 1988, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 658938.125299, 98143.243002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 10, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 10, "SDISCH_ID": 10, "SSTPDCID": "0021334001", "SSDCLOC": "INTRACOASTAL WATERWAY", "SSDCCSTR": 1967, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 698902.875299, 18992.004002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 11, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 11, "SDISCH_ID": 11, "SSTPDCID": "0065676001", "SSDCLOC": "CAPE FEAR RIVER @ NAVASSA", "SSDCCSTR": 1987, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 701541.688299, 58411.590002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 12, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 12, "SDISCH_ID": 12, "SSTPDCID": "0075540001", "SSDCLOC": "@ BRUNSWICK RIVER", "SSDCCSTR": 1990, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 703896.749299, 52439.043002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 13, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 13, "SDISCH_ID": 13, "SSTPDCID": "0040011001", "SSDCLOC": "COUNTRY LINE CREEK", "SSDCCSTR": 1963, "SSDCRENV": 1984, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 579103.624299, 292769.780002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 14, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 14, "SDISCH_ID": 14, "SSTPDCID": "0026441001", "SSDCLOC": "LOVES CREEK", "SSDCCSTR": 1930, "SSDCRENV": 1990, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 571052.938299, 219819.517002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 15, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 15, "SDISCH_ID": 15, "SSTPDCID": "0020354001", "SSDCLOC": "ROBESON CREEK", "SSDCCSTR": 1970, "SSDCRENV": 1988, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 594328.562299, 217917.688002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 16, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 16, "SDISCH_ID": 16, "SSTPDCID": "0035866001", "SSDCLOC": "HAW RIVER", "SSDCCSTR": 1977, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 597203.938299, 223904.656002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 17, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 17, "SDISCH_ID": 17, "SSTPDCID": "0026000001", "SSDCLOC": "TOWN CANNAL", "SSDCCSTR": 1971, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 622810.813299, 44244.524002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 18, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 18, "SDISCH_ID": 18, "SSTPDCID": "0020729001", "SSDCLOC": "LUMBER RIVER", "SSDCCSTR": 1960, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 605851.999299, 62802.656002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 19, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 19, "SDISCH_ID": 19, "SSTPDCID": "0021881001", "SSDCLOC": "BOGUE SWAMP", "SSDCCSTR": 1971, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 650240.187299, 59362.051002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 20, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 20, "SDISCH_ID": 20, "SSTPDCID": "0021865001", "SSDCLOC": "SOULES SWAMP", "SSDCCSTR": 1972, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 628362.374299, 63638.903002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 21, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 21, "SDISCH_ID": 21, "SSTPDCID": "0021920001", "SSDCLOC": "WHITE MARSH SWAMP", "SSDCCSTR": 1972, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 639642.813299, 64361.114002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 22, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 22, "SDISCH_ID": 22, "SSTPDCID": "0025313002", "SSDCLOC": "@ BUZZARD BAY SOUND", "SSDCCSTR": 1972, "SSDCRENV": 1990, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 909512.187299, 253097.235002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 23, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 23, "SDISCH_ID": 23, "SSTPDCID": "0079057001", "SSDCLOC": "@ SHALLOWBAG BAY", "SSDCCSTR": 1993, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 910566.000299, 244441.437002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 24, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 24, "SDISCH_ID": 24, "SSTPDCID": "0020702001", "SSDCLOC": "ROCKFISH CREEK", "SSDCCSTR": 1954, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 703460.812299, 107927.391002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 25, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 25, "SDISCH_ID": 25, "SSTPDCID": "0056863001", "SSDCLOC": "ISLAND CREEK", "SSDCCSTR": 1985, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 700401.249299, 118870.250002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 26, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 26, "SDISCH_ID": 26, "SSTPDCID": "0020346001", "SSDCLOC": "MILLERS CREEK", "SSDCCSTR": 1981, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 694657.561299, 128091.929002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 27, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 27, "SDISCH_ID": 27, "SSTPDCID": "0026018001", "SSDCLOC": "PERSIMMONS CREEK", "SSDCCSTR": 1963, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 722574.062299, 129581.751002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 28, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 28, "SDISCH_ID": 28, "SSTPDCID": "0036668001", "SSDCLOC": "GROVE CREEK", "SSDCCSTR": 1971, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 703960.374299, 135914.468002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 29, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 29, "SDISCH_ID": 29, "SSTPDCID": "0021903001", "SSDCLOC": "STEWARTS CREEK", "SSDCCSTR": 1981, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 693606.438299, 138401.156002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 30, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 30, "SDISCH_ID": 30, "SSTPDCID": "0020231001", "SSDCLOC": "TAR RIVER", "SSDCCSTR": 1993, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 673342.563299, 259482.141002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 31, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 31, "SDISCH_ID": 31, "SSTPDCID": "0069311001", "SSDCLOC": "CEDAR CREEK", "SSDCCSTR": 1988, "SSDCRENV": 1996, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 661344.437299, 257327.905002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 32, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 32, "SDISCH_ID": 32, "SSTPDCID": "0042269001", "SSDCLOC": "CROOKED CREEK", "SSDCCSTR": 1979, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 676351.124299, 243649.375002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 33, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 33, "SDISCH_ID": 33, "SSTPDCID": "0026824001", "SSDCLOC": "REEDS CREEK", "SSDCCSTR": 1942, "SSDCRENV": 1970, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 627579.563299, 262929.282002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 34, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 34, "SDISCH_ID": 34, "SSTPDCID": "0025054001", "SSDCLOC": "BETTY OAKLEY BRANCH", "SSDCCSTR": 1988, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 647256.999299, 281792.500002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 35, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 35, "SDISCH_ID": 35, "SSTPDCID": "0061492001", "SSDCLOC": "CONTENTNEA CREEK", "SSDCCSTR": 1968, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 738366.000299, 187432.844002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 36, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 36, "SDISCH_ID": 36, "SSTPDCID": "0025712001", "SSDCLOC": "CONTENTNEA CREEK", "SSDCCSTR": 1968, "SSDCRENV": 1974, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 737605.250299, 187082.265002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 37, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 37, "SDISCH_ID": 37, "SSTPDCID": "0020842001", "SSDCLOC": "CONTENTNEA CREEK", "SSDCCSTR": 1962, "SSDCRENV": 1980, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 730942.625299, 190327.657002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 38, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 38, "SDISCH_ID": 38, "SSTPDCID": "0020362001", "SSDCLOC": "CONTENTNEA CREEK", "SSDCCSTR": 1970, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 729126.999299, 207630.218002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 39, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 39, "SDISCH_ID": 39, "SSTPDCID": "0025402001", "SSDCLOC": "FISHING CREEK (NEW)", "SSDCCSTR": 1997, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 727230.311299, 267138.469002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 40, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 40, "SDISCH_ID": 40, "SSTPDCID": "0025402002", "SSDCLOC": "BEACH SWAMP (OLD)", "SSDCCSTR": 1950, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 730755.063299, 271395.656002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 41, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 41, "SDISCH_ID": 41, "SSTPDCID": "0025691001", "SSDCLOC": "BUTTERWOOD CREEK", "SSDCCSTR": 1980, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 707742.000299, 296187.688002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 42, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 42, "SDISCH_ID": 42, "SSTPDCID": "0066192001", "SSDCLOC": "QUANKEY CREEK", "SSDCCSTR": 1987, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 736519.751299, 286041.437002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 43, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 43, "SDISCH_ID": 43, "SSTPDCID": "0023337001", "SSDCLOC": "DEEP CREEK", "SSDCCSTR": 1967, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 750668.750299, 263854.531002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 44, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 44, "SDISCH_ID": 44, "SSTPDCID": "0025721001", "SSDCLOC": "ROANOKE RIVER", "SSDCCSTR": 1961, "SSDCRENV": 1994, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 737110.437299, 297555.313002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 45, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 45, "SDISCH_ID": 45, "SSTPDCID": "0024201001", "SSDCLOC": "ROANOKE RIVER", "SSDCCSTR": 1965, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 734245.938299, 298996.499002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 46, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 46, "SDISCH_ID": 46, "SSTPDCID": "0030091001", "SSDCLOC": "CAPE FEAR RIVER @ BUIES CRK.", "SSDCCSTR": 1971, "SSDCRENV": 1984, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 631909.250299, 181235.813002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 47, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 47, "SDISCH_ID": 47, "SSTPDCID": "0021636001", "SSDCLOC": "CAPE FEAR", "SSDCCSTR": 1960, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 627782.624299, 183254.641002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 48, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 48, "SDISCH_ID": 48, "SSTPDCID": "0082597001", "SSDCLOC": "CAPE FEAR", "SSDCCSTR": 1995, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 630740.374299, 182647.110002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 49, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 49, "SDISCH_ID": 49, "SSTPDCID": "0043176001", "SSDCLOC": "CAPE FEAR", "SSDCCSTR": 1979, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 638235.813299, 171282.109002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 50, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 50, "SDISCH_ID": 50, "SSTPDCID": "0064521001", "SSDCLOC": "CAPE FEAR", "SSDCCSTR": 1988, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 637593.376299, 173378.860002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 51, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 51, "SDISCH_ID": 51, "SSTPDCID": "0026514001", "SSDCLOC": "ROCKFISH CREEK", "SSDCCSTR": 1960, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 591995.000299, 136221.422002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 52, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 52, "SDISCH_ID": 52, "SSTPDCID": "0046728001", "SSDCLOC": "DYE BRANCH CREEK", "SSDCCSTR": 1983, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 448025.625299, 198378.673002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 53, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 53, "SDISCH_ID": 53, "SSTPDCID": "0026832001", "SSDCLOC": "BIG BRANCH CREEK", "SSDCCSTR": 1970, "SSDCRENV": 1996, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 437720.718299, 216897.391002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 54, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 54, "SDISCH_ID": 54, "SSTPDCID": "0031836002", "SSDCLOC": "FOURTH CREEK", "SSDCCSTR": 1979, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 443206.782299, 222069.828002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 55, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 55, "SDISCH_ID": 55, "SSTPDCID": "0020591001", "SSDCLOC": "THIRD CREEK", "SSDCCSTR": 1969, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 447438.126299, 226235.266002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 56, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 56, "SDISCH_ID": 56, "SSTPDCID": "0021482001", "SSDCLOC": "@ WHITE OAK RIVER", "SSDCCSTR": 1970, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 771065.251299, 127456.625002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 57, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 57, "SDISCH_ID": 57, "SSTPDCID": "0021342001", "SSDCLOC": "TRENT RIVER", "SSDCCSTR": 1979, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 760511.124299, 146474.171002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 58, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 58, "SDISCH_ID": 58, "SSTPDCID": "0024147001", "SSDCLOC": "DEEP RIVER", "SSDCCSTR": 1973, "SSDCRENV": 1994, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 589306.125299, 199784.078002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 59, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 59, "SDISCH_ID": 59, "SSTPDCID": "0059242001", "SSDCLOC": "DANIEL'S CREEK", "SSDCCSTR": 1985, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 607734.250299, 189457.546002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 60, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 60, "SDISCH_ID": 60, "SSTPDCID": "0021644001", "SSDCLOC": "MOSELY CREEK TRIBUTARY", "SSDCCSTR": 1979, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 721197.124299, 173915.735002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 61, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 61, "SDISCH_ID": 61, "SSTPDCID": "0020541001", "SSDCLOC": "NEUSE RIVER", "SSDCCSTR": 1969, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 739820.561299, 166324.499002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 62, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 62, "SDISCH_ID": 62, "SSTPDCID": "0024236001", "SSDCLOC": "NEUSE RIVER", "SSDCCSTR": 1974, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 745877.063299, 171631.578002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 63, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 63, "SDISCH_ID": 63, "SSTPDCID": "0041815001", "SSDCLOC": "HOYLE CREEK", "SSDCCSTR": 1978, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 411964.687299, 189463.219002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 64, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 64, "SDISCH_ID": 64, "SSTPDCID": "0025496001", "SSDCLOC": "SOUTH FORK RIVER", "SSDCCSTR": 1968, "SSDCRENV": 1982, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 404482.468299, 191127.327002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 65, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 65, "SDISCH_ID": 65, "SSTPDCID": "0074012001", "SSDCLOC": "FORNEY CREEK", "SSDCCSTR": 1989, "SSDCRENV": 1996, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 427121.468299, 190454.203002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 66, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 66, "SDISCH_ID": 66, "SSTPDCID": "0026042001", "SSDCLOC": "@ FLAT SWAMP", "SSDCCSTR": 1977, "SSDCRENV": 1989, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 766950.938299, 230112.548002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 67, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 67, "SDISCH_ID": 67, "SSTPDCID": "0044776001", "SSDCLOC": "@ ROANOKE RIVER", "SSDCCSTR": 1977, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 772442.437299, 244088.890002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 68, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 68, "SDISCH_ID": 68, "SSTPDCID": "0020044001", "SSDCLOC": "@ ROANOKE RIVER", "SSDCCSTR": 1963, "SSDCRENV": 1980, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 787561.375299, 235605.656002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 69, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 69, "SDISCH_ID": 69, "SSTPDCID": "0035858001", "SSDCLOC": "@ ROANOKE RIVER", "SSDCCSTR": 1979, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 799104.687299, 231872.515002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 70, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 70, "SDISCH_ID": 70, "SSTPDCID": "0021504001", "SSDCLOC": "HICKORY BRANCH", "SSDCCSTR": 1973, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 537528.812299, 177575.937002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 71, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 71, "SDISCH_ID": 71, "SSTPDCID": "0021105001", "SSDCLOC": "CLARK CREEK", "SSDCCSTR": 1964, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 514606.656299, 162375.906002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 72, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 72, "SDISCH_ID": 72, "SSTPDCID": "0028916003", "SSDCLOC": "DENSON'S CREEK", "SSDCCSTR": 1983, "SSDCRENV": 1996, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 531603.750299, 180492.422002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 73, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 73, "SDISCH_ID": 73, "SSTPDCID": "0058548002", "SSDCLOC": "COTTON CREEK", "SSDCCSTR": 1987, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 539191.000299, 183170.985002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 74, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 74, "SDISCH_ID": 74, "SSTPDCID": "0037508001", "SSDCLOC": "@ DROWNING CREEK", "SSDCCSTR": 1975, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 566856.187299, 146265.078002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 75, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 75, "SDISCH_ID": 75, "SSTPDCID": "0062855001", "SSDCLOC": "@ DEEP RIVER", "SSDCCSTR": 1966, "SSDCRENV": 1988, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 559310.062299, 192003.437002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 76, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 76, "SDISCH_ID": 76, "SSTPDCID": "0074373001", "SSDCLOC": "@ LITTLE RIVER", "SSDCCSTR": 1990, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 583358.874299, 165190.171002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 77, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 77, "SDISCH_ID": 77, "SSTPDCID": "002543701", "SSDCLOC": "BRIDGERS CREEK", "SSDCCSTR": 1990, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 762174.813299, 279775.687002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 78, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 78, "SDISCH_ID": 78, "SSTPDCID": "0025895001", "SSDCLOC": "KINGS CREEK", "SSDCCSTR": 1984, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 745268.499299, 84722.367002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 79, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 79, "SDISCH_ID": 79, "SSTPDCID": "0024121001", "SSDCLOC": "WILSON BAY (NEW RIVER)", "SSDCCSTR": 1978, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 753396.313299, 111153.548002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 80, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 80, "SDISCH_ID": 80, "SSTPDCID": "0036153001", "SSDCLOC": "FOSTER CREEK", "SSDCCSTR": 1970, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 780390.688299, 104718.570002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 81, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 81, "SDISCH_ID": 81, "SSTPDCID": "0023230001", "SSDCLOC": "SQUIRE RUN CREEK", "SSDCCSTR": 1930, "SSDCRENV": 1994, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 743302.438299, 128925.695002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 82, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 82, "SDISCH_ID": 82, "SSTPDCID": "0030813001", "SSDCLOC": "SOUTHWEST CREEK", "SSDCCSTR": 1977, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 742904.937299, 113077.695002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 83, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 83, "SDISCH_ID": 83, "SSTPDCID": "0025011001", "SSDCLOC": "PASQUOTANK RIVER", "SSDCCSTR": 1969, "SSDCRENV": 1989, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 860727.375299, 287424.595002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 84, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 84, "SDISCH_ID": 84, "SSTPDCID": "0007507001", "SSDCLOC": "PASQUOTANK RIVER", "SSDCCSTR": 1995, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 852524.686299, 294759.001002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 85, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 85, "SDISCH_ID": 85, "SSTPDCID": "0021113001", "SSDCLOC": "OSGOOD CANAL", "SSDCCSTR": 1968, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 708176.938299, 90020.938002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 86, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 86, "SDISCH_ID": 86, "SSTPDCID": "0021849001", "SSDCLOC": "PERQUIMANS RIVER @ WWTP", "SSDCCSTR": 1966, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 836598.001299, 275283.344002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 87, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 87, "SDISCH_ID": 87, "SSTPDCID": "0032077001", "SSDCLOC": "CONTENTNEA CREEK", "SSDCCSTR": 1974, "SSDCRENV": 1991, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 754129.063299, 179023.766002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 88, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 88, "SDISCH_ID": 88, "SSTPDCID": "0029572001", "SSDCLOC": "LITTLE CONTENTNEA", "SSDCCSTR": 1977, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 741370.561299, 205162.953002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 89, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 89, "SDISCH_ID": 89, "SSTPDCID": "0061514001", "SSDCLOC": "CONETOE CREEK", "SSDCCSTR": 1960, "SSDCRENV": 1989, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 756201.749299, 227829.593002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 90, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 90, "SDISCH_ID": 90, "SSTPDCID": "0023931001", "SSDCLOC": "TAR RIVER", "SSDCCSTR": 1985, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 762361.251299, 206492.906002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 91, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 91, "SDISCH_ID": 91, "SSTPDCID": "0047562001", "SSDCLOC": "MARK'S CREEK", "SSDCCSTR": 1983, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 543065.251299, 122862.781002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 92, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 92, "SDISCH_ID": 92, "SSTPDCID": "0020427001", "SSDCLOC": "HITCHCOCK CREEK", "SSDCCSTR": 1963, "SSDCRENV": 1993, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 532010.312299, 127890.461002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 93, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 93, "SDISCH_ID": 93, "SSTPDCID": "0021784001", "SSDCLOC": "TOM'S BRANCH", "SSDCCSTR": 1960, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 538561.187299, 148328.406002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 94, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 94, "SDISCH_ID": 94, "SSTPDCID": "0021059001", "SSDCLOC": "PITTMAN MILL BRANCH STREAM", "SSDCCSTR": 1969, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 600007.625299, 82407.836002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 95, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 95, "SDISCH_ID": 95, "SSTPDCID": "0069612001", "SSDCLOC": "BIG SHOE HILL CREEK", "SSDCCSTR": 1988, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 576081.374299, 88990.227002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 96, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 96, "SDISCH_ID": 96, "SSTPDCID": "0027120001", "SSDCLOC": "SHOE CREEK", "SSDCCSTR": 1969, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 576220.687299, 106918.757002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 97, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 97, "SDISCH_ID": 97, "SSTPDCID": "0027103001", "SSDCLOC": "LUMBER RIVER", "SSDCCSTR": 1995, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 590854.687299, 101506.055002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 98, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 98, "SDISCH_ID": 98, "SSTPDCID": "0024571001", "SSDCLOC": "LUMBER RIVER", "SSDCCSTR": 1972, "SSDCRENV": 1997, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 610090.937299, 94600.422002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 99, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 99, "SDISCH_ID": 99, "SSTPDCID": "0025577001", "SSDCLOC": "LITTLE RAFT SWAMP", "SSDCCSTR": 1979, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 594914.688299, 118006.305002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 100, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 100, "SDISCH_ID": 100, "SSTPDCID": "0020095001", "SSDCLOC": "BIG MARSH SWAMP", "SSDCCSTR": 1964, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 612424.250299, 115717.921002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 101, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 101, "SDISCH_ID": 101, "SSTPDCID": "0026921001", "SSDCLOC": "LITTLE MARSH SWAMP", "SSDCCSTR": 1957, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 609552.188299, 125707.711002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 102, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 102, "SDISCH_ID": 102, "SSTPDCID": "0025569001", "SSDCLOC": "GREAT COHARIE CREEK", "SSDCCSTR": 1964, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 666466.688299, 115416.515002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 103, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 103, "SDISCH_ID": 103, "SSTPDCID": "0026816001", "SSDCLOC": "LITTLE COHARIE CREEK", "SSDCCSTR": 1970, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 656003.312299, 134249.718002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 104, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 104, "SDISCH_ID": 104, "SSTPDCID": "0020117001", "SSDCLOC": "WILLIAM'S MILL BRANCH", "SSDCCSTR": 1962, "SSDCRENV": 1994, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 669293.813299, 139563.297002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 105, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 105, "SDISCH_ID": 105, "SSTPDCID": "0072877001", "SSDCLOC": "COHARIE CREEK", "SSDCCSTR": 1993, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 667613.500299, 161942.234002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 106, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 106, "SDISCH_ID": 106, "SSTPDCID": "0020656001", "SSDCLOC": "BIG SHOE HEEL CREEK", "SSDCCSTR": 1970, "SSDCRENV": 1982, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 574227.875299, 111014.532002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 107, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 107, "SDISCH_ID": 107, "SSTPDCID": "0044725001", "SSDCLOC": "LUMBER RIVER", "SSDCCSTR": 1979, "SSDCRENV": 1981, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 579198.813299, 113812.726002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 108, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 108, "SDISCH_ID": 108, "SSTPDCID": "0005479001", "SSDCLOC": "GUM SWAMP CREEK", "SSDCCSTR": 1950, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 560958.000299, 118361.601002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 109, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 109, "SDISCH_ID": 109, "SSTPDCID": "0021628001", "SSDCLOC": "ROCKY RIVER", "SSDCCSTR": 1965, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 508295.093299, 160750.765002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 110, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 110, "SDISCH_ID": 110, "SSTPDCID": "0024244001", "SSDCLOC": "LONG CREEK", "SSDCCSTR": 1933, "SSDCRENV": 1972, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 499215.781299, 175722.126002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 111, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 111, "SDISCH_ID": 111, "SSTPDCID": "0074756001", "SSDCLOC": "LITTLE MOUNTAIN CREEK", "SSDCCSTR": 1991, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 507727.750299, 183501.157002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 112, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 112, "SDISCH_ID": 112, "SSTPDCID": "0043532001", "SSDCLOC": "LONG CREEK", "SSDCCSTR": 1980, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 494406.782299, 165503.313002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 113, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 113, "SDISCH_ID": 113, "SSTPDCID": "0058882001", "SSDCLOC": "SIX MILE CREEK", "SSDCCSTR": 1987, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 444332.250299, 142576.843002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 114, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 114, "SDISCH_ID": 114, "SSTPDCID": "0066559001", "SSDCLOC": "SIX MILE CREEK", "SSDCCSTR": 1993, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 442970.375299, 141502.735002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 115, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 115, "SDISCH_ID": 115, "SSTPDCID": "0024333001", "SSDCLOC": "RICHARDSON CREEK", "SSDCCSTR": 1960, "SSDCRENV": 1994, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 473511.312299, 139340.266002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 116, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 116, "SDISCH_ID": 116, "SSTPDCID": "0069841001", "SSDCLOC": "WEST FORK CROOKED CREEK", "SSDCCSTR": 1989, "SSDCRENV": 1996, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 463633.906299, 150434.188002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 117, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 117, "SDISCH_ID": 117, "SSTPDCID": "0072508001", "SSDCLOC": "GOOSE CREEK", "SSDCCSTR": 1991, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 460923.937299, 154420.829002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 118, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 118, "SDISCH_ID": 118, "SSTPDCID": "0069523001", "SSDCLOC": "CLEAR CREEK", "SSDCCSTR": 1987, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 470281.718299, 161384.078002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 119, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 119, "SDISCH_ID": 119, "SSTPDCID": "0020559001", "SSDCLOC": "NUTBUSH CREEK", "SSDCCSTR": 1930, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 662448.813299, 288752.125002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 120, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 120, "SDISCH_ID": 120, "SSTPDCID": "0020834001", "SSDCLOC": "@ FISHING CREEK", "SSDCCSTR": 1960, "SSDCRENV": 1981, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 684203.437299, 292091.938002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 121, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 121, "SDISCH_ID": 121, "SSTPDCID": "0020028001", "SSDCLOC": "ROANOKE RIVER", "SSDCCSTR": 1967, "SSDCRENV": 1977, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 814414.187299, 240231.687002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 122, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 122, "SDISCH_ID": 122, "SSTPDCID": "0036315002", "SSDCLOC": "KENDRICKS CREEK", "SSDCCSTR": 1979, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 824345.562299, 239531.891002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 123, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 123, "SDISCH_ID": 123, "SSTPDCID": "0048861003", "SSDCLOC": "SCUPPERNONG RIVER", "SSDCCSTR": 1982, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 845221.625299, 237105.515002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 124, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 124, "SDISCH_ID": 124, "SSTPDCID": "0057606001", "SSDCLOC": "CONTENTNEA CREEK", "SSDCCSTR": 1980, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 717316.625299, 204306.015002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 125, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 125, "SDISCH_ID": 125, "SSTPDCID": "0023906001", "SSDCLOC": "CONTENTNEA CREEK", "SSDCCSTR": 1957, "SSDCRENV": 1990, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 708140.750299, 213610.171002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 126, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 126, "SDISCH_ID": 126, "SSTPDCID": "0026271001", "SSDCLOC": "LOWER LITTLE RIVER", "SSDCCSTR": 1958, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 410605.968299, 238862.140002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 127, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 127, "SDISCH_ID": 127, "SSTPDCID": "0026913001", "SSDCLOC": "RIVER ROAD", "SSDCCSTR": 1965, "SSDCRENV": 1989, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 421043.813299, 306938.125002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 128, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 128, "SDISCH_ID": 128, "SSTPDCID": "0021709001", "SSDCLOC": "NAKED CREEK DISCHARGE", "SSDCCSTR": 1967, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 391797.126299, 297740.469002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 129, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 129, "SDISCH_ID": 129, "SSTPDCID": "0066028001", "SSDCLOC": "B STREET WWTP", "SSDCCSTR": 1989, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 384807.812299, 307146.532002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 130, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 130, "SDISCH_ID": 130, "SSTPDCID": "0020451001", "SSDCLOC": "TRIB. TO LITTLE BUFFALO CREEK", "SSDCCSTR": 1964, "SSDCRENV": 1992, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 386297.001299, 297991.781002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 131, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 131, "SDISCH_ID": 131, "SSTPDCID": "0032115001", "SSDCLOC": "ELK RIVER", "SSDCCSTR": 1950, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 349974.344299, 270840.593002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 132, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 132, "SDISCH_ID": 132, "SSTPDCID": "0026654001", "SSDCLOC": "MILL TIMBER CREEK, U.S. 221", "SSDCCSTR": 1965, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 346169.093299, 255239.656002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 133, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 133, "SDISCH_ID": 133, "SSTPDCID": "0021857001", "SSDCLOC": "COW CAMP ROAD", "SSDCCSTR": 1965, "SSDCRENV": 1994, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 344803.593299, 263403.220002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 134, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 134, "SDISCH_ID": 134, "SSTPDCID": "0024911001", "SSDCLOC": "FRENCH BROAD RIVER", "SSDCCSTR": 1967, "SSDCRENV": 1992, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 283796.812299, 216229.719002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 135, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 135, "SDISCH_ID": 135, "SSTPDCID": "0026573001", "SSDCLOC": "CATAWBA RIVER", "SSDCCSTR": 1975, "SSDCRENV": 1996, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 368834.782299, 228225.547002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 136, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 136, "SDISCH_ID": 136, "SSTPDCID": "0025917001", "SSDCLOC": "Lake Rhodhiss, Catawba River", "SSDCCSTR": 1948, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 390322.187299, 226866.642002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 137, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 137, "SDISCH_ID": 137, "SSTPDCID": "0041696001", "SSDCLOC": "CATAWBA", "SSDCCSTR": 1982, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 379513.594299, 227816.203002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 138, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 138, "SDISCH_ID": 138, "SSTPDCID": "0021890001", "SSDCLOC": "GUNPOWDER", "SSDCCSTR": 1968, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 391733.062299, 229754.985002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 139, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 139, "SDISCH_ID": 139, "SSTPDCID": "0023981001", "SSDCLOC": "S.R. 1149, CALDWELL CO.", "SSDCCSTR": 1969, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 375970.313299, 238894.750002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 140, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 140, "SDISCH_ID": 140, "SSTPDCID": "0023981002", "SSDCLOC": "S.R. 1127, CALDWELL CO.", "SSDCCSTR": 1976, "SSDCRENV": 1996, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 389189.405299, 235128.687002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 141, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 141, "SDISCH_ID": 141, "SSTPDCID": "0020800001", "SSDCLOC": "VALLEY RIVER", "SSDCCSTR": 1960, "SSDCRENV": 1994, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 168542.063299, 171404.108002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 142, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 142, "SDISCH_ID": 142, "SSTPDCID": "0020940001", "SSDCLOC": "HIAWASEE RIVER", "SSDCCSTR": 1966, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 150092.594299, 161083.202002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 143, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 143, "SDISCH_ID": 143, "SSTPDCID": "0026697001", "SSDCLOC": "TOWN CREEK", "SSDCCSTR": 1935, "SSDCRENV": 1980, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 170406.718299, 154106.297002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 144, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 144, "SDISCH_ID": 144, "SSTPDCID": "0071943001", "SSDCLOC": "SANDY RUN CREEK", "SSDCCSTR": 1988, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 364610.188299, 169313.172002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 145, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 145, "SDISCH_ID": 145, "SSTPDCID": "0065242001", "SSDCLOC": "JAKE'S BRANCH", "SSDCCSTR": 1988, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 386396.093299, 161849.767002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 146, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 146, "SDISCH_ID": 146, "SSTPDCID": "0020737001", "SSDCLOC": "BUFFALO CREEK", "SSDCCSTR": 1957, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 386124.155299, 170209.891002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 147, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 147, "SDISCH_ID": 147, "SSTPDCID": "0024538001", "SSDCLOC": "FIRST BROAD RIVER", "SSDCCSTR": 1965, "SSDCRENV": 1992, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 375231.312299, 168519.079002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 148, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 148, "SDISCH_ID": 148, "SSTPDCID": "0024872001", "SSDCLOC": "COOLEEMEE", "SSDCCSTR": 1965, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 468632.157299, 229268.468002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 149, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 149, "SDISCH_ID": 149, "SSTPDCID": "0021491001", "SSDCLOC": "BEAR CREEK", "SSDCCSTR": 1983, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 467325.811299, 235068.484002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 150, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 150, "SDISCH_ID": 150, "SSTPDCID": "0050903001", "SSDCLOC": "DUTCHMAN CREEK", "SSDCCSTR": 1967, "SSDCRENV": 1983, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 474028.219299, 238729.546002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 151, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 151, "SDISCH_ID": 151, "SSTPDCID": "0050342001", "SSDCLOC": "MUDDY CREEK-001", "SSDCCSTR": 1986, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 488977.032299, 247870.469002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 152, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 152, "SDISCH_ID": 152, "SSTPDCID": "0050342002", "SSDCLOC": "MUDDY CREEK - 002", "SSDCCSTR": 1986, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 489095.062299, 249927.265002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 153, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 153, "SDISCH_ID": 153, "SSTPDCID": "0037834001", "SSDCLOC": "A. ELLEDGE WWTP -001", "SSDCCSTR": 1969, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 491068.124299, 253582.673002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 154, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 154, "SDISCH_ID": 154, "SSTPDCID": "0025879001", "SSDCLOC": "LONG CREEK", "SSDCCSTR": 1960, "SSDCRENV": 1989, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 172476.859299, 185778.578002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 155, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 155, "SDISCH_ID": 155, "SSTPDCID": "0021741001", "SSDCLOC": "HYDER MOUNTAIN RD.", "SSDCCSTR": 1968, "SSDCRENV": 1986, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 254175.906299, 205028.297002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 156, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 156, "SDISCH_ID": 156, "SSTPDCID": "0056561001", "SSDCLOC": "JONATHAN CREEK", "SSDCCSTR": 1986, "SSDCRENV": 1993, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 246638.046299, 212298.751002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 157, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 157, "SDISCH_ID": 157, "SSTPDCID": "0025321001", "SSDCLOC": "PIGEON RIVER DISCHARGE", "SSDCCSTR": 1980, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 251539.547299, 206879.751002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 158, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 158, "SDISCH_ID": 158, "SSTPDCID": "0025534001", "SSDCLOC": "MUD CREEK", "SSDCCSTR": 1963, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 294951.312299, 183124.219002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 159, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 159, "SDISCH_ID": 159, "SSTPDCID": "9999999002", "SSDCLOC": "OCCONOLUFTEE  RIVER", "SSDCCSTR": 1985, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 214739.452299, 199177.313002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 160, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 160, "SDISCH_ID": 160, "SSTPDCID": "9999999001", "SSDCLOC": "ROUGH BRANCH", "SSDCCSTR": 1990, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 231373.077299, 201403.532002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 161, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 161, "SDISCH_ID": 161, "SSTPDCID": "0025747001", "SSDCLOC": "TWSA #4", "SSDCCSTR": 1969, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 223265.905299, 187652.953002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 162, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 162, "SDISCH_ID": 162, "SSTPDCID": "0039578001", "SSDCLOC": "TWSA #1", "SSDCCSTR": 1977, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 224433.157299, 185730.796002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 163, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 163, "SDISCH_ID": 163, "SSTPDCID": "0020214001", "SSDCLOC": "TWSA #2", "SSDCCSTR": 1966, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 224381.625299, 188337.468002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 164, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 164, "SDISCH_ID": 164, "SSTPDCID": "0063321001", "SSDCLOC": "TWSA #3", "SSDCCSTR": 1985, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 235181.235299, 157782.297002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 165, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 165, "SDISCH_ID": 165, "SSTPDCID": "0021547001", "SSDCLOC": "LITTLE TENNESSEE RIVER", "SSDCCSTR": 1974, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 210485.562299, 169563.343002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 166, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 166, "SDISCH_ID": 166, "SSTPDCID": "0021407001", "SSDCLOC": "CULLUSAJA RIVER", "SSDCCSTR": 1994, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 224337.032299, 154344.483002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 167, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 167, "SDISCH_ID": 167, "SSTPDCID": "0025836001", "SSDCLOC": "FRENCH BROAD RIVER", "SSDCCSTR": 1960, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 263580.251299, 244766.452002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 168, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 168, "SDISCH_ID": 168, "SSTPDCID": "0021733001", "SSDCLOC": "FRENCH BROAD RIVER", "SSDCCSTR": 1960, "SSDCRENV": 1990, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 276229.030299, 233336.593002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 169, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 169, "SDISCH_ID": 169, "SSTPDCID": "0057151001", "SSDCLOC": "GABRIEL CREEK", "SSDCCSTR": 1960, "SSDCRENV": 1983, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 288149.625299, 236158.969002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 170, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 170, "SDISCH_ID": 170, "SSTPDCID": "0071200001", "SSDCLOC": "CATAWBA RIVER", "SSDCCSTR": 1980, "SSDCRENV": 1996, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 335253.126299, 221549.454002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 171, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 171, "SDISCH_ID": 171, "SSTPDCID": "0031879001", "SSDCLOC": "CORPENING CREEK", "SSDCCSTR": 1972, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 341709.499299, 215060.796002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 172, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 172, "SDISCH_ID": 172, "SSTPDCID": "0021229001", "SSDCLOC": "CURTIS CREEK, I-40", "SSDCCSTR": 1967, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 323626.157299, 214093.329002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 173, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 173, "SDISCH_ID": 173, "SSTPDCID": "0025461001", "SSDCLOC": "NC 226 & NCSR 1278", "SSDCCSTR": 1968, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 324371.655299, 255653.952002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 174, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 174, "SDISCH_ID": 174, "SSTPDCID": "0021423001", "SSDCLOC": "SPRUCE PINE WWTP", "SSDCCSTR": 1964, "SSDCRENV": 1993, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 331514.375299, 245764.156002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 175, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 175, "SDISCH_ID": 175, "SSTPDCID": "0021369001", "SSDCLOC": "WHITE OAK CREEK", "SSDCCSTR": 1972, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 321027.593299, 171398.313002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 176, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 176, "SDISCH_ID": 176, "SSTPDCID": "0028975001", "SSDCLOC": "JOEL'S CREEK", "SSDCCSTR": 1960, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 305294.312299, 169371.124002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 177, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 177, "SDISCH_ID": 177, "SSTPDCID": "0021601001", "SSDCLOC": "WWTP EFFLUENT", "SSDCCSTR": 1968, "SSDCRENV": 1989, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 316665.719299, 167150.453002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 178, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 178, "SDISCH_ID": 178, "SSTPDCID": "0020320001", "SSDCLOC": "BRACKETT CREEK", "SSDCCSTR": 1968, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 349108.157299, 177046.719002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 179, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 179, "SDISCH_ID": 179, "SSTPDCID": "0025984001", "SSDCLOC": "BROAD RIVER", "SSDCCSTR": 1960, "SSDCRENV": 1992, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 351522.499299, 178669.968002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 180, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 180, "SDISCH_ID": 180, "SSTPDCID": "0025381001", "SSDCLOC": "BROAD RIVER, HWY. 74-A", "SSDCCSTR": 1969, "SSDCRENV": 1994, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 321018.094299, 190348.031002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 181, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 181, "SDISCH_ID": 181, "SSTPDCID": "0025909001", "SSDCLOC": "CLEGHORN CREEK", "SSDCCSTR": 1968, "SSDCRENV": 1978, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 340997.907299, 180857.625002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 182, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 182, "SDISCH_ID": 182, "SSTPDCID": "0020664001", "SSDCLOC": "HULLINS CREEK", "SSDCCSTR": 1968, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 345890.843299, 184267.172002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 183, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 183, "SDISCH_ID": 183, "SSTPDCID": "0025526001", "SSDCLOC": "TOWN FORK CREEK", "SSDCCSTR": 1968, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 507920.313299, 282713.812002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 184, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 184, "SDISCH_ID": 184, "SSTPDCID": "0021326001", "SSDCLOC": "CODY CREEK", "SSDCCSTR": 1965, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 454930.875299, 293212.906002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 185, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 185, "SDISCH_ID": 185, "SSTPDCID": "0020567001", "SSDCLOC": "HWY. 268, YADKIN RIVER", "SSDCCSTR": 1958, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 445004.844299, 278609.812002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 186, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 186, "SDISCH_ID": 186, "SSTPDCID": "0021121001", "SSDCLOC": "ARARAT RIVER", "SSDCCSTR": 1969, "SSDCRENV": 1991, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 465863.062299, 303762.375002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 187, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 187, "SDISCH_ID": 187, "SSTPDCID": "0026646001", "SSDCLOC": "ARRARAT RIVER", "SSDCCSTR": 1996, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 471173.969299, 291407.719002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 188, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 188, "SDISCH_ID": 188, "SSTPDCID": "0026567001", "SSDCLOC": "TUCKASEIGEE RIVER AT WWTP", "SSDCCSTR": 1968, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 204486.140299, 194651.782002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 189, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 189, "SDISCH_ID": 189, "SSTPDCID": "0060534001", "SSDCLOC": "FRENCH BROAD", "SSDCCSTR": 1986, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 273540.780299, 172819.952002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 190, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 190, "SDISCH_ID": 190, "SSTPDCID": "0021946001", "SSDCLOC": "SOUTH MAIN", "SSDCCSTR": 1968, "SSDCRENV": 1976, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 261548.452299, 160551.531002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 191, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 191, "SDISCH_ID": 191, "SSTPDCID": "0022730001", "SSDCLOC": "GRASSEY GAP CREEK", "SSDCCSTR": 1970, "SSDCRENV": 1979, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 348557.374299, 277869.188002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 192, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 192, "SDISCH_ID": 192, "SSTPDCID": "0069761001", "SSDCLOC": "POND CREEK", "SSDCCSTR": 1970, "SSDCRENV": 1984, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 350919.812299, 277249.844002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 193, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 193, "SDISCH_ID": 193, "SSTPDCID": "0027286001", "SSDCLOC": "HWY. 321, S. FORK\/N. FORK", "SSDCCSTR": 1930, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 369421.843299, 268720.938002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 194, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 194, "SDISCH_ID": 194, "SSTPDCID": "0020621001", "SSDCLOC": "SOUTHFORK OF NEW RIVER", "SSDCCSTR": 1967, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 371632.030299, 276571.374002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 195, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 195, "SDISCH_ID": 195, "SSTPDCID": "0020761002", "SSDCLOC": "MULBERRY CREEK", "SSDCCSTR": 1988, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 419532.500299, 272492.219002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 196, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 196, "SDISCH_ID": 196, "SSTPDCID": "0020761001", "SSDCLOC": "THURMAN STREET", "SSDCCSTR": 1957, "SSDCRENV": 1977, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 417633.719299, 269657.156002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 197, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 197, "SDISCH_ID": 197, "SSTPDCID": "0021717001", "SSDCLOC": "CUB CREEK PLANT", "SSDCCSTR": 1992, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 417162.406299, 268951.749002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 198, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 198, "SDISCH_ID": 198, "SSTPDCID": "0020931001", "SSDCLOC": "TANYARD CREEK", "SSDCCSTR": 1968, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 456178.156299, 278180.469002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 199, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 199, "SDISCH_ID": 199, "SSTPDCID": "0021580001", "SSDCLOC": "AT THE PLANT", "SSDCCSTR": 1960, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 444748.313299, 278379.375002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 200, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 200, "SDISCH_ID": 200, "SSTPDCID": "0020338001", "SSDCLOC": "1720 FRED HINSHAW ROAD", "SSDCCSTR": 1962, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 463023.500299, 265717.376002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 201, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 201, "SDISCH_ID": 201, "SSTPDCID": "0020290001", "SSDCLOC": "PINE SWAMP ROAD", "SSDCCSTR": 1963, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 308797.531299, 244074.812002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 202, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 202, "SDISCH_ID": 202, "SSTPDCID": "0000266110", "SSDCLOC": "CALICO CREEK", "SSDCCSTR": 1964, "SSDCRENV": 1991, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 816708.437299, 111351.757002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 203, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 203, "SDISCH_ID": 203, "SSTPDCID": "0021831001", "SSDCLOC": "TAYLOR'S CREEK", "SSDCCSTR": 1969, "SSDCRENV": 1988, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 826289.188299, 110364.587002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 204, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 204, "SDISCH_ID": 204, "SSTPDCID": "0021555001", "SSDCLOC": "NEWPORT RIVER", "SSDCCSTR": 1960, "SSDCRENV": 1960, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 804975.187299, 116393.086002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 205, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 205, "SDISCH_ID": 205, "SSTPDCID": "0031828001", "SSDCLOC": "MAUL'S RUN", "SSDCCSTR": 1980, "SSDCRENV": 1995, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 778160.186299, 172949.187002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 206, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 206, "SDISCH_ID": 206, "SSTPDCID": "0025348001", "SSDCLOC": "NEUSE RIVER", "SSDCCSTR": 1965, "SSDCRENV": 1989, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 786466.000299, 155843.126002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 207, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 207, "SDISCH_ID": 207, "SSTPDCID": "0074837001", "SSDCLOC": "NEUSE RIVER", "SSDCCSTR": 1992, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 789440.374299, 154283.375002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 208, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 208, "SDISCH_ID": 208, "SSTPDCID": "0021253001", "SSDCLOC": "SLOCUM CREEK", "SSDCCSTR": 1960, "SSDCRENV": 1987, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 800816.186299, 128275.125002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 209, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 209, "SDISCH_ID": 209, "SSTPDCID": "0056545001", "SSDCLOC": "TRENT RIVER", "SSDCCSTR": 1989, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 786618.561299, 148840.672002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 210, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 210, "SDISCH_ID": 210, "SSTPDCID": "0070084001", "SSDCLOC": "NEUSE RIVER", "SSDCCSTR": 1989, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 798010.125299, 137665.702002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 211, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 211, "SDISCH_ID": 211, "SSTPDCID": "0025453001", "SSDCLOC": "LITTLE CREEK WATER RECLAMATION", "SSDCCSTR": 1995, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 658115.624299, 209812.313002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 212, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 212, "SDISCH_ID": 212, "SSTPDCID": "0030716001", "SSDCLOC": "CENTRAL JOHNSTON CO. REG. WWTP", "SSDCCSTR": 1968, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 666193.499299, 194413.626002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 213, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 213, "SDISCH_ID": 213, "SSTPDCID": "0020389001", "SSDCLOC": "BENSON WWTP", "SSDCCSTR": 1980, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 654550.000299, 182134.234002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 214, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 214, "SDISCH_ID": 214, "SSTPDCID": "0026662001", "SSDCLOC": "TOWN OF PRINCETON WWTP", "SSDCCSTR": 1989, "SSDCRENV": 0, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 686408.000299, 190063.905002 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 215, "AREA": 0.000000, "PERIMETER": 0.000000, "SDISCH_": 215, "SDISCH_ID": 215, "SSTPDCID": "0064841001", "SSDCLOC": "TOWN OF KENLY WWTP", "SSDCCSTR": 1939, "SSDCRENV": 1989, "POLYGONID": 0, "SCALE": 1.000000, "ANGLE": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ 685472.251299, 202045.858002 ] } }
+
+]
+}

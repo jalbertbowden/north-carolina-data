@@ -1,0 +1,1382 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: TechniGraphics, Inc.
+      Publication_Date: 20091230
+      Title: Correctional Institutions
+      Edition: 4th Quarter 2009
+      Geospatial_Data_Presentation_Form: vector digital data
+  Description:
+    Abstract:
+      Jails and Prisons (Correctional Institutions).
+
+      The Jails and Prisons sub-layer is part of the Emergency Law Enforcement Sector and the Critical Infrastructure Category. A Jail or Prison consists of any facility or location where individuals are regularly and lawfully detained against their will. This includes Federal and State prisons, local jails, and juvenile detention facilities, as well as law enforcement temporary holding facilities. Work camps, including camps operated seasonally, are included if they otherwise meet the definition. A Federal Prison is a facility operated by the Federal Bureau of Prisons for the incarceration of individuals. A State Prison is a facility operated by a state, commonwealth, or territory of the US for the incarceration of individuals for a term usually longer than 1 year. A Juvenile Detention Facility is a facility for the incarceration of those who have not yet reached the age of majority (usually 18 years). A Local Jail is a locally administered facility that holds inmates beyond arraignment (usually 72 hours) and is staffed by municipal or county employees. A temporary holding facility, sometimes referred to as a "police lock up" or "drunk tank", is a facility used to detain people prior to arraignment. Locations that are administrative offices only are excluded from the dataset. This definition of Jails is consistent with that used by the Department of Justice (DOJ) in their "National Jail Census", with the exception of "temporary holding facilities", which the DOJ excludes.
+
+      Locations which function primarily as law enforcement offices are included in this dataset if they have holding cells.
+
+      If the facility is enclosed with a fence, wall, or structure with a gate around the buildings only, the locations were depicted as "on entity" at the center of the facility. If the facility's buildings are not enclosed, the locations were depicted as "on entity" on the main building or "block face" on the correct street segment.
+
+      Personal homes, administrative offices, and temporary locations are intended to be excluded from this dataset; however, some personal homes of constables are included due to the fact that many constables work out of their homes.
+
+      TGS has made a concerted effort to include all correctional institutions.
+
+      This dataset includes non license restricted data from the following federal agencies: Bureau of Indian Affairs; Bureau of Reclamation; U.S. Park Police; Federal Bureau of Prisons; Bureau of Alcohol, Tobacco, Firearms and Explosives; U.S. Marshals Service; U.S. Fish and Wildlife Service; National Park Service; U.S. Immigration and Customs Enforcement; and U.S. Customs and Border Protection.
+
+      This dataset is comprised completely of license free data.
+
+      The Law Enforcement dataset and the Correctional Institutions dataset were merged into one working file. TGS processed as one file and then separated for delivery purposes.
+
+      With the merge of the Law Enforcement and the Correctional Institutions datasets, NAICS Codes & Descriptions were assigned based on the facility's main function which was determined by the entity's name, facility type, web research, and state supplied data. In instances where the entity's primary function is both law enforcement and corrections, the NAICS Codes and Descriptions are assigned based on the dataset in which the record is located (i.e., a facility that serves as both a Sheriff's Office and as a jail is designated as [NAICSDESCR]="SHERIFFS' OFFICES (EXCEPT COURT FUNCTIONS ONLY)" in the Law Enforcement layer and as [NAICSDESCR]="JAILS (EXCEPT PRIVATE OPERATION OF)" in the Correctional Institutions layer).
+
+      Records with "-DOD" appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries.
+
+      "#" and "*" characters were automatically removed from standard fields that TGS populated. Double spaces were replaced by single spaces in these same fields.
+
+      Text fields in this dataset have been set to all upper case to facilitate consistent database engine search results.
+
+      All diacritics (e.g., the German umlaut or the Spanish tilde) have been replaced with their closest equivalent English character to facilitate use with database systems that may not support diacritics.
+
+      The currentness of this dataset is indicated by the [CONTDATE] field. Based on the values in this field, the oldest record dates from 12/07/2004 and the newest record dates from 10/22/2009
+    Purpose:
+      Homeland Security
+
+      Use Cases: Use cases describe how the data may be used and help to define and clarify requirements.
+
+      1. A threat to cause the mass release of prisoners by an outside terrorist group has been identified. Steps need to be taken to provide extra security at the targeted prisons.
+
+      2. Massive civil unrest has resulted in a large number of arrests. Appropriate space is needed outside of the immediate area to house the arrested individuals.
+
+      3. Massive civil unrest has resulted in a large number of arrests. A "holding camp" has been established to hold those arrested. Trained security guards are needed to staff the holding camp.
+
+      4. A disaster has caused the need for an emergency labor force (e.g., sandbagging during a flood) and prisoners may fill that need.
+
+      5. Inmates may need to be evacuated, or appropriate steps may need to be taken at a prison to protect the inmates and to ensure that a disaster does not present an opportunity for escape.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20041207
+        Ending_Date: 20091022
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Unknown
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.032827
+      East_Bounding_Coordinate: -75.664076
+      North_Bounding_Coordinate: 36.506717
+      South_Bounding_Coordinate: 34.045192
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: LCSH - Library of Congress subject headings (Washington, DC: LC, Cataloging Distribution Service) http://authorities.loc.gov/
+      Theme_Keyword: Airport police
+      Theme_Keyword: Border patrols.
+      Theme_Keyword: Campus police
+      Theme_Keyword: Community policing.
+      Theme_Keyword: Constables
+      Theme_Keyword: Correctional institutions.
+      Theme_Keyword: Criminal investigation.
+      Theme_Keyword: Drug enforcement agents
+      Theme_Keyword: Fire marshals
+      Theme_Keyword: Indian reservation police
+      Theme_Keyword: Jails
+      Theme_Keyword: Juvenile detention
+      Theme_Keyword: Law enforcement.
+      Theme_Keyword: Military police
+      Theme_Keyword: Peace officers
+      Theme_Keyword: Police stations
+      Theme_Keyword: Police, State.
+      Theme_Keyword: Police.
+      Theme_Keyword: Prisons.
+      Theme_Keyword: Railroad police
+      Theme_Keyword: School police
+      Theme_Keyword: Secret service.
+      Theme_Keyword: Sheriffs
+      Theme_Keyword: Traffic police.
+      Theme_Keyword: Transit police
+      Theme_Keyword: U.S. Customs and Border Protection.
+      Theme_Keyword: U.S. Fish and Wildlife Service.
+      Theme_Keyword: U.S. Immigration and Customs Enforcement.
+      Theme_Keyword: United States marshals.
+      Theme_Keyword: United States. Bureau of Alcohol, Tobacco, Firearms, and Explosives
+      Theme_Keyword: United States. Bureau of Indian Affairs.
+      Theme_Keyword: United States. Bureau of Reclamation.
+      Theme_Keyword: United States. National Park Service.
+      Theme_Keyword: Work camps
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: structure
+    Place:
+      Place_Keyword_Thesaurus: LCSH - Library of Congress subject headings (Washington, DC: LC, Cataloging Distribution Service) http://authorities.loc.gov/
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: None
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Mike Thompson
+        Contact_Organization: TechniGraphics, Inc.
+      Contact_Position: Director of Research and Development
+      Contact_Address:
+        Address_Type: Physical
+        Address: 3351 Eastbrook Drive
+        City: Fort Collins
+        State_or_Province: CO
+        Postal_Code: 80525
+        Country: USA
+      Contact_Voice_Telephone: 970-224-4996
+      Contact_Facsimile_Telephone: 970-224-3001
+      Contact_Electronic_Mail_Address: mike.thompson@tgstech.com
+      Hours_of_Service: Monday - Friday 0800 - 1700 MST
+  Security_Information:
+    Security_Classification_System: DOD
+    Security_Classification: Unclassified
+    Security_Handling_Description: Unclassified
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      For entities that were contacted, the name, address, city, state, and five (5) digit zip codes were verified to be correct as of the date indicated by the [CONTDATE] field. The existence of the entity was also verified, as well as whether or not it met the criteria for inclusion in this dataset. Four (4) digit zip code extensions were derived from USPS (United States Postal Service) data and were not verified.
+
+      ID Check: The [ID] field is not blank and each of its values is unique.
+
+      Coordinate Check: Coordinates are not null or zero and the [X] and [Y] fields match the shape.
+
+      Basic Address Check: Physical addresses were verified to be non blank and to not be a "PO Box", "General Delivery", "Highway Contract", or "Rural Route" address.
+
+      Highway Address without Type Check: Physical addresses containing the word "Highway" or "Route" were verified to also contain a type designator such as "State", "US", or "County", if one actually exists for the highway or route. These type designators are often missing from addresses, leading to confusion if more than one "Highway" of the given number exists in an area.
+
+      Basic Name Check: Entity name is not blank, is not the same as entity city, and has a minimum of two (2) characters. Name does not contain punctuation characters that can interfere with database operations, such as " (quote) and * (asterisk).
+
+      City Check: Entity's [CITY] field is not blank, and entity is located within 25 miles of its tabular city as found in the NAVTEQ Named Places reference file.
+
+      State Check: The entity is located within its tabular state.
+
+      County Check: The entity is located within its tabular county.
+
+      FIPS Check: The tabular FIPS Code matches the entity's tabular county and tabular state.
+
+      County in Name vs. Geographic Location Check: If an entity's [NAME] field contains the word "county" or "co", the same county value should also be in the entity's [COUNTY] field.
+
+      Basic Phone Check: All phone numbers (including the area code) are ten (10) numeric digits. Alphabetic characters have been converted to the corresponding numeric digit.
+
+      NPA_NXX Check: Area codes (sometimes called "Number Planning Areas", or NPA's) and central office codes (sometimes known as exchanges, or NXX's) were validated against data from the North American Number Planning Administration (NANPA). In some cases, NPA-NXX combinations did not show up in the NANPA data but were verified to work.
+
+      Area Code Distance Check: The entity's area code (NPA) is valid, and the entity is not more than 25 miles from its area code boundary, as defined by data from the North American Number Planning Administration (NANPA), unless TGS has previously verified that the phone number rings to a headquarters location or otherwise does not ring to the entity's location.
+
+      Zip Code Check: The entity's zip code is five (5) or nine (9) numeric digits, is listed in the postal database, is in the same state as indicated by the entity's [STATE] value, and is not a PO Box only zip code.
+
+      Zip City Check: The entity's zip code and its city were verified to match according to the USPS Address Information System (AIS).
+
+      Zip Code Distance Check: The entity is located within 25 miles of its zip code boundary, as defined by the U.S. Census Bureau's 1999 Zip Code file.
+
+      NAICS Code Check: The NAICS field is not blank, the NAICS Code is one of the accepted codes for this layer, the NAICS Description is an acceptable Index Entry for the NAICS Code, and certain key words in the entity name do not conflict with the NAICS Code.
+
+      Collocation Check: Entities with different addresses must not share the exact same geospatial location.
+
+      Geographic Spell Check: Words that appear in the entity name were checked against a standard English word list (and Spanish word list for entities in Puerto Rico). Words not appearing in these standard word lists were then checked against names appearing in the Geographic Names Information System (GNIS) of geographic features that are located within 25 miles of the entity. Proper names were manually reviewed for correct spelling.
+
+      Supplied Coordinates Distance Check: Entity is located within 3 miles of coordinates supplied by the original source.
+  Logical_Consistency_Report: See "Attribute_Accuracy_Report". Many of the checks described in that section check for both attribute accuracy and logical consistency.
+  Completeness_Report:
+    TGS has made a concerted effort to include all correctional institutions in North Carolina.
+
+    Locations which function primarily as law enforcement offices are included in this dataset if they have holding cells.
+
+    Personal homes, administrative offices, and temporary locations are intended to be excluded from this dataset; however, some personal homes of constables are included due to the fact that many constables work out of their homes.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The geographic location of entities was verified to be correct relative to the street vendor and version indicated by the [ST_VENDOR] and [ST_VERSION] fields. The horizontal accuracy is indicated by the [GEOPREC] field. A value of "BLOCKFACE" indicates the entity was geocoded on the correct street segment (block) and correct side of the street. A value of "ONENTITY" indicates that the location is on the entity's facility, as determined by USGS DOQQ imagery, and that it is on the correct street segment (block) and correct side of the street. Entities that are part of a larger institution (e.g., University Campus or Military Base) with "BLOCKFACE" precision may be located at the main entrance to the larger institution.
+
+        Records with "-DOD" appended to the end of the [NAME] value are located on a military base, as defined by the Defense Installation Spatial Data Infrastructure (DISDI) military installations and military range boundaries.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Techni Graphic Systems, Inc.
+          Publication_Date: 20070711
+          Title: Correctional Institutions 2007 Q3
+          Edition: 3rd Quarter 2007
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: Digital Database File
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20041203
+            Ending_Date: 20070612
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: CorrectionalInstitutions_2007_Q3
+      Source_Contribution: The basic attribution (name, address, city, state, zip code, and telephone number) came from this dataset unless the entity was updated by TGS during Q407 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: TechniGraphics, Inc.
+          Publication_Date: 20071030
+          Title: Correctional Institutions 2007 Q4
+          Edition: 4th Quarter 2007
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: Digital Database File
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20041203
+            Ending_Date: 20071005
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: CorrectionalInstitutions_2007_Q4
+      Source_Contribution: The basic attribution (name, address, city, state, zip code, and telephone number) came from this dataset unless the entity was updated by TGS during Q108 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: TechniGraphics, Inc.
+          Publication_Date: 20080321
+          Title: Correctional Institutions 2008 Q1
+          Edition: 1st Quarter 2008
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: Digital Database File
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20041203
+            Ending_Date: 20080307
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: CorrectionalInstitutions_2008_Q1
+      Source_Contribution: The basic attribution (name, address, city, state, zip code, and telephone number) came from this dataset unless the entity was updated by TGS during Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: TechniGraphics, Inc.
+          Publication_Date: 20080530
+          Title: Correctional Institutions 2008 Q2
+          Edition: 2nd Quarter 2008
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: Digital Database File
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 20041203
+            Ending_Date: 20080506
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: CorrectionalInstitutions_2008_Q2
+      Source_Contribution: The basic attribution (name, address, city, state, zip code, and telephone number) came from this dataset unless the entity was updated by TGS during Q409 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Department of the Interior Office of Law Enforcement, Security & Emergency Management (DOI)
+          Publication_Date: 20080131
+          Title: BIA
+          Edition: Unknown
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: File Transfer Protocol
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080131
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: BIA
+      Source_Contribution: This was used as a source for Law Enforcement and Correctional Institutions in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Department of the Interior Office of Law Enforcement, Security & Emergency Management (DOI)
+          Publication_Date: 20080131
+          Title: BOR
+          Edition: Unknown
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: File Transfer Protocol
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080131
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: BOR
+      Source_Contribution: This was used as a source for Law Enforcement and Correctional Institutions in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Department of the Interior Office of Law Enforcement, Security & Emergency Management (DOI)
+          Publication_Date: 20080131
+          Title: FWS
+          Edition: Unknown
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: File Transfer Protocol
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080131
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: FWS
+      Source_Contribution: This was used as a source for Law Enforcement and Correctional Institutions in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Department of the Interior Office of Law Enforcement, Security & Emergency Management (DOI)
+          Publication_Date: 20080226
+          Title: NPS
+          Edition: Unknown
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: File Transfer Protocol
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080226
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NPS
+      Source_Contribution: This was used as a source for Law Enforcement and Correctional Institutions in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Department of the Interior Office of Law Enforcement, Security & Emergency Management (DOI)
+          Publication_Date: 20080131
+          Title: USPP
+          Edition: Unknown
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: File Transfer Protocol
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080131
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USPP
+      Source_Contribution: This was used as a source for Law Enforcement and Correctional Institutions in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Justice Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF)
+          Publication_Date: Unknown
+          Title: Field Offices
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Other_Citation_Details: Publication date is unknown - downloaded on 20080222
+          Online_Linkage: <http://www.atf.gov/field/index.htm>
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080222
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: ATF
+      Source_Contribution: This was used as a source for ATF locations in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Federal Bureau of Prisons (FBOP)
+          Publication_Date: Unknown
+          Title: Address Directory
+          Edition: Unknown
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Other_Citation_Details: Publication date is unknown - downloaded on 20080130
+          Online_Linkage: http://www.bop.gov/DataSource/execute/dsFacilityAddressLoc?startPageRedirect=facilityAddressLookup.jsp
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080130
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: FBOP
+      Source_Contribution: This was used as a source for Federal Prisons in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: United States Customs and Border Protection (USCBP)
+          Publication_Date: Unknown
+          Title: Deferred Inspection Sites
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Other_Citation_Details: Publication date is unknown - downloaded on 20080317
+          Online_Linkage: <http://www.cbp.gov/linkhandler/cgov/toolbox/contacts/deferred_inspection/deferred_inspection_sites.ctt/deferred_inspection_sites.pdf>
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080317
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USCBP_DIS
+      Source_Contribution: This was used as a source for United States Customs and Border Protection deferred inspection site locations in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: United States Customs and Border Protection (USCBP)
+          Publication_Date: Unknown
+          Title: Field Operations Offices
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Other_Citation_Details: Publication date is unknown - downloaded on 20080220
+          Online_Linkage: <http://www.cbp.gov/xp/cgov/toolbox/contacts/cmcs/>
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080220
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USCBP_FOO
+      Source_Contribution: This was used as a source for United States Customs and Border Protection field operations office locations in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: United States Customs and Border Protection (USCBP)
+          Publication_Date: Unknown
+          Title: Ports of Entry
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Other_Citation_Details: Publication date is unknown - downloaded on 20080220
+          Online_Linkage: <http://www.cbp.gov/xp/cgov/toolbox/contacts/ports/>
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080220
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USCBP_POE
+      Source_Contribution: This was used as a source for United States Customs and Border Protection ports of entry locations in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: United States Marshals Service (USMS)
+          Publication_Date: Unknown
+          Title: Local District Offices
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Other_Citation_Details: Publication date is unknown - downloaded on 20080227
+          Online_Linkage: <http://www.usmarshals.gov/district/index.html>
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080227
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: USMS
+      Source_Contribution: This was used as a source for United States Marshals Service locations in the United States during the Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: United States Department of Justice, Bureau of Justice Statistics (USDOJ-BJS)
+          Publication_Date: 2003
+          Title: Law Enforcement Management and Administrative Statistics (LEMAS)
+          Edition: 2000
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Online_Linkage: http://www.ojp.usdoj.gov/bjs/lawenf.htm
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2003
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: LEMAS
+      Source_Contribution: This was used as a source for correctional institutions for the entire United States during the Q207 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: North Carolina State Center For Health Statistics (NCSCHS)
+          Publication_Date: 200307
+          Title: Police
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: Electronic Mail System
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 200307
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NC_CI
+      Source_Contribution: This was used as a source for correctional institutions in North Carolina during the Q108 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: United States Geological Survey (USGS)
+          Publication_Date: Unknown
+          Title: National Structures Dataset Hurricane 50 mi Buffer Police Stations
+          Edition: Unspecified
+          Other_Citation_Details: Publication date is unknown - downloaded on 20080328
+      Type_of_Source_Media: File Transfer Protocol
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20080328
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NSD
+      Source_Contribution: This was used as a source to populate [GNIS_ID] and [PERM_ID] for correctional institutions in the United States.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NAVTEQ
+          Publication_Date: 2006
+          Title: NAVSTREETS
+          Edition: 2006.3
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2006
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NAVTEQ_Streets_2006_Q3
+      Source_Contribution: This version of NAVTEQ streets was used as reference for automatic geocoding and for the manual geolocating of entities during Q307 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NAVTEQ
+          Publication_Date: 2006
+          Title: NAVSTREETS
+          Edition: 2006.4
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2006
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NAVTEQ_Streets_2006_Q4
+      Source_Contribution: This version of NAVTEQ streets was used as a reference for automatic geocoding and for the manual geolocating of entities during Q407, Q108, and Q208 processing.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NAVTEQ
+          Publication_Date: 2008
+          Title: NAVSTREETS
+          Edition: 2008.1
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2008
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NAVTEQ_Streets_2008_Q1
+      Source_Contribution: This version of NAVTEQ streets was used as a reference for automatic shifting of entities that were previously manually geocoded and for the automatic geocoding and manual geolocating of entities during the final processing.
+    Process_Step:
+      Process_Description:
+        1) The Correctional Institutions dataset and the Law Enforcement dataset were merged into one working file. TGS processed as one file and then separated for delivery purposes.
+
+        2) Entities were processed to determine or verify their name, physical address, city, state, five (5) digit zip code, phone number, and geospatial location. Entities that were contacted were also asked if they provided law enforcement services, correctional institution services, or both. Entities not located on military bases were contacted and asked to describe their location relative to landmarks in reference data (mainly streets) and features visible in ortho imagery. A phone number was not available for some entities, so their information was verified using other verbal contacts made through a telephone call.
+
+        3) Due to a request made by the Department of Defense, TGS made every effort to not contact military bases starting 03/27/2007 and ending 05/28/2008. During this time, entities located on military bases were verified through alternate resources, such as maps and ortho imagery. These records have not been contacted by TGS, and therefore, do not have directions.
+
+        4) All text fields were set to all upper case.
+
+        5) Leading and trailing spaces were trimmed from all text fields.
+
+        6) Non printable and diacritic characters were removed from all text fields.
+      Source_Used_Citation_Abbreviation: CorrectionalInstitutions_2007_Q3
+      Source_Used_Citation_Abbreviation: CorrectionalInstitutions_2007_Q4
+      Source_Used_Citation_Abbreviation: CorrectionalInstitutions_2008_Q1
+      Source_Used_Citation_Abbreviation: CorrectionalInstitutions_2008_Q2
+      Source_Used_Citation_Abbreviation: ATF
+      Source_Used_Citation_Abbreviation: BIA
+      Source_Used_Citation_Abbreviation: BOR
+      Source_Used_Citation_Abbreviation: FWS
+      Source_Used_Citation_Abbreviation: NPS
+      Source_Used_Citation_Abbreviation: USPP
+      Source_Used_Citation_Abbreviation: FBOP
+      Source_Used_Citation_Abbreviation: USCBP_DIS
+      Source_Used_Citation_Abbreviation: USCBP_FOO
+      Source_Used_Citation_Abbreviation: USCBP_POE
+      Source_Used_Citation_Abbreviation: USMS
+      Source_Used_Citation_Abbreviation: LEMAS
+      Source_Used_Citation_Abbreviation: NSD
+      Source_Used_Citation_Abbreviation: NC_CI
+      Source_Used_Citation_Abbreviation: NAVTEQ_Streets_2006_Q3
+      Source_Used_Citation_Abbreviation: NAVTEQ_Streets_2006_Q4
+      Source_Used_Citation_Abbreviation: NAVTEQ_Streets_2008_Q1
+      Process_Date: 20091230
+      Source_Produced_Citation_Abbreviation: CorrectionalInstitutions_2009_Q4
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Nicole Hackworth
+            Contact_Organization: TechniGraphics, Inc.
+          Contact_Position: Production Manager
+          Contact_Address:
+            Address_Type: Physical
+            Address: 2000 Noble Drive
+            City: Wooster
+            State_or_Province: OH
+            Postal_Code: 44691
+            Country: USA
+          Contact_Voice_Telephone: 330-263-6222
+          Contact_Facsimile_Telephone: 330-263-1034
+          Contact_Electronic_Mail_Address: nicole.hackworth@tgstech.com
+          Hours_of_Service: Monday - Friday 0800 - 1700 EST
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 281
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 1
+          Ordinate_Resolution: 1
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 1980
+      Semi-major_Axis: 6378137
+      Denominator_of_Flattening_Ratio: 298.257
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Jails and Prisons (Correctional Institutions) in North Carolina
+      Entity_Type_Definition: The Jails and Prisons sub-layer is part of the Emergency Law Enforcement Sector and the Critical Infrastructure Category. A Jail or Prison consists of any facility or location where individuals are regularly and lawfully detained against their will. This includes Federal and State prisons, local jails, and juvenile detention facilities, as well as law enforcement temporary holding facilities. Work camps, including camps operated seasonally, are included if they otherwise meet the definition. A Federal Prison is a facility operated by the Federal Bureau of Prisons for the incarceration of individuals. A State Prison is a facility operated by a state, commonwealth, or territory of the US for the incarceration of individuals for a term usually longer than 1 year. A Juvenile Detention Facility is a facility for the incarceration of those who have not yet reached the age of majority (usually 18 years). A Local Jail is a locally administered facility that holds inmates beyond arraignment (usually 72 hours) and is staffed by municipal or county employees. A temporary holding facility, sometimes referred to as a "police lock up" or "drunk tank", is a facility used to detain people prior to arraignment. Locations that are administrative offices only are excluded from the dataset. This definition of Jails is consistent with that used by the Department of Justice (DOJ) in their "National Jail Census", with the exception of "temporary holding facilities", which the DOJ excludes.
+      Entity_Type_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: ID
+      Attribute_Definition: Unique identifier for feature.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: SECCLASS
+      Attribute_Definition: Security classification of feature.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: UNCLASSIFIED
+          Enumerated_Domain_Value_Definition: Entity is unclassified.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: NAME
+      Attribute_Definition: Name of entity
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: TELEPHONE
+      Attribute_Definition: Ten (10) digit telephone number for entity formatted as nnn-nnn-nnnn.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Phone numbers formatted as nnn-nnn-nnnn. Only numeric digits are used. The area code and exchange must form a valid combination. A list of valid area code and exchange combinations can be obtained from http://www.nanpa.com
+    Attribute:
+      Attribute_Label: ADDRESS
+      Attribute_Definition: Physical street address for entity. "PO Box", "General Delivery", "Rural Route", and "Highway Contract" addresses are not considered physical addresses and should not appear in this field. Some areas do not have regular city style addressing, so entities in those areas may not have a street number. In such cases, the name of the road on which they are located is listed in this field. Some rural areas may not have named roads. In these rare cases, this field will be blank.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: ADDRESS2
+      Attribute_Definition: Location within physical address, e.g., floor, suite, building.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: CITY
+      Attribute_Definition:
+        The name of the city associated with the entity's physical address. For physical addresses that the U.S. Postal Service (USPS) delivers to, this should be a "city" acceptable to the USPS as defined in their Address Information System (AIS). Sometimes the USPS does not deliver mail to a physical address but recognizes the location (i.e., they list the location as "undeliverable"). The cities associated with these locations are acceptable. In some cases, the USPS does not recognize individual physical addresses in a city, rather, they list the city as having "General Delivery". In these cases, the city and associated zip code are acceptable (the entity's [ADDRESS] field will contain a street address, not "general delivery"). The entity may not actually be located within the city limits of the "city" specified in its [CITY] field. Instead, it may actually be located within the city limits of another city. In some cases, the "city" that appears in this field may not even be a city in an administrative sense, but it is still an acceptable "city" to the USPS. An example of this is "Notre Dame, IN". There is no city in Indiana called "Notre Dame", but this is considered an acceptable city by the USPS for any delivery going to the University of Notre Dame which is actually located in the city of South Bend. "Notre Dame", like most USPS cities, is an easily recognized place, and it gives the user of the data a good general idea of where the entity is located (if the entity is located in a small municipality, the USPS "city" may be more recognizable than the name of the municipality), and it would be part of the address one would use to send a shipment to the entity's location. Using the USPS acceptable "city" also allows someone to do a logical consistency check between the zip code and the city by using the USPS AIS.
+
+        Sometimes an entity may report a city that is not accepted by the USPS, and although TGS has tried to replace those cities with an acceptable alternative, some of them may remain in this dataset.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: Two (2) character abbreviation for state associated with the entity's physical address. In almost all cases, this is the same as the state where the entity has been depicted geospatially. However, there are cases, particularly where an entity is part of a larger facility that cuts across state lines, where the entity's location may be depicted in a state other than the one indicated in this field. Also, the state in which an entity appears to be located may change depending on the scale of the state boundary theme being used.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Official USPS Abbreviations - State Abbreviations
+          Codeset_Source: United States Postal Service http://www.usps.com/ncsc/lookups/usps_abbreviations.html
+    Attribute:
+      Attribute_Label: ZIP
+      Attribute_Definition: Five (5) digit USPS zip code for entity's physical location.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: USPS Address Information System - Domain is further restricted by only allowing physical (non PO Box) zip codes.
+          Codeset_Source: United States Postal Service
+    Attribute:
+      Attribute_Label: ZIPP4
+      Attribute_Definition: Four (4) digit USPS zip code extension. These values are automatically assigned using the entity's physical address and USPS address information system (AIS) data.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: USPS Address Information System (AIS) - ZIP9
+          Codeset_Source: United States Postal Service
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County name where entity is located.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Geographic Names Information System (GNIS)
+          Codeset_Source: US Department of the Interior - US Geologic Survey
+    Attribute:
+      Attribute_Label: FIPS
+      Attribute_Definition: Five (5) digit FIPS (Federal Information Processing Standards) Code for the County where entity is located. The first two (2) digits represent the state and the last three (3) digits identify the county within the state.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Information Processing Standards Publications - Counties and Equivalent Entities of the U.S., Its Possessions, and Associated Areas
+          Codeset_Source: National Institute of Standards and Technology (NIST) http://www.itl.nist.gov/fipspubs/co-codes/states.txt
+    Attribute:
+      Attribute_Label: DIRECTIONS
+      Attribute_Definition: Directions to entity location, or a description of the entity's location or status.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: EMERGTITLE
+      Attribute_Definition: Title of person or name of office for emergency point of contact.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: EMERGTEL
+      Attribute_Definition: Ten (10) digit telephone number of emergency point of contact formatted as nnn-nnn-nnnn. All alphabetic characters have been translated to the corresponding numeric digit.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Phone numbers, including area code, formatted as nnn-nnn-nnnn. A list of valid area code and exchange combinations can be found at http://www.nanpa.com
+    Attribute:
+      Attribute_Label: EMERGEXT
+      Attribute_Definition: Telephone extension for emergency point of contact.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: CONTDATE
+      Attribute_Definition: Date entity was contacted by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Date
+    Attribute:
+      Attribute_Label: CONTHOW
+      Attribute_Definition: Method by which entity was contacted.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ALT REF
+          Enumerated_Domain_Value_Definition: Geospatial reference information obtained from local authorities, e.g., downloadable parcel maps, 911 streets, and shape files.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FAX
+          Enumerated_Domain_Value_Definition: Entity was contacted by fax.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MAIL
+          Enumerated_Domain_Value_Definition: Entity was contacted by mail.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PHONE
+          Enumerated_Domain_Value_Definition: Entity was contacted by phone.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Entity has not been contacted by TGS.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: GEODATE
+      Attribute_Definition: Date entity was geocoded by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Date
+    Attribute:
+      Attribute_Label: GEOHOW
+      Attribute_Definition: Method by which entity was geocoded.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ADJUSTED
+          Enumerated_Domain_Value_Definition: Entity was shifted by TGS to an updated set of NAVTEQ streets. This only applies if the entity was manually geocoded by TGS to a previous version of NAVTEQ streets.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MANUAL
+          Enumerated_Domain_Value_Definition: Entity was manually geocoded.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: NAICSCODE
+      Attribute_Definition: NAICS (North American Industry Classification System) Code for entity. NAICS Codes (and NAICS Descriptions) have been assigned based upon the entity's primary function, regardless of if that is the function that qualified it to be included in this dataset.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: North American Industry Classification System (NAICS 2007)
+          Codeset_Source: US Census Bureau - http://www.census.gov/epcd/www/naics.html
+    Attribute:
+      Attribute_Label: NAICSDESCR
+      Attribute_Definition: NAICS (North American Industry Classification System) Description for entity. The "Index Entries" that appear on the NAICS webpage (http://www.census.gov/epcd/www/naics.html) are being used to populate this attribute as opposed to the "NAICS Title". While there is a one to one correspondence between NAICS Codes and "NAICS Titles", there is a one to many relationship between NAICS Codes and the "Index Entries". By using the "Index Entries", we have placed the entities that make up this layer into more specific categories; however, the user of this data should be aware that this was not the intended purpose of these "Index Entries". The "Index Entries" were intended as a way to search the NAICS database and as a way of enumerating ways in which establishments falling under the given NAICS Code may be named. Thus, there are often two or more "Index Entries" that are synonyms, for example: "Prisons" and "Penitentiaries". In cases like this, we have standardized on one "Index Entry".  NAICS Descriptions (and NAICS Codes) have been assigned based upon the entity's primary function, regardless of the function that qualified it to be included in this dataset.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ALCOHOL, TOBACCO, AND FIREARMS CONTROL
+          Enumerated_Domain_Value_Definition: ALCOHOL, TOBACCO, AND FIREARMS CONTROL-[NAICS Code 922120]:  Entities that are involved in the specific sector of enforcing federal laws concerning alcohol, tobacco products, firearms, and explosives are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: BOOT CAMPS FOR DELINQUENT YOUTH
+          Enumerated_Domain_Value_Definition: BOOT CAMPS FOR DELINQUENT YOUTH - [NAICS Code 623990]: Entity is a correctional camp for juveniles. In such facilities, the nature of the correctional / reform methods are similar to those used in military boot camps or otherwise involve outdoor labor and/or intense exercise. These entities may be seasonal in nature.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: BOYS' AND GIRLS' RESIDENTIAL FACILITIES (E.G., HOMES, RANCHES, VILLAGES)
+          Enumerated_Domain_Value_Definition: BOYS' AND GIRLS' RESIDENTIAL FACILITIES (E.G., HOMES, RANCHES, VILLAGES) - [NAICS Code 623990]: Entity is a NON CORRECTIONAL facility for juveniles. In other words, a facility that houses (and perhaps detains) problematic juveniles that have not necessarily been convicted of, or charged with, a crime.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CORRECTIONAL BOOT CAMPS
+          Enumerated_Domain_Value_Definition: CORRECTIONAL BOOT CAMPS - [NAICS Code 922140]: Entity is a correctional camp. In such facilities, the nature of the correctional / reform methods are similar to those used in military boot camps or otherwise involve outdoor labor and/or intense exercise. These entities may be seasonal in nature.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CORRECTIONAL FACILITY OPERATION ON A CONTRACT OR FEE BASIS
+          Enumerated_Domain_Value_Definition: CORRECTIONAL FACILITY OPERATION ON A CONTRACT OR FEE BASIS - [NAICS Code 561210]: Entity is a correctional facility, other than a jail, operated by a private firm under contract to a government agency.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CORRECTIONAL INSTITUTIONS
+          Enumerated_Domain_Value_Definition: CORRECTIONAL INSTITUTIONS - [NAICS Code 922140]: Entity is a correctional institution, but we were unable to determine if it was a jail or a prison. This includes juvenile detention centers if the primary purpose of the center is corrections. Juvenile facilities that deal with problematic youth not convicted of a crime have been categorized under BOYS' and GIRLS' RESIDENTIAL FACTILITIES (E.G., HOMES, RANCHES, VILLAGES) - [NAICS Code 623990]
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CRIMINAL INVESTIGATION OFFICES, GOVERNMENT
+          Enumerated_Domain_Value_Definition: CRIMINAL INVESTIGATION OFFICES, GOVERNMENT-[NAICS Code 922120]:  Entities that are involved in the specific sector of criminal investigations are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DEA (DRUG ENFORCEMENT ADMINISTRATION)
+          Enumerated_Domain_Value_Definition: DEA (DRUG ENFORCEMENT ADMINISTRATION)-[NAICS Code 922120]:  Entities that are involved in the specific sector of enforcing laws and regulations governing narcotics and controlled substances at the federal level are classified under this description, unless they are primarily involved at the state and local levels.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DRUG ENFORCEMENT AGENCIES AND OFFICES
+          Enumerated_Domain_Value_Definition: DRUG ENFORCEMENT AGENCIES AND OFFICES-[NAICS Code 922120]: Entities that are involved in the specific sector of enforcing laws and regulations governing narcotics and controlled substances at the local and state level are classified under this description, unless they are primarily involved at the federal level.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FEDERAL BUREAU OF INVESTIGATION (FBI)
+          Enumerated_Domain_Value_Definition: FEDERAL BUREAU OF INVESTIGATION (FBI)-[NAICS Code 922120]: Entities that are involved in the specific sector of enforcing federal laws and investigations are classified under this description, unless they are primarily involved in federal police services.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FEDERAL POLICE SERVICES
+          Enumerated_Domain_Value_Definition: FEDERAL POLICE SERVICES-[NAICS Code 922120]:  Entities that are involved in the specific sector of federal police services are classified under this description, unless they are primarily involved in federal investigations.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FIRE MARSHALS' OFFICES
+          Enumerated_Domain_Value_Definition: FIRE MARSHALS' OFFICES-[NAICS Code 922160]: Entities that are primarily engaged in fire fighting and other related fire protection activities are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HALFWAY GROUP HOMES FOR DELINQUENTS AND EX-OFFENDERS
+          Enumerated_Domain_Value_Definition: HALFWAY GROUP HOMES FOR DELINQUENTS AND EX-OFFENDERS - [NAICS Code 623990]: Entities that house those released from prison. The individual housed in such a facility is no longer considered under the jurisdiction of the correctional system. Participants are usually recovering from substance abuse or mental illness.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HIGHWAY PATROLS, POLICE
+          Enumerated_Domain_Value_Definition: HIGHWAY PATROLS, POLICE-[NAICS Code 922120]: Entities that are involved in the specific sector of patrolling public highways are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HONOR CAMPS, CORRECTIONAL
+          Enumerated_Domain_Value_Definition: HONOR CAMPS, CORRECTIONAL-[NAICS Code 922140]: Entity is a work camp which houses inmates whose primary duties involve outdoor labor. Entities are also sometimes known as a "Conservation Camp".
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HOUSING POLICE, GOVERNMENT
+          Enumerated_Domain_Value_Definition: HOUSING POLICE, GOVERNMENT-[NAICS Code 922120]: Entities that are involved in the specific sector of securing and delivering police services to people using public housing are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: IMMIGRATION SERVICES
+          Enumerated_Domain_Value_Definition: IMMIGRATION SERVICES-[NAICS Code 928120]:  Entities that are responsible for the specific sector of the administration of immigration and naturalization adjudication functions and establishing immigration services, policies, and priorities are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: JAILS (EXCEPT PRIVATE OPERATION OF)
+          Enumerated_Domain_Value_Definition:
+            JAILS (EXCEPT PRIVATE OPERATION OF) - [NAICS Code 922140]: Entity is a jail. A jail is a facility that holds inmates beyond arraignment (usually 72 hours) and prior to sentencing. Jails may also hold inmates serving short sentences (up to a year) for minor crimes. This includes locally administered jails that are staffed by municipal or county employees. This also includes regional jails operated for two or more jail authorities and Federal Bureau of Prisons facilities that function as jails.
+
+            The above definition is consistent with that used by the Bureau of Justice Statistics (BJS) Census of Jails (http://www.ojp.usdoj.gov/bjs/pub/pdf/cj99.pdf), except that the BJS includes "private jails operating under contract to governments".
+
+            Facilities that function as both Jails and Prisons are classified under prisons.
+
+            Also included under this category are temporary holding facilities, sometimes referred to as "police lock ups" or "drunk tanks". Temporary holding facilities are used to detain people prior to arraignment. Although these are included under this category, the BJS excludes them from their Census of Jails.
+          Enumerated_Domain_Value_Definition_Source: TGS - based upon the BJS Census of Jails
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: JAILS, PRIVATELY OPERATED
+          Enumerated_Domain_Value_Definition:
+            JAILS, PRIVATELY OPERATED - [NAICS Code 561210]: Entity is a jail. A jail is a facility that holds inmates beyond arraignment (usually 72 hours) and prior to sentencing. Jails may also hold inmates serving short sentences (up to a year) for minor crimes. These include private jails operating under contract to governments.
+
+            The above definition is consistent with that used by the Bureau of Justice Statistics (BJS) Census of Jails (http://www.ojp.usdoj.gov/bjs/pub/pdf/cj99.pdf), except that the BJS includes "locally administered jails that are staffed by municipal or county employees, regional jails operated for two or more jail authorities and Federal Bureau of Prisons facilities that function as jails.".
+          Enumerated_Domain_Value_Definition_Source: TGS - based upon the BJS Census of Jails
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: JAIL OPERATION ON A CONTRACT OR FEE BASIS
+          Enumerated_Domain_Value_Definition: JAIL OPERATION ON A CONTRACT OR FEE BASIS - [NAICS Code 561210]: Entity is a jail operated by a private firm under contract to a government agency. A jail is a facility that holds inmates beyond arraignment (usually 72 hours).
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MARSHALS' OFFICES
+          Enumerated_Domain_Value_Definition: MARSHALS' OFFICES-[NAICS Code 922120]:  Entities that are responsible for the specific sector of providing protection for the federal judiciary, transporting federal prisoners, protecting endangered federal witnesses and managing assets seized from criminal enterprises are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MILITARY POLICE
+          Enumerated_Domain_Value_Definition: MILITARY POLICE-[NAICS Code 928110]:  Entities that are involved in the specific sector of the Armed Forces, including the National Guard, primarily engaged in national security and related activities are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PARK POLICE
+          Enumerated_Domain_Value_Definition: PARK POLICE-[NAICS Code 922120]:  Entities that are involved in the specific sector of protecting the national, state, and local parks are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: POLICE AND FIRE DEPARTMENTS, COMBINED
+          Enumerated_Domain_Value_Definition: POLICE AND FIRE DEPARTMENTS, COMBINED-[NAICS Code 922120]: Entities that are involved in the specific sector of both police and fire protection are classified under this description, unless they are primarily involved in the prevention and/or investigation of fire.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: POLICE DEPARTMENTS (EXCEPT AMERICAN INDIAN OR ALASKA NATIVE)
+          Enumerated_Domain_Value_Definition: POLICE DEPARTMENTS (EXCEPT AMERICAN INDIAN OR ALASKA NATIVE)-[NAICS Code 922120]:  Entities that are involved in the specific sector of general police protections are classified under this description, unless they are primarily involved in a more specific sector of law enforcement.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: POLICE, AMERICAN INDIAN OR ALASKA NATIVE TRIBAL
+          Enumerated_Domain_Value_Definition: POLICE, AMERICAN INDIAN OR ALASKA NATIVE TRIBAL-[NAICS Code 921150]:  Entities that are involved in the specific sector of general police protections for the American Indian and Alaskan Native population are classified under this description, unless they are primarily involved in a more specific sector of law enforcement.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PRISON FARMS
+          Enumerated_Domain_Value_Definition: PRISON FARMS - [NAICS Code 922140]: Entities where the inmate population works on a farm or ranch as part of their punishment / rehabilitation.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PRISONS
+          Enumerated_Domain_Value_Definition: PRISONS - [NAICS Code 922140]: Entity is a prison. A prison is a facility where persons convicted of the commission of a felony are held. Prisons may be called "Prisons", "Reformatories", "Penitentiaries", "Detention Centers", or "Correctional Centers", although the use of one of these terms in an entity's name does not necessarily indicate that the entity is in fact a "Prison" in the narrow sense used here.
+          Enumerated_Domain_Value_Definition_Source: TGS - based loosely on the BJS's "Correctional Populations in the United States" (http://www.albany.edu/sourcebook/app15.html)
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: REHABILITATION SERVICES, CORRECTIONAL, GOVERNMENT
+          Enumerated_Domain_Value_Definition: REHABILITATION SERVICES, CORRECTIONAL, GOVERNMENT-[NAICS Code 922150]: Entity is a treatment center that attempts to change or reform a convicted person so that he or she will not commit another criminal act. These entities facilitate reintegration into the community with a greater chance of succeeding.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SHERIFFS' OFFICES (EXCEPT COURT FUNCTIONS ONLY)
+          Enumerated_Domain_Value_Definition: SHERIFFS' OFFICES (EXCEPT COURT FUNCTIONS ONLY)-[NAICS Code 922120]:  Entities that are involved in the specific sector of general law enforcement at the county level are classified under this description, unless they primarily conduct court functions only.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SHERIFFS' OFFICES, COURT FUNCTIONS ONLY
+          Enumerated_Domain_Value_Definition: SHERIFFS' OFFICES, COURT FUNCTIONS ONLY-[NAICS Code 922110]:  Entities that are involved in the specific sector of general law enforcement at the county level that conduct court functions only are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: STATE POLICE
+          Enumerated_Domain_Value_Definition: STATE POLICE-[NAICS Code 922120]:  Entities that are involved in the specific sector of general law enforcement at the state level are classified under this description, unless they are primarily involved in a more specific sector of law enforcement.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TRANSIT POLICE
+          Enumerated_Domain_Value_Definition: TRANSIT POLICE-[NAICS Code 922120]: Entities that are involved in the specific sector of a specialized type of police who prevent and investigate crimes committed against a transportation carrier or against passengers and other customers of the carrier are classified under this description.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: GEOLINKID
+      Attribute_Definition: Link ID for the street segment to which the entity was geocoded. Refer to the [ST_VENDOR] and [ST_VERSION] fields for the street vendor and version that was used to geocode the entity.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: X
+      Attribute_Definition: Longitude in WGS 84 Decimal Degrees.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -180
+          Range_Domain_Maximum: 180
+          Attribute_Units_of_Measure: WGS 84 Decimal Degrees
+    Attribute:
+      Attribute_Label: Y
+      Attribute_Definition: Latitude in WGS 84 Decimal Degrees.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -90
+          Range_Domain_Maximum: 90
+          Attribute_Units_of_Measure: WGS 84 Decimal Degrees
+    Attribute:
+      Attribute_Label: ST_VENDOR
+      Attribute_Definition: Indicates name of vendor providing original street data used for geocoding.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NAVTEQ
+          Enumerated_Domain_Value_Definition: NAVTEQ streets were used for geocoding.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TGS
+          Enumerated_Domain_Value_Definition: TGS drew in a new street segment that does not exist in the file supplied by NAVTEQ.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: ST_VERSION
+      Attribute_Definition: Indicates the year and quarter of streets used for geocoding.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2006Q3
+          Enumerated_Domain_Value_Definition: 3rd Quarter 2006 NAVTEQ Street Data was used for geocoding.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2006Q4
+          Enumerated_Domain_Value_Definition: 4th Quarter 2006 NAVTEQ Street Data was used for geocoding.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2008Q1
+          Enumerated_Domain_Value_Definition: 1st Quarter 2008 NAVTEQ Street Data was used for geocoding.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: GEOPREC
+      Attribute_Definition: Geocoding precision.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: BLOCKFACE
+          Enumerated_Domain_Value_Definition: Entity is geocoded to correct block and correct side of street per street data indicated by [ST_VENDOR] and [ST_VERSION].
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ONENTITY
+          Enumerated_Domain_Value_Definition: Entity is geocoded on entity rooftop per aerial imagery (in most cases USGS DOQQs).
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: PHONELOC
+      Attribute_Definition: Indicates whether the phone number in the [TELEPHONE] field rings to the actual location of the entity.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Phone number rings to the actual entity location.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: Phone number does not ring to the actual entity location. It may ring to an administrative office or central location.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown - It is not known if the entity's phone number rings to the entity's location.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: QC_QA
+      Attribute_Definition: Organization that performed Quality Control/Quality Assurance on the record.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: TGS
+          Enumerated_Domain_Value_Definition: TGS has performed Quality Control/Quality Assurance on all TGS added records and all records contacted since 01/01/2005.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: The record is not TGS added or has not had Quality Control/Quality Assurance performed by TGS, or Quality Control/Quality Assurance was performed prior to 01/01/2005.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: STATE_ID
+      Attribute_Definition: State Correctional Institution Data ID. For states that contributed data, this field is populated with the unique ID used by the state to track correctional institutions.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: SECLEVEL
+      Attribute_Definition:
+        Indicates the security level the facility operates under.
+
+        The definitions for the values that are in this field were taken from the Federal Bureau of Prisons.
+
+        Where possible, these categories have been applied to facilities other than those operated by the Federal Bureau of Prisons.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: FACTYPE
+      Attribute_Definition:
+        Type of facility.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: AGENCY
+      Attribute_Definition:
+        Agency name.
+
+        The values in this field were assigned by TGS based on the entity's source data.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: INMATE_MEN
+      Attribute_Definition:
+        Indicates whether or not the inmate population is male.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Facility has a male population.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: Facility does not have a male population.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: INMATE_WOM
+      Attribute_Definition:
+        Indicates whether or not the inmate population is female.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Facility has a female population.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: Facility does not have a female population.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: INMATE_JUV
+      Attribute_Definition:
+        Indicates whether or not the inmate population is juvenile.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Facility has a juvenile population.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: Facility does not have a juvenile population.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: INMATE_COE
+      Attribute_Definition:
+        Indicates whether or not the inmate population is Co-Ed.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: YES
+          Enumerated_Domain_Value_Definition: Facility has a Co-Ed population.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NO
+          Enumerated_Domain_Value_Definition: Facility does not have a Co-Ed population.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: CAPACITY
+      Attribute_Definition:
+        Design capacity of inmates.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: TOTALPOP
+      Attribute_Definition:
+        Total population of entity.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: EMERPHONE
+      Attribute_Definition:
+        Emergency Contact Number as provided by individual sources. Some values also include telephone extensions and/or alternate telephone numbers. All alphabetic characters have been translated to the corresponding numeric digit.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Phone numbers, including area code, formatted as nnn-nnn-nnn. A list of valid area code and exchange combinations can be found at http://www.nanpa.com
+    Attribute:
+      Attribute_Label: PERM_ID
+      Attribute_Definition:
+        The unique permanent identifier of The National Structures Dataset.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: GNIS_ID
+      Attribute_Definition:
+        The unique permanent identifier of the Geographic Names Information System. Values are up to eight (8) digits in length and are unique within the nation.
+
+        The values in this field were provided by individual sources and are not verified by TGS.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: PS
+      Attribute_Definition: Indicates if the entity is also a part of the Law Enforcement layer.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Entity is also a part of the Law Enforcement layer.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Entity is a correctional institution only.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unable to determine if entity also belongs in the Law Enforcement layer.
+          Enumerated_Domain_Value_Definition_Source: TGS
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/corinst.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.
+

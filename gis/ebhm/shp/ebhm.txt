@@ -1,0 +1,448 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC Division of Marine Fisheries
+      Publication_Date: 20130718
+      Publication_Time: Unknown
+      Title: Estuarine Benthic Habitat Mapping
+      Geospatial_Data_Presentation_Form: vector digital data
+      Series_Information:
+        Series_Name: None
+        Issue_Identification: None
+      Publication_Information:
+        Publication_Place: Morehead City, NC
+        Publisher: North Carolina Division of Marine Fisheries
+      Online_Linkage: http://portal.ncdenr.org/web/mf
+  Description:
+    Abstract:
+      The need for extensive shellfish management in North Carolina has been recognized since the 1947 North Carolina General Assembly authorized the Division of Commercial Fisheries to conduct a rehabilitation program to restore the declining oyster (Crassostrea virginica) fishery.  More recently, rising prices and increased demand for hard clams (Mercenaria mercenaria) and Bay Scallops have spurred the implementation of new management techniques and philosophies toward this expanding fishery.  Although the Fisheries Management Section of the N.C. Division of Marine Fisheries has been actively managing these shellfish resources since 1964, it has done so with limited resource base information.  The most complete and accurate shellfish bottom survey in North Carolina waters was done by Lt. Francis Winslow, U.S. Navy, in 1889 and was limited to the larger estuaries.  This survey was targeted solely toward oysters and potential oyster producing grounds, and although it was quite extensive in Pamlico Sound, it has long since become outdated.
+
+      Beginning in 1978, the Division of Marine Fisheries has undertaken a shellfish bottom survey of the commercial shellfish-producing waters in the coastal area.  The purpose of the survey is to locate and map shellfish-producing areas and to delineate potentially productive benthic shellfish habitats.  Gross determinations of shellfish concentrations within productive bottom types are to be determined through a stratified random sampling program.  The information generated from this survey is expected to update resource base data to a level from which information can be drawn for making management decisions.
+
+      A preliminary survey of the Newport River system was conducted from November 1980 to April 1981.  Newport River was selected as a testing ground for survey techniques because of its close proximity to sampling headquarters, its diverse fisheries and environmental characteristics, and the pressing need for resource base data in such a dynamic system.  From this survey it was deemed that the mapping techniques and survey methods proved acceptable, and in 1987 the estuarine waters were divided into areas based on shellfish habitat suitability criteria.  In 1989 the Shellfish Resource Mapping Proposal was introduced, which led to the creation of the Shellfish Mapping Program in 1990
+
+      MSA I2 is the second iteration of Shellfish Bottom Mapping.   I2 is developed based on newer shoreline created from high resolution imagery. There are changes in mapping process with use of updated transect grid size (6" * 6") and  also use of mapping grade GPS for ground truthing purposes. Iteration 2 (I2) data should be used when it is geographically available.
+    Purpose:
+      GOAL -	To survey, evaluate and map North Carolina's shellfish habitat to provide a more comprehensive fisheries management scheme.
+
+      OBJECTIVES -	1)	To summarize existing shellfish information and evaluate shellfish producing habitat based on environmental and utilization criteria.
+
+      2)	To survey shellfish habitats to obtain baseline data and production potential information.
+
+      3)	To define and delineate existing and potential shellfish habitat through a series of resource maps.
+
+      4)	To provide for better utilization of estuarine resources through improved information for management and increased public awareness.
+    Supplemental_Information:
+      Process from Survey to GIS Data Developement:
+      Base maps of each area were created by use of ESRI ARCGIS software, using shapefiles of USGS 24K quad maps and shellfish area boundary polygons.  A one-minute and a ten-second latitude/longitude grid layers were placed on the area coverage. One-minute latitude/longitude lines were labeled for geographic reference.
+
+      Mapping of strata was accomplished through the use of various size small outboard vessels and a crew of at least two individuals.  One person navigates the survey vessel on the ten second transects using a DGPS unit, while the other person uses sounding poles of various lengths to probe the benthic habitat.  The person using the sounding poles calls out the strata type as it is found, and the person navigating records the strata type on the field map at that particular latitude and longitude on the field map.  In areas where there are apparent changes in strata between the ten second lines, five second lines or less are transected until the strata type boundaries are identified.
+
+      Field map data consisting of strata types and boundaries is then transferred to an office map by use of a light table.  After which, the paper office map is digitally scanned using a Widesystem Contex scanner.  Data is scanned at a high resolution as a color image.
+
+      The image is then georeferenced using Georeferencing tools in ESRI ArcGIS.  MSA coverage, 1-min and 10-sec grids are used in the process for Georeferencing the image to their true coordinates.  At least 4 control points are used and a low RMS error is achieved before registering the image.  Line work is digitized in ESRI Personal Geodatabase Feature Class and converted into polygon data.  Later the data is checked for topology errors.  Attributes, including acreage, are calculated and added as required.  Individual area coverages are then verified by the Shellfish Mapping Biologist/Supervisor; once verified these areas are merged into the final MSA database.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 1989-Current
+    Currentness_Reference: bottom condition
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -78.574269
+      East_Bounding_Coordinate: -75.450108
+      North_Bounding_Coordinate: 36.018056
+      South_Bounding_Coordinate: 33.804217
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: biota
+      Theme_Keyword: boundaries
+      Theme_Keyword: environment
+    Theme:
+      Theme_Keyword_Thesaurus: EPA GIS Keyword Thesaurus
+      Theme_Keyword: Conservation
+      Theme_Keyword: Ecology
+      Theme_Keyword: Ecosystem
+      Theme_Keyword: Environment
+      Theme_Keyword: Estuary
+      Theme_Keyword: Marine
+      Theme_Keyword: Monitoring
+      Theme_Keyword: Natural Resources
+      Theme_Keyword: Water
+      Theme_Keyword: Estuarine Benthic Habitat Mapping
+    Theme:
+      Theme_Keyword_Thesaurus: http://www.csc.noaa.gov/cgi-bin/id/cid2k/syns.cgi?advanced=getQuery
+      Theme_Keyword: Shellfish Mapping, Substrate mapping, Benthic Mapping, Oysters, Clams, Mollusks
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: Coastal/Eastern North Carolina
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: North Carolina
+    Stratum:
+      Stratum_Keyword_Thesaurus: None
+      Stratum_Keyword: Subtidal/Intertidal Substrate
+    Temporal:
+      Temporal_Keyword_Thesaurus: None
+      Temporal_Keyword: 1989 to Current
+  Access_Constraints: None.
+  Use_Constraints: The user must read and fully comprehend the metadata prior to data use.  Acknowledgement of products derived from this data set should cite the following:  The source of the dataset is the North Carolina Division of Marine Fisheries.   Earlier versions of this data set may exist. The user must be sure to use the appropriate data set for the time period of interest. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, NCDMF cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Brian Conrad
+        Contact_Organization: North Carolina Division of Marine Fisheries
+      Contact_Position: Shellfish Biologist, NC DMF Mapping Program Supervisor
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 3441 Arendell Street
+        City: Morehead City
+        State_or_Province: North Carolina
+        Postal_Code: 28557
+      Contact_Voice_Telephone: 252-726-7021
+      Contact_Electronic_Mail_Address: brian.conrad@ncmail.net
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: TBD
+  Logical_Consistency_Report: Polygons do not overlap and gaps between polygons were verified to be valid.
+  Completeness_Report: TBD
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: TBD
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: NA
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC DENR-Div. of Marine Fisheries
+          Publication_Date: 20040219
+          Title: Estuarine Benthic Habitat Mapping
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC DENR-Div. of Marine Fisheries
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: DRG 24k Quads
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: Unknown
+            Ending_Date: Unknown
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: USGS
+      Source_Contribution: USGS
+    Process_Step:
+      Process_Description: Description Supplemental Information element in metadata for processing procedure.
+      Process_Date: 20101021
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 24122
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.00001
+          Ordinate_Resolution: 0.00001
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 1980
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Estuarine Benthic Habitat Mapping
+      Entity_Type_Definition: MSA Iteration 2 Feature Class
+      Entity_Type_Definition_Source: DENR, Division of Marine Fisheries
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: STRATA
+      Attribute_Definition: Substrate Type
+      Attribute_Definition_Source: Program 635 Documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: A
+          Enumerated_Domain_Value_Definition: Subtidal Soft Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: B
+          Enumerated_Domain_Value_Definition: Subtidal Soft Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C
+          Enumerated_Domain_Value_Definition: Subtidal Soft Non-Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: D
+          Enumerated_Domain_Value_Definition: Subtidal Soft Non-Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: E
+          Enumerated_Domain_Value_Definition: Subtidal Firm Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: Subtidal Firm Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: G
+          Enumerated_Domain_Value_Definition: Subtidal Firm Non-Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: H
+          Enumerated_Domain_Value_Definition: Subtidal Firm Non-Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: I
+          Enumerated_Domain_Value_Definition: Subtidal Hard Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: J
+          Enumerated_Domain_Value_Definition: Subtidal Hard Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: K
+          Enumerated_Domain_Value_Definition: Subtidal Hard Non-Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: L
+          Enumerated_Domain_Value_Definition: Subtidal Hard Non-Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: M
+          Enumerated_Domain_Value_Definition: Intertidal Soft Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Intertidal Soft Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: O
+          Enumerated_Domain_Value_Definition: Intertidal Soft Non-Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: P
+          Enumerated_Domain_Value_Definition: Intertidal Soft Non-Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Q
+          Enumerated_Domain_Value_Definition: Intertidal Firm Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: R
+          Enumerated_Domain_Value_Definition: Intertidal Firm Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: S
+          Enumerated_Domain_Value_Definition: Intertidal Firm Non-Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: Intertidal Firm Non-Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: U
+          Enumerated_Domain_Value_Definition: Intertidal Hard Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: V
+          Enumerated_Domain_Value_Definition: Intertidal Hard Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: W
+          Enumerated_Domain_Value_Definition: Intertidal Hard Non-Vegetated Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: X
+          Enumerated_Domain_Value_Definition: Intertidal Hard Non-Vegetated w/o Shell
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NM
+          Enumerated_Domain_Value_Definition: Not Mapped
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: LEASE
+          Enumerated_Domain_Value_Definition: Shellfish Lease
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: No Strata
+          Enumerated_Domain_Value_Definition_Source: Program 635 documentation
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: ACRES
+      Attribute_Definition: Area of feature in acres.
+      Attribute_Definition_Source: Standard Dictionary
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: AREAID
+      Attribute_Definition: Extent subdivided into unique units
+      Attribute_Definition_Source: Program 635 documentation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Months vary.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: MONTH_MAP
+      Attribute_Definition: Calendar month of field survey
+      Attribute_Definition_Source: Standard calendar
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Months vary.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: DATE_MAP
+      Attribute_Definition: Year of field survey
+      Attribute_Definition_Source: Program 635 Documentation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Dates vary.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: FISCALY
+      Attribute_Definition: Fiscal year of survey
+      Attribute_Definition_Source: Standard Dictionary
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Dates vary.
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: STRATA_D
+      Attribute_Definition: Substrate Type Description
+      Attribute_Definition_Source: Program 635 Documentation
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Descriptions vary.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Brian Conrad
+        Contact_Organization: North Carolina Division of Marine Fisheries
+      Contact_Position: Shellfish Biologist, NC DMF Mapping Program Supervisor
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 3441 Arendell Street
+        City: Morehead City
+        State_or_Province: North Carolina
+        Postal_Code: 28557
+      Contact_Voice_Telephone: 252-726-7021
+      Contact_Electronic_Mail_Address: Brian.Conrad@ncmail.net
+  Resource_Description: Downloadable Data
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+
+    Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop the corporate database may be reflected in the data supplied. The user must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. North Carolina Division of Marine Fisheries does not support secondary distribution of this data. The use of trade names or commercial products does not constitute their endorsement by the Division of Marine Fisheries or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/ebhm.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process:
+    Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov
+    or 919-754-6580 for more information.
+  Technical_Prerequisites:
+    All formats available from www.nconemap.com are in ESRI shapefile.
+    Other formats are available on a cost-recovery basis - contact
+    dataq@its.nc.gov or 919-754-6580 for more information. Format
+    compatibility is the user's responsibility.
+  Available_Time_Period:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1989
+        Ending_Date: Present
+Metadata_Reference_Information:
+  Metadata_Date: 20131120
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Division of Marine fisheries
+        Contact_Person: Ben Jones
+      Contact_Position: GIS Analyst
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 3441 Arendell Street
+        City: Morehead City
+        State_or_Province: North Carolina
+        Postal_Code: 28557
+      Contact_Voice_Telephone: (252)-808-8069
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time

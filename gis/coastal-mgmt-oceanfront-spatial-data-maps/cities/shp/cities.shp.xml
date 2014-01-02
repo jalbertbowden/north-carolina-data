@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Geological Survey</origin>
+				<pubdate>200312</pubdate>
+				<title>Cities and Towns of the United States</title>
+				<pubinfo>
+					<pubplace>Reston, VA</pubplace>
+					<publish>U.S. Geological Survey</publish>
+				</pubinfo>
+				<onlink>&lt;http://nationalatlas.gov/atlasftp.html&gt;</onlink>
+				<ftname Sync="TRUE">cities</ftname><geoform Sync="TRUE">vector digital data</geoform></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+This data set includes cities in the United States including Puerto Rico
+and the U.S. Virgin Islands.  These cities were collected from the 1970
+National Atlas of the United States.  Where applicable, U.S. Census Bureau
+codes for named populated places were associated with each name to allow
+additional information to be attached.  The Geographic Names Information
+System (GNIS) was also used as a source for additional information.  This
+is a revised version of the October, 2002 data set.
+</abstract>
+			<purpose>
+These data are intended for geographic display and analysis at the
+national level, and for large regional areas.  The data should be
+displayed and analyzed at scales appropriate for 1:2,000,000-scale data.
+No responsibility is assumed by the U.S. Geological Survey in the use of
+these data.
+</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1972</begdate>
+					<enddate>2003</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-174.198761</westbc>
+				<eastbc Sync="TRUE">178.874603</eastbc>
+				<northbc Sync="TRUE">71.290062</northbc>
+				<southbc Sync="TRUE">17.711706</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-174.198761</leftbc><rightbc Sync="TRUE">178.874603</rightbc><bottombc Sync="TRUE">17.711706</bottombc><topbc Sync="TRUE">71.290062</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Cities</themekey>
+				<themekey>Towns</themekey>
+				<themekey>Populated places</themekey>
+				<themekey>County seat</themekey>
+				<themekey>State capital</themekey>
+			</theme>
+			<place>
+				<placekt>
+U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of
+Special Sovereignty, and Their Principal Administrative Divisions
+(Federal Information Processing Standard (FIPS) 10-4): Washington, DC,
+National Institute of Standards and Technology.
+</placekt>
+				<placekey>United States</placekey>
+				<placekey>USA</placekey>
+			</place>
+			<place>
+				<placekt>
+U.S. Department of Commerce, 1987, Codes for the Identification of the
+States, the District of Columbia and the Outlying Areas of The United
+States, and Associated Areas (Federal Information Processing Standard
+5-2):  Washington, DC, National Institute of Standards and Technology.
+</placekt>
+				<placekey>Alabama</placekey>
+				<placekey>Alaska</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Arkansas</placekey>
+				<placekey>California</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Connecticut</placekey>
+				<placekey>Delaware</placekey>
+				<placekey>District of Columbia</placekey>
+				<placekey>Florida</placekey>
+				<placekey>Georgia</placekey>
+				<placekey>Hawaii</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Illinois</placekey>
+				<placekey>Indiana</placekey>
+				<placekey>Iowa</placekey>
+				<placekey>Kansas</placekey>
+				<placekey>Kentucky</placekey>
+				<placekey>Louisiana</placekey>
+				<placekey>Maine</placekey>
+				<placekey>Maryland</placekey>
+				<placekey>Massachusetts</placekey>
+				<placekey>Michigan</placekey>
+				<placekey>Minnesota</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>Missouri</placekey>
+				<placekey>Montana</placekey>
+				<placekey>Nebraska</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>New Hampshire</placekey>
+				<placekey>New Jersey</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>New York</placekey>
+				<placekey>North Carolina</placekey>
+				<placekey>North Dakota</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Oklahoma</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Pennsylvania</placekey>
+				<placekey>Rhode Island</placekey>
+				<placekey>South Carolina</placekey>
+				<placekey>South Dakota</placekey>
+				<placekey>Tennessee</placekey>
+				<placekey>Texas</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Vermont</placekey>
+				<placekey>Virginia</placekey>
+				<placekey>Washington</placekey>
+				<placekey>West Virginia</placekey>
+				<placekey>Wisconsin</placekey>
+				<placekey>Wyoming</placekey>
+				<placekey>Puerto Rico</placekey>
+				<placekey>Virgin Islands</placekey>
+				<placekey>U.S. Virgin Islands</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>
+None.  Acknowledgment of the National Atlas of the United States of America
+would be appreciated in products derived from these data.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey</cntorg>
+					<cntper>Gita Urban-Mathieux</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>561 National Center</address>
+					<city>Reston</city>
+					<state>VA</state>
+					<postal>20192</postal>
+				</cntaddr>
+				<cntvoice>703-648-5175</cntvoice>
+				<cntemail>atlasmail@usgs.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800</native><natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<logic>
+The data set was checked for topological consistency using the Arc/INFO
+command BUILD.  No other checks for logical consistency were performed on
+this data set.
+</logic>
+		<complete>
+This data set includes built-up areas and populated places for all 50 of the
+United States, the District of Columbia, U.S. Virgin Islands, and the
+Commonwealth of Puerto Rico.  Capitals and county seats are identified as
+well as population ranges where known.
+</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>1995</pubdate>
+						<title>1:2,000,000-scale Digital Line Graph Data - Manmade Features</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>CD-ROM</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1972</begdate>
+							<enddate>1994</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>2MILMM</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>2000</pubdate>
+						<title>Geographic Names Information System</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<onlink>&lt;http://geonames.usgs.gov/&gt;</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2000</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>GNIS</srccitea>
+				<srccontr>Attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Institute of Standards and Technology</origin>
+						<pubdate>1998</pubdate>
+						<title>
+FIPS 55-DC3 Index - Guideline: Codes for Named Populated Places,
+Primary County Divisions, and Other Locational Entities of the
+United States, Puerto Rico, and Outlying Areas
+</title>
+						<pubinfo>
+							<pubplace>Gaithersburg, MD</pubplace>
+							<publish>National Institute of Science and Technology</publish>
+						</pubinfo>
+						<onlink>&lt;http://www.itl.nist.gov/fipspubs/55new/nav-top-fr.htm&gt;</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1972</begdate>
+							<enddate>1998</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>FIPS55-3_98</srccitea>
+				<srccontr>Attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>1998</pubdate>
+						<title>Cities and Towns of the United States</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1972</begdate>
+							<enddate>1994</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>ATLAS-CITIES98</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>200002</pubdate>
+						<title>Cities and Towns of the United States</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1972</begdate>
+							<enddate>1994</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>ATLAS-CITIES00</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>1990</pubdate>
+						<title>U.S. Gazetteer Place File</title>
+						<pubinfo>
+							<pubplace>Washington, DC</pubplace>
+							<publish>U.S. Census Bureau</publish>
+						</pubinfo>
+						<onlink>&lt;http://www.census.gov/geo/www/gazetteer/gazette.html&gt;</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1990</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>GAZETTEER</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Institute of Standards and Technology</origin>
+						<pubdate>1999</pubdate>
+						<title>
+FIPS 55-DC3 Index - Guideline: Codes for Named Populated Places,
+Primary County Divisions, and Other Locational Entities of the
+United States, Puerto Rico, and Outlying Areas
+</title>
+						<pubinfo>
+							<pubplace>Gaithersburg, MD</pubplace>
+							<publish>National Institute of Science and Technology</publish>
+						</pubinfo>
+						<onlink>&lt;http://www.itl.nist.gov/fipspubs/55new/nav-top-fr.htm&gt;</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1972</begdate>
+							<enddate>1999</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>FIPS55-3_99</srccitea>
+				<srccontr>Attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>2000</pubdate>
+						<title>
+Geographic Names Information System - Populated Places
+(Pop_places_deci.zip)
+</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+						<onlink>&lt;http://geonames.usgs.gov/stategaz/index.html&gt;</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2000</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>POP_PL</srccitea>
+				<srccontr>Attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Census Bureau</origin>
+						<pubdate>1998</pubdate>
+						<title>
+Population Estimates for Places: July 1, 1998, and
+Population Change: April 1, 1990 to July 1, 1998
+</title>
+						<pubinfo>
+							<pubplace>Washington, DC</pubplace>
+							<publish>U.S. Census Bureau</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1990</begdate>
+							<enddate>1998</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>POP_ESTIMATE</srccitea>
+				<srccontr>Attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>1999</pubdate>
+						<title>Hydrography Features of the United States</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1999</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>ATLAS-HY</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>1999</pubdate>
+						<title>County Boundaries of the United States</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1999</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>ATLAS-CNTY</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>20001106</pubdate>
+						<title>Cities and Towns of the United States</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1972</begdate>
+							<enddate>2000</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>ATLAS-CITIES2000</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey</origin>
+						<pubdate>20021010</pubdate>
+						<title>Cities and Towns of the United States</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>2000000</srcscale>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1972</begdate>
+							<enddate>2000</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Ground condition</srccurr>
+				</srctime>
+				<srccitea>ATLAS-CITIES2002</srccitea>
+				<srccontr>Spatial and attribute information</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Association of Counties</origin>
+						<pubdate>2003</pubdate>
+						<title>United States Counties - Find a County</title>
+						<pubinfo>
+							<pubplace>Washington, DC</pubplace>
+							<publish>National Association of Counties</publish>
+						</pubinfo>
+						<onlink>&lt;http://www.naco.org/Template.cfm?Section=Find_a_County&gt;</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>Online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>2003</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>Publication date</srccurr>
+				</srctime>
+				<srccitea>NACO</srccitea>
+				<srccontr>Attribute information</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+Digitized place names from the 1970 National Atlas of the United States
+were compared with U.S. Census Bureau place names from FIPS55-3_98.
+Where there were discrepancies, names from the GNIS were used.  A small
+number of places could not be assigned FIPS55 codes and were removed
+from the data set.  Minor positional corrections were also made.
+</procdesc>
+				<srcused>2MILMM</srcused>
+				<srcused>GNIS</srcused>
+				<srcused>FIPS55-3_98</srcused>
+				<procdate>1998</procdate>
+				<srcprod>ATLAS-CITIES98</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>
+No spatial data was changed in ATLAS-CITIES98.  The following edits were
+made to the attribute data base file.  In the Feature field,
+inconsistencies were removed and the population ranges were corrected as
+necessary to match the 1990 population information in the Pop field.
+Unnecessary fields were deleted (Idnum, Capcode, Stid).  Fields were
+added for State, State_Fips, and County.  Lakewood Center, Washington
+was changed to Lakewood, Washington with a population of 58412.
+Incorrect population information for Lakewood, Snohomish County was
+deleted.  Boise City, Idaho was changed to Boise, Idaho.
+</procdesc>
+				<srcused>ATLAS-CITIES98</srcused>
+				<procdate>200002</procdate>
+				<srcprod>ATLAS-CITIES00</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>
+Points generated from the GAZETTEER text file were added; points with
+duplicate FIPS55 codes were removed.  County, State, and FIPS data were
+compared and corrected, if necessary, with data from FIPS55-3_99, and
+with POP_PL.  Remaining incorporated and Census Designated Places
+(CDP's) from GNIS were added; all unincorporated and non-CDP places were
+then removed.  A few populated places in high density areas were
+filtered out.  Population data from the POP_ESTIMATE and GAZETTEER files
+were added, and a population value of -99999 was used where population
+data was not available.  Some places were updated with new FIPS55 codes.
+Minor positional corrections were made using ATLAS-HY and ATLAS-CNTY as
+references.  A display attribute, based on population size and distance
+to nearest town, was added to determine which place names will be shown
+at the most detailed scale on the National Atlas interactive map
+browser.
+</procdesc>
+				<srcused>ATLAS-CITIES00</srcused>
+				<srcused>GAZETTEER</srcused>
+				<srcused>FIPS55-3_99</srcused>
+				<srcused>POP_PL</srcused>
+				<srcused>GNIS</srcused>
+				<srcused>POP_ESTIMATE</srcused>
+				<srcused>ATLAS-HY</srcused>
+				<srcused>ATLAS-CNTY</srcused>
+				<procdate>200011</procdate>
+				<srcprod>ATLAS-CITIES2000</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>1990 and 1998 population figures for Newtown, Connecticut were updated.</procdesc>
+				<srcused>ATLAS-CITIES2000</srcused>
+				<procdate>20021010</procdate>
+				<srcprod>ATLAS-CITIES2002</srcprod>
+			</procstep>
+			<procstep>
+				<procdesc>
+County and county FIPS fields for the town of Bloomfield, CO were
+updated and it was listed as the county seat for Bloomfield county.
+County seats were added for counties where they were missing.  These
+include:
+&gt;   Plumas County, CA-Quincy
+&gt;   Towns County, GA-Hiawassee
+&gt;   Kauai County, HI-Lihue
+&gt;   Hardin County, IL-Elizabethtown
+&gt;   Saginaw County, MI-Saginaw
+&gt;   Koochiching County, MN-International Falls
+&gt;   Holt County, NE-O'Neill
+&gt;   Cass County, ND-Fargo
+&gt;   Price County, WI-Phillips
+Please note that Shannon County, SD; Todd County, SD; Kings, NY;
+Bronx, NY; Queens, NY; and Richmond, NY do not have official county
+seats.
+</procdesc>
+				<srcused>ATLAS-CITIES2002</srcused>
+				<srcused>NACO</srcused>
+				<procdate>20031215</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>
+U.S. Department of Commerce, 1987, Codes for the Identification of the
+States, the District of Columbia and the Outlying areas of the United
+States, and Associated Areas (FIPS 5-2): Washington, DC, National Institute
+of Standards and Technology.
+
+U.S. Department of Commerce, 1990, Counties and Equivalent Entities of the
+United States, Its Possessions, and Associated Areas (FIPS 6-4): Washington,
+DC, National Institute of Standards and Technology.
+</indspref>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="cities">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">35301</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="cities"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">35301</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres Sync="TRUE">0.000001</latres>
+				<longres Sync="TRUE">0.000001</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="cities">
+			<enttyp>
+				<enttypl Sync="TRUE">cities</enttypl>
+				<enttypd>
+Populated places in the United States, Puerto Rico, and the
+U.S. Virgin Islands.
+</enttypd>
+				<enttypds>U.S. Geological Survey</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">35301</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Point</edomv>
+						<edomvd>0-dimensional element</edomvd>
+						<edomvds>ESRI GIS software</edomvds>
+					</edom>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>1</rdommin>
+						<rdommax>35301</rdommax>
+					</rdom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">CITIESX020</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<rdom><rdommin>1</rdommin><rdommax>35301</rdommax></rdom></attrdomv>
+				<attalias Sync="TRUE">CITIESX020</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FEATURE</attrlabl>
+				<attrdef>The type of city or town.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<edom><edomv>County Seat</edomv><edomvd>A populated place that serves as the seat of the county government.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>State Capital</edomv><edomvd>A populated place that serves as the seat of the State government.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>State Capital County Seat</edomv><edomvd>A populated place that serves as the seat of the State government and the county government.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>National Capital</edomv><edomvd>A populated place that serves as the seat of the national government of the United States of America.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>Populated Place</edomv><edomvd>A populated place that is neither a county seat, a State capital, nor the capital of the United States of America.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom></attrdomv>
+				<attalias Sync="TRUE">FEATURE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">27</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME</attrlabl>
+				<attrdef>The name of the city or town.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd><codesetn>Geographic Names Information System (GNIS)</codesetn><codesets>U.S. Board on Geographic Names</codesets></codesetd></attrdomv>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">48</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_RANGE_</attrlabl>
+				<attrdef>The population range of the city or town based on 1990 U.S. Census Bureau data.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Undetermined</edomv>
+						<edomvd>The population is not known.</edomvd>
+						<edomvds>U.S. Geological Survey</edomvds>
+					</edom>
+					<edom><edomv>0 - 9,999</edomv><edomvd>The population is less than 10,000.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>10,000 - 49,999</edomv><edomvd>The population is between 10,000 and 49,999.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>50,000 - 99,999</edomv><edomvd>The population is between 50,000 and 99,999.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>100,000 - 249,999</edomv><edomvd>The population is between 100,000 and 249,999.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>250,000 - 499,999</edomv><edomvd>The population is between 250,000 and 499,999.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>500,000 - 999,999</edomv><edomvd>The population is between 500,000 and 999,999.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>1,000,000 - 9,999,999</edomv><edomvd>The population is between 1,000,000 and 9,999,999.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom></attrdomv>
+				<attalias Sync="TRUE">POP_RANGE_</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">21</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_90</attrlabl>
+				<attrdef>The 1990 population of the city or town.  (A 1998 estimated population value may be available for places where the 1990 population value is unknown.) </attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>-99999</edomv>
+						<edomvd>The population is not known.</edomvd>
+						<edomvds>U.S. Geological Survey</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<rdom>
+						<rdommin>0</rdommin>
+						<rdommax>7322564</rdommax>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">POP_90</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">POP_98</attrlabl>
+				<attrdef>The 1998 estimated population of the city or town.  (A 1990 population value may be available for places where the 1998 estimated population value is unknown.) </attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<edom><edomv>-99999</edomv><edomvd>The population is not known.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom></attrdomv>
+				<attalias Sync="TRUE">POP_98</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">8</attwidth><attrdomv><rdom><rdommin>1</rdommin><rdommax>7420166</rdommax></rdom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FIPS55</attrlabl>
+				<attrdef>The 5-digit FIPS code of the named populated place, primary county division, or other locational entity of the United States. </attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Codes for Named Populated Places, Primary County Divisions, and Other Locational Entities of the United States, Puerto Rico, and the Outlying Areas, FIPS 55-DC3.  </codesetn>
+						<codesets>
+U.S. Department of Commerce, National Institute of Standards and
+Technology
+</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">FIPS55</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY</attrlabl>
+				<attrdef>The name of the county or county equivalent.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas, FIPS 6-4, 1990.</codesetn>
+						<codesets>
+U.S. Department of Commerce, National Institute of Standards and
+Technology
+</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">COUNTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">55</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FIPS</attrlabl>
+				<attrdef>The 5-digit FIPS code of the county or county equivalent.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Counties and Equivalent Entities of the United States, Its Possessions, and Associated Areas, FIPS 6-4, 1990.</codesetn>
+						<codesets>
+U.S. Department of Commerce, National Institute of Standards and
+Technology
+</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">FIPS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">STATE</attrlabl>
+				<attrdef>The 2-character FIPS code of the State or State equivalent.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas, FIPS 5-2.  </codesetn>
+						<codesets>
+U.S. Department of Commerce, National Institute of Standards and
+Technology
+</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">STATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr>
+			<attr>
+				<attrlabl Sync="TRUE">STATE_FIPS</attrlabl>
+				<attrdef>The 2-digit FIPS code of the State or State equivalent.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<codesetd><codesetn>Codes for the Identification of the States, the District of Columbia and the Outlying Areas of the United States, and Associated Areas, FIPS 5-2.  </codesetn><codesets>U.S. Department of Commerce, National Institute of Standards and
+Technology</codesets></codesetd></attrdomv>
+				<attalias Sync="TRUE">STATE_FIPS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">DISPLAY</attrlabl><attalias Sync="TRUE">DISPLAY</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">1</attwidth><attrdomv><edom><edomv>0</edomv><edomvd>The place name will not be shown.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom><edom><edomv>1</edomv><edomvd>The place name will be shown.</edomvd><edomvds>U.S. Geological Survey</edomvds></edom></attrdomv><attrdef>A value used to specify whether a place name text label will be shown at the most detailed display scale in the National Atlas Map Maker.  It is determined by a ratio based on population size and distance to nearest town and was set by the following steps:  1) Distance to the nearest neighbor was calculated for each populated place.  2) Population density was calculated by adding the 1990 population values for each county and then dividing the total by the area of the county. The 1990 population values of -99999 were set to 1.  3) A display ratio was calculated using the formula 1990 Population x Distance / Population Density.  4) Display was set to 1 for all points with a minimum result of 15000, and set to 0 for the remainder of points.</attrdef><attrdefs>U.S. Geological Survey</attrdefs></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Earth Science Information Center, U.S. Geological Survey</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>507 National Center</address>
+					<city>Reston</city>
+					<state>VA</state>
+					<postal>20192</postal>
+				</cntaddr>
+				<cntvoice>1-888-ASK-USGS (1-888-275-8747)</cntvoice>
+				<cntvoice>703-648-5920</cntvoice>
+				<cntinst>
+In addition to the address above, there are other ESIC offices
+throughout the country.  A full list of these offices is at
+&lt;http://mapping.usgs.gov/esic/esic_index.html&gt;
+</cntinst>
+			</cntinfo>
+		</distrib>
+		<distliab>
+Although these data have been processed successfully on a computer system at
+the U.S. Geological Survey, no warranty expressed or implied is made by the
+U.S. Geological Survey regarding the utility of the data on any other
+system, nor shall the act of distribution constitute any  such warranty.
+No responsibility is assumed by the U.S. Geological Survey in the use of
+these data.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ESRI Shapefile</formname>
+					<transize Sync="TRUE">7.783</transize><dssize Sync="TRUE">7.783</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>&lt;http://nationalatlas.gov/atlasftp.html&gt;</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+						<recfmt>tar</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<digform>
+				<digtinfo>
+					<formname>SDTS</formname>
+					<transize Sync="TRUE">7.783</transize><dssize Sync="TRUE">7.783</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>&lt;http://nationalatlas.gov/atlasftp.html&gt;</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+						<recfmt>tar</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>
+There is no charge for the online option.  For National Atlas files
+ordered on CD-ROM there is a base price of $45.00 per disc, a handling fee
+of $5.00, and a per-file charge based on file size.  The charge for files
+less than 10 megabytes in size is $1.00.  The charge for files that range
+in size from 10 to 150 megabytes is $7.50.  The charge for files of 150
+megabytes or larger is $15.00.  The charge is $1.00 for the Cities and
+Towns of the United States data set.
+</fees>
+			<ordering>
+To order files on CD-ROM, please see
+&lt;http://nationalatlas.gov/atlasftp.html#q12&gt;.
+</ordering>
+		</stdorder>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20040318</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>Gita Urban-Mathieux</cntper>
+					<cntorg>U.S. Geological Survey</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>561 National Center</address>
+					<city>Reston</city>
+					<state>VA</state>
+					<postal>20192</postal>
+				</cntaddr>
+				<cntvoice>703-648-5175</cntvoice>
+				<cntemail>atlasmail@usgs.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<metsi>
+			<metscs>None</metscs>
+			<metsc>Unclassified</metsc>
+			<metshd>None</metshd>
+		</metsi>
+		<langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{CC1DA182-D414-4E05-B192-EF31D5D5003E}</MetaID><CreaDate>20040312</CreaDate><CreaTime>11301500</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20040318</SyncDate><SyncTime>15275000</SyncTime><ModDate>20040318</ModDate><ModTime>15275000</ModTime><Sync>FALSE</Sync></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">cities</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-174.198761</westBL><eastBL Sync="TRUE">178.874603</eastBL><northBL Sync="TRUE">71.290062</northBL><southBL Sync="TRUE">17.711706</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-174.198761</westBL><eastBL Sync="TRUE">178.874603</eastBL><northBL Sync="TRUE">71.290062</northBL><southBL Sync="TRUE">17.711706</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\NURSE\E$\OFR_04_data_catalog\base_files\national_atlas_cities\cities.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">7.783</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_North_American_1983</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="cities"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">35301</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20040318</mdDateSt></metadata>

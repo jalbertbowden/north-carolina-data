@@ -1,0 +1,485 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1">
+		<META NAME="description" CONTENT="The Coastal and Marine Geology Program of the U.S. Geological Survey has generated a comprehensive database of digital vector shorelines and shoreline change rates for the U.S. Southeast Atlantic Coast (Florida, Georgia, South Carolina, North Carolina). These data, which are presented herein, were compiled as part of the U.S. Geological Survey's National Assessment of Shoreline Change Project."> 
+<META NAME="author" CONTENT="Jolene S. Shirley"> 
+<META NAME="keywords" CONTENT="USGS, shoreline, shoreline change, shoreline change rates, GIS, coastal change, digital vector shoreline, vector shorelines, Southeast, Atlantic, national assessment, national assessment of shoreline change, beach, erosion, Florida, Georgia, South Carolina, North Carolin, metadata"> 
+<META NAME="publisher" CONTENT="USGS - U.S. Geological Survey, Center for Coastal and Watershed Studies"> 
+<META NAME="created" CONTENT="20051015"> 
+<META NAME="expires" CONTENT="never"> 
+<META NAME="review" CONTENT="20061015">
+		<link href="/css/universal.css" rel="stylesheet" type="text/css">
+		<link href="custom.css" rel="stylesheet" type="text/css">
+		<title>GIS Data Layers - The National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the U.S. Southeast Atlantic Coast</title>
+	      <script type="text/javascript" src="http://www.usgs.gov/scripts/analytics/usgs-analytics.js"></script>
+
+</head>
+
+	<body bgcolor="#ffffff">
+	<!-- BEGIN USGS Header Template -->
+<table width="100%"  border="0" cellpadding="0" cellspacing="0"> 
+  <tr> 
+    <td>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="178" align="left"><a href="http://www.usgs.gov"><img src="images/header_graphic_white.jpg" alt="Link to USGS home page." width="178" height="72" border="0"></a></td>
+          <td width="100%" class="banner">
+              <table width="150" border="0" align="right" cellpadding="0" cellspacing="0" class="ccsa">
+                <tr>
+                  <td><img src="images/header_graphic_spacer.gif" width="1" height="72" alt=""></td>
+                  <td><a href="http://www.usgs.gov" class="ccsa">USGS Home</a><br>
+                      <a href="http://www.usgs.gov/ask/index.html" class="ccsa">Contact USGS</a><br>
+                  <a href="http://www.usgs.gov/search" class="ccsa">Search USGS</a> </td>
+                </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    <img src="images/header_graphic_spacer.gif" width="1" height="1" alt=""></td> 
+  </tr> 
+  <tr> 
+    <td class="siteTitle">Center for Coastal and Watershed Studies</td> 
+  </tr> 
+</table>
+<!-- END USGS Header Template -->
+<span class="footernav"><a href="http://marine.usgs.gov/">Coastal & Marine Geology Program</a> &gt;
+<a href="http://coastal.er.usgs.gov/">Center for Coastal &amp; Watershed Studies</a> &gt;
+<abbr title="Open File Report">OFR</abbr> 2005-1326</span></p>
+
+<h1>The National Assessment of Shoreline Change:  A <abbr title="Geographic Information System">GIS</abbr> Compilation of Vector Shorelines and Associated Shoreline Change Data for the U.S. Southeast Atlantic Coast</h1>
+<h2><abbr title="U.S. Geological Survey">USGS</abbr> Open File Report 2005-1326</h2>
+<h3>by: Tara L. Miller, Robert A. Morton, Asbury H. Sallenger</h3>
+
+<p>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+
+<td valign="top" width="130"><a href="#content" title="Skip navigational links"></a>
+
+<!--VERTICAL NAVIGATION MENU BAR-->
+
+<table border="0" cellpadding="0" cellspacing="0" width="130">
+<!--GEOPHYSICAL DATA-->
+
+<tr><td><table border="0" cellpadding="0" cellspacing="0" width="130"><tr>
+<td bgcolor="#91b0bd" valign="top" width="5"><img src="images/corner-ul.gif" width="5" height="5" alt=""></td>
+<td rowspan="2"><table border="0" cellpadding="0" cellspacing="0" width="125">
+
+<tr>
+<td bgcolor="#91b0bd"><table border="0" cellpadding="2" cellspacing="0" width="125"><tr>
+<td><span class="navheadsmall">Contents:</span></td>
+</tr>
+</table></td>
+
+</tr>
+
+<tr>
+<td bgcolor="#cccccc"><table border="0" cellpadding="2" cellspacing="0" width="125">
+<tr>
+<td width="118"><span class="nav"><a href="index.html">Introduction</a></span></td>
+<td align="right" width="12"><img src="images/dot_clear.gif" width="12" height="1" alt=""></td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td width="125" height="2"><img src="images/dot_clear.gif" width="125" height="2" alt=""></td>
+</tr>
+
+<tr>
+
+<td bgcolor="#9999aa"><table border="0" cellpadding="2" cellspacing="0" width="125">
+<tr>
+<td width="118"><span class="navlite"><abbr title="Geographic Information System">GIS</abbr> Data Layers</span></td>
+<td align="right" width="12"><img src="images/pointer.gif" width="12" height="12" alt=""></td>
+
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td width="125" height="2"><img src="images/dot_clear.gif" width="125" height="2" alt=""></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc"><table border="0" cellpadding="2" cellspacing="0" width="125">
+<tr>
+<td width="118"><span class="nav"><a href="references.html">References</a></span></td>
+
+<td align="right" width="12"><img src="images/dot_clear.gif" width="12" height="1" alt=""></td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+<td width="125" height="2"><img src="images/dot_clear.gif" width="125" height="2" alt=""></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc"><table border="0" cellpadding="2" cellspacing="0" width="125">
+<tr>
+<td width="118"><span class="nav"><a href="acknowledgments.html">Acknowledgments</a></span></td>
+<td align="right" width="12"><img src="images/dot_clear.gif" width="12" height="1" alt=""></td>
+</tr>
+</table></td>
+
+</tr>
+
+<tr>
+<td width="125" height="2"><img src="images/dot_clear.gif" width="125" height="2" alt=""></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc"><table border="0" cellpadding="2" cellspacing="0" width="125">
+<tr>
+<td width="118"><span class="nav"><a href="contacts.html">Contacts</a></span></td>
+<td align="right" width="12"><img src="images/dot_clear.gif" width="12" height="1" alt=""></td>
+</tr>
+</table></td>
+</tr>
+
+<tr>
+
+<td width="125" height="2"><img src="images/dot_clear.gif" width="125" height="2" alt=""></td>
+</tr>
+
+<tr>
+<td bgcolor="#cccccc"><table border="0" cellpadding="2" cellspacing="0" width="125">
+<tr>
+<td width="118"><span class="nav"><a href="disclaimer.html">Disclaimer</a></span></td>
+<td align="right" width="12"><img src="images/dot_clear.gif" width="12" height="1" alt=""></td>
+</tr>
+</table></td>
+</tr>
+
+
+</table></td>
+</tr>
+
+<tr>
+<td bgcolor="#91b0bd" valign="bottom" width="5"><img src="images/corner-ll.gif" width="5" height="5" alt=""></td>
+</tr></table></td></tr>
+
+</table></td>
+
+<!--GUTTER-->
+
+<td width="15"><img width="15" height="1" src="images/dot_clear.gif" alt=""><a name="content"></a></td>
+
+<!--PAGE CONTENT-->
+
+<td width="100%" valign="top">
+
+<h2><abbr title="Geographic Information System">GIS</abbr> Data Layers</h2>
+<p>
+<!--
+<table border="0" cellpadding="5" cellspacing="0" align="right" width="200">
+	<tr>
+		<Td><a href="http://coastalmap.marine.usgs.gov/ArcIMS/Website/usa/GoMex/shoreline_change/" target="_blank"><img src="images/ims.gif" alt="IMS" height="143" width="200" border="1"></a><span class="caption2">The data presented in this report have been integrated into the <a href="http://coastalmap.marine.usgs.gov/ArcIMS/Website/usa/GoMex/shoreline_change/" target="_blank">USGS U.S. Gulf of Mexico Shoreline Change Internet Map Server</a>.<br>
+											Note: In order to use the Map Server, javascript is required to be enabled in your web browser.</span><hr></td>
+	</tr>
+</table>-->Data in this publication are intended to be integrated into a <abbr title="Geographic Information System">GIS</abbr>.  A <abbr title="Geographic Information System">GIS</abbr> is defined as a system of hardware and software to support the display, manipulation, and analysis of spatial data for mapping and complex data analysis.  This integrated package provides researchers the ability to integrate, analyze and map the various datasets to help with economic and social policy-making decisions regarding the environment.</p>
+
+<p>Individual data layers for this publication along with additional basemap layers have been compiled into an Internet Map Server. The Coastal and Marine Geology Internet Map Server, viewable at <a href="http://coastalmap.marine.usgs.gov/">http://coastalmap.marine.usgs.gov/</a>, brings the usefulness of a <abbr title="Geographic Information System">GIS</abbr> into your computer via a web browser. An introduction and help page for the Internet Map Server is available at <a href="http://coastalmap.marine.usgs.gov/ArcIMS/aimshelp/index.html">http://coastalmap.marine.usgs.gov/ArcIMS/aimshelp/</a>.</p>
+
+
+<p>There are nine <abbr title="Geographic Information System">GIS</abbr> data layers (shapefiles) offered for each state along the <abbr title="United States">U.S.</abbr> Southeast Atlantic Coast.  These include: four vector shorelines, an offshore baseline used for generating shore-normal transects, transects for long- and short- term shoreline change rates, transect/shoreline intersection positions, and a vector layer to show the spatial extents of beach nourishment projects.  The <abbr title="Geographic Information System">GIS</abbr> data layers from this publication are cataloged below by state for easy access.</p>
+
+<p><a href="http://www.fgdc.gov/">Federal Geographic Data Committee</a> (FGDC) compliant metadata for the individual data layers are provided in HTML format. Selecting associated metadata files from the table below will open the information in a new browser window.</p>
+
+<p>A 'zip' compressed, downloadable archive file containing the components of the ArcView shapefile for each data layer is also provided. Compressed downloadable files were created using the Windows program WINZIP <abbr title="version">v</abbr>8.1. For those users who do not have software capable of uncompressing the archived zip files, they may obtain a free version of software from <a href="http://www.winzip.com/">Winzip Computing, <abbr title="Incorporated">Inc.</abbr></a></P>
+
+<table border="0" cellpadding="0" cellspacing="0" aling="center" width="100%"><tr><td bgcolor="#eeeeee" width="100%">
+<table border="0" cellpadding="3" cellspacing="1" aling="center" width="100%">
+
+	<tr>
+		<th scope="col" colspan="3" bgcolor="#00443f" class="table" align="left"><font color="white"><b>Data Layers by State</b></font></th>
+	</tr>
+
+	<tr>
+		<th colspan="3" align="left" scope="col" bgcolor="#91b0bd" class="table"><b>Florida</b></th>
+	</tr>
+	<tr>
+
+	<th bgcolor="#ffffff" scope="col" width="80%" class="table" align="left"><font color="#00443f">Layer Name - Description</font></th>
+		<th bgcolor="#ffffff" scope="col" width="20%" class="table"><font color="#00443f">Metadata</font></th>
+		<th bgcolor="#ffffff" scope="col" width="10%" class="table"><font color="#00443f">Files</font></th>
+	</tr>
+		<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>fl1851_1884</b> - Vector shoreline derived from 1851-1884 source data</td>
+
+		<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Florida/fl1851_1884.htm" target="_blank">HTML</a></td>
+										<td bgcolor="#ffffff" align="center" rowspan="9" valign="middle"><span class="table"><a href="fl_zip.zip">fl_zip</a></span><br>
+											<span class="caption2"><nobr>(8.0 <abbr title="megabytes">MB</abbr>)</nobr></span></td>
+									</tr>
+	<tr>
+
+		<td bgcolor="#ffffff"class="table"><b>fl1923_1930</b> - Vector shoreline derived from 1923-1930 source data</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/Florida/fl1923_1930.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>fl1967_1980</b> - Vector shoreline derived from 1967-1980 source data</td>
+
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Florida/fl1967_1980.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>fl1999</b> - Vector shoreline derived from 1999 source data</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/Florida/fl1999.htm" target="_blank">HTML</a></td>
+
+									</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>fl_baseline</b> - Offshore baseline for generating shore-normal transects</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Florida/fl_baseline.htm" target="_blank">HTML</a></td>
+									</tr>
+
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>fl_transects_lt</b> - Shore-normal transects with associated long-term rates of shoreline change</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/Florida/fl_transects_lt.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+
+		<td bgcolor="#F0F8FC" class="table"><b>fl_transects_st</b> - Shore-normal transects with associated short-term rates of shoreline change</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Florida/fl_transects_st.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>fl_intersects</b> - Transect/Shoreline intersection positions</td>
+
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/Florida/fl_intersects.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>fl_nourish</b> - Alongshore vector showing spatial extents of beach nourishments</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Florida/fl_nourish.htm" target="_blank">HTML</a></td>
+
+									</tr>
+	<tr>
+		<th colspan="3" bgcolor="#91b0bd" class="table" align="left" scope="col"><b>Georgia</b></th>
+	</tr>
+	<tr>
+	<th bgcolor="#ffffff" scope="col" width="80%" class="table" align="left"><font color="#00443f">Layer Name - Description</font></th>
+		<th bgcolor="#ffffff" scope="col" width="20%" class="table"><font color="#00443f">Metadata</font></th>
+
+		<th bgcolor="#ffffff" scope="col" width="10%" class="table"><font color="#00443f">Files</font></th>
+	</tr>
+	<tr>
+				<td bgcolor="#F0F8FC" class="table"><b>ga1857_1870</b> - Vector shoreline derived from 1857-1870 source data</td>
+		<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Georgia/ga1857_1870.htm" target="_blank">HTML</a></td>
+
+										<td bgcolor="#ffffff" align="center" rowspan="9" valign="middle"><span class="table"><a href="ga_zip.zip">ga_zip</a></span><br>
+											<span class="caption2"><nobr>(1.5 <abbr title="megabytes">MB</abbr>)</nobr></span></td>
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>ga1920_1925</b> - Vector shoreline derived from 1920-1925 source data</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/Georgia/ga1920_1925.htm" target="_blank">HTML</a></td>
+
+									</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>ga1971_1973</b> - Vector shoreline derived from 1971-1973 source data</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Georgia/ga1971_1973.htm" target="_blank">HTML</a></td>
+									</tr>
+
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>ga1999</b> - Vector shoreline derived from 1999 source data</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/Georgia/ga1999.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+
+		<td bgcolor="#F0F8FC" class="table"><b>ga_baseline</b> - Offshore baseline for generating shore-normal transects</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Georgia/ga_baseline.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>ga_transects_lt</b> - Shore-normal transects with associated long-term rates of shoreline change</td>
+
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/Georgia/ga_transects_lt.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>ga_transects_st</b> - Shore-normal transects with associated short-term rates of shoreline change</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Georgia/ga_transects_st.htm" target="_blank">HTML</a></td>
+
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>ga_intersects</b> - Transect/Shoreline intersection positions</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/Georgia/ga_intersects.htm" target="_blank">HTML</a></td>
+									</tr>
+
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>ga_nourish</b> - Alongshore vector showing spatial extents of beach nourishments</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Georgia/ga_nourish.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+
+		<th align="left" scope="col" colspan="3" bgcolor="#91b0bd" class="table"><b>South Carolina</b></th>
+	</tr>
+	<tr>
+	<th bgcolor="#ffffff" scope="col" width="80%" class="table" align="left"><font color="#00443f">Layer Name - Description</font></th>
+		<th bgcolor="#ffffff" scope="col" width="20%" class="table"><font color="#00443f">Metadata</font></th>
+		<th bgcolor="#ffffff" scope="col" width="10%" class="table"><font color="#00443f">Files</font></th>
+	</tr>
+
+	<tr>
+			<td bgcolor="#F0F8FC" class="table"><b>sc1852_1875</b> - Vector shoreline derived from 1852-1875 source data</td>
+		<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/South_Carolina/sc1852_1875.htm" target="_blank">HTML</a></td>
+										<td bgcolor="#ffffff" align="center" rowspan="8" valign="middle"><span class="table"><a href="sc_zip.zip">sc_zip</a></span><br>
+
+											<span class="caption2"><nobr>(3.2 <abbr title="megabytes">MB</abbr>)</nobr></span></td>
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>sc1920_1926</b> - Vector shoreline derived from 1920-1926 source data</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/South_Carolina/sc1920_1926.htm" target="_blank">HTML</a></td>
+
+									</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>sc1962_1964</b> - Vector shoreline derived from 1962-1964 source data</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/South_Carolina/sc1962_1964.htm" target="_blank">HTML</a></td>
+									</tr>
+
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>sc2000</b> - Vector shoreline derived from 2000 source data</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/South_Carolina/sc2000.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+
+		<td bgcolor="#F0F8FC" class="table"><b>sc_baseline</b> - Offshore baseline for generating shore-normal transects</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/South_Carolina/sc_baseline.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>sc_transects_lt</b> - Shore-normal transects with associated long-term rates of shoreline change</td>
+
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/South_Carolina/sc_transects_lt.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>sc_transects_st</b> - Shore-normal transects with associated short-term rates of shoreline change</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/South_Carolina/sc_transects_st.htm" target="_blank">HTML</a></td>
+
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>sc_intersects</b> - Transect/Shoreline intersection positions</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/South_Carolina/sc_intersects.htm" target="_blank">HTML</a></td>
+									</tr>
+										<tr>
+		<td bgcolor="#ffffff" class="table"><b>sc_nourish</b> - Alongshore vector showing spatial extents of beach nourishments</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/South_Carolina/sc_nourish.htm" target="_blank">HTML</a></td>
+									</tr>
+
+	<tr>
+		<th align="left" scope="col" colspan="3" bgcolor="#91b0bd" class="table"><b>North Carolina</b></th>
+	</tr>
+	<tr>
+	<th bgcolor="#ffffff" scope="col" width="80%" class="table" align="left"><font color="#00443f">Layer Name - Description</font></th>
+		<th bgcolor="#ffffff" scope="col" width="20%" class="table"><font color="#00443f">Metadata</font></th>
+		<th bgcolor="#ffffff" scope="col" width="10%" class="table"><font color="#00443f">Files</font></th>
+
+	</tr>
+	<tr>
+
+		<td bgcolor="#F0F8FC" class="table"><b>nc1849_1873</b> - Vector shoreline derived from 1849-1873 source data</td>
+		<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/North_Carolina/nc1849_1873.htm" target="_blank">HTML</a></td>
+
+										<td bgcolor="#ffffff" align="center" rowspan="9" valign="middle"><span class="table"><a href="nc_zip.zip">nc_zip</a></span><br>
+											<span class="caption2"><nobr>(4.2 <abbr title="megabytes">MB</abbr>)</nobr></span></td>
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>nc1925_1946</b> - Vector shoreline derived from 1925-1946 source data</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/North_Carolina/nc1925_1946.htm" target="_blank">HTML</a></td>
+
+									</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>nc1970_1988</b> - Vector shoreline derived from 1970-1988 source data</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/North_Carolina/nc1970_1988.htm" target="_blank">HTML</a></td>
+									</tr>
+
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>nc1997</b> - Vector shoreline derived from 1997 source data</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/North_Carolina/nc1997.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+
+		<td bgcolor="#F0F8FC" class="table"><b>nc_baseline</b> - Offshore baseline for generating shore-normal transects</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/North_Carolina/nc_baseline.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>nc_transects_lt</b> - Shore-normal transects with associated long-term rates of shoreline change</td>
+
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/North_Carolina/nc_transects_lt.htm" target="_blank">HTML</a></td>
+									</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>nc_transects_st</b> - Shore-normal transects with associated short-term rates of shoreline change</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/North_Carolina/nc_transects_st.htm" target="_blank">HTML</a></td>
+
+									</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>nc_intersects</b> - Transect/Shoreline intersection positions</td>
+										<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/North_Carolina/nc_intersects.htm" target="_blank">HTML</a></td>
+									</tr>
+
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>nc_nourish</b> - Alongshore vector showing spatial extents of beach nourishments</td>
+										<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/North_Carolina/nc_nourish.htm" target="_blank">HTML</a></td>
+									</tr>
+	
+</table></td></tr></table>
+
+					<p>
+					<table border="0" cellpadding="0" cellspacing="0" aling="center" width="100%"><tr><Td bgcolor="#eeeeee">
+<table border="0" cellpadding="3" cellspacing="1" aling="center" width="100%">
+	<tr>
+		<th align="left" scope="col" colspan="3" bgcolor="#00443f" class="table"><b><font color="white">Base Layers</font></b></th>
+	</tr>
+	<tr>
+		<th bgcolor="#ffffff" scope="col" width="75%" class="table" align="left"><font color="#00443f">Layer Name - Description</font></th>
+
+		<th bgcolor="#ffffff" scope="col" width="20%" class="table"><font color="#00443f">Metadata</font></th>
+		<th bgcolor="#ffffff" scope="col" width="15%" class="table"><font color="#00443f">Files</font></th>
+	</tr>
+	<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>NOS80k</b> - Medium resolution digital vector <abbr title="United States">U.S.</abbr> shoreline.  Type: feature - polygon.</td>
+		<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Base_Layers/nos80k.htm" target="_blank" >HTML</a></td>
+		<td bgcolor="#F0F8FC" align="center" valign="top"><nobr><span class="table"><a href="nos80k.zip">zip</a></span></nobr><br><span class="caption2"><nobr>(26.1 <abbr title="megabytes">MB</abbr>)</nobr></span></td>
+	</tr>
+	<tr>
+		<td bgcolor="#ffffff" class="table"><b>state_bounds</b> - Internal U.S. state boundaries</td>
+
+		<td bgcolor="#ffffff" align="center" class="table"><a href="metadata/Base_Layers/state_bounds.htm" target="_blank">HTML</a></td>
+		<td bgcolor="#ffffff" align="center"><span class="table"><a href="state_bounds.zip">zip</a></span><br><span class="caption2"><nobr>(1.8 <abbr title="megabytes">MB</abbr>)</nobr></span></td>
+	</tr>
+		<tr>
+		<td bgcolor="#F0F8FC" class="table"><b>cities</b> - Cities and towns of the United States </td>
+
+		<td bgcolor="#F0F8FC" align="center" class="table"><a href="metadata/Base_Layers/cities.htm" target="_blank">HTML</a></td>
+		<td bgcolor="#F0F8FC" align="center"><span class="table"><a href="cities.zip">zip</a></span><br><span class="caption2"><nobr>(1.2 <abbr title="megabytes">MB</abbr>)</nobr></span></td>
+	</tr>
+</table></td></tr></table>
+					</p>
+
+
+
+<p align="center" class="nav">continue to <a href="references.html">References</a></p>
+
+<img src="images/dot_clear.gif" width="315" height="1" alt=""></td>
+
+
+</tr>
+</table>
+<p>
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="2" class="footer"><a href="http://www.usgs.gov/accessibility.html" class="footer">Accessibility</a><a href="http://www.usgs.gov/foia/" class="footer">FOIA</a><a href="http://www.usgs.gov/privacy.html" class="footer">Privacy</a><a href="http://www.usgs.gov/policies_notices.html" class="footer">Policies and Notices</a> </td>
+  </tr>
+  <tr>
+    <td><p class="footer"><a href="http://www.doi.gov">U.S. Department of the Interior</a> | <a href="http://www.usgs.gov">U.S. Geological Survey</a><br>
+      URL: http://pubs.usgs.gov/of/2005/1326/gis-data.html<br>
+Page Contact Information: <a href="mailto:jmwatson@usgs.gov,kathiewatson@usgs.gov?Subject=Online Publication">Eastern Publications Group</a><br>		
+        
+Page Last Modified:  21:54:53 Sat 12 Jan 2013</p></td>
+    <td colspan="1" align="right"> <a href="http://firstgov.gov/"><img src="images/footer_graphic_firstGov.jpg" alt="FirstGov button" width="90" height="26" border="0" align="top"></a>&nbsp; <a href="http://www.takepride.gov/"><img src="images/footer_graphic_takePride.jpg" alt="Take Pride in America button" width="60" height="58" border="0"></a></td>
+  </tr>
+</table>
+
+	</body>
+
+</html>

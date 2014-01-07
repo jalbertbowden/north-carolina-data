@@ -1,0 +1,441 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC Wildlife Resources Commission, Division of Engineering and Lands Management
+      Publication_Date: 20130709
+      Title: Boating Access Areas
+      Edition: This is a fourth edition of NC WRC owned and/or maintained boating access areas or those constructed with the Agency's partnership.
+      Geospatial_Data_Presentation_Form: vector digital data
+  Description:
+    Abstract: NC WRC Division of Engineering and Lands Management developed this set of point locations of boating access areas owned or maintained by the Agency or constructed with Agency's partnership.
+    Purpose: This dataset was developed for the purpose of identifying locations of boating access areas owned and/or maintained by NC Wildlife Resources Commission (WRC), as well as other free and public boat ramps constructed with the Agency's partnership.
+    Supplemental_Information: This is a fourth geospatial version of statewide NC WRC Boating Access Areas inventory.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20130709
+    Currentness_Reference: publication date
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.264419
+      East_Bounding_Coordinate: -75.611609
+      North_Bounding_Coordinate: 36.562448
+      South_Bounding_Coordinate: 33.787072
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: structure
+      Theme_Keyword: transportation
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: WRC boating access areas
+      Theme_Keyword: public boat ramps
+      Theme_Keyword: free launch areas
+      Theme_Keyword: boat ramps
+      Theme_Keyword: boats
+      Theme_Keyword: ramps
+  Access_Constraints: None
+  Use_Constraints: Acknowledgement of products derived from this data set should cite the following: The source of the North Carolina Wildlife Resources Commission Boating Access Area data is the North Carolina Wildlife Resources Commission. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, NCWRC cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC WRC, Division of Engineering and Lands Management
+      Contact_Address:
+        Address_Type: Unknown
+        Address: 1720 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699
+        Country: US
+      Contact_Voice_Telephone: 919-707-0152
+      Contact_Facsimile_Telephone: 919-707-0162
+      Contact_Electronic_Mail_Address: anna.stefanowicz@ncwildlife.org
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.1.1.3143
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Latitude/longitude coordinates were used to locate sites. Where latitude/longitude coordinates were not provided, the physical address was used. Aerial photography images were used to verify point locations. WRC staff provided and verified attribution.
+  Logical_Consistency_Report: Unknown.
+  Completeness_Report: This data layer represents free public Boating Access Areas in North Carolina.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC Wildlife Resources Commission, Division of Engineering and Lands Management
+          Publication_Date: 20130709
+          Title: WRC Boating Access Areas
+      Type_of_Source_Media: None
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 2012
+            Ending_Date: Present
+        Source_Currentness_Reference: Export date
+      Source_Citation_Abbreviation: WRC Boating Access Areas
+      Source_Contribution: Provided Access database information.
+    Process_Step:
+      Process_Description: Latitude and longitude coordinates of Boating Access Areas were derived from Access database and used to generate ARC/INFO point coverage for verification with aerial photography images. For entries without latitude/longitude coordinates, physical address was used to locate sites using www.maps.google.com and then verified with aerial photography images.
+      Process_Date: 20080111
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 229
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: NAD 1983 StatePlane North Carolina FIPS 3200
+        Lambert_Conformal_Conic:
+          Standard_Parallel: 34.33333333333334
+          Standard_Parallel: 36.16666666666666
+          Longitude_of_Central_Meridian: -79.0
+          Latitude_of_Projection_Origin: 33.75
+          False_Easting: 609601.22
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000008381539906565651
+          Ordinate_Resolution: 0.000000008381539906565651
+        Planar_Distance_Units: Meter
+    Geodetic_Model:
+      Horizontal_Datum_Name: D North American 1983
+      Ellipsoid_Name: GRS 1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257222101
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: BAA
+      Entity_Type_Definition: Boating Access Areas
+      Entity_Type_Definition_Source: NCWRC
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: BAA_NAME
+      Attribute_Definition: BAA name.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique name of entity.
+    Attribute:
+      Attribute_Label: ALIAS
+      Attribute_Definition: BAA alias name.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique name of entity.
+    Attribute:
+      Attribute_Label: DWQ_WATER
+      Attribute_Definition: Water body at which an area is located.
+      Attribute_Definition_Source: NCDWQ
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique name.
+    Attribute:
+      Attribute_Label: WATER_BODY
+      Attribute_Definition: Defines access to a major body of water.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique name of entity.
+    Attribute:
+      Attribute_Label: WATER_TYPE
+      Attribute_Definition: Defines fishing Water classification.
+      Attribute_Definition_Source: NC Administrative Code, 15A NCAC 03Q .0201
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: COASTAL, JOINT, INLAND
+          Codeset_Source: NCAC
+    Attribute:
+      Attribute_Label: OPERATEDBY
+      Attribute_Definition: Defines entity responsible for routine maintenace of an area.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique name of entity.
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County name.
+      Attribute_Definition_Source: State of North Carolina.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique name.
+    Attribute:
+      Attribute_Label: SDV_RECOM
+      Attribute_Definition: Shallow-draft vessel recommendation.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Y, N
+          Codeset_Source: NCWRC
+    Attribute:
+      Attribute_Label: RECOM_TERM
+      Attribute_Definition: Time period of shallow-draft vessel recommendation.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Year-Round, Temp Low Water Levels
+          Codeset_Source: NCWRC
+    Attribute:
+      Attribute_Label: MB_RESTR
+      Attribute_Definition: Restriction on motorized boat use.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Y, N
+          Codeset_Source: NCWRC
+    Attribute:
+      Attribute_Label: CANOE
+      Attribute_Definition: Availability of canoe/kayak access.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Y, N
+          Codeset_Source: NCWRC
+    Attribute:
+      Attribute_Label: RESTROOM
+      Attribute_Definition: Availability of restrooms.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Y, N
+          Codeset_Source: NCWRC
+    Attribute:
+      Attribute_Label: TRASH_CAN
+      Attribute_Definition: Availability of trash receptacle.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Y, N
+          Codeset_Source: NCWRC
+    Attribute:
+      Attribute_Label: ADA_ACCESS
+      Attribute_Definition: Availability of ADA access.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Y, N
+          Codeset_Source: NCWRC
+    Attribute:
+      Attribute_Label: ADA_NOTES
+      Attribute_Definition: ADA features.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Detailed list of ADA features.
+    Attribute:
+      Attribute_Label: CAUTION
+      Attribute_Definition: Caution remarks.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Caution measures vary.
+    Attribute:
+      Attribute_Label: FIX_DOCK
+      Attribute_Definition: Numer of fixed dock(s).
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: no docks
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+        Codeset_Domain:
+          Codeset_Name: Y, N
+          Codeset_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: one dock
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: two docks
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: three docks
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+    Attribute:
+      Attribute_Label: FLOAT_DOCK
+      Attribute_Definition: Number of floating dock(s).
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0
+          Enumerated_Domain_Value_Definition: no docks
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: one dock
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: two docks
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: three docks
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+    Attribute:
+      Attribute_Label: LNCH_LANE
+      Attribute_Definition: Number of launch lanes (ramps).
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: one launch lane
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: two launch lanes
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: three launch lanes
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 4
+          Enumerated_Domain_Value_Definition: four launch lanes
+          Enumerated_Domain_Value_Definition_Source: NCWRC
+    Attribute:
+      Attribute_Label: PFA_PIER
+      Attribute_Definition: Name of an available NC WRC Public Fishing Area pier at the site.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique name of entity.
+    Attribute:
+      Attribute_Label: PKNG_TRLV
+      Attribute_Definition: Number of vehicle-with-trailer parking spaces.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Any positive integer.
+    Attribute:
+      Attribute_Label: PKNG_SGLV
+      Attribute_Definition: Number of single-vehicle parking spaces.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Any positive integer.
+    Attribute:
+      Attribute_Label: PKNG_COVER
+      Attribute_Definition: Parking area cover type.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: PAVED, UNPAVED
+          Codeset_Source: NCWRC
+    Attribute:
+      Attribute_Label: LIGHTS
+      Attribute_Definition: Availability of lighting.
+      Attribute_Definition_Source: NCWRC
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Y, N
+          Codeset_Source: NCWRC
+    Attribute:
+      Attribute_Label: STREET
+      Attribute_Definition: E911 street address.
+      Attribute_Definition_Source: Local E911 authority.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique E911 street address.
+    Attribute:
+      Attribute_Label: CITY
+      Attribute_Definition: E911 city.
+      Attribute_Definition_Source: Local E911 authority.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique name.
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: E911 state name.
+      Attribute_Definition_Source: Local E911 authority.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique name.
+    Attribute:
+      Attribute_Label: ZIP
+      Attribute_Definition: E911 zip code.
+      Attribute_Definition_Source: Local E911 authority.
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Zip code.
+    Attribute:
+      Attribute_Label: LATITUDE
+      Attribute_Definition: Latitude.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Automatically generated coordinates defining the features.
+    Attribute:
+      Attribute_Label: LONGITUDE
+      Attribute_Definition: Longitude.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Automatically generated coordinates defining the features.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Wildlife Resources Commission
+      Contact_Address:
+        Address_Type: Unknown
+        Address: 1720 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699
+        Country: US
+      Contact_Voice_Telephone: 919-707-0152
+      Contact_Facsimile_Telephone: 919-707-0162
+      Contact_Electronic_Mail_Address: anna.stefanowicz@ncwildlife.org
+      Hours_of_Service: 8 AM - 5 PM
+  Distribution_Liability: See access and use constraints information.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        File_Decompression_Technique: no compression applied
+        Transfer_Size: .03
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/boatacc.zip
+          Access_Instructions: N/A
+          Online_Computer_and_Operating_System: N/A
+    Fees: None
+    Ordering_Instructions: Contact NC WRC, Division of Engineering and Lands Management at 919-707-0152 or anna.stefanowicz@ncwildlife.org
+  Available_Time_Period:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20130709
+  Resource_Description: Downloadable Data
+Metadata_Reference_Information:
+  Metadata_Date: 20130709
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Wildlife Resources Commission, Division of Engineering and Lands Management
+        Contact_Person: Anna Stefanowicz
+      Contact_Position: GIS Specialist
+      Contact_Address:
+        Address_Type: Unknown
+        Address: 1720 Mail Services Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-1720
+        Country: US
+      Contact_Voice_Telephone: 919-707-0152
+      Contact_Facsimile_Telephone: 919-707-0162
+  Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Use_Constraints: This metadata file is to accompany the data set created by NC WRC, Division of Engineering and Lands Management.

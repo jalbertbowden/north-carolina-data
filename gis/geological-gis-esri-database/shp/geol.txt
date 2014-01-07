@@ -1,0 +1,661 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: North Carolina Geological Survey (NCGS)
+      Publication_Date: 200710
+      Title: Geology
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NCGS
+      Other_Citation_Details: Source data available from the NCGS
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      The North Carolina Department of Environment and
+      Natural Resources, Division of Land Resources, NC Geological
+      Survey, in cooperation with the North Carolina Center for
+      Geographic Information and Analysis, developed the GIS data set
+      version of the Geology of North Carolina.  The data represents
+      the digital equivalent of the official State Geology map (1:500,000-
+      scale), but was digitized from (1:250,000-scale) base maps.
+      There are two additional data sets which accompany this layer, dikes and
+      structures. These should be used together with the Geology formations
+      layer. All three data sets come together. (Refer to the cross
+      references section for more detail on the dikes and structures).
+    Purpose:
+      This data was created to assist governmental agencies and
+      others in making resource management decisions through use of
+      a Geographic Information System (GIS).
+    Supplemental_Information:
+      These data includes three Feature Classes: geol250_polygons, which contains
+      geologic formations; geol250_dikes, which contains diabase dikes; and
+      geol250_structuress, which contains geologic structures (faults, folds, scarps,
+      contacts, and structural symbols).
+
+      To purchase a hardcopy of this data layer (the official 1985
+      NC State Geologic Map, shown at a 1:500,000 scale), contact:
+      NC Geologic Survey
+      Mail Service Center 1612
+      Raleigh, NC 27699-1612
+      (919) 733-2423
+      Hard copy plots (1:500,000) from the digital files are available for $12.00.
+      The published, printed map is out-of-print and no longer available.
+      Call to confirm availability and price.
+
+      These data correspond  to the DOT county boundary file.
+      Other county boundary files may not be compatible with this
+      layer.
+
+      Use the ESRI layer file = geol250_polygons_92.lyr for proper symbolization as depicted on the published 1985 map; link to field 'GEOCODE'.  This layer file was created using ArcGIS 9.2.  If this file does not accompany this dataset, contact the NC Geological Survey for a copy.
+
+      Revisions and updates to this layer include:
+      5.) October 2007 = Updated minor coding errors in polygon attribute table. Layer file created for symbology to match
+      as closely as possible the published  1985 printed Geologic Map of North Carolina.
+      4.) September 2007 = conversion from ESRI Arc/Info Coverage to ESRI Personal Geodatabase.
+      this was done in an effort to capture and store all pertinent data in this dataset.
+      3.) filename: geol250ed  The July 1999 update to this layer fixed digitization
+      errors in the 1998 and 1993 revisions. The July 1999 update includes additional
+      attributes and an five auxiliary text files which include information from the
+      hard copy 1985 Geologic Map.
+      2.) filename: geol2501298  The December 1998 update to this layer consisted of
+      projecting the data from NAD27 datum, State Plane projection, units of measure
+      feet TO: NAD83 DATUM, State Plane PROJECTION, UNITS OF MEASURE METERS.  This was
+      done to comply with the NC Geographic Information Coordinating Council's
+      "Statement of Direction for North Carolina Corporate Geographic Database
+      Horizontal Reference, Datum and Unit of Measure".  This reprojecting was done in
+      various ways depending on the data type and content.  Vector data was projected
+      using the 'project' command in ESRI's Arc software and topology was cleaned and
+      built based on coverage needs.  Raster data was projected using ESRI's Grid module
+      and various steps as applicable.
+      1.)geol25093 - This represents the 1993 version which contains
+      the following correction. In the spring of 1993, a geologic
+      formation (ZYba, Amphibolite) in Macon County was added in order
+      to correct the digital file. This formation had been omitted in
+      the original digitization. The file containing the omitted
+      information has been deleted.  The associated files names are:
+      geol250d for dikes and geol250f for faults.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 1986
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.422473
+      East_Bounding_Coordinate: -75.418541
+      North_Bounding_Coordinate: 36.617435
+      South_Bounding_Coordinate: 33.732442
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: Geologic map
+      Theme_Keyword: Geologic Formations
+      Theme_Keyword: Geology
+      Theme_Keyword: Rock types
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: geoscientificInformation
+    Place:
+      Place_Keyword_Thesaurus:
+        Mecklenburg County, North Carolina
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+      Place_Keyword: Mecklenburg County
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of products derived form this data
+    set should cite the following: The source of the Geologic (1:250,000)
+    data is the North Carolina Corporate Geographic Database. Earlier versions
+    of this data set may exist. The user must be sure to use the appropriate
+    data set for the time period of interest.  While efforts have been made to
+    ensure that these data are accurate and reliable within the state of the art,
+    CGIA cannot assume liability for any damages or misrepresentation caused by
+    any inaccuracies in the data or as a result of changes to the data caused by
+    system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Geologica Survey (NCGS)
+        Contact_Person: Kenneth B. Taylor
+      Contact_Position: Chief Geologist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 1612 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699
+        Country: U.S.A
+      Contact_Voice_Telephone: 919-733-2423
+      Contact_Facsimile_Telephone: 919-733-0900
+      Contact_Electronic_Mail_Address: kenneth.b.taylor@ncmail.net
+      Hours_of_Service: 9 a.m. - 5 p.m.
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      NCCGIA digitized the geology features
+      from mylar stable bases identifying boundary and name attributes of
+      geologic features.  A review by check plot overlay was used to determine
+      label discrepancies and found discrepancies were corrected.
+      NCGS entered attribute information into a database and checked the printed
+      database against the paper 1985 Geologic Map.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the
+    dataset was built for arc and polygon topology using the "build" command.
+    The data set was then cleaned with a fuzzy tolerance of 1 meter.  Topology
+    has not been edited since the last build or clean.
+  Completeness_Report:
+    These data represent the official geologic map
+    of North Carolina.  The information consists of three coverages and five text files
+    of attributes, which depict the state's geologic formations, its structures,
+    and its dikes.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        No official accuracy assessment has be performed on this data
+        set. The digital files were checked to within a linewidth of
+        the original base maps.  The base maps were delineated with
+        geologic extents identified by the U.S. Geological Survey and
+        the NC Geologic Survey.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC DENR-Division of Land Resources, NC Geological Survey
+          Publication_Date: 1999
+          Title: Geology - North Carolina (1;250,000)
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC DENR-Division of Land Resources, NC Geological Survey
+          Other_Citation_Details: This data set contains 3 coverages and 5 text files
+      Source_Scale_Denominator: 250000
+      Type_of_Source_Media: Mylar
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1986
+            Ending_Date: 1999
+        Source_Currentness_Reference: Original release date and revision date, respectively
+      Source_Citation_Abbreviation: None
+      Source_Contribution:
+        Data depicting the official geology of North Carolina, on mylar
+        stable bases. Correction of digitization errors and complete
+        attribution.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC Center for Geographic Information and Analysis
+          Publication_Date: 1993
+          Title: Geology - North Carolina (1;250,000)
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC Center for Geographic Information and Analysis
+          Other_Citation_Details: This data set is part of the NC Corporate Geographic Database
+      Source_Scale_Denominator: 250000
+      Type_of_Source_Media: Mylar
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1986
+            Ending_Date: 1993
+        Source_Currentness_Reference: Original release and latest revision date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Digitization of geologic boundaries and formation ID attribution.
+    Process_Step:
+      Process_Description: Delineation of the official NC State Geologic formations.
+      Process_Date: 1986
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: North Carolina Geological Survey
+            Contact_Person: Jeff Reid
+          Contact_Position: Chief Geologist
+          Contact_Address:
+            Address_Type: Physical address
+            Address: 512 North Salisbury St.
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27604-1148
+            Country: U.S.A
+          Contact_Address:
+            Address_Type: Mailing address
+            Address: 1612 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1612
+            Country: USA
+          Contact_Voice_Telephone: (919) 733-2423
+          Contact_Facsimile_Telephone: (919) 733-0900
+          Contact_Electronic_Mail_Address: Jeff.Reid@ncmail.net
+          Hours_of_Service: 9 a.m. - 5 p.m.
+          Contact_Instructions: Preferred contact is by telephone or email
+    Process_Step:
+      Process_Description:
+        Digital conversion of the geologic formation delineations
+        through the use of Calcomp digitizing tables into ESRI's
+        ARC/INFO software.
+      Process_Date: 1993
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: North Carolina Center for Geographic Information and Analysis
+            Contact_Person: David Giordano
+          Contact_Position: Database Administration
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description: Digitization correction and attributes included
+      Process_Date: 1998
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: North Carolina Geological Survey
+            Contact_Person: Jeff Reid
+          Contact_Position: Chief Geologist
+          Contact_Address:
+            Address_Type: Physical address
+            Address: 512 North Salisbury St.
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27604-1148
+            Country: U.S.A
+          Contact_Address:
+            Address_Type: Mailing address
+            Address: 1612 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1612
+            Country: USA
+          Contact_Voice_Telephone: (919) 733-2423
+          Contact_Facsimile_Telephone: (919) 733-0900
+          Contact_Electronic_Mail_Address: Jeff.Reid@ncmail.net
+          Hours_of_Service: 9 a.m. - 5 p.m.
+          Contact_Instructions: Preferred contact is by telephone or email
+    Process_Step:
+      Process_Description: Conversion from Arc/Info Coverage to Personal Geodatabase Feature Class.
+      Source_Used_Citation_Abbreviation: none
+      Process_Date: 20070928
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: John Nickerson
+            Contact_Organization: North Carolina Geological Survey
+          Contact_Position: Geologist
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1612 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1612
+            Country: USA
+          Contact_Voice_Telephone: 919-733-2423
+          Contact_Electronic_Mail_Address: john.nickerson@ncmail.net
+          Hours_of_Service: 8 a.m. - 5 p.m.
+    Process_Step:
+      Process_Description: Tables were joined to this feature class to provide a complete dataset. Feature Class was exported to shapefile format for maximum compatibility with users.
+      Source_Used_Citation_Abbreviation: none
+      Process_Date: 20090702
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: John Nickerson
+            Contact_Organization: NC Geological Survey
+          Contact_Position: Geologist
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1612 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1612
+            Country: USA
+          Contact_Voice_Telephone: 919-733-2423
+          Contact_Electronic_Mail_Address: john.nickerson@ncdenr.gov
+          Hours_of_Service: 8-5, m-f
+    Process_Step:
+      Process_Description:
+        ArcGIS layer file was created for this shapefile by matching as closely as possible the colors and patterns present on the published 1985 Geologic Map of North Carolina.  Layer file created for ArcGIS
+        geol250_polygons_92.lyr  =  ArcGIS 9.2 and above.
+      Process_Date: 2009
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Michael Medina
+            Contact_Organization: NC Geological Survey
+          Contact_Position: Engineering Technician
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1612 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1612
+            Country: USA
+          Contact_Voice_Telephone: 919-733-2423
+          Contact_Electronic_Mail_Address: michael.medina@ncdenr.gov
+          Hours_of_Service: 8-5, M-F, EST
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 1845
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1848
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Node, planar graph
+      Point_and_Vector_Object_Count: 2864
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Area point
+      Point_and_Vector_Object_Count: 1848
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000001
+          Ordinate_Resolution: 0.000001
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+  Vertical_Coordinate_System_Definition:
+    Altitude_System_Definition:
+      Altitude_Datum_Name: National Geodetic Vertical Datum of 1929
+      Altitude_Resolution: 0.000100
+      Altitude_Distance_Units: feet
+      Altitude_Encoding_Method: Explicit elevation coordinate included with horizontal coordinates
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: geol250_polygons
+      Entity_Type_Definition: Polygon Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: GEOL250_ID
+      Attribute_Definition: User Identifier, unique number for each polygon
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Internal tracking number
+    Attribute:
+      Attribute_Label: GEOCODE
+      Attribute_Definition: Abbreviation for Geologic Formation or unit name
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Geologic Rock unit abbreviations
+          Enumerated_Domain_Value_Definition: Rock unit abbreviations
+          Enumerated_Domain_Value_Definition_Source: NCGS
+    Attribute:
+      Attribute_Label: BELT
+      Attribute_Definition: Geologic belt used in 1985 paper map legend
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Geologic Belts
+          Enumerated_Domain_Value_Definition: Geologic Belt names
+          Enumerated_Domain_Value_Definition_Source: NCGS
+    Attribute:
+      Attribute_Label: BELT2
+      Attribute_Definition: Major geologic belt
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Major Geologic Belt
+          Enumerated_Domain_Value_Definition: list of major geologic belt
+          Enumerated_Domain_Value_Definition_Source: NCGS
+    Attribute:
+      Attribute_Label: GROUP_
+      Attribute_Definition: Stratigraphic or lithologic group
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stratigraphic or lithologic group
+          Enumerated_Domain_Value_Definition: Stratigraphic or lithologic group
+          Enumerated_Domain_Value_Definition_Source: NCGS
+    Attribute:
+      Attribute_Label: TYPE
+      Attribute_Definition: Rock type from legend
+      Attribute_Definition_Source: User Defined
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Rock type from legend
+          Enumerated_Domain_Value_Definition: Rock type from legend
+          Enumerated_Domain_Value_Definition_Source: NCGS
+    Attribute:
+      Attribute_Label: FORMATION
+      Attribute_Definition: Stratigraphic or lithologic name of geologic unit
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stratigraphic or lithologic name of geologic unit
+          Enumerated_Domain_Value_Definition: Stratigraphic or lithologic name of geologic unit
+          Enumerated_Domain_Value_Definition_Source: NCGS
+    Attribute:
+      Attribute_Label: EON
+      Attribute_Definition: Geologic eon (age) designation
+      Attribute_Definition_Source: Geological Time Table, 1988, Haq, B.U., van Eysinga, F.W.B., compilers, 5th Edition, Amsterdam, Elsevier.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Geologic eon
+          Enumerated_Domain_Value_Definition: Geologic eon
+          Enumerated_Domain_Value_Definition_Source: Geological Society of America, U.S. Geological Survey
+    Attribute:
+      Attribute_Label: ERA
+      Attribute_Definition: Geologic ERA (age)
+      Attribute_Definition_Source: Geological Time Table, 1988, Haq, B.U., van Eysinga, F.W.B., compilers, 5th Edition, Amsterdam, Elsevier.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Geologic ERA
+          Enumerated_Domain_Value_Definition: Geologic ERA
+          Enumerated_Domain_Value_Definition_Source: Geological Society of America, U.S. Geological Survey
+    Attribute:
+      Attribute_Label: PERIOD
+      Attribute_Definition: Geologic period
+      Attribute_Definition_Source: Geological Time Table, 1988, Haq, B.U., van Eysinga, F.W.B., compilers, 5th Edition, Amsterdam, Elsevier.
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Geologic period
+          Enumerated_Domain_Value_Definition: Geologic period
+          Enumerated_Domain_Value_Definition_Source: Geological Society of America, U.S. Geological Survey
+    Attribute:
+      Attribute_Label: ABS_AGE
+      Attribute_Definition: Absolute age in millions of years (if known from radiometric date)
+      Attribute_Definition_Source: Various sources, see age_ref.dbf
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Absolute age in millions of years (if known from radiometric date)
+    Attribute:
+      Attribute_Label: REF_NUM
+      Attribute_Definition: Reference Number - cross-reference number for map age references, as shown on the 1985 Geologic Map of North Carolina. This field cannot be related to age_ref.dbf, however, the numbers in the ref_num field in geol250_polygons correspond to the numbers in age_ref.dbf.
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Reference number
+    Attribute:
+      Attribute_Label: LEG_NUM
+      Attribute_Definition: Relative order of geologic unit descriptions in legend within "BELT" designation
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Relative order of geologic unit descriptions in legend within "BELT" designation
+    Attribute:
+      Attribute_Label: Shape_Leng
+      Attribute_Definition: Perimeter of polygons, in map units
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Shape_Leng
+          Enumerated_Domain_Value_Definition: Perimeter of polygon, in internal (map) units
+          Enumerated_Domain_Value_Definition_Source: ESRI
+    Attribute:
+      Attribute_Label: Shape_Area
+      Attribute_Definition: Area of feature in internal units squared; supercedes AREA field (not deletable)
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: DESCRIP_1
+      Attribute_Definition: Rock or unit description, field 1 of 3
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unit descriptions for geologic formations and informal units.
+    Attribute:
+      Attribute_Label: DESCRIP_2
+      Attribute_Definition: Rock or unit description, field 2 of 3 (if needed)
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unit descriptions for geologic formations and informal units.
+    Attribute:
+      Attribute_Label: DESCRIP_3
+      Attribute_Definition: Rock or unit description, field 3 of 3 (if needed)
+      Attribute_Definition_Source: NCGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unit descriptions for geologic formations and informal units.
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      A polygon coverage depicting the official geologic map of
+      North Carolina (1985) as published by the NC Geological Survey
+      and the US Geological Survey.
+
+    Entity_and_Attribute_Detail_Citation:
+      Refer to: "Geologic Map of North Carolina, 1985" for a hardcopy
+      version, and detailed descriptions of the Major Litho-Tectonic
+      Features, Geologic Time Scale, and Paleozoic Metamorphic Facies.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+
+    The North Carolina Geological Survey (NCGS) is committed to offering its users accurate, useful, and current information.  Although every effort has been made to ensure the accuracy of information it provides, the NCGS shall not be held liable for improper or incorrect use of the data described and/or contained herein.  The information contained in these data is dynamic and may change over time.  The client must be aware of data conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data.
+
+    The NCGS gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data are acquired directly from an NCGS source and not indirectly through other sources which may have modified the data in some way.
+
+    Although these data have been processed successfully on computer systems at the NCGS, no warranty expressed or implied is made regarding the utility of the data on other systems for general or scientific purposes, nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data. The use of trade names or commercial products does not constitute their endorsement by the NCGS.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/geol.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

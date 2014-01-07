@@ -1,0 +1,847 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Department of Agriculture, North Carolina Natural Resources Conservation Service State Office
+      Publication_Date: 06022008
+      Publication_Time: Unknown
+      Title: 12-Digit Hydrologic Units
+      Edition: 1
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: Natural Resources Conservation Service
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      This data set is a complete digital hydrologic unit boundary layer to the Subwatershed (12-digit) 6th level
+      for the State of North Carolina. This data set consists of geo-referenced digital data and associated attributes
+      created in accordance with the "FGDC Proposal, Version 2.0 - Federal Standards For Delineation of Hydrologic
+      Unit Boundaries 8/30/04"(http://www.ncgc.nrcs.usda.gov/products/datasets/watershed/). Delineation of coastal
+      watershed boundaries presented unique issues within North Carolina. Coastal boundary lines were determined
+      using NOAA Nautical charts to supplement the USGS base maps. The paper "Proposal to Change Hydrologic Unit
+      Delineations over the Estaurine Waters of North Carolina", Randolph L. Ferguson, 3/30/2000, presents issues
+      and the delineation process used in the coastal regions of North Carolina.
+      Polygons are attributed with hydrologic unit codes for 4th level sub-basins, 5th level watersheds, 6th level
+      subwatersheds, name, size, downstream hydrologic unit, type of watershed, non-contributing areas and flow
+      modification. Arcs are attributed with the highest hydrologic unit code for each watershed, linesource and a
+      metadata reference file.
+    Purpose:
+      The Watershed and Subwatershed hydrologic unit boundaries provide a uniquely identified and uniform method of
+      subdividing large drainage areas. The smaller sized 6th level sub-watersheds (up to 40,000 acres) are useful for
+      numerous application programs supported by a variety of local, State, and Federal Agencies. This data set is intended
+      to be used as a tool for water-resource management and planning activities, particularly for site-specific and localized
+      studies requiring a level of detail provided by large-scale map information. The dataset will be appended to a larger
+      seamless nationally consistant geospatial database as other states complete their portion of the watershed boundary
+      dataset.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20080602
+    Currentness_Reference: Publication date of sources
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Unknown
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.321747
+      East_Bounding_Coordinate: -75.389045
+      North_Bounding_Coordinate: 36.588109
+      South_Bounding_Coordinate: 33.593189
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: HUC
+      Theme_Keyword: Hydrologic Units
+      Theme_Keyword: Hydrologic Unit Code
+      Theme_Keyword: Region
+      Theme_Keyword: Sub-region
+      Theme_Keyword: Basin
+      Theme_Keyword: Sub-basin
+      Theme_Keyword: Watershed
+      Theme_Keyword: Watershed Boundaries
+      Theme_Keyword: boundaries
+      Theme_Keyword: Subwatershed
+      Theme_Keyword: WBD
+      Theme_Keyword: Watershed Boundary Dataset
+      Theme_Keyword: Hydrology
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: environment
+      Theme_Keyword: inlandWaters
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: North Carolina
+      Place_Keyword: Neuse River
+      Place_Keyword: Cape Fear River
+      Place_Keyword: Yadkin River
+      Place_Keyword: French Broad River
+      Place_Keyword: Roanoke River
+      Place_Keyword: Albemarle Sound
+      Place_Keyword: Pamlico Sound
+      Place_Keyword: Carolinas
+  Access_Constraints: None
+  Use_Constraints: The distributor shall not be held liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. It is strongly recommended that this data is directly acquired from the distributor and not indirectly through other sources which may have changed the data in some way. These data should not be used at scales greater than 1:24,000 for the purpose of identifying hydrographic watershed boundary feature locations in the 2008 Watershed Boundary Dataset. The Natural Resources Conservation Service should be acknowledged as the data source in products derived from these data. The 2008 Watershed Boundary Dataset is public information and may be interpreted by all organizations, agencies, units of government, or others based on needs; however, they are responsible for the appropriate application of the data. Federal, State, or local regulatory bodies are not to reassign to the Natural Resources Conservation Service any authority for the decisions they make.  The Natural Resources Conservation Service will not perform any evaluations of these maps or purposes related solely to State or local regulatory programs. Photographic or digital enlargement of these maps to scales greater than that at which they were originally delineated can result in misrepresentation of the data. If enlarged, the maps will not include the fine detail that would be appropriate for mapping at the small scale.  Digital data files are periodically updated. Files are dated, and users are responsible for obtaining the latest version of the data from the source distributor.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Sherman Biggerstaff or North Carolina NRCS GIS Specialist
+        Contact_Organization: U.S. Department of Agriculture, North Carolina Natural Resources Conservation Service (NRCS) State Office
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 4407 Bland Road, Suite 117
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609-6293
+      Contact_Voice_Telephone: 919/873-2132
+      Contact_Electronic_Mail_Address: sherman.biggerstaff@nc.usda.gov
+      Contact_Instructions: Please mail or email questions and requests.
+Data_Quality_Information:
+  Logical_Consistency_Report:
+    There are no unclosed polygons, intersections without nodes, or polygons without labels or
+    with more than one label. Arc/Info's topological correction program CLEAN was used to
+    correct intersections without nodes, identify unclosed polygons and remove duplicate lines
+    with the same beginning and ending nodes. All sliver polygons were removed either using
+    eliminate, merge or manually in ArcEdit.
+  Completeness_Report:
+    All fields for all polygons in the .pat are attributed. Some polygons in the Ncontrb_a field might
+    have a 0 value. All fields for the lines in the .aat are attributed. The lines adjacent to the
+    universal polygon are attributed with a 0 for the hu_level. These cannot be attributed until the
+    adjacent states complete their linework at which point the highest level of hydrologic unit can be
+    determined.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The WBD was revised in 2008 by the USGS using Enhanced USGS Digital Raster
+        Graphics (DRG-Es) county mosaic MrSID images as a base map for the land data. This revision process
+        brought all of the North Carolina WBD over-land boundary lines to be within a 12 meter buffer (+/- 40 feet)
+        of where visual interpretation put the actual boundary for the DRG-E map base. Previous WBD work by the NRCS
+        used either Enhanced Digital Raster Graphics (DRG-Es) images as source map for land data (work in 2002-2005)
+        or data manually digitized from paper USGS 7.5' quadrangle maps (early work in 1993-1994). The WBD for North
+        Carolina was started in 1993 using paper USGS quad maps and digitized into the NC Coordinate system, feet,
+        NAD27. Edits since then have used this Coordinate base, until 2008 when the USGS used the reprojected WBD
+        map in the North Carolina coordinate system, meters, and NAD83 for their revisions.
+        Maps in other coordinate systems were produced using the ArcInfo 9 project utility from this revised 2008
+        WBD base map. The WBD used NOAA Nautical Charts for over-water data, when the DRG-Es were not adequate.
+        Data completeness for DRG files reflect content of the source graphic and may therefore be reflected in
+        the completeness and accuracy of the WBD. The WBD map was digitized from USGS 1:24,000-scale digital raster
+        graphic base maps, with accuracy being stated for this scale. Accuracy and adequacy of the WBD at any other
+        scale shall be determined by the user. It should be noted that while general rules of hydrology were used
+        (i.e. water flows downhill), the location of boundaries is still somewhat subjective as the 1:24,000-scale
+        DRG-E do not always provide enough information for identifying the location of the boundaries. In these
+        instances group consensus was used. In the extremely flat areas (such as the Great Dismal Swamp) located in
+        the coastal plains of North Carolina, boundaries were adjusted for drainage effects and other surface flow
+        impediments such as highways which act like dikes. Please refer to the methods section for more details on
+        watershed delineation rules. Unquantifiable errors may be associated with coordinate shift (fuzzy tolerance
+        was set to 0.0001 meters, double precision), dangle (set to 15 meters). The default was used for all other
+        ArcEdit tolerances.  As with the original DRGs, DRG-E is cast in the Universal Transverse Mercator
+        projection and is referenced to the NAD27 datum. When the DRG-Es are used in the NAD83 datum the alternate
+        world files only approximate the NAD83 by shifting the coordinates of the imagery. The total error introduced
+        using this shift is less than 2 meters for all DRG-E imagery.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Agriculture-Natural Resources Conservation Service
+          Publication_Date: 2008
+          Title: North Carolina Watershed Boundary Dataset
+          Geospatial_Data_Presentation_Form: document, map
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: CD-ROM or OnLine
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 2001
+            Ending_Date: 2008
+        Source_Currentness_Reference: map delineation
+      Source_Citation_Abbreviation: NRCS DRG
+      Source_Contribution: map delineation
+    Process_Step:
+      Process_Description:
+        Level 6 (12-digit) watersheds were delineated within a nested hierarchical structure using the existing
+        Level 5 (11-digit) watershed delineation as a starting framework. The level five 11-digit code
+        was reduced to 10 digits to conform to the new Federal Standards for the Delineation of Hydrologic
+        Units Boundaries, by dropping the digit in the last position.
+      Process_Date: 06022008
+    Process_Step:
+      Process_Description:
+        Joined 8-digit HU attributes from USDA Geospatial Data Gateway (datagateway.nrcs.usda.gov) to
+        12-digit HU geometry to supply associated basin and sub-basin names.
+      Process_Date: 20100922
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC Center for Geographic Information and Analysis
+            Contact_Person: David Giordano
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Complete chain
+      Point_and_Vector_Object_Count: 6234
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 1974
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1974
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 3473
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 1974
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 1
+          Ordinate_Resolution: 1
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 1980
+      Semi-major_Axis: 6378137
+      Denominator_of_Flattening_Ratio: 298.257
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: 12-Digit Hydrologic Units
+      Entity_Type_Definition: identifies watershed boundaries
+      Entity_Type_Definition_Source: n/a
+    Attribute:
+      Attribute_Label: ObjectID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: HU
+      Attribute_Definition:
+        The highest hydrologic unit level for the line (arc) represented by
+        the record where: R=regional, S=Sub_regional, A=Basin, C=Sub_Basin,
+        SU=Watershed, and RU=Sub_Watershed.
+      Attribute_Definition_Source: NRCS Hydrologic Unit Boundaries codes that are no longer used
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_LEVEL
+      Attribute_Definition: The highest hydrologic unit level (smallest number) for the line (arc) represented by the record
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: LINESOURCE
+      Attribute_Definition: The base map source(s) used to delineate at 1:24,000 scale
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: META_ID
+      Attribute_Definition: Metadata ID is a code that identifies which metadata file applies to the arc
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: Shape Length
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: hu12_poly
+      Entity_Type_Definition: polygons identify watershed boundaries
+      Entity_Type_Definition_Source: n/a
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: HUC_8
+      Attribute_Definition:
+        A unique 8-digit code from the USGS map series "Hydrologic Unit Maps". The same number was used in
+        every record that pertains to a subwatershed that resides within the same 8-digit sub-basin.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HUC_10
+      Attribute_Definition:
+        This field provides a unique 10-digit code for each watershed derived from the 8-digit code.  This
+        same number was used in every record that pertains to a subwatershed that resides within the
+        same 10-digit watershed.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HUC_12
+      Attribute_Definition: This field provides a unique 12-digit code for each subwatershed derived from the 10-digit code.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: ACRES
+      Attribute_Definition: Area of subwatershed including non-contributing areas calculated to acres as a whole number, no decimals.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: STATES
+      Attribute_Definition: The "States" field includes the names of all state(s) that the subwatershed falls within.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: NCONTRB_A
+      Attribute_Definition: Drainage areas that do not flow toward the outlet of any hydrologic unit are considered non-contributing.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_10_DS
+      Attribute_Definition:
+        The 10-digit code of the 5th level hydrologic unit that is receiving the majority of the flow from the
+        watershed that the 6th level HU falls within.  Outlets created by ditching or other artificial
+        drainage were not considered for this field.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_10_NAME
+      Attribute_Definition:
+        A unique name for each 5th level hydrologic unit that relates to the major water feature within the polygon
+        or the major water body it contributes to
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_10_MOD
+      Attribute_Definition:
+        This field identifies interbasin transfers (IT), dams at outlet (DM), etc. that modify natural overland
+        flow as modifications are identified from most significant to least significant modification(s).
+        Hydrologic units with no modification are marked with NM.
+      Attribute_Definition_Source:
+        Modification by  U.S. Department of Agriculture, North Carolina Natural Resources Conservation
+        Service State Office  to the Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_10_TYPE
+      Attribute_Definition: This field identifies the type of watershed.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_12_DS
+      Attribute_Definition:
+        The 12-digit code of the 5th level hydrologic unit that is receiving the majority of the flow from the
+        watershed that the 6th level HU falls within.  Outlets created by ditching or other artificial drainage
+        were not considered for this field.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_12_NAME
+      Attribute_Definition:
+        A unique name for each 6th level hydrologic unit that relates to the major water feature within the
+        polygon or the major water body it contributes to
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_12_MOD
+      Attribute_Definition:
+        This field identifies interbasin transfers (IT), dams at outlet (DM), etc. that modify natural
+        overland flow as  Modifications are identified from most significant to least significant modification(s).
+        Hydrologic units with no modification are marked with NM.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_12_TYPE
+      Attribute_Definition: This field identifies the type of watershed.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_10_GNIS#
+      Attribute_Definition:
+        The Geographic Names Information System has a unique Feature ID number for
+        each officially recognized name in the country
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: HU_12_GNIS#
+      Attribute_Definition:
+        The Geographic Names Information System has a unique Feature ID number for
+        each officially recognized name in the country
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: SQ_MI
+      Attribute_Definition:
+        Area of subwatershed including non-contributing areas calculated to square
+        miles as a floating number with two decimal places.
+      Attribute_Definition_Source: Federal Standards for Delineation of Hydrologic Unit Boundaries
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Federal Standards for the Delineation of Hydrologic Unit Boundaries
+          Codeset_Source: Please refer to the Entity and Attribute Overview for valid values
+    Attribute:
+      Attribute_Label: Shape Length
+      Attribute_Definition: Perimeter of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape Area
+      Attribute_Definition: Area of feature in internal units (feet2, meters2, etc).
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: REGION
+      Attribute_Definition: Name of HUC2 region. Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary by region.
+    Attribute:
+      Attribute_Label: SUBREGION
+      Attribute_Definition: Name of HUC4 region. Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary by region.
+    Attribute:
+      Attribute_Label: BASIN
+      Attribute_Definition: Name of HUC6 region (river basin name). Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary by region.
+    Attribute:
+      Attribute_Label: SUBBASIN
+      Attribute_Definition: Name of HUC8 region. Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names vary by region.
+    Attribute:
+      Attribute_Label: HUC_2
+      Attribute_Definition: Unique 2 digit code for region. Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Codes vary by region.
+    Attribute:
+      Attribute_Label: HUC_4
+      Attribute_Definition: Unique 4 digit code for region. Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Codes vary by region.
+    Attribute:
+      Attribute_Label: HUC_6
+      Attribute_Definition: Unique 6 digit code for region (river basin). Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Codes vary by region.
+    Attribute:
+      Attribute_Label: ACRES
+      Attribute_Definition: Acreage of polygon. Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Acreage varies by region.
+    Attribute:
+      Attribute_Label: SQ_MILES
+      Attribute_Definition: Square miles of region. Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Square miles vary by region.
+    Attribute:
+      Attribute_Label: HU_8_STATE
+      Attribute_Definition: State(s) in which polygon is present. Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values vary by region.
+    Attribute:
+      Attribute_Label: FIPS_C
+      Attribute_Definition: County FIPS code intersecting region. Added from 8-digit HUC attribute join indicated in Process Step.
+      Attribute_Definition_Source: USDA/NRCS - National Cartography & Geospatial Center
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Codes vary by region.
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      This is a description of attributes by field from the Federal Standards for Delineation of Hydrologic Unit Boundaries
+      1) Polygon attributes
+      Huc_8 : Eight Digit Hydrologic Unit Code  - (REQUIRED)
+      A unique 8-digit code from the USGS map series "Hydrologic Unit Maps".  The same number was used in every record that
+      pertains to a subwatershed that resides within the same 8-digit sub-basin. Numbers were assigned in an upstream to
+      downstream fashion. Where no downstream/upstream relationship could be determined numbers were assigned in a clockwise
+      fashion.
+
+      Huc_10: Ten Digit Hydrologic Unit Code - (REQUIRED)
+      This field provides a unique 10-digit code for each watershed.  This same number was used in every record that pertains
+      to a subwatershed that resides within the same 10-digit watershed. Numbers were assigned in an upstream to downstream
+      fashion. Where no downstream/upstream relationship could be determined numbers were assigned in a clockwise fashion.
+
+      Huc_12: Twelve Digit Hydrologic Unit Code - (REQUIRED)
+      This field provides a unique 12-digit code for each subwatershed.  Numbers were assigned in an upstream to downstream
+      fashion. Where no downstream/upstream relationship could be determined numbers were assigned in a clockwise fashion.
+
+      Acres:  Acres - (REQUIRED)
+      Area of subwatershed including non-contributing areas calculated to acres as a whole number, no decimals.  The "Acres"
+      field was calculated from the "Area" field.
+
+      States: States - (REQUIRED)
+      The "States" field includes the names of all state(s) that the subwatershed falls within.  The 2-digit postal abbreviation
+      in upper case and in alphabetical order was used, separated with a comma.
+
+      Ncontrb_a: Non-Contributing Area - (FIELD REQUIRED, ATTRIBUTES OPTIONAL)
+      Drainage areas that do not flow toward the outlet of any hydrologic unit are considered non-contributing.  If a
+      non-contributing area is on the boundary between two or more hydrologic units, the non-contributing area is associated
+      with the hydrologic unit adjacent to the low point on the boundary. This attribute should be the total of the
+      non-contributing areas within a hydrologic unit calculated in acres.
+
+      Hu_10_ds: Fifth Level Downstream Hydrologic Unit Code - (FIELD REQUIRED, ATTRIBUTES OPTIONAL)
+      This field has the 10-digit code of the 5th level hydrologic unit that is receiving the majority of the flow from the
+      watershed that the 6th level HU falls within.  Outlets created by ditching or other artificial drainage were not
+      considered for this field. If an HU flows into an ocean or the Gulf of Mexico, this field was populated with "OCEAN"
+      and if a HU flows into one of the Great Lakes the term "LAKE" was used.  If a HU flows across international borders,
+      "CANADA" or "MEXICO" was used depending on which country the HU drains into.  If an HU is  a closed basin, then the
+      term "CLOSED BASIN"was used.
+
+      Hu_10_name: Fifth Level Hydrologic Unit Name - (FIELD REQUIRED, ATTRIBUTES OPTIONAL)
+      This field used officially recognized names only.  This field was populated by following the directions in subsection 6.3
+      "Watershed and Subwatershed Naming Protocol".  The name used to attribute the watershed was used only once within a
+      4th level unit.
+
+      Hu_10_mod: Fifth Level Hydrologic Unit Modifications - (REQUIRED)
+      This field identifies any type of modifications to natural overland flow that alters the location of the hydrologic
+      unit boundary for a 10-digit watershed.  This field shows the most significant to least significant modification(s)
+      to the watershed boundary.  One or more of the following abbreviations was used.
+      SC - Stormwater Canal or Drainage Canal
+      ID - Irrigation Ditch
+      IT - Interbasin Transfer
+      BC - Barge Canal or Navigation Canal
+      SD - Stormwater Ditch
+      PD - Pipe Diversion
+      CD - Channel Diversion
+      NC - Noncontributing Area
+      KA - Karst
+      LE - Levee
+      NM - No Modifications
+      OC - Overflow Channel or Flume
+      DM - Dam at outlet or HU boundary
+      GC - General Canal/Ditch
+      PS - Pumping Station
+      DD - Drainage Ditch
+      SI - Siphon
+      AD - Aqueduct
+      RS - Reservoir
+      TF - Transportation Feature (road, railroad, docks etc.)
+      GF - Ground-Water Flow
+      MA - Mining Activity
+      UA - Urban Area
+      GL - Glacier
+      IF - Ice Field
+      OF - Overbank Flow
+      OT - Other
+
+      Hu_10_type:    Fifth Level Hydrologic Unit Type - (REQUIRED)
+      This field was populated with the hydrologic unit type from the list provided that most closely identifies the watershed.
+      S - "Standard" hydrologic unit - Any land HU with drainage flowing to a single outlet point, excluding non-contributing
+      areas. This includes areas or small triangular wedges between adjacent HU's that remain after classic hydrologic
+      units are delineated.  Some examples include "true", "classic", "composite", and "remnant" hydrologic units.
+      C - "Closed Basin" hydrologic unit - A drainage area that is 100% non-contributing. This means all surface flow is
+      internal, no overland flow leaves the hydrologic unit through the outlet point.
+      F - "Frontal" hydrologic unit - Areas along the coastline of lakes, oceans, bays, etc. that have more than one outlet.
+      These HU's are predominantly land with some water areas at or near the outlet(s).
+      M - "Multiple outlet" hydrologic unit - A watershed that has more than one natural outlet.
+      W - "Water" hydrologic unit - Hydrologic units that are predominantly water with adjacent land areas, ex. lake,
+      easturies, harbors.
+      I - "Island" hydrologic unit - A hydrologic unit that is one or more islands and adjacent water out to the toe of the
+      shore face.
+      U - "Unclassified" hydrologic unit - A hydrologic unit that can't be defined or doesn't fit into one of the types that
+      have been listed.
+
+      Hu_12_ds:   Sixth Level Downstream Hydrologic Unit Code - (FIELD REQUIRED, ATTRIBUTES OPTIONAL)
+      This field was populated with the 12-digit code of the 6th level hydrologic unit that is receiving the majority of the flow
+      from the subwatershed.  Outlets created by ditching or other artificial drainage were not considered for this field.
+      If a HU flows into an ocean or the Gulf of Mexico it was populate with "OCEAN" and if a HU flows into one of the Great
+      Lakes the term "LAKE" was used.  If a HU flows across international borders, "CANADA" or "MEXICO" was used depending
+      on which country the HU drains into.  If an HU is a closed basin, this field was populated with the term "CLOSED BASIN".
+
+      Hu_12_name:   Sixth Level Hydrologic Unit Name - (FIELD REQUIRED, ATTRIBUTES OPTIONAL)
+      Officially recognized names were used in this field.  This field was populated by following the directions in subsection 6.3
+      "Watershed and Subwatershed Naming Protocol".  The name used to attribute the subwatershed was used only once within a
+      4th level unit.
+
+      Hu_12_mod:  Sixth Level Hydrologic Unit Modifications - (REQUIRED)
+      This field identifies any type of man-made modification(s) to natural overland flow that alters the location of the hydrologic
+      unit boundary for a 12-digit subwatershed.  One or more of the following abbreviations was chosen for this field.
+      SC - Stormwater Canal or Drainage Canal
+      ID - Irrigation Ditch
+      IT - Interbasin Transfer
+      BC - Barge Canal or Navigation Canal
+      SD - Stormwater Ditch
+      PD - Pipe Diversion
+      CD - Channel Diversion
+      NC - Noncontributing Area
+      KA - Karst
+      LE - Levee
+      NM - No Modifications
+      OC - Overflow Channel or Flume
+      DM - Dam at outlet or HU boundary
+      GC - General Canal/Ditch
+      PS - Pumping Station
+      DD - Drainage Ditch
+      SI - Siphon
+      AD - Aqueduct
+      RS - Reservoir
+      TF - Transportation Feature (road, railroad, docks etc.)
+      GF - Ground-Water Flow
+      MA - Mining Activity
+      UA - Urban Area
+      GL - Glacier
+      IF - Ice Field
+      OF - Overbank Flow
+      OT - Other
+
+      Hu_12_type:    Sixth Level Hydrologic Unit Type - (REQUIRED)
+      This field was populated with the hydrologic unit type from the list provided that most closely identifies the subwatershed.
+      S - "Standard" hydrologic unit - Any land HU with drainage flowing to a single outlet point, excluding non-contributing areas.
+      This includes areas or small triangular wedges between adjacent HU's that remain after classic hydrologic units
+      are delineated.  Some examples include "true", "classic", "composite", and "remnant" hydrologic units.
+      C - "Closed Basin" hydrologic unit - A drainage area that is 100% non-contributing.  This means all surface flow is
+      internal, no overland flow leaves the hydrologic unit through the outlet point.
+      F - "Frontal" hydrologic unit - Areas along the coastline of lakes, oceans, bays, etc. that have more than one outlet.
+      These HU's are predominantly land with some water at or near the outlet(s).
+      M - "Multiple outlet" hydrologic unit - A watershed that has more than one natural outlet.
+      W - "Water" hydrologic unit - Hydrologic units that are predominantly water with adjacent land areas, ex. lake,
+      easturies.
+      I - "Island" hydrologic unit - A hydrologic unit that is one or more islands and adjacent water out to the toe of the
+      shore face.
+      U - "Unclassified" hydrologic unit - A hydrologic unit that can't be defined or doesn't fit into one of the types that have been listed.
+
+      2) Line attributes
+
+      Hu_level: Hydrologic Unit Level - (REQUIRED)
+      This field provides the means to create cartographically pleasing maps.  This field is populated with the highest
+      hydrologic unit level (smallest number) for the line (arc) represented by the record.  The attribute was recorded using
+      numbers 1 through 6 representing each level with 1 being the highest and 6 the lowest level.  An example would be if a
+      line represents a region, subregion, basin, subbasin, watershed, and subwatershed boundary, then this cell was populated
+      with a 1 (Region).  Below is a list of numbers used for each level.
+
+      Level    Digit#       Name
+      0                     State Boundary
+      1          2          Region
+      2          4          Subregion
+      3          6          Basin
+      4          8          Subbasin
+      5          10         Watershed
+      6          12         Subwatershed
+
+      Linesource: Line Spatial Data Source - (REQUIRED)
+      The Linesource indicates the base map source(s) used to delineate at 1:24,000 scale.  The field was populated using one
+      of the standardized code(s) listed below.  If more than one code was used, then a comma was used to separate the codes.
+      TOPO24 - Delineation from hardcopy 1:24,000 scale topographic maps
+      TOPO25 - Delineation from hardcopy 1:25,000 topgraphic maps, only Alaska and Caribbean
+      TOPO63 - Delineation from hardcopy 1:63,360 topographic maps, only Alaska and Caribbean
+      DRG24 - Delineation from 1:24,000 scale Digital Raster Graphics
+      DRG25 - Delineation from 1:25,000 Digital Raster Graphics, only Alaska and Caribbean
+      DRG63 - Delineation from 1:63,360 Digital Raster Graphics, only Alaska and Caribbean
+      TN_HUC_MAP - Shared NC-TN hydrologic unit boundary lines with origin in the Tennessee WBD map during the 2002-2005 time period.
+      DEM10 - Derived from 10 meter Digital Elevation Model
+      DEM30 - Derived from 30 meter Digital Elevation Model
+      NED30 - Derived from 30 meter National Elevation Dateset Model
+      EDNA30 - (formally NED-H), derived from 30 meter Elevation Derivatives for National
+      Applications
+      BATH"scale" (ex. BATH24) - Interpreted from NOAA 1:24,000 scale bathymetric data
+      HYPSO"scale" (ex. HYPSO24)- Delineated from 1:24,000 scale contour data
+      ORTHO"scale" (ex. ORTHO12) - Interpreted from 1:12,000 scale Ortho-imagery
+      DEDEM10 - Drainage enforced 10 meter Digital Elevation Model
+      DEDEM30 - Drainage enforced 30 meter Digital Elevation Model
+      GPS - Derived from Global Positioning System
+      LIDAR - Derived from LIDAR
+      IFSAR - Derived from IFSAR data
+      OTH - Other
+      UNK - Unknown
+      NOAA Nautical Chart - Nautical charts showing water depth for open water HU boundaries
+      All other reference and source maps not listed should be noted in the metadata.
+      Meta_id: Metadata ID Number - (REQUIRED)
+      The Metadata ID is a code that identifies which metadata file applies to the arc. In most cases there is only one metadata file.
+      However, in some cases more than one metadata file was used to identify different groups and/or procedures used to
+      produce the lines. The metadata ID is a 4-character code starting with the 2-letter state postal code, followed by a
+      2-digit sequence number. For example "OK01", "ID02", etc
+    Entity_and_Attribute_Detail_Citation: Federal Standard for Delineation of Hydrologic Unit Boundaries
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/hu.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

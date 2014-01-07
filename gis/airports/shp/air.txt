@@ -1,0 +1,503 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: The North Carolina Center for Geographic Information and Analysis (NCCGIA)
+      Publication_Date: 20040316
+      Title: Airports
+      Geospatial_Data_Presentation_Form: vector digital data
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract: NCCGIA developed a GIS data set representing point locations for airports located in North Carolina.
+    Purpose: These data were created to assist governmental agencies and others in making resource management decisions through use of a Geographic Information System (GIS).
+    Supplemental_Information: Point locations were verified using 1998 Digital Orthophoto Quarter Quads where a runway was visible.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20040316
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.110286
+      East_Bounding_Coordinate: -75.564368
+      North_Bounding_Coordinate: 36.547538
+      South_Bounding_Coordinate: 33.829985
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Airports
+      Theme_Keyword: Airport
+      Theme_Keyword: Airport locations
+      Theme_Keyword: Airport landing facilities
+      Theme_Keyword: Aviation
+      Theme_Keyword: Landing strips
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: transportation
+    Place:
+      Place_Keyword_Thesaurus: William S. Powell, The North Carolina GAZETTEER, A Dictionary of Tar Heel Places, (Chapel Hill: University of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: Acknowledgement of products derived from this data set should cite the following: The source of the North Carolina Airport Locations data is the North Carolina Corporate Geographic Database. Earlier versions of this dataset may exist. The user must be sure to use the appropriate data set for the time  period of interest.  While efforts have been made to ensure that these data are accurate and reliable within the state of the art, NCCGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC CGIA
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: In December 2003, NCCGIA  created a point shapefile from lat/longs provided by NC DOT. A shapefile was also created from data supplied by the FAA. Because there was not a common field for joining tables, NCCGIA identified FAA points that coincided with or were near a state point.  The  FAA points within 3,200 feet of a state point were selected in ArcView. These points were converted to a shapefile. Then the selection was switched to make the FAA points selected as those not near a state point.  That selection was converted to a shapefile. The two datasets were merged to fill in gaps that occured in both datasets allowing for a more complete statewide airports coverage. NCCGIA then used digital orthophotography from 1998 to verify the points. The data were intended for planning purposes and were not verified or documented for GIS.
+  Logical_Consistency_Report: Using ESRI's ARC/INFO Arcview software, a point shapefile was created.
+  Completeness_Report: These data represent the locations of airports in North Carolina as identified by the NC DOT and the FAA.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: For the larger airports, point locations (approximate center of airport) were verified using 1998 digital orthophoto quarter quads at 1-meter resolution.  The smallest airports were not visible on photos and not verified by other means.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Federal Aviation Administration
+          Publication_Date: 2003
+          Title: FAA Landing Facility Database
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Online_Linkage: http://www.faa.gov/ats/ata/ata100/120/datadistr.html
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2003
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: FAA
+      Source_Contribution: Point locations for airports not included in state DOT files were extracted from the national FAA dataset.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC Department of Transportation, Division of Aviation
+          Publication_Date: 2003
+          Title: Division of Aviation North Carolina 2003 Airport Guide
+          Geospatial_Data_Presentation_Form: document
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2003
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NC DOT Airport Division
+      Source_Contribution: Latitude/longitude locations and attributes for airports in North Carolina
+    Process_Step:
+      Process_Description: In December 2003, NCCGIA  created a point shapefile from lat/longs provided by NC DOT. A shapefile was also created from data supplied by the FAA. Because there was not a common field for joining tables, NCCGIA identified FAA points that coincided with or were near a state point.  The  FAA points within 3,200 feet of a state point were selected in ArcView. These points were converted to a shapefile. Then the selection was switched to make the FAA points selected as those not near a state point.  That selection was converted to a shapefile. The two datasets were merged to fill in gaps that occured in both datasets allowing for a more complete statewide airports coverage. NCCGIA then used digital orthophotography from 1998 to verify the points.
+      Process_Date: 200312
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Jeff Brown
+            Contact_Organization: NC Center for Geographic Information and Analysis
+          Contact_Position: Project Manager
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 366
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Airports
+      Entity_Type_Definition: Airports Locations in North Carolina
+      Entity_Type_Definition_Source: CGIA
+    Attribute:
+      Attribute_Label: LOCID
+      Attribute_Definition: Airport Location Identifier
+      Attribute_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+      Beginning_Date_of_Attribute_Values: 030104
+      Ending_Date_of_Attribute_Values: 030104
+    Attribute:
+      Attribute_Label: ARPT_NAME
+      Attribute_Definition: Airport Name
+      Attribute_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Airport Name
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: ARPT_ID
+      Attribute_Definition: Airport Identification Number
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: CLASS
+      Attribute_Definition: Airport Facility Type
+      Attribute_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AIRPORT
+          Enumerated_Domain_Value_Definition: Facility is an airport
+          Enumerated_Domain_Value_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: GLIDERPORT
+          Enumerated_Domain_Value_Definition: The facility is a glider port
+          Enumerated_Domain_Value_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HELIPORT
+          Enumerated_Domain_Value_Definition: The facility is a heliport
+          Enumerated_Domain_Value_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MAJOR AIRPORT
+          Enumerated_Domain_Value_Definition: The facility is a major airport
+          Enumerated_Domain_Value_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SEAPLANE BASE
+          Enumerated_Domain_Value_Definition: The facility is a base for a seaplane
+          Enumerated_Domain_Value_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: STOLPORT
+          Enumerated_Domain_Value_Definition: The facility is a stolport
+          Enumerated_Domain_Value_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ULTRALIGHT
+          Enumerated_Domain_Value_Definition: The facility is for ultralight aircraft
+          Enumerated_Domain_Value_Definition_Source: FAA
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: ARPT_USE
+      Attribute_Definition: Airport Ownership Type
+      Attribute_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PU
+          Enumerated_Domain_Value_Definition: Public
+          Enumerated_Domain_Value_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PR
+          Enumerated_Domain_Value_Definition: Private
+          Enumerated_Domain_Value_Definition_Source: FAA
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County where airport is located
+      Attribute_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: County names
+          Codeset_Source: State of North Carolina
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: State where airport is located
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NC
+          Enumerated_Domain_Value_Definition: North Carolina
+          Enumerated_Domain_Value_Definition_Source: NC DOT
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: ASSO_CITY
+      Attribute_Definition: City associated with airport
+      Attribute_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: CO_FIPS
+      Attribute_Definition: County code according to the Federal Information Processing Standards
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: County FIPS
+          Codeset_Source: US Bureau of the Census
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: MSL
+      Attribute_Definition: Airport Elevation above mean sea level
+      Attribute_Definition_Source: FAA
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 5000
+          Attribute_Units_of_Measure: feet
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: NAME1
+      Attribute_Definition: Primary Contact Name
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: NAME2
+      Attribute_Definition: Secondary Contact Name
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: NAME3
+      Attribute_Definition: Tertiary Contact Name
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: PHONE1
+      Attribute_Definition: Primary Contact Phone Number
+      Attribute_Definition_Source: NC  DOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: PHONE2
+      Attribute_Definition: Secondary Contact Phone Number
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: PHONE3
+      Attribute_Definition: Tertiary Contact Phone Number
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: STATUS
+      Attribute_Definition: Status of point location
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: edited
+          Enumerated_Domain_Value_Definition: a point was moved to reflect its correct location as verified by orthophotography
+          Enumerated_Domain_Value_Definition_Source: NCCGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ok
+          Enumerated_Domain_Value_Definition: point locations were verified in orthophotos
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: no ortho
+          Enumerated_Domain_Value_Definition: No orthophoto was available for the point location; not verified
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: not verified
+          Enumerated_Domain_Value_Definition: point location could not be verified on available orthophoto
+          Enumerated_Domain_Value_Definition_Source: CGIA
+      Beginning_Date_of_Attribute_Values: 2000
+      Ending_Date_of_Attribute_Values: 2004
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+  Overview_Description:
+    Entity_and_Attribute_Overview: The theme includes airport name, type, and contact information.
+    Entity_and_Attribute_Detail_Citation: Division of Aviation North Carolina 2003 Airport Guide, NC Department of Transportation, Division of Aviation, 2003
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/air.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

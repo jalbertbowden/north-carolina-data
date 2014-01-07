@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title>Bicycle Routes</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<origin>NC DOT GIS developed the digital data based on source maps provided by the Division of Bicycle and Pedestrian Transportation</origin><pubdate>Updated as needed</pubdate><ftname Sync="TRUE">BikeRoutes</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Line file representing North Carolina bike routes, as defined by the Division of Bicycle and Pedestrian Transportation.  Bike routes include the Interstate, State, County, Regional, and Urban routes and were based on the DOTRoads file, produced by NCDOT.</abstract>
+			<purpose>Provide all known bike routes in one consistent format to make it easier for users with various needs and requirements to get the most out of North Carolina's bike route system.</purpose>
+			<supplinf>The bike routes file allows up to 5 overlapping bike routes to exist along any one line segment at a time.  The overlapping routes are delineated in the attribute table by a numeric suffix (1-5) at the end of the attributes TYPE, DESIG, RTE_NAME, and MAPNAME.  When overlapping routes are present, all item names that end in the "1" suffix (TYPE1, DESIG1, etc) will describe the primary bike route.  Secondary bike routes will be described by the items that end in the "2" suffix, with all other bike routes, if any, will be described successively by the items ending in "3", then "4", and finally "5".  Items after MAPNAME1-5 describe any and all routes present on a particular line segment, not just one of the individual routes.
+
+The TYPE1-5 attributes describe the type of the route - Interstate, State, Regional, County, and Urban.  In the case of overlapping routes, the attributes are listed in the order given above, with precedence (attributes appearing in the fields with the "1" suffix, then to the "2" suffix, then "3", etc.) given to the Interstate routes, while Urban routes are listed after all the other types.
+
+The DESIG1-5 attribute describes the designation of the route - whether it's a numbered route (Num); a designated route (Desig); an unsigned route (Unsigned); an unsigned connector (Unsigned Conn); or an unsigned loop (Unsigned Loop).  Many of the Urban routes don't have any type of designation, so their value is listed as "N/A".
+
+The RTE_NAME1-5 includes the name of the bike route as listed by the Division of Bicycle and Pedestrian Transportation.  Routes with no name are listed as "No Name".  The MAP_NAME1-5 field lists the paper maps distributed by the DBPT that were used as the primary sources for the bike routes.
+
+In some cases, bike routes were mapped using suitability maps.  These are maps that typically list bike routes by rated street types (ranging from streets with little traffic suitable for those with basic bicycling skills up to high traffic streets suitable only for those with advanced bicycling skills).  For these routes, a SUITABILITY value is included and is based on the source suitability map.  Users are urged to consult these original suitability maps for more information concerning the amount of skill needed to traverse these roads, as well as the date each map was originally produced (which is also included in the RTE_SPECIFICS field).  The listed suitability levels should not be compared statewide; each route's suitability value should be compared only with other route values within the same county.  The suitability rating also applies to a particular line segment of a route, not to only one of many overlapping routes.  Therefore, the field name, SUITABILITY, is not numbered like the above attributes.  From the suitability maps used, the following lists the levels assigned to each route per county, with difficulty increasing from Level 1 to Level 4:
+
+Asheville-Buncombe  
+· Level 1- any route shown as green
+· Level 2- orange
+· Level 3- red
+· Level 4- dark purple
+
+Durham
+· Level 1- any route shown as green
+· Level 2- orange and/or solid blue
+· Level 3- red and/or dashed blue
+· Level 4- N/A
+
+Wilmington
+· Level 1- any route shown as green, solid
+· Level 2- orange and/or solid blue
+· Level 3- red and/or dashed blue
+· Level 4- N/A
+
+Charlotte-Mecklenburg/Union
+· Level 1- N/A
+· Level 2- any route shown in green and/or orange
+· Level 3- red
+· Level 4- N/A
+
+The above does not cover every route with a suitability value - some routes are attributed based on knowledge of the route and local conditions.
+
+Other attributes, also unnumbered, included in the line attribute table are COUNTY, HIGHWAY, ROUTE1, and RTE_SPECIFICS:
+
+COUNTY lists the name of the county containing the route, or portion of the route.
+
+HIGHWAY lists the name of the highway that underlies the bike route (many urban routes do not have a highway name).
+
+ROUTE1, despite ending in "1", does not apply to just the primary route described by TYPE1, DESIG1, etc.  It lists the NCDOT GIS 8-digit route number for the underlying highway if that highway is a state-maintained road.  Briefly, the first digit of the 8-digit route number describes the road type (1 = Interstate, 2 = US highway, 3 = NC highway, 4 = SR), while up to the last 4 digits describe the road number.  The intervening digits can be used to describe various types or directions of the roads, including Alternate, Bypass, Business, North, South, etc.  The fourth digit is always "0" and is used to separate the road type from the road number.  For example, 10000040 would be I-40.
+
+Finally, the RTE_SPECIFICS attribute is used as a note field, holding any explanatory comments or information that might be of use to any potential user.  These comments can include, but are not limited to, publication dates of the suitability maps (since road conditions and traffic may have changed since they were originally published); alternate or detoured routes due to adverse road conditions; or notes describing certain roads, including municipal streets, the Blue Ridge Parkway, and roads labeled as High Traffic Areas (HTA).
+
+Note: the above-named attributes apply to the coverage version of the data.  If using the data in shapefile format, the SUITABILITY and RTE_SPECIFICS fields will be truncated to SUITABILIT and RTE_SPECIF.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-84.122365</westbc>
+				<eastbc Sync="TRUE">-75.423887</eastbc>
+				<northbc Sync="TRUE">36.596593</northbc>
+				<southbc Sync="TRUE">33.775530</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">150778.265625</leftbc><rightbc Sync="TRUE">929776.687500</rightbc><bottombc Sync="TRUE">14284.512695</bottombc><topbc Sync="TRUE">315804.343750</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>bike routes</themekey>
+				<themekey>bicycles</themekey>
+			</theme>
+			<place>
+				<placekey>North Carolina</placekey>
+			</place>
+		</keywords>
+		<accconst>No restrictions known.</accconst>
+		<useconst>Each user is urged to consult the original source map of each bike route for further route information, especially publication dates for the suitability maps.  Bicyclists are also reminded to exercise caution when using the state's roads for bicycling.  Conditions can change suddenly or over time and it is the bicyclist's responsibility to become acquainted with conditions on his or her particular route.  Bicyclists must also obey all local and state traffic laws and are reminded to wear bike helmets at all times for their safety.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NCDOT GIS Unit</cntorg>
+					<cntper>Michael Schoen</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>NCDOT GIS Unit</address>
+					<address>4101 Capital Blvd</address>
+					<city>Raleigh</city>
+					<state>NC</state>
+					<postal>27604</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>919-707-2164</cntvoice>
+				<cntemail>mlschoen@ncdot.gov</cntemail>
+				<cntinst>Can also contact the NC DOT Help Desk at gishelp@ncdot.gov
+
+For further information or help in ordering source bike route maps, contact the Division of Bicycle and Pedestrian Transportation, at (919) 807-0777 or via the web at: http://www.ncdot.gov/bikeped/contact/default.html</cntinst>
+				<hours>8 am - 5 pm, Monday - Friday</hours><cntfax>919-707-2210</cntfax></cntinfo>
+		</ptcontac>
+		<datacred>The bike routes digital file is a compilation of data gathered from existing and newly-produced paper maps provided by the Division of Bicycle and Pedestrian Transportation.  The existing paper maps can be downloaded from the NCDOT's data distribution web page as well as ordered from the DBPT.  The newly-produced paper maps were compiled and attributed from various existing sources onto the DOT's highway inventory maps for the purpose of providing a consistent data format during the data capture phase of the digital bike route file.</datacred>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">Shapefile</natvform><secinfo><secclass>Unclassified</secclass></secinfo></idinfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="BikeRoutes">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">40955</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="BikeRoutes"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">40955</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200</projcsn></cordsysn><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.000000</absres><ordres Sync="TRUE">0.000000</ordres></coordrep></planci><gridsys><gridsysn>State Plane Coordinate System</gridsysn><spcs><spcszone Sync="TRUE">3200</spcszone><lambertc><stdparll Sync="TRUE">34.333333</stdparll><stdparll Sync="TRUE">36.166667</stdparll><longcm Sync="TRUE">-79.000000</longcm><latprjo Sync="TRUE">33.750000</latprjo><feast Sync="TRUE">609601.220000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></spcs></gridsys></planar></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="BikeRoutes">
+			<enttyp>
+				<enttypl>Bicycle Routes</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">40955</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attwidth Sync="TRUE">0</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Geometry</attrtype><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">FNODE_</attrlabl>
+				<attwidth Sync="TRUE">11</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Number</attrtype><attrdef Sync="TRUE">Internal node number for the beginning of an arc (from-node).</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">FNODE_</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TNODE_</attrlabl>
+				<attwidth Sync="TRUE">11</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Number</attrtype><attrdef Sync="TRUE">Internal node number for the end of an arc (to-node).</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">TNODE_</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LPOLY_</attrlabl>
+				<attwidth Sync="TRUE">11</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Number</attrtype><attrdef Sync="TRUE">Internal node number for the left polygon.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">LPOLY_</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ROUTE1</attrlabl>
+				<attwidth Sync="TRUE">8</attwidth><atoutwid Sync="TRUE">8</atoutwid><attrtype Sync="TRUE">Number</attrtype><attalias Sync="TRUE">ROUTE1</attalias></attr>
+			<attr><attrlabl Sync="TRUE">RTE_SPECIF</attrlabl><attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">RTE_SPECIF</attalias></attr><attr><attrlabl Sync="TRUE">BROUTES_</attrlabl><attalias Sync="TRUE">BROUTES_</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr><attr><attrlabl Sync="TRUE">BROUTES_ID</attrlabl><attalias Sync="TRUE">BROUTES_ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth></attr><attr>
+				<attrlabl Sync="TRUE">RPOLY_</attrlabl>
+				<attwidth Sync="TRUE">11</attwidth><atoutwid Sync="TRUE">5</atoutwid><attrtype Sync="TRUE">Number</attrtype><attrdef Sync="TRUE">Internal node number for the right polygon.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">RPOLY_</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">LENGTH</attrlabl>
+				<attwidth Sync="TRUE">20</attwidth><atoutwid Sync="TRUE">18</atoutwid><attrtype Sync="TRUE">Float</attrtype><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">LENGTH</attalias><atnumdec Sync="TRUE">5</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE1</attrlabl>
+				<attwidth Sync="TRUE">8</attwidth><atoutwid Sync="TRUE">8</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">TYPE1</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DESIG1</attrlabl>
+				<attwidth Sync="TRUE">25</attwidth><atoutwid Sync="TRUE">25</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">DESIG1</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">RTE_NAME1</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">RTE_NAME1</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAPNAME1</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">MAPNAME1</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE2</attrlabl>
+				<attwidth Sync="TRUE">8</attwidth><atoutwid Sync="TRUE">8</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">TYPE2</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DESIG2</attrlabl>
+				<attwidth Sync="TRUE">25</attwidth><atoutwid Sync="TRUE">25</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">DESIG2</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">RTE_NAME2</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">RTE_NAME2</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAPNAME2</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">MAPNAME2</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE3</attrlabl>
+				<attwidth Sync="TRUE">8</attwidth><atoutwid Sync="TRUE">8</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">TYPE3</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DESIG3</attrlabl>
+				<attwidth Sync="TRUE">25</attwidth><atoutwid Sync="TRUE">25</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">DESIG3</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">RTE_NAME3</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">RTE_NAME3</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAPNAME3</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">MAPNAME3</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE4</attrlabl>
+				<attwidth Sync="TRUE">8</attwidth><atoutwid Sync="TRUE">8</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">TYPE4</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DESIG4</attrlabl>
+				<attwidth Sync="TRUE">25</attwidth><atoutwid Sync="TRUE">25</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">DESIG4</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">RTE_NAME4</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">RTE_NAME4</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAPNAME4</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">MAPNAME4</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TYPE5</attrlabl>
+				<attwidth Sync="TRUE">8</attwidth><atoutwid Sync="TRUE">8</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">TYPE5</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">DESIG5</attrlabl>
+				<attwidth Sync="TRUE">25</attwidth><atoutwid Sync="TRUE">25</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">DESIG5</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">RTE_NAME5</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">RTE_NAME5</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">MAPNAME5</attrlabl>
+				<attwidth Sync="TRUE">50</attwidth><atoutwid Sync="TRUE">50</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">MAPNAME5</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">SUITABILIT</attrlabl>
+				<attwidth Sync="TRUE">25</attwidth><atoutwid Sync="TRUE">25</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">SUITABILIT</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY</attrlabl>
+				<attwidth Sync="TRUE">12</attwidth><atoutwid Sync="TRUE">12</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">COUNTY</attalias></attr>
+			<attr>
+				<attrlabl Sync="TRUE">HIGHWAY</attrlabl>
+				<attwidth Sync="TRUE">20</attwidth><atoutwid Sync="TRUE">20</atoutwid><attrtype Sync="TRUE">String</attrtype><attalias Sync="TRUE">HIGHWAY</attalias></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize Sync="TRUE">6.550</transize>
+					<dssize Sync="TRUE">6.550</dssize></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20100810</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>North Carolina Department of Transportation, GIS Unit</cntorg>
+					<cntper>Michael Schoen</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>NCDOT GIS Unit</address>
+					<address>4101 Capital Blvd</address>
+					<city>Raleigh</city>
+					<state>NC</state>
+					<postal>27604</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>919-707-2164</cntvoice>
+				<cntemail>mlschoen@ncdot.gov</cntemail>
+				<cntinst>Can also contact the NC DOT Help Desk at gishelp@ncdot.gov
+
+For further information or help in ordering source bike route maps, contact the Division of Bicycle and Pedestrian Transportation, at (919) 807-0777 or via the web at: http://www.ncdot.gov/bikeped/contact/default.html</cntinst>
+				<hours>8 am - 5 pm, Monday - Friday</hours><cntfax>919-707-2210</cntfax></cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{486D0001-D320-415F-9936-5298DDD1C8E9}</MetaID><CreaDate>20050125</CreaDate><CreaTime>08170600</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20100805</SyncDate><SyncTime>15570300</SyncTime><ModDate>20100810</ModDate><ModTime>09093400</ModTime></Esri><dataqual><lineage><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><date Sync="TRUE">20050125</date><time Sync="TRUE">08170600</time></procstep></lineage></dataqual><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">BikeRoutes</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">150778.265625</westBL><eastBL Sync="TRUE">929776.6875</eastBL><northBL Sync="TRUE">315804.34375</northBL><southBL Sync="TRUE">14284.512695</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-84.122365</westBL><eastBL Sync="TRUE">-75.423887</eastBL><northBL Sync="TRUE">36.596593</northBL><southBL Sync="TRUE">33.77553</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\GIS226738\D$\WebDisclaimerCheck\Bikeroutes_shp\BikeRoutes.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">6.550</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="BikeRoutes"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">40955</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20100810</mdDateSt></metadata>

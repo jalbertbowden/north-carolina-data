@@ -1,0 +1,63 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "REF_NUM": 1.000000, "P_AUTHOR": "Aldrich", "INITIALS": "L. T.", "S_AUTHOR": "", "DATE_": 1983, "TITLE": "Unpublished data from Kish, S. A., 1983, A geochronological study of deformation and metamorphism in the Blue Ridge and Piedmont of the Carolinas (Ph. D. thesis):", "CIT_INFO": "Chapel Hill, North Carolina, University of North Carolina at Chapel Hill, 202 p." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 10.000000, "P_AUTHOR": "Fullagar", "INITIALS": "P. D.", "S_AUTHOR": "and Odom, A. L.", "DATE_": 1973, "TITLE": "Geochronology of Precambrian gneisses in the Blue Ridge Province of northwestern North Carolina and adjacent parts of Virginia and Tennessee:", "CIT_INFO": "Geological Society of America Bulletin, v. 84, p. 3065-3079." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 2.000000, "P_AUTHOR": "Bartholomew", "INITIALS": "M. J.", "S_AUTHOR": "and Lewis, S. E.", "DATE_": 1984, "TITLE": "Evolution of Grenville massifs in the Blue Ridge geologic province, southern and central Appalachians", "CIT_INFO": "in Bartholomew, M. J., ed., The Grenville event in the Appalachians and related topics: Geological Society of America Special Paper 194, p. 229-254." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 3.000000, "P_AUTHOR": "Black", "INITIALS": "W. W.", "S_AUTHOR": "", "DATE_": 1977, "TITLE": "The geochronology and geochemistry of the Carolina slate belt of north-central North Carolina (Ph. D. thesis):", "CIT_INFO": "Chapel Hill, North Carolina, University of North Carolina at Chapel Hill, 118 p." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 4.000000, "P_AUTHOR": "Butler", "INITIALS": "J. R.", "S_AUTHOR": "and Ragland, P. C.", "DATE_": 1969, "TITLE": "A petrochemical survey of plutonic intrusions in the Piedmont, southeastern Appalachians, U. S. A.:", "CIT_INFO": "Contributions Mineralology and Petrology, v. 24, p. 164-190." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 5.000000, "P_AUTHOR": "Butler", "INITIALS": "J. R.", "S_AUTHOR": "and Fullagar, P. D.", "DATE_": 1978, "TITLE": "Petrochemical and geochronological studies of plutonic rocks in the southern Appalachians: III. Leucocratic adamellites of the Charlotte belt near Salisbury, North Carolina:", "CIT_INFO": "Geological Society of America Bulletin, v. 89, p. 460-466." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 6.000000, "P_AUTHOR": "Delorey", "INITIALS": "C. M.", "S_AUTHOR": "Dooley, R. E., Ressetar, Rober, Fullagar, P. D., and Stodd", "DATE_": 1982, "TITLE": "Paleomagnetism and isotope geochronology of early mesozoic rhyolite porphyry dikes, eastern southern Appalachian Piedmont (abs.):", "CIT_INFO": "EOS Transactions, American Geophysical Union, v. 63, p. 309." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 7.000000, "P_AUTHOR": "Druhan", "INITIALS": "R. M.", "S_AUTHOR": "", "DATE_": 1983, "TITLE": "The southwestern Raleigh belt and the Nutbush Creek fault in North Carolina, (M. S. thesis):", "CIT_INFO": "Chapel Hill, North Carolina, University of North Carolina in Chapel Hill, 69 p." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 8.000000, "P_AUTHOR": "Farrar", "INITIALS": "S. S.", "S_AUTHOR": "Russell, C. W., and Glover, Lynn, III", "DATE_": 1981, "TITLE": "Alleghenian deformation and metamorphism in the eastern Piedmont of North Carolina: new evidence from Rb-Sr whole-rock and biotite ages:", "CIT_INFO": "Geologial Society of America Abstracts with Programs, v. 13, no. 7, p. 449-450." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 9.000000, "P_AUTHOR": "Fullagar", "INITIALS": "P. D.", "S_AUTHOR": "", "DATE_": 1971, "TITLE": "Age and origin of plutonic intrusions in the Piedmont of the southeastern Appalachians:", "CIT_INFO": "Geological Society of America Bulletin, v. 82, p. 2845-2862." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 11.000000, "P_AUTHOR": "Fullagar", "INITIALS": "P. D.", "S_AUTHOR": "and Butler, J. R.", "DATE_": 1979, "TITLE": "325 to 265 m.y.-old granitic plutons in the Piedmont of the southeastern Appalachians:", "CIT_INFO": "American Journal of Science, v. 279, p. 161-185." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 12.000000, "P_AUTHOR": "Fullagar", "INITIALS": "P. D.", "S_AUTHOR": "Hatcher, R. D., Jr., and Merschat, C. E.", "DATE_": 1979, "TITLE": "1979,1200 m.y.-old gneisses in the Blue Ridge Province of North and South Carolina:", "CIT_INFO": "Southeastern Geology, v. 20, no. 2, p. 69-77." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 13.000000, "P_AUTHOR": "Fullagar", "INITIALS": "P. D.", "S_AUTHOR": "", "DATE_": 1983, "TITLE": "Geochronological analyses for North Carolina Geological Survey mapping projects -- summary of results 1983-1984:", "CIT_INFO": "North Carolina Geological Survey Section unpublished open-file data." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 14.000000, "P_AUTHOR": "Fullagar", "INITIALS": "P. D.", "S_AUTHOR": "and Bartholomew, M. J.", "DATE_": 1983, "TITLE": "Rubidium-strontium ages of the Watauga River, Cranberry, and Crossing Knob gneisses, northwestern North Carolina:", "CIT_INFO": "Carolina Geological Society Field Trip Guidebook, 29 p." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 15.000000, "P_AUTHOR": "Glover", "INITIALS": "Lynn, II", "S_AUTHOR": "and Sinha, A. K.", "DATE_": 1973, "TITLE": "The Virgilian deformation, a late Precambrian to early Cambrian (?) orogenic event in the central Peidmont of Virginia and North Carolina:", "CIT_INFO": "American Journal of Science, v. 273-A, p. 234-251." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 16.000000, "P_AUTHOR": "Goldberg", "INITIALS": "S. A.", "S_AUTHOR": "Butler, J. R., and Fullagar, P. D.", "DATE_": 1985, "TITLE": "Age of the Bakersville metadiabase dike swarm, North Carolina-Tennessee:", "CIT_INFO": "Geological Society America Abstracts with programs, v.17, no. 2, p. 93." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 17.000000, "P_AUTHOR": "Harper", "INITIALS": "S. B.", "S_AUTHOR": "and Fullagar, P. D.", "DATE_": 1981, "TITLE": "Rb-Sr ages of granitic gneisses of the Inner Piedmont belt of northwestern North Carolina and southwestern South Carolina:", "CIT_INFO": "Geological Society America Bulletin, Pt. 1, v. 92, p. 864-872." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 18.000000, "P_AUTHOR": "Horton", "INITIALS": "J. W., J", "S_AUTHOR": "and Stern, T. W.", "DATE_": 1983, "TITLE": "Late Paleozoic (Alleghenian) deformation, metamorphism, and syntectonic granite in the central Piedmont of the southern Appalachians:", "CIT_INFO": "Geological Society America Abstracts with programs, v. 15, no. 6, p. 599." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 19.000000, "P_AUTHOR": "Horton", "INITIALS": "J. W., J", "S_AUTHOR": "", "DATE_": 1984, "TITLE": "Stratigraphic nomenclature in the Kings Mountain belt, North Carolina and South Carolina: in Stratigraphic Notes, 1983:", "CIT_INFO": "U. S. Geological Survey Bulletin 1537-A, p. A59-A67." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 20.000000, "P_AUTHOR": "Kish", "INITIALS": "S. A.", "S_AUTHOR": "", "DATE_": 1977, "TITLE": "Geochronology of plutonic activity in the Inner Piedmont and Kings Mountain belt of North Carolina:", "CIT_INFO": "in Burt, E. R., ed., Field guides for Geological Society of America, Southeastern Section Meeting, Winston-Salem, North Carolina: North Carolina Geology and Mineral Resou" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 21.000000, "P_AUTHOR": "Kish", "INITIALS": "S. A.", "S_AUTHOR": "", "DATE_": 1983, "TITLE": "A geochronological study of deformation and metamorphism in the Blue Ridge and Piedmont of the Carolinas (Ph. D. thesis):", "CIT_INFO": "Chapel Hill, North Carolina, University of North Carolina at Chapel Hill, 202 p." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 22.000000, "P_AUTHOR": "Mauger", "INITIALS": "R. L.", "S_AUTHOR": "Spruill, R. K., Christopher, M. T., and Shafiqullah, Muham", "DATE_": 1983, "TITLE": "Petrology and geochronology of peralkalic metagranite and metarhyolite dikes, Fountain Quarry, Pitt County, North Carolina:", "CIT_INFO": "Southeastern Geology, v. 24, no. 2, p. 67-89." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 23.000000, "P_AUTHOR": "McConnell", "INITIALS": "K. I.", "S_AUTHOR": "", "DATE_": 1974, "TITLE": "Geology of the late Precambrian Flat River complex and associated volcanic rocks near Durham, North Carolina, (M.S. thesis):", "CIT_INFO": "Blacksburg, Virginia, Virginia Polytechnic Institute and State University, 64 p." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 24.000000, "P_AUTHOR": "McSween", "INITIALS": "H. Y., J", "S_AUTHOR": "Sando, T. W., Clark, S. R., Harden, J. T., and Strange, E.", "DATE_": 1984, "TITLE": "The gabbro-metagabbro association of the southern Appalachian Piedmont:", "CIT_INFO": "American Journal of Science, v. 284, p. 437-461." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 25.000000, "P_AUTHOR": "Odom", "INITIALS": "A. L.", "S_AUTHOR": "and Fullagar, P. D.", "DATE_": 1984, "TITLE": "Rb-Sr whole-rock and inherited zircon ages of the plutonic suite of the Crossnore Complex, southern Appalachian, and their implications regarding the time of opening of the Iapetus", "CIT_INFO": "in Bartholomew, M. J., ed., The Grenville event in the Appalachians and related topics: Geological Society America Special Paper 194, p. 255-261." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 26.000000, "P_AUTHOR": "Rankin", "INITIALS": "D. W.", "S_AUTHOR": "Stern, T. W., Reed, J. C., Jr., and Newell, M. F.", "DATE_": 1969, "TITLE": "Zircon ages of felsic volcanic rocks in the upper Precambrian of the Blue Ridge, Appalachian Mountains:", "CIT_INFO": "Science, v. 166, p. 741-744." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 27.000000, "P_AUTHOR": "Rankin", "INITIALS": "D.W.", "S_AUTHOR": "Espenshade, G. H., and Shaw, K. W.", "DATE_": 1973, "TITLE": "Stratigraphy and structure of the metamorphic belt in northwestern North Carolina and southwestern Virginia: a study from the Blue Ridge across the Brevard fault zone to the Saurat", "CIT_INFO": "American Journal of Science, v. 273-A, p. 1-40." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 28.000000, "P_AUTHOR": "Tingle", "INITIALS": "T. N.", "S_AUTHOR": "", "DATE_": 1982, "TITLE": "Geology and geochronology of the Parks Crossroads granodiorite, near Siler City, central North Carolina Piedmont:", "CIT_INFO": "Southeastern Geology, v. 23, no. 2, p. 117-122." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "REF_NUM": 29.000000, "P_AUTHOR": "Wedemeyer", "INITIALS": "R. C.", "S_AUTHOR": "and Spruill, R. K.", "DATE_": 1980, "TITLE": "Geochemistry and geochronology of the Sims granite, eastern Carolina slate belt, North Carolina:", "CIT_INFO": "Geological Society America Abstracts with programs, v. 12, no. 4, p. 211." }, "geometry": null }
+
+]
+}

@@ -1,0 +1,423 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC DENR Div of Water Quality (DWQ), Water Quality Section
+      Publication_Date: 20070314
+      Title: Ambient Water Quality Monitoring Sites
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NC DENR Div of Water Quality, Water Quality Section
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      The North Carolina Department of Environment and Natural Resources, Division of
+      Water Quality, in cooperation with the NC Center for Geographic Information and Analysis,
+      developed the GIS data set, Ambient Water Quality Monitoring Sites data to enhance planning,
+      siting, and impact analysis in areas directly affecting water quality. This file identifies
+      locations in North Carolina where water quality data are collected on a routine basis and
+      analyzed for presence of various chemicals.
+    Purpose:
+      This data was created to assist governmental agencies and others in making resource
+      management decisions through use of a Geographic Information System (GIS).
+    Supplemental_Information:
+      >
+      >Revisions and updates to this layer include:
+      >4.)  filename: awqms307  Regular update.  May 14, 2007.
+      >3.)  filename: awqms900  The September 30 2000 update consisted of
+      >CGIA receiving from DWQ an EXCEL spreadsheet that listed active
+      >ambient water quality monitoring stations. This database contained
+      >corrections to many of the sites from the original database.
+      >Additionally, many stations were moved, discontinued, or added since
+      >the original database.  NC Division of Water Quality has changed the
+      >process by which station locations are mapped. With the submission
+      >of this new data the layer is longer considered unverified.
+      >2.) filename: uvawqms1298  The December 1998 update to this layer
+      >consisted of projecting the data from NAD27 datum, State Plane
+      >projection, units of measure feet TO: NAD83 DATUM, State Plane
+      >PROJECTION, UNITS OF MEASURE METERS.  This was
+      >done to comply with the NC Geographic Information Coordinating Council's
+      >"Statement of Direction for North Carolina Corporate Geographic Database
+      >Horizontal Reference, Datum and Unit of Measure".  This reprojecting was
+      >done in various ways depending on the data type and content.  Vector
+      >data was projected using the 'project' command in ESRI's Arc software
+      >and topology was cleaned and built based on coverage needs.  Raster
+      >data was projected using ESRI's Grid module and various steps as
+      >applicable.
+      >1.) uvawqms794 - This July 11, 1994 version represents the original
+      >version of this data.  There was a file from March of 1991 which
+      >contained a point improperly placed. This 7/11/94 version corrected
+      >that location and the old version was deleted.  This file is
+      >considered unverified (UV).
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19940711
+        Ending_Date: 20070314
+    Currentness_Reference: Date the active sites were verified by DWQ.
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: as needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.090438
+      East_Bounding_Coordinate: -75.985323
+      North_Bounding_Coordinate: 36.591019
+      South_Bounding_Coordinate: 33.780721
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Ambient
+      Theme_Keyword: water quality
+      Theme_Keyword: monitoring sites
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: planningCadastre
+      Theme_Keyword: health
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of products derived from this data set should cite the
+    following: The source of the Ambient Monitoring Sites is NC OneMap.
+    Earlier versions of this data set may exist. The user must be sure to use
+    the appropriate dataset for the time period of interest.  While efforts
+    have been made to ensure that these data are accurate and reliable within
+    the state of the art, CGIA cannot assume liability for any damages or
+    misrepresentation caused by any inaccuracies in the data or as a result
+    of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: David Hill
+        Contact_Organization: NC DENR Division of Water Quality
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 512 N. Salisbury Street
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27604-1148
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 733-5083  ext. 564
+      Contact_Facsimile_Telephone: (919) 715-5637
+      Contact_Electronic_Mail_Address: dave.hill@ncmail.net
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Preferred contact is by mail or telephone.
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      The attributes contained in this data were supplied by the source agency as part of
+      the digital file from their database. Data represents information as supplied. No
+      additional background checks were performed.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the dataset was built for point topology using
+    the "build" command. The data set was then cleaned using the "clean" command. Topology
+    has not been edited since the last build or clean.
+  Completeness_Report:
+    This data represents information as supplied from an internal SQL database located at
+    DWQ.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The Ambient Monitoring Sites were manually mapped on 24k USGS paper topographic
+        maps which meet National Map Accuracy Standards, using a best estimate with
+        reference to surrounding features.  Latitudes and longitudes were generated using
+        a grid overlay and entered into an internal SQL database.  DWQ then converted the
+        data from to an EXCEL spreadsheet for conversion to a GIS coverage.  Points were
+        checked for accuracy against NC Corportae GIS Data layers.  Refinement of the
+        georeferencing occurred through the use of "Terrain Navigator" software which
+        generates latitude and longitude values at the location of the cursor.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC DENR - Div. of Water Quality, Water Quality Section
+          Publication_Date: 20070314
+          Title: Ambient Water Quality Monitoring Sites
+          Geospatial_Data_Presentation_Form: Map and Spreadsheet
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC DENR - Div. of Water Quality
+          Other_Citation_Details: Data is updated as needed
+      Type_of_Source_Media: Digital spreadsheet
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 200009
+        Source_Currentness_Reference: Date that active sites were verified by DWQ.
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Electronic spreadsheet
+    Process_Step:
+      Process_Description:
+        NC DENR-DWQ,WQS collected the monitoring sites data and locations in an
+        internal SQL database. The point locations were interpreted from USGS
+        1:24,000-scale topographic quadrangles using a grid overlay. The point
+        locations and attribute data in this file was exported into an EXCEL
+        spreadsheet and transferred to CGIA via e-mail for conversion to an
+        ARC/INFO coverage for use with GIS software.
+      Process_Date: 200009
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Dave Hill
+            Contact_Organization: NC DENR Div of Water Quality
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 1621 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699-1621
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 733-5083
+          Contact_Electronic_Mail_Address: Dave.Hill@ncmail.net
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Preferred contact is by mail or telephone.
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Location, county
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 608
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.001024
+          Ordinate_Resolution: 0.001024
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Ambient Water Quality Monitoring Sites
+      Entity_Type_Definition: Sites where routine tests on chemical content are performed
+      Entity_Type_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: AGENCY
+      Attribute_Definition: Monitoring station agency
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Agencies are variable in length and number of words.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: ESB_STA_NU
+      Attribute_Definition: Primary station identifier
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Values are 8 digit alphanumeric codes.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: LOCATION
+      Attribute_Definition: Description of station location
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Station descriptions are variable in length and number of words.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: LATITUDE
+      Attribute_Definition:
+        Measurement of the angle from the Earth's center to a point on the Earth's surface in
+        a north-south direction.
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 33.88168
+          Range_Domain_Maximum: 36.58805
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: LONGITUDE
+      Attribute_Definition:
+        Measurement of the angle from the Earth's center to a point on the Earth's surface in
+        an east-west direction
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -76.00978
+          Range_Domain_Maximum: -84.00267
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County names
+      Attribute_Definition_Source: State of North Carolina
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: County names are variable in length.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: State station is located in
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: State abbreviations are variable in letters.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: REGION
+      Attribute_Definition: Abbreviation of DWQ Regional Office or program names
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Region abbreviations are variable in letters.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: BASIN
+      Attribute_Definition: Abbreviation for name of River Basin
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: River Basin abbreviations may vary among DWQ programs.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SUBBASIN
+      Attribute_Definition:
+        River Basin abbreviation plus reference number of subbasin within the river
+        basin.
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Subbasin nomenclature may vary among DWQ programs.
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: INDEX
+      Attribute_Definition:
+        A reference to DWQ Index# for the section of stream in which the station
+        is located.
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: NC Stream Index#
+          Codeset_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: STR_CLASS
+      Attribute_Definition:
+        A reference to DWQ stream classification for the section of stream in which
+        the station is located.
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: NC Stream Classification
+          Codeset_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: STA_TYPE
+      Attribute_Definition: Station Type
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Types are variable in length and number of words.
+      Attribute_Measurement_Frequency: None planned
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      A point coverage identifying locations where water quality data are collected
+      and analyzed for presence of various chemicals.
+    Entity_and_Attribute_Detail_Citation: NCDENR, Division of Water Quality
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/awqms.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

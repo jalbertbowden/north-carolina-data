@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Robert Morton</origin>
+				<origin>Tara Miller</origin>
+				<pubdate>2005</pubdate>
+				<title>Short-Term Shoreline Change Rates for North Carolina Atlantic Coast Generated at a 50m Transect Spacing, 1970-1997</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo>
+					<sername>Open-File Report</sername>
+					<issue>2005-1326</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>U.S. Geological Survey, Center for Coastal and Watershed Studies, St. Petersburg, FL</pubplace>
+					<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+				</pubinfo>
+				<onlink>http://pubs.usgs.gov/of/2005/1326/</onlink>
+				<lworkcit>
+					<citeinfo>
+						<origin>Robert Morton</origin>
+						<origin>Tara Miller</origin>
+						<pubdate>2005</pubdate>
+						<title>National Assessment of Shoreline Change: Part 2, Historical Shoreline Changes and Associated Coastal Land Loss Along the U.S. Southeast Atlantic</title>
+						<serinfo>
+							<sername>Open-File Report</sername>
+							<issue>2005-1401</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>U.S. Geological Survey, Center for Coastal and Watershed Studies</pubplace>
+							<publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+						</pubinfo>
+						<onlink>http://pubs.usgs.gov/of/2005/1401/</onlink><onlink>http://coastal.er.usgs.gov/shoreline-change/</onlink></citeinfo>
+				</lworkcit>
+				<ftname Sync="TRUE">nc_transects_st</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Rates of long-term and short-term shoreline change were generated in a GIS with the Digital Shoreline Analysis System (DSAS) version 2.0, an ArcView extension developed by the USGS in cooperation with TPMC Environmental Services.  The extension is designed to efficiently lead a user through the major steps of shoreline change analysis. This extension to ArcView contains three main components that define a baseline, generate orthogonal transects at a user-defined separation along the coast, and calculate rates of change (linear regression, endpoint rate, average of rates, average of endpoints, jackknife). </abstract>
+			<purpose>Historical shoreline change is considered to be a crucial element in studying the vulnerability of the national shoreline.  These data are used in a shoreline change analysis for the USGS National Assessment Project.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2005</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Unknown</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-78.548203</westbc>
+				<eastbc Sync="TRUE">-75.459039</eastbc>
+				<northbc Sync="TRUE">36.464664</northbc>
+				<southbc Sync="TRUE">33.837270</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-78.548203</leftbc><rightbc Sync="TRUE">-75.459039</rightbc><bottombc Sync="TRUE">33.837270</bottombc><topbc Sync="TRUE">36.464664</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>General</themekt>
+				<themekey>Shoreline</themekey>
+				<themekey>Historic Shoreline</themekey>
+				<themekey>Shoreline Change Rate</themekey>
+				<themekey>Linear Regression Rate</themekey>
+				<themekey>Endpoint Rate</themekey>
+				<themekey>Baseline</themekey><themekey>Beach Erosion</themekey><themekey>Beach Nourishment</themekey><themekey>LIDAR</themekey><themekey>T-sheet</themekey><themekey>Tp-sheet</themekey><themekey>Coastal Survey Map</themekey></theme>
+			<place>
+				<placekey>United States</placekey>
+				<placekey>Atlantic</placekey>
+				<placekey>North Carolina</placekey>
+				<placekt>General</placekt></place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Public domain data from the U.S. government are freely redistributable with proper metadata and source attribution.  Please recognize the U.S. Geological Survey (USGS) as the source of this information.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey, Center for Coastal and Watershed Studies</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>600 4th Street South</address>
+					<city>St. Petersburg</city>
+					<state>FL</state>
+					<postal>33701</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(727) 803-8747</cntvoice>
+				<cntfax>(727) 803-2032</cntfax>
+				<hours>Monday through Friday, 8 a.m. to 5 p.m., Eastern Standard Time</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.0.0.535</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<posacc>
+			<horizpa></horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>A baseline was manually constructed seaward of, and parallel to, the trend of shorelines representing four general time periods (1800s, 1920s-1930s, 1970s, and 1997-2002).  Using DSAS, transects were generated with a spacing of 50m and transect-shoreline intersection points were saved to a separate layer.  Transects were manually eliminated to prevent calculation of rates in areas where less than four shorelines were intersected.  
+
+Long-term rates of shoreline change, in units of m/yr, were calculated at each transect using linear regression applied to all four shoreline positions from the earliest (1800s) to the most recent (derived from lidar).  Linear regression was selected because it has been shown to be the most statistically robust quantitative method when a limited number of shorelines are available and it is the most commonly applied statistical technique for expressing shoreline movement and estimating rates of change.  Uncertainties for the long-term rates are also reported in units of m/yr and represent a 90% confidence interval for the slope of the regression line.  This means with 90% statistical confidence that the true rate of shoreline change falls within the range defined by the reported value plus or minus the error value.  The variability around the trend reflects both measurement and sampling errors.  Short-term rates of shoreline change, in units of m/yr, were calculated using the endpoint method comparing the 1970s and most recent shoreline positions.</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>U.S. Geological Survey, Center for Coastal and Watershed Studies</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>600 4th Street South</address>
+							<city>St. Petersburg</city>
+							<state>FL</state>
+							<postal>33701</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(727) 803-8747</cntvoice>
+						<cntfax>(727) 803-2032</cntfax>
+						<hours>Monday through Friday, 8 a.m. to 5 p.m., Eastern Standard Time</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="nc_transects_st">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">9661</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="nc_transects_st"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">9661</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.000001</latres>
+				<longres>0.000001</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="nc_transects_st">
+			<enttyp>
+				<enttypl Sync="TRUE">nc_transects_st</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">9661</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ID</attrlabl>
+				<attrdef>Transect feature number.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">ID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">8</attwidth><attrdomv><rdom><rdommin>1</rdommin><rdommax>9661</rdommax></rdom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">BASELNID</attrlabl>
+				<attrdef>Baseline segment from which the transect is generated.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">BASELNID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">8</attwidth><attrdomv><rdom><rdommin>0</rdommin><rdommax>6</rdommax></rdom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">TIMESTMP</attrlabl>
+				<attrdef>Date and time the rate calculation was generated.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">TIMESTMP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdomv><udom>A date and time stamp that is automatically generated by DSAS.</udom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">AUTOGEN</attrlabl>
+				<attrdef>Indicates whether the transect was autogenerated or manually generated.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">AUTOGEN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdomv><edom><edomv>1</edomv><edomvd>Transect was automatically generated by DSAS.</edomvd><edomvds>DSAS</edomvds></edom><edom><edomv>No value given</edomv><edomvd>Transect was manually generated or edited by user.</edomvd><edomvds>DSAS</edomvds></edom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">STARTX</attrlabl>
+				<attrdef>X starting position of the transect in UTM meters.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">STARTX</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">10</atnumdec><attrdomv><rdom><rdommin>172421</rdommin><rdommax>458428</rdommax></rdom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">STARTY</attrlabl>
+				<attrdef>Y starting position of the transect in UTM meters.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">STARTY</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">10</atnumdec><attrdomv><rdom><rdommin>3748069</rdommin><rdommax>4035820</rdommax></rdom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ENDX</attrlabl>
+				<attrdef>X ending position of the transect in UTM meters.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">ENDX</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">10</atnumdec><attrdomv><rdom><rdommin>171713</rdommin><rdommax>457153</rdommax></rdom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ENDY</attrlabl>
+				<attrdef>Y ending position of the transect in UTM meters.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">ENDY</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">10</atnumdec><attrdomv><rdom><rdommin>3748743</rdommin><rdommax>4035494</rdommax></rdom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">AZIMUTH</attrlabl>
+				<attrdef>The transect's horizontal angular distance from north.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">AZIMUTH</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><atnumdec Sync="TRUE">2</atnumdec><attrdomv><rdom><rdommin>0.03</rdommin><rdommax>359.97</rdommax></rdom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">POINTCNT</attrlabl>
+				<attrdef>Number of shoreline intersections in the rate calculation.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">POINTCNT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdomv><rdom><rdommin>2</rdommin><rdommax>2</rdommax></rdom></attrdomv></attr>
+			<attr>
+				<attrlabl Sync="TRUE">EPR</attrlabl>
+				<attrdef>Endpoint rate determined by comparing two most recent shorelines.</attrdef>
+				<attrdefs>DSAS</attrdefs>
+				<attalias Sync="TRUE">EPR</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><atnumdec Sync="TRUE">2</atnumdec><attrdomv><rdom><rdommin>-56.96</rdommin><rdommax>69.65</rdommax><attrunit>meters per year (m/yr)</attrunit></rdom></attrdomv></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey, Center for Coastal and Watershed Studies</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>600 4th Street South</address>
+					<city>St. Petersburg</city>
+					<state>FL</state>
+					<postal>33701</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(727) 803-8747</cntvoice>
+				<cntfax>(727) 803-2032</cntfax>
+				<hours>Monday through Friday, 8 a.m. to 5 p.m., Eastern Standard Time</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>USGS Open-File Report 2005-1326</resdesc>
+		<distliab>
+Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, these data and information are provided with the understanding that they are not guaranteed to be usable, timely, accurate, or complete. Users are cautioned to consider carefully the provisional nature of these data and information before using them for decisions that concern personal or public safety or the conduct of business that involves substantial monetary or operational consequences. Conclusions drawn from, or actions undertaken on the basis of, such data and information are the sole responsibility of the user.
+
+Neither the U.S. Government nor any agency thereof, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any data, software, information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights.
+
+Trade, firm, or product names and other references to non-USGS products and services are provided for information only and do not constitute endorsement or warranty, express or implied, by the USGS, USDOI, or U.S. Government, as to their suitability, content, usefulness, functioning, completeness, or accuracy.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ESRI Shapefile</formname><formspec>Seven files comprise the ArcView shapefile: &lt;filename&gt;.dbf, &lt;filename&gt;.shp, &lt;filename&gt;.shx, &lt;filename&gt;.prj, &lt;filename&gt;.avl, &lt;filename&gt;.sbx, &lt;filename&gt;.sbn</formspec></digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20050825</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Geological Survey, Center for Coastal and Watershed Studies</cntorg>
+					<cntper>Tara Miller</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>600 4th Street South</address>
+					<city>St. Petersburg</city>
+					<state>FL</state>
+					<postal>33701</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(727) 803-8747</cntvoice>
+				<cntfax>(727) 803-2032</cntfax>
+				<cntemail>taram@usgs.gov</cntemail>
+				<hours>Monday through Friday, 8 a.m. to 5 p.m., Eastern Standard Time</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{147BF882-1792-4875-846B-8B7A33E5C897}</MetaID><CreaDate>20041215</CreaDate><CreaTime>11125200</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20050818</SyncDate><SyncTime>13280100</SyncTime><ModDate>20050825</ModDate><ModTime>09080200</ModTime><Sync>FALSE</Sync></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 9.0.0.535</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">nc_transects_st</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-78.548203</westBL><eastBL Sync="TRUE">-75.459039</eastBL><northBL Sync="TRUE">36.464664</northBL><southBL Sync="TRUE">33.83727</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-78.548203</westBL><eastBL Sync="TRUE">-75.459039</eastBL><northBL Sync="TRUE">36.464664</northBL><southBL Sync="TRUE">33.83727</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\STITCH\D$\hk\atlse_data_catalog\northcarolina\transects\nc_transects_st.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.811</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_North_American_1983</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="nc_transects_st"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">9661</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20050825</mdDateSt></metadata>

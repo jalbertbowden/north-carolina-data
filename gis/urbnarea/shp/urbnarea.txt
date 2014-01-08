@@ -1,0 +1,334 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Department of Commerce, U.S. Census Bureau, Geography
+        Division
+      Publication_Date: 2010
+      Title: 2010 Census Urban Areas
+      Edition: 2010
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: http://www.nconemap.com
+  Description:
+    Abstract: The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.  After each decennial census, the Census Bureau delineates urban areas that represent densely developed territory, encompassing residential, commercial, and other nonresidential urban land uses.  In general, this territory consists of areas of high population density and urban land use resulting in a representation of the "urban footprint."  There are two types of urban areas: urbanized areas (UAs) that contain 50,000 or more people and urban clusters (UCs) that contain at least 2,500 people, but fewer than 50,000 people (except in the U.S. Virgin Islands and Guam which each contain urban clusters with populations greater than 50,000).  Each urban area is identified by a 5-character numeric census code that may contain leading zeroes.
+    Purpose: In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 201103
+        Ending_Date: 201112
+    Currentness_Reference: Publication Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database.  No changes or updates will be made to this version of the TIGER/Line Shapefiles.  Future releases of TIGER/Line Shapefiles will reflect updates made to the Census MAF/TIGER database.
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.421925
+      East_Bounding_Coordinate: -75.416567
+      North_Bounding_Coordinate: 36.617518
+      South_Bounding_Coordinate: 33.723370
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Categories
+      Theme_Keyword: boundaries
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Urban Area
+      Theme_Keyword: UA
+      Theme_Keyword: Urbanized Areas
+      Theme_Keyword: Urban Cluster
+      Theme_Keyword: UC
+    Place:
+      Place_Keyword_Thesaurus:
+        ANSI INCITS 38:2009 (Formerly FIPS 5-2),
+        ANSI INCITS 31:2009 (Formerly FIPS 6-4),ANSI
+        INCITS 454:2009 (Formerly FIPS 8-6), ANSI INCITS
+        455:2009(Formerly FIPS 9-1), ANSI INCITS 446:2008 (Geographic Names Information System (GNIS))
+      Place_Keyword: United States
+      Place_Keyword: U.S.
+  Access_Constraints: None
+  Use_Constraints:
+    The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+    The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization:
+          U.S. Department of Commerce, U.S. Census Bureau,
+          Geography Division, Geographic Products Branch
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 4600 Silver Hill Road, Stop 7400
+        City: Washington
+        State_or_Province: DC
+        Postal_Code: 20233-7400
+        Country: United States
+      Contact_Voice_Telephone: 301-763-1128
+      Contact_Facsimile_Telephone: 301-763-4710
+      Contact_Electronic_Mail_Address: geo.tiger@census.gov
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.
+  Logical_Consistency_Report:
+    The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  All polygons are tested for closure.
+    The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55.  Feature attribute information has been examined but has not been fully tested for consistency.
+    For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature.  TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.
+  Completeness_Report: Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+          Publication_Date: Unpublished material
+          Title: Census MAF/TIGER database
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 201103
+            Ending_Date: 201112
+        Source_Currentness_Reference: Publication Date
+      Source_Citation_Abbreviation: MAF/TIGER
+      Source_Contribution: The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau's Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.
+    Process_Step:
+      Process_Description: TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data.
+      Source_Used_Citation_Abbreviation: Census MAF/TIGER
+      Process_Date: 2010
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: _Method: Urban Area
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 115
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.001877
+          Ordinate_Resolution: 0.001877
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: UAC10.shp
+      Entity_Type_Definition: 2010 Census Urban Area National
+      Entity_Type_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: UACE10
+      Attribute_Definition: 2010 Census urban area code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 00001 to 98999
+          Enumerated_Domain_Value_Definition: Urban Area Code
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: GEOID10
+      Attribute_Definition: Urban area identifier, a concatenation of Current state Federal Information Processing Standards (FIPS) code and urban area code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: INCITS.38-200x (R2004), Codes for the Identification of the States, the District of Columbia, Puerto Rico, and the Insular Areas of the United States (Formerly FIPS 5-2), The urban area code that appears in UACE10
+          Codeset_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: NAME10
+      Attribute_Definition: 2010 Census urban area name
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Refer to the online Census 2000 Urbanized Area and Urban Cluster information at URL: http://www.census.gov/geo/www/ua/ua_2k.html
+          Codeset_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: NAMELSAD10
+      Attribute_Definition: 2010 Census name and the translated legal/statistical area description for urban area
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Refer to the online Census 2000 Urbanized Area and Urban Cluster information at URL http://www.census.gov/geo/www/ua/ua_2k.html and the translated legal/statistical area description code for urban area that appears in LSAD10
+          Codeset_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: LSAD10
+      Attribute_Definition: 2010 Census legal/statistical area description code for urban area
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 75
+          Enumerated_Domain_Value_Definition: Urbanized Area
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 76
+          Enumerated_Domain_Value_Definition: Urban Cluster
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: MTFCC10
+      Attribute_Definition: MAF/TIGER feature class code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: G3500
+          Enumerated_Domain_Value_Definition: Urban Area
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: UATYP10
+      Attribute_Definition: 2010 Census urban area type
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: U
+          Enumerated_Domain_Value_Definition: Urbanized Area (suffix)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C
+          Enumerated_Domain_Value_Definition: Urban Cluster (suffix)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: FUNCSTAT10
+      Attribute_Definition: 2010 Census functional status
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: S
+          Enumerated_Domain_Value_Definition: Statistical entity
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: ALAND10
+      Attribute_Definition: 2010 Census land area (square meters)
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0 to 9,999,999,999,999
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: AWATER10
+      Attribute_Definition: 2010 Census water area (square meters)
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0 to 9,999,999,999,999
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: INTPTLAT10
+      Attribute_Definition: 2010 Census latitude of the internal point
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 00
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: INTPTLON10
+      Attribute_Definition: 2010 Census longitude of the internal point
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 00
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Resource_Description: Downloadable Data
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance of NC OneMap and, in cooperation with other mapping organizations, is committed to offering its users accurate, useful, and current information. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop this dataset may be reflected in the data supplied. The user must be aware of possible conditions and bear responsibility for the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The use of trade names or commercial products does not constitute their endorsement by NCCGIA or North Carolina State Government.
+
+    No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/urbnarea.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Technical_Prerequisites: The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.
+Metadata_Reference_Information:
+  Metadata_Date: 20120402
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

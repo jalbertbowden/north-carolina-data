@@ -1,0 +1,251 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC DENR Division of Water Resources
+      Publication_Date: 20130924
+      Title: Water Supply Watersheds
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh NC
+        Publisher: NC Department of Environment and Natural Resources Division of Water Resources
+      Online_Linkage: http://portal.ncdenr.org/web/wq/ps/csu/classifications
+      Online_Linkage: http://data.nconemap.com/geoportal/catalog/main/home.page
+  Description:
+    Abstract: Areas of North Carolina where local governments are required to adopt and implement water supply watershed protection ordinances, maps, and a management plans. Refer to http://portal.ncdenr.org/web/wq/swp/ws/wswp for more information on this program. The original polygons were delineated using paper USGS topographic maps. Starting in 2009 new water supply watershed boundaries were delineated using the watershed boundary dataset as a base. Older boundaries have not been updated to match the watershed boundary dataset.
+    Purpose: Data set should be used in conjunction with water quality classifications to identify areas were water supply watershed protection programs are required. Not all areas are strictly watersheds but stop at an upstream limit that is not a complete drainage area delineation.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20130924
+    Currentness_Reference: Publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.124485
+      East_Bounding_Coordinate: -75.630608
+      North_Bounding_Coordinate: 36.576411
+      South_Bounding_Coordinate: 34.162652
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: environment
+    Theme:
+      Theme_Keyword_Thesaurus: User
+      Theme_Keyword: NC DENR Division of Water Resources
+    Theme:
+      Theme_Keyword_Thesaurus: EPA GIS Keyword Thesaurus
+      Theme_Keyword: Water
+      Theme_Keyword: Regulatory
+      Theme_Keyword: Management
+      Theme_Keyword: Drinking Water
+      Theme_Keyword: Environment
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: None. Please check sources, scale, accuracy, currentness and other available information. Please confirm that you are using the most recent copy of both data and metadata. Acknowledgement of the NC DENR DWR would be appreciated.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NCDENR Division of Water Resources Planning Section
+        Contact_Person: Campbell McNutt
+      Contact_Position: Water Quality Assessment Coordinator
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1611 MSC
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-1611
+      Contact_Voice_Telephone: 919 807 6435
+      Contact_Electronic_Mail_Address: cam.mcnutt@ncdenr.gov
+      Contact_Instructions: http://portal.ncdenr.org/web/wq
+  Native_Data_Set_Environment: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348
+Data_Quality_Information:
+  Logical_Consistency_Report: Tests for integrity have not been performed.
+  Completeness_Report: Features represented have not been tested for completeness
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Data were collected using methods that have unknown accuracy (EPA National Geospatial Data Policy [NGDP] Accuracy Tier 10). For more information, please see EPA's NGDP at http://epa.gov/geospatial/policies.html)
+  Lineage:
+    Process_Step:
+      Process_Description: Polygons for 2013 water supply classifications were added to the previous data set.
+      Process_Date: 20130418
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 443
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: NAD 1983 StatePlane North Carolina FIPS 3200
+        Lambert_Conformal_Conic:
+          Standard_Parallel: 34.33333333333334
+          Standard_Parallel: 36.16666666666666
+          Longitude_of_Central_Meridian: -79.0
+          Latitude_of_Projection_Origin: 33.75
+          False_Easting: 609601.22
+          False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.000000008381539906565651
+          Ordinate_Resolution: 0.000000008381539906565651
+        Planar_Distance_Units: meter
+    Geodetic_Model:
+      Horizontal_Datum_Name: D North American 1983
+      Ellipsoid_Name: GRS 1980
+      Semi-major_Axis: 6378137.0
+      Denominator_of_Flattening_Ratio: 298.257222101
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: dwr_wsws
+      Entity_Type_Definition: Waters supply polygons
+      Entity_Type_Definition_Source: BIMS
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: class
+      Attribute_Definition: Water supply classification
+      Attribute_Definition_Source: BIMS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-I
+          Enumerated_Domain_Value_Definition: Waters protected for all Class C uses plus waters used as sources of water supply for drinking, culinary, or food processing purposes for those users desiring maximum protection for their water supplies. WS-I waters are those within natural and undeveloped watersheds in public ownership. All WS-I waters are HQW by supplemental classification. More information: Water Supply Watershed Protection Program Homepage
+          Enumerated_Domain_Value_Definition_Source: DWQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-II
+          Enumerated_Domain_Value_Definition: Waters used as sources of water supply for drinking, culinary, or food processing purposes where a WS-I classification is not feasible. These waters are also protected for Class C uses. WS-II waters are generally in predominantly undeveloped watersheds.  All WS-II waters are HQW by supplemental classification. More information: Water Supply Watershed Protection Program Homepage
+          Enumerated_Domain_Value_Definition_Source: DWQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS_III
+          Enumerated_Domain_Value_Definition: Waters used as sources of water supply for drinking, culinary, or food processing purposes where a more protective WS-I or II classification is not feasible. These waters are also protected for Class C uses. WS-III waters are generally in low to moderately developed watersheds. More information: Water Supply Watershed Protection Program Homepage
+          Enumerated_Domain_Value_Definition_Source: DWQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: WS-IV
+          Enumerated_Domain_Value_Definition: Waters used as sources of water supply for drinking, culinary, or food processing purposes where a WS-I, II or III classification is not feasible. These waters are also protected for Class C uses. WS-IV waters are generally in moderately to highly developed watersheds or Protected Areas. More information: Water Supply Watershed Protection Program Homepage
+          Enumerated_Domain_Value_Definition_Source: DWQ
+    Attribute:
+      Attribute_Label: STREAM_NAM
+      Attribute_Definition: Mainstem name of the water supply. Usually associated with intake location
+      Attribute_Definition_Source: BIMS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: CL_DATE
+      Attribute_Definition: Classification date
+      Attribute_Definition_Source: BIMS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: PCA_TYPE
+      Attribute_Definition: Protected Area Critical Area Type
+      Attribute_Definition_Source: BIMS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: C
+          Enumerated_Domain_Value_Definition: Critical Area
+          Enumerated_Domain_Value_Definition_Source: DWQ
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: P
+          Enumerated_Domain_Value_Definition: Protected Area
+          Enumerated_Domain_Value_Definition_Source: DWQ
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      Water Supply I (WS-I)
+
+      Waters protected for all Class C uses plus waters used as sources of water supply for drinking, culinary, or food processing purposes for those users desiring maximum protection for their water supplies. WS-I waters are those within natural and undeveloped watersheds in public ownership. All WS-I waters are HQW by supplemental classification. More information: Water Supply Watershed Protection Program Homepage
+      Water Supply II (WS-II)
+
+      Waters used as sources of water supply for drinking, culinary, or food processing purposes where a WS-I classification is not feasible. These waters are also protected for Class C uses. WS-II waters are generally in predominantly undeveloped watersheds.  All WS-II waters are HQW by supplemental classification. More information: Water Supply Watershed Protection Program Homepage
+      Water Supply III (WS-III)
+
+      Waters used as sources of water supply for drinking, culinary, or food processing purposes where a more protective WS-I or II classification is not feasible. These waters are also protected for Class C uses. WS-III waters are generally in low to moderately developed watersheds. More information: Water Supply Watershed Protection Program Homepage
+      Water Supply IV (WS-IV)
+
+      Waters used as sources of water supply for drinking, culinary, or food processing purposes where a WS-I, II or III classification is not feasible. These waters are also protected for Class C uses. WS-IV waters are generally in moderately to highly developed watersheds or Protected Areas. More information: Water Supply Watershed Protection Program Homepage
+      Water Supply V (WS-V)
+
+      Waters protected as water supplies which are generally upstream and draining to Class WS-IV waters or waters used by industry to supply their employees with drinking water or as waters formerly used as water supply. These waters are also protected for Class C uses. More information: Water Supply Watershed Protection Program Homepage
+    Entity_and_Attribute_Detail_Citation: http://portal.ncdenr.org/web/wq/ps/csu/classifications
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NCDENR Division of Water Resources Planning Section
+        Contact_Person: Campbell McNutt
+      Contact_Position: Water Quality Assessment Coordinator
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1611 MSC
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-1611
+      Contact_Voice_Telephone: 919 807 6435
+      Contact_Electronic_Mail_Address: cam.mcnutt@ncdenr.gov
+      Contact_Instructions: http://portal.ncdenr.org/web/wq
+  Resource_Description: Downloadable Data
+  Distribution_Liability: Although these data have been processed successfully on a computer system at NCDENR, no warranty expressed or implied is made regarding the accuracy or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data to evaluate data set limitations, restrictions or intended use. NC DENR shall not be held liable for improper or incorrect use of the data described and/or contained herein. NCCGIA is charged with the development and maintenance of NC OneMap and, in cooperation with other mapping organizations, is committed to offering its users accurate, useful, and current information. Although every effort has been made to ensure the accuracy of information, errors and conditions originating from physical sources used to develop this dataset may be reflected in the data supplied. The user must be aware of possible conditions and bear responsibility for the appropriate use of the information with respect to possible errors, original map scale, collection methodology, currency of data, and other conditions specific to certain data. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. The use of trade names or commercial products does not constitute their endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/wsw.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process:
+    Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov
+    or 919-754-6580 for more information.
+  Technical_Prerequisites:
+    All formats available from www.nconemap.com are in ESRI shapefile.
+    Other formats are available on a cost-recovery basis - contact
+    dataq@its.nc.gov or 919-754-6580 for more information. Format
+    compatibility is the user's responsibility.
+  Available_Time_Period:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19920113
+        Ending_Date: Present
+Metadata_Reference_Information:
+  Metadata_Date: 20131120
+  Metadata_Future_Review_Date: 20170418
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NCDENR Division of Water Resources Planning Section
+        Contact_Person: Campbell McNutt
+      Contact_Position: Water Quality Assessment Coordinator
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 1611 MSC
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-1611
+      Contact_Voice_Telephone: 919 807 6435
+      Contact_Electronic_Mail_Address: cam.mcnutt@ncdenr.gov
+      Contact_Instructions: http://portal.ncdenr.org/web/wq
+  Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time

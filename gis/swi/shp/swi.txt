@@ -1,0 +1,627 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NCDEHNR-Div of Water Quality, Planning Branch
+      Publication_Date: 20040806
+      Title: Surface Water Intakes
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NCDEHNR-Div of Water Quality, Planning Branch
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      The North Carolina Department of Environment, Health, and Natural
+      Resources, Division of Water Quality, in cooperation with the NC Center
+      for Geographic Information and Analysis, developed the GIS data set,
+      Surface Water Intakes to enhance planning, siting and impact analysis
+      in areas directly affecting water supply intakes in North Carolina.  The
+      file enables users to identify point locations where communities draw raw
+      water from a lake, river, or stream; treat it; and distribute treated
+      water to residences and businesses in North Carolina.  The original
+      locations were developed by the DEHNR-Div of Environmental Health,
+      Public Water Supply Branch in April of 1990.  Locations have been
+      altered, added and deleted by the Division of Water Quality who
+      updates this file in accordance with the Water Supply Watersheds
+      file. This file is updated as changes occur.
+    Purpose:
+      This data was created to assist governmental agencies and others
+      in making resource management decisions through use of a Geographic
+      Information System (GIS).
+    Supplemental_Information:
+      >system filename: swi     file size = 0.27 mb
+      >
+      >Revisions and updates to this layer include:
+      >13.) filename: swi804  The August 6, 2004 update consisted of:
+      >a.) The addition of an intake located within the Neuse River (Wake
+      >Forest) watershed.  This affects the Wake Forest 24k quad.
+      >
+      >12.) filename: swi103  The January 31, 2003 update consisted of:
+      >a.) The addition of an intake located within the Killets Creek
+      >watershed.  This affects the Carthage 24k quad.
+      >
+      >11.) filename: swi802  The August 2, 2002 update consisted of:
+      >a.) The addition of a new intake located within the Hiwassee
+      >River (Murphy) watershed.  This affects the Peachtree 24k quad.
+      >
+      >10.) filename: swi601  The June 27, 2001 update consisted of:
+      >a.) The repositioning of SWI coded '01-20-010' located within the
+      >Hiwassee River (Murphy) watershed.  This affects the Peachtree 24k quad.
+      >
+      >9.) filename: swi1000  The October 24, 2000 update consisted of:
+      >a.) The repositioning of SWI coded '02-17-010' located within the
+      >Country Line Creek watershed.  This affects the Yanceyville 24k quad.
+      >
+      >8.) filename: swi800  The August 7, 2000 update consisted of:
+      >a.) The repositioning of SWI coded PWSB-ID = '02-79-025' located within
+      >the Mayo River watershed.  This affects the Mayodan 24k quad.
+      >
+      >7.) filename: swi399  The March 26, 1999 update consisted of:
+      >a.) The addition of numerous PWSB-ID #'s from Public Water Supply
+      >database information (ID #'s were missing previously).
+      >b.) The removal of the SWI coded PWSB-ID = 03-63-025 on Killets Creek.
+      >It's corresponding watershed has been removed.  This affects the Carthage
+      >24k quad.
+      >c.) The removal of two outdated intakes within the Yadkin River
+      >(Salisbury w.s.i.) watershed.  This affects the Salisbury 24k quad.
+      >d.) The removal of the SWI coded PWSB-ID = 01-50-010 within the
+      >Fisher Creek watershed.  The correct intake for this watershed is
+      >further downstream.  This affects the Sylva North 24k quad.
+      >e.) The addition of missing SWI within the Neuse River (Johnston County)
+      >watershed.  This affects the Selma 24k quad.
+      >f.) The removal of the SWI coded PWSB-ID = 02-76-020 within the
+      >Sandy Creek watershed.  The correct intake for this watershed is
+      >further downstream.  This affects the Ramseur 24k quad.
+      >g.) The repositioning of SWI coded PWSB-ID = '02-34-011' located within
+      >the Yadkin River (Winston-Salem) Upper watershed.  This affects the
+      >Vienna 24k quad.
+      >h.) The addition of the SWI coded PWSB-ID = '' located within the
+      >newly adopted Lookout Shoals Lake watershed.  This affects the
+      >Stoney Point 24k quad.
+      >i.) The addition of the SWI coded PWSB-ID = '' located within the
+      >newly adopted Deep River (Randleman) watershed.  This affects the
+      >Randleman 24k quad.
+      >j.) The removal of the SWI coded PWSB-ID = '01-56-101' located within
+      >the Armstrong Creek watershed (removed per request by the Division of
+      >Water Quality).  This affects the Little Switzerland 24k quad.
+      >
+      >6.) filename: swi1298  The December 1998 update to this layer consisted
+      >of projecting the data from NAD27 datum, State Plane projection, units
+      >of measure feet TO: NAD83 DATUM, State Plane PROJECTION, UNITS OF
+      >MEASURE METERS.  This was done to comply with the NC Geographic
+      >Information Coordinating Council's "Statement of Direction for North
+      >Carolina Corporate Geographic Database Horizontal Reference, Datum and
+      >Unit of Measure".  This reprojecting was done in various ways depending
+      >on the data type and content.  Vector data was projected using the
+      >'project' command in ESRI's Arc software and topology was cleaned and
+      >built based on coverage needs.  Raster data was projected using ESRI's
+      >Grid module and various steps as applicable.
+      >
+      >5.) filename: swi896   The August 23, 1996 updates consisted of
+      >incorporations of July, May and January 1996 updates which were not
+      >completed for release until August 1996.
+      >a.) The removal of the SWI coded PWSB-ID = '' on Austin Creek located
+      >in the Rolesville 24k quad.  It's corresponding watershed has been
+      >removed.
+      >b.) The addition of the SWI coded PWSB-ID = '' located within the
+      >Rattlesnake Branch watershed.  This affects the Highlands 24k quad.
+      >c.) The addition of the SWI coded PWSB-ID = '' located within the North
+      >Toe River-Spruce Pine watershed.  This affects the Spruce Pine 24k
+      >quad.
+      >d.) The addition of the SWI coded PWSB-ID = '' located within the Mills
+      >River (Asheville) watershed.  This affects the Skyland 24k quad.
+      >e.) The addition of the SWI coded PWSB-ID = '' located within the French
+      >Broad River (Asheville) watershed.  This affects the Skyland 24k quad.
+      >f.) The removal of the SWI coded PWSB-ID = '' on the French Broad River
+      >located within the Asheville 24k quad.  It did not belong to a
+      >watershed.
+      >g.) The removal of the SWI coded PWSB-ID = '' on the North Toe River
+      >located within the Spruce Pine 24k quad.  It did not belong to a
+      >watershed.
+      >h.) The removal of the SWI coded PWSB-ID = 01-11-020 located within the
+      >Dunsmore Cove Branch watershed.  (Watershed removed as requested by
+      >DWQ.)  This affects the Black Mountain 24k quad.
+      >i.) The removal of the SWI coded PWSB-ID = 03-83-429 located within the
+      >Lumber River (Robeson Co.) protected WSW which borders Scotland, Hoke,
+      >and Robeson Counties.  This affects the Wakulla 24k quad.
+      >j.) The removal of the SWI coded PWSB-ID = "blank" located within the
+      >Spruce Pine 24k quad.  It did not belong to a watershed.
+      >k.) The removal of the SWI coded PWSB-ID = "blank" located within the
+      >Pisgah Forest 24k quad.  It did not belong to a watershed.
+      >l.) The removal of the SWI coded PWSB-ID = 01-18-015 located within the
+      >Hickory 24k quad.  It did not belong to a watershed.
+      >m.) The removal of the SWI coded PWSB-ID = 01-90-015 located within the
+      >Marshville 24k quad.  It did not belong to a watershed.
+      >n.) The removal of the SWI coded PWSB-ID = 02-30-010 located within the
+      >Cool Springs 24k quad.  It was not removed when the watershed boundary
+      >was modified.
+      >o.) The addition of the SWI coded PWSB-ID = "" located within the North
+      >Toe River - Spruce Pine watershed.  This affects the Spruce Pine 24k
+      >quad.
+      >p.) The addition of the SWI coded PWSB-ID = "" located within the Deep
+      >River - Lee Co. watershed.  This affects the Colon 24k quad.
+      >q.) The addition of the SWI coded PWSB-ID = "" located within the Deep
+      >Creek watershed.  This affects the Bryson City 24k quad.
+      >r.) The addition of the SWI coded PWSB-ID = "" located within the Second
+      >Broad River - Forest City watershed.  This affects the Sunshine 24k
+      >quad.
+      >s.) The addition of the SWI coded PWSB-ID = "" located within the Mingus
+      >Creek watershed.  This affects the Smokemont 24k quad.
+      >t.) The addition of the SWI coded PWSB-ID = "" located within the Yadkin
+      >River - King watershed.  This affects the Vienna 24k quad.
+      >u.) The addition of the SWI coded PWSB-ID = "" located within the Yadkin
+      >River - Davie Co. watershed.  This affects the Clemmons 24k quad.
+      >v.) The removal of the SWI coded PWSB-ID = 01-38-010 located within the
+      >Rock Creek (Little Tennessee) watershed.  This affects the
+      >Robbinsville 24k quad.
+      >
+      >4.) filename: swi695  (previously called nc.swi695)
+      >The June 30, 1995 update consisted of the removal
+      >of the SWI coded PWSS-ID = 01-20-010, located in Cherokee County.
+      >This affects the Murphy 24k quad.
+      >
+      >3.) filename: swi495  (previously called nc.swi595)
+      >The April 12, 1995 update consisted of:
+      >a.) A missing intake point was added for a critical area in Davie County.
+      >b.) Two sites in Davie County had their PWSS-ID numbers changed from
+      >02-030-010 to 02-030-015.
+      >
+      >2.) filename: swi1192 (previously called nc.swi1192)
+      >The November 17, 1992 update consisted of:
+      >This file was updated to reflect the same intake
+      >data shown on the August 3, 1992 State-approved Water Supply
+      >Watersheds data layer.
+      >a.) Corrected location of Reddies River intake for the Yadkin River
+      >Basin, Wilkesboro 24k, Boone 100k quads.
+      >b.) Corrected location of intake for the South Fork New River, New River
+      >Basin, Jefferson 24k, West Jefferson 24k, Boone 100k quads.
+      >
+      >1.) filename: swi490 (previously name nc.intakes)
+      >The April of 1990 file was the original file supplied by
+      >NCDEHNR, DPH, PWSS.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 199004
+        Ending_Date: 20040806
+    Currentness_Reference: Data creation and revision dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.106262
+      East_Bounding_Coordinate: -75.633976
+      North_Bounding_Coordinate: 36.535900
+      South_Bounding_Coordinate: 34.163421
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Surface water intakes
+      Theme_Keyword: Potable water
+      Theme_Keyword: Drinkable water
+      Theme_Keyword: Water supplies
+      Theme_Keyword: High quality waters
+      Theme_Keyword: Critical Area
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: environment
+      Theme_Keyword: inlandWaters
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of products derived from this
+    data set should cite the following: The source of the  Surface
+    Water Intakes data is the North Carolina Corporate Geographic
+    Database. Earlier versions of this dataset may exist. The user
+    must be sure to use the appropriate data set for the time period
+    of interest.  While efforts have been made to ensure that these
+    data are accurate and reliable within the state of the art,
+    CGIA cannot assume liability for any damages or
+    misrepresentation caused by any inaccuracies in the data or
+    as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Steve Zoufaly
+        Contact_Organization: NC DEHNR Div. Environmental Management
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 512 N. Salisbury Street
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27604-1148
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 733-5083  ext. 566
+      Contact_Facsimile_Telephone: (919) 715-5637
+      Contact_Electronic_Mail_Address: stephen@dem.ehnr.state.nc.us
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Preferred contact is by mail or telephone.
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      Public Water Supply lat/long
+      coordinates were obtained by NC CGIA and plotted onto 1:100,000-scale
+      format base maps with 1:100,000-scale hydrography to verify accuracy.
+      They were attributed with a PWSB identification numbers supplied by
+      the source agency.  Intakes were edited on the screen, if necessary.
+      Intake points have been repositioned by DEHNR,DWQ,WQS as they are
+      updated.  The IDs are checked for consistency.  This digital file
+      is currently updated as changes occur.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the
+    dataset was built for points using the 'build' command.  Topology has
+    not been edited since the last build or clean.
+  Completeness_Report:
+    These data represent the locations where
+    communities draw raw water from a lake, river, or stream, treat it,
+    and distribute treated water to residences and businesses, as deter-
+    mined by the Water Quality Section of the Div of Water Quality.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Surface water intakes were marked on USGS 30 x 60 Minute series
+        topographic base maps, which meet National Map Accuracy Standards,
+        using a best estimate with reference to surrounding features.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            NC DEHNR - Div. of Environmental Health, Public
+            Water Supply Branc
+          Publication_Date: 199004
+          Title: Surface Water Intakes
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NC DEHNR - Div. of Environmental Health, Public Water Supply Branch
+          Other_Citation_Details: Data is now updated by DEHNR,DWQ,WQS
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 199004
+        Source_Currentness_Reference: Original release date
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Original locations of surface water intakes
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Originator:  US Geological Survey
+          Publication_Date: 1984-1986
+          Title: USGS 30 x 60 Minute series quadrangles
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: US Geological Survey
+          Other_Citation_Details: Published map series
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1984
+            Ending_Date: 1986
+        Source_Currentness_Reference: Publication dates of quadrangles
+      Source_Citation_Abbreviation: None
+      Source_Contribution:
+        Paper maps used to delineate the surface
+        water intakes
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC DEHNR - Division of Water Quality, Water Quality Section
+          Publication_Date: 19960823
+          Title: Surface Water Intakes
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, North Carolina
+            Publisher: NCDEHNR-DWQ,WQS
+          Other_Citation_Details: Data is updated as needed
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 19921117
+            Ending_Date: 19960823
+        Source_Currentness_Reference:
+          Original revision date and most current
+          revision date, respectively
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Ongoing updates of surface water intakes
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Geological Survey
+          Publication_Date: 1990
+          Title: USGS 7.5 Minute series quadrangles
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: US Geological Survey
+          Other_Citation_Details: Published map series
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1938
+            Ending_Date: 1990
+        Source_Currentness_Reference: Publication dates of quadrangles
+      Source_Citation_Abbreviation: None
+      Source_Contribution:
+        Paper maps used to delineate updates to the
+        surface water intakes
+    Process_Step:
+      Process_Description:
+        The DEHNR,DPH, Public Water Supply Branch compiled latitude/longitude
+        Surface Water Intake coordinates from plotted locations on
+        1:100,000-scale format base maps. This file was supplied to CGIA of
+        digital conversion.
+      Process_Date: 199004
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: J.D. Monroe
+            Contact_Organization:
+              NC DEHNR - Div. of Environmental Health, Public Water
+              Supply Branch
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 1330 St. Mary's Street
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27605-3248
+            Country: U.S.A.
+          Contact_Voice_Telephone: (910) 486-1191
+          Contact_Facsimile_Telephone: (910) 486-1858
+          Hours_of_Service: 8:00am to 5:00pm
+          Contact_Instructions: Preferred contact is by mail or phone.
+    Process_Step:
+      Process_Description:
+        Public Water Supply Branch lat/long coordinates
+        for Surface Water Intake locations were supplied to CGIA,
+        were generated as a statewide points coverage, and were plotted
+        onto individual 1:100,000-scale USGS base maps with
+        1:100,000-scale hydrography to verify data accuracy.  Upon
+        review of maps, intakes were edited on screen as necessary.
+      Process_Date: 199004
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: David Giordano
+            Contact_Organization: NC CGIA
+          Contact_Position: Database Administrator
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+    Process_Step:
+      Process_Description:
+        New Surface Water Intakes transferred onto USGS 1:24,000-scale
+        topographic maps by DWQ staff from maps of varying scales supplied
+        by area municipalities. Points were digitized by NCCGIA using
+        ESRI's ARC/INFO version 5.0 GIS using a Calcomp digitizer and ARCEDIT.
+      Process_Date: 19960710
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Steve Zoufaly
+            Contact_Organization: NC DEHNR - Division of Water Quality, Water Quality Section
+          Contact_Position: Environmental Supervisor
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 512 N. Salisbury Street
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27604-1148
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 733-5083  ext.566
+          Contact_Facsimile_Telephone: (919)715-5637
+          Hours_of_Service: 7:30AM - 4:30PM
+          Contact_Instructions: Phone and mail preferred
+    Process_Step:
+      Process_Description:
+        New Surface Water Intakes digitized by NCCGIA from USGS
+        1:24,000-scale topographic maps supplied by DWQ.
+        Updates of digital files occur as needed.
+      Process_Date: 19960710
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: David Giordano
+            Contact_Organization: NC CGIA
+          Contact_Position: Database Administrator
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: _Method: None
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 247
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Surface Water Intakes
+      Entity_Type_Definition:
+        Point locations where communities draw raw water from a lake,
+        river, or stream; treat it; and distribute treated water to residences
+        and businesses.
+      Entity_Type_Definition_Source: NC DEHNR-Div of Water Quality, Water Quality Section
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Total perimeter in coverage units
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0.000
+          Range_Domain_Maximum: 0.000
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: 0.001
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/swi.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

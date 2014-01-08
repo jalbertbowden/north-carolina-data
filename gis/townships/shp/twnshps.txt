@@ -1,0 +1,344 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC CGIA
+      Publication_Date: 20020416
+      Title: Townships
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract: This set of boundaries represent Township Boundaries and other Minor Civil Divisions as released by the US Bureau of the Census as cartographic boundary files based on Census 2000 geography.  Statistical data are not joined to these boundaries.
+    Purpose: The purpose of this data set is to provide approximate township boundaries and other minor civil divisions as a context for other GIS themes and as a reference for statistical data from Census 2000.
+    Supplemental_Information:
+      These are cartographic boundary files, not at the same scale as TIGER/Line 2000 boundaries.
+      Minor civil divisions (MCDs) are the primary governmental or administrative divisions of a county or county equivalent in many states. MCDs represent many different kinds of legal entities with a wide variety of governmental and/or administrative functions. MCDs are variously designated as American Indian reservations, assessment districts, boroughs, charter townships, election districts, election precincts, gores, grants, locations, magisterial districts, parish governing authority districts, plantations, precincts, purchases, road districts, supervisor's districts, towns, and townships. In some states, all or some incorporated places are not located in any MCD (independent places) and thus serve as MCDs in their own right. In other states, incorporated places are part of the MCDs in which they are located (dependent places), or the pattern is mixed- some incorporated places are independent of MCDs and others are included within one or more MCDs. Independent cities, which are statistically equivalent to a county, also are treated as a separate MCD equivalent in states containing MCDs. In Maine and New York, there are American Indian reservations and off-reservation trust lands that serve as MCD equivalents; a separate MCD is created in each case where the American Indian area crosses a county boundary.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 2001
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.422155
+      East_Bounding_Coordinate: -75.415823
+      North_Bounding_Coordinate: 36.617232
+      South_Bounding_Coordinate: 33.733391
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Township
+      Theme_Keyword: boundaries
+      Theme_Keyword: Cartographic
+      Theme_Keyword: Boundary File
+      Theme_Keyword: Minor Civil Division
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: boundaries
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints: Because of coordinate thinning:  Cartographic boundary files should not be used for geocoding;  Some offshore, redundant, zero population and housing land areas may be absent from the files;  Cartographic Boundary files are not necessarily vertically integrated with previous boundary file sets.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC CGIA
+      Contact_Position: Database Administrator
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Accuracy of the boundaries and township names have not been verified.
+  Logical_Consistency_Report: Data were downloaded from www.census.gov as a cartographic boundary file in shapefile format.
+  Completeness_Report: The data cover all of North Carolina
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Boundaries are less accurate than TIGER/Line 2000 boundaries.  The cartographic boundary files are primarily designed for small scale, thematic mapping applications at a target scale range of 1:500,000 to 1:5,000,000.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Bureau of the Census, Geography Division, Cartographic Operations Branch
+          Publication_Date: 2001
+          Title: Minor Civil Division Boundary File for North Carolina
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: www.census.gov
+      Source_Scale_Denominator: 500000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2002
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: Census 2000
+      Source_Contribution: Preparation of cartographic boundary file.
+    Process_Step:
+      Process_Description: The cartographic boundary files are a generalized extract from the U.S. Census Bureau's TIGER database. Line simplification/smoothing was performed with a tolerance of 0.005 decimal degrees and a coordinate reduction using the Douglas-Peucker method with a tolerance of 0.0003 decimal degrees. Very small polygons were eliminated when the combination of geographic codes existed elsewhere. The geography was clipped back to the shoreline of the United States, in contrast to TIGER/Line® which shows the full extent of geography out to the 3-mile limit.
+      Source_Used_Citation_Abbreviation: US Bureau of the Census
+      Process_Date: 2001
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: US Bureau of the Census, Geography Division, Cartographic Operations Branch
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 4700 Silver Hill Road
+            City: Washington
+            State_or_Province: DC
+            Postal_Code: 20233-0001
+            Country: USA
+          Contact_Voice_Telephone: 301-763-4636
+          Contact_Electronic_Mail_Address: techsup@usgs.gov
+    Process_Step:
+      Process_Description: Downloaded shapefile.  Projected to State Plane Coordinates, NAD 1983 meters.  Created metadata record.
+      Source_Used_Citation_Abbreviation: NC CGIA
+      Process_Date: 20040625
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC CGIA
+            Contact_Person: Jeffrey Brown
+          Contact_Position: Project Manager
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-0322
+            Country: USA
+          Contact_Voice_Telephone: 919-733-2090
+          Contact_Facsimile_Telephone: 919-715-0725
+          Contact_Electronic_Mail_Address: dataq@cgia.state.nc.us
+          Hours_of_Service: 9:00 to 5:00
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 1145
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Townships
+      Entity_Type_Definition: Townships and other Minor Civil Divisions in North Carolina, Census 2000
+      Entity_Type_Definition_Source: NC CGIA
+    Attribute:
+      Attribute_Label: LSAD_TRANS
+      Attribute_Definition: Legal Statistical Area Description type
+      Attribute_Definition_Source: US Bureau of the Census
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Type varies.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Perimeter of the polygon
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Perimeter varies
+    Attribute:
+      Attribute_Label: CS37_D00_
+      Attribute_Definition: Internal id
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential identifier
+    Attribute:
+      Attribute_Label: CS37_D00_I
+      Attribute_Definition: Internal ID
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential identifier
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: State Number
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: FIPS State Codes
+          Codeset_Source: US Bureau of the Census
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County code
+      Attribute_Definition_Source: US Bureau of the Census
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: FIPS County Codes
+          Codeset_Source: US Bureau of the Census
+    Attribute:
+      Attribute_Label: MCD
+      Attribute_Definition: Minor Civil Division Code
+      Attribute_Definition_Source: US Bureau of the Census
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: FIPS MCD Codes
+          Codeset_Source: US Bureau of the Census
+    Attribute:
+      Attribute_Label: COUSUBFP
+      Attribute_Definition: Census subareas are statistical subdivisions of boroughs, census areas, city and boroughs, and the municipality (entities that are statistically equivalent to counties) in Alaska. Census subareas are delineated cooperatively by the state of Alaska and the U.S. Census Bureau. They were first used for data presentation purposes as part of the 1980 census
+      Attribute_Definition_Source: US Bureau of the Census
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number varies
+    Attribute:
+      Attribute_Label: NAME
+      Attribute_Definition: Name of subdivision
+      Attribute_Definition_Source: US Bureau of the Census
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name varies.
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: LSAD
+      Attribute_Definition: Legal Statistical Area Description Code
+      Attribute_Definition_Source: US Bureau of the Census
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: LSAD Codes
+          Codeset_Source: US Bureau of the Census
+  Overview_Description:
+    Entity_and_Attribute_Overview: Attributes represent names, types, and identification codes for minor civil divisions.
+    Entity_and_Attribute_Detail_Citation: US Bureau of the Census
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/twnshps.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

@@ -1,0 +1,484 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        National Wild and Scenic Rivers System (administered by the Bureau of Land
+        Management, the National Park Service, the U.S. Fish and Wildlife Service,
+        and the U.S. Forest Service)
+      Publication_Date: 20080513
+      Title: Wild and Scenic Rivers
+      Geospatial_Data_Presentation_Form: Map
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher:
+          National Wild and Scenic Rivers System (administered by the Bureau of Land
+          Management, the National Park Service, the U.S. Fish and Wildlife Service,
+          and the U.S. Forest Service)
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+
+  Description:
+    Abstract:
+      The NC-CGIA developed the digital GIS Wild and Scenic Rivers data set
+      from the National Wild and Scenic Rivers System website information
+      (http://www.rivers.gov).
+      The Wild and Scenic Rivers Act established a method for providing
+      Federal protection for certain of our country's remaining free-flowing
+      rivers, preserving them and their immediate environments for the use
+      and enjoyment of present and future generations.  Rivers are included
+      in the system so that they may benefit from the protective management
+      and control of development for which the Act provides.
+    Purpose:
+      This data was created to assist governmental agencies and others in
+      making resource management decisions through use of a Geographic
+      Information System (GIS).
+
+    Supplemental_Information:
+      Wild and Scenic River descriptions from the National Wild and Scenic
+      Rivers System website: (North Carolina rivers - http://www.rivers.gov/wildriverslist.html#nc)
+      Horsepasture River:
+      From Bohaynee Road (N.C. 281) downstream to Lake Jocassee.
+      (Scenic - 3.6 miles; Recreational - 0.6 miles; Total - 4.2 miles)
+      Lumber River:
+      The segments currently designated are from State Route 1412/1203
+      (river mile 0) to the Scotland/Robeson County lines at the end of
+      the Maxton Airport Swamp (river mile 22) and from Back Swamp
+      (river mile 56) to the North Carolina/South Carolina border (river
+      mile 115).  (Scenic - 60.0 miles; Recreational - 21.0 miles; Total -
+      81 miles)
+      South Fork New River:
+      The South Fork from its confluence with Dog Creek downstream 22 miles
+      to the confluence with the North Fork.  The main stem from the
+      confluence of the North and South Forks with Dog Creek downstream
+      approximately 4.5 miles to the Virginia state line.  (26.5 miles
+      total - all Scenic)
+      Wilson Creek:
+      From the headwaters below Calloway Peak to the confluece with Johns
+      River.  (Wild - 4.6 miles; Scenic - 2.9 miles; Recreational - 15.8 miles;
+      Total - 23.3 miles)
+      (Georgia, North Carolina and South Carolina rivers - http://www.rivers.gov/wildriverslist.html#ga_nc_sc):
+      Chatooga River:
+      From 0.8 miles below Cashiers Lake to the North Carolina/South Carolina
+      border.  (9.3 miles total - NOTE: mileasge is not broken down for
+      NC segment of river)
+
+      2.) filename: wsrivers0508  The May 13, 2008 version update:
+      A) Replacement of existing stream segments with 1:24,000-scale stream data.
+      (Original version was generated from 1:100,000-scale data.)
+      B) Addition of Chattooga River in Jackson County.  (This description was
+      overlooked in the first version of the data.  All other descriptions were
+      listed under 'North Carolina'.  This description was listed under
+      'Georgia, North Carolina & South Carolina'.)
+      C) Removal of miles attribute - with the multiple 1:24,000-scale
+      stream segments and double-banked lines, this item is not longer useful.
+      1.) filename: wsrivers1204  The December 3, 2004 version is the
+      original version of this data.
+
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20041202
+        Ending_Date: 20080513
+    Currentness_Reference: Data creation and revision dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.129
+      East_Bounding_Coordinate: -75.535
+      North_Bounding_Coordinate: 36.542
+      South_Bounding_Coordinate: 33.757
+
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Wild
+      Theme_Keyword: Scenic
+      Theme_Keyword: Rivers
+      Theme_Keyword: Protected
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: InlandWaters
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+
+  Access_Constraints: None
+
+  Use_Constraints:
+    Acknowledgement of products derived form this data set should cite the
+    following: The source of the Wild and Scenic Rivers data is NC OneMap.
+    Earlier versions of this data set may exist. The user must be sure to use
+    the appropriate data set for the time period of interest.  While efforts
+    have been made to ensure that these data are accurate and reliable within
+    the state of the art, CGIA cannot assume liability for any damages or
+    misrepresentation caused by any inaccuracies in the data or as a result
+    of changes to the data caused by system transfers.
+
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Fish and Wildlife Service
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 3250 Port of Benton Blvd.
+        City: Richland
+        State_or_Province: WA
+        Postal_Code: 99354
+        Country: U.S.A.
+      Contact_Voice_Telephone: 509-371-1801
+      Contact_Electronic_Mail_Address: daniel_haas@fws.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Preferred contact is by telephone
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      Arcs were extracted from CGIA's hydrography database using the
+      wild and scenic rivers descriptions on the following website:
+      www.nps.gov/rivers/wildrivers.list.html#nc
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the dataset was built for
+    point topology using the "build" command.  Topology has not been
+    edited since the last build or clean.
+  Completeness_Report:
+    These data represent the wild and scenic rivers in North Carolina.
+    The data layer is current to the www.nps.gov/rivers website as of
+    December 3, 2004.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Hydrography 1:100,000-scale features were taken from the USGS
+        1:100,000-scale DLGs. Supplemented hydrographic features were
+        digitized from 1:24,000-scale bases and the linework checked
+        against the bases to within a linewidth.
+
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            National Wild and Scenic Rivers System (administered by the Bureau of Land
+            Management, the National Park Service, the U.S. Fish and Wildlife Service,
+            and the U.S. Forest Service)
+          Publication_Date: 200412
+          Title: Wild & Scenic Rivers
+          Geospatial_Data_Presentation_Form: Text
+          Publication_Information:
+            Publication_Place: http://www.rivers.gov
+            Publisher:
+              National Wild and Scenic Rivers System (administered by the Bureau of Land
+              Management, the National Park Service, the U.S. Fish and Wildlife Service,
+              and the U.S. Forest Service)
+      Type_of_Source_Media: website
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1986
+            Ending_Date: 2004
+        Source_Currentness_Reference: Currency of website information
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Descriptions of North Carolina Wild & Scenic Rivers
+
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Geological Survey
+          Publication_Date: 1998-2000
+          Title: USGS Digital Line Graphs
+          Geospatial_Data_Presentation_Form: GIS data
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: US Geological Survey
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: GIS data
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1984
+            Ending_Date: 1986
+        Source_Currentness_Reference: Currency of GIS data
+      Source_Citation_Abbreviation: None
+      Source_Contribution: GIS data used to extract wild and scenic river segments
+
+    Process_Step:
+      Process_Description:
+        Wild and scenic river descriptions acquired from Wild and Scenic
+        Rivers System websites (http://www.rivers.gov/wildriverslist.html#nc).
+      Process_Date: 200412
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization:
+              National Wild and Scenic Rivers System (administered by the Bureau of Land
+              Management, the National Park Service, the U.S. Fish and Wildlife Service,
+              and the U.S. Forest Service)
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 1849 C Street, N.W.
+            City: Washington
+            State_or_Province: D.C.
+            Postal_Code: 20240
+            Country: U.S.A.
+          Contact_Voice_Telephone: 202-354-6908
+          Hours_of_Service: 8:00 am to 5:00 pm
+          Contact_Instructions: Phone or fax contacted preferred
+
+    Process_Step:
+      Process_Description:
+        NCCGIA extracted wild and scenic river segments from
+        1:24,000-scale hydrography data according to website descriptions.
+      Process_Date: 200805
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: David Giordano
+            Contact_Organization: NC Center for Geographic Information and Analysis
+          Contact_Position: Database Administrator
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: _Method: None
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Complete chain
+      Point_and_Vector_Object_Count: 122
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333
+            Standard_Parallel: 36.167
+            Longitude_of_Central_Meridian: 79.000
+            Latitude_of_Projection_Origin: 33.750
+            False_Easting: 609601.22
+            False_Northing: 0.000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 1
+          Ordinate_Resolution: 1
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 1980
+      Semi-major_Axis: 6378137
+      Denominator_of_Flattening_Ratio: 298.257
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Wild and Scenic Rivers
+      Entity_Type_Definition:
+        Stream segments classified as wild and scenic by
+        the National Wild and Scenic Rivers System
+      Entity_Type_Definition_Source: National Wild and Scenic Rivers System
+
+    Attribute:
+      Attribute_Label: FNODE#
+      Attribute_Definition: From-node identifier of linear feature
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 14007
+          Range_Domain_Maximum: 14690
+      Attribute_Measurement_Frequency: None planned
+
+    Attribute:
+      Attribute_Label: TNODE#
+      Attribute_Definition: To-node identifier of linear feature
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 14007
+          Range_Domain_Maximum: 14690
+      Attribute_Measurement_Frequency: None planned
+
+    Attribute:
+      Attribute_Label: LPOLY#
+      Attribute_Definition: Internal number of poly to left of arc
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 0
+      Attribute_Measurement_Frequency: None planned
+
+    Attribute:
+      Attribute_Label: RPOLY#
+      Attribute_Definition: Internal number of poly to right of arc
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 0
+      Attribute_Measurement_Frequency: None planned
+
+    Attribute:
+      Attribute_Label: LENGTH
+      Attribute_Definition: Length of arc in coverage units
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 46.09
+          Range_Domain_Maximum: 21297.39
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: .001
+      Attribute_Measurement_Frequency: As needed
+
+    Attribute:
+      Attribute_Label: WSRIVERS#
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 122
+      Attribute_Measurement_Frequency: As needed
+
+    Attribute:
+      Attribute_Label: WSRIVERS-ID
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: User defined
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 122
+      Attribute_Measurement_Frequency: As needed
+
+    Attribute:
+      Attribute_Label: STREAM_NAM
+      Attribute_Definition: Stream name as listed in DWQ Classification Guide
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Names of streams vary in length and number of words.
+      Attribute_Measurement_Frequency: As needed
+
+    Attribute:
+      Attribute_Label: RIV-BASIN
+      Attribute_Definition: River basin
+      Attribute_Definition_Source: NC DENR-Div of Water Quality, Water Quality Section
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: River basin names vary in length and number of words.
+      Attribute_Measurement_Frequency: None planned
+
+  Overview_Description:
+    Entity_and_Attribute_Overview: Data depicting North Carolina's wild and scenic rivers.
+
+    Entity_and_Attribute_Detail_Citation: None
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/wsr.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

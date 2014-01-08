@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>North Carolina Department of Transportation</origin>
+				<pubdate>20050331</pubdate>
+				<title Sync="TRUE">new_dot_cb_stp83ft</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>CGDB layer listing and Metadata - http://www.cgia.state.nc.us/cgdb/index.html</onlink>
+				<ftname Sync="TRUE">new_dot_cb_stp83ft</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>A GIS data layer created by the North Carolina Department of Transportation (NCDOT) representing county boundaries as defined by various best sources available.</abstract>
+			<purpose>This GIS data layer was created to assist government agencies and others in making resource management decisions.</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Date release date</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Continually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-84.422111</westbc>
+				<eastbc Sync="TRUE">-75.416034</eastbc>
+				<northbc Sync="TRUE">36.617254</northbc>
+				<southbc Sync="TRUE">33.730557</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">406832.099310</leftbc><rightbc Sync="TRUE">3052479.541354</rightbc><bottombc Sync="TRUE">34989.065450</bottombc><topbc Sync="TRUE">1043625.496416</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Boundary</themekey>
+				<themekey>County</themekey>
+			</theme>
+			<place>
+				<placekt>
+William S. Powell, The North Carolina
+GAZETTEER, A Dictionary of Tar Heel Places,(Chapel Hill: University of North Carolina Press), August 1984.
+</placekt>
+				<placekey>North Carolina</placekey>
+			</place>
+		</keywords>
+		<accconst>This GIS data layer is a NC Department of Transportation unrestricted data set.</accconst>
+		<useconst>Data layer is for specific NC Department of Transportation use. There is no guarantee of accuracy, completeness, or fitness of use.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>North Carolina Department of Transportation</cntorg>
+					<cntper>Geographic Information Systems</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>3401 Carl Sandburg Court</address>
+					<city>Raleigh</city>
+					<state>NC</state>
+					<postal>27610</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>919-212-6000</cntvoice>
+				<cntfax>919-2002-5999</cntfax>
+				<cntemail>gishelp@dot.state.nc.us</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Unknown</attraccr>
+		</attracc>
+		<logic>Unknown</logic>
+		<complete>These data represent the county boundaries in North Carolina as determined by the North Carolina Department of Transportation.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Unknown</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>There is no vertical dimension to this data layer.</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>NC DOT - GIS Unit</origin>
+						<pubdate>unknown</pubdate>
+						<title>County Boundaries - NCDOT</title>
+						<geoform>Map</geoform>
+						<pubinfo>
+							<pubplace>Raleigh, NC</pubplace>
+							<publish>NC DOT - GIS Unit</publish>
+						</pubinfo>
+						<othercit>None</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24,000</srcscale>
+				<typesrc>digital tape media</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>unknown</begdate>
+							<enddate>unknown</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Continuous updates</srccurr>
+				</srctime>
+				<srccitea>None</srccitea>
+				<srccontr>Digital County Boundary Files</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Unknown</procdesc>
+				<procdate>Unknown</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>NCDOT- GIS Unit</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>Mailing and physical address</addrtype>
+							<address>1020 Birchridge Rd.</address>
+							<city>Raleigh</city>
+							<state>NC</state>
+							<postal>27611</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntvoice>(919) 250-4187</cntvoice>
+						<cntfax>(919) 212-3103</cntfax>
+						<hours>8:00 am to 5:00 pm</hours>
+						<cntinst>Phone or Fax contacted preferred</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\Aaron\LOCALS~1\Temp\xml2B.tmp</srcused><date Sync="TRUE">20050414</date><time Sync="TRUE">12401800</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="new_dot_cb_stp83ft">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">100</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>100</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>100</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+				<ptvctcnt>4</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Label point</sdtstype>
+				<ptvctcnt>152</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="new_dot_cb_stp83ft"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">100</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.004096</absres>
+						<ordres Sync="TRUE">0.004096</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">34.333333</stdparll><stdparll Sync="TRUE">36.166667</stdparll><longcm Sync="TRUE">-79.000000</longcm><latprjo Sync="TRUE">33.750000</latprjo><feast Sync="TRUE">2000000.002617</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200_Feet</projcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="new_dot_cb_stp83ft">
+			<attr>
+				<attrlabl>PERIMETER</attrlabl>
+				<attrdef>Total perimeter in coverage units</attrdef>
+				<attrdefs>Software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>378533.94148</rdommin>
+						<rdommax>1056454.07880</rdommax>
+						<attrunit>meters</attrunit>
+						<attrmres>0.001</attrmres>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+			</attr>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">15</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">3</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">15</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv><atnumdec Sync="TRUE">3</atnumdec></attr><enttyp>
+				<enttypl Sync="TRUE">new_dot_cb_stp83ft</enttypl>
+				<enttypd>Boundary extents of counties</enttypd>
+				<enttypds>NCDOT</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">100</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FIPS</attrlabl><attalias Sync="TRUE">FIPS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">15</attwidth><attrdef>US FIPS code</attrdef><attrdefs>NC DOT</attrdefs><attrmfrq>None planned</attrmfrq></attr><attr><attrlabl Sync="TRUE">NAME</attrlabl><attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth><attrdef>County name</attrdef><attrdefs>NC DOT</attrdefs><attrmfrq>None planned</attrmfrq></attr><attr>
+				<attrlabl>AREA</attrlabl>
+				<attrdef>Total area in coverage units</attrdef>
+				<attrdefs>software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>6138448996.77481</rdommin>
+						<rdommax>38,464,422,892.43520</rdommax>
+						<attrunit>meters</attrunit>
+						<attrmres>.00001</attrmres>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth></attr>
+		</detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>County boundaries</enttypl>
+				<enttypd>Boundary extents of counties</enttypd>
+				<enttypds>NCDOT</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FNODE#</attrlabl>
+				<attrdef>Internal node number for the beginning of an arc (from-node).</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TNODE#</attrlabl>
+				<attrdef>Internal node number for the end of an arc (to-node).</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LPOLY#</attrlabl>
+				<attrdef>Internal node number for the left polygon.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">3</atnumdec></attr>
+			<attr>
+				<attrlabl>RPOLY#</attrlabl>
+				<attrdef>Internal node number for the right polygon.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">3</atnumdec></attr>
+			<attr>
+				<attrlabl>LENGTH</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DOT-CB-SP83FT#</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DOT-CB-SP83FT-ID</attrlabl>
+				<attrdef>User-defined feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-LAYER</attrlabl>
+				<attrdef>Layer created in conversion from Microstation to Arc/Info</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>DEFAULT</edomv>
+						<edomvd>Default layer</edomvd>
+						<edomvds>NCDOT</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-TYPE</attrlabl>
+				<attrdef>Microstation element type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-LEVEL</attrlabl>
+				<attrdef>The level  for Microstation layer created from the conversion to Arc/Info</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>25</edomv>
+						<edomvd>Disputed</edomvd>
+						<edomvds>NCDOT</edomvds>
+					</edom>
+					<edom>
+						<edomv>27</edomv>
+						<edomvd>Provided by county and not disputed</edomvd>
+						<edomvds>NCDOT</edomvds>
+					</edom>
+					<edom>
+						<edomv>29</edomv>
+						<edomvd>Water Feature</edomvd>
+						<edomvds>NCDOT</edomvds>
+					</edom>
+					<edom>
+						<edomv>30</edomv>
+						<edomvd>Unknown</edomvd>
+						<edomvds>NCDOT</edomvds>
+					</edom>
+					<edom>
+						<edomv>31</edomv>
+						<edomvd>Mountain Ridge</edomvd>
+						<edomvds>NCDOT</edomvds>
+					</edom>
+					<edom>
+						<edomv>32</edomv>
+						<edomvd>County Line Road Feature</edomvd>
+						<edomvds>NCDOT</edomvds>
+					</edom>
+					<edom>
+						<edomv>35</edomv>
+						<edomvd>NCGS Line</edomvd>
+						<edomvds>NCDOT</edomvds>
+					</edom>
+					<edom>
+						<edomv>37</edomv>
+						<edomvd>State Line</edomvd>
+						<edomvds>NCDOT</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-GGNO</attrlabl>
+				<attrdef>Microstation element type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-CLASS</attrlabl>
+				<attrdef>Microstation element type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-PROPS</attrlabl>
+				<attrdef>Microstation element type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-COLOR</attrlabl>
+				<attrdef>Microstation color type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>IGDS-STYLE</attrlabl>
+				<attrdef>Microstation style type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-WEIGHT</attrlabl>
+				<attrdef>Microstation weight type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-TEXT</attrlabl>
+				<attrdef>Microstation text type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-FONT</attrlabl>
+				<attrdef>Microstation font type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-CPXID</attrlabl>
+				<attrdef>Microstation element type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">2</atnumdec></attr>
+			<attr>
+				<attrlabl>IGDS-CPXTYPE</attrlabl>
+				<attrdef>Microstation element type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS-OFFSET</attrlabl>
+				<attrdef>Microstation element type</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DESCRIP</attrlabl>
+				<attrdef>Description of level type (see above)</attrdef>
+				<attrdefs>NCDOT</attrdefs>
+				<attrdomv>
+					<udom>variable</udom>
+				</attrdomv>
+			</attr>
+			<attr/></detailed>
+		<detailed>
+			<enttyp>
+				<enttypl>dot-cb-sp83ft.tatigds</enttypl>
+				<enttypd>unknown</enttypd>
+				<enttypds>NCDOT</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>IGDS#</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">3</atnumdec></attr>
+			<attr>
+				<attrlabl>IGDS-ID</attrlabl>
+				<attrdef>User-defined feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">3</atnumdec></attr>
+			<attr><attrtype/></attr><attr><attwidth/></attr><attr/><attr/></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NC Center for Geographic Information and Analysis</cntorg>
+				</cntorgp>
+				<cntpos>Production Services</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and physical address</addrtype>
+					<address>301 N. Wilmington Street, Suite 700</address>
+					<city>Raleigh</city>
+					<state>North Carolina</state>
+					<postal>27601-2825</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(919) 733-2090</cntvoice>
+				<cntfax>(919) 715-0725</cntfax>
+				<cntemail>dataq@ncmail.net</cntemail>
+				<hours>8:30AM - 5:30PM</hours>
+				<cntinst>
+Phone and electronic mail preferred
+For current COST INFORMATION, use a web browser:
+http://www.cgia.state.nc.us/cost.html
+</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>County Boundaries -  NCDOT</resdesc>
+		<distliab>
+NCCGIA is charged with the development and maintenance
+of the State's corporate geographic  database and, in
+cooperation with other mapping  organizations, is
+committed to offering its users accurate, useful, and
+current information about the state. Although every
+effort has been made to ensure the accuracy of information,
+errors and conditions originating from physical sources
+used to develop the corporate database may be reflected
+in the data supplied.  The client must be aware of data
+conditions and bear responsibility for the appropriate
+use of the information with respect to possible errors,
+original map scale, collection methodology, currency
+of data, and other conditions specific to certain data.
+NCCGIA does not support secondary distribution of this
+data.  The use of trade names or commercial products does
+not constitute their endorsement by the NCCGIA or North
+Carolina State Government.
+</distliab>
+		<stdorder>
+			<nondig>
+FOR DIGITAL OR NON-DIGITAL DATA, Contact NC CGIA,
+Data Distribution to order data, Phone 919.733.2090 ...
+Email dataq@ncmail.net ... Web Page order form
+http://www.cgia.state.nc.us/cgdb/index.html
+</nondig>
+			<fees>
+For current FORMAT/MEDIA INFORMATION, use a web browser:
+http://www.cgia.state.nc.us/cost.html or phone NC CGIA
+Data Distribution 919.733.2090
+</fees>
+		</stdorder>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ARCE</formname>
+					<formvern>8.1</formvern>
+					<filedec>ARC/INFO e00 Compression Format</filedec>
+					<transize>4.459</transize>
+					<dssize Sync="TRUE">4.746</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www.ncdot.org/planning/statewide/gis/DataDist/GISDataShape.html</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+		</stdorder>
+		<custom>
+Data creation and large data analysis jobs contact
+Database Administration P:(919)733-2090. All data
+is available through standard ordering procedures on a
+cost recovery basis.
+</custom>
+		<techpreq>
+All formats supplied are created using ARC/INFO GIS software
+on Unix workstations. Other formats are available.
+Format compatibility is the user's responsibility.
+For current FORMAT/MEDIA INFORMATION, use a web browser:
+http://www.cgia.state.nc.us/cost.html
+</techpreq>
+		<availabl>
+			<timeinfo>
+				<rngdates>
+					<begdate>1990</begdate>
+					<enddate>Present</enddate>
+				</rngdates>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20050418</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>NC Center for Geographic Information and Analysis</cntorg>
+					<cntper>Database Administrator</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>301 North Wilmington Street, Suite 700</address>
+					<city>Raleigh</city>
+					<state>NC</state>
+					<postal>27601</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>20322 Mail Service Center</address>
+					<city>Raleigh</city>
+					<state>NC</state>
+					<postal>27699-0322</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>919-733-2090</cntvoice>
+				<cntfax>(919) 715-0725</cntfax>
+				<cntemail>dataq@ncmail.net</cntemail>
+				<hours>8:30AM - 5:30PM</hours>
+				<cntinst>Phone and electronic mail preferred</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{0160738E-29BE-427C-80BE-48621DF77ED6}</MetaID><CreaDate>20050414</CreaDate><CreaTime>12401800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20050418</SyncDate><SyncTime>12462300</SyncTime><ModDate>20050418</ModDate><ModTime>12462300</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">new_dot_cb_stp83ft</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">406832.09931</westBL><eastBL Sync="TRUE">3052479.541354</eastBL><northBL Sync="TRUE">1043625.496416</northBL><southBL Sync="TRUE">34989.06545</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-84.422111</westBL><eastBL Sync="TRUE">-75.416034</eastBL><northBL Sync="TRUE">36.617254</northBL><southBL Sync="TRUE">33.730557</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\DESKTOP02\d\aaron\temp\cb\new_dot_cb_stp83ft.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">4.746</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="new_dot_cb_stp83ft"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">100</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20050418</mdDateSt></metadata>

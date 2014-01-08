@@ -1,0 +1,508 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: North Carolina Department of Transportation
+      Publication_Date: 20050331
+      Title: new_dot_cb_stp83ft
+      Geospatial_Data_Presentation_Form: vector digital data
+  Description:
+    Abstract: A GIS data layer created by the North Carolina Department of Transportation (NCDOT) representing county boundaries as defined by various best sources available.
+    Purpose: This GIS data layer was created to assist government agencies and others in making resource management decisions.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: unknown
+    Currentness_Reference: Date release date
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: Continually
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.422111
+      East_Bounding_Coordinate: -75.416034
+      North_Bounding_Coordinate: 36.617254
+      South_Bounding_Coordinate: 33.730557
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Boundary
+      Theme_Keyword: County
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina
+        GAZETTEER, A Dictionary of Tar Heel Places,(Chapel Hill: University of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: This GIS data layer is a NC Department of Transportation unrestricted data set.
+  Use_Constraints: Data layer is for specific NC Department of Transportation use. There is no guarantee of accuracy, completeness, or fitness of use.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Department of Transportation
+        Contact_Person: Geographic Information Systems
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: 3401 Carl Sandburg Court
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27610
+        Country: United States
+      Contact_Voice_Telephone: 919-212-6000
+      Contact_Facsimile_Telephone: 919-2002-5999
+      Contact_Electronic_Mail_Address: gishelp@dot.state.nc.us
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.0.0.535
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Unknown
+  Logical_Consistency_Report: Unknown
+  Completeness_Report: These data represent the county boundaries in North Carolina as determined by the North Carolina Department of Transportation.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Unknown
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: There is no vertical dimension to this data layer.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC DOT - GIS Unit
+          Publication_Date: unknown
+          Title: County Boundaries - NCDOT
+          Geospatial_Data_Presentation_Form: Map
+          Publication_Information:
+            Publication_Place: Raleigh, NC
+            Publisher: NC DOT - GIS Unit
+          Other_Citation_Details: None
+      Source_Scale_Denominator: 24,000
+      Type_of_Source_Media: digital tape media
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: unknown
+            Ending_Date: unknown
+        Source_Currentness_Reference: Continuous updates
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Digital County Boundary Files
+    Process_Step:
+      Process_Description: Unknown
+      Process_Date: Unknown
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NCDOT- GIS Unit
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 1020 Birchridge Rd.
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27611
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 250-4187
+          Contact_Facsimile_Telephone: (919) 212-3103
+          Hours_of_Service: 8:00 am to 5:00 pm
+          Contact_Instructions: Phone or Fax contacted preferred
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 100
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 100
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 100
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 4
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Label point
+      Point_and_Vector_Object_Count: 152
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Lambert Conformal Conic
+        Lambert_Conformal_Conic:
+          Standard_Parallel: 34.333333
+          Standard_Parallel: 36.166667
+          Longitude_of_Central_Meridian: -79.000000
+          Latitude_of_Projection_Origin: 33.750000
+          False_Easting: 2000000.002617
+          False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.004096
+          Ordinate_Resolution: 0.004096
+        Planar_Distance_Units: survey feet
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: new_dot_cb_stp83ft
+      Entity_Type_Definition: Boundary extents of counties
+      Entity_Type_Definition_Source: NCDOT
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Total perimeter in coverage units
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 378533.94148
+          Range_Domain_Maximum: 1056454.07880
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: 0.001
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: FIPS
+      Attribute_Definition: US FIPS code
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Variable
+    Attribute:
+      Attribute_Label: NAME
+      Attribute_Definition: County name
+      Attribute_Definition_Source: NC DOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Variable by county
+    Attribute:
+      Attribute_Label: AREA
+      Attribute_Definition: Total area in coverage units
+      Attribute_Definition_Source: software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 6138448996.77481
+          Range_Domain_Maximum: 38,464,422,892.43520
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: .00001
+      Attribute_Measurement_Frequency: None planned
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: County boundaries
+      Entity_Type_Definition: Boundary extents of counties
+      Entity_Type_Definition_Source: NCDOT
+    Attribute:
+      Attribute_Label: FNODE#
+      Attribute_Definition: Internal node number for the beginning of an arc (from-node).
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: TNODE#
+      Attribute_Definition: Internal node number for the end of an arc (to-node).
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: LPOLY#
+      Attribute_Definition: Internal node number for the left polygon.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: RPOLY#
+      Attribute_Definition: Internal node number for the right polygon.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: LENGTH
+      Attribute_Definition: Length of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Positive real numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: DOT-CB-SP83FT#
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: DOT-CB-SP83FT-ID
+      Attribute_Definition: User-defined feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: IGDS-LAYER
+      Attribute_Definition: Layer created in conversion from Microstation to Arc/Info
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DEFAULT
+          Enumerated_Domain_Value_Definition: Default layer
+          Enumerated_Domain_Value_Definition_Source: NCDOT
+    Attribute:
+      Attribute_Label: IGDS-TYPE
+      Attribute_Definition: Microstation element type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-LEVEL
+      Attribute_Definition: The level  for Microstation layer created from the conversion to Arc/Info
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 25
+          Enumerated_Domain_Value_Definition: Disputed
+          Enumerated_Domain_Value_Definition_Source: NCDOT
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 27
+          Enumerated_Domain_Value_Definition: Provided by county and not disputed
+          Enumerated_Domain_Value_Definition_Source: NCDOT
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 29
+          Enumerated_Domain_Value_Definition: Water Feature
+          Enumerated_Domain_Value_Definition_Source: NCDOT
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 30
+          Enumerated_Domain_Value_Definition: Unknown
+          Enumerated_Domain_Value_Definition_Source: NCDOT
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 31
+          Enumerated_Domain_Value_Definition: Mountain Ridge
+          Enumerated_Domain_Value_Definition_Source: NCDOT
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 32
+          Enumerated_Domain_Value_Definition: County Line Road Feature
+          Enumerated_Domain_Value_Definition_Source: NCDOT
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 35
+          Enumerated_Domain_Value_Definition: NCGS Line
+          Enumerated_Domain_Value_Definition_Source: NCDOT
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 37
+          Enumerated_Domain_Value_Definition: State Line
+          Enumerated_Domain_Value_Definition_Source: NCDOT
+    Attribute:
+      Attribute_Label: IGDS-GGNO
+      Attribute_Definition: Microstation element type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-CLASS
+      Attribute_Definition: Microstation element type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-PROPS
+      Attribute_Definition: Microstation element type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-COLOR
+      Attribute_Definition: Microstation color type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-STYLE
+      Attribute_Definition: Microstation style type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-WEIGHT
+      Attribute_Definition: Microstation weight type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-TEXT
+      Attribute_Definition: Microstation text type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-FONT
+      Attribute_Definition: Microstation font type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-CPXID
+      Attribute_Definition: Microstation element type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-CPXTYPE
+      Attribute_Definition: Microstation element type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: IGDS-OFFSET
+      Attribute_Definition: Microstation element type
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+    Attribute:
+      Attribute_Label: DESCRIP
+      Attribute_Definition: Description of level type (see above)
+      Attribute_Definition_Source: NCDOT
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: variable
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: dot-cb-sp83ft.tatigds
+      Entity_Type_Definition: unknown
+      Entity_Type_Definition_Source: NCDOT
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: IGDS#
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: IGDS-ID
+      Attribute_Definition: User-defined feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Data Distribution
+      Contact_Address:
+        Address_Type: physical address
+        Address: 301 North Wilmington Street, Suite 700
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27601
+        Country: United States
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-0322
+        Country: United States
+      Contact_Voice_Telephone: 919-733-2090
+      Contact_Facsimile_Telephone: (919) 715-0725
+      Contact_Electronic_Mail_Address: dataq@ncmail.net
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Resource_Description: County Boundaries -  NCDOT
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of the State's corporate geographic  database and, in
+    cooperation with other mapping  organizations, is
+    committed to offering its users accurate, useful, and
+    current information about the state. Although every
+    effort has been made to ensure the accuracy of information,
+    errors and conditions originating from physical sources
+    used to develop the corporate database may be reflected
+    in the data supplied.  The client must be aware of data
+    conditions and bear responsibility for the appropriate
+    use of the information with respect to possible errors,
+    original map scale, collection methodology, currency
+    of data, and other conditions specific to certain data.
+    NCCGIA does not support secondary distribution of this
+    data.  The use of trade names or commercial products does
+    not constitute their endorsement by the NCCGIA or North
+    Carolina State Government.
+  Standard_Order_Process:
+    Non-digital_Form:
+      FOR DIGITAL OR NON-DIGITAL DATA, Contact NC CGIA,
+      Data Distribution to order data, Phone 919.733.2090 ...
+      Email dataq@ncmail.net ... Web Page order form
+      http://www.cgia.state.nc.us/cgdb/index.html
+    Fees:
+      For current FORMAT/MEDIA INFORMATION, use a web browser:
+      http://www.cgia.state.nc.us/cost.html or phone NC CGIA
+      Data Distribution 919.733.2090
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ARCE
+        Format_Version_Number: 8.1
+        File_Decompression_Technique: ARC/INFO e00 Compression Format
+        Transfer_Size: 4.459
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: http://www.ncdot.org/planning/statewide/gis/DataDist/GISDataShape.html
+    Fees: none
+  Custom_Order_Process:
+    Data creation and large data analysis jobs contact
+    Database Administration P:(919)733-2090. All data
+    is available through standard ordering procedures on a
+    cost recovery basis.
+  Technical_Prerequisites:
+    All formats supplied are created using ARC/INFO GIS software.
+    Other formats are available.
+    Format compatibility is the user's responsibility.
+    For current FORMAT/MEDIA INFORMATION, use a web browser:
+    http://www.cgia.state.nc.us/cost.html
+  Available_Time_Period:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1990
+        Ending_Date: Present
+Metadata_Reference_Information:
+  Metadata_Date: 20050418
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+        Contact_Person: Database Administrator
+      Contact_Address:
+        Address_Type: physical address
+        Address: 301 North Wilmington Street, Suite 700
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27601
+        Country: United States
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-0322
+        Country: United States
+      Contact_Voice_Telephone: 919-733-2090
+      Contact_Facsimile_Telephone: (919) 715-0725
+      Contact_Electronic_Mail_Address: dataq@ncmail.net
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  

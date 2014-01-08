@@ -1,0 +1,1390 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC State Center for Health Statistics, Division of Public Health, Department of Health & Human Services
+      Publication_Date: 200303
+      Publication_Time: Unknown
+      Title: Medical Facilities
+      Edition: 2003
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, NC
+        Publisher: SCHS, DPH, DHHS
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Division of Facility Services, Department of Health and Human Services
+          Publication_Date: 200303
+          Title: Medical Facility Data
+          Edition: 2003
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Publication_Information:
+            Publication_Place: Raleigh, NC
+            Publisher: Division of Facility Services, DHHS
+          Online_Linkage: <http://facility-services.state.nc.us/data.htm>
+          Online_Linkage: www.nconemap.com
+  Description:
+    Abstract: The North Carolina State Center for Health Statistics in cooperation with the Division of Facility Services in the Department of Health and Human Services, developed the GIS data set, Medical Facility Point Locations, to identify locations of health and medical facilities for the entire State of North Carolina. Point locations were geocoded from the facilities database provided by the Division of Facility Services.
+    Purpose: This data set was created to locate health and medical facilities (including hospitals) for the State of North Carolina.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 200303
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Annually
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -81.037514
+      East_Bounding_Coordinate: -50.682032
+      North_Bounding_Coordinate: 42.959004
+      South_Bounding_Coordinate: 31.500553
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: facility locations
+      Theme_Keyword: medical facilities
+      Theme_Keyword: health facilities
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: transportation
+    Place:
+      Place_Keyword_Thesaurus: hospitals
+      Place_Keyword: North Carolina
+  Access_Constraints: Request updates from SCHS.
+  Use_Constraints: Acknowledgements of the State Center for Health Statistics and the Division of Facility Services would be appreciated should products be derived from this data set.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Dianne Enright
+        Contact_Organization: NC State Center for Health Statistics, Division of Public Health, Department of Health & Human Services
+      Contact_Position: Geographic Analysis Manager
+      Contact_Address:
+        Address_Type: mailing address
+        Address: State Center for Health Statistics
+        Address: 1908 Mail Service Center
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27699-1908
+        Country: USA
+      Contact_Address:
+        Address_Type: physical address
+        Address: State Center for Health Statistics
+        Address: Cotton Classing Building
+        Address: 222 North Dawson Street
+        City: Raleigh
+        State_or_Province: NC
+        Postal_Code: 27603-1392
+        Country: USA
+      Contact_Voice_Telephone: 919-715-4473
+      Contact_Facsimile_Telephone: 919-733-8485
+      Contact_Electronic_Mail_Address: Dianne.Enright@ncmail.net
+  Data_Set_Credit: NC State Center of Health Statistics and the Division of Facility Services, Department of Health and Human Services.
+  Native_Data_Set_Environment: Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722
+  Cross_Reference:
+    Citation_Information:
+      Originator: State Center for Health Statistics, DHHS, DPH
+      Publication_Date: 20030402
+      Title: facilitiesmarch03
+      Edition: 2003
+      Geospatial_Data_Presentation_Form: tabular digital data
+      Publication_Information:
+        Publication_Place: Raleigh, NC
+        Publisher: State Center for Health Statistics, DHHS, DPH
+      Online_Linkage: <http://facility-services.state.nc.us/main.txt>
+      Larger_Work_Citation:
+        Citation_Information:
+          Originator: Division of Facility Services, DHHS
+          Publication_Date: 20030402
+          Publication_Time: Unknown
+          Title: Facility Data
+          Edition: 2003
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Publication_Information:
+            Publication_Place: Raleigh, NC
+            Publisher: Division of Facility Services, DHHS
+          Online_Linkage: <http://facility-services.state.nc.us/data.htm>
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Point attributes were supplied by the Division of Facility Services in the Department of Health and Human Services.
+  Logical_Consistency_Report: 5,379 of the 7,159 addresses had match rates of 100%. Match rates lower than 100% were also considered a match because variables such only had minor errors. The address table and the road file did not coincide because of the currentness of the address table. Minor errors detected from either the road file or the address table include incorrect zip codes, incomplete address ranges and inconsistant road name formats. Addresses with no address ranges were geocoded to the closest road intersection. Addresses with discrepancies and/or improper formats were simply corrected and matched. 352 addresses had zero match rates because roads were non-existant in the road file. Several problems attributed to addresses having zero percent match rates include non-existant roads, non-existant road address ranges and improper zip codes. Facilities with rural routes and post office box addresses also had a zero percent match rate.
+  Completeness_Report: Data is complete for 2003.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: Division of Facility Services, Department of Health and Human Services
+          Publication_Date: 200303
+          Publication_Time: Unknown
+          Title: Facility Data
+          Edition: 2003
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Publication_Information:
+            Publication_Place: Raleigh, NC
+            Publisher: Division of Facility Services, DHHS
+          Online_Linkage: <http://facility-services.state.nc.us/data.htm>
+      Type_of_Source_Media: digital tape media
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 200303
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: none
+      Source_Contribution: medical facility data
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC State Center for Health Statistics, DHHS, DPH
+          Publication_Date: 200303
+          Publication_Time: Unknown
+          Title: facilitiesmarch03
+          Edition: 2003
+          Geospatial_Data_Presentation_Form: tabular digital data
+          Publication_Information:
+            Publication_Place: Raleigh, NC
+            Publisher: State Center for Health Statistics, DHHS, DPH
+      Type_of_Source_Media: digital tape media
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 200303
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: none
+      Source_Contribution: medical facility data
+    Process_Step:
+      Process_Description: The database was geocoded or "addressmatched" using GDT, Inc. Dynamap for NC (from OCT 02). The addressmatching was done using ArcView 3.2
+      Process_Date: 200304
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Michelle Lown
+            Contact_Organization: NC State Center for Health Statistics, DHHS, DPH
+          Contact_Position: GIS Analyst
+          Contact_Address:
+            Address_Type: mailing address
+            Address: State Center for Health Statistics
+            Address: 1908 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1908
+            Country: USA
+          Contact_Address:
+            Address_Type: physical address
+            Address: State Center for Health Statistics
+            Address: Cotton Classing Building
+            Address: 222 North Dawson Street
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27603-1392
+            Country: USA
+          Contact_Voice_Telephone: 919-715-0260
+          Contact_Facsimile_Telephone: 919-733-8485
+          Contact_Electronic_Mail_Address: Michelle.Lown@ncmail.net
+          Hours_of_Service: 800-1700
+          Contact_Instructions: Contact by email.
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Entity point
+      Point_and_Vector_Object_Count: 6814
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 4
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.004096
+          Ordinate_Resolution: 0.004096
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Medical Facilities
+      Entity_Type_Definition: Facility Point Locations
+      Entity_Type_Definition_Source: SCHS
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: PERIMETER
+      Attribute_Definition: Perimeter of feature in internal units.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: MEDFACILS_
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: MEDFACILS1
+      Attribute_Definition: User-defined feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated
+    Attribute:
+      Attribute_Label: FID_1
+      Attribute_Definition: Facility Master File ID
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Facility Data
+          Codeset_Source: Division of Facility Services
+    Attribute:
+      Attribute_Label: STYPE
+      Attribute_Definition: Facility Service Type
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HC
+          Enumerated_Domain_Value_Definition: Home Care
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FCH
+          Enumerated_Domain_Value_Definition: Family Care Home
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HA
+          Enumerated_Domain_Value_Definition: Home for the Aged
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HOS
+          Enumerated_Domain_Value_Definition: Hospice
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HL
+          Enumerated_Domain_Value_Definition: Hospital
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MHL
+          Enumerated_Domain_Value_Definition: Mental Health Homes
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NH
+          Enumerated_Domain_Value_Definition: Nursing Home Facility
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NP
+          Enumerated_Domain_Value_Definition: Nursing Pool
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CRP
+          Enumerated_Domain_Value_Definition: Cardiac Rehab Program
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AS
+          Enumerated_Domain_Value_Definition: Ambulatory Surgery
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MHH
+          Enumerated_Domain_Value_Definition: Mental Health Hospital
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: FACILITY
+      Attribute_Definition: Facility Name
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: FADDR1
+      Attribute_Definition: Facility Mailing Address #1
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Address Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: FADDR2
+      Attribute_Definition: Facility Mailing Address #2
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Address Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: FCITY
+      Attribute_Definition: Facility Mailing City
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: City Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: FSTATE
+      Attribute_Definition: Facility Mailing State
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: State Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: FZIP
+      Attribute_Definition: Facility Mailing Zip
+      Attribute_Definition_Source: US Postal Service
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 5
+          Range_Domain_Maximum: 9
+          Attribute_Units_of_Measure: number
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: FCOUNTY
+      Attribute_Definition: Facility County
+      Attribute_Definition_Source: US Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: County Code
+          Codeset_Source: US Census Bureau
+    Attribute:
+      Attribute_Label: FPHONE
+      Attribute_Definition: Facility Phone
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 9
+          Attribute_Units_of_Measure: number
+    Attribute:
+      Attribute_Label: FEXTEN
+      Attribute_Definition: Facility Extension Number
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 10
+          Attribute_Units_of_Measure: number
+    Attribute:
+      Attribute_Label: FFAX
+      Attribute_Definition: Facility Fax Number
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 10
+          Attribute_Units_of_Measure: number
+    Attribute:
+      Attribute_Label: OBN1
+      Attribute_Definition: Other Business Name #1
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: OBN2
+      Attribute_Definition: Other Business Name #2
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: ADDRESS
+      Attribute_Definition: Site Address
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Address Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: SCITY
+      Attribute_Definition: Site City
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: City Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: SSTATE
+      Attribute_Definition: Site State
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: State Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: SZIP
+      Attribute_Definition: Site Zip
+      Attribute_Definition_Source: US Postal Service
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 5
+          Range_Domain_Maximum: 9
+          Attribute_Units_of_Measure: number
+    Attribute:
+      Attribute_Label: ICF
+      Attribute_Definition: Intermediate Care Facility
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: LICNO
+      Attribute_Definition: Licensure's License Number
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 6
+          Range_Domain_Maximum: 9
+          Attribute_Units_of_Measure: number
+    Attribute:
+      Attribute_Label: LICENSEE
+      Attribute_Definition: Licensee
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: ODATE
+      Attribute_Definition: Original Licensing Date
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Date Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: EFFECTIVE
+      Attribute_Definition: License Effective Date
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Date Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: EXPIRES
+      Attribute_Definition: License Expiration Date
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Date Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: SAELIGIBLE
+      Attribute_Definition: Special Assistance Eligible (Adult Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: CAPACITY
+      Attribute_Definition: Capacity, Adult Care Number of Residents
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: NFTOTAL
+      Attribute_Definition: Total Nursing Home Beds (Nursing Facility)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HATOTAL
+      Attribute_Definition: Total Adult Care Home Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: LTCTOTAL
+      Attribute_Definition: Number of Long Term Care Beds for this facility
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HTOTAL
+      Attribute_Definition: Total Hospital Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: TOTALBEDS
+      Attribute_Definition: Total all beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HGENLIC
+      Attribute_Definition: Total Hospital General Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: REHABHLIC
+      Attribute_Definition: Total Hospital Rehab Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: PSYLIC
+      Attribute_Definition: Total Hospital Psych Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: SALIC
+      Attribute_Definition: Total Hospital Substance Abuse Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: DETOXLIC
+      Attribute_Definition: Total Hospital Detox Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HOSLIC
+      Attribute_Definition: Total Hospital Hospice Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: RSRCHLIC
+      Attribute_Definition: Total Hospital Research Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: OTHRHLIC
+      Attribute_Definition: Total Hospital Other Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: ALZLIC
+      Attribute_Definition: Total Alzheimers Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HIVLIC
+      Attribute_Definition: Total HIV Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: REHABNLIC
+      Attribute_Definition: Total Nursing Home Rehab Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: TBILIC
+      Attribute_Definition: Total Traumatic Brain Injury Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: VENLIC
+      Attribute_Definition: Total Ventilator Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: OTHNFLIC
+      Attribute_Definition: Total Other Nursing Facility Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: NFGENLIC
+      Attribute_Definition: Total Nursing Facility General Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HAALZLIC
+      Attribute_Definition: Total Home for the Aged Alzheimers Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+    Attribute:
+      Attribute_Label: HAHIVLIC
+      Attribute_Definition: Total Home for the Aged HIV Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+    Attribute:
+      Attribute_Label: HAGENLIC
+      Attribute_Definition: Total Home for the Aged General beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+    Attribute:
+      Attribute_Label: RETIREBEDS
+      Attribute_Definition: Number of retirement beds in this bed record
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+    Attribute:
+      Attribute_Label: CONCARE
+      Attribute_Definition: Nursing Home - Continuing Care Community Service Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: ADCP
+      Attribute_Definition: Nursing Home - Adult Day Care Service Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: HOSPICE
+      Attribute_Definition: Nursing Home - Hospice Service Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: RESPITE
+      Attribute_Definition: Nursing Home - Respite Service Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: REHAB
+      Attribute_Definition: Nursing Home - General Rehab Service Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: HOMECARE
+      Attribute_Definition: Flag to indicate homecare involvement necessary (Long Term)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Facility Code
+          Codeset_Source: DFS
+    Attribute:
+      Attribute_Label: SUBACUBEDS
+      Attribute_Definition: Subacute Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+    Attribute:
+      Attribute_Label: CONSUBACUT
+      Attribute_Definition: Flag Indicationg C.O.N has been issued to all subacute
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Facility Code
+          Codeset_Source: DFS
+    Attribute:
+      Attribute_Label: HCACAT
+      Attribute_Definition: Home Care - Home Care Category Service Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: HOSCAT
+      Attribute_Definition: Home Care - Hospice Category Service Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: NPCAT
+      Attribute_Definition: Home Care - Nursing Pool Category Services Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: NSGSVCS
+      Attribute_Definition: Flag to indicate nursing services are provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Facility Code
+          Codeset_Source: DFS
+    Attribute:
+      Attribute_Label: NSGINTSV
+      Attribute_Definition: Intermittent Nursing Service Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: NSGPDSV
+      Attribute_Definition: Private Duty Nursing Service Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: IVSV
+      Attribute_Definition: Infusion Nursing Service Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: AIDESV
+      Attribute_Definition: In-Home Aide Services Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: SWSV
+      Attribute_Definition: Medical Social Services Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: PTSV
+      Attribute_Definition: Pulmonary Care Services Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: OTSV
+      Attribute_Definition: Occupational Therapy Services Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: SPSV
+      Attribute_Definition: Speech Therapy Services Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: PMSV
+      Attribute_Definition: Pulmonary Care Service Provided (Home Care
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: DMESV
+      Attribute_Definition: Durable Medical Equipment Services Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: SPLYSV
+      Attribute_Definition: Supply Services
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: NSGPOOL
+      Attribute_Definition: Nursing Pool Services Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: POOLAIDE
+      Attribute_Definition: Pool Aide Services Provided (Home Care)
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HHASV
+      Attribute_Definition: Home Care-Home Health Services Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HHANO
+      Attribute_Definition: Home Care-Medicare/Medicaid Provider Number
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 7
+          Attribute_Units_of_Measure: number
+    Attribute:
+      Attribute_Label: HOSNO
+      Attribute_Definition: Home Care-Medicare/Medicaid Hospice Provider Number
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 7
+          Attribute_Units_of_Measure: number
+    Attribute:
+      Attribute_Label: HPBEDS
+      Attribute_Definition: Hospice Inpatient Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HRBEDS
+      Attribute_Definition: Hospice Resident Beds
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 0
+          Range_Domain_Maximum: 200
+          Attribute_Units_of_Measure: count
+    Attribute:
+      Attribute_Label: HOSSV
+      Attribute_Definition: Hospice Home Services Provided
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: T
+          Enumerated_Domain_Value_Definition: True
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: F
+          Enumerated_Domain_Value_Definition: False
+          Enumerated_Domain_Value_Definition_Source: DFS
+    Attribute:
+      Attribute_Label: ADMNAME
+      Attribute_Definition: Administrator Phone
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: ADMPHONE
+      Attribute_Definition: Administrator Phone Number
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 7
+          Range_Domain_Maximum: 10
+          Attribute_Units_of_Measure: number
+    Attribute:
+      Attribute_Label: DONNAME
+      Attribute_Definition: Director of Nursing Full Name
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: MGMTNAME
+      Attribute_Definition: Management Company Name
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: MGMTADDR
+      Attribute_Definition: Management Company Address
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Address Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: PARNAME
+      Attribute_Definition: Parent Company Name
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: PARADDR
+      Attribute_Definition: Parent Company Address
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Address Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: OWNERADDR
+      Attribute_Definition: Owner Address
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Address Provided by Division of Facility Services
+    Attribute:
+      Attribute_Label: OWNER
+      Attribute_Definition: Owner Name
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Name Provided by Division of Facility Services
+      Beginning_Date_of_Attribute_Values: 2002
+      Ending_Date_of_Attribute_Values: 2003
+    Attribute:
+      Attribute_Label: HOLDSTYPE
+      Attribute_Definition: Hospital Type
+      Attribute_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HC
+          Enumerated_Domain_Value_Definition: Home Care
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FHC
+          Enumerated_Domain_Value_Definition: Family Care Home
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HOS
+          Enumerated_Domain_Value_Definition: Hospice
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HL
+          Enumerated_Domain_Value_Definition: Hospital
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HA
+          Enumerated_Domain_Value_Definition: Home for the Aged
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: MHL
+          Enumerated_Domain_Value_Definition: Mental Health Homes
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NH
+          Enumerated_Domain_Value_Definition: Nursing Home Facilities
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NP
+          Enumerated_Domain_Value_Definition: Nursing Pool
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AS
+          Enumerated_Domain_Value_Definition: Ambulatory Surgery
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CRP
+          Enumerated_Domain_Value_Definition: Cardiac Rehab Program
+          Enumerated_Domain_Value_Definition_Source: DFS
+      Beginning_Date_of_Attribute_Values: 2003
+  Overview_Description:
+    Entity_and_Attribute_Overview: A point shapefile representing locations of medical and health facilities for the State of North Carolina. Facility attributes were provided by the Division of Facility Services of the Department of Health and Human Services. Geographic attributes include entity ID and shape geometry. Software defined variables created when geocoding include variables starting with AV, then followed by an underscore.
+    Entity_and_Attribute_Detail_Citation: none
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/medfacs.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

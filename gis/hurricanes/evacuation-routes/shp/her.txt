@@ -1,0 +1,585 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Techni Graphic Systems, Inc.
+      Originator: North Carolina Center for Geographic Information and Analysis
+      Publication_Date: 20070621
+      Title: Hurricane Evacuation Routes
+      Edition: 2nd Quarter 2007
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      Hurricane Evacuation Routes in North Carolina
+
+      A hurricane evacuation route is a designated route used to direct traffic inland in case of a hurricane threat.
+
+      This dataset is based on supplied data from gulf coast and Atlantic seaboard states.  Each state was contacted by TGS to determine an official source for hurricane evacuation routes.  GIS data was gathered from states willing to share such data.  In cases where states were unable or unwilling to share data in this format, TGS requested that the states provide a source for identifying hurricane evacuation routes. The states usually identified a website that made this data available to the public.
+
+      Hurricane evacuation routes depicted on non-GIS maps were digitized using aerial ortho imagery while referencing supplied maps and NAVTEQ_Streets_2006_Q3.
+
+      Shape files that depicted hurricane evacuation routes were edge matched and merged with the digitized evacuation routes.
+
+      All routes identified as primary hurricane evacuation routes were included in this dataset.  If a state also designated secondary hurricane evacuation routes, they were included as well.  Routes depicted in this dataset are dependent upon what each state identified as a hurricane evacuation route.  Criteria used to identify these routes may vary from state to state.
+    Purpose:
+      Homeland Security
+
+      Use Cases: Use cases describe how the data may be used and help to define and clarify requirements.
+
+      1) A resource for emergency route planning purposes.
+
+      2) A resource for situational awareness planning and response for federal government events.
+
+      3) A portion of an evacuation route may be rendered unusable due to natural or man made disaster and rerouting of traffic is necessary.
+
+      4) An incident has occurred during an evacuation and first responders must quickly deploy to the area.
+
+      5) Public awareness.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 20070116
+        Ending_Date: 20070523
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Unknown
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -78.820386
+      East_Bounding_Coordinate: -75.465510
+      North_Bounding_Coordinate: 36.550810
+      South_Bounding_Coordinate: 33.877877
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: LCSH - Library of Congress subject headings (Washington, DC: LC, Cataloging Distribution Service) http://authorities.loc.gov
+      Theme_Keyword: Hurricane protection
+      Theme_Keyword: Disaster relief
+      Theme_Keyword: Emergency transportation
+      Theme_Keyword: Evacuation of civilians
+      Theme_Keyword: Roads
+      Theme_Keyword: Express highways
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: transportation
+    Place:
+      Place_Keyword_Thesaurus: LCSH - Library of Congress subject headings (Washington, DC: LC, Cataloging Distribution Service) http://authorities.loc.gov
+      Place_Keyword: North Carolina
+  Access_Constraints: There are no access constraints
+  Use_Constraints: There are no use constraints
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Mike Thompson
+        Contact_Organization: Techni Graphic Systems, Inc.
+      Contact_Position: Director of Geospatial Datasets
+      Contact_Address:
+        Address_Type: Mailing and Physical Address
+        Address: 2000 Noble Drive
+        City: Wooster
+        State_or_Province: OH
+        Postal_Code: 44691
+        Country: USA
+      Contact_Voice_Telephone: 330-263-6222
+      Contact_Facsimile_Telephone: 330-263-6294
+      Contact_Electronic_Mail_Address: mthompson@tgstech.com
+      Hours_of_Service: 8am - 5pm, Monday - Friday, Eastern Time
+  Security_Information:
+    Security_Classification_System: DOD
+    Security_Classification: Unclassified
+    Security_Handling_Description: Unclassified
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      ID Check: The [ID] attribute is not blank and all IDs are unique.
+
+      Connectivity Check: Ensured connectivity of digitized evacuation routes with state supplied evacuation routes that cross state lines. Eliminated or connected all orphaned segments.
+
+      Geometry Check: Ensures that all geometry is valid, such as: short segment, null geometry, incorrect segment orientation, and self intersections.
+
+      Repair Geometry Check:  Repairs any invalid geometry found in the Geometry Check.
+  Logical_Consistency_Report: See the "Attribute_Accuracy_Report" section. The checks described in that section check for both attribute accuracy and logical consistency.
+  Completeness_Report:
+    This dataset is based on information provided by the North Carolina Center for Geographic Information and Analysis.
+
+    All routes identified as primary evacuation routes are included in this dataset.  If a state also designated secondary evacuation routes, they are included as well.  Routes depicted in this dataset are dependent upon what each state identified as an evacuation route.  Criteria used to identify these routes may vary from state to state.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Hurricane evacuation routes depicted on non-GIS maps were digitized using aerial ortho imagery while referencing supplied maps and NAVTEQ_Streets_2006_Q3.
+
+        TGS ensured connectivity by edge matching digitized evacuation routes and state supplied evacuation routes across state lines. TGS also eliminated or connected all orphaned segments.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: North Carolina Center for Geographic Information and Analysis
+          Originator: North Carolina Corporate Geographic Database
+          Publication_Date: 20040202
+          Title: "her"
+          Edition: Unspecified
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: http://www.nconemap.net/data.html
+      Type_of_Source_Media: Online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20040202
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NC_SHP_HUR_EVAC_ROUTES
+      Source_Contribution: This source was used to identify evacuation routes as designated by the state of North Carolina.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NAVTEQ
+          Publication_Date: 2006
+          Title: NAVSTREETS
+          Edition: 2006.3
+          Geospatial_Data_Presentation_Form: vector digital data
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 2006
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NAVTEQ_Streets_2006_Q3
+      Source_Contribution: NAVTEQ streets were used as a reference to digitize evacuation routes and a source for attribution.
+    Process_Step:
+      Process_Description:
+        Hurricane Evacuation Routes Processing
+
+        1) Each state was contacted by TGS to determine an official source for hurricane evacuation routes.  GIS data was gathered from states willing to share such data.  In cases where states were unable or unwilling to share data in this format, TGS requested that the states provide a source for identifying hurricane evacuation routes. The states usually identified a website that made this data available to the public.
+        >
+        1a) In some cases, the shape files provided by the states were determined to be unsuitable for inclusion in the completed dataset.  In these cases, public maps from the state websites were substituted and processed as described below.
+        >
+        2) Hurricane evacuation routes depicted on non-GIS maps were digitized using aerial ortho imagery while referencing supplied maps and NAVTEQ_Streets_2006_Q3.
+        >
+        3) A state supplied shape (.shp) file from NC was used as received. All attribution was provided by the state and TGS did not verify these values.
+        >
+        4) TGS ensured connectivity by edge matching digitized evacuation routes and state supplied evacuation routes across state lines. TGS also eliminated or connected all orphaned segments.
+        >
+        5) Whenever possible, TGS attempted to attribute basic fields within state supplied data.
+        >
+        6) A seamless data layer was created by merging all shape files and by creating a standardized table structure.
+        >
+        7) The hurricane evacuation routes were reviewed by TGS' internal Quality Assurance. In addition to individual review, the dataset was examined in aggregate using the tests described under "Attribute_Accuracy_Report".
+        >
+        8) All text fields were set to all upper case.
+        >
+        9) Leading and trailing spaces were trimmed from all text fields.
+        >
+        10) Non printable and diacritic characters were removed from all text fields.
+      Source_Used_Citation_Abbreviation: NC_SHP_HUR_EVAC_ROUTES
+      Source_Used_Citation_Abbreviation: NAVTEQ_Streets_2006_Q3
+      Process_Date: 20070621
+      Source_Produced_Citation_Abbreviation: Hur_Evac_Routes
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Nicole Hackworth
+            Contact_Organization: Techni Graphic Systems, Inc.
+          Contact_Position: Project Manager
+          Contact_Address:
+            Address_Type: Mailing and Physical Address
+            Address: 2000 Noble Drive
+            City: Wooster
+            State_or_Province: OH
+            Postal_Code: 44691
+            Country: USA
+          Contact_Voice_Telephone: 330-263-6222
+          Contact_Electronic_Mail_Address: nhackworth@tgstech.com
+          Hours_of_Service: 8am - 5pm, Monday - Friday, Eastern Time
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 693
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Geographic:
+      Latitude_Resolution: 0.000001
+      Longitude_Resolution: 0.000001
+      Geographic_Coordinate_Units: Decimal degrees
+    Geodetic_Model:
+      Horizontal_Datum_Name: D_WGS_1984
+      Ellipsoid_Name: WGS_1984
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257224
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Hurricane Evacuation Routes in North Carolina
+      Entity_Type_Definition: A hurricane evacuation route is a designated route used to direct traffic inland in case of a hurricane threat.
+      Entity_Type_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: ID
+      Attribute_Definition: Unique identifier for feature.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: METLNKID
+      Attribute_Definition: Link to Metadata - currently this attribute is not used and is not populated.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: SECCLASS
+      Attribute_Definition: Security classification of feature.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: UNCLASSIFIED
+          Enumerated_Domain_Value_Definition: Feature is unclassified
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: ROAD_CLASS
+      Attribute_Definition: Indicates the level of road type.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: INTERSTATE HIGHWAY
+          Enumerated_Domain_Value_Definition: Feature is an Interstate Highway.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: FEDERAL HIGHWAY
+          Enumerated_Domain_Value_Definition: Feature is a Federal Highway.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: STATE HIGHWAY
+          Enumerated_Domain_Value_Definition: Feature is a State Highway.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: STREET
+          Enumerated_Domain_Value_Definition: Feature is a Street.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: ROAD_NAME
+      Attribute_Definition: Indicates the posted name as given for road segment.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: ALTROADNAM
+      Attribute_Definition: Indicates the alternate name as given for road segment.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: ALTROADN_1
+      Attribute_Definition: Indicates the alternate name as given for road segment.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: ALTROADN_2
+      Attribute_Definition: Indicates the alternate name as given for road segment.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Text
+    Attribute:
+      Attribute_Label: PAVED
+      Attribute_Definition: Indicates the paved status of road segment.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Indicates road segment is paved.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Indicates road segment is not paved.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: MEDIAN
+      Attribute_Definition: Indicates the median existence status of road segment.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Indicates road segment has a median.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Indicates road segment does not have a median.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: LANECATEGR
+      Attribute_Definition: Indicates the number of traffic lanes in a single direction on a link.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: Road segment has 1 lane.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 2
+          Enumerated_Domain_Value_Definition: Road segment has 2-3 lanes.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 3
+          Enumerated_Domain_Value_Definition: Road segment has 4 or more lanes.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NA
+          Enumerated_Domain_Value_Definition: Not available.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: TOLLWAY
+      Attribute_Definition: Indicates if road segment is a toll way.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Indicates road segment is a toll way.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Indicates road segment is not a toll way.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: TUNNEL
+      Attribute_Definition: Indicates if road segment is a tunnel.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Indicates road segment is a tunnel.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Indicates road segment is not a tunnel.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: BRIDGE
+      Attribute_Definition: Indicates if road segment is a bridge.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Indicates road segment is a bridge.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Indicates road segment is not a bridge.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: RAMP
+      Attribute_Definition: Indicates if road segment is a ramp.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Indicates road segment is a ramp.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Indicates road segment is not a ramp.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: LPOSTALCOD
+      Attribute_Definition: Left zone, e.g. postal zip code.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: USPS Address Information System
+          Codeset_Source: United States Postal Service
+    Attribute:
+      Attribute_Label: RPOSTALCOD
+      Attribute_Definition: Right zone, e.g. postal zip code.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: USPS Address Information System
+          Codeset_Source: United States Postal Service
+    Attribute:
+      Attribute_Label: SHAPE_LENG
+      Attribute_Definition: Length of shape in miles.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Number
+    Attribute:
+      Attribute_Label: COUNTERFLO
+      Attribute_Definition: Indicates if direction of road has been changed from its original flow of traffic in order to speed up evacuation.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Indicates that direction of road has been changed from its original flow of traffic.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Indicates that direction of road has not been changed from its original flow of traffic.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+    Attribute:
+      Attribute_Label: STATE
+      Attribute_Definition: Two (2) character abbreviation for state associated with the feature.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: Official USPS Abbreviations - State Abbreviations
+          Codeset_Source: United States Postal Service <http://www.usps.com/ncsc/lookups/usps_abbreviations.html>
+    Attribute:
+      Attribute_Label: SHELTERROU
+      Attribute_Definition: Indicates if evacuation route ends at a designated shelter.
+      Attribute_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Y
+          Enumerated_Domain_Value_Definition: Indicates that evacuation route ends at a designated shelter.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: N
+          Enumerated_Domain_Value_Definition: Indicates that evacuation route does not end at a designated shelter.
+          Enumerated_Domain_Value_Definition_Source: TGS
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: <BLANK>
+          Enumerated_Domain_Value_Definition: Unknown or not provided.
+          Enumerated_Domain_Value_Definition_Source: TGS
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/air.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

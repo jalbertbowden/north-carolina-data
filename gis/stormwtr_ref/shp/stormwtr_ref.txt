@@ -1,0 +1,1173 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NC Division of Water Quality with Assistance from the NC Center for Geographic Information and Analysis
+      Publication_Date: 20090715
+      Title: Stormwater Reference
+      Geospatial_Data_Presentation_Form: vector digital data
+      Other_Citation_Details: This layer published 20100715 with the assistance of CGIA
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      The NC Center for Geographic Information and Analysis (CGIA) collaborated with the NC Division of Water Quality (DWQ) to develop a geospatial representation of stormwater permitting responsibility across the state.  This reference layer represents permitting authority (local, state, multiple, or none) based on Phase II stormwater legislation, as well as other state and local programs that impose stormwater requirements.  This dataset is based on the best available datasets as of the publication.  This dataset uses mapped boundaries of all of North Carolina's
+      counties as a base layer.
+    Purpose: These data are intended to assist government agencies and their constituents in identifying which stormwater permitting requirements, if any, apply to a given location in North Carolina.  This data set includes attributes relating to stormwater programs (nutrient management strategy areas/local governments, water supply watersheds, high quality and outstanding waters areas, etc.) and jurisdictions, including federally managed areas (e.g., military bases).
+    Supplemental_Information:
+      The delineation and classification of stormwater areas is based on the following description of North Carolina stormwater programs.
+
+      Post-Construction? requirements are a piece of the Phase II stormwater requirements for development projects in designated municipalities, their ETJs, urbanizing areas, and ?municipal sphere of influence? (MSI) boundaries around all Phase II municipalities.  Either the State (DWQ) or the local government (city or county, depending) will implement Post-Construction requirements.
+      There are other existing Stormwater Programs that, in some cases, satisfy the Phase II Post-Construction requirements.  These do not change the areas where Phase II applies, but these other programs may dictate what the developer must do and/or from whom he/she gets approval for a plan.  The following is a summary of how these programs interact:
+
+      Phase II Municipalities:
+      Phase II Post-Construction is implemented in all Phase II municipalities and corresponding ETJs (with a few exceptions), even inside cities that were ?exempted? from a permit to run their own program either 1) because of population or 2) because they do not own or operate a municipal separate storm sewer system (MS4).  If the municipality has an MS4 permit, it will implement the requirements.  For ?exempted? entities, DWQ (or another delegated authority) implements Post-Construction within those jurisdictions instead.  Other stormwater programs also still apply (and some may be ?deemed compliant? with Phase II).  Therefore, in jurisdictions of exempted municipalities, the State (DWQ) implements Phase II, unless another program satisfies the requirement.  For exempted Phase II municipalities where no other program is in place, the Central Office DWQ is the contact in non-coastal counties, and the DWQ Regional Office is the contact in coastal counties.
+
+      State Stormwater (State SW) Program:
+      This program affects all 20 Coastal Counties, as well as watersheds draining to High Quality Waters (HQW) and Outstanding Resource Waters (ORW).  It is specific to development in these areas and, for the most part, this program is implemented by the DWQ Regional Offices (ROs).  Since the Coastal Stormwater Rules were revised in October 2008, it is no longer necessary to distinguish whether HQW and ORW waters are fresh- or saltwater because the rules are now more consistent with Phase II requirements.  Where HQW or ORW watersheds overlap Phase II areas, the existing State Stormwater Program (Coastal, HQW, or ORW) satisfies Phase II, and the contact is the DWQ Regional Office (except in some coastal jurisdictions like Wilmington, where the city implements the coastal rules).  It is important to note here that by definition, waters classified as WS-I, WS-II, and Shellfishing (SA) waters are all HQW.  However, WS-I & WS-II are covered by the Water Supply Protection Program, implemented by the local governments and are not included in this sub-set of HQWs.  In WS-I/II areas, the local government is the contact.  The State SW Program affects:
+      > Development "within a half mile and draining to" SA waters; a half mile buffer should delineate all possible areas.  Very stringent density thresholds apply here.
+      > Development "within one mile of and draining to" HQW waters.  However, this criterion does not apply to WS-I, WS-II, and coastal (where many HQW are SA).
+      > Development "draining to" ORW waters (statewide).  These areas may be smaller than 14-digit hydrologic units.  Note that some watersheds have special management strategies tantamount to ORW requirements.
+      As of October 2008, the State Stormwater Program (Coastal and non-Coastal) requirements satisfy Phase II requirements.
+
+      Water Supply Watershed Protection Program:
+      There are different tiers of Water Supply classifications, and each carries specific stormwater requirements.  WS Protection Program stormwater requirements satisfy Phase II Post-Construction, the requirements are implemented by local governments.  The breakdown of WS watersheds and requirements follows:
+
+      > WS-I & WS-II: Technically, these are subject to the State SW Program above, but the Water Supply Program at the local government level satisfies the HQW requirement (i.e., there is no need to get a State SW permit from the Regional Office).  Requirements will also vary based on whether the watershed is a Critical Area (CA) or Protected Area (PA).  However, where WS-I & WS-II areas overlap ORWs, both the DWQ Regional Office and the Local Government should be contacted (this is a correction from previous years, verified by J. Ventaloro of DWQ.)
+      > WS-III & WS-IV: These areas are different from the State SW program above but do have stormwater requirements at the local government level.  Where WS-III & WS-IV areas overlap HQWs, ORWs, or coastal counties, both the DWQ Regional Office and the Local Government should be contacted.
+      WS-I through WS-IV requirements in the WS Protection Program satisfy Phase II requirements.  Where WS-I and WS-II overlap ORWs, both State SW Program and Local Program requirements apply.  Where WS-III and WS-IV overlap HQW/ORW/Coastal Counties, both State SW Program and Local Program requirements apply.
+
+      Lake Randleman Water Supply Protection Stormwater Requirements:
+      This is essentially a ?special? subset of the WS Watershed Protection Program.  All local governments ?that have land use authority within the Randleman Lake watershed? must comply with the stormwater management rules for this program.  Both Guilford and Randolph counties implement this program; therefore, a project anywhere in the watershed is subject to this program (and some jurisdictions may implement it within ETJ even beyond the watershed).  The stormwater requirements differ based on whether the project is in the upper portion (part of Deep River watershed draining to Oakdale-Cotton Mill Dam) or lower portion (Deep River watershed upstream and draining to Randleman Lake Dam, from Oakdale-Cotton Mill Dam).  The local governments that implement this program are: Guilford & Randolph counties; and the towns of Archdale, Greensboro, High Point, Jamestown, and Randleman.
+      The Lake Randleman WS Protection requirements satisfy Phase II.
+
+      Neuse and Tar-Pamlico NSW Strategy Stormwater Management Programs:
+      >The 15 largest local governments implement this program in the Neuse Basin (only portions within the basin):
+      Cary, Smithfield, Durham, Wilson, Garner, Goldsboro, Havelock, Kinston, New Bern, Raleigh, as well as Orange County*, Durham County*, Johnston County*, Wake County*, and Wayne County*.
+
+      >Six municipalities and five counties implement this in the Tar-Pamlico Basin (only portions within the basin):
+      Greenville, Henderson, Oxford, Rocky Mount, Tarboro, and Washington. The counties are: Beaufort*, Edgecombe*, Franklin*, Nash*, and Pitt*.
+      *Only applicable to areas under jurisdiction of respective county (i.e., unincorporated areas).
+      Both the Neuse and Tar-Pamlico NSW strategy programs satisfy Phase II requirements.  However, these programs do not satisfy State SW or WS requirements.
+
+      Lake Jordan Water Supply NSW Stormwater Management:
+      These rules were finalized in August 2009 as Session Law 2009-484.  Ultimately, stormwater management requirements for new development will apply to local governments in the Jordan watershed.  For more information on which local governments currently do what, go to www.jordanlake.org.  Right now, DWQ continues to administer Phase II requirements in parts of this watershed.
+
+      Falls Lake Water Supply NSW Stormwater Management:
+      Draft rules on this strategy went out to public comment in March 2010.  Ultimately, stormwater management requirements for new development will apply to local governments in the Jordan watershed.  Right now, DWQ continues to administer Phase II requirements in parts of this watershed.
+
+      It is important to remember that a local government may choose to pass ordinances, etc. that are above and beyond what existing stormwater programs or Phase II Post-Construction.  This is even a possibility in areas outside of Phase II areas.  Therefore, it is important to remind the user to check for specific local government requirements no matter where they are.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20100715
+        Time_of_Day: unknown
+    Currentness_Reference: publication date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Annually or more frequently if programs change
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.422111
+      East_Bounding_Coordinate: -75.416034
+      North_Bounding_Coordinate: 36.617257
+      South_Bounding_Coordinate: 33.730557
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: none
+      Theme_Keyword: stormwater
+      Theme_Keyword: Phase II
+      Theme_Keyword: Permitting
+      Theme_Keyword: Jurisdiction
+      Theme_Keyword: responsibility
+      Theme_Keyword: nutrient sensitive waters
+      Theme_Keyword: water supply watersheds
+      Theme_Keyword: outstanding resource waters
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: inlandWaters
+      Theme_Keyword: Environment
+    Place:
+      Place_Keyword_Thesaurus: William S. Powell, The North Carolina GAZETTEER, A Dictionary of Tar Heel Places,(Chapel Hill: University of North Carolina Press, August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None.
+  Use_Constraints:
+    It is important to remember that a local government may choose to pass ordinances that are above and beyond what existing stormwater programs or Phase II requires.  A local government may choose to pass ordiinances in areas outside of Phase II areas.  Also, city limits and extraterritorial jurisdictions (ETJ) may have changed since this dataset was created.  Also, water supply watersheds or other water quality delineations may have changed between updates of this dataset.  Therefore, users of this dataset should check for specific local government requirements to verify the information represented in this dataset.
+    Acknowledgement of products derived form this data set should cite the following: The sources of the stormwater reference data are mapped at a scale of 1:24,000 or better, implying horizontal error plus or minus 40 feet.   This representation is intended as a guide to persons seeking stormwater permits and to permitting authorities.   While efforts have been made to ensure that these data are accurate and reliable within the state of the art, CGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: CGIA
+        Contact_Person: David Giordano
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: The attributes for the base geospatial layers used in the model have beeen checked for accuracy in terms of watershed identifiers, county names, municipal names, municipal population, urbanized area names, and Phase II status of jurisdictions.
+  Logical_Consistency_Report: Original processing: using ESRI's ARC/INFO GIS software, the dataset was developed using Model Builder and the Spatial Analyst extension.  The model processed statewide datasets or subsets of statewide datasets to represent stormwater jurisdiction within the boundaries of North Carolina.
+  Completeness_Report: This data layer represents stormwater jurisdiction within North Caroilna based on the best available geospatial data relating to Stormwater Phase II municipal boundaries, planning jurisdictions, municipal spheres of influence represented by urbanized areas (Census 2000) and buffers of municipal boundaries based on US EPA criteria, and other local and state stormwater programs related to nutrient sensitive waters, water supply watersheds, high quality water and outstanding resource water watersheds, the NC Coastal Area Management Act, and other watersheds where special stormwater requirements apply.  The only base geospatial layer that is incomplete is the planning jurisdiction (extra territorial jurisdiction or ETJ) layer that lacks digital representations for municipalities in New Hanover and Henderson Counties (not available in digital format).
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: Base layers used in the model were mapped at a scale of 1:24,000 or better to be consistent with National Map Accuracy Standards.  The digital files were plotted and overlayed to the originals and needed line corrections were made to within one line width.
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: There is no vertical dimension to this data layer.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NC CGIA
+          Publication_Date: 2010
+          Title: NC OneMap Database
+          Geospatial_Data_Presentation_Form: vector digital data
+          Online_Linkage: www.nconemap.com
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20100715
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: NC OneMap Database
+      Source_Contribution: Source layers were processed in the model to produce polygons representing stormwater permitting responsibility across the state.
+    Process_Step:
+      Process_Description:
+        Using the ArcGIS Spatial Analyst Extension and Model Builder, a model was constructed to process 9 source layers and produce output representing stormwater permitting responsibility.
+        The first model input feature is a jurisdictional boundary layer (a GIS layer that combines NC county boundaries with municipalities, ETJs (provided by NC CGIA), military boundaries, and NPDES-permitted county areas, and which was created with a smaller model constructed out of those 4 source layers).  That feature contains information about the Phase II status of municipalities, ETJs, and counties; identifies coastal counties under Coastal Area Management Act (state); and identifies areas that are federally managed (military and Coast Guard).
+        The first identity feature is the urbanizing areas (according to the most recent US Census).
+        The first function is an identity that computes the geometric intersection of the input feature and the identity feature; the input feature or portions thereof that overlap the identity feature will get the attributes of the identity feature.
+        In a series of 8 identity functions, the output from the previous identity becomes the input feature for the next identity.
+        The identity features, in sequence, are:
+        Urbanizing areas (as defined by the US Bureau of the Census); municipal buffers around Phase II cities representing municipal sphere of influence (pre-processed buffers of 1-mile (municipalities with Census 2000 population below 10,000), 2-miles (population 10,000 to 24,999) and 3-mile (population 25,000 and over));  High Quality Water Outstanding Resource Water (HQW/ORW) watersheds excepting Water Supply Watersheds WS-I and WS-II; NSW Strategy areas including the Neuse and Tar-Pamlico Programs; Water Supply Watersheds; Special Watersheds including areas like Goose Creek and Jordan Reservoir, which dictate specific stormwater requirements; SA areas defined by 1/2-mile around all SA waters; and finally all areas subject to "Phase II" per Session Law 2006-246.
+        Further editing of special cases are necessary to accurately address all areas of the state (for example, changing contacts where local governments are delegated authority to implement Phase II stormwater requirements).
+      Process_Date: 20100715
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Bethany Georgoulias
+            Contact_Organization: NC DENR/DWQ
+          Contact_Position: Environmental Engineer
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1617 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1617
+            Country: USA
+          Contact_Voice_Telephone: 919-807-6372
+          Contact_Facsimile_Telephone: 919-807-6494
+          Contact_Electronic_Mail_Address: bethany.georgoulias@ncdenr.gov
+          Hours_of_Service: 8:00 AM to 5:00 PM
+    Process_Step:
+      Process_Description:
+        The output shapefile from the model contained fields from all of the source files.  The desired output needed a set of 8 meaningful fields that retain the appropriate values from the series of identities.
+
+        ModelBuilder:  Set up 8 identities in sequence
+
+        Validate Entire Model
+
+        Run Entire Model
+
+        Identity_8_phase2area.shp has 4,545 polygons
+
+        Export copy of data set to SWref2010mmdd_final_identity.shp
+
+        Add new fields:
+
+        PERMITTING (10), TYPE (35), BASIS (40), NOTE (40), CONTACT (45), CATEGORY (50), DENR_RGN (30), and PH2_INFO (40).
+
+        Carry these exisiting fields through:
+
+        COUNTY (15), JURISDIC (150) >> shortened to JURISDIC (40) in final layer
+
+        Some text revisions necessary depending on input file records and have been documented by the Stormwater Permitting Unit.
+
+        Calculate values of the new fields in the output shapefile by using Pre-logic VBA code scripts for specific fields.
+        For SWref2010mmdd_final_identity.shp, the following script describes how each field was calculated for each scenario.  (Note some fields used in the calculations will be dropped in the final reference layer):
+
+        /*No program applies*/
+
+        IF ( [FID_urbani] = -1 AND [FID_phase2] = -1 AND [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND
+        [FID_wsws] = -1 AND [CAMA] = "no" AND [TIP_STATUS] = "Not Tipped" AND
+        NOT([WHAT_KIND] = "Designated Phase II city") AND NOT([WHAT_KIND] = "ETJ of exempt Phase II city") AND
+        NOT([WHAT_KIND] = "NPDES Permitted Phase I MS4") AND NOT([WHAT_KIND] = "NPDES Permitted Phase II MS4") AND
+        NOT([WHAT_KIND] = "Phase II city (Exempt)") AND NOT([WHAT_KIND] = "Phase II city ETJ") AND
+        NOT([WHAT_KIND] = "Phase II city, exempt ETJ") AND NOT([WHAT_KIND] = "NPDES Permitted Ph II MS4/Co")) THEN
+        PERMIT = "None"
+        AUTH = [JURISDIC]
+        REAS = "No Program Identified"
+        DESC = "None, " & [INSIDE]
+        INFO = "Verify with local authority"
+
+        /*NSW Program only, non-coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND NOT([FID_nsw_st] = -1) AND [FID_wsws] = -1 AND [CAMA] = "no" ) THEN
+        PERMIT = "Local"
+        AUTH = [COMMUNITY]
+        REAS = [NSW_PROG]
+        DESC = "NSW city or county"
+        INFO = "Ref. 15A NCAC 2B .0200 Rules"
+
+        /*NSW Program only, coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND NOT([FID_nsw_st] = -1) AND [FID_wsws] = -1 AND NOT([CAMA] = "no") ) THEN
+        PERMIT = "Multiple"
+        AUTH = [COMMUNITY] & " and DWQ Regional Office"
+        REAS = [NSW_PROG] & " and CAMA Co."
+        DESC = "NSW community AND coastal co."
+        INFO = "Coastal SW Rules also apply"
+
+        /*WS Program only, non-coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND NOT([FID_wsws] = -1) AND [CAMA] = "no" ) THEN
+        PERMIT = "Local"
+        AUTH = "Local Water Supply Protection Program"
+        REAS = [CLASS_1] & " Watershed"
+        DESC = "Water Supply Watershed"
+        INFO = "http://portal.ncdenr.org/web/wq/swp/ws/wswp"
+
+        /*WS-III/IV and coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND NOT([FID_wsws] = -1) AND NOT([CAMA] = "no") AND
+        ([CLASS_1] LIKE "*WS-III*" OR [CLASS_1] LIKE "*WS-IV*") ) THEN
+        PERMIT = "Multiple"
+        AUTH = "Local WS Program and DWQ Regional Office"
+        REAS = [CLASS_1] & " Watershed" & " and CAMA Co."
+        DESC = "Water Supply AND coastal co."
+        INFO = "Coastal SW Rules also apply"
+
+        /*WS-I/II and coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND NOT([FID_wsws] = -1) AND NOT([CAMA] = "no") AND
+        ([CLASS_1] LIKE "*WS-I*" OR [CLASS_1] LIKE "*WS-II*") ) THEN
+        PERMIT = "Local"
+        AUTH = "Local Water Supply Protection Program"
+        REAS = [CLASS_1] & " Watershed"
+        DESC = "Water Supply I/II in coastal co."
+        INFO = "http://portal.ncdenr.org/web/wq/swp/ws/wswp"
+
+        /*HQW/ORW State Program only*/
+
+        ELSEIF ( NOT([FID_hqworw] = -1) AND [FID_nsw_st] = -1 AND [FID_wsws] = -1) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Regional Office"
+        REAS = [CLASS] & " Watershed"
+        DESC = "High Quality or Outstanding Waters"
+        INFO = "State Stormwater Permitting Program"
+
+        /*HQW/ORW State Program & NSW Program, non-coastal*/
+
+        ELSEIF ( NOT([FID_hqworw] = -1) AND NOT([FID_nsw_st] = -1) AND [FID_wsws] = -1 AND [CAMA] = "no") THEN
+        PERMIT = "Multiple"
+        AUTH = "DWQ Regional Office and " & [COMMUNITY]
+        REAS = [CLASS] & " and " & [NSW_PROG]
+        DESC = "NSW community AND HQW/ORW"
+        INFO = "Contact includes NSW Prog. Local Gov."
+
+        /*HQW/ORW State Program & WS Program, non-coastal*/
+
+        ELSEIF ( NOT([FID_hqworw] = -1) AND [FID_nsw_st] = -1 AND NOT([FID_wsws] = -1) AND [CAMA] = "no" AND
+        ([CLASS_1] LIKE "*WS-III*" OR [CLASS_1] LIKE "*WS-IV*" OR [CLASS_1] = "WS" OR [CLASS] LIKE "*ORW*") ) THEN
+        PERMIT = "Multiple"
+        AUTH = "DWQ Regional Office and Local WS Program"
+        REAS = [CLASS] & " and " & [CLASS_1] & " Watershed"
+        DESC = "HQW/ORW Area AND Water Supply"
+        INFO = "http://portal.ncdenr.org/web/wq/swp/ws/wswp"
+
+        ELSEIF ( NOT([FID_hqworw] = -1) AND [FID_nsw_st] = -1 AND NOT([FID_wsws] = -1) AND [CAMA] = "no" AND
+        ([CLASS_1] LIKE "*WS-I*" OR [CLASS_1] LIKE "*WS-II*") ) THEN
+        PERMIT = "Local"
+        AUTH = "Local Water Supply Protection Program"
+        REAS = [CLASS] & " and " & [CLASS_1] & " Watershed"
+        DESC = "Water Supply I/II Area"
+        INFO = "http://portal.ncdenr.org/web/wq/swp/ws/wswp"
+
+        /*HQW/ORW State Program & NSW Program, coastal*/
+
+        ELSEIF ( NOT([FID_hqworw] = -1) AND NOT([FID_nsw_st] = -1) AND [FID_wsws] = -1 AND NOT([CAMA] = "no") ) THEN
+        PERMIT = "Multiple"
+        AUTH = "DWQ Regional Office and " & [COMMUNITY]
+        REAS = "Coastal " & [CLASS] & " and " & [NSW_PROG]
+        DESC = "NSW community AND HQW/ORW, coastal"
+        INFO = "Contact includes NSW Prog. Local Gov."
+
+        /*HQW/ORW State Program & WS Program, coastal*/
+
+        ELSEIF ( NOT([FID_hqworw] = -1) AND [FID_nsw_st] = -1 AND NOT([FID_wsws] = -1) AND NOT([CAMA] = "no") AND
+        ([CLASS_1] LIKE "*WS-III*" OR [CLASS_1] LIKE "*WS-IV*" OR [CLASS_1] = "WS" OR [CLASS] LIKE "*ORW*") ) THEN
+        PERMIT = "Multiple"
+        AUTH = "DWQ Regional Office and Local WS Program"
+        REAS = "Coastal " & [CLASS] & " and " & [CLASS_1] & " Watershed"
+        DESC = "HQW/ORW AND Water Supply, coastal"
+        INFO = "http://portal.ncdenr.org/web/wq/swp/ws/wswp"
+
+        ELSEIF ( NOT([FID_hqworw] = -1) AND [FID_nsw_st] = -1 AND NOT([FID_wsws] = -1) AND NOT([CAMA] = "no") AND
+        ([CLASS_1] LIKE "*WS-I*" OR [CLASS_1] LIKE "*WS-II*") ) THEN
+        PERMIT = "Local"
+        AUTH = "Water Supply Protection Program"
+        REAS = "Coastal " & [CLASS] & " and " & [CLASS_1] & " Watershed"
+        DESC = "Water Supply I/II Area, coastal"
+        INFO = "http://portal.ncdenr.org/web/wq/swp/ws/wswp"
+
+        /*NSW and WS Programs, non-coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND NOT([FID_nsw_st] = -1) AND NOT([FID_wsws] = -1) AND [CAMA] = "no" ) THEN
+        PERMIT = "Local"
+        AUTH = [COMMUNITY] & " and Local WS Program"
+        REAS = [NSW_PROG] & " and " & [CLASS_1]
+        DESC = "NSW community AND Water Supply"
+        INFO = "http://portal.ncdenr.org/web/wq/swp/ws/wswp"
+
+        /*NSW and WS Programs, coastal co.*/
+
+        /*There are currently no cases of this overlap in CAMA counties.*/
+
+        /*NSW and WS Programs and HQW/ORW, coastal and non-coastal*/
+
+        ELSEIF ( NOT([FID_hqworw] = -1) AND NOT([FID_nsw_st] = -1) AND NOT([FID_wsws] = -1) AND [CAMA] = "no" AND
+        ([CLASS_1] LIKE "*WS-III*" OR [CLASS_1] LIKE "*WS-IV*" OR [CLASS_1] = "WS" OR [CLASS] LIKE "*ORW*") ) THEN
+        PERMIT = "Multiple"
+        AUTH = [COMMUNITY] & ", Local WS Prog, and" & " DWQ Reg Office"
+        REAS = [CLASS] & " " & [CLASS_1] & " and " & [NSW_PROG]
+        DESC = "HQW/ORW, Water Supply, AND NSW"
+        INFO = "http://portal.ncdenr.org/web/wq/swp/ws/wswp"
+
+        ELSEIF ( NOT([FID_hqworw] = -1) AND NOT([FID_nsw_st] = -1) AND NOT([FID_wsws] = -1) AND [CAMA] = "no" AND
+        ([CLASS_1] LIKE "*WS-I*" OR [CLASS_1] LIKE "*WS-II*") ) THEN
+        PERMIT = "Local"
+        AUTH = [COMMUNITY] & " and Local WS Program"
+        REAS = [CLASS] & " " & [CLASS_1] & " and " & [NSW_PROG]
+        DESC = "Water Supply I/II Area AND NSW"
+        INFO = "http://portal.ncdenr.org/web/wq/swp/ws/wswp"
+
+        /*Coastal SW Program only*/
+
+        ELSEIF ([FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND [FID_wsws] = -1 AND NOT([CAMA] = "no") AND
+        NOT([WHAT_KIND] = "Designated Phase II city") AND NOT([WHAT_KIND] = "ETJ of exempt Phase II city") AND
+        NOT([WHAT_KIND] = "NPDES Permitted Phase I MS4") AND NOT ([WHAT_KIND] = "NPDES Permitted Phase II MS4") AND
+        NOT([WHAT_KIND] = "Phase II city (Exempt)") AND NOT([WHAT_KIND] = "Phase II city ETJ") AND
+        NOT([WHAT_KIND] = "Phase II city, exempt ETJ") AND NOT([WHAT_KIND] = "NPDES Permitted Ph II MS4/Co") ) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Regional Office"
+        REAS = "Coastal State SW Permitting Program"
+        DESC = "Coastal county or community"
+        INFO = "Coastal SW Rules apply"
+
+        /*Phase I/II Military Areas, coastal co. - State DWQ implements Coastal SW Rules*/
+
+        ELSEIF ([FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND [FID_wsws] = -1 AND NOT([CAMA] = "no") AND
+        ([WHAT_KIND] = "NPDES Permitted Phase I MS4" OR [WHAT_KIND] = "NPDES Permitted Phase II MS4") AND
+        [INSIDE] = "Federally Managed Lands" ) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Regional Office/" & [JURISDIC]
+        REAS = "Coastal State SW Permitting Program"
+        DESC = "Military, Phase II MS4 (coastal)"
+        INFO = "In " & [JURISDIC]
+
+        /*Phase I/II Military Areas, non-coastal co. - State DWQ implements Post-Construction*/
+
+        ELSEIF ([FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND [FID_wsws] = -1 AND [CAMA] = "no" AND
+        ([WHAT_KIND] = "NPDES Permitted Phase I MS4" OR [WHAT_KIND] = "NPDES Permitted Phase II MS4") AND
+        [INSIDE] = "Federally Managed Lands" ) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Central Office/" & [JURISDIC]
+        REAS = "State reviews post-construction projects"
+        DESC = "Military, Phase II MS4"
+        INFO = "In " & [JURISDIC]
+
+        /*Phase I/II Tipped County unincorp. areas, coastal co.: already captured by Coastal SW Prog only*/
+
+        /*Phase I/II Tipped County unincorp. areas (as well as in RDU's 'ETJ', spec. case), non-coastal co.*/
+
+        ELSEIF ( [FID_urbani] = -1 AND [FID_phase2] = -1 AND [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND
+        [FID_wsws] = -1 AND [CAMA] = "no" AND [TIP_STATUS] = "Phase II Tipped"
+        AND ([INSIDE] = "Unincorporated area, County" OR [JURISDIC] = "RDU") AND
+        NOT([WHAT_KIND] = "NPDES Permitted Ph II MS4/Co") ) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Central Office"
+        REAS = "Unincorp. area of Phase II Tipped Co."
+        DESC = "Phase II tipped county"
+        INFO = "Inside " & [JURISDIC]
+
+        /*Non-Phase I/II cities, ETJs, and military areas in Tipped Counties, non-coastal co.*/
+
+        ELSEIF ( [FID_urbani] = -1 AND [FID_phase2] = -1 AND [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND
+        [FID_wsws] = -1 AND [CAMA] = "no" AND [TIP_STATUS] = "Phase II Tipped" AND
+        NOT([WHAT_KIND] = "Designated Phase II city") AND NOT([WHAT_KIND] = "ETJ of exempt Phase II city") AND
+        NOT([WHAT_KIND] = "NPDES Permitted Phase I MS4") AND NOT([WHAT_KIND] = "NPDES Permitted Phase II MS4") AND
+        NOT([WHAT_KIND] = "Phase II city (Exempt)") AND NOT([WHAT_KIND] = "Phase II city ETJ") AND
+        NOT([WHAT_KIND] = "Phase II city, exempt ETJ") AND NOT([WHAT_KIND] = "NPDES Permitted Ph II MS4/Co") ) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Central Office"
+        REAS = "Phase II Tipped County"
+        DESC = "Entity in Phase II tipped county"
+        INFO = "Inside " & [JURISDIC]
+
+        /*Non-Phase I/II cities, ETJs, military areas, and counties in coastal co.*/
+
+        ELSEIF ( [FID_urbani] = -1 AND [FID_phase2] = -1 AND [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND
+        [FID_wsws] = -1 AND NOT([CAMA] = "no") AND NOT([WHAT_KIND] = "Designated Phase II city") AND
+        NOT([WHAT_KIND] = "ETJ of exempt Phase II city") AND NOT([WHAT_KIND] = "NPDES Permitted Phase I MS4") AND
+        NOT([WHAT_KIND] = "NPDES Permitted Phase II MS4") AND NOT([WHAT_KIND] = "Phase II city (Exempt)") AND
+        NOT([WHAT_KIND] = "Phase II city ETJ") AND NOT([WHAT_KIND] = "Phase II city, exempt ETJ") AND
+        NOT([WHAT_KIND] = "NPDES Permitted Ph II MS4/Co") ) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Regional Office"
+        REAS = "Coastal State SW Permitting Program"
+        DESC = "Entity in coastal county"
+        INFO = "Inside " & [JURISDIC]
+
+        /*Phase I/II-Exempt cities/ETJs, coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND [FID_wsws] = -1 AND NOT([CAMA] = "no") AND
+        ([WHAT_KIND] = "ETJ of exempt Phase II city" OR [WHAT_KIND] = "Phase II city (Exempt)" OR
+        [WHAT_KIND] = "Phase II city, exempt ETJ") ) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Regional Office"
+        REAS = "Coastal State SW Permitting Program"
+        DESC = "Phase II city or ETJ, coastal co."
+        INFO = "Inside " & [JURISDIC]
+
+        /*Phase I/II-Exempt cities/ETJs, non-coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND [FID_wsws] = -1 AND [CAMA] = "no" AND
+        ([WHAT_KIND] = "ETJ of exempt Phase II city" OR [WHAT_KIND] = "Phase II city (Exempt)" OR
+        [WHAT_KIND] = "Phase II city, exempt ETJ") ) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Central Office"
+        REAS = "Phase II City or ETJ"
+        DESC = "Phase II city or ETJ"
+        INFO = "Inside " & [JURISDIC]
+
+        /*Phase I/II MSIs and UAs, outside Phase II Jurisdictions, non-coastal co.*/
+
+        ELSEIF ( (NOT([FID_urbani] = -1) OR NOT([FID_phase2] = -1)) AND [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND
+        [FID_wsws] = -1 AND [CAMA] = "no" AND NOT([WHAT_KIND] = "Designated Phase II city") AND
+        NOT([WHAT_KIND] = "ETJ of exempt Phase II city") AND NOT([WHAT_KIND] = "NPDES Permitted Phase I MS4") AND
+        NOT([WHAT_KIND] = "NPDES Permitted Phase II MS4") AND NOT([WHAT_KIND] = "Phase II city (Exempt)") AND
+        NOT([WHAT_KIND] = "Phase II city ETJ") AND NOT([WHAT_KIND] = "Phase II city, exempt ETJ") AND
+        NOT([WHAT_KIND] = "NPDES Permitted Ph II MS4/Co") ) THEN
+        PERMIT = "State"
+        AUTH = "DWQ Central Office"
+        REAS = "In Urbanizing Area or Phase II MSI"
+        DESC = "Phase II MSI or UA"
+        INFO = "Inside " & [JURISDIC]
+
+        /*Phase I/II MSIs and UAs, coastal co.: already captured by Coastal SW Prog only*/
+
+        /*Designated Phase I/II cities (non-military), in TIPPED non-coastal co.*/
+
+        /*FOR DESIGNATED PH II CITIES IN TIPPED COUNTIES, INFO SHOULD SPECIFY DWQ WILL PERMIT IF LOCAL PROGRAM
+        HAS NOT YET BEGUN (SIMILAR TO COASTAL COUNTY CASE).  NOTE - CATCH FEW ETJs ASSOCIATED WITH THAT GROUP
+        THAT MAY NOT HAVE MS4 PERMIT YET.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND [FID_wsws] = -1 AND [CAMA] = "no" AND [TIP_STATUS] = "Tipped"
+        AND ([WHAT_KIND] = "Designated Phase II city" OR ([WHAT_KIND] = "Phase II city ETJ" AND ([JURISDIC] = "Clayton"
+        OR [JURISDIC] = "Wendell" OR [JURISDIC] = "Zebulon"))) AND NOT([INSIDE] = "Federally Managed Lands") ) THEN
+        AUTH = [JURISDIC]
+        REAS = "In Permitted Phase II Jurisdiction"
+        DESC = "Designated Phase II city, tipped co"
+        INFO = "If not local, DWQ must permit"
+
+        /*Phase I/II cities and counties (non-military), non-coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND [FID_wsws] = -1 AND [CAMA] = "no" AND
+        ([WHAT_KIND] = "Designated Phase II city" OR [WHAT_KIND] = "NPDES Permitted Phase I MS4" OR
+        [WHAT_KIND] = "NPDES Permitted Phase II MS4" OR [WHAT_KIND] = "Phase II city ETJ" OR
+        [WHAT_KIND] = "NPDES Permitted Ph II MS4/Co") AND NOT([INSIDE] = "Federally Managed Lands") ) THEN
+        PERMIT = "Local"
+        AUTH = [JURISDIC]
+        REAS = "In Permitted Phase II Jurisdiction"
+        DESC = "Phase II Entity"
+        INFO = "Inside " & [JURISDIC]
+
+        /*Phase I/II cities and counties (non-military), coastal co.*/
+
+        ELSEIF ( [FID_hqworw] = -1 AND [FID_nsw_st] = -1 AND [FID_wsws] = -1 AND NOT([CAMA] = "no") AND
+        ([WHAT_KIND] = "Designated Phase II city" OR [WHAT_KIND] = "NPDES Permitted Phase I MS4" OR
+        [WHAT_KIND] = "NPDES Permitted Phase II MS4" OR [WHAT_KIND] = "Phase II city ETJ" OR
+        [WHAT_KIND] = "NPDES Permitted Ph II MS4/Co") AND NOT([INSIDE] = "Federally Managed Lands") ) THEN
+        PERMIT = "Local"
+        AUTH = [JURISDIC]
+        REAS = "In Permitted Phase II Jurisdiction"
+        DESC = "Phase II entity, coastal co."
+        INFO = "If not local, DWQ must permit"
+
+        /*Set remaining cases to "Not done yet" as a check*/
+
+        ELSE
+        PERMIT = "Not done yet"
+        END IF
+
+        -*-*-*-*-*-*-*-*-*-*
+        [PERMITTING] = PERMIT
+        [TYPE] = DESC
+        [BASIS] = REAS
+        [NOTE] = INFO
+        [CONTACT] = AUTH
+        [DENR_RGN] = [DWQ_REGION]
+
+        NOTES:
+        > Some CONTACT field records that include military base names need to be shortened to avoid truncated text in the info.
+        > Some records for ORW watersheds on the coast that are also in Phase II cities (e.g., Wilmington) need revision to send user to local authority
+        who will permit through Post-construction prog.
+
+        Populate [PH2_INFO] field with appropriate info., depending on permitting, etc. (NOTE: Some of these will be revised for delegated authorities):
+        IF [DESCRIPT_3] = " " THEN
+        PH2 = "Not a Phase II area"
+        ELSEIF NOT([DESCRIPT_3] = " ") AND [PERMITTING] = "Local" THEN
+        PH2 = "Local program satisfies Phase II rqmts"
+        ELSEIF NOT([DESCRIPT_3] = " ") AND NOT([CAMA] = "no") AND [PERMITTING] = "State" THEN
+        PH2 = "Coastal/State SW Prog satisfies Ph II"
+        ELSEIF NOT([DESCRIPT_3] = " ") AND NOT([CAMA] = "no") AND [PERMITTING] = "Multiple" THEN
+        PH2 = "Coastal/Local SW Progs satisfy Ph II"
+        ELSEIF NOT([DESCRIPT_3] = " ") AND [CAMA] = "no" AND NOT([FID_hqworw] = -1) THEN
+        PH2 = "State SW Program satisfies Phase II"
+        ELSE
+        PH2 = "Subject to Phase II Post-Construction"
+        END IF
+        [PH2_INFO] = PH2
+
+        Integrate Special Watershed Info.(SA waters, Goose creek, etc.):
+        Select records:
+        WHERE(NOT("DESCRIPT_1" = ' ')) and set NOTE to:
+        [NOTE] = [NOTE] & "/" & [DESCRIPT_1],
+
+        and WHERE("DESCRIPT_2" = '1/2-mile buffer around SA Waters') and set NOTE to:
+        [NOTE] = "Near SA waters/" & [NOTE]
+
+        Editing:
+
+        > Some [NOTE] field records need to be shortened to avoid truncated text in the info.  This includes changing WS contact URL to just 'WS Prog' before making edits so that watershed name fits.
+        > Reconcile any records where SA buffers extend into non-CAMA county (e.g., Jones Co.) and revise fields appropriately.
+        > Select and note USMP cities in [NOTE] field; verify with Regional Office who permits in coastal areas.
+        > Screen areas within federally managed lands to ensure some indication to contact military where needed.  Modified TYPE, NOTE, and/or CONTACT where appropriate.
+
+        /*New Jordan Lake Watershed SW Rules*/
+
+        Jordan Watershed areas that direct to State b/c of Phase II may need to be changed to redirect to Local
+        Program after PERMITTING field calculated, but this may not be appropriate until future updates ~ 2012
+        to time with local ordinances.  Right now, just identify watershed in Step 7. and direct user to URL:
+        www.jordanlake.org (map).  A similar scenario may hold for Falls Lake Watershed.
+
+        Select records:
+        WHERE("DESCRIPT_1" = "Jordan Reservoir Watershed" AND ("PERMITTING" = "None" OR "TYPE" = "Water Supply
+        Watershed")) and set the [NOTE] field to:
+        [NOTE] = "Jordan Rules apply - www.jordanlake.org"
+
+        Select records:
+        WHERE("DESCRIPT_1" = "Jordan Reservoir Watershed" AND "PERMITTING" = "None") and set these fields to:
+        [PERMITTING] = "Local"
+        [BASIS] = "Jordan Reservior Watershed"
+        [CONTACT] = [JURISDIC]   (Should already be set to this - just double-check)
+        [TYPE] =                 (Just remove "None, " from beginning of text in this field)
+
+        Finally, Select records:
+        WHERE ("DESCRIPT_1" = 'Jordan Reservoir Watershed' AND NOT("NOTE"= 'Jordan Rules apply - www.jordanlake.org'))
+        and set [CONTACT] field to:
+        [CONTACT] = [CONTACT] & ", check www.jordanlake.org"
+
+        /*Pending Falls Lake Watershed SW Rules*/
+
+        Select records:
+        WHERE([DESCRIPT_1] = "Falls Lake Watershed") and incorporate this text into the [NOTE] field:
+        "Falls Lake Rules Pending"
+
+        Modify some fields for Designated Phase II cities.  Add designation status info, and note that DWQ will
+        permit projects in Phase II areas (tipped, UA, MSI, etc.) until local program begins.  (Where non-Phase II,
+        non-coastal, Post-Construction begins when local government impelments its program.)
+
+        Select records (omits areas where a local prog like Water Supply already in place):
+        WHERE("WHAT_KIND" = "Designated Phase II city" AND "BASIS" = "In Permitted Phase II Jurisdiction")
+        and set these fields to:
+        [BASIS] = "In Designated Phase II City"
+
+        Select records:
+        WHERE("WHAT_KIND" = 'Designated Phase II city' AND ( "TIP_STATUS"= 'Phase II Tipped' OR "TYPE_P" =
+        'Urbanized area' OR "DESCRIPT" = '"Municipal Sphere of Influence" around Phase II cities')
+        AND "BASIS" = 'In Designated Phase II City')
+        and set these fields to:
+        [NOTE] = [NOTE] & " , if not local DWQ must permit" (might need to change 'Inside...' to 'In...')
+        [CONTACT] = [CONTACT] & " and DWQ Central Office"
+        [PH2_INFO] = "Local prog eventually to satisfy Ph II"
+
+        Also select records for Designated Cities where local WS or NSW programs (for example) are not currently
+        satisfying the Phase II requirement and set this field to:
+        [PH2_INFO] = "Local prog eventually to satisfy Ph II"
+
+        Also select records for Designated Cities on the coast where the [CONTACT] should include the Regional
+        Office until the local post-consruction program begins and set this field to:
+        [CONTACT] = [CONTACT] & " and DWQ Regional Office"
+
+        Make ETJs of these cities consistent.  In 2010, only affects Clayton, Zebulon, and Wendell.
+
+        Select records:
+        WHERE("WHAT_KIND" = 'Phase II city ETJ' AND "JURISDIC" IN ('Clayton','Zebulon','Wendell' AND
+        NOT("TYPE" = 'Water Supply Watershed'))
+        and set these fields to:
+        [BASIS] = "In Designated Phase II City"
+        [PH2_INFO] = "Local prog eventually to satisfy Ph II"
+
+        Screen areas that are ocean or sound and note:
+        Select records:
+        WHERE "CO_CLASS" = 'OceanOrSound') and set NOTE to:
+        [NOTE] = "Ocean or sound area, verify location"
+
+        Go back and populate the DENR_RGN for those records because they were left blank in source file wherever CAMA = 'n/a'.
+
+        Identify special cases where local governments have been delegated authority.  Several fields need to be changed for specific records.
+        Includes areas in: GASTON, GUILFORD, MECKLENBURG, DURHAM, BUNCOMBE, CHATHAM, AND WAKE counties.  Also address implmentation issue in
+        CALDWELL COUNTY (DWQ/Lenoir current contacts).  Note - delegations do NOT necessarily extend into areas that are HQW/ORW (and remain
+        state-permitting) or change local Water Supply program contacts.
+
+        Revise contact fields for ORW areas on coast where user should go to local Phase II jurisdiction (like in Wilminton), instead of regional office.
+
+        Populate [CATEGORY] field with appropriate info., depending on [TYPE] field:
+        IF [TYPE] = "None, ETJ Boundaries" OR [TYPE] = "None, Federally Managed Lands" OR [TYPE] =
+        "None, Municipality Boundaries" OR [TYPE] = "None, Unincorporated area, County" THEN
+        CATEG = "No Stormwater Program"
+        ELSEIF [TYPE] = "HQW/ORW Area AND Water Supply" OR [TYPE] = "NSW community AND HQW/ORW" OR [TYPE] =
+        "NSW community AND Water Supply" OR [TYPE] = "NSW community AND coastal co." OR [TYPE] =
+        "Water Supply AND coastal co." OR [TYPE] = "HQW/ORW, Water Supply, AND NSW" THEN
+        CATEG = "Overlapping Programs"
+        ELSEIF [PERMITTING] = "Local" THEN
+        CATEG = "Local Program"
+        ELSEIF [BASIS] = "SA Waters, Coastal State SW Programm" OR [BASIS] = "SA Waters, Coastal State SW Program"
+        OR [BASIS] = "SA is HQW by definition/State SW Prog" OR [BASIS] = "ORW/SA Watershed" OR [BASIS] =
+        "ORW/SA Watershed, State SW Prog" THEN
+        CATEG = "SA Waters"
+        ELSEIF [TYPE] = "Coastal county or community" OR [TYPE] = "Coastal county, military area" OR [TYPE] =
+        "Coastal county, Coast Guard" THEN
+        CATEG = "Coastal State SW Program"
+        ELSEIF [TYPE] = "High Quality or Outstanding Waters" THEN
+        CATEG = "State Stormwater Program"
+        ELSEIF [TYPE] = "Entity in Phase II tipped county" OR [TYPE] = "Military, Phase II MS4 (coastal)" OR
+        [TYPE] = "Military, Phase II MS4" OR [TYPE] = "Phase II Entity" OR [TYPE] = "Phase II MSI or UA" OR
+        [TYPE] = "Phase II city or ETJ" OR [TYPE] = "Phase II city or ETJ, coastal co." OR [TYPE] =
+        "Phase II entity, coastal co." OR [Type] = "Phase II tipped county" THEN
+        CATEG = "Phase II Area"
+        ELSE
+        CATEG = "Not done yet"
+        END IF
+        [CATEGORY] = CATEG
+
+        Export all records into 'stormwater_reference20090626.shp' and dissolve on following fields:
+        COUNTY (15) JURISDIC (150) PERMITTING (10), TYPE (35), BASIS (40), NOTE (40), CONTACT (45), DENR_RGN (30), CATEGORY (50), and PH2_INFO (40)
+
+        Dissolved to 1,979 polygons
+
+        Final editing steps for 2010 update to drop and re-add fields so [JURISDIC] is 40 characters in length instead of 150.
+        Also corrected CONTACT and JURISDIC fields where erroneous 'slivers' of Durham and Raleigh ETJ boundaries overlapped in Wake and Durham
+        counties.
+      Process_Date: 20100715
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Bethany Georgoulias
+            Contact_Organization: NC DENR/DWQ
+          Contact_Position: Environmental Engineer
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1617 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1617
+            Country: USA
+          Contact_Voice_Telephone: 919-807-6372
+          Contact_Facsimile_Telephone: 919-807-6494
+          Contact_Electronic_Mail_Address: bethany.georgoulias@ncdenr.gov
+          Hours_of_Service: 9:00 to 5:00
+          Contact_Instructions: email or phone preferred
+    Process_Step:
+      Process_Description: Polygons were dissolved to combine polygons of the same type, program, and contact (1,979 records).
+      Process_Date: 20100715
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Bethany Georgoulias
+            Contact_Organization: NC DENR/DWQ
+          Contact_Position: Environmental Engineer
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1617 Mail Service Center
+            City: Raleigh
+            State_or_Province: NC
+            Postal_Code: 27699-1617
+            Country: USA
+          Contact_Voice_Telephone: 919-807-6372
+          Contact_Facsimile_Telephone: 919-807-6494
+          Contact_Electronic_Mail_Address: bethany.georgoulias@ncdenr.gov
+          Hours_of_Service: 9:00-5:00
+          Contact_Instructions: email or phone preferred
+    Process_Step:
+      Process_Description: Reference layer was reviewed for quality control
+      Process_Date: 20100722
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: Jeffrey Brown
+            Contact_Organization: NC CGIA
+          Contact_Position: Coordination Program Manager
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 1979
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Stormwater_reference2010
+      Entity_Type_Definition: Stormwater permitting responsibility in North Carolina
+      Entity_Type_Definition_Source: CGIA and NC Division of Water Quality
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: JURISDIC
+      Attribute_Definition: Jurisdiction of area
+      Attribute_Definition_Source: NC CGIA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies by location based on jurisdicational boundaries available at time of processing.
+    Attribute:
+      Attribute_Label: PERMITTING
+      Attribute_Definition: Responsibility for stormwater permitting
+      Attribute_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Local
+          Enumerated_Domain_Value_Definition: County or municipal responsibility in the area based on Phase II and other programs; may be multiple local programs.
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: State
+          Enumerated_Domain_Value_Definition: State responsibility for stormwater permitting in the area
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: None
+          Enumerated_Domain_Value_Definition: No stormwater permitting responsibility in the area (still must check locally)
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Multiple
+          Enumerated_Domain_Value_Definition: Local and state permits may apply in the area
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+    Attribute:
+      Attribute_Label: TYPE
+      Attribute_Definition: Type of stormwater permit
+      Attribute_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Coastal county or community
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on location in a coastal (CAMA) county
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Coastal county, Coast Guard
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on location in a coastal (CAMA) county
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Coastal county, military area
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on location in a coastal (CAMA) county and whether military area is subject Phase II
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Entity in Phase II tipped county
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on location in a tipped Phase II county
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: None, Unincorporated area, County
+          Enumerated_Domain_Value_Definition: No stormwater programs apply in the unincorporated area of county
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: None, Muncipality Boundaries
+          Enumerated_Domain_Value_Definition: No stormwater program applies in an incorporated area that may be all or part of a city or town
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: None, ETJ Boundaries
+          Enumerated_Domain_Value_Definition: No stormwater program applies in extraterritorial jurisdiction that may be all or part of an ETJ
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: High Quality or Outstanding Waters
+          Enumerated_Domain_Value_Definition: Area is within 1-mile buffer of a high quality water or within an outstanding resource water watershed
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Water Supply Watershed
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on water supply watershed area
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Water Supply I/II Area
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on WS-I/II classification (HQW by definition, but local program satisfies)
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Water Supply AND coastal co.
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on WS watershed and Coastal SW Program
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HQW/ORW Area AND Water Supply
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on overlapping HQW/ORW and WS-III/IV/V watersheds, or WS-I/II and ORW watersheds
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: HQW/ORW, Water Supply, AND NSW
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on overlapping HQW/ORW, WS-III/IV (or WS-I/II and ORW), and NSW watersheds
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Phase II Entity
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on NPDES Stormwater Phase II Program implemented by an entity (may be military) in NC under the US EPA, National Pollution Discharge Elimination System MS4 regulations
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Phase II entity, coastal co.
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on NPDES Stormwater Phase II Program implemented by an entity (may be military) in NC in a coastal county
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Phase II city or ETJ
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on NPDES Stormwater Phase II Program implemented by a city in NC
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Phase II city or ETJ, coastal co.
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on NPDES Stormwater Phase II Program implemented by a city in NC in a coastal county
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Phase II tipped county
+          Enumerated_Domain_Value_Definition: Area is unincorporated area of a county that is "tipped in" to Phase II stormwater permitting requirements by Session Law 2006-246
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Phase II MSI or UA
+          Enumerated_Domain_Value_Definition: Area is within a municipal buffer defined by a 1-mile buffer for cities under 10,000 population (2000 Census), by a 2-mile buffer for cities with 10,000 to 24,999 population, and by a 3-mile for cities with 25,000 or more residents; or within an Urbanizing Area (based on 2000 census).
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Military, Phase II MS4
+          Enumerated_Domain_Value_Definition: In NPDES-permitted military MS4 area; stormwater permitting responsibility currently defaults to State (unlike other permitted MS4s)
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Military, Phase II MS4 (coastal)
+          Enumerated_Domain_Value_Definition: Area in NPDES-permitted military MS4 area in coastal county; stormwater permitting responsibility currently defaults to State (unlike other permitted MS4s)
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NSW city or county
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on local NSW Strategy Program entity
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NSW city or county, military area
+          Enumerated_Domain_Value_Definition: In military area; Stormwater permitting responsibility is based on local NSW Strategy Program entity
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NSW community AND HQW/ORW
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on local NSW Strategy Program entity and HQW/ORW watershed area
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NSW community AND Water Supply
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on local NSW Strategy Program entity and water supply watershed area
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: NSW community AND coastal co.
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility is based on local NSW Strategy Program entity and Coastal SW Program
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Unincorporated area, County
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility in unincorporated areas of Jordan Lake Watershed depend on Jordan Rules timeline
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Municipality Boundaries
+          Enumerated_Domain_Value_Definition: Stormwater permitting responsibility in municipalities of Jordan Lake Watershed depend on Jordan Rules timeline
+          Enumerated_Domain_Value_Definition_Source: NC Division of Water Quality
+    Attribute:
+      Attribute_Label: BASIS
+      Attribute_Definition: Basis or criteria for stormwater permitting
+      Attribute_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Varies from city or county name to watershed type to state program type
+    Attribute:
+      Attribute_Label: NOTE
+      Attribute_Definition: Notes about the location or permitting responsibility, or other relevant information
+      Attribute_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Notes vary by location.
+    Attribute:
+      Attribute_Label: CONTACT
+      Attribute_Definition: Contact information for stormwater permitting
+      Attribute_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Contacts vary by program and jurisdiction
+    Attribute:
+      Attribute_Label: COUNTY
+      Attribute_Definition: County in which the jurisdiction is located
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: 100 counties of North Carolina
+          Codeset_Source: CGIA
+    Attribute:
+      Attribute_Label: DENR_RGN
+      Attribute_Definition: Regional office of the Department of Environment and Natural Resources
+      Attribute_Definition_Source: CGIA
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name: 8 regions served by DENR regional offices
+          Codeset_Source: CGIA
+    Attribute:
+      Attribute_Label: CATEGORY
+      Attribute_Definition: Category of permitting responsibility for purpose of grouping cases of unique and overlapping stormwater programs
+      Attribute_Definition_Source: NC DWQ Stormwater Planning and CGIA
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: No Stormwater Program
+          Enumerated_Domain_Value_Definition: TYPE of Permitting is "None, ETJ Boundaries" OR "None, Federally Managed Lands" OR "None, Municpality Boundaries" OR "None, Unincorporated area, County"
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Overlapping Programs
+          Enumerated_Domain_Value_Definition: TYPE of permitting is "HQW/ORW Area AND Water Supply" OR "NSW community AND HQW/ORW" OR "NSW community AND Water Supply" OR "NSW community AND coastal co." OR "Water Supply AND coastal co." OR "HQW/ORW, Water Supply, AND NSW"
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Local Program
+          Enumerated_Domain_Value_Definition: PERMITTING Authority is "Local"
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: SA waters
+          Enumerated_Domain_Value_Definition: BASIS of permitting is "SA Waters, Coastal State SW Programm" OR "SA Waters, Coastal State SW Program" OR "SA is HQW by definition/State SW Prog" OR "ORW/SA Watershed" OR "ORW/SA Watershed, State SW Prog"
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Coastal State SW Program
+          Enumerated_Domain_Value_Definition: TYPE of permitting "Coastal county or community" OR "Coastal county, military area" OR "Coastal county, Coast Guard"
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: State Stormwater Program
+          Enumerated_Domain_Value_Definition: TYPE of permitting is "High Quality or Outstanding Waters"
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Phase II Area
+          Enumerated_Domain_Value_Definition: TYPE of permitting is "Entity in Phase II tipped county" OR "Military, Phase II MS4 (coastal)" OR "Military, Phase II MS4" OR "Phase II Entity" OR "Phase II MSI or UA" OR "Phase II city or ETJ" OR "Phase II city or ETJ, coastal co." OR "Phase II entity, coastal co." OR "Phase II tipped county"
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+    Attribute:
+      Attribute_Label: PH2_INFO
+      Attribute_Definition: Indicator for Phase II area and whether existing programs satisfy that requirement
+      Attribute_Definition_Source: NC Division of Water Quality
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not a Phase II area
+          Enumerated_Domain_Value_Definition: Area not subject to Phase II requirements of Session Law 2006-246
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Local program satisfies Phase II rqmts
+          Enumerated_Domain_Value_Definition: PERMITTING Authority is "Local" and area is subject to Phase II
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Local prog eventually satisfies Phase II rqmts
+          Enumerated_Domain_Value_Definition: Designated Phase II city areas where the city will ultimately implment its own program (but may not be doing it yet).
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Coastal/State SW Prog satisfies Ph II
+          Enumerated_Domain_Value_Definition: COUNTY is a coastal county, PERMITTING Authority is "State" and area is subject to Phase II
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Coastal/Local SW Progs satisfy Ph II
+          Enumerated_Domain_Value_Definition: COUNTY is a coastal county, PERMITTING Authority is "Multiple" and area is subject to Phase II
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: State SW Program satisfies Phase II
+          Enumerated_Domain_Value_Definition: COUNTY is not a coastal county, area is in HQW or ORW watershed and is subject to Phase II
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Subject to Phase II Post-Construction
+          Enumerated_Domain_Value_Definition: All other areas subject to Phase II requirements of Session Law 2006-246
+          Enumerated_Domain_Value_Definition_Source: NC DWQ, Stormwater Planning
+    Attribute:
+      Attribute_Label: SW_ID
+      Attribute_Definition: Unique identifier for stormwater reference
+      Attribute_Definition_Source: NC CGIA
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers calculated as FID+1
+  Overview_Description:
+    Entity_and_Attribute_Overview: Descriptors relating to stormwater permitting responsibility, stormwater programs, contact information, county and region.
+    Entity_and_Attribute_Detail_Citation: North Carolina Center for Geographic Information and Analysis in collaboration with the Division of Water Quality in the NC Department of Environment and Natural Resources.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/stormwtr_ref.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

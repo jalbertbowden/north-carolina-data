@@ -1,0 +1,763 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "XSPt_ID": "{1F004FB1-593F-4D04-AE86-8AF6FDCE2669}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "04A BS CK", "Easting": 1705065.003000, "Northing": 811010.833000, "Elev": 831.405000, "Station": 783.014000, "SurveyPtNo": 2051 }, "geometry": { "type": "Point", "coordinates": [ 1705065.002722, 811010.833139 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A3DBD8F6-1786-484A-8CEC-5EE880117046}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "DATE 10-05-11", "Easting": 1705065.182000, "Northing": 811010.888000, "Elev": 831.369000, "Station": 783.090000, "SurveyPtNo": 2002 }, "geometry": { "type": "Point", "coordinates": [ 1705065.182000, 811010.888000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{15157047-A434-467B-9BD4-426F74E075B8}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_04A FLD", "Easting": 1705065.182000, "Northing": 811010.888000, "Elev": 831.369000, "Station": 783.090000, "SurveyPtNo": 2003 }, "geometry": { "type": "Point", "coordinates": [ 1705065.182000, 811010.888000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E7FD2EFC-DCB8-471B-A77D-D9B7A48F9F03}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_04A", "Easting": 1705065.182000, "Northing": 811010.888000, "Elev": 831.369000, "Station": 783.090000, "SurveyPtNo": 2006 }, "geometry": { "type": "Point", "coordinates": [ 1705065.182000, 811010.888000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{917AFBE9-6A66-4018-A71C-02482D249D13}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705578.356000, "Northing": 811451.138000, "Elev": 831.219000, "Station": 783.990000, "SurveyPtNo": 2046 }, "geometry": { "type": "Point", "coordinates": [ 1705578.355663, 811451.138223 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{16AB9612-3FC2-401F-9C28-FDC22EE0A1C9}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705594.852000, "Northing": 811420.191000, "Elev": 830.731000, "Station": 818.209000, "SurveyPtNo": 2047 }, "geometry": { "type": "Point", "coordinates": [ 1705594.852075, 811420.191146 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{04DD02FE-84C0-4D6F-95A4-01FBC33DED6C}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705610.253000, "Northing": 811387.723000, "Elev": 830.435000, "Station": 852.867000, "SurveyPtNo": 2048 }, "geometry": { "type": "Point", "coordinates": [ 1705610.252997, 811387.723230 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{24AB3144-CA5D-4ABC-BDB5-A24901FD0213}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705632.993000, "Northing": 811337.214000, "Elev": 829.307000, "Station": 905.987000, "SurveyPtNo": 2049 }, "geometry": { "type": "Point", "coordinates": [ 1705632.992852, 811337.214243 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{707E147A-80CF-403D-B3A1-8B94D4550954}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_02D", "Easting": 1705750.292000, "Northing": 811421.886000, "Elev": 836.840000, "Station": 918.292000, "SurveyPtNo": 2008 }, "geometry": { "type": "Point", "coordinates": [ 1705750.291997, 811421.885924 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8342FA2E-094E-47CD-AB47-0E86BC15C329}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "BS CK", "Easting": 1705750.346000, "Northing": 811421.826000, "Elev": 836.854000, "Station": 918.372000, "SurveyPtNo": 2086 }, "geometry": { "type": "Point", "coordinates": [ 1705750.346149, 811421.826104 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B6DA95C9-0588-4FD8-B4C2-B581289D3AF3}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705666.478000, "Northing": 811254.598000, "Elev": 829.037000, "Station": 990.455000, "SurveyPtNo": 2050 }, "geometry": { "type": "Point", "coordinates": [ 1705666.477865, 811254.598452 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{621082F6-2DC8-4189-BD3B-1942155A532B}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT1", "Easting": 1705753.424000, "Northing": 811316.800000, "Elev": 835.653000, "Station": 1000.000000, "SurveyPtNo": 2085 }, "geometry": { "type": "Point", "coordinates": [ 1705753.423674, 811316.800150 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{23796818-9101-4258-9039-E119A0CD512B}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705687.976000, "Northing": 811214.119000, "Elev": 829.090000, "Station": 1035.163000, "SurveyPtNo": 2019 }, "geometry": { "type": "Point", "coordinates": [ 1705687.976356, 811214.119231 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{CDECF176-B730-46A8-83FC-5E09BEB51981}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705700.722000, "Northing": 811188.752000, "Elev": 828.988000, "Station": 1062.705000, "SurveyPtNo": 2018 }, "geometry": { "type": "Point", "coordinates": [ 1705700.722003, 811188.752266 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7E8840C1-1D8B-44F8-8A02-762C8402F267}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_02A", "Easting": 1705752.467000, "Northing": 811207.383000, "Elev": 835.249000, "Station": 1082.326000, "SurveyPtNo": 2005 }, "geometry": { "type": "Point", "coordinates": [ 1705752.467000, 811207.383000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{582B032E-B442-4569-B9EE-2A981C77FCF9}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1705714.241000, "Northing": 811153.987000, "Elev": 827.610000, "Station": 1097.878000, "SurveyPtNo": 2017 }, "geometry": { "type": "Point", "coordinates": [ 1705714.240789, 811153.986514 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A3774E78-9E7D-4E8E-9971-93E413DA63B3}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1705724.122000, "Northing": 811137.340000, "Elev": 819.792000, "Station": 1116.941000, "SurveyPtNo": 2016 }, "geometry": { "type": "Point", "coordinates": [ 1705724.121875, 811137.339889 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D3087FB3-49B8-4438-9751-1EF4DB17298D}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705724.252000, "Northing": 811133.800000, "Elev": 819.194000, "Station": 1119.710000, "SurveyPtNo": 2015 }, "geometry": { "type": "Point", "coordinates": [ 1705724.252480, 811133.799679 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{06B286B7-CA07-478A-B902-C6D7829EE861}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705724.762000, "Northing": 811130.391000, "Elev": 819.291000, "Station": 1122.627000, "SurveyPtNo": 2014 }, "geometry": { "type": "Point", "coordinates": [ 1705724.762075, 811130.391081 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E732FEB6-0F07-47E4-B14C-BB2DCFBA8452}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705725.968000, "Northing": 811127.430000, "Elev": 819.403000, "Station": 1125.658000, "SurveyPtNo": 2013 }, "geometry": { "type": "Point", "coordinates": [ 1705725.967977, 811127.430457 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{98D39753-1AEB-4D18-B994-A39949E758E9}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705726.298000, "Northing": 811123.123000, "Elev": 819.598000, "Station": 1129.138000, "SurveyPtNo": 2012 }, "geometry": { "type": "Point", "coordinates": [ 1705726.298116, 811123.122877 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{60471E5C-1832-4B78-89D4-3FAB3FA4F274}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1705727.743000, "Northing": 811118.494000, "Elev": 819.798000, "Station": 1133.590000, "SurveyPtNo": 2011 }, "geometry": { "type": "Point", "coordinates": [ 1705727.742506, 811118.493987 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{86B5B23F-8DD1-4825-98EE-0918247931B9}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1705731.971000, "Northing": 811112.213000, "Elev": 821.417000, "Station": 1141.109000, "SurveyPtNo": 2010 }, "geometry": { "type": "Point", "coordinates": [ 1705731.970577, 811112.212767 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C373097A-6BA0-4D2D-A5E5-E6F41BF823FD}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "ERM GU_S20_02", "Easting": 1705791.012000, "Northing": 811130.223000, "Elev": 828.294000, "Station": 1165.957000, "SurveyPtNo": 2004 }, "geometry": { "type": "Point", "coordinates": [ 1705791.011562, 811130.223015 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C6F6FE9E-C426-48AF-950B-BD31280A20F1}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705741.474000, "Northing": 811084.660000, "Elev": 822.884000, "Station": 1168.194000, "SurveyPtNo": 2022 }, "geometry": { "type": "Point", "coordinates": [ 1705741.474043, 811084.660235 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8F83B7CE-1A0F-4534-82C9-F5EACFCE3072}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "UIB1 10 9", "Easting": 1705792.779000, "Northing": 811124.930000, "Elev": 816.417000, "Station": 1171.123000, "SurveyPtNo": 2020 }, "geometry": { "type": "Point", "coordinates": [ 1705792.778982, 811124.930032 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A4AD3CD4-42F7-4D3F-97C6-9BD4C6986D8A}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "UIB2 10 9", "Easting": 1705798.295000, "Northing": 811116.252000, "Elev": 816.613000, "Station": 1181.299000, "SurveyPtNo": 2021 }, "geometry": { "type": "Point", "coordinates": [ 1705798.295415, 811116.252222 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B6874421-5F1D-4114-A1A4-941853466923}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705756.574000, "Northing": 811060.726000, "Elev": 823.379000, "Station": 1196.186000, "SurveyPtNo": 2023 }, "geometry": { "type": "Point", "coordinates": [ 1705756.574115, 811060.725584 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FC836521-1C1A-4BF7-BDD8-60CBF518D36E}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "UIB3 8 14", "Easting": 1705825.610000, "Northing": 811093.227000, "Elev": 821.954000, "Station": 1216.567000, "SurveyPtNo": 2024 }, "geometry": { "type": "Point", "coordinates": [ 1705825.609969, 811093.227125 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1ABB1FD3-40E7-4AA5-857B-1AC6DE2C456F}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705779.049000, "Northing": 811030.745000, "Elev": 823.225000, "Station": 1233.571000, "SurveyPtNo": 2045 }, "geometry": { "type": "Point", "coordinates": [ 1705779.048603, 811030.745273 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D483D5EE-42B0-44E0-A8F8-459C1C6349C9}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705780.916000, "Northing": 811029.014000, "Elev": 823.970000, "Station": 1236.101000, "SurveyPtNo": 2044 }, "geometry": { "type": "Point", "coordinates": [ 1705780.916363, 811029.014135 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9DC7AB78-A796-403D-96AD-158A66DE165A}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705786.689000, "Northing": 811022.456000, "Elev": 822.586000, "Station": 1244.837000, "SurveyPtNo": 2043 }, "geometry": { "type": "Point", "coordinates": [ 1705786.689111, 811022.456325 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9730D12F-8BDC-4633-8AE6-65419F2ADE6E}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "DITCH", "Easting": 1705788.377000, "Northing": 811021.372000, "Elev": 822.533000, "Station": 1246.760000, "SurveyPtNo": 2042 }, "geometry": { "type": "Point", "coordinates": [ 1705788.376798, 811021.371855 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A979175D-43FD-46D6-BF7C-3BE9B0E7AE52}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705789.577000, "Northing": 811020.384000, "Elev": 822.494000, "Station": 1248.291000, "SurveyPtNo": 2041 }, "geometry": { "type": "Point", "coordinates": [ 1705789.576538, 811020.384413 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{22D26C19-C7FB-4A63-8E17-5F47C76B4FEF}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705792.252000, "Northing": 811016.457000, "Elev": 823.738000, "Station": 1253.013000, "SurveyPtNo": 2040 }, "geometry": { "type": "Point", "coordinates": [ 1705792.251929, 811016.457339 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D30FF86C-785D-4FF1-A7CE-B7A5BDFF8292}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_02C", "Easting": 1705930.549000, "Northing": 811126.116000, "Elev": 834.533000, "Station": 1260.068000, "SurveyPtNo": 2007 }, "geometry": { "type": "Point", "coordinates": [ 1705930.549210, 811126.116128 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2B16C78B-4B43-4E63-8784-ACEA26CD1281}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705796.310000, "Northing": 811006.419000, "Elev": 823.685000, "Station": 1263.269000, "SurveyPtNo": 2039 }, "geometry": { "type": "Point", "coordinates": [ 1705796.309747, 811006.418564 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A65B91F3-668F-46A8-8E46-6AF489172BE1}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "DIB1 10 9", "Easting": 1705954.310000, "Northing": 811136.795000, "Elev": 814.987000, "Station": 1267.467000, "SurveyPtNo": 2084 }, "geometry": { "type": "Point", "coordinates": [ 1705954.310006, 811136.794785 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{CEC79E2D-6A7F-48C3-80E6-92DF455AB193}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "DIB2 10 9", "Easting": 1705960.520000, "Northing": 811128.315000, "Elev": 814.997000, "Station": 1277.946000, "SurveyPtNo": 2083 }, "geometry": { "type": "Point", "coordinates": [ 1705960.520375, 811128.315458 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2C26649F-8D49-4C09-8E10-A564D73B40EC}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705803.224000, "Northing": 810992.669000, "Elev": 824.847000, "Station": 1278.202000, "SurveyPtNo": 2038 }, "geometry": { "type": "Point", "coordinates": [ 1705803.224180, 810992.669202 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{310261EB-003E-4F38-A5F2-25563347199C}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705806.350000, "Northing": 810985.864000, "Elev": 824.823000, "Station": 1285.400000, "SurveyPtNo": 2037 }, "geometry": { "type": "Point", "coordinates": [ 1705806.350285, 810985.863734 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{BE002946-20B6-4715-9FE7-7CBB542674D2}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "DS", "Commented": 1, "Descript": "DS IN", "Easting": 1705976.353000, "Northing": 811130.304000, "Elev": 817.305000, "Station": 1286.763000, "SurveyPtNo": 2082 }, "geometry": { "type": "Point", "coordinates": [ 1705976.352802, 811130.304274 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2BFE4198-9F5D-4E75-A875-A893E97D6CEA}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705813.205000, "Northing": 810971.632000, "Elev": 826.210000, "Station": 1300.659000, "SurveyPtNo": 2036 }, "geometry": { "type": "Point", "coordinates": [ 1705813.204674, 810971.631717 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1E20ED91-E9C7-437C-9A91-A8EE911C09B7}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "DIB3 8 14", "Easting": 1705973.045000, "Northing": 811102.602000, "Elev": 821.593000, "Station": 1305.607000, "SurveyPtNo": 2025 }, "geometry": { "type": "Point", "coordinates": [ 1705973.044535, 811102.601704 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2A68B7F4-FC3A-4BFA-BEF5-11BC60886FB0}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705824.913000, "Northing": 810954.267000, "Elev": 835.920000, "Station": 1321.459000, "SurveyPtNo": 2034 }, "geometry": { "type": "Point", "coordinates": [ 1705824.912558, 810954.267141 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{EB82C0F8-41E9-4F15-ABEF-CB19A87E9BE4}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705824.075000, "Northing": 810953.287000, "Elev": 831.596000, "Station": 1321.656000, "SurveyPtNo": 2035 }, "geometry": { "type": "Point", "coordinates": [ 1705824.074950, 810953.286565 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B14BDC60-3A21-4FE6-B3A0-91AB393054B9}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705825.624000, "Northing": 810953.910000, "Elev": 835.951000, "Station": 1322.193000, "SurveyPtNo": 2033 }, "geometry": { "type": "Point", "coordinates": [ 1705825.624132, 810953.909871 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F4DBC997-F0F8-4EFB-A9CC-1590248E32A0}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705825.775000, "Northing": 810953.642000, "Elev": 834.424000, "Station": 1322.495000, "SurveyPtNo": 2032 }, "geometry": { "type": "Point", "coordinates": [ 1705825.774773, 810953.641904 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{95AF894F-F12A-41BD-A55F-831BFA3AC2ED}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705827.603000, "Northing": 810951.028000, "Elev": 834.519000, "Station": 1325.668000, "SurveyPtNo": 2031 }, "geometry": { "type": "Point", "coordinates": [ 1705827.602941, 810951.028306 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{24A1099B-CBE9-4646-AF55-61F750742E99}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705828.367000, "Northing": 810950.546000, "Elev": 833.892000, "Station": 1326.532000, "SurveyPtNo": 2030 }, "geometry": { "type": "Point", "coordinates": [ 1705828.366731, 810950.545886 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B6FF0BD2-60BC-4C0F-A66A-E518B171E41C}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705847.690000, "Northing": 810920.325000, "Elev": 835.405000, "Station": 1362.044000, "SurveyPtNo": 2029 }, "geometry": { "type": "Point", "coordinates": [ 1705847.689587, 810920.324600 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5A34F737-52C2-4FD6-8EAA-362CB7188ACB}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705848.507000, "Northing": 810918.511000, "Elev": 835.977000, "Station": 1363.952000, "SurveyPtNo": 2028 }, "geometry": { "type": "Point", "coordinates": [ 1705848.507333, 810918.510991 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5D8CEC0C-7AA9-4BDA-8D4A-B8D2D0B0F2D8}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705866.671000, "Northing": 810882.667000, "Elev": 839.555000, "Station": 1402.971000, "SurveyPtNo": 2026 }, "geometry": { "type": "Point", "coordinates": [ 1705866.670679, 810882.666575 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6B42693A-8011-447F-810D-039CE3276DB7}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705890.897000, "Northing": 810841.376000, "Elev": 848.135000, "Station": 1450.072000, "SurveyPtNo": 2027 }, "geometry": { "type": "Point", "coordinates": [ 1705890.896926, 810841.376416 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FBF93B12-4811-4EB3-87B8-22E1A3DFA72F}", "XsectName": "FIELD", "StrucName": "GU_S20_02", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT2", "Easting": 1706076.336000, "Northing": 810941.414000, "Elev": 841.128000, "Station": 1495.164000, "SurveyPtNo": 2081 }, "geometry": { "type": "Point", "coordinates": [ 1706076.335616, 810941.413504 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{29704D97-2C81-4A50-8DD2-F7EC782D3EBC}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705636.322000, "Northing": 811549.638000, "Elev": 843.004000, "Station": 747.119000, "SurveyPtNo": 2091 }, "geometry": { "type": "Point", "coordinates": [ 1705636.321904, 811549.637972 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{866728A1-559D-4E0C-B9B1-DDAAE44F68A5}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705648.920000, "Northing": 811509.871000, "Elev": 841.830000, "Station": 785.481000, "SurveyPtNo": 2090 }, "geometry": { "type": "Point", "coordinates": [ 1705648.919569, 811509.871165 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0EEF0191-7AF8-497E-B0B9-7042644960A1}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705663.701000, "Northing": 811463.608000, "Elev": 840.441000, "Station": 830.193000, "SurveyPtNo": 2089 }, "geometry": { "type": "Point", "coordinates": [ 1705663.700882, 811463.607769 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E55DB05E-2AEC-43AB-AD69-B36890341AD7}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705678.329000, "Northing": 811419.257000, "Elev": 839.383000, "Station": 873.355000, "SurveyPtNo": 2088 }, "geometry": { "type": "Point", "coordinates": [ 1705678.329264, 811419.257022 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7C618B1D-CF22-4A0F-B611-F4EB83A1BCBD}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705697.200000, "Northing": 811367.424000, "Elev": 838.382000, "Station": 924.956000, "SurveyPtNo": 2087 }, "geometry": { "type": "Point", "coordinates": [ 1705697.199834, 811367.423935 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E8A18D4A-4891-4BE5-80FF-CD0DCAC9E2F9}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705710.553000, "Northing": 811335.921000, "Elev": 837.884000, "Station": 957.547000, "SurveyPtNo": 2070 }, "geometry": { "type": "Point", "coordinates": [ 1705710.552991, 811335.921088 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FA7136A8-74B9-40C5-8834-9AE8EB71EB5A}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705732.735000, "Northing": 811289.219000, "Elev": 837.260000, "Station": 1007.417000, "SurveyPtNo": 2071 }, "geometry": { "type": "Point", "coordinates": [ 1705732.734666, 811289.218992 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9498BE53-F5E9-41D1-B8E3-F4126CC1CB77}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705756.496000, "Northing": 811244.840000, "Elev": 836.621000, "Station": 1056.557000, "SurveyPtNo": 2072 }, "geometry": { "type": "Point", "coordinates": [ 1705756.496010, 811244.839820 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{75EC668F-B22E-4D72-9250-EA85332DE947}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705782.241000, "Northing": 811201.860000, "Elev": 836.256000, "Station": 1105.930000, "SurveyPtNo": 2073 }, "geometry": { "type": "Point", "coordinates": [ 1705782.241146, 811201.859605 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{792C6BCA-754F-45B6-A0E6-7137269A4D53}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705812.942000, "Northing": 811156.333000, "Elev": 836.227000, "Station": 1160.465000, "SurveyPtNo": 2074 }, "geometry": { "type": "Point", "coordinates": [ 1705812.941719, 811156.332690 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1081AB8B-3B8E-4424-A77D-F3FF74B494E2}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705846.581000, "Northing": 811111.539000, "Elev": 836.115000, "Station": 1216.361000, "SurveyPtNo": 2075 }, "geometry": { "type": "Point", "coordinates": [ 1705846.581215, 811111.538564 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E72E750E-7F5E-48DE-9923-80501835E526}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705880.617000, "Northing": 811071.371000, "Elev": 836.314000, "Station": 1269.008000, "SurveyPtNo": 2076 }, "geometry": { "type": "Point", "coordinates": [ 1705880.616544, 811071.370579 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8A635179-D904-4CDF-9529-7A05C90BB29C}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705915.037000, "Northing": 811030.963000, "Elev": 836.891000, "Station": 1322.088000, "SurveyPtNo": 2077 }, "geometry": { "type": "Point", "coordinates": [ 1705915.037324, 811030.962785 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{565657CF-82D0-4A29-A8FD-9BB60999E5E1}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705949.387000, "Northing": 810990.796000, "Elev": 837.541000, "Station": 1374.940000, "SurveyPtNo": 2078 }, "geometry": { "type": "Point", "coordinates": [ 1705949.386628, 810990.795643 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D3C0AF73-9975-445E-AB93-20AF8689B591}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705989.969000, "Northing": 810944.981000, "Elev": 838.727000, "Station": 1436.137000, "SurveyPtNo": 2079 }, "geometry": { "type": "Point", "coordinates": [ 1705989.969117, 810944.980945 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{465281F7-C193-4ECB-9BE3-6E0E628B7972}", "XsectName": "TOR", "StrucName": "GU_S20_02", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1706026.401000, "Northing": 810903.109000, "Elev": 840.142000, "Station": 1491.639000, "SurveyPtNo": 2080 }, "geometry": { "type": "Point", "coordinates": [ 1706026.401336, 810903.109497 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8A1B2B33-864C-47A9-8074-BEB0A6808152}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_07B", "Easting": 1703589.181000, "Northing": 811401.934000, "Elev": 879.634000, "Station": 527.617000, "SurveyPtNo": 6006 }, "geometry": { "type": "Point", "coordinates": [ 1703589.181000, 811401.934000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0D7CC157-D256-42D0-9E8E-703BA494AA0C}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR BLDG", "Easting": 1703920.759000, "Northing": 810958.623000, "Elev": 861.544000, "Station": 894.033000, "SurveyPtNo": 6075 }, "geometry": { "type": "Point", "coordinates": [ 1703920.759337, 810958.623422 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{4AF7B164-D765-473F-8DFA-EAD0E7BF4669}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR BLDG", "Easting": 1703920.917000, "Northing": 810958.269000, "Elev": 846.529000, "Station": 894.348000, "SurveyPtNo": 6074 }, "geometry": { "type": "Point", "coordinates": [ 1703920.917313, 810958.268768 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D6FF29D7-DE3E-4F4D-8CDF-11809E685B01}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703919.016000, "Northing": 810926.580000, "Elev": 845.500000, "Station": 925.760000, "SurveyPtNo": 6076 }, "geometry": { "type": "Point", "coordinates": [ 1703919.015996, 810926.579573 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{66DCCBF5-B4D6-4D4A-8B45-97D1A5C232E7}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703916.084000, "Northing": 810898.460000, "Elev": 843.816000, "Station": 953.886000, "SurveyPtNo": 6077 }, "geometry": { "type": "Point", "coordinates": [ 1703916.084327, 810898.460232 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7CA9C289-2B16-4045-B8E2-CE4012530489}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703913.855000, "Northing": 810875.435000, "Elev": 838.802000, "Station": 976.882000, "SurveyPtNo": 6078 }, "geometry": { "type": "Point", "coordinates": [ 1703913.855499, 810875.435390 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D9FC8949-94D0-43E2-9309-DCE80394D7B6}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703913.942000, "Northing": 810874.869000, "Elev": 838.339000, "Station": 977.418000, "SurveyPtNo": 6079 }, "geometry": { "type": "Point", "coordinates": [ 1703913.942442, 810874.869497 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{18F12006-6141-4E69-8EFD-A6EA10D3C80F}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703913.595000, "Northing": 810856.795000, "Elev": 838.751000, "Station": 995.184000, "SurveyPtNo": 6080 }, "geometry": { "type": "Point", "coordinates": [ 1703913.594939, 810856.795179 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FB6D6E0A-6ACF-495F-B74A-C3C098A27F21}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT1", "Easting": 1703928.896000, "Northing": 810848.690000, "Elev": 838.698000, "Station": 1000.000000, "SurveyPtNo": 6087 }, "geometry": { "type": "Point", "coordinates": [ 1703928.895543, 810848.690232 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D9FC78F9-D5F3-41DE-A47E-3BE92D5BA710}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703911.083000, "Northing": 810845.853000, "Elev": 838.436000, "Station": 1006.408000, "SurveyPtNo": 6081 }, "geometry": { "type": "Point", "coordinates": [ 1703911.083359, 810845.853108 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7516E5CF-C711-4563-A8AB-80A7617A2D5D}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703910.948000, "Northing": 810845.168000, "Elev": 838.903000, "Station": 1007.107000, "SurveyPtNo": 6082 }, "geometry": { "type": "Point", "coordinates": [ 1703910.948123, 810845.167664 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{749D877D-F8E3-4544-90DF-2A284F9D6227}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703910.577000, "Northing": 810842.889000, "Elev": 839.057000, "Station": 1009.413000, "SurveyPtNo": 6083 }, "geometry": { "type": "Point", "coordinates": [ 1703910.577192, 810842.889085 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D7919AAB-9499-491A-9FAD-1F4574BA302F}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703906.156000, "Northing": 810828.803000, "Elev": 838.278000, "Station": 1024.105000, "SurveyPtNo": 6084 }, "geometry": { "type": "Point", "coordinates": [ 1703906.156317, 810828.802949 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8ED4E15D-23DE-45DB-9ABD-0709315A61C5}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703901.241000, "Northing": 810809.459000, "Elev": 836.952000, "Station": 1044.045000, "SurveyPtNo": 6085 }, "geometry": { "type": "Point", "coordinates": [ 1703901.240535, 810809.459016 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{168E1C4F-0DA8-4CBF-B53D-E3C009A57A3D}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_06C", "Easting": 1703925.549000, "Northing": 810799.323000, "Elev": 836.799000, "Station": 1049.013000, "SurveyPtNo": 6010 }, "geometry": { "type": "Point", "coordinates": [ 1703925.549297, 810799.322723 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{35504002-EF1F-47C2-84F9-21FA49A712FE}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703898.041000, "Northing": 810791.075000, "Elev": 836.955000, "Station": 1062.695000, "SurveyPtNo": 6086 }, "geometry": { "type": "Point", "coordinates": [ 1703898.041417, 810791.075161 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{759BB900-E9E6-4A2C-BFFE-B6D330F5D13B}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "DS", "Commented": 1, "Descript": "DS IN", "Easting": 1703919.328000, "Northing": 810769.178000, "Elev": 832.146000, "Station": 1079.793000, "SurveyPtNo": 6024 }, "geometry": { "type": "Point", "coordinates": [ 1703919.328259, 810769.177799 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{65E45D5D-B830-4B55-81CC-AD0BAA246007}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1703889.450000, "Northing": 810771.924000, "Elev": 837.559000, "Station": 1083.195000, "SurveyPtNo": 6025 }, "geometry": { "type": "Point", "coordinates": [ 1703889.450034, 810771.924031 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B9AC79FA-050E-409F-8AE9-CDF7C2E8E094}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1703889.542000, "Northing": 810762.724000, "Elev": 832.559000, "Station": 1092.183000, "SurveyPtNo": 6026 }, "geometry": { "type": "Point", "coordinates": [ 1703889.542069, 810762.724031 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0F6AA918-19E4-48F6-A805-C4F136D8CC1A}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1703889.995000, "Northing": 810761.038000, "Elev": 831.699000, "Station": 1093.741000, "SurveyPtNo": 6027 }, "geometry": { "type": "Point", "coordinates": [ 1703889.994732, 810761.037921 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DE55216C-74EF-411C-B33A-A9DD47B2CAEC}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1703890.616000, "Northing": 810759.184000, "Elev": 831.506000, "Station": 1095.430000, "SurveyPtNo": 6028 }, "geometry": { "type": "Point", "coordinates": [ 1703890.615627, 810759.183618 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F25EDE55-C9AB-497D-B307-7CE5C6A54E0B}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1703890.598000, "Northing": 810755.916000, "Elev": 831.699000, "Station": 1098.633000, "SurveyPtNo": 6029 }, "geometry": { "type": "Point", "coordinates": [ 1703890.598338, 810755.916209 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{61DF46F4-12DD-40A6-932C-2F4929EFEB6E}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1703890.111000, "Northing": 810754.146000, "Elev": 832.174000, "Station": 1100.465000, "SurveyPtNo": 6030 }, "geometry": { "type": "Point", "coordinates": [ 1703890.111484, 810754.145593 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D699879D-3E3C-4C34-B45B-1DBC82670F4B}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1703889.678000, "Northing": 810753.075000, "Elev": 832.500000, "Station": 1101.602000, "SurveyPtNo": 6031 }, "geometry": { "type": "Point", "coordinates": [ 1703889.678173, 810753.075059 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F736B70C-2A99-4D0B-B12B-21A2524AE67E}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1703890.050000, "Northing": 810749.275000, "Elev": 837.162000, "Station": 1105.246000, "SurveyPtNo": 6032 }, "geometry": { "type": "Point", "coordinates": [ 1703890.049653, 810749.274744 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FA09A28F-2835-4EFE-860F-942C1DEE34A2}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703890.087000, "Northing": 810731.473000, "Elev": 837.891000, "Station": 1122.667000, "SurveyPtNo": 6033 }, "geometry": { "type": "Point", "coordinates": [ 1703890.087329, 810731.473218 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{11CD9A56-A12E-4321-A11A-6D045C4B292E}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "SPECIAL", "Commented": 1, "Descript": "BS CK", "Easting": 1703655.681000, "Northing": 810776.357000, "Elev": 850.328000, "Station": 1126.506000, "SurveyPtNo": 6088 }, "geometry": { "type": "Point", "coordinates": [ 1703655.681335, 810776.356570 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{488BDAA7-232A-4342-BF45-3C1AF55BF4BB}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "SPECIAL", "Commented": 1, "Descript": "DATE 10-06-11", "Easting": 1703655.683000, "Northing": 810776.344000, "Elev": 850.349000, "Station": 1126.518000, "SurveyPtNo": 6002 }, "geometry": { "type": "Point", "coordinates": [ 1703655.683462, 810776.343573 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{760B99D6-C0E7-4DC9-80D4-7C17777D1E27}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_07A FLD", "Easting": 1703655.683000, "Northing": 810776.344000, "Elev": 850.348000, "Station": 1126.518000, "SurveyPtNo": 6003 }, "geometry": { "type": "Point", "coordinates": [ 1703655.683399, 810776.343568 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2BC87D13-D71E-4E30-BF3E-71E10BB5854E}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_07A", "Easting": 1703655.673000, "Northing": 810776.344000, "Elev": 850.329000, "Station": 1126.520000, "SurveyPtNo": 6005 }, "geometry": { "type": "Point", "coordinates": [ 1703655.673000, 810776.344000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9676DCF5-C19B-4D03-8283-F36D25AA4238}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703890.796000, "Northing": 810719.639000, "Elev": 838.440000, "Station": 1134.108000, "SurveyPtNo": 6034 }, "geometry": { "type": "Point", "coordinates": [ 1703890.796153, 810719.638812 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9A7A2BA7-EA4C-4E1A-BC81-DFD8A076DEFB}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703888.538000, "Northing": 810705.527000, "Elev": 841.475000, "Station": 1148.384000, "SurveyPtNo": 6035 }, "geometry": { "type": "Point", "coordinates": [ 1703888.537535, 810705.526635 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{90D0D3DD-59ED-4B47-A3E5-EC616E87CB2C}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703887.141000, "Northing": 810701.988000, "Elev": 841.460000, "Station": 1152.133000, "SurveyPtNo": 6036 }, "geometry": { "type": "Point", "coordinates": [ 1703887.141367, 810701.988433 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F684D547-2A3F-4676-80CD-14812E69A57C}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703887.028000, "Northing": 810701.584000, "Elev": 840.990000, "Station": 1152.552000, "SurveyPtNo": 6037 }, "geometry": { "type": "Point", "coordinates": [ 1703887.027816, 810701.584112 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6991B43D-1348-4C3B-8F71-CF5217D01259}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703883.814000, "Northing": 810688.201000, "Elev": 841.647000, "Station": 1166.309000, "SurveyPtNo": 6038 }, "geometry": { "type": "Point", "coordinates": [ 1703883.813976, 810688.200620 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D6B6332F-E321-49B0-B772-BF9218AC9BAB}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703881.334000, "Northing": 810673.954000, "Elev": 841.420000, "Station": 1180.762000, "SurveyPtNo": 6039 }, "geometry": { "type": "Point", "coordinates": [ 1703881.334056, 810673.954486 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1680D8A5-D223-43BD-94BC-F72A555B4087}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703880.985000, "Northing": 810672.965000, "Elev": 841.787000, "Station": 1181.801000, "SurveyPtNo": 6040 }, "geometry": { "type": "Point", "coordinates": [ 1703880.985236, 810672.965437 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5D353EC7-0D8B-4CD6-88D7-015E47736629}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT2", "Easting": 1703885.795000, "Northing": 810641.680000, "Elev": 845.432000, "Station": 1211.449000, "SurveyPtNo": 6049 }, "geometry": { "type": "Point", "coordinates": [ 1703885.794821, 810641.680417 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1AB88338-145E-42F7-8B62-E49CE74924EA}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703874.183000, "Northing": 810642.412000, "Elev": 844.928000, "Station": 1213.100000, "SurveyPtNo": 6041 }, "geometry": { "type": "Point", "coordinates": [ 1703874.183046, 810642.411627 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B5A01210-0053-4CDA-A9AA-36FFCB14C58A}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703871.247000, "Northing": 810628.755000, "Elev": 846.909000, "Station": 1227.069000, "SurveyPtNo": 6042 }, "geometry": { "type": "Point", "coordinates": [ 1703871.247295, 810628.754638 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7025D266-2039-41B1-ADD0-A7B2501C5A35}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703868.649000, "Northing": 810621.749000, "Elev": 849.432000, "Station": 1234.457000, "SurveyPtNo": 6043 }, "geometry": { "type": "Point", "coordinates": [ 1703868.648995, 810621.749367 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{26FA1630-A98D-4635-975D-4926852F1E42}", "XsectName": "FIELD", "StrucName": "GU_S20_06", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703868.763000, "Northing": 810603.244000, "Elev": 855.027000, "Station": 1252.550000, "SurveyPtNo": 6044 }, "geometry": { "type": "Point", "coordinates": [ 1703868.762846, 810603.244388 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C8A3C5ED-DA2C-4EB7-B35A-7D66AA90BDAA}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703949.416000, "Northing": 810986.665000, "Elev": 852.176000, "Station": 860.739000, "SurveyPtNo": 6073 }, "geometry": { "type": "Point", "coordinates": [ 1703949.416184, 810986.665079 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{466503AE-2395-4759-A7FE-A75A1FFC93C9}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703948.151000, "Northing": 810979.319000, "Elev": 851.720000, "Station": 868.189000, "SurveyPtNo": 6072 }, "geometry": { "type": "Point", "coordinates": [ 1703948.151327, 810979.318561 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3D64A5CF-0D3B-479B-BB06-AD605908FD79}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703946.597000, "Northing": 810970.736000, "Elev": 851.233000, "Station": 876.909000, "SurveyPtNo": 6071 }, "geometry": { "type": "Point", "coordinates": [ 1703946.596816, 810970.735788 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6F801EDC-6E85-4F6E-A816-DD6B28264D5E}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703945.563000, "Northing": 810952.383000, "Elev": 847.521000, "Station": 895.087000, "SurveyPtNo": 6070 }, "geometry": { "type": "Point", "coordinates": [ 1703945.562520, 810952.383124 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1A61942F-B30F-4FFC-9901-F84B61DA6960}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703945.344000, "Northing": 810951.950000, "Elev": 846.851000, "Station": 895.556000, "SurveyPtNo": 6069 }, "geometry": { "type": "Point", "coordinates": [ 1703945.344044, 810951.949578 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8BB08825-AB83-4401-9456-309F04F7D36D}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703939.991000, "Northing": 810924.446000, "Elev": 844.871000, "Station": 923.573000, "SurveyPtNo": 6068 }, "geometry": { "type": "Point", "coordinates": [ 1703939.991348, 810924.445829 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B29A4FF8-5655-468C-8B5B-3DB7DEDE5854}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703934.679000, "Northing": 810890.064000, "Elev": 841.163000, "Station": 958.316000, "SurveyPtNo": 6067 }, "geometry": { "type": "Point", "coordinates": [ 1703934.678768, 810890.063660 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0D6F0D1E-0190-4F14-ABA5-CFB6F3784687}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703932.524000, "Northing": 810880.154000, "Elev": 838.501000, "Station": 968.457000, "SurveyPtNo": 6066 }, "geometry": { "type": "Point", "coordinates": [ 1703932.523872, 810880.153772 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E79360DC-C97D-4952-9469-E48870D5C25A}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703932.441000, "Northing": 810879.564000, "Elev": 838.044000, "Station": 969.052000, "SurveyPtNo": 6065 }, "geometry": { "type": "Point", "coordinates": [ 1703932.441241, 810879.564027 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6AA48A44-EC91-4111-84B2-C5AE24A67201}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703929.896000, "Northing": 810864.386000, "Elev": 838.561000, "Station": 984.430000, "SurveyPtNo": 6064 }, "geometry": { "type": "Point", "coordinates": [ 1703929.896372, 810864.385843 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{4B71F09A-EA1E-4087-A43C-82AE28DE1747}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703928.044000, "Northing": 810849.935000, "Elev": 838.123000, "Station": 998.955000, "SurveyPtNo": 6063 }, "geometry": { "type": "Point", "coordinates": [ 1703928.044263, 810849.934884 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{49A696D3-3E79-4144-9AD8-1EFA6A7DEF43}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703927.915000, "Northing": 810849.230000, "Elev": 838.593000, "Station": 999.671000, "SurveyPtNo": 6062 }, "geometry": { "type": "Point", "coordinates": [ 1703927.915195, 810849.230444 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{85B16E68-2D1A-4F2F-A8B4-C1213AF0054E}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703927.398000, "Northing": 810845.545000, "Elev": 838.695000, "Station": 1003.384000, "SurveyPtNo": 6061 }, "geometry": { "type": "Point", "coordinates": [ 1703927.398327, 810845.545305 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{EBE6B9E6-811E-4E3A-B7ED-6654C663A066}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703922.659000, "Northing": 810819.333000, "Elev": 837.018000, "Station": 1030.012000, "SurveyPtNo": 6060 }, "geometry": { "type": "Point", "coordinates": [ 1703922.659041, 810819.332815 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DEC13A08-DC8F-46A1-B212-DCD2224E133B}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703916.880000, "Northing": 810794.109000, "Elev": 837.050000, "Station": 1055.885000, "SurveyPtNo": 6059 }, "geometry": { "type": "Point", "coordinates": [ 1703916.880145, 810794.108550 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B1189D9D-2CC1-41B5-8187-6BDD354D7C03}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "BEGIN", "Commented": 0, "Descript": "BEGIN", "Easting": 1703916.544000, "Northing": 810792.803000, "Elev": 837.088000, "Station": 1057.231000, "SurveyPtNo": 6011 }, "geometry": { "type": "Point", "coordinates": [ 1703916.543757, 810792.803450 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{88F5D0A1-3947-4098-9AB0-AA08F300C8F1}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703914.469000, "Northing": 810781.588000, "Elev": 837.905000, "Station": 1068.634000, "SurveyPtNo": 6014 }, "geometry": { "type": "Point", "coordinates": [ 1703914.468863, 810781.587789 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B1D9AA05-73C2-48D8-8D40-2E514800EB81}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703912.411000, "Northing": 810771.656000, "Elev": 838.174000, "Station": 1078.777000, "SurveyPtNo": 6015 }, "geometry": { "type": "Point", "coordinates": [ 1703912.411063, 810771.655661 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F46E6CE9-CCB3-4FB8-8728-FB91FD37C269}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703910.354000, "Northing": 810759.315000, "Elev": 837.885000, "Station": 1091.278000, "SurveyPtNo": 6018 }, "geometry": { "type": "Point", "coordinates": [ 1703910.353837, 810759.314994 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{53B2F2B0-8317-4CA5-9369-7385340143B6}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "END", "Commented": 0, "Descript": "END", "Easting": 1703908.045000, "Northing": 810748.079000, "Elev": 837.066000, "Station": 1102.749000, "SurveyPtNo": 6019 }, "geometry": { "type": "Point", "coordinates": [ 1703908.044681, 810748.079019 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5CA23CCE-E4B3-423E-B074-338B1084A2D3}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703907.471000, "Northing": 810746.728000, "Elev": 837.039000, "Station": 1104.188000, "SurveyPtNo": 6058 }, "geometry": { "type": "Point", "coordinates": [ 1703907.470741, 810746.728313 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FB806957-2190-499F-B812-63FCD492FDA3}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703903.650000, "Northing": 810726.885000, "Elev": 838.163000, "Station": 1124.394000, "SurveyPtNo": 6057 }, "geometry": { "type": "Point", "coordinates": [ 1703903.650473, 810726.885216 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{16ADDA55-5078-4780-947F-36C98D3BE83D}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703900.989000, "Northing": 810708.980000, "Elev": 841.155000, "Station": 1142.465000, "SurveyPtNo": 6056 }, "geometry": { "type": "Point", "coordinates": [ 1703900.988853, 810708.980252 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6B4135EB-D238-465C-8DE8-1FF2D879A2D2}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703900.160000, "Northing": 810705.290000, "Elev": 841.265000, "Station": 1146.247000, "SurveyPtNo": 6055 }, "geometry": { "type": "Point", "coordinates": [ 1703900.160280, 810705.289852 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0666FD08-97D9-4D9B-960D-5735E84DF4D4}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703900.009000, "Northing": 810704.731000, "Elev": 840.779000, "Station": 1146.825000, "SurveyPtNo": 6054 }, "geometry": { "type": "Point", "coordinates": [ 1703900.009404, 810704.731054 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{97EA06DD-E94C-4B70-B863-9D3D0E07C336}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703896.890000, "Northing": 810690.838000, "Elev": 841.392000, "Station": 1161.062000, "SurveyPtNo": 6053 }, "geometry": { "type": "Point", "coordinates": [ 1703896.890001, 810690.838354 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FE5D67C0-91D5-4A2E-86A2-1986108DB51C}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703893.802000, "Northing": 810676.828000, "Elev": 841.141000, "Station": 1175.408000, "SurveyPtNo": 6052 }, "geometry": { "type": "Point", "coordinates": [ 1703893.801632, 810676.827650 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7F0B7E15-A22B-406E-A6EF-7437E7CA3AA6}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703893.458000, "Northing": 810676.149000, "Elev": 841.664000, "Station": 1176.142000, "SurveyPtNo": 6051 }, "geometry": { "type": "Point", "coordinates": [ 1703893.458004, 810676.148695 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1228568D-8CD3-4F87-B07A-0136A609F4EC}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703891.771000, "Northing": 810669.189000, "Elev": 841.768000, "Station": 1183.300000, "SurveyPtNo": 6050 }, "geometry": { "type": "Point", "coordinates": [ 1703891.771286, 810669.188626 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A51578F2-C7C8-4975-B597-A43A09D5D7F8}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703885.795000, "Northing": 810641.681000, "Elev": 845.434000, "Station": 1211.449000, "SurveyPtNo": 6048 }, "geometry": { "type": "Point", "coordinates": [ 1703885.794850, 810641.680532 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{39A7A2BB-FDF5-4542-9CAC-C61228DBB4A4}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703883.250000, "Northing": 810625.866000, "Elev": 847.333000, "Station": 1227.450000, "SurveyPtNo": 6046 }, "geometry": { "type": "Point", "coordinates": [ 1703883.250266, 810625.866378 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5AD47154-B013-43F2-9E6E-69DB0B6B9071}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR BLDG", "Easting": 1703885.967000, "Northing": 810620.765000, "Elev": 848.099000, "Station": 1231.890000, "SurveyPtNo": 6090 }, "geometry": { "type": "Point", "coordinates": [ 1703885.967131, 810620.765248 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C0699563-7E2A-4C94-A3DB-0CF45214002C}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR BLDG", "Easting": 1703885.797000, "Northing": 810620.765000, "Elev": 856.099000, "Station": 1231.925000, "SurveyPtNo": 6047 }, "geometry": { "type": "Point", "coordinates": [ 1703885.797131, 810620.765248 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{00969942-CEFF-4058-B46A-14D3600D9B5A}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR BLDG", "Easting": 1703885.007000, "Northing": 810620.765000, "Elev": 848.099000, "Station": 1232.086000, "SurveyPtNo": 6089 }, "geometry": { "type": "Point", "coordinates": [ 1703885.007131, 810620.765248 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7E7F614F-4578-479D-AA96-445A78571223}", "XsectName": "TOR", "StrucName": "GU_S20_06", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703878.711000, "Northing": 810606.066000, "Elev": 853.418000, "Station": 1247.760000, "SurveyPtNo": 6045 }, "geometry": { "type": "Point", "coordinates": [ 1703878.710544, 810606.066131 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A25ACA6A-3EE2-4ADA-B6A4-3EA968FFD3ED}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_07B FLD", "Easting": 1703589.160000, "Northing": 811402.102000, "Elev": 879.663000, "Station": 530.677000, "SurveyPtNo": 7003 }, "geometry": { "type": "Point", "coordinates": [ 1703589.160126, 811402.101527 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F2478B35-0900-43E6-B609-B331D078FBDF}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "DATE 10-06-11", "Easting": 1703589.160000, "Northing": 811402.101000, "Elev": 879.669000, "Station": 530.678000, "SurveyPtNo": 7002 }, "geometry": { "type": "Point", "coordinates": [ 1703589.160156, 811402.101250 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{309029A5-FD5C-4484-9527-A6E6942D5F5D}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "BS CK", "Easting": 1703589.080000, "Northing": 811402.073000, "Elev": 879.668000, "Station": 530.709000, "SurveyPtNo": 7052 }, "geometry": { "type": "Point", "coordinates": [ 1703589.080359, 811402.072671 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6B65FD21-D012-4D79-8F23-762125FAB699}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_07B", "Easting": 1703589.181000, "Northing": 811401.934000, "Elev": 879.634000, "Station": 530.844000, "SurveyPtNo": 7006 }, "geometry": { "type": "Point", "coordinates": [ 1703589.181000, 811401.934000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C4C798FF-987C-4EF3-8BDE-6727B53C085E}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703514.220000, "Northing": 810938.177000, "Elev": 856.108000, "Station": 997.005000, "SurveyPtNo": 7034 }, "geometry": { "type": "Point", "coordinates": [ 1703514.220371, 810938.176778 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B0486B42-9909-47FD-A62A-C9B4FE247889}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT1", "Easting": 1703592.914000, "Northing": 810932.337000, "Elev": 854.914000, "Station": 1000.000000, "SurveyPtNo": 7037 }, "geometry": { "type": "Point", "coordinates": [ 1703592.913863, 810932.337155 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{97E9CA91-C735-4E3E-955C-2C7364C2D56C}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703506.558000, "Northing": 810900.537000, "Elev": 850.663000, "Station": 1034.896000, "SurveyPtNo": 7033 }, "geometry": { "type": "Point", "coordinates": [ 1703506.558275, 810900.537327 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{43157625-3E29-46C6-9E9B-96A0C3D45CB3}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703502.539000, "Northing": 810891.463000, "Elev": 850.124000, "Station": 1044.110000, "SurveyPtNo": 7032 }, "geometry": { "type": "Point", "coordinates": [ 1703502.539427, 810891.462519 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8A114A7C-2DC3-434B-9106-F10B65E1CE26}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703502.165000, "Northing": 810891.059000, "Elev": 849.702000, "Station": 1044.527000, "SurveyPtNo": 7031 }, "geometry": { "type": "Point", "coordinates": [ 1703502.165138, 810891.059284 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{080B85C2-2242-46F9-962B-9473309E0673}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703503.461000, "Northing": 810865.238000, "Elev": 849.018000, "Station": 1070.285000, "SurveyPtNo": 7030 }, "geometry": { "type": "Point", "coordinates": [ 1703503.460535, 810865.238077 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{745187A1-9334-4B01-9370-4125C6EDBB2C}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703486.744000, "Northing": 810840.267000, "Elev": 848.202000, "Station": 1095.843000, "SurveyPtNo": 7029 }, "geometry": { "type": "Point", "coordinates": [ 1703486.744017, 810840.266584 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3BDB6EC6-4060-462E-86CC-7C1C43D1EA56}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703486.424000, "Northing": 810836.391000, "Elev": 848.631000, "Station": 1099.728000, "SurveyPtNo": 7028 }, "geometry": { "type": "Point", "coordinates": [ 1703486.424477, 810836.390507 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9E3BD081-3761-45D6-9764-9922E83BEE09}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703485.769000, "Northing": 810807.110000, "Elev": 848.880000, "Station": 1129.013000, "SurveyPtNo": 7027 }, "geometry": { "type": "Point", "coordinates": [ 1703485.768820, 810807.110011 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B672205E-7BDA-4360-B6FE-3DAF43F62F6C}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703484.843000, "Northing": 810787.427000, "Elev": 846.794000, "Station": 1148.717000, "SurveyPtNo": 7026 }, "geometry": { "type": "Point", "coordinates": [ 1703484.843308, 810787.427455 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{74D87CFC-8C39-4799-81E8-F2760511B493}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_07A", "Easting": 1703655.673000, "Northing": 810776.344000, "Elev": 850.329000, "Station": 1153.626000, "SurveyPtNo": 7005 }, "geometry": { "type": "Point", "coordinates": [ 1703655.673000, 810776.344000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1FAF8992-B15A-4E9E-838F-06B040E0A9C3}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "07A BS CK", "Easting": 1703655.676000, "Northing": 810776.342000, "Elev": 850.356000, "Station": 1153.628000, "SurveyPtNo": 7072 }, "geometry": { "type": "Point", "coordinates": [ 1703655.675671, 810776.341964 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B4400758-2413-4141-99E6-2AEBF285E7EE}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "REF3 NE FARRIS", "Easting": 1703651.627000, "Northing": 810765.062000, "Elev": 851.649000, "Station": 1165.047000, "SurveyPtNo": 7009 }, "geometry": { "type": "Point", "coordinates": [ 1703651.626875, 810765.061508 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2B7A2347-F831-4B1C-9AE6-8672F5292CD9}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703481.625000, "Northing": 810740.488000, "Elev": 845.744000, "Station": 1195.742000, "SurveyPtNo": 7025 }, "geometry": { "type": "Point", "coordinates": [ 1703481.625190, 810740.487619 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FB2F1EE5-AE75-42B1-A48F-CE5227519295}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703483.288000, "Northing": 810718.019000, "Elev": 844.714000, "Station": 1218.136000, "SurveyPtNo": 7060 }, "geometry": { "type": "Point", "coordinates": [ 1703483.288209, 810718.019323 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{05A07A68-BFA9-48BE-99DB-F9E93A57CB4D}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "DIB1 8 8", "Easting": 1703655.000000, "Northing": 810706.981000, "Elev": 835.481000, "Station": 1222.968000, "SurveyPtNo": 7017 }, "geometry": { "type": "Point", "coordinates": [ 1703655.000497, 810706.981019 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{40638B53-4596-45A0-A945-3D0141847CFD}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "DS", "Commented": 1, "Descript": "DS IN", "Easting": 1703660.581000, "Northing": 810705.322000, "Elev": 835.681000, "Station": 1224.424000, "SurveyPtNo": 7018 }, "geometry": { "type": "Point", "coordinates": [ 1703660.580595, 810705.322169 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{CFC92135-522D-4603-B98C-C2FA24342350}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "DIB2 8 8", "Easting": 1703654.662000, "Northing": 810697.808000, "Elev": 835.469000, "Station": 1232.147000, "SurveyPtNo": 7016 }, "geometry": { "type": "Point", "coordinates": [ 1703654.661756, 810697.808125 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8E8266D4-3ECA-4158-8057-3BA3900A599E}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "ERM GU_S20_07", "Easting": 1703566.919000, "Northing": 810691.168000, "Elev": 849.573000, "Station": 1241.950000, "SurveyPtNo": 7004 }, "geometry": { "type": "Point", "coordinates": [ 1703566.919029, 810691.168179 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7BF4DFFF-70DF-41D8-AD3C-E78AAE587F47}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "UIB1 8 8", "Easting": 1703565.787000, "Northing": 810687.049000, "Elev": 836.354000, "Station": 1246.108000, "SurveyPtNo": 7012 }, "geometry": { "type": "Point", "coordinates": [ 1703565.787478, 810687.048982 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{41229AD2-597C-40D6-BE33-1021682DEB8D}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "US INV POOL", "Easting": 1703557.701000, "Northing": 810678.817000, "Elev": 836.127000, "Station": 1254.626000, "SurveyPtNo": 7011 }, "geometry": { "type": "Point", "coordinates": [ 1703557.700757, 810678.817000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{BD7712B2-2BF0-49CB-8378-FC14DE59915D}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "UIB2 8 8", "Easting": 1703565.733000, "Northing": 810677.985000, "Elev": 836.383000, "Station": 1255.168000, "SurveyPtNo": 7013 }, "geometry": { "type": "Point", "coordinates": [ 1703565.732768, 810677.984639 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{22060FCE-E947-4946-93D2-C736DBCE004B}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "DIB3 8 12", "Easting": 1703656.719000, "Northing": 810673.174000, "Elev": 841.214000, "Station": 1256.691000, "SurveyPtNo": 7015 }, "geometry": { "type": "Point", "coordinates": [ 1703656.719041, 810673.173642 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E9FB98D9-6ACA-4F3B-BB6C-7971DE7721F2}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1703486.074000, "Northing": 810676.124000, "Elev": 840.925000, "Station": 1259.903000, "SurveyPtNo": 7059 }, "geometry": { "type": "Point", "coordinates": [ 1703486.073910, 810676.123563 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0FE35616-0A5C-4D90-B338-4C2616B0E7BD}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "REF2 PP OSMO2005", "Easting": 1703580.937000, "Northing": 810666.830000, "Elev": 853.014000, "Station": 1265.766000, "SurveyPtNo": 7008 }, "geometry": { "type": "Point", "coordinates": [ 1703580.936626, 810666.830404 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9C89AC4B-768D-4F3F-9A93-12D42F6840BD}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1703487.847000, "Northing": 810666.903000, "Elev": 836.961000, "Station": 1269.054000, "SurveyPtNo": 7058 }, "geometry": { "type": "Point", "coordinates": [ 1703487.846787, 810666.902871 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{AA330F7D-2285-4E1D-A8DE-465948BE19DC}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1703488.105000, "Northing": 810664.980000, "Elev": 836.632000, "Station": 1270.966000, "SurveyPtNo": 7057 }, "geometry": { "type": "Point", "coordinates": [ 1703488.104921, 810664.980254 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5EF91A92-E226-4C7B-BD4F-15411FA709F5}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1703488.763000, "Northing": 810661.535000, "Elev": 836.654000, "Station": 1274.386000, "SurveyPtNo": 7056 }, "geometry": { "type": "Point", "coordinates": [ 1703488.762618, 810661.534729 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2744028A-0E6F-4FB3-86DC-93DD56946FDB}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1703490.056000, "Northing": 810659.832000, "Elev": 836.585000, "Station": 1276.040000, "SurveyPtNo": 7055 }, "geometry": { "type": "Point", "coordinates": [ 1703490.056092, 810659.832309 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E78B6886-881D-489E-A457-156423F68EF4}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1703490.877000, "Northing": 810657.939000, "Elev": 836.938000, "Station": 1277.903000, "SurveyPtNo": 7054 }, "geometry": { "type": "Point", "coordinates": [ 1703490.877065, 810657.938568 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DB761427-0D9B-4859-9FCB-A3472372996B}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "UIB3 8 12", "Easting": 1703570.489000, "Northing": 810648.414000, "Elev": 840.215000, "Station": 1284.548000, "SurveyPtNo": 7014 }, "geometry": { "type": "Point", "coordinates": [ 1703570.488595, 810648.413605 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8A79AF1D-631F-40CE-AAF0-51312D6F28BA}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1703491.960000, "Northing": 810649.930000, "Elev": 842.480000, "Station": 1285.867000, "SurveyPtNo": 7053 }, "geometry": { "type": "Point", "coordinates": [ 1703491.959787, 810649.930059 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DAFE9F9C-840D-4F96-99F6-D5A75D96691D}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703497.755000, "Northing": 810627.257000, "Elev": 843.109000, "Station": 1308.316000, "SurveyPtNo": 7061 }, "geometry": { "type": "Point", "coordinates": [ 1703497.755045, 810627.257285 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{CD1D5265-9169-44AE-BEFA-91CFF1B3B9D6}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703499.150000, "Northing": 810624.883000, "Elev": 844.538000, "Station": 1310.639000, "SurveyPtNo": 7062 }, "geometry": { "type": "Point", "coordinates": [ 1703499.150481, 810624.882737 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{80409BC0-B419-4F3E-BC06-19F0CED982F1}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "REF1 PP CHP2005", "Easting": 1703544.959000, "Northing": 810621.355000, "Elev": 852.740000, "Station": 1312.510000, "SurveyPtNo": 7007 }, "geometry": { "type": "Point", "coordinates": [ 1703544.958729, 810621.355427 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{648E3D67-7A0D-4C81-BC10-489E089E1F93}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703500.154000, "Northing": 810619.257000, "Elev": 845.403000, "Station": 1316.225000, "SurveyPtNo": 7063 }, "geometry": { "type": "Point", "coordinates": [ 1703500.154069, 810619.256838 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DAC5FE50-E985-48B1-8E0C-C0F9FBBEE4E6}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703502.898000, "Northing": 810609.435000, "Elev": 850.501000, "Station": 1325.942000, "SurveyPtNo": 7064 }, "geometry": { "type": "Point", "coordinates": [ 1703502.897562, 810609.434530 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{419937DE-AB97-4BAD-ADFF-958203745FC2}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703503.617000, "Northing": 810603.299000, "Elev": 850.488000, "Station": 1332.047000, "SurveyPtNo": 7065 }, "geometry": { "type": "Point", "coordinates": [ 1703503.616990, 810603.299097 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B450E434-184E-40EE-BBBA-7BB9B169E782}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703503.617000, "Northing": 810603.299000, "Elev": 850.008000, "Station": 1332.047000, "SurveyPtNo": 7066 }, "geometry": { "type": "Point", "coordinates": [ 1703503.616990, 810603.299097 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7F217595-37ED-4F0C-AEB5-C8C98FC42E95}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_07C", "Easting": 1703503.617000, "Northing": 810603.299000, "Elev": 850.488000, "Station": 1332.047000, "SurveyPtNo": 7010 }, "geometry": { "type": "Point", "coordinates": [ 1703503.616990, 810603.299097 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F1DFC47D-894C-4EA5-88E4-DDECE43C841B}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703508.486000, "Northing": 810576.928000, "Elev": 850.265000, "Station": 1358.225000, "SurveyPtNo": 7067 }, "geometry": { "type": "Point", "coordinates": [ 1703508.486229, 810576.928039 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C92C86B8-1B64-4472-BD8D-72C8A9D4C5E8}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703508.818000, "Northing": 810576.336000, "Elev": 850.709000, "Station": 1358.805000, "SurveyPtNo": 7068 }, "geometry": { "type": "Point", "coordinates": [ 1703508.817945, 810576.336148 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C1C1E09A-740D-42F6-A03F-E68BE54CFFF3}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703510.736000, "Northing": 810561.445000, "Elev": 850.631000, "Station": 1373.617000, "SurveyPtNo": 7069 }, "geometry": { "type": "Point", "coordinates": [ 1703510.735665, 810561.444532 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6897C020-3A16-487F-8AF0-3FF2C19D7E98}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703515.844000, "Northing": 810533.880000, "Elev": 855.313000, "Station": 1400.980000, "SurveyPtNo": 7070 }, "geometry": { "type": "Point", "coordinates": [ 1703515.844063, 810533.879642 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9A143E3A-2AC2-4C3D-8411-98F7F02D0894}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703519.252000, "Northing": 810508.057000, "Elev": 859.949000, "Station": 1426.663000, "SurveyPtNo": 7071 }, "geometry": { "type": "Point", "coordinates": [ 1703519.252463, 810508.057083 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DD327496-8FE1-447D-832A-7E5B5BB9F4B8}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703525.526000, "Northing": 810424.776000, "Elev": 867.860000, "Station": 1509.663000, "SurveyPtNo": 7051 }, "geometry": { "type": "Point", "coordinates": [ 1703525.525729, 810424.776125 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{06BB5268-2FAA-4C70-8C87-2E30BB4FBEC3}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703530.331000, "Northing": 810415.333000, "Elev": 869.513000, "Station": 1518.926000, "SurveyPtNo": 7050 }, "geometry": { "type": "Point", "coordinates": [ 1703530.331005, 810415.333440 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{089E6318-1444-409F-9114-4D4755C45900}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT2", "Easting": 1703573.846000, "Northing": 810404.482000, "Elev": 867.589000, "Station": 1528.199000, "SurveyPtNo": 7047 }, "geometry": { "type": "Point", "coordinates": [ 1703573.846233, 810404.481932 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A3D0B20C-3356-4071-A61D-B0CF5602BFBE}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703526.705000, "Northing": 810403.916000, "Elev": 869.891000, "Station": 1530.467000, "SurveyPtNo": 7049 }, "geometry": { "type": "Point", "coordinates": [ 1703526.704572, 810403.915680 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3FDBABF5-16EE-46CF-97B3-7F0FEDA53EEA}", "XsectName": "FIELD", "StrucName": "GU_S20_07", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1703524.115000, "Northing": 810395.105000, "Elev": 871.462000, "Station": 1539.366000, "SurveyPtNo": 7048 }, "geometry": { "type": "Point", "coordinates": [ 1703524.114807, 810395.104611 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8F4BAF4C-6837-4A48-AD25-9700A6A0A4FF}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703592.914000, "Northing": 810932.337000, "Elev": 854.914000, "Station": 1000.000000, "SurveyPtNo": 7035 }, "geometry": { "type": "Point", "coordinates": [ 1703592.913863, 810932.337155 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{21F93DDF-ABBA-4D7D-B67E-6901E1955792}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703591.432000, "Northing": 810892.074000, "Elev": 853.496000, "Station": 1040.290000, "SurveyPtNo": 7036 }, "geometry": { "type": "Point", "coordinates": [ 1703591.432342, 810892.074087 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{4C239BEB-1255-4969-9A59-9A520E21881D}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703590.203000, "Northing": 810846.058000, "Elev": 852.236000, "Station": 1086.321000, "SurveyPtNo": 7038 }, "geometry": { "type": "Point", "coordinates": [ 1703590.202964, 810846.058280 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8BEB02ED-1724-4551-8D32-B938C0BF17EB}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703587.166000, "Northing": 810789.716000, "Elev": 851.431000, "Station": 1142.735000, "SurveyPtNo": 7039 }, "geometry": { "type": "Point", "coordinates": [ 1703587.165894, 810789.716197 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{14DA1756-1D70-4315-A2EA-040ADED642AE}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703585.568000, "Northing": 810743.969000, "Elev": 851.366000, "Station": 1188.511000, "SurveyPtNo": 7040 }, "geometry": { "type": "Point", "coordinates": [ 1703585.567604, 810743.968806 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{67089A25-C998-46BC-B2B5-9BF693C7719F}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703583.796000, "Northing": 810678.812000, "Elev": 852.482000, "Station": 1253.689000, "SurveyPtNo": 7041 }, "geometry": { "type": "Point", "coordinates": [ 1703583.796428, 810678.812169 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F71EDD71-37CC-42E7-B69B-B49E97B52CAC}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703582.220000, "Northing": 810627.232000, "Elev": 853.889000, "Station": 1305.293000, "SurveyPtNo": 7042 }, "geometry": { "type": "Point", "coordinates": [ 1703582.220012, 810627.231654 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9F36AE70-C28B-41BA-8606-1695D003FB4D}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703579.898000, "Northing": 810555.954000, "Elev": 857.064000, "Station": 1376.608000, "SurveyPtNo": 7043 }, "geometry": { "type": "Point", "coordinates": [ 1703579.898111, 810555.954159 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A86624D0-9150-43D2-8D93-6AA0C84BC348}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703577.884000, "Northing": 810506.841000, "Elev": 860.159000, "Station": 1425.762000, "SurveyPtNo": 7044 }, "geometry": { "type": "Point", "coordinates": [ 1703577.883824, 810506.840805 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C87670EA-ED70-47B5-8AA6-1AB5095C2615}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703575.860000, "Northing": 810458.255000, "Elev": 863.211000, "Station": 1474.389000, "SurveyPtNo": 7045 }, "geometry": { "type": "Point", "coordinates": [ 1703575.860133, 810458.254715 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{AEB6644E-B0E5-4E48-B1DF-EE62FC500C42}", "XsectName": "TOR", "StrucName": "GU_S20_07", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1703573.808000, "Northing": 810404.306000, "Elev": 867.601000, "Station": 1528.376000, "SurveyPtNo": 7046 }, "geometry": { "type": "Point", "coordinates": [ 1703573.807619, 810404.306448 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{16770586-878A-4251-92FC-DC2E76F1E0D6}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT1", "Easting": 1705287.739000, "Northing": 811375.829000, "Elev": 831.361000, "Station": 1000.000000, "SurveyPtNo": 3042 }, "geometry": { "type": "Point", "coordinates": [ 1705287.739362, 811375.829203 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{7AFDA385-C12A-4260-A39A-F4E66AE5B2E1}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705274.434000, "Northing": 811373.261000, "Elev": 831.398000, "Station": 1001.643000, "SurveyPtNo": 3044 }, "geometry": { "type": "Point", "coordinates": [ 1705274.433509, 811373.260975 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{36EFBDC7-144C-469C-8FAA-A68529F3D539}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705286.581000, "Northing": 811241.264000, "Elev": 830.076000, "Station": 1134.164000, "SurveyPtNo": 3045 }, "geometry": { "type": "Point", "coordinates": [ 1705286.581084, 811241.263756 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{173FA25A-0109-456D-B19A-BA5DC1501F59}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705289.765000, "Northing": 811182.093000, "Elev": 829.360000, "Station": 1193.413000, "SurveyPtNo": 3048 }, "geometry": { "type": "Point", "coordinates": [ 1705289.765491, 811182.093357 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D9F84AC3-576B-4366-B986-2F24B2801FC4}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "SPECIAL", "Commented": 1, "Descript": "02A BS CK", "Easting": 1705752.607000, "Northing": 811207.510000, "Elev": 835.211000, "Station": 1200.029000, "SurveyPtNo": 3049 }, "geometry": { "type": "Point", "coordinates": [ 1705752.606991, 811207.509550 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B8BB0EEA-EFA2-47F2-BB80-4EFBD86186DC}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_02A FLD", "Easting": 1705752.630000, "Northing": 811207.430000, "Elev": 835.222000, "Station": 1200.111000, "SurveyPtNo": 3003 }, "geometry": { "type": "Point", "coordinates": [ 1705752.629816, 811207.429549 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{939DF245-4A3D-43DF-9B19-C8E527781DA6}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "SPECIAL", "Commented": 1, "Descript": "DATE 10-05-11", "Easting": 1705752.630000, "Northing": 811207.430000, "Elev": 835.225000, "Station": 1200.111000, "SurveyPtNo": 3002 }, "geometry": { "type": "Point", "coordinates": [ 1705752.629800, 811207.429544 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{547252BA-C3D0-4743-BC21-A19ECCE198D8}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_02A", "Easting": 1705752.467000, "Northing": 811207.383000, "Elev": 835.249000, "Station": 1200.146000, "SurveyPtNo": 3006 }, "geometry": { "type": "Point", "coordinates": [ 1705752.467000, 811207.383000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{502B0B16-2101-4B08-B4E6-3FAAE6700231}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705295.759000, "Northing": 811149.395000, "Elev": 828.914000, "Station": 1226.448000, "SurveyPtNo": 3039 }, "geometry": { "type": "Point", "coordinates": [ 1705295.759443, 811149.394719 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{74BAEB75-5493-4C99-AEB0-7C787744C63B}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705292.315000, "Northing": 811130.664000, "Elev": 828.777000, "Station": 1244.895000, "SurveyPtNo": 3038 }, "geometry": { "type": "Point", "coordinates": [ 1705292.315338, 811130.664200 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3BC4EE5B-02A5-446D-83E3-B304D5854F1A}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705293.936000, "Northing": 811114.325000, "Elev": 826.582000, "Station": 1261.308000, "SurveyPtNo": 3037 }, "geometry": { "type": "Point", "coordinates": [ 1705293.935654, 811114.325007 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FE00BAB1-FD37-4F17-B991-9A925E5ECBD9}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1705294.934000, "Northing": 811108.097000, "Elev": 826.329000, "Station": 1267.590000, "SurveyPtNo": 3036 }, "geometry": { "type": "Point", "coordinates": [ 1705294.934175, 811108.096540 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5A6FBEA6-5237-4041-9C04-B588E3AB505E}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "TOE", "Commented": 0, "Descript": "TOE", "Easting": 1705304.044000, "Northing": 811099.199000, "Elev": 822.263000, "Station": 1277.095000, "SurveyPtNo": 3032 }, "geometry": { "type": "Point", "coordinates": [ 1705304.043567, 811099.199370 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{030F2730-1CF7-4161-ADED-ACC9031C827A}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1705304.262000, "Northing": 811097.716000, "Elev": 821.841000, "Station": 1278.591000, "SurveyPtNo": 3031 }, "geometry": { "type": "Point", "coordinates": [ 1705304.262302, 811097.715697 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{60C23AFA-A076-4817-A905-6705B6E24281}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705304.459000, "Northing": 811096.397000, "Elev": 821.692000, "Station": 1279.920000, "SurveyPtNo": 3030 }, "geometry": { "type": "Point", "coordinates": [ 1705304.459055, 811096.396589 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E552C49C-BF7A-455F-A57A-36101F8CB1DA}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "DS", "Commented": 1, "Descript": "DS IN", "Easting": 1705315.708000, "Northing": 811096.934000, "Elev": 821.202000, "Station": 1280.161000, "SurveyPtNo": 3035 }, "geometry": { "type": "Point", "coordinates": [ 1705315.708260, 811096.933656 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{215E86F1-7A48-4970-BC08-AC631079B88E}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705304.562000, "Northing": 811094.366000, "Elev": 821.744000, "Station": 1281.953000, "SurveyPtNo": 3029 }, "geometry": { "type": "Point", "coordinates": [ 1705304.561606, 811094.365801 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{011757ED-ACA5-4F2A-84BB-A2879D99D1D9}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705304.930000, "Northing": 811092.370000, "Elev": 821.607000, "Station": 1283.970000, "SurveyPtNo": 3028 }, "geometry": { "type": "Point", "coordinates": [ 1705304.929552, 811092.369725 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{34C6E83A-0359-4867-9C8A-C4B7C3F35C16}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1705305.198000, "Northing": 811090.702000, "Elev": 821.807000, "Station": 1285.652000, "SurveyPtNo": 3027 }, "geometry": { "type": "Point", "coordinates": [ 1705305.197650, 811090.702018 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{CE98C9A2-500D-4BD9-93F9-429DA1F6C522}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "TOE", "Commented": 0, "Descript": "TOE", "Easting": 1705305.131000, "Northing": 811089.323000, "Elev": 822.204000, "Station": 1287.023000, "SurveyPtNo": 3026 }, "geometry": { "type": "Point", "coordinates": [ 1705305.130957, 811089.323004 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{233AD8C1-27BC-4D60-9401-5C17BD84F4E7}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1705295.772000, "Northing": 811078.779000, "Elev": 827.290000, "Station": 1296.896000, "SurveyPtNo": 3022 }, "geometry": { "type": "Point", "coordinates": [ 1705295.772068, 811078.778521 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{10D21FC5-2688-4D76-A8D0-279792DEEE0C}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705297.415000, "Northing": 811056.524000, "Elev": 828.354000, "Station": 1319.211000, "SurveyPtNo": 3021 }, "geometry": { "type": "Point", "coordinates": [ 1705297.414609, 811056.523775 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{4843F06D-00B8-48A5-A2E0-D05063720614}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_04A", "Easting": 1705065.182000, "Northing": 811010.888000, "Elev": 831.369000, "Station": 1348.696000, "SurveyPtNo": 3005 }, "geometry": { "type": "Point", "coordinates": [ 1705065.182000, 811010.888000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F205627A-42F1-452C-8C29-177CD02E9013}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705296.292000, "Northing": 811022.310000, "Elev": 832.106000, "Station": 1353.265000, "SurveyPtNo": 3018 }, "geometry": { "type": "Point", "coordinates": [ 1705296.291805, 811022.310097 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{70F4BBF4-46EA-4EF5-BD5A-30C3BED377F8}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705297.574000, "Northing": 811000.731000, "Elev": 833.122000, "Station": 1374.881000, "SurveyPtNo": 3019 }, "geometry": { "type": "Point", "coordinates": [ 1705297.574216, 811000.731264 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5A0DBE98-25A4-4138-A139-E5E16B587352}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705298.161000, "Northing": 810983.719000, "Elev": 834.700000, "Station": 1391.893000, "SurveyPtNo": 3020 }, "geometry": { "type": "Point", "coordinates": [ 1705298.161281, 810983.719483 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A67AC80C-9F93-46FE-8C88-72476DC6FDB2}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705300.254000, "Northing": 810976.806000, "Elev": 835.047000, "Station": 1398.934000, "SurveyPtNo": 3015 }, "geometry": { "type": "Point", "coordinates": [ 1705300.253963, 810976.806398 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6E826C8D-44CE-445A-9850-2BFE7C69CE9E}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705302.551000, "Northing": 810960.461000, "Elev": 838.596000, "Station": 1415.399000, "SurveyPtNo": 3014 }, "geometry": { "type": "Point", "coordinates": [ 1705302.551253, 810960.461150 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A59A2C93-C29E-4519-AC64-DE66D281F6FA}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705307.751000, "Northing": 810932.452000, "Elev": 846.231000, "Station": 1443.701000, "SurveyPtNo": 3010 }, "geometry": { "type": "Point", "coordinates": [ 1705307.751029, 810932.451887 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{28D0B4CF-18A2-4FEC-96B0-4EA67460428D}", "XsectName": "FIELD", "StrucName": "GU_S20_03", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT2", "Easting": 1705318.555000, "Northing": 810930.787000, "Elev": 848.279000, "Station": 1446.107000, "SurveyPtNo": 3012 }, "geometry": { "type": "Point", "coordinates": [ 1705318.555315, 810930.787484 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{BD73F9F7-2BC5-4168-8EC4-15D2BB5DF622}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705287.760000, "Northing": 811375.863000, "Elev": 831.365000, "Station": 999.967000, "SurveyPtNo": 3043 }, "geometry": { "type": "Point", "coordinates": [ 1705287.760174, 811375.863329 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{36885743-25EE-4AAA-8711-CD9C2BE20382}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705302.642000, "Northing": 811235.669000, "Elev": 830.032000, "Station": 1140.855000, "SurveyPtNo": 3046 }, "geometry": { "type": "Point", "coordinates": [ 1705302.641579, 811235.669047 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D99AAEDA-B972-4BFD-B817-DF1444F6D04C}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705304.004000, "Northing": 811186.062000, "Elev": 829.442000, "Station": 1190.438000, "SurveyPtNo": 3047 }, "geometry": { "type": "Point", "coordinates": [ 1705304.003916, 811186.061614 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C83A706B-FE5B-4EA4-B8D1-EC37567636D9}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705308.378000, "Northing": 811138.113000, "Elev": 828.897000, "Station": 1238.574000, "SurveyPtNo": 3041 }, "geometry": { "type": "Point", "coordinates": [ 1705308.377907, 811138.113182 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6272A650-EFC2-40A1-AAC8-8C6EE0761636}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705308.512000, "Northing": 811113.272000, "Elev": 826.484000, "Station": 1263.365000, "SurveyPtNo": 3040 }, "geometry": { "type": "Point", "coordinates": [ 1705308.512104, 811113.271602 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{431E4993-8900-4528-B393-CDD830903303}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "BEGIN", "Commented": 0, "Descript": "BEGIN", "Easting": 1705308.807000, "Northing": 811110.610000, "Elev": 826.443000, "Station": 1266.041000, "SurveyPtNo": 3033 }, "geometry": { "type": "Point", "coordinates": [ 1705308.806938, 811110.609854 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E94E48FE-3414-4AC2-8B6C-18ED5DE79CC3}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "END", "Commented": 0, "Descript": "END", "Easting": 1705310.778000, "Northing": 811085.780000, "Elev": 826.360000, "Station": 1290.948000, "SurveyPtNo": 3024 }, "geometry": { "type": "Point", "coordinates": [ 1705310.778078, 811085.780174 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{48F60886-FAB1-493A-97B0-5E2E4C404CC9}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705311.799000, "Northing": 811057.620000, "Elev": 827.727000, "Station": 1319.111000, "SurveyPtNo": 3023 }, "geometry": { "type": "Point", "coordinates": [ 1705311.799291, 811057.620448 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B7F082B3-8E7D-4C76-ACB2-B337D8A91B7A}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705313.676000, "Northing": 811019.826000, "Elev": 832.435000, "Station": 1356.944000, "SurveyPtNo": 3017 }, "geometry": { "type": "Point", "coordinates": [ 1705313.676246, 811019.826038 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1024FA1C-2279-40E6-98C9-1C0888CE96B3}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705316.175000, "Northing": 810989.315000, "Elev": 834.926000, "Station": 1387.555000, "SurveyPtNo": 3016 }, "geometry": { "type": "Point", "coordinates": [ 1705316.174637, 810989.315056 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DC47B16A-F3BC-4CB1-9345-437D602F3836}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705318.539000, "Northing": 810959.419000, "Elev": 840.614000, "Station": 1417.543000, "SurveyPtNo": 3013 }, "geometry": { "type": "Point", "coordinates": [ 1705318.538671, 810959.418619 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{4E95F053-9F9F-4042-938F-2DB6C76F600C}", "XsectName": "TOR", "StrucName": "GU_S20_03", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705318.536000, "Northing": 810930.792000, "Elev": 848.279000, "Station": 1446.101000, "SurveyPtNo": 3011 }, "geometry": { "type": "Point", "coordinates": [ 1705318.535817, 810930.792297 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{753E2727-B22C-4593-831D-87978526227E}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704948.786000, "Northing": 811240.556000, "Elev": 831.214000, "Station": 950.934000, "SurveyPtNo": 4023 }, "geometry": { "type": "Point", "coordinates": [ 1704948.786450, 811240.556478 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{41271E4D-772B-4938-8650-EA7B5A5E0D7C}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704962.661000, "Northing": 811213.840000, "Elev": 830.547000, "Station": 979.638000, "SurveyPtNo": 4024 }, "geometry": { "type": "Point", "coordinates": [ 1704962.661302, 811213.839842 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{93D673F9-04F5-4F45-913D-BA790098E4D0}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT1", "Easting": 1705008.245000, "Northing": 811201.127000, "Elev": 830.683000, "Station": 1000.000000, "SurveyPtNo": 4022 }, "geometry": { "type": "Point", "coordinates": [ 1705008.245385, 811201.126940 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{53FAE378-6B33-4D2E-94C3-44CD63A91D33}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704969.356000, "Northing": 811181.782000, "Elev": 829.581000, "Station": 1012.370000, "SurveyPtNo": 4025 }, "geometry": { "type": "Point", "coordinates": [ 1704969.356128, 811181.781818 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{37E9D4C2-071F-4DDD-B3C2-C6284EA824B2}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704982.451000, "Northing": 811150.975000, "Elev": 828.837000, "Station": 1044.970000, "SurveyPtNo": 4026 }, "geometry": { "type": "Point", "coordinates": [ 1704982.451373, 811150.974791 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DB4404D0-B180-40EB-A418-BA9E0CD78A39}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704990.662000, "Northing": 811116.866000, "Elev": 828.467000, "Station": 1079.982000, "SurveyPtNo": 4027 }, "geometry": { "type": "Point", "coordinates": [ 1704990.661720, 811116.866219 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E126BF0D-E9C2-4759-AEB5-4FCCCB131588}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704993.206000, "Northing": 811106.858000, "Elev": 829.762000, "Station": 1090.279000, "SurveyPtNo": 4028 }, "geometry": { "type": "Point", "coordinates": [ 1704993.205807, 811106.857937 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E4698F83-0FD8-467C-9FA9-B67DED90C25C}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704994.905000, "Northing": 811099.454000, "Elev": 829.768000, "Station": 1097.865000, "SurveyPtNo": 4029 }, "geometry": { "type": "Point", "coordinates": [ 1704994.905276, 811099.453765 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{FADCC23E-3E86-4AF7-83D3-8EE1D228324F}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704995.263000, "Northing": 811098.829000, "Elev": 829.236000, "Station": 1098.542000, "SurveyPtNo": 4030 }, "geometry": { "type": "Point", "coordinates": [ 1704995.262519, 811098.829172 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F3421060-4803-46FB-B233-48C64193641B}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705000.384000, "Northing": 811082.402000, "Elev": 830.139000, "Station": 1115.604000, "SurveyPtNo": 4031 }, "geometry": { "type": "Point", "coordinates": [ 1705000.383512, 811082.402388 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C302ECC9-3FBC-4849-9757-7A119D4A88D7}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "SPECIAL", "Commented": 1, "Descript": "DATE 10-05-11", "Easting": 1705752.629000, "Northing": 811207.433000, "Elev": 835.249000, "Station": 1121.785000, "SurveyPtNo": 4002 }, "geometry": { "type": "Point", "coordinates": [ 1705752.628734, 811207.432845 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{25417C62-003D-4048-827E-8B980AC1BDA2}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_02A FLD", "Easting": 1705752.629000, "Northing": 811207.433000, "Elev": 835.249000, "Station": 1121.785000, "SurveyPtNo": 4003 }, "geometry": { "type": "Point", "coordinates": [ 1705752.628734, 811207.432845 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6D64BFFA-85A2-4F75-998D-2B119831DAE7}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_02A", "Easting": 1705752.467000, "Northing": 811207.383000, "Elev": 835.249000, "Station": 1121.807000, "SurveyPtNo": 4006 }, "geometry": { "type": "Point", "coordinates": [ 1705752.467000, 811207.383000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3677A446-7F36-4F49-B4BA-92C5E83A1C19}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "SPECIAL", "Commented": 1, "Descript": "02A BS CK", "Easting": 1705752.671000, "Northing": 811207.286000, "Elev": 835.211000, "Station": 1121.937000, "SurveyPtNo": 4070 }, "geometry": { "type": "Point", "coordinates": [ 1705752.670822, 811207.286246 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{991CE0C7-6FFA-4C85-92EE-EBFCF1B73BA8}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705003.486000, "Northing": 811068.951000, "Elev": 830.092000, "Station": 1129.389000, "SurveyPtNo": 4032 }, "geometry": { "type": "Point", "coordinates": [ 1705003.485675, 811068.950977 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{EB321282-4700-4351-B63F-7EC3633EA57D}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705003.628000, "Northing": 811068.353000, "Elev": 830.520000, "Station": 1130.002000, "SurveyPtNo": 4033 }, "geometry": { "type": "Point", "coordinates": [ 1705003.627515, 811068.353296 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{98B458C9-C6E1-4A7A-9D1E-F7A748D0DF1E}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705003.005000, "Northing": 811065.247000, "Elev": 830.490000, "Station": 1132.955000, "SurveyPtNo": 4034 }, "geometry": { "type": "Point", "coordinates": [ 1705003.005243, 811065.247317 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B33B6DE3-5E02-40D7-8A63-81FB99EF7E0D}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "SPECIAL", "Commented": 1, "Descript": "DIE1 6 8.8", "Easting": 1705070.705000, "Northing": 811068.885000, "Elev": 822.909000, "Station": 1141.013000, "SurveyPtNo": 4010 }, "geometry": { "type": "Point", "coordinates": [ 1705070.705454, 811068.884546 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{79D8BDBE-1510-4276-9284-B9146ED95BDD}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "DS", "Commented": 1, "Descript": "DS IN", "Easting": 1705073.163000, "Northing": 811067.983000, "Elev": 822.270000, "Station": 1142.323000, "SurveyPtNo": 4011 }, "geometry": { "type": "Point", "coordinates": [ 1705073.163034, 811067.983072 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E5233FFA-79C2-48D1-A29A-2113F358D348}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705003.863000, "Northing": 811053.544000, "Elev": 827.921000, "Station": 1144.631000, "SurveyPtNo": 4035 }, "geometry": { "type": "Point", "coordinates": [ 1705003.863001, 811053.543786 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6FC5A080-799B-4EC8-BFF4-70A533906195}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "SPECIAL", "Commented": 1, "Descript": "UIE1 6 8.8", "Easting": 1705022.366000, "Northing": 811050.428000, "Elev": 823.595000, "Station": 1150.883000, "SurveyPtNo": 4068 }, "geometry": { "type": "Point", "coordinates": [ 1705022.366283, 811050.427618 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{157AB873-96C2-4209-9082-858BD65ED342}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1705008.129000, "Northing": 811041.346000, "Elev": 826.947000, "Station": 1157.381000, "SurveyPtNo": 4036 }, "geometry": { "type": "Point", "coordinates": [ 1705008.129237, 811041.345687 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A2A4C573-BC8A-42E4-B7D0-2DE765563E08}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1705009.810000, "Northing": 811039.532000, "Elev": 824.057000, "Station": 1159.457000, "SurveyPtNo": 4037 }, "geometry": { "type": "Point", "coordinates": [ 1705009.810125, 811039.531874 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B2091168-953A-435F-9D87-93F1BC174936}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705010.888000, "Northing": 811038.276000, "Elev": 823.210000, "Station": 1160.880000, "SurveyPtNo": 4038 }, "geometry": { "type": "Point", "coordinates": [ 1705010.888235, 811038.275803 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E5BD703B-E0B0-44EA-B73C-9B3E2E6EF204}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705012.097000, "Northing": 811037.197000, "Elev": 823.235000, "Station": 1162.151000, "SurveyPtNo": 4039 }, "geometry": { "type": "Point", "coordinates": [ 1705012.097121, 811037.196945 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{79DDBB93-8295-4D0B-838F-AF87C0F86D9F}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1705013.414000, "Northing": 811036.358000, "Elev": 823.388000, "Station": 1163.204000, "SurveyPtNo": 4040 }, "geometry": { "type": "Point", "coordinates": [ 1705013.414179, 811036.357528 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E4CCFF4E-AB5D-43F3-BAF6-07238304ACF8}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1705014.145000, "Northing": 811035.828000, "Elev": 824.036000, "Station": 1163.852000, "SurveyPtNo": 4041 }, "geometry": { "type": "Point", "coordinates": [ 1705014.144541, 811035.827543 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{4703395B-CC84-416C-8CA7-037F1C65FE27}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1705017.318000, "Northing": 811026.667000, "Elev": 828.067000, "Station": 1173.422000, "SurveyPtNo": 4042 }, "geometry": { "type": "Point", "coordinates": [ 1705017.318101, 811026.666542 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{732A9F82-2146-40DA-9D77-4EFCD14C4866}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705015.147000, "Northing": 811007.271000, "Elev": 828.787000, "Station": 1192.155000, "SurveyPtNo": 4043 }, "geometry": { "type": "Point", "coordinates": [ 1705015.146520, 811007.270957 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{AF2B19D0-5034-4AFF-8588-CD0BED9C8FF4}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_04A", "Easting": 1705065.182000, "Northing": 811010.888000, "Elev": 831.369000, "Station": 1197.196000, "SurveyPtNo": 4005 }, "geometry": { "type": "Point", "coordinates": [ 1705065.182000, 811010.888000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9F6264C4-2C8D-495F-B0DD-A43885A983EF}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705013.459000, "Northing": 810997.660000, "Elev": 830.697000, "Station": 1201.333000, "SurveyPtNo": 4044 }, "geometry": { "type": "Point", "coordinates": [ 1705013.459490, 810997.659518 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{4DED5155-E72A-443E-9E3C-97EA8F49D905}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705013.181000, "Northing": 810983.979000, "Elev": 830.816000, "Station": 1214.762000, "SurveyPtNo": 4045 }, "geometry": { "type": "Point", "coordinates": [ 1705013.181093, 810983.979044 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{4BED9358-5A40-45FF-951D-F6ACC2F4362D}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1705003.334000, "Northing": 810960.488000, "Elev": 830.226000, "Station": 1236.210000, "SurveyPtNo": 4046 }, "geometry": { "type": "Point", "coordinates": [ 1705003.333579, 810960.488135 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3D259EA2-76E7-4CAD-AFD7-2D16ABC43330}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704997.887000, "Northing": 810940.439000, "Elev": 833.558000, "Station": 1255.023000, "SurveyPtNo": 4047 }, "geometry": { "type": "Point", "coordinates": [ 1704997.886616, 810940.439442 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{119AB546-05B9-4F0D-B6EB-FF593D6B1089}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704996.541000, "Northing": 810931.932000, "Elev": 833.828000, "Station": 1263.173000, "SurveyPtNo": 4048 }, "geometry": { "type": "Point", "coordinates": [ 1704996.541034, 810931.931864 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9AC6C573-D2DA-44F5-B097-DB0EE1A62A30}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704995.758000, "Northing": 810931.250000, "Elev": 833.353000, "Station": 1263.710000, "SurveyPtNo": 4049 }, "geometry": { "type": "Point", "coordinates": [ 1704995.758433, 810931.250249 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{CD251861-76D9-42B5-B0A8-B6A861D9B315}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704992.580000, "Northing": 810915.311000, "Elev": 833.749000, "Station": 1278.865000, "SurveyPtNo": 4050 }, "geometry": { "type": "Point", "coordinates": [ 1704992.579652, 810915.311183 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0A5672BB-955F-4682-ADC7-8A17B7F8F078}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT2", "Easting": 1705056.994000, "Northing": 810921.846000, "Elev": 833.866000, "Station": 1283.503000, "SurveyPtNo": 4069 }, "geometry": { "type": "Point", "coordinates": [ 1705056.994069, 810921.846194 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0C44841C-5897-437E-A0C0-6FFFCA8BCBE9}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704988.647000, "Northing": 810899.236000, "Elev": 833.858000, "Station": 1294.024000, "SurveyPtNo": 4051 }, "geometry": { "type": "Point", "coordinates": [ 1704988.647122, 810899.236039 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{70AE377F-79EB-420A-AB41-9342091A4445}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704988.429000, "Northing": 810898.714000, "Elev": 834.251000, "Station": 1294.501000, "SurveyPtNo": 4052 }, "geometry": { "type": "Point", "coordinates": [ 1704988.429200, 810898.714168 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{89E87A3E-EFBE-45B8-8515-4BABE307FE51}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704983.210000, "Northing": 810867.790000, "Elev": 838.328000, "Station": 1324.067000, "SurveyPtNo": 4053 }, "geometry": { "type": "Point", "coordinates": [ 1704983.209810, 810867.790435 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1A074D28-ACB8-410D-ACDA-2304C77B8225}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704980.220000, "Northing": 810835.321000, "Elev": 839.123000, "Station": 1355.539000, "SurveyPtNo": 4054 }, "geometry": { "type": "Point", "coordinates": [ 1704980.219998, 810835.320551 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{12CFCFE9-6AD1-422D-B0F8-9911A3516280}", "XsectName": "FIELD", "StrucName": "GU_S20_04", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704980.564000, "Northing": 810816.257000, "Elev": 839.842000, "Station": 1374.378000, "SurveyPtNo": 4055 }, "geometry": { "type": "Point", "coordinates": [ 1704980.563918, 810816.256770 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C30A11DB-7B49-4858-8A5D-F561894D8142}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704961.794000, "Northing": 811252.126000, "Elev": 831.174000, "Station": 941.773000, "SurveyPtNo": 4020 }, "geometry": { "type": "Point", "coordinates": [ 1704961.794324, 811252.125997 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{31C63B59-86E7-41EB-A246-96BBD3FD1CB2}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704984.539000, "Northing": 811203.590000, "Elev": 830.485000, "Station": 993.497000, "SurveyPtNo": 4018 }, "geometry": { "type": "Point", "coordinates": [ 1704984.539104, 811203.589958 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{11CD5C87-D8A4-4C0C-AEE9-BBF2D8E84D89}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705006.556000, "Northing": 811157.405000, "Elev": 830.139000, "Station": 1042.780000, "SurveyPtNo": 4017 }, "geometry": { "type": "Point", "coordinates": [ 1705006.556391, 811157.405002 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{BAF2F912-FCFE-465F-BBC0-78F7CE91B2B0}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705032.236000, "Northing": 811104.068000, "Elev": 830.670000, "Station": 1099.739000, "SurveyPtNo": 4015 }, "geometry": { "type": "Point", "coordinates": [ 1705032.235683, 811104.067780 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{91A3C594-C930-4E44-8A1F-9992513533F6}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705044.656000, "Northing": 811054.427000, "Elev": 831.146000, "Station": 1150.776000, "SurveyPtNo": 4014 }, "geometry": { "type": "Point", "coordinates": [ 1705044.656009, 811054.426890 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{00057268-A87A-4BBA-A0CC-174436D3D26A}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705049.382000, "Northing": 811010.922000, "Elev": 831.754000, "Station": 1194.446000, "SurveyPtNo": 4060 }, "geometry": { "type": "Point", "coordinates": [ 1705049.382383, 811010.921864 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{27CB92C4-1AA3-418C-95D3-747B73232C0A}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705043.882000, "Northing": 810962.017000, "Elev": 832.829000, "Station": 1241.676000, "SurveyPtNo": 4059 }, "geometry": { "type": "Point", "coordinates": [ 1705043.881774, 810962.016923 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DB8FF872-A2F7-4C50-82B0-1462B4015617}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705033.196000, "Northing": 810900.858000, "Elev": 835.400000, "Station": 1300.087000, "SurveyPtNo": 4061 }, "geometry": { "type": "Point", "coordinates": [ 1705033.195529, 810900.857745 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{19885ECB-0C91-4823-A051-05319F82D7AB}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705037.838000, "Northing": 810864.959000, "Elev": 837.054000, "Station": 1336.250000, "SurveyPtNo": 4058 }, "geometry": { "type": "Point", "coordinates": [ 1705037.838283, 810864.958533 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{77083B6B-6335-45FC-A40C-1AA680EC42B5}", "XsectName": "TOR", "StrucName": "GU_S20_04", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1705030.782000, "Northing": 810811.796000, "Elev": 838.165000, "Station": 1387.407000, "SurveyPtNo": 4056 }, "geometry": { "type": "Point", "coordinates": [ 1705030.781885, 810811.796457 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{46E00CBB-F052-4FAE-A75F-9D77BE890FB6}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704645.924000, "Northing": 811016.098000, "Elev": 839.829000, "Station": 997.171000, "SurveyPtNo": 5067 }, "geometry": { "type": "Point", "coordinates": [ 1704645.923819, 811016.097534 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1A64111F-52FB-4F30-BE0D-90AFF546CA78}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT1", "Easting": 1704652.654000, "Northing": 811021.900000, "Elev": 840.333000, "Station": 1000.000000, "SurveyPtNo": 5066 }, "geometry": { "type": "Point", "coordinates": [ 1704652.654263, 811021.899742 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B5A4CE17-F763-4EE9-B5EA-CB007D1F0C14}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704655.195000, "Northing": 811010.132000, "Elev": 837.483000, "Station": 1008.188000, "SurveyPtNo": 5068 }, "geometry": { "type": "Point", "coordinates": [ 1704655.194806, 811010.132084 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D5DB9826-03F9-4693-AE5D-7EE2A851B336}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704661.085000, "Northing": 811005.739000, "Elev": 833.700000, "Station": 1015.496000, "SurveyPtNo": 5069 }, "geometry": { "type": "Point", "coordinates": [ 1704661.084988, 811005.738732 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9DB7CD5B-8D68-4F88-A12C-8793AC022C6D}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704662.345000, "Northing": 811004.789000, "Elev": 833.442000, "Station": 1017.064000, "SurveyPtNo": 5070 }, "geometry": { "type": "Point", "coordinates": [ 1704662.345299, 811004.789067 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{20214499-4A93-4E28-BF39-3DE35FD3F2DD}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704663.032000, "Northing": 811004.431000, "Elev": 832.992000, "Station": 1017.838000, "SurveyPtNo": 5071 }, "geometry": { "type": "Point", "coordinates": [ 1704663.032285, 811004.431256 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{69A46AC5-712D-40BF-891C-F2C70DABC4F1}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704678.672000, "Northing": 810993.599000, "Elev": 832.968000, "Station": 1036.815000, "SurveyPtNo": 5072 }, "geometry": { "type": "Point", "coordinates": [ 1704678.671988, 810993.598836 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B034CC73-8DEF-464B-BDC0-970A888534E6}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704693.386000, "Northing": 810983.510000, "Elev": 831.757000, "Station": 1054.618000, "SurveyPtNo": 5073 }, "geometry": { "type": "Point", "coordinates": [ 1704693.386307, 810983.509922 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2002A85B-B54F-434B-94B4-A4B874C98EEB}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704693.944000, "Northing": 810983.094000, "Elev": 832.233000, "Station": 1055.310000, "SurveyPtNo": 5074 }, "geometry": { "type": "Point", "coordinates": [ 1704693.943953, 810983.093813 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{DF3A0FB0-6369-4476-BA2A-206F30B13248}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704696.080000, "Northing": 810981.869000, "Elev": 831.853000, "Station": 1057.772000, "SurveyPtNo": 5075 }, "geometry": { "type": "Point", "coordinates": [ 1704696.080151, 810981.869320 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6277A8C0-E502-4A7F-80E0-D3D9FC7BE31A}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704709.586000, "Northing": 810975.026000, "Elev": 829.352000, "Station": 1072.879000, "SurveyPtNo": 5076 }, "geometry": { "type": "Point", "coordinates": [ 1704709.586418, 810975.026199 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{4EA595F0-4C33-419B-9A63-E5863C9D9895}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704736.938000, "Northing": 810961.018000, "Elev": 829.206000, "Station": 1103.550000, "SurveyPtNo": 5077 }, "geometry": { "type": "Point", "coordinates": [ 1704736.937888, 810961.017691 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2B464FF8-9097-4DA9-8247-B6A1D876D436}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704764.698000, "Northing": 810946.374000, "Elev": 829.556000, "Station": 1134.897000, "SurveyPtNo": 5078 }, "geometry": { "type": "Point", "coordinates": [ 1704764.698495, 810946.373727 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1EB6E498-1793-4C20-9235-B7E14E0A9274}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704784.489000, "Northing": 810935.035000, "Elev": 829.094000, "Station": 1157.703000, "SurveyPtNo": 5079 }, "geometry": { "type": "Point", "coordinates": [ 1704784.488617, 810935.034577 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{BA56B40D-22A0-47FE-88C2-16D90A49A749}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704810.667000, "Northing": 810923.815000, "Elev": 828.558000, "Station": 1185.942000, "SurveyPtNo": 5016 }, "geometry": { "type": "Point", "coordinates": [ 1704810.666871, 810923.815479 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{30DBDBC6-473A-44FF-9C04-A47BDAD67AE2}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1704813.549000, "Northing": 810923.630000, "Elev": 827.957000, "Station": 1188.516000, "SurveyPtNo": 5017 }, "geometry": { "type": "Point", "coordinates": [ 1704813.549358, 810923.629953 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0060D954-463F-44E3-93CE-E66C65D6BC2C}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1704816.559000, "Northing": 810921.581000, "Elev": 825.778000, "Station": 1192.150000, "SurveyPtNo": 5018 }, "geometry": { "type": "Point", "coordinates": [ 1704816.559498, 810921.580865 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{45B49878-DD8A-45A7-B4A3-303DBF2BD261}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1704819.289000, "Northing": 810919.582000, "Elev": 825.371000, "Station": 1195.518000, "SurveyPtNo": 5019 }, "geometry": { "type": "Point", "coordinates": [ 1704819.288920, 810919.581621 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1B03872F-ABBC-4ED8-A69E-017BD620981C}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1704822.043000, "Northing": 810917.204000, "Elev": 825.325000, "Station": 1199.100000, "SurveyPtNo": 5020 }, "geometry": { "type": "Point", "coordinates": [ 1704822.043272, 810917.204019 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6E1FCFAF-7458-465E-B8F4-EF5C0599A940}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "H2O", "Commented": 0, "Descript": "H2O", "Easting": 1704823.841000, "Northing": 810915.283000, "Elev": 825.036000, "Station": 1201.626000, "SurveyPtNo": 5021 }, "geometry": { "type": "Point", "coordinates": [ 1704823.841035, 810915.283411 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A1036B32-DC34-46B4-9E01-8A5FB2E2F682}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "DS", "Commented": 1, "Descript": "DS IN", "Easting": 1704833.259000, "Northing": 810926.077000, "Elev": 825.662000, "Station": 1204.219000, "SurveyPtNo": 5080 }, "geometry": { "type": "Point", "coordinates": [ 1704833.259086, 810926.076939 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E8B13EE3-DFA7-4F38-A357-52BEE7521AE0}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "TE", "Commented": 0, "Descript": "TE", "Easting": 1704825.963000, "Northing": 810911.537000, "Elev": 825.764000, "Station": 1205.362000, "SurveyPtNo": 5022 }, "geometry": { "type": "Point", "coordinates": [ 1704825.963390, 810911.536697 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C84B5D41-4C2A-475F-94D7-297258749E93}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "CB", "Commented": 0, "Descript": "Channelbank [CB", "Easting": 1704827.522000, "Northing": 810910.029000, "Elev": 828.799000, "Station": 1207.472000, "SurveyPtNo": 5023 }, "geometry": { "type": "Point", "coordinates": [ 1704827.521950, 810910.029271 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{9797F1BC-4948-4601-8BB8-E131ADC05D9B}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_05C", "Easting": 1704860.038000, "Northing": 810901.822000, "Elev": 830.144000, "Station": 1239.626000, "SurveyPtNo": 5010 }, "geometry": { "type": "Point", "coordinates": [ 1704860.038428, 810901.822200 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{1421440D-1014-4233-98B2-B4876954A210}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704857.898000, "Northing": 810888.432000, "Elev": 830.585000, "Station": 1244.615000, "SurveyPtNo": 5024 }, "geometry": { "type": "Point", "coordinates": [ 1704857.897756, 810888.432429 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2B0F7691-92FB-4290-99F6-9937A04FC2CD}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704860.141000, "Northing": 810887.442000, "Elev": 829.766000, "Station": 1247.050000, "SurveyPtNo": 5025 }, "geometry": { "type": "Point", "coordinates": [ 1704860.141431, 810887.441973 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{73AABD82-E634-49CF-B313-21BB6897B9E3}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704874.376000, "Northing": 810879.180000, "Elev": 830.618000, "Station": 1263.508000, "SurveyPtNo": 5026 }, "geometry": { "type": "Point", "coordinates": [ 1704874.375695, 810879.179943 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{D825AEC6-817F-4185-AA91-E3B0FDEAC860}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704885.570000, "Northing": 810869.640000, "Elev": 830.587000, "Station": 1278.003000, "SurveyPtNo": 5027 }, "geometry": { "type": "Point", "coordinates": [ 1704885.569870, 810869.639806 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A92DD759-F9E2-4B2C-B016-E42157EA48C6}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704886.262000, "Northing": 810869.122000, "Elev": 831.082000, "Station": 1278.862000, "SurveyPtNo": 5028 }, "geometry": { "type": "Point", "coordinates": [ 1704886.261950, 810869.122201 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0B34081F-74BD-4FC8-BE66-269554DDC10A}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704915.984000, "Northing": 810854.773000, "Elev": 839.084000, "Station": 1311.746000, "SurveyPtNo": 5029 }, "geometry": { "type": "Point", "coordinates": [ 1704915.983611, 810854.772861 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{15780C80-807F-4965-AFC0-79070477C1AB}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_04A", "Easting": 1705065.182000, "Northing": 811010.888000, "Elev": 831.369000, "Station": 1360.425000, "SurveyPtNo": 5005 }, "geometry": { "type": "Point", "coordinates": [ 1705065.182000, 811010.888000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E54FA030-E604-49F7-B7F5-9A182AE4F478}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_04A FLD", "Easting": 1705065.202000, "Northing": 811010.901000, "Elev": 831.409000, "Station": 1360.435000, "SurveyPtNo": 5003 }, "geometry": { "type": "Point", "coordinates": [ 1705065.201776, 811010.901066 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6B697CD5-6B57-409B-AAB7-786A3FC676A4}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "SPECIAL", "Commented": 1, "Descript": "DATE 10-05-11", "Easting": 1705065.202000, "Northing": 811010.901000, "Elev": 831.406000, "Station": 1360.435000, "SurveyPtNo": 5002 }, "geometry": { "type": "Point", "coordinates": [ 1705065.201788, 811010.901072 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{AA1772A3-C604-4F31-A2AA-A2711D6849F3}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "SPECIAL", "Commented": 1, "Descript": "04A BS CK", "Easting": 1705065.213000, "Northing": 811010.879000, "Elev": 831.370000, "Station": 1360.456000, "SurveyPtNo": 5081 }, "geometry": { "type": "Point", "coordinates": [ 1705065.213400, 811010.879178 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B775FBAB-86D3-4E0C-A3D6-D1E57955E4E8}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704960.353000, "Northing": 810825.670000, "Elev": 841.741000, "Station": 1364.754000, "SurveyPtNo": 5030 }, "geometry": { "type": "Point", "coordinates": [ 1704960.352652, 810825.669901 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{EE854649-5ED2-49AF-AFA4-41E7BE89004B}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704969.032000, "Northing": 810816.502000, "Elev": 839.877000, "Station": 1376.896000, "SurveyPtNo": 5032 }, "geometry": { "type": "Point", "coordinates": [ 1704969.032353, 810816.501945 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3A753594-8B62-4C31-96EE-C00D3163AE0E}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "GR", "Commented": 0, "Descript": "GR", "Easting": 1704976.380000, "Northing": 810810.461000, "Elev": 841.192000, "Station": 1386.298000, "SurveyPtNo": 5031 }, "geometry": { "type": "Point", "coordinates": [ 1704976.380255, 810810.461307 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5D0BD30B-CACC-4F01-BCAF-8C3413BE459B}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "SPECIAL", "Commented": 1, "Descript": "ALPT2", "Easting": 1704986.324000, "Northing": 810823.983000, "Elev": 838.929000, "Station": 1387.952000, "SurveyPtNo": 5034 }, "geometry": { "type": "Point", "coordinates": [ 1704986.323942, 810823.982554 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{B32BB650-281A-4F54-8A4F-4B2E31786173}", "XsectName": "FIELD", "StrucName": "GU_S20_05", "Code": "SPECIAL", "Commented": 1, "Descript": "GU_S20_02A", "Easting": 1705752.467000, "Northing": 811207.383000, "Elev": 835.249000, "Station": 1851.301000, "SurveyPtNo": 5006 }, "geometry": { "type": "Point", "coordinates": [ 1705752.467000, 811207.383000 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8BB847D4-6A53-4DFB-B7E7-42B04E4D3D98}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704649.529000, "Northing": 811024.303000, "Elev": 841.149000, "Station": 996.086000, "SurveyPtNo": 5064 }, "geometry": { "type": "Point", "coordinates": [ 1704649.529274, 811024.302655 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A99488A8-4EB8-4EE6-AC39-5898341B0743}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704652.637000, "Northing": 811021.910000, "Elev": 840.334000, "Station": 999.980000, "SurveyPtNo": 5065 }, "geometry": { "type": "Point", "coordinates": [ 1704652.636969, 811021.909755 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{934E08CF-3C89-4C1B-AFA9-E726D31CE46F}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704668.311000, "Northing": 811014.725000, "Elev": 836.461000, "Station": 1017.126000, "SurveyPtNo": 5063 }, "geometry": { "type": "Point", "coordinates": [ 1704668.311031, 811014.725217 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{BD96C337-E5AA-4813-82AD-393ABD19A3B2}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704674.456000, "Northing": 811009.506000, "Elev": 833.334000, "Station": 1025.074000, "SurveyPtNo": 5062 }, "geometry": { "type": "Point", "coordinates": [ 1704674.455988, 811009.505906 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{99C54751-8BD2-4F6F-8B9D-65330500D256}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704677.421000, "Northing": 811008.603000, "Elev": 833.046000, "Station": 1028.085000, "SurveyPtNo": 5061 }, "geometry": { "type": "Point", "coordinates": [ 1704677.421364, 811008.603418 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{0D44C58A-6CD6-4A66-B9E7-532235DB48FD}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704678.344000, "Northing": 811008.249000, "Elev": 832.599000, "Station": 1029.059000, "SurveyPtNo": 5060 }, "geometry": { "type": "Point", "coordinates": [ 1704678.343626, 811008.248629 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3141F3D0-917F-46CE-B58F-DF78D982F5E6}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704697.747000, "Northing": 810999.445000, "Elev": 832.396000, "Station": 1050.239000, "SurveyPtNo": 5059 }, "geometry": { "type": "Point", "coordinates": [ 1704697.746553, 810999.444759 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{84B083A5-6F25-4453-9079-D315968C3846}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704714.104000, "Northing": 810989.091000, "Elev": 831.393000, "Station": 1069.589000, "SurveyPtNo": 5058 }, "geometry": { "type": "Point", "coordinates": [ 1704714.103537, 810989.090953 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{221A722E-0F12-4A9B-905F-61F3A2C078CB}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704714.724000, "Northing": 810988.720000, "Elev": 831.861000, "Station": 1070.312000, "SurveyPtNo": 5057 }, "geometry": { "type": "Point", "coordinates": [ 1704714.724123, 810988.719844 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{5C35E950-B51F-4363-9C73-01A85C8C3481}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704716.820000, "Northing": 810988.092000, "Elev": 831.845000, "Station": 1072.435000, "SurveyPtNo": 5056 }, "geometry": { "type": "Point", "coordinates": [ 1704716.819703, 810988.091923 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{BEDCFE99-0AFD-481E-BD2A-B95F17C99162}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704728.901000, "Northing": 810979.258000, "Elev": 829.080000, "Station": 1087.333000, "SurveyPtNo": 5055 }, "geometry": { "type": "Point", "coordinates": [ 1704728.901235, 810979.257802 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A99A1DA6-350E-4D6E-B2FF-97BFBCAAAB2A}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704750.317000, "Northing": 810967.136000, "Elev": 828.910000, "Station": 1111.936000, "SurveyPtNo": 5054 }, "geometry": { "type": "Point", "coordinates": [ 1704750.316584, 810967.135567 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{8B40C004-51E9-4CB2-974F-2502FFF55FD6}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704780.781000, "Northing": 810948.485000, "Elev": 829.420000, "Station": 1147.653000, "SurveyPtNo": 5053 }, "geometry": { "type": "Point", "coordinates": [ 1704780.781110, 810948.484834 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A241E188-5D33-4C86-8A24-53277F66F9EB}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "BEGIN", "Commented": 0, "Descript": "BEGIN", "Easting": 1704812.357000, "Northing": 810930.698000, "Elev": 829.141000, "Station": 1183.885000, "SurveyPtNo": 5052 }, "geometry": { "type": "Point", "coordinates": [ 1704812.357160, 810930.697613 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{C6AE60CD-843C-4C1E-8808-A37091038B34}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704819.347000, "Northing": 810926.276000, "Elev": 829.743000, "Station": 1192.153000, "SurveyPtNo": 5051 }, "geometry": { "type": "Point", "coordinates": [ 1704819.347211, 810926.275871 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6280022F-41BD-4FAA-881A-EAD2E338595F}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704829.535000, "Northing": 810920.403000, "Elev": 830.077000, "Station": 1203.911000, "SurveyPtNo": 5050 }, "geometry": { "type": "Point", "coordinates": [ 1704829.534705, 810920.403126 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{514DEC4E-6C5B-4868-B293-98B467BA0DD0}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704839.421000, "Northing": 810914.471000, "Elev": 829.752000, "Station": 1215.440000, "SurveyPtNo": 5049 }, "geometry": { "type": "Point", "coordinates": [ 1704839.421358, 810914.471156 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{A25BD3AC-3A73-4F4F-93D3-4CDF0999BAEE}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "END", "Commented": 0, "Descript": "END", "Easting": 1704847.451000, "Northing": 810910.261000, "Elev": 829.105000, "Station": 1224.494000, "SurveyPtNo": 5048 }, "geometry": { "type": "Point", "coordinates": [ 1704847.450742, 810910.261088 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{76C28A0B-2F29-486B-828C-E0035FBFCD4D}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704848.400000, "Northing": 810909.788000, "Elev": 829.044000, "Station": 1225.552000, "SurveyPtNo": 5047 }, "geometry": { "type": "Point", "coordinates": [ 1704848.399506, 810909.787692 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{6F458DC5-5351-41D2-9B2C-31EDC834286F}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704873.890000, "Northing": 810893.707000, "Elev": 830.972000, "Station": 1255.679000, "SurveyPtNo": 5046 }, "geometry": { "type": "Point", "coordinates": [ 1704873.889771, 810893.707161 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{81E00998-80CB-4010-AE59-4C2EC925B2A0}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704875.172000, "Northing": 810892.956000, "Elev": 830.368000, "Station": 1257.165000, "SurveyPtNo": 5045 }, "geometry": { "type": "Point", "coordinates": [ 1704875.171877, 810892.956018 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{BB279296-45CD-4004-8AC7-B001E7869D4B}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704889.584000, "Northing": 810885.132000, "Elev": 831.173000, "Station": 1273.552000, "SurveyPtNo": 5044 }, "geometry": { "type": "Point", "coordinates": [ 1704889.583528, 810885.131602 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3A238584-C3FD-454F-91A1-6E80C8F436A8}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704904.631000, "Northing": 810876.965000, "Elev": 831.397000, "Station": 1290.660000, "SurveyPtNo": 5043 }, "geometry": { "type": "Point", "coordinates": [ 1704904.630593, 810876.964959 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{908CA9AD-8620-4C90-B5F6-71118D3E5167}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704905.183000, "Northing": 810876.213000, "Elev": 831.856000, "Station": 1291.519000, "SurveyPtNo": 5042 }, "geometry": { "type": "Point", "coordinates": [ 1704905.183089, 810876.212754 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{AF2901A1-9956-4B5E-9526-173155F92A93}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704920.301000, "Northing": 810869.191000, "Elev": 835.880000, "Station": 1308.104000, "SurveyPtNo": 5041 }, "geometry": { "type": "Point", "coordinates": [ 1704920.300936, 810869.190567 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{3FA526F2-2213-4D36-8E56-B8FDAFC471F2}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704921.841000, "Northing": 810868.228000, "Elev": 836.041000, "Station": 1309.919000, "SurveyPtNo": 5040 }, "geometry": { "type": "Point", "coordinates": [ 1704921.841333, 810868.228086 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{E5CE4E41-E1E1-4CBB-8920-221B58A92741}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704920.447000, "Northing": 810865.593000, "Elev": 837.938000, "Station": 1310.064000, "SurveyPtNo": 5038 }, "geometry": { "type": "Point", "coordinates": [ 1704920.446590, 810865.593203 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{F4934175-651B-4C33-98D3-0C0D6414F02A}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704921.787000, "Northing": 810867.850000, "Elev": 838.491000, "Station": 1310.065000, "SurveyPtNo": 5039 }, "geometry": { "type": "Point", "coordinates": [ 1704921.787006, 810867.850444 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{683E3A5E-5BC9-4295-9CF0-70143345280B}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704939.791000, "Northing": 810854.286000, "Elev": 840.365000, "Station": 1332.470000, "SurveyPtNo": 5037 }, "geometry": { "type": "Point", "coordinates": [ 1704939.791249, 810854.286475 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{EFFAC6C1-7DD9-40AE-8113-8260207F8A01}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704959.734000, "Northing": 810841.636000, "Elev": 841.167000, "Station": 1356.076000, "SurveyPtNo": 5036 }, "geometry": { "type": "Point", "coordinates": [ 1704959.733572, 810841.636353 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{07CFE371-599A-4AEB-8D68-84F8E2FDE543}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704970.358000, "Northing": 810834.573000, "Elev": 839.597000, "Station": 1368.817000, "SurveyPtNo": 5035 }, "geometry": { "type": "Point", "coordinates": [ 1704970.358357, 810834.573186 ] } }
+,
+{ "type": "Feature", "properties": { "XSPt_ID": "{2CB6AF1D-EC91-4B41-9AA2-3D8F3DC71E58}", "XsectName": "TOR", "StrucName": "GU_S20_05", "Code": "TR", "Commented": 0, "Descript": "TR", "Easting": 1704986.341000, "Northing": 810823.972000, "Elev": 838.931000, "Station": 1387.972000, "SurveyPtNo": 5033 }, "geometry": { "type": "Point", "coordinates": [ 1704986.340913, 810823.972094 ] } }
+
+]
+}

@@ -1,0 +1,289 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+      Publication_Date: 2010
+      Title: US Census 5-Digit ZIP Code Tabulation Areas (ZCTA5) - North Carolina
+      Edition: 2010
+      Geospatial_Data_Presentation_Form: vector digital data
+      Online_Linkage: http://www.census.gov/geo/www/tiger
+  Description:
+    Abstract: The TIGER/Line Files are shapefiles and related database files (.dbf) that are an extract of selected geographic and cartographic information from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB).  The MTDB represents a seamless national file with no overlaps or gaps between parts, however, each TIGER/Line File is designed to stand alone as an independent data set, or they can be combined to cover the entire nation.    ZIP Code Tabulation Areas (ZCTAs) are approximate area representations of U.S. Postal Service (USPS) ZIP Code service areas that the Census Bureau creates to present statistical data from Census 2000.  The Census Bureau creates ZCTAs for the United States, Puerto Rico, American Samoa, Guam, the Commonwealth of the Northern Mariana Islands, and the U.S. Virgin Islands for the 2010 Census.  Data users should not use ZCTAs to identify the official USPS ZIP Code for mail delivery.  The USPS makes periodic changes to ZIP Codes to support more efficient mail delivery.  For the 2010 Census, ZCTAs should more accurately represent the actual ZIP Codes at the time of their delineation than they did for Census 2000.  This is because that before the tabulation blocks, which the ZCTAs are built from, were delineated for the 2010 Census, the Census Bureau undertook the process of inserting lines that could be used as 2010 Census tabulation block boundaries, and these lines split polygons where the result would be that a significant number of addresses would occur on either one or both sides of the line associated with a single ZIP Code.  Each 2010 Census tabulation block that contains addresses is assigned to a single ZCTA, usually to the ZCTA that reflects the most frequently occurring ZIP Code for the addresses within that tabulation block.  As a result, ZIP Codes associated with address ranges found in the Address Ranges relationship file may not always match the ZCTA.  Blocks that do not contain addresses but are completely surrounded by a single ZCTA (enclaves) are assigned to the surrounding ZCTA.  A ZCTA may not exist for every USPS ZIP Code.  Some ZIP Codes may not have a matching ZCTA because too few addresses were associated with the specific ZIP Code or the ZIP Code was not the most frequently occurring ZIP Code within any of the blocks were it exists.  The Census Bureau uses the addresses stored within MTDB to delineate ZCTAs, and at the time of the 2010 Census the MTDB primarily included addresses for residential or at least potentially residential structures, so ZCTAs representing only non-residential structures are infrequent.  Also, in each tabulation block, if a choice existed between using a potential city-style mail delivery ZIP Code for an address or a post office box ZIP Code, the city-style mail delivery ZIP Code was preferred for the 2010 Census ZCTA delineation.  The Census Bureau identifies 5-digit ZCTAs using a five-character numeric code that represents the most frequently occurring USPS ZIP Code within that ZCTA, and this code may contain leading zeros.
+    Purpose: In order for others to use the information in the Census MAF/TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line Shapefiles.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 201001
+        Ending_Date: 201007
+    Currentness_Reference: Publication Date
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database.  No changes or updates will be made to this version of the TIGER/Line Shapefiles.  Future releases of TIGER/Line Shapefiles will reflect updates made to the Census MAF/TIGER database.
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.321869
+      East_Bounding_Coordinate: -75.400119
+      North_Bounding_Coordinate: 36.588157
+      South_Bounding_Coordinate: 33.752878
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Categories
+      Theme_Keyword: boundaries
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: State or equivalent entity
+      Theme_Keyword: Polygon
+      Theme_Keyword: ZIP Code Tabulation Area
+      Theme_Keyword: ZCTA
+      Theme_Keyword: Zip Code
+	  Theme_Keyword: Zip Codes
+    Place:
+      Place_Keyword_Thesaurus: INCITS.38-200x (R2004),INCITS.31-200x (R2007),INCITS.454-200x,INCITS 455-200x,INCITS 446-2008
+      Place_Keyword: United States
+      Place_Keyword: U.S.
+      Place_Keyword: State or Equivalent Entity
+      Place_Keyword: North Carolina
+      Place_Keyword: NC
+      Place_Keyword: 37
+  Access_Constraints: None
+  Use_Constraints:
+    The TIGER/Line Shapefile products are not copyrighted however TIGER/Line and Census TIGER are registered trademarks of the U.S. Census Bureau.  These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.
+    The boundary information in the TIGER/Line Shapefiles are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.Coordinates in the TIGER/Line shapefiles have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 4600 Silver Hill Road, Stop 7400
+        City: Washington
+        State_or_Province: DC
+        Postal_Code: 20233-7400
+        Country: United States
+      Contact_Voice_Telephone: 301-763-1128
+      Contact_Facsimile_Telephone: 301-763-4710
+      Contact_Electronic_Mail_Address: geo.tiger@census.gov
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100% level for the codes and base names.  The remaining attribute information has been examined but has not been fully tested for accuracy.
+  Logical_Consistency_Report:
+    The Census Bureau performed automated tests to ensure logical consistency and limits of shapefiles.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  All polygons are tested for closure.
+    The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as FIPS codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Most of the codes for geographic entities except states, counties, urban areas, Core Based Statistical Areas (CBSAs), American Indian Areas (AIAs), and congressional districts were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55.  Feature attribute information has been examined but has not been fully tested for consistency.
+    For the TIGER/Line Shapefiles, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the shapefile attribute table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature.  TIGER/Line Shapefile multi-polygons are an exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a shapefile, the object count will be less than the actual number of G-polygons.
+  Completeness_Report: Data completeness of the TIGER/Line Shapefiles reflects the contents of the Census MAF/TIGER database at the time the TIGER/Line Shapefiles were created.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Department of Commerce, U.S. Census Bureau, Geography Division
+          Publication_Date: Unpublished material
+          Title: Census MAF/TIGER database
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 201001
+            Ending_Date: 201007
+        Source_Currentness_Reference: Publication Date
+      Source_Citation_Abbreviation: MAF/TIGER
+      Source_Contribution: The selected geographic and cartographic information (line segments) are derived from the U.S. Census Bureau's Master Address File Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) database.
+    Process_Step:
+      Process_Description: TIGER/Line Shapefiles are extracted from the Census MAF/TIGER database by nation, state, county, and entity.  Census MAF/TIGER data for all of the aforementioned geographic entities are then distributed among the shapefiles each containing attributes for line, polygon, or landmark geographic data.
+      Source_Used_Citation_Abbreviation: Census MAF/TIGER
+      Process_Date: 2010
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Federal Information Processing Standards (FIPS), ANSI, and feature names.
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: G-polygon
+      Point_and_Vector_Object_Count: 808
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 1
+          Ordinate_Resolution: 1
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 1980
+      Semi-major_Axis: 6378137
+      Denominator_of_Flattening_Ratio: 298.257
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: ZCTA510.shp
+      Entity_Type_Definition: 2010 Census 5-digit ZIP Code Tabulation Area (ZCTA5) State-based
+      Entity_Type_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: STATEFP10
+      Attribute_Definition:
+        2010 Census state Federal Information Processing Standards
+        (FIPS) code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            INCITS.38-200x (R2004), Codes for the Identification of
+            the States, the District of Columbia, Puerto Rico, and the
+            Insular Areas of the United States (Formerly FIPS 5-2)
+          Codeset_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: ZCTA5CE10
+      Attribute_Definition: 2010 Census 5-digit ZIP Code Tabulation Area code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 00401 to 99950
+          Enumerated_Domain_Value_Definition: Five-digit ZIP code
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: GEOID10
+      Attribute_Definition:
+        2010 Census 5-digit ZIP Code Tabulation Area identifier, 2010
+        Census 5-digit ZIP Code Tabulation Area code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Unrepresentable_Domain:
+          2010 Census 5-digit ZIP Code Tabulation Area code found in
+          ZCTA5CE10
+    Attribute:
+      Attribute_Label: CLASSFP10
+      Attribute_Definition:
+        2010 Census Federal Information Processing Standards (FIPS) 55
+        class code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: B5
+          Enumerated_Domain_Value_Definition: Five-digit ZCTA
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: MTFCC10
+      Attribute_Definition: MAF/TIGER feature class code
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: G6350
+          Enumerated_Domain_Value_Definition: ZIP Code Tabulation Area (5-digit)
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: FUNCSTAT10
+      Attribute_Definition: 2010 Census functional status
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: S
+          Enumerated_Domain_Value_Definition: Statistical entity
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: ALAND10
+      Attribute_Definition: 2010 Census land area (square meters)
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0 to 9,999,999,999,999
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: AWATER10
+      Attribute_Definition: 2010 Census water area (square meters)
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 0 to 9,999,999,999,999
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: INTPTLAT10
+      Attribute_Definition: 2010 Census latitude of the internal point
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 00
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: INTPTLON10
+      Attribute_Definition: 2010 Census longitude of the internal point
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 00
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+    Attribute:
+      Attribute_Label: PARTFLG10
+      Attribute_Definition:
+        Part flag identifying if all or part of the 2010 Census entity
+        is within the file
+      Attribute_Definition_Source: U.S. Census Bureau
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 00
+          Enumerated_Domain_Value_Definition: Blank
+          Enumerated_Domain_Value_Definition_Source: U.S. Census Bureau
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 4600 Silver Hill Road, Stop 7400
+        City: Washington
+        State_or_Province: DC
+        Postal_Code: 20233-7400
+        Country: United States
+      Contact_Voice_Telephone: 301-763-1128
+      Contact_Facsimile_Telephone: 301-763-4710
+      Contact_Electronic_Mail_Address: geo.tiger@census.gov
+  Distribution_Liability: No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information in the TIGER/Line Shapefiles is for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: TGRSHP (compressed)
+        File_Decompression_Technique: PK-ZIP, version 1.93 A or higher
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/zcta.zip
+        Offline_Option:
+          Offline_Media: DVD-ROM (Only if offered offline)
+          Recording_Format: ISO 9660
+    Fees: The online copy of the TIGER/Line files may be accessed without charge.
+    Ordering_Instructions: To obtain more information about ordering TIGER/Line shapefiles visit http://www.census.gov/geo/www/tiger
+  Technical_Prerequisites: The TIGER/Line shapefiles contain geographic data only and do not include display mapping software or statistical data.  For information on how to use the TIGER/Line shapefile data with specific software package users shall contact the company that produced the software.
+Metadata_Reference_Information:
+  Metadata_Date: 20100507
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Products Branch
+      Contact_Address:
+        Address_Type: Mailing address
+        Address: 4600 Silver Hill Road, Stop 7400
+        City: Washington
+        State_or_Province: DC
+        Postal_Code: 20233-7400
+        Country: United States
+      Contact_Voice_Telephone: 301-763-1128
+      Contact_Facsimile_Telephone: 301-763-4710
+      Contact_Electronic_Mail_Address: geo.tiger@census.gov
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998

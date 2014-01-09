@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "COASTAL BARRIER RESOURCES SYSTEM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "OTHERWISE PROTECTED AREA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

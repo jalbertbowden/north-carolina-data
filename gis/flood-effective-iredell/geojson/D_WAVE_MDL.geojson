@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "CHAMP 2.0" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "DELFT 3D" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "MIKE 21 (FM SW)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "MIKE 21 (NSW)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "MIKE 21 (OSW)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "RCPWAVE (1986)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "STWAVE (LATEST VERSION)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "SWAN (2008)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "WHAFIS 3.0 (1998)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1090", "DESCRIPT": "WHAFIS 3.0 GL (1993)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1100", "DESCRIPT": "WHAFIS 4.0" }, "geometry": null }
+
+]
+}

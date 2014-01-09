@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "PAVED" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "PROPOSED" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "UNDER CONSTRUCTION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "UNIMPROVED" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

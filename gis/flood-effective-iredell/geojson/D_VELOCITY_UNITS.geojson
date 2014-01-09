@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "CENTIMETERS \/ DAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "CENTIMETERS \/ HOUR" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "FEET \/ SECOND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "INCHES \/ DAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "INCHES \/ HOUR" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "METERS \/ SECOND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "MICROMETERS \/ SECOND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "MILLIMETERS \/ DAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "MILLIMETERS \/ HOUR" }, "geometry": null }
+
+]
+}

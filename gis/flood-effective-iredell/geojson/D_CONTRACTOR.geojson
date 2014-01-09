@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "ARCADIS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "AMEC" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "DEWBERRY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "GREENHORNE & O'MARA, INC." }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "AECOM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "CARTER BURGESS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "RENCI" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "ESP ASSOCIATES" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "NORTH CAROLINA FLOODPLAIN MAPPING PROGRAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1090", "DESCRIPT": "DATA IMPORT TOOL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1100", "DESCRIPT": "ADECA" }, "geometry": null }
+
+]
+}

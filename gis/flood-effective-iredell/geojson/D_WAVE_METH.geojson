@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "2D WAVE MODEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "ACES 1.07 (1992)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "CEM (COASTAL ENGINEERING MANUAL)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "CHAMP \/ RUNUP 2.0 (2007)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "DIM (DIRECT INTEGRATION METHOD)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "RUNUP 2.0 (1990)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "SPM (SHORE PROTECTION MANUAL)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "TAW METHOD" }, "geometry": null }
+
+]
+}

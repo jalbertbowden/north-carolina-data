@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "ACES 1.07 (1992)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "CEM – OTHER (2003)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "CHAMP 2.0" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "DIM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "EROSION (1998)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "GLWRM (1992)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "RUNUP 2.0" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "SPM RUNUP" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "TAW METHOD" }, "geometry": null }
+
+]
+}

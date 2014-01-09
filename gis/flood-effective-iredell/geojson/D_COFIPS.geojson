@@ -1,0 +1,209 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "001", "DESCRIPT": "ALAMANCE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "003", "DESCRIPT": "ALEXANDER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "005", "DESCRIPT": "ALLEGHANY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "007", "DESCRIPT": "ANSON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "009", "DESCRIPT": "ASHE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "011", "DESCRIPT": "AVERY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "013", "DESCRIPT": "BEAUFORT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "015", "DESCRIPT": "BERTIE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "017", "DESCRIPT": "BLADEN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "019", "DESCRIPT": "BRUNSWICK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "021", "DESCRIPT": "BUNCOMBE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "023", "DESCRIPT": "BURKE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "025", "DESCRIPT": "CABARRUS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "027", "DESCRIPT": "CALDWELL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "029", "DESCRIPT": "CAMDEN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "031", "DESCRIPT": "CARTERET" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "033", "DESCRIPT": "CASWELL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "035", "DESCRIPT": "CATAWBA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "037", "DESCRIPT": "CHATHAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "039", "DESCRIPT": "CHEROKEE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "041", "DESCRIPT": "CHOWAN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "043", "DESCRIPT": "CLAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "045", "DESCRIPT": "CLEVELAND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "047", "DESCRIPT": "COLUMBUS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "049", "DESCRIPT": "CRAVEN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "051", "DESCRIPT": "CUMBERLAND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "053", "DESCRIPT": "CURRITUCK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "055", "DESCRIPT": "DARE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "057", "DESCRIPT": "DAVIDSON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "059", "DESCRIPT": "DAVIE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "061", "DESCRIPT": "DUPLIN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "063", "DESCRIPT": "DURHAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "065", "DESCRIPT": "EDGECOMBE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "067", "DESCRIPT": "FORSYTH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "069", "DESCRIPT": "FRANKLIN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "071", "DESCRIPT": "GASTON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "073", "DESCRIPT": "GATES" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "075", "DESCRIPT": "GRAHAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "077", "DESCRIPT": "GRANVILLE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "079", "DESCRIPT": "GREENE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "081", "DESCRIPT": "GUILFORD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "083", "DESCRIPT": "HALIFAX" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "087", "DESCRIPT": "HAYWOOD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "089", "DESCRIPT": "HENDERSON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "091", "DESCRIPT": "HERTFORD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "093", "DESCRIPT": "HOKE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "095", "DESCRIPT": "HYDE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "097", "DESCRIPT": "IREDELL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "099", "DESCRIPT": "JACKSON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "101", "DESCRIPT": "JOHNSTON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "103", "DESCRIPT": "JONES" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "105", "DESCRIPT": "LEE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "107", "DESCRIPT": "LENOIR" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "109", "DESCRIPT": "LINCOLN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "113", "DESCRIPT": "MACON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "115", "DESCRIPT": "MADISON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "117", "DESCRIPT": "MARTIN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "111", "DESCRIPT": "MCDOWELL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "119", "DESCRIPT": "MECKLENBURG" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "121", "DESCRIPT": "MITCHELL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "123", "DESCRIPT": "MONTGOMERY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "125", "DESCRIPT": "MOORE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "127", "DESCRIPT": "NASH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "129", "DESCRIPT": "NEW HANOVER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "131", "DESCRIPT": "NORTHAMPTON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "133", "DESCRIPT": "ONSLOW" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "135", "DESCRIPT": "ORANGE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "137", "DESCRIPT": "PAMLICO" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "139", "DESCRIPT": "PASQUOTANK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "141", "DESCRIPT": "PENDER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "143", "DESCRIPT": "PERQUIMANS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "145", "DESCRIPT": "PERSON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "147", "DESCRIPT": "PITT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "149", "DESCRIPT": "POLK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "151", "DESCRIPT": "RANDOLPH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "153", "DESCRIPT": "RICHMOND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "155", "DESCRIPT": "ROBESON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "157", "DESCRIPT": "ROCKINGHAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "159", "DESCRIPT": "ROWAN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "161", "DESCRIPT": "RUTHERFORD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "163", "DESCRIPT": "SAMPSON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "165", "DESCRIPT": "SCOTLAND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "167", "DESCRIPT": "STANLY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "169", "DESCRIPT": "STOKES" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "171", "DESCRIPT": "SURRY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "173", "DESCRIPT": "SWAIN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "175", "DESCRIPT": "TRANSYLVANIA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "177", "DESCRIPT": "TYRRELL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "179", "DESCRIPT": "UNION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "183", "DESCRIPT": "WAKE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "185", "DESCRIPT": "WARREN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "187", "DESCRIPT": "WASHINGTON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "189", "DESCRIPT": "WATAUGA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "191", "DESCRIPT": "WAYNE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "193", "DESCRIPT": "WILKES" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "195", "DESCRIPT": "WILSON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "197", "DESCRIPT": "YADKIN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "085", "DESCRIPT": "HARNETT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "181", "DESCRIPT": "VANCE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "199", "DESCRIPT": "YANCEY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "201", "DESCRIPT": "EASTERN BAND OF CHEROKEE INDIANS" }, "geometry": null }
+
+]
+}

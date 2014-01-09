@@ -1,0 +1,286 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Coastal Services Center (CSC)
+      Publication_Date: 20021212
+      Title: Submerged Aquatic Vegetation of Bogue Sound, North Carolina 1992
+      Edition: 1.0
+      Geospatial_Data_Presentation_Form: Map
+      Publication_Information:
+        Publication_Place: Charleston, SC
+        Publisher: NOAA's Ocean Service, Coastal Services Center (CSC)
+      Online_Linkage: ftp://ftp.csc.noaa.gov/pub/benthic/nc_bs92.zip
+      Online_Linkage: http://www.csc.noaa.gov/benthic/data/southeast/bogue.htm
+      Online_Linkage: http://www.csc.noaa.gov/benthic/
+      Online_Linkage: http://www.csc.noaa.gov/
+  Description:
+    Abstract: During 1992, 1:20,000 scale aerial photography for Bogue Sound, North Carolina was collected as part of an effort to map submerged aquatic vegetation (SAV) in Coastal North Carolina. The imagery was collected following a strict set of guidelines as detailed in NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation (NOAA Technical Report NMFS 123 1995; see Chapter 4 online at www.csc.noaa.gov/crs/lca/methods.html). Photographs were taken at low tide and during times that the growth stage of the SAV allowed for clear identification. Care was taken to minimize the effects of turbidity, sun glint, wind, and haze on the photos. The imagery was scanned using a photogrammetric quality scanner (AGFA Horizon Plus) at a resolution of 600 dots per inch (dpi) resulting in a pixel resolution of 0.85 meters. Signature development took place during the summer of 2001. The images were orthorectified using ground control points selected from the state digital orthoquads and the National Imagery and Mapping Agency (NIMA) Digital Terrain Elevation Data (DTED(r)). The benthic data is classified according to the System for Classification of Habitats in Estuarine and Marine Environments (SCHEME).  This system is fully described in "Development of a System for Classification of Habitats in Estuarine and Marine Environments (SCHEME) for Florida, Report to U.S. EPA - Gulf of Mexico Program, Florida Fish and Wildlife Conservation Commission, Florida Marine Research Institute. Review Draft 12/04/02." The images were interpreted and digitized on screen using ArcGIS 8.2 and labeled using ArcView 3.2 and the Benthic Habitat Digitizer extension (developed by the NOS Biogeography Program). The data have not been assessed for thematic accuracy due to the large disparity between dates of image acquisition in 1992 and interpretation in 2002. The data was assessed for horizontal spatial accuracy and thematic agreement during the fall of 2002.
+    Purpose: This data set was developed as a baseline of SAV data for Bogue Sound, North Carolina in 1992. The SAV data will be used as a baseline for future state SAV mapping projects.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19920504
+        Ending_Date: 19920524
+    Currentness_Reference: Ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: None planned
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -77.1686
+      East_Bounding_Coordinate: -76.5522
+      North_Bounding_Coordinate: 34.7821
+      South_Bounding_Coordinate: 34.6384
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: biota
+      Theme_Keyword: environment
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Environmental Monitoring
+      Theme_Keyword: submerged aquatic vegetation
+      Theme_Keyword: SAV
+      Theme_Keyword: seagrass
+      Theme_Keyword: Zostera
+      Theme_Keyword: Halodule
+      Theme_Keyword: benthic
+      Theme_Keyword: aerial photography
+      Theme_Keyword: CSC Benthic Habitat Mapping
+    Place:
+      Place_Keyword_Thesaurus: None
+      Place_Keyword: North Carolina
+      Place_Keyword: NC
+      Place_Keyword: Bogue Sound
+      Place_Keyword: Carteret County
+      Place_Keyword: Onslow County
+      Place_Keyword: New River Inlet
+  Access_Constraints: None
+  Use_Constraints: Not for use in navigation.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NOAA Coastal Services Center
+        Contact_Person: CRS Program Manager
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 2234 South Hobson Avenue
+        City: Charleston
+        State_or_Province: SC
+        Postal_Code: 29405
+        Country: USA
+      Contact_Voice_Telephone: 843-740-1239
+      Contact_Facsimile_Telephone: 843-740-1289
+      Contact_Electronic_Mail_Address: clearinghouse@noaa.gov
+      Hours_of_Service: Monday - Friday, 8 a.m. - 5 p.m., Eastern Standard Time
+  Native_Data_Set_Environment: Arc/Info coverage format
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: A spatial accuracy assessment was conducted in the fall of 2002 using the National Standard for Spatial Data Accuracy (NSSDA) statistic. Due to the 10 years between image acquisition and interpretation, a rigorous thematic accuracy assessment would not be reliable.  However field visits indicated that of 33 SAV polygons mapped from the 1992 imagery, 30 had SAV present when visited in 2001 and 2002 (90% agreement).
+  Logical_Consistency_Report: Unknown
+  Completeness_Report: Unknown
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: This data set tested 11 meters horizontal accuracy at 95% confidence level using the NSSDA. Several factors may reduce the horizontal accuracy of the data. The imagery for Bogue Sound was rectified using ground control points (GCPs) selected from features from the state digital orthophoto quadrangles (DOQ). The DOQs had a 1-meter ground resolution at a scale of 1:12,000. During interpretation, offsets as great as 10-meters were noted between neighboring DOQs. In addition, no camera report was available for the imagery. The camera report would have helped account for distortions due the camera lens.
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: A National Imagery and Mapping Agency (NIMA) Digital Terrain Elevation Data (DTED (r)) was used for vertical accuracy. The DTED is a level 1 coverage with a 77-meter pixel size.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: NIMA
+          Publication_Date: 19960208
+          Title: National Imagery and Mapping Agency (NIMA) Digital Terrain Elevation Data (DTED (r)) Level 1 Coverage
+          Edition: 003
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Fairfax, VA
+            Publisher: NIMA
+          Larger_Work_Citation:
+            Citation_Information:
+              Originator: NIMA
+              Publication_Date: 19960208
+              Title: DTED130 Ed:003 CD-ROM
+              Publication_Information:
+                Publication_Place: Fairfax, VA
+                Publisher: NIMA
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 19960208
+            Ending_Date: 19960208
+        Source_Currentness_Reference: Ground condition
+      Source_Citation_Abbreviation: DTED
+      Source_Contribution: The DTED was used as the horizontal control during the orthorectification.
+    Process_Step:
+      Process_Description: The 1992 imagery for Bogue Sound, NC was acquired from the NOS MapFinder Web site (http://mapfinder.nos.noaa.gov/). Signature development took place during the summer of 2001. Field observations were used to help the interpreter recognize and identify the benthic signatures and develop the classification scheme. The images were scanned using a photogrammetric quality scanner (AGFA Horizon Plus) at a resolution of 600 dots per inch (dpi) resulting in a pixel resolution of 0.85 meters. The digital images were orthorectified using ERDAS Imagine 8.5 Orthobase. No camera report was available for the 1992 imagery, so the default RC-20 Wild camera settings were used. Ground control points were selected from similar features on the 1999 North Carolina USGS standard digital orthophoto quadrangles (DOQ). The DOQs are compressed JPEG files at a scale of 1:12,000 with 1-meter resolution. They were purchased from the state of North Carolina in 2002. NIMA Digital Terrain Elevation Data (DTED) level 1 coverage with a 77-meter resolution were used for the vertical data reference. The orthorectified images were interpreted and digitized on screen using ArcGIS 8.2. The benthic data is classified according to the System for Classification of Habitats in Estuarine and Marine Environments (SCHEME).  This system is fully described in "Development of a System for Classification of Habitats in Estuarine and Marine Environments (SCHEME) for Florida, Report to U.S. EPA - Gulf of Mexico Program, Florida Fish and Wildlife Conservation Commission, Florida Marine Research Institute. Review Draft 12/04/02."  The data was labeled using ArcView 3.2 and the Benthic Habitat Digitizer extension (developed by the NOS Biogeography Program). The data have not been assessed for thematic accuracy due to the large disparity between dates of image acquisition in 1992 and interpretation in 2002. The data was assessed for spatial accuracy during the fall of 2002.  Sources used in this processing step were the DTED, Aerial Photos, and DOQs.
+      Process_Date: 20020830
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Person: CRS Program Manager
+            Contact_Organization: NOAA Coastal Services Center
+          Contact_Address:
+            Address_Type: mailing and physical
+            Address: 2234 South Hobson Avenue
+            City: Charleston
+            State_or_Province: SC
+            Postal_Code: 29405
+            Country: USA
+          Contact_Voice_Telephone: 843-740-1239
+          Contact_Facsimile_Telephone: 843-740-1289
+          Contact_Electronic_Mail_Address: clearinghouse@noaa.gov
+          Hours_of_Service: Monday - Friday, 8 a.m. - 5 p.m., Eastern Standard Time
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+      Point_and_Vector_Object_Count: 1156
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 18
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -75.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.0000001
+          Ordinate_Resolution: 0.0000001
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: GRS 80
+      Semi-major_Axis: 6378137.0000000
+      Denominator_of_Flattening_Ratio: 298.26
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: bogue.pat
+      Entity_Type_Definition: Polygon Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: Area
+      Attribute_Definition: Area of polygon
+      Attribute_Definition_Source: Software generated
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Software computed
+    Attribute:
+      Attribute_Label: Perimeter
+      Attribute_Definition: Perimeter of polygon
+      Attribute_Definition_Source: Software generated
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Software computed
+    Attribute:
+      Attribute_Label: Bogue#
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: Software generated
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Software computed
+    Attribute:
+      Attribute_Label: Bogue-id
+      Attribute_Definition: Feature identification number
+      Attribute_Definition_Source: Software generated
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: User Defined
+    Attribute:
+      Attribute_Label: Uniqueid
+      Attribute_Definition: Uniqueid captures the classification of the habitat polygons.
+      Attribute_Definition_Source: Unknown
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: Unknown
+          Range_Domain_Maximum: Unknown
+    Attribute:
+      Attribute_Label: Scheme_#
+      Attribute_Definition: Habitats are given a numeric code following the benthic mapping SCHEME: Class 211 is for continuous submersed rooted vascular plant (SRV), Class 212 is discontinuous SRV, Class 221 is for attached macroalge, and Class 1 is for unconsolidated sediments (within an SAV polygon).
+      Attribute_Definition_Source: Unknown
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 211
+          Enumerated_Domain_Value_Definition: continuous submersed rooted vascular plant (SRV)
+          Enumerated_Domain_Value_Definition_Source: SCHEME
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 212
+          Enumerated_Domain_Value_Definition: discontinuous SRV
+          Enumerated_Domain_Value_Definition_Source: SCHEME
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 221
+          Enumerated_Domain_Value_Definition: attached macroalge
+          Enumerated_Domain_Value_Definition_Source: SCHEME
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: 1
+          Enumerated_Domain_Value_Definition: unconsolidated sediments (within an SAV polygon)
+          Enumerated_Domain_Value_Definition_Source: SCHEME
+    Attribute:
+      Attribute_Label: Class
+      Attribute_Definition: Habitats are classified as submersed aquatic vegetation or unconsolidated sediments (within an SAV polygon).
+      Attribute_Definition_Source: Unknown
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Subclass1
+      Attribute_Definition: Submersed aquatic vegetation are classified as either submersed rooted vascular plant or macroalgae.
+      Attribute_Definition_Source: Unknown
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Subclass2
+      Attribute_Definition: Submersed rooted vascular plants are classified as either continuous SRV or discontinuous SRV.  Macroalgae are classified as attached macroalgae.
+      Attribute_Definition_Source: Unknown
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NOAA Coastal Services Center
+      Contact_Position: Clearinghouse Manager
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 2234 South Hobson Avenue
+        City: Charleston
+        State_or_Province: SC
+        Postal_Code: 29405
+        Country: USA
+      Contact_Voice_Telephone: 843-740-1210
+      Contact_Facsimile_Telephone: 843-740-1289
+      Contact_Electronic_Mail_Address: clearinghouse@noaa.gov
+      Hours_of_Service: Monday - Friday, 8 a.m. - 5 p.m., Eastern Standard Time
+  Resource_Description: Downloadable Data
+  Distribution_Liability: While every effort has been made to ensure that these data are accurate and reliable within limits of the state of the art, NOAA will not assume any liability for damages caused by any inaccuracies in these data, or failure in their use.
+Metadata_Reference_Information:
+  Metadata_Date: 20100519
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NOAA Coastal Services Center
+      Contact_Position: Metadata Specialist
+      Contact_Address:
+        Address_Type: mailing and physical
+        Address: 2234 South Hobson Avenue
+        City: Charleston
+        State_or_Province: SC
+        Postal_Code: 29405
+        Country: USA
+      Contact_Voice_Telephone: 843-740-1200
+      Contact_Facsimile_Telephone: 843-740-1224
+      Contact_Electronic_Mail_Address: clearinghouse@noaa.gov
+      Hours_of_Service: Monday - Friday, 8 a.m. - 5 p.m., Eastern Standard Time
+  Metadata_Standard_Name: FGDC Content Standard for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Extensions:
+    Online_Linkage: http://www.ncddc.noaa.gov/metadataresource/metadata-references/files/ncddcmdprofile_v2.pdf
+    Profile_Name: Content Specification for Metadata in the National Coastal Data Development Center's Data Catalog Version 2.0

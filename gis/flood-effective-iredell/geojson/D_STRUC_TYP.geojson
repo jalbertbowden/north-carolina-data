@@ -1,0 +1,103 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "0.2 PCT ANNUAL CHANCE FLOOD DISCHARGE CONTAINED IN STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "1 PCT ANNUAL CHANCE FLOOD DISCHARGE CONTAINED IN STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "AQUEDUCT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "BREAKWATER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "BRIDGE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "BULKHEAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "CANAL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "CHANNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "CHANNEL CONTAINS 0.2 PCT FLOOD EVENT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1090", "DESCRIPT": "CHANNEL CONTAINS 1 PCT FLOOD EVENT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1100", "DESCRIPT": "CLOSURE STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1110", "DESCRIPT": "CONTROL STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1120", "DESCRIPT": "CULVERT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1130", "DESCRIPT": "CULVERT CONTAINS 0.2 PCT FLOOD EVENT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1140", "DESCRIPT": "CULVERT CONTAINS 1 PCT FLOOD EVENT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1150", "DESCRIPT": "DAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1160", "DESCRIPT": "DIKE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1170", "DESCRIPT": "DOCK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1180", "DESCRIPT": "DROP STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1190", "DESCRIPT": "ENERGY DISSIPATER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1200", "DESCRIPT": "FISH LADDER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1210", "DESCRIPT": "FLOODWALL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1220", "DESCRIPT": "FLOODWAY CONTAINED IN CHANNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1230", "DESCRIPT": "FLOODWAY CONTAINED IN STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1240", "DESCRIPT": "FLUME" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1250", "DESCRIPT": "FOOTBRDIGE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1260", "DESCRIPT": "GATE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1270", "DESCRIPT": "JETTY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1280", "DESCRIPT": "LEVEE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1290", "DESCRIPT": "LOCK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1300", "DESCRIPT": "OTHER \/ MISC STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1310", "DESCRIPT": "PENSTOCK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1320", "DESCRIPT": "PIER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1330", "DESCRIPT": "PIPELINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1340", "DESCRIPT": "PUMP STATION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1350", "DESCRIPT": "RETAINING WALL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1360", "DESCRIPT": "REVETMENT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1370", "DESCRIPT": "SEAWALL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1380", "DESCRIPT": "SIDE WEIR STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1390", "DESCRIPT": "SIPHON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1400", "DESCRIPT": "SOFT SHORELINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1410", "DESCRIPT": "STORM SEWER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1420", "DESCRIPT": "STRUCTURE CONTAINS 1 PCT FLOOD EVENT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1430", "DESCRIPT": "UTILITY CROSSING" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1440", "DESCRIPT": "WEIR" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1450", "DESCRIPT": "WING WALL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1460", "DESCRIPT": "NON-SPECIFIC BEACH STABILIZATION STRUCTURES" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1470", "DESCRIPT": "NON-SPECIFIC COASTAL ARMORING STRUCTURES" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

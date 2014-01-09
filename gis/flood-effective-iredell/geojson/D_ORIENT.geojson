@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "LEFT TO RIGHT LOOKING DOWNSTREAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "LEFT TO RIGHT LOOKING UPSTREAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "LANDWARD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "SEAWARD" }, "geometry": null }
+
+]
+}

@@ -1,0 +1,117 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "ALLEY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "ARCADE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "AVENIDA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "AVENUE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "BOULEVARD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "BYPASS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "CALLE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "CAUSEWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "CENTER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1090", "DESCRIPT": "CIRCLE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1100", "DESCRIPT": "COURT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1110", "DESCRIPT": "COVE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1120", "DESCRIPT": "CRESCENT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1130", "DESCRIPT": "CROSSING" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1140", "DESCRIPT": "DRIVE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1150", "DESCRIPT": "ESTE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1160", "DESCRIPT": "EXPRESSO" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1170", "DESCRIPT": "EXPRESSWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1180", "DESCRIPT": "FREEWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1190", "DESCRIPT": "HEIGHTS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1200", "DESCRIPT": "HIGHWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1210", "DESCRIPT": "INTERSTATE HIGHWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1220", "DESCRIPT": "JUNCTION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1230", "DESCRIPT": "LANDING" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1240", "DESCRIPT": "LANE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1250", "DESCRIPT": "LOOP" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1260", "DESCRIPT": "MOTORWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1270", "DESCRIPT": "NORTE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1280", "DESCRIPT": "OESTE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1290", "DESCRIPT": "PARK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1300", "DESCRIPT": "PARKWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1310", "DESCRIPT": "PASEO" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1320", "DESCRIPT": "PASS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1330", "DESCRIPT": "PATH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1340", "DESCRIPT": "PIKE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1350", "DESCRIPT": "PLACE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1360", "DESCRIPT": "PLAZA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1370", "DESCRIPT": "POINT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1380", "DESCRIPT": "ROAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1390", "DESCRIPT": "ROW" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1400", "DESCRIPT": "RUE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1410", "DESCRIPT": "RUN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1420", "DESCRIPT": "SPUR" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1430", "DESCRIPT": "SQUARE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1440", "DESCRIPT": "STREET" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1450", "DESCRIPT": "SUR" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1460", "DESCRIPT": "TERRACE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1470", "DESCRIPT": "THROUGHWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1480", "DESCRIPT": "TRACE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1490", "DESCRIPT": "TRAFFICWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1500", "DESCRIPT": "TRAIL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1510", "DESCRIPT": "TURNPIKE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1520", "DESCRIPT": "VALLEY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1530", "DESCRIPT": "WALK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1540", "DESCRIPT": "WAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

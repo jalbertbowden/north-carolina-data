@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "FLOW" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "FLOW \/ STAGE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "STAGE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "FIXED INTERVAL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "INSTANTANEOUS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "TIPPING" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "WAVE HEIGHT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "WAVE HEIGHT AND DIRECTION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "WIND DIRECTION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1090", "DESCRIPT": "WIND SPEED" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1100", "DESCRIPT": "WIND SPEED AND DIRECTION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1110", "DESCRIPT": "TIDE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

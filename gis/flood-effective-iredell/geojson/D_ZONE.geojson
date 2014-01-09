@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "A" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1001", "DESCRIPT": "AE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1002", "DESCRIPT": "AH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1003", "DESCRIPT": "AO" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1005", "DESCRIPT": "1 PCT ANNUAL CHANCE FLOOD HAZARD CONDITIONS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1007", "DESCRIPT": "A99" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1008", "DESCRIPT": "V" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1009", "DESCRIPT": "VE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2000", "DESCRIPT": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2001", "DESCRIPT": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD CONTAINED IN CHANNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3000", "DESCRIPT": "AREA NOT INCLUDED" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "4000", "DESCRIPT": "D" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "4002", "DESCRIPT": "X" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "5000", "DESCRIPT": "OPEN WATER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3002", "DESCRIPT": "1 PCT FUTURE CONDITIONS CONTAINED IN CHANNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

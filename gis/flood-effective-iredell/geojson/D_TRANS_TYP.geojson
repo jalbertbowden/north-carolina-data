@@ -1,0 +1,63 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "ABANDONED RAILROAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "ACTIVE RAILROAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "AIRPORT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "ALLEY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "BIKE PATH OR TRAIL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "BRIDLE PATH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "CARLINE, STREETCAR TRACK, MONORAIL, OTHER MASS TRANSIT RAIL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "COG RAIL LINE, INCLINE RAIL LINE, TRAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "DISMANTLED RAILROAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1090", "DESCRIPT": "FERRY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1100", "DESCRIPT": "FORD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1110", "DESCRIPT": "INTERNAL U.S. CENSUS BUREAU USE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1120", "DESCRIPT": "LOCAL NEIGHBORHOOD ROAD, RURAL ROAD, CITY STREET" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1130", "DESCRIPT": "PARKING LOT ROAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1140", "DESCRIPT": "PRIMARY ROAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1150", "DESCRIPT": "PRIVATE ROAD FOR SERVICE VEHICLES (LOGGING, OIL FIELDS, RANCHES, ETC.)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1160", "DESCRIPT": "RAILROAD FEATURE  (MAIN, SPUR, OR YARD)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1170", "DESCRIPT": "RAMP" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1180", "DESCRIPT": "ROAD MEDIAN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1190", "DESCRIPT": "ROAD TUNNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1200", "DESCRIPT": "SECONDARY ROAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1210", "DESCRIPT": "SERVICE DRIVE USUALLY ALONG A LIMITED ACCESS HIGHWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1220", "DESCRIPT": "STAIRWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1230", "DESCRIPT": "TRAIL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1240", "DESCRIPT": "UNDEFINED RAILROAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1250", "DESCRIPT": "UNDEFINED ROAD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1260", "DESCRIPT": "VEHICULAR TRAIL (4WD)" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1270", "DESCRIPT": "WALKWAY\/PEDESTRIAN TRAIL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

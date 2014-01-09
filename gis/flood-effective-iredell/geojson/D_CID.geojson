@@ -1,0 +1,1357 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "370165", "DESCRIPT": "ABERDEEN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370428", "DESCRIPT": "ADKIN, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370131", "DESCRIPT": "AHOSKIE,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370001", "DESCRIPT": "ALAMANCE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370457", "DESCRIPT": "ALAMANCE, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370223", "DESCRIPT": "ALBEMARLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370398", "DESCRIPT": "ALEXANDER COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370004", "DESCRIPT": "ALLEGHANY COUNTY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370404", "DESCRIPT": "ALLIANCE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370060", "DESCRIPT": "ANDREWS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370522", "DESCRIPT": "ANGIER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370284", "DESCRIPT": "ANSON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370541", "DESCRIPT": "ANSONVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370467", "DESCRIPT": "APEX, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370591", "DESCRIPT": "ARAPAHOE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370273", "DESCRIPT": "ARCHDALE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370407", "DESCRIPT": "ARLINGTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370007", "DESCRIPT": "ASHE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370196", "DESCRIPT": "ASHEBORO, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370032", "DESCRIPT": "ASHEVILLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370029", "DESCRIPT": "ASKEWVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370542", "DESCRIPT": "ATKINSON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370044", "DESCRIPT": "ATLANTIC BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370018", "DESCRIPT": "AULANDER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370014", "DESCRIPT": "AURORA, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370358", "DESCRIPT": "AUTRYVILLE,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370010", "DESCRIPT": "AVERY COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370189", "DESCRIPT": "AYDEN,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370417", "DESCRIPT": "BADEN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370543", "DESCRIPT": "BAILEY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370162", "DESCRIPT": "BAKERSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370442", "DESCRIPT": "BALD HEAD ISLAND, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370126", "DESCRIPT": "BALFOUR, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370011", "DESCRIPT": "BANNER ELK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370127", "DESCRIPT": "BARKER HEIGHTS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370288", "DESCRIPT": "BATH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370088", "DESCRIPT": "BATTLEBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370183", "DESCRIPT": "BAYBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370544", "DESCRIPT": "BEARGRASS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370013", "DESCRIPT": "BEAUFORT COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375346", "DESCRIPT": "BEAUFORT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370480", "DESCRIPT": "BEECH MOUNTAIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370015", "DESCRIPT": "BELHAVEN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370320", "DESCRIPT": "BELMONT, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370545", "DESCRIPT": "BELVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370653", "DESCRIPT": "BELWOOD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370504", "DESCRIPT": "BENSON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370290", "DESCRIPT": "BERTIE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370526", "DESCRIPT": "BESSEMER, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370477", "DESCRIPT": "BETHANIA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370546", "DESCRIPT": "BETHEL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370547", "DESCRIPT": "BEULAVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370475", "DESCRIPT": "BILTMORE FOREST, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370548", "DESCRIPT": "BISCOE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370549", "DESCRIPT": "BLACK CREEK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370033", "DESCRIPT": "BLACK MOUNTAIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370293", "DESCRIPT": "BLADEN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370020", "DESCRIPT": "BLADENBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370252", "DESCRIPT": "BLOWING ROCK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370659", "DESCRIPT": "BOARDMAN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370491", "DESCRIPT": "BOGUE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370453", "DESCRIPT": "BOILING SPRING LAKES, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370550", "DESCRIPT": "BOILING SPRINGS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370394", "DESCRIPT": "BOLIVIA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370274", "DESCRIPT": "BOLTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370253", "DESCRIPT": "BOONE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370551", "DESCRIPT": "BOONVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370354", "DESCRIPT": "BOSTIC, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370231", "DESCRIPT": "BREVARD, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370436", "DESCRIPT": "BRIDGETON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370552", "DESCRIPT": "BROADWAY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370051", "DESCRIPT": "BROOKFORD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370295", "DESCRIPT": "BRUNSWICK COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370306", "DESCRIPT": "BRUNSWICK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370228", "DESCRIPT": "BRYSON CITY, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370031", "DESCRIPT": "BUNCOMBE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370329", "DESCRIPT": "BUNN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370483", "DESCRIPT": "BURGAW, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370034", "DESCRIPT": "BURKE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370002", "DESCRIPT": "BURLINGTON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370373", "DESCRIPT": "BURNSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370660", "DESCRIPT": "BUTNER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370036", "DESCRIPT": "CABARRUS COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370650", "DESCRIPT": "CAJAHS MOUNTAIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370452", "DESCRIPT": "CAJUN MOUNTAIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370395", "DESCRIPT": "CALABASH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370039", "DESCRIPT": "CALDWELL COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370661", "DESCRIPT": "CALYPSO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370042", "DESCRIPT": "CAMDEN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370461", "DESCRIPT": "CAMERON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370554", "DESCRIPT": "CANDOR, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370121", "DESCRIPT": "CANTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370046", "DESCRIPT": "CAPE CARTERET, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375347", "DESCRIPT": "CAROLINA BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370517", "DESCRIPT": "CAROLINA SHORES, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370275", "DESCRIPT": "CARRBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370043", "DESCRIPT": "CARTERET COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370555", "DESCRIPT": "CARTHAGE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370238", "DESCRIPT": "CARY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370408", "DESCRIPT": "CASAR, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370556", "DESCRIPT": "CASTALIA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370391", "DESCRIPT": "CASWELL BEACH, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370300", "DESCRIPT": "CASWELL COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370050", "DESCRIPT": "CATAWBA COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370052", "DESCRIPT": "CATAWBA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370465", "DESCRIPT": "CEDAR POINT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370357", "DESCRIPT": "CENTERVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370311", "DESCRIPT": "CERRO GORDO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370065", "DESCRIPT": "CHADBOURN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370180", "DESCRIPT": "CHAPEL HILL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370159", "DESCRIPT": "CHARLOTTE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370299", "DESCRIPT": "CHATHAM COUNTY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370059", "DESCRIPT": "CHEROKEE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370455", "DESCRIPT": "CHERRYVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370487", "DESCRIPT": "CHIMNEY ROCK, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370210", "DESCRIPT": "CHINA GROVE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370289", "DESCRIPT": "CHOCOWINITY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370301", "DESCRIPT": "CHOWAN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370557", "DESCRIPT": "CLAREMONT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370021", "DESCRIPT": "CLARKTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370063", "DESCRIPT": "CLAY COUNTY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370139", "DESCRIPT": "CLAYTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370531", "DESCRIPT": "CLEMMONS, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370302", "DESCRIPT": "CLEVELAND COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370263", "DESCRIPT": "CLINTON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370122", "DESCRIPT": "CLYDE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370558", "DESCRIPT": "COATS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370409", "DESCRIPT": "COFIELD, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370291", "DESCRIPT": "COLERAIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370233", "DESCRIPT": "COLUMBIA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370305", "DESCRIPT": "COLUMBUS COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370662", "DESCRIPT": "COMO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370037", "DESCRIPT": "CONCORD, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370089", "DESCRIPT": "CONETOE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370600", "DESCRIPT": "CONNELLYS SPRINGS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370053", "DESCRIPT": "CONOVER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370174", "DESCRIPT": "CONWAY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370498", "DESCRIPT": "CORNELIUS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370601", "DESCRIPT": "COVE CITY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370321", "DESCRIPT": "CRAMERTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370072", "DESCRIPT": "CRAVEN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370107", "DESCRIPT": "CREEDMOOR, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370443", "DESCRIPT": "CRESWELL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370287", "DESCRIPT": "CROSSNORE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370076", "DESCRIPT": "CUMBERLAND COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370078", "DESCRIPT": "CURRITUCK COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370322", "DESCRIPT": "DALLAS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370363", "DESCRIPT": "DANBURY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375348", "DESCRIPT": "DARE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370307", "DESCRIPT": "DAVIDSON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370503", "DESCRIPT": "DAVIDSON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370308", "DESCRIPT": "DAVIE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370528", "DESCRIPT": "DELLVIEW, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370506", "DESCRIPT": "DENTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370136", "DESCRIPT": "DILLSBORO, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370651", "DESCRIPT": "DOBBINS HEIGHTS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370603", "DESCRIPT": "DOBSON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370652", "DESCRIPT": "DORTCHES, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370664", "DESCRIPT": "DOVER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370297", "DESCRIPT": "DREXEL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370022", "DESCRIPT": "DUBLIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370632", "DESCRIPT": "DUCK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370264", "DESCRIPT": "DUNN, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370083", "DESCRIPT": "DUPLIN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370085", "DESCRIPT": "DURHAM COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370086", "DESCRIPT": "DURHAM, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370496", "DESCRIPT": "EAST ARCADIA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370560", "DESCRIPT": "EAST BEND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370359", "DESCRIPT": "EAST LAURINBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370211", "DESCRIPT": "EAST SPENCER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370401", "DESCRIPT": "EASTERN BAND OF CHEROKEE INDIANS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370206", "DESCRIPT": "EDEN, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370062", "DESCRIPT": "EDENTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370087", "DESCRIPT": "EDGECOMBE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370185", "DESCRIPT": "ELIZABETH CITY, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370027", "DESCRIPT": "ELIZABETHTOWN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370382", "DESCRIPT": "ELK PARK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370225", "DESCRIPT": "ELKIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370561", "DESCRIPT": "ELLENBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370562", "DESCRIPT": "ELLERBE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370521", "DESCRIPT": "ELM CITY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370411", "DESCRIPT": "ELON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370047", "DESCRIPT": "EMERALD ISLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370115", "DESCRIPT": "ENFIELD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370456", "DESCRIPT": "ERWIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370563", "DESCRIPT": "EUREKA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370333", "DESCRIPT": "EVERETTS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370066", "DESCRIPT": "EVERGREEN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370067", "DESCRIPT": "FAIR BLUFF,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370205", "DESCRIPT": "FAIRMONT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370495", "DESCRIPT": "FAISON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370352", "DESCRIPT": "FAITH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370412", "DESCRIPT": "FALCON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370666", "DESCRIPT": "FALKLAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370564", "DESCRIPT": "FALLSTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370190", "DESCRIPT": "FARMVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370077", "DESCRIPT": "FAYETTEVILLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370565", "DESCRIPT": "FLAT ROCK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370568", "DESCRIPT": "FLETCHER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370218", "DESCRIPT": "FOREST CITY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375349", "DESCRIPT": "FORSYTH COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370631", "DESCRIPT": "FOUNTAIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370502", "DESCRIPT": "FOUR OAKS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370402", "DESCRIPT": "FOXFIRE, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370377", "DESCRIPT": "FRANKLIN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375350", "DESCRIPT": "FRANKLIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370497", "DESCRIPT": "FRANKLINTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370197", "DESCRIPT": "FRANKLINVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370492", "DESCRIPT": "FREMONT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370239", "DESCRIPT": "FUQUAY-VARINA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370451", "DESCRIPT": "GAMEWELL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370221", "DESCRIPT": "GARLAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370240", "DESCRIPT": "GARNER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370339", "DESCRIPT": "GARYSBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370099", "DESCRIPT": "GASTON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370413", "DESCRIPT": "GASTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370100", "DESCRIPT": "GASTONIA, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370103", "DESCRIPT": "GATES COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370104", "DESCRIPT": "GATESVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370566", "DESCRIPT": "GIBSON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370387", "DESCRIPT": "GIBSONVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370533", "DESCRIPT": "GODWIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370255", "DESCRIPT": "GOLDSBORO, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370569", "DESCRIPT": "GOLDSTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370105", "DESCRIPT": "GRAHAM COUNTY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370283", "DESCRIPT": "GRAHAM, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370414", "DESCRIPT": "GRANITE FALLS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370212", "DESCRIPT": "GRANITE QUARRY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370571", "DESCRIPT": "GRANTSBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370325", "DESCRIPT": "GRANVILLE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370482", "DESCRIPT": "GREEN LEVEL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370378", "DESCRIPT": "GREENE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370655", "DESCRIPT": "GREENEVERS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375351", "DESCRIPT": "GREENSBORO, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370191", "DESCRIPT": "GREENVILLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370192", "DESCRIPT": "GRIFTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370535", "DESCRIPT": "GRIMESLAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370572", "DESCRIPT": "GROVER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370111", "DESCRIPT": "GUILFORD COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370415", "DESCRIPT": "HALIFAX , TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370327", "DESCRIPT": "HALIFAX COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370068", "DESCRIPT": "HALLSBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370334", "DESCRIPT": "HAMILTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370200", "DESCRIPT": "HAMLET, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370602", "DESCRIPT": "HAMLET, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370328", "DESCRIPT": "HARNETT COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370573", "DESCRIPT": "HARRELLS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370570", "DESCRIPT": "HARRELLSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370038", "DESCRIPT": "HARRISBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370680", "DESCRIPT": "HASSELL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370265", "DESCRIPT": "HAVELOCK, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370003", "DESCRIPT": "HAW RIVER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370431", "DESCRIPT": "HAYESVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370120", "DESCRIPT": "HAYWOOD COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370123", "DESCRIPT": "HAZELWOOD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370125", "DESCRIPT": "HENDERSON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370367", "DESCRIPT": "HENDERSON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370128", "DESCRIPT": "HENDERSONVILLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370130", "DESCRIPT": "HERTFORD COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370188", "DESCRIPT": "HERTFORD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370054", "DESCRIPT": "HICKORY, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370113", "DESCRIPT": "HIGH POINT, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370405", "DESCRIPT": "HIGH SHOALS, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370574", "DESCRIPT": "HIGHLANDS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370519", "DESCRIPT": "HILDEBRAN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370343", "DESCRIPT": "HILLSBOROUGH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370116", "DESCRIPT": "HOBGOOD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370460", "DESCRIPT": "HOFFMAN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370397", "DESCRIPT": "HOKE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375352", "DESCRIPT": "HOLDEN BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370575", "DESCRIPT": "HOLLY RIDGE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370403", "DESCRIPT": "HOLLY SPRINGS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370416", "DESCRIPT": "HOLLYVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370326", "DESCRIPT": "HOOKERTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370312", "DESCRIPT": "HOPE MILLS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370153", "DESCRIPT": "HOT SPRINGS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370450", "DESCRIPT": "HUDSON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370478", "DESCRIPT": "HUNTERSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370133", "DESCRIPT": "HYDE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370433", "DESCRIPT": "INDIAN BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370235", "DESCRIPT": "INDIAN TRAIL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370313", "DESCRIPT": "IREDELL COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370282", "DESCRIPT": "JACKSON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370175", "DESCRIPT": "JACKSON,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370178", "DESCRIPT": "JACKSONVILLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370114", "DESCRIPT": "JAMESTOWN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370576", "DESCRIPT": "JAMESVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370008", "DESCRIPT": "JEFFERSON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370138", "DESCRIPT": "JOHNSTON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370379", "DESCRIPT": "JONES COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370260", "DESCRIPT": "JONESVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370383", "DESCRIPT": "JUPITER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370469", "DESCRIPT": "KANNAPOLIS, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370577", "DESCRIPT": "KELFORD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370399", "DESCRIPT": "KENANSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370501", "DESCRIPT": "KENLY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370540", "DESCRIPT": "KENLY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370319", "DESCRIPT": "KERNERSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375353", "DESCRIPT": "KILL DEVIL HILLS, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370458", "DESCRIPT": "KING, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370304", "DESCRIPT": "KINGS MOUNTAIN, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370604", "DESCRIPT": "KINGSTOWN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370145", "DESCRIPT": "KINSTON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370578", "DESCRIPT": "KITTRELL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370439", "DESCRIPT": "KITTY HAWK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370241", "DESCRIPT": "KNIGHTDALE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370170", "DESCRIPT": "KURE BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370579", "DESCRIPT": "LA GRANGE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370488", "DESCRIPT": "LAKE LURE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370520", "DESCRIPT": "LAKE PARK, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370656", "DESCRIPT": "LAKE SANTEETLAH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370069", "DESCRIPT": "LAKE WACCAMAW, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370213", "DESCRIPT": "LANDIS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370374", "DESCRIPT": "LANSING, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370580", "DESCRIPT": "LASKER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370384", "DESCRIPT": "LAUREL PARK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370222", "DESCRIPT": "LAURINBURG, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370303", "DESCRIPT": "LAWNDALE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370331", "DESCRIPT": "LEE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370317", "DESCRIPT": "LEGGETT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370471", "DESCRIPT": "LELAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370144", "DESCRIPT": "LENOIR COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370040", "DESCRIPT": "LENOIR, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370553", "DESCRIPT": "LENOIR, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370112", "DESCRIPT": "LEWISTON-WOODVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370581", "DESCRIPT": "LEWISVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370081", "DESCRIPT": "LEXINGTON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370582", "DESCRIPT": "LIBERTY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370583", "DESCRIPT": "LILESVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370381", "DESCRIPT": "LILLINGTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370146", "DESCRIPT": "LINCOLN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370147", "DESCRIPT": "LINCOLNTON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370538", "DESCRIPT": "LINDEN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370584", "DESCRIPT": "LITTLETON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370508", "DESCRIPT": "LOCUST, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375354", "DESCRIPT": "LONG BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370055", "DESCRIPT": "LONG VIEW, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370098", "DESCRIPT": "LOUISBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370654", "DESCRIPT": "LOVE VALLEY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370507", "DESCRIPT": "LOWELL MILL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370323", "DESCRIPT": "LOWELL, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370537", "DESCRIPT": "LUCAMA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370459", "DESCRIPT": "LUMBER BRIDGE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370203", "DESCRIPT": "LUMBERTON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370090", "DESCRIPT": "MACCLESFIELD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370150", "DESCRIPT": "MACON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370585", "DESCRIPT": "MACON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370152", "DESCRIPT": "MADISON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370207", "DESCRIPT": "MADISON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370389", "DESCRIPT": "MAGGIE VALLEY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370669", "DESCRIPT": "MAGNOLIA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370056", "DESCRIPT": "MAIDEN, TOWNSHIP OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375355", "DESCRIPT": "MANTEO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370586", "DESCRIPT": "MARIETTA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370266", "DESCRIPT": "MARION, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370385", "DESCRIPT": "MARS HILL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370154", "DESCRIPT": "MARSHALL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370474", "DESCRIPT": "MARSHVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370155", "DESCRIPT": "MARTIN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370514", "DESCRIPT": "MARVIN, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370310", "DESCRIPT": "MATTHEWS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370587", "DESCRIPT": "MAXTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370208", "DESCRIPT": "MAYODAN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370330", "DESCRIPT": "MAYSVILLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370101", "DESCRIPT": "MCADENVILLE,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370670", "DESCRIPT": "MCDONALD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370148", "DESCRIPT": "MCDOWELL COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370390", "DESCRIPT": "MEBANE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370158", "DESCRIPT": "MECKLENBURG COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370426", "DESCRIPT": "MESIC, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370500", "DESCRIPT": "MICRO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370589", "DESCRIPT": "MIDDLEBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370445", "DESCRIPT": "MIDDLESEX, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370590", "DESCRIPT": "MILTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370418", "DESCRIPT": "MINNESOTT BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370539", "DESCRIPT": "MINT HILL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370161", "DESCRIPT": "MITCHELL COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370309", "DESCRIPT": "MOCKSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370657", "DESCRIPT": "MOMEYER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370236", "DESCRIPT": "MONROE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370336", "DESCRIPT": "MONTGOMERY COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370476", "DESCRIPT": "MONTREAT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370164", "DESCRIPT": "MOORE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370592", "DESCRIPT": "MOORESBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370314", "DESCRIPT": "MOORESVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370048", "DESCRIPT": "MOREHEAD CITY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370035", "DESCRIPT": "MORGANTON,CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370242", "DESCRIPT": "MORRISVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370226", "DESCRIPT": "MOUNT AIRY,CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370672", "DESCRIPT": "MOUNT GILEAD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370102", "DESCRIPT": "MOUNT HOLLY, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370369", "DESCRIPT": "MOUNT OLIVE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370470", "DESCRIPT": "MOUNT PLEASANT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370419", "DESCRIPT": "MURFREESBORO,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370061", "DESCRIPT": "MURPHY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375356", "DESCRIPT": "NAGS HEAD, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370278", "DESCRIPT": "NASH COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370167", "DESCRIPT": "NASHVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370593", "DESCRIPT": "NAVASSA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370074", "DESCRIPT": "NEW BERN, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370168", "DESCRIPT": "NEW HANOVER COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370512", "DESCRIPT": "NEW LONDON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370012", "DESCRIPT": "NEWLAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370049", "DESCRIPT": "NEWPORT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370524", "DESCRIPT": "NEWTON GROVE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370057", "DESCRIPT": "NEWTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370594", "DESCRIPT": "NORLINA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370673", "DESCRIPT": "NORMAN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370466", "DESCRIPT": "NORTH TOPSAIL BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370257", "DESCRIPT": "NORTH WILKESBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370173", "DESCRIPT": "NORTHAMPTON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370513", "DESCRIPT": "NORTHWEST, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370509", "DESCRIPT": "NORWOOD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370595", "DESCRIPT": "OAK CITY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370523", "DESCRIPT": "OAK ISLAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370596", "DESCRIPT": "OAK RIDGE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370493", "DESCRIPT": "OAKBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375357", "DESCRIPT": "OCEAN ISLE BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370149", "DESCRIPT": "OLD FORT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370340", "DESCRIPT": "ONSLOW COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370342", "DESCRIPT": "ORANGE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370279", "DESCRIPT": "ORIENTAL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370349", "DESCRIPT": "ORRUM, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370689", "DESCRIPT": "OSSIPEE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370108", "DESCRIPT": "OXFORD, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370181", "DESCRIPT": "PAMLICO COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370016", "DESCRIPT": "PANTEGO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370454", "DESCRIPT": "PARKTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370335", "DESCRIPT": "PARMELE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370184", "DESCRIPT": "PASQUOTANK COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370285", "DESCRIPT": "PEACHLAND,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370658", "DESCRIPT": "PELETIER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370597", "DESCRIPT": "PEMBROKE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370344", "DESCRIPT": "PENDER COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370315", "DESCRIPT": "PERQUIMANS COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370346", "DESCRIPT": "PERSON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370429", "DESCRIPT": "PIKEVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370598", "DESCRIPT": "PILOT MOUNTAIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370337", "DESCRIPT": "PINE BLUFF, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370267", "DESCRIPT": "PINE KNOLL SHORES, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370505", "DESCRIPT": "PINE LEVEL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370463", "DESCRIPT": "PINEHURST, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370091", "DESCRIPT": "PINETOPS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370160", "DESCRIPT": "PINEVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370599", "DESCRIPT": "PINK HILL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370372", "DESCRIPT": "PITT COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370420", "DESCRIPT": "PITTSBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370618", "DESCRIPT": "PLEASANT GARDEN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370249", "DESCRIPT": "PLYMOUTH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370194", "DESCRIPT": "POLK COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370286", "DESCRIPT": "POLKTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370634", "DESCRIPT": "POLKVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370142", "DESCRIPT": "POLLOCKSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370292", "DESCRIPT": "POWELLSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370485", "DESCRIPT": "PRINCETON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370318", "DESCRIPT": "PRINCEVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370635", "DESCRIPT": "PROCTORVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370132", "DESCRIPT": "RAEFORD, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370243", "DESCRIPT": "RALEIGH, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370198", "DESCRIPT": "RAMSEUR, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370199", "DESCRIPT": "RANDLEMAN, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370195", "DESCRIPT": "RANDOLPH COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370324", "DESCRIPT": "RANLO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370642", "DESCRIPT": "RAYNHAM, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370516", "DESCRIPT": "RED OAK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370204", "DESCRIPT": "RED SPRINGS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370209", "DESCRIPT": "REIDSVILLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370643", "DESCRIPT": "RENNERT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370041", "DESCRIPT": "RHODHISS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370176", "DESCRIPT": "RICH SQUARE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370511", "DESCRIPT": "RICHFIELD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370341", "DESCRIPT": "RICHLANDS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370348", "DESCRIPT": "RICHMOND COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370432", "DESCRIPT": "RIVER BEND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370117", "DESCRIPT": "ROANOKE RAPIDS, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370166", "DESCRIPT": "ROBBINS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370106", "DESCRIPT": "ROBBINSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370156", "DESCRIPT": "ROBERSONVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370202", "DESCRIPT": "ROBESON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370350", "DESCRIPT": "ROCKINGHAM COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370201", "DESCRIPT": "ROCKINGHAM, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370214", "DESCRIPT": "ROCKWELL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370092", "DESCRIPT": "ROCKY MOUNT, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370468", "DESCRIPT": "ROLESVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370258", "DESCRIPT": "RONDA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370421", "DESCRIPT": "ROPER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370375", "DESCRIPT": "ROSE HILL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370637", "DESCRIPT": "ROSEBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375358", "DESCRIPT": "ROSMAN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370351", "DESCRIPT": "ROWAN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370636", "DESCRIPT": "ROWLAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370347", "DESCRIPT": "ROXBORO, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370605", "DESCRIPT": "ROXOBEL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370606", "DESCRIPT": "RURAL HALL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370355", "DESCRIPT": "RUTH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370607", "DESCRIPT": "RUTHERFORD COLLEGE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370217", "DESCRIPT": "RUTHERFORD COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370219", "DESCRIPT": "RUTHERFORDTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370649", "DESCRIPT": "SAINT HELENA, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370608", "DESCRIPT": "SAINT PAULS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370609", "DESCRIPT": "SALEMBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370215", "DESCRIPT": "SALISBURY, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370610", "DESCRIPT": "SALUDA, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370220", "DESCRIPT": "SAMPSON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370677", "DESCRIPT": "SANDY CREEK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370644", "DESCRIPT": "SANDYFIELD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370143", "DESCRIPT": "SANFORD, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370611", "DESCRIPT": "SARATOGA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370645", "DESCRIPT": "SAWMILLS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370316", "DESCRIPT": "SCOTLAND COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370118", "DESCRIPT": "SCOTLAND NECK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370612", "DESCRIPT": "SEABOARD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370613", "DESCRIPT": "SEAGROVE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370614", "DESCRIPT": "SEDALIA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370499", "DESCRIPT": "SELMA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370481", "DESCRIPT": "SEVEN DEVILS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370392", "DESCRIPT": "SEVEN SPRINGS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370422", "DESCRIPT": "SEVERN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370388", "DESCRIPT": "SHALLOTTE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370441", "DESCRIPT": "SHARPSBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370064", "DESCRIPT": "SHELBY, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370058", "DESCRIPT": "SILER CITY,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370615", "DESCRIPT": "SIMPSON, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370423", "DESCRIPT": "SIMS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370140", "DESCRIPT": "SMITHFIELD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370110", "DESCRIPT": "SNOW HILL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370338", "DESCRIPT": "SOUTHERN PINES, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370430", "DESCRIPT": "SOUTHERN SHORES, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370028", "DESCRIPT": "SOUTHPORT, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370005", "DESCRIPT": "SPARTA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370093", "DESCRIPT": "SPEED,TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370406", "DESCRIPT": "SPENCER MOUNTAIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370216", "DESCRIPT": "SPENCER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370356", "DESCRIPT": "SPINDALE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370616", "DESCRIPT": "SPRING HOPE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370484", "DESCRIPT": "SPRING LAKE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370163", "DESCRIPT": "SPRUCE PINE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370530", "DESCRIPT": "ST JAMES, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370617", "DESCRIPT": "STALEY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370472", "DESCRIPT": "STALLINGS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370510", "DESCRIPT": "STANFIELD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370527", "DESCRIPT": "STANLEY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370361", "DESCRIPT": "STANLY COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370371", "DESCRIPT": "STANTONSBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370619", "DESCRIPT": "STAR, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370135", "DESCRIPT": "STATESVILLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370534", "DESCRIPT": "STEDMAN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370109", "DESCRIPT": "STEM, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370362", "DESCRIPT": "STOKES COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370489", "DESCRIPT": "STOKESDALE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370620", "DESCRIPT": "STONEVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370437", "DESCRIPT": "STONEWALL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370621", "DESCRIPT": "STOVALL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370622", "DESCRIPT": "SUMMERFIELD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375359", "DESCRIPT": "SUNSET BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370629", "DESCRIPT": "SUPPLY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370186", "DESCRIPT": "SURF CITY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370364", "DESCRIPT": "SURRY COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370227", "DESCRIPT": "SWAIN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370179", "DESCRIPT": "SWANSBORO, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370638", "DESCRIPT": "SWANSBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370073", "DESCRIPT": "SWEPSONVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370137", "DESCRIPT": "SYLVA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370070", "DESCRIPT": "TABOR CITY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370294", "DESCRIPT": "TAR HEEL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370094", "DESCRIPT": "TARBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370479", "DESCRIPT": "TAYLORSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370647", "DESCRIPT": "TAYLORTOWN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370623", "DESCRIPT": "TECHEY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370082", "DESCRIPT": "THOMASVILLE, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370624", "DESCRIPT": "TOBACCOVILLE, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370187", "DESCRIPT": "TOPSAIL BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370230", "DESCRIPT": "TRANSYLVANIA COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370434", "DESCRIPT": "TRENT WOODS, TOWNSHIP OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370141", "DESCRIPT": "TRENTON, TOWNSHIP OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370625", "DESCRIPT": "TRINITY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370626", "DESCRIPT": "TROUTMAN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370627", "DESCRIPT": "TROY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370271", "DESCRIPT": "TRYON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370628", "DESCRIPT": "TURKEY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370232", "DESCRIPT": "TYRRELL COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370234", "DESCRIPT": "UNION COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370298", "DESCRIPT": "VALDESE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370366", "DESCRIPT": "VANCE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370075", "DESCRIPT": "VANCEBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370438", "DESCRIPT": "VANDEMERE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370277", "DESCRIPT": "VANDEMERE, TOWN OF -USE CID # 370438" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370648", "DESCRIPT": "VARNAMTOWN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370630", "DESCRIPT": "VASS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370646", "DESCRIPT": "WACO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370532", "DESCRIPT": "WADE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370006", "DESCRIPT": "WADESBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370360", "DESCRIPT": "WAGRAM, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370368", "DESCRIPT": "WAKE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370244", "DESCRIPT": "WAKE FOREST, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370679", "DESCRIPT": "WALKERTOWN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370084", "DESCRIPT": "WALLACE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370224", "DESCRIPT": "WALNUT COVE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370435", "DESCRIPT": "WALNUT CREEK, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370515", "DESCRIPT": "WALSTONBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370396", "DESCRIPT": "WARREN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370536", "DESCRIPT": "WARRENTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370633", "DESCRIPT": "WARSAW, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370247", "DESCRIPT": "WASHINGTON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370268", "DESCRIPT": "WASHINGTON PARK, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370017", "DESCRIPT": "WASHINGTON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370251", "DESCRIPT": "WATAUGA COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370486", "DESCRIPT": "WATHA, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370473", "DESCRIPT": "WAXHAW, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370254", "DESCRIPT": "WAYNE COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370124", "DESCRIPT": "WAYNESVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370269", "DESCRIPT": "WEAVERVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370281", "DESCRIPT": "WEBSTER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370518", "DESCRIPT": "WEDDINGTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370119", "DESCRIPT": "WELDON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370245", "DESCRIPT": "WENDELL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370682", "DESCRIPT": "WENTWORTH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370525", "DESCRIPT": "WESLEY CHAPEL, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370129", "DESCRIPT": "WEST HENDERSON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370009", "DESCRIPT": "WEST JEFFERSON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370376", "DESCRIPT": "WEST SMITHFIELD, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370464", "DESCRIPT": "WHISPERING PINES, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370095", "DESCRIPT": "WHITAKERS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370490", "DESCRIPT": "WHITE LAKE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370071", "DESCRIPT": "WHITEVILLE CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370639", "DESCRIPT": "WHITSETT, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370256", "DESCRIPT": "WILKES COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370259", "DESCRIPT": "WILKESBORO, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370157", "DESCRIPT": "WILLIAMSTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370171", "DESCRIPT": "WILMINGTON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370370", "DESCRIPT": "WILSON COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370270", "DESCRIPT": "WILSON, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370262", "DESCRIPT": "WILSON'S MILLS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370019", "DESCRIPT": "WINDSOR, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370345", "DESCRIPT": "WINFALL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370365", "DESCRIPT": "WINGATE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375360", "DESCRIPT": "WINSTON-SALEM, CITY OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370193", "DESCRIPT": "WINTERVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370424", "DESCRIPT": "WINTON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370380", "DESCRIPT": "WOODFIN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370177", "DESCRIPT": "WOODLAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "375361", "DESCRIPT": "WRIGHTSVILLE BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370400", "DESCRIPT": "YADKIN COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370640", "DESCRIPT": "YADKINVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370261", "DESCRIPT": "YANCEY COUNTY *" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370641", "DESCRIPT": "YANCEYVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370030", "DESCRIPT": "YAUPON BEACH, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370494", "DESCRIPT": "YOUNGSVILLE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370246", "DESCRIPT": "ZEBULON, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370685", "DESCRIPT": "BERMUDA RUN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370588", "DESCRIPT": "MCFARLAN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370671", "DESCRIPT": "MORVEN, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370686", "DESCRIPT": "GRANDFATHER VILLAGE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370687", "DESCRIPT": "SUGAR MOUNTAIN, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370567", "DESCRIPT": "GLEN ALPINE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370182", "DESCRIPT": "MIDLAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370688", "DESCRIPT": "CEDAR ROCK, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370229", "DESCRIPT": "EARL, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370668", "DESCRIPT": "LATTIMORE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370023", "DESCRIPT": "PATTERSON SPRINGS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370425", "DESCRIPT": "EASTOVER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370393", "DESCRIPT": "MIDWAY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370169", "DESCRIPT": "WALLBURG, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370663", "DESCRIPT": "COOLEEMEE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370025", "DESCRIPT": "MILLS RIVER, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370681", "DESCRIPT": "HARMONY, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370248", "DESCRIPT": "FOREST HILLS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370096", "DESCRIPT": "COLUMBUS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370097", "DESCRIPT": "CLEVELAND, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370026", "DESCRIPT": "MISENHEIMER, VILLAGE OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370079", "DESCRIPT": "RED CROSS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370024", "DESCRIPT": "FAIRVIEW, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370683", "DESCRIPT": "HEMBY BRIDGE, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370529", "DESCRIPT": "MINERAL SPRINGS, TOWN OF" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "370684", "DESCRIPT": "UNIONVILLE, TOWN OF" }, "geometry": null }
+
+]
+}

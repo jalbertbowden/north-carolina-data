@@ -1,0 +1,97 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "AREA NOT INCLUDED" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "CORPORATE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1021", "DESCRIPT": "EXTRATERRITORIAL JURISDICTION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1022", "DESCRIPT": "LEVEE IMPROVEMENT DISTRICT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1023", "DESCRIPT": "MUNICIPAL UTILITY DISTRICT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1024", "DESCRIPT": "UTILITY DISTRICT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1025", "DESCRIPT": "MISCELLANEOUS JURISDICTIONAL LAND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1026", "DESCRIPT": "MISCELLANEOUS PUBLIC LAND BOUNDARY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "COUNTY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "FOREST" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1041", "DESCRIPT": "PARK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1042", "DESCRIPT": "RESERVATION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1044", "DESCRIPT": "MILITARY BOUNDARY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "INTERNATIONAL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "STATE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "URBAN GROWTH BOUNDARY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "MUNICIPAL URBAN DRAINAGE DISTRICT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2000", "DESCRIPT": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2001", "DESCRIPT": "1 PCT ANNUAL CHANCE FLOOD HAZARD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2002", "DESCRIPT": "ZONE D" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2003", "DESCRIPT": "FUTURE 1 PCT ANNUAL CHANCE FLOOD HAZARD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2030", "DESCRIPT": "APPARENT LIMIT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2031", "DESCRIPT": "LIMIT OF DETAILED STUDY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2032", "DESCRIPT": "LIMIT OF FLOODWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2033", "DESCRIPT": "LIMIT OF STUDY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2040", "DESCRIPT": "FLOODWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2050", "DESCRIPT": "FLOWAGE EASEMENT BOUNDARY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2051", "DESCRIPT": "STATE ENCROACHMENT LINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2052", "DESCRIPT": "ZONE BREAK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2053", "DESCRIPT": "LIMIT OF DETAILED STUDY\/ZONE BREAK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2054", "DESCRIPT": "LIMIT OF FLOODWAY\/ZONE BREAK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2055", "DESCRIPT": "ZONE BREAK\/FLOODWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "2056", "DESCRIPT": "LIMIT OF STUDY\/ ZONE BREAK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3000", "DESCRIPT": "QUARTER SECTION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3001", "DESCRIPT": "COMMUNITY ENCROACHMENT LINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3002", "DESCRIPT": "BOMBING RANGE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3003", "DESCRIPT": "GAMELAND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3004", "DESCRIPT": "TRIBAL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3005", "DESCRIPT": "WILDLIFE REFUGE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3010", "DESCRIPT": "RANGE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3020", "DESCRIPT": "TOWNSHIP" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3030", "DESCRIPT": "SECTION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "3040", "DESCRIPT": "MEANDER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "4000", "DESCRIPT": "SOURCE BOUNDARY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "9000", "DESCRIPT": "END OF SPATIAL EXTENT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

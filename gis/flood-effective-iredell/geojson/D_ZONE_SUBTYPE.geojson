@@ -1,0 +1,51 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "FLOODWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "COLORADO RIVER FLOODWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD CONTAINED IN STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "1 PCT ANNUAL CHANCE FLOOD HAZARD CONTAINED IN STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "1 PCT DEPTH LESS THAN 1 FOOT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "1 PCT DRAINAGE AREA LESS THAN 1 SQUARE MILE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "1 PCT FUTURE CONDITIONS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "1 PCT FUTURE CONDITIONS CONTAINED IN STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "ADMINISTRATIVE FLOODWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1090", "DESCRIPT": "AREA OF SPECIAL CONSIDERATION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1100", "DESCRIPT": "AREAS DETERMINED TO BE OUTSIDE THE 0.2 PCT ANNUAL CHANCE FLOODPLAIN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1110", "DESCRIPT": "COASTAL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1120", "DESCRIPT": "COMMUNITY ENCROACHMENT AREA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1130", "DESCRIPT": "DENSITY FRINGE AREA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1140", "DESCRIPT": "FLOODWAY CONTAINED IN STRUCTURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1150", "DESCRIPT": "FLOWAGE EASEMENT AREA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1160", "DESCRIPT": "NARROW FLOODWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1170", "DESCRIPT": "PROTECTED BY LEVEE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1180", "DESCRIPT": "RIVERINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1190", "DESCRIPT": "RIVERINE FLOODWAY SHOWN IN COASTAL ZONE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1200", "DESCRIPT": "STATE ENCROACHMENT AREA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1210", "DESCRIPT": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD" }, "geometry": null }
+
+]
+}

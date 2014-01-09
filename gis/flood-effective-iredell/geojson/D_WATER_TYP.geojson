@@ -1,0 +1,131 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "1000", "DESCRIPT": "AREA OF COMPLEX CHANNELS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1010", "DESCRIPT": "ARTIFICIAL PATH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1020", "DESCRIPT": "BAY \/ INLET" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1030", "DESCRIPT": "BAYOU" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1040", "DESCRIPT": "BOG" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1050", "DESCRIPT": "BYPASS \/ DIVERSION" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1060", "DESCRIPT": "CANAL \/ DITCH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1070", "DESCRIPT": "CHANNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1080", "DESCRIPT": "CONCRETE \/ EARTHEN CHANNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1090", "DESCRIPT": "CONCRETE \/ EARTHEN \/ DITCH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1100", "DESCRIPT": "CONCRETE CHANNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1110", "DESCRIPT": "CONCRETE DITCH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1120", "DESCRIPT": "CONCRETE\/EARTHEN CHANNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1130", "DESCRIPT": "CONCRETE\/EARTHEN DITCH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1140", "DESCRIPT": "CONNECTOR" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1150", "DESCRIPT": "CREEK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1160", "DESCRIPT": "CREVASSE FIELD" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1170", "DESCRIPT": "DETENTION POND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1180", "DESCRIPT": "EARTHEN CHANNEL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1190", "DESCRIPT": "EARTHEN DITCH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1200", "DESCRIPT": "ESTUARY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1210", "DESCRIPT": "FISH LADDER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1220", "DESCRIPT": "FLUME" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1230", "DESCRIPT": "GULCH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1240", "DESCRIPT": "HATCHERY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1250", "DESCRIPT": "HYDRAULIC LINK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1260", "DESCRIPT": "HYDROLOGIC LINK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1270", "DESCRIPT": "ICE MASS\/GLACIER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1280", "DESCRIPT": "INTERMITTENT RIVER\/STREAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1290", "DESCRIPT": "ISLAND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1300", "DESCRIPT": "LAKE\/POND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1310", "DESCRIPT": "LOCK CHAMBER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1320", "DESCRIPT": "MANMADE WATER FEATURE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1330", "DESCRIPT": "MUD POT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1340", "DESCRIPT": "NAVIGABLE WATERWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1350", "DESCRIPT": "NONEARTHEN SHORE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1360", "DESCRIPT": "OPEN WATER AREA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1370", "DESCRIPT": "OVERFLOW" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1380", "DESCRIPT": "PERENNIAL RIVER\/STREAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1390", "DESCRIPT": "PLAYA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1400", "DESCRIPT": "PROFILE BASELINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1410", "DESCRIPT": "PROFILE BASELINE AND STREAM CENTELINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1420", "DESCRIPT": "RACE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1430", "DESCRIPT": "RESERVOIR" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1440", "DESCRIPT": "RETENTION POND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1450", "DESCRIPT": "SAND PIT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1460", "DESCRIPT": "SEA\/OCEAN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1470", "DESCRIPT": "SHORELINE\/COASTLINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1480", "DESCRIPT": "SOUND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1490", "DESCRIPT": "SPILLWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1500", "DESCRIPT": "STREAM CENTERLINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1510", "DESCRIPT": "STREAM\/RIVER" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1520", "DESCRIPT": "SUBMERGED STREAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1530", "DESCRIPT": "SWAMP\/MARSH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1540", "DESCRIPT": "TAILINGS POND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1550", "DESCRIPT": "UNDERPASS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1560", "DESCRIPT": "WASH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1570", "DESCRIPT": "WASTE WATER LAGOON\/POND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1580", "DESCRIPT": "WATER SEPARATION LINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1590", "DESCRIPT": "WATERFALL" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1600", "DESCRIPT": "WATERWAY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "1610", "DESCRIPT": "WETLANDS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

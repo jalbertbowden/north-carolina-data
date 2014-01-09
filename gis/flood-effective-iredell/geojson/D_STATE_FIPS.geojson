@@ -1,0 +1,127 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "CODE": "01", "DESCRIPT": "ALABAMA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "02", "DESCRIPT": "ALASKA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "04", "DESCRIPT": "ARKANSAS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "05", "DESCRIPT": "ARIZONA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "06", "DESCRIPT": "CALIFORNIA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "08", "DESCRIPT": "COLORADO" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "09", "DESCRIPT": "CONNECTICUT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "10", "DESCRIPT": "DELAWARE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "11", "DESCRIPT": "DISTRICT OF COLUMBIA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "12", "DESCRIPT": "FLORIDA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "13", "DESCRIPT": "GEORGIA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "15", "DESCRIPT": "HAWAII" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "16", "DESCRIPT": "IDAHO" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "17", "DESCRIPT": "ILLINOIS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "18", "DESCRIPT": "INDIANA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "19", "DESCRIPT": "IOWA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "20", "DESCRIPT": "KANSAS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "21", "DESCRIPT": "KENTUCKY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "22", "DESCRIPT": "LOUISIANA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "23", "DESCRIPT": "MAINE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "24", "DESCRIPT": "MARYLAND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "25", "DESCRIPT": "MASSACHUSETTS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "26", "DESCRIPT": "MICHIGAN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "27", "DESCRIPT": "MINNESOTA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "28", "DESCRIPT": "MISSISSIPPI" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "29", "DESCRIPT": "MISSOURI" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "30", "DESCRIPT": "MONTANA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "31", "DESCRIPT": "NEBRASKA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "32", "DESCRIPT": "NEVADA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "33", "DESCRIPT": "NEW HAMPSHIRE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "34", "DESCRIPT": "NEW JERSEY" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "35", "DESCRIPT": "NEW MEXICO" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "36", "DESCRIPT": "NEW YORK" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "37", "DESCRIPT": "NORTH CAROLINA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "38", "DESCRIPT": "NORTH DAKOTA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "39", "DESCRIPT": "OHIO" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "40", "DESCRIPT": "OKLAHOMA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "41", "DESCRIPT": "OREGON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "42", "DESCRIPT": "PENNSYLVANIA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "44", "DESCRIPT": "RHODE ISLAND" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "45", "DESCRIPT": "SOUTH CAROLINA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "46", "DESCRIPT": "SOUTH DAKOTA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "47", "DESCRIPT": "TENNESSEE" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "48", "DESCRIPT": "TEXAS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "49", "DESCRIPT": "UTAH" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "50", "DESCRIPT": "VERMONT" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "51", "DESCRIPT": "VIRGINIA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "53", "DESCRIPT": "WASHINGTON" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "54", "DESCRIPT": "WEST VIRGINIA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "55", "DESCRIPT": "WISCONSIN" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "56", "DESCRIPT": "WYOMING" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "60", "DESCRIPT": "AMERICAN SAMOA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "64", "DESCRIPT": "MICRONESIA" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "66", "DESCRIPT": "GUAM" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "68", "DESCRIPT": "MARSHALL ISLANDS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "69", "DESCRIPT": "NORTHERN MARIANA ISLANDS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "70", "DESCRIPT": "PALAU" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "72", "DESCRIPT": "PUERTO RICO" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "74", "DESCRIPT": "US MINOR ISLANDS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "78", "DESCRIPT": "VIRGIN ISLANDS" }, "geometry": null }
+,
+{ "type": "Feature", "properties": { "CODE": "NP", "DESCRIPT": "NP" }, "geometry": null }
+
+]
+}

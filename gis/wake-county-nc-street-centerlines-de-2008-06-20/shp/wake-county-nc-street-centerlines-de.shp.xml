@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Wake County GIS</origin>
+				<pubdate>1998</pubdate>
+				<title Sync="TRUE">Streets</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Raleigh, North Carolina</pubplace>
+					<publish>Wake County GIS</publish>
+				</pubinfo>
+				<othercit>WCGIS distributes this dataset</othercit>
+				<onlink Sync="TRUE">\\data2\gis\Shapes\Transportation\Streets.shp</onlink>
+				<ftname Sync="TRUE">Streets</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Street Centerlines (centerline of Rights of Way) for Wake County</abstract>
+			<purpose>These data were created to assist governmental
+agencies and others in making resource management
+decisions through use of a Geographic Information System (GIS).</purpose>
+			<supplinf>System filename : Y:\DB_Connections\WAKE.sde\WAKE.STREET
+Related filename: L:\PGDB\Transportation\Streets.mdb\Streets</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>REQUIRED: The year (and optionally month, or month and day) for which the data set corresponds to the ground.</caldate>
+				</sngdate>
+				<rngdates>
+					<begdate>unknown</begdate>
+					<enddate>Present</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>Data creation and revision dates</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Continually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-78.986017</westbc>
+				<eastbc Sync="TRUE">-78.253796</eastbc>
+				<northbc Sync="TRUE">36.076623</northbc>
+				<southbc Sync="TRUE">35.520499</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">2004160.639999</leftbc><rightbc Sync="TRUE">2220521.307849</rightbc><bottombc Sync="TRUE">645186.860834</bottombc><topbc Sync="TRUE">846791.521757</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>streets</themekey>
+				<themekey>maps</themekey>
+				<themekey>roads</themekey>
+				<themekey>cadastral</themekey>
+			</theme>
+			<place>
+				<placekt>William S. Powell, The North Carolina GAZETTEER, A
+Dictionary of Tar Heel Places, (Chapel Hill: University
+of North Carolina Press), August 1984.</placekt>
+				<placekey>North Carolina</placekey>
+				<placekey>Wake County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Wake County Geographic Information Services shall not be held liable for
+any errors in these data. This includes errors of omission, commission,
+errors concerning the content of the data, and relative and positional
+accuracy of the data.  These data cannot be construed to be a legal
+document.  Primary sources from which these data were compiled must be
+consulted for verification of information contained in these data.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Carter Vickery</cntper>
+					<cntorg>Wake County GIS</cntorg>
+				</cntperp>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>P. O. Box 550</address>
+					<city>Raleigh</city>
+					<state>NC</state>
+					<postal>27602</postal>
+					<country>U.S.A.</country>
+				</cntaddr>
+				<cntvoice>(919)856-6212</cntvoice>
+				<cntfax>(919)856-6389</cntfax>
+				<cntemail>Carter.Vickery@co.wake.nc.us</cntemail>
+				<hours>8:30am - 5:15pm</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.5.1450</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The attribute data varies in accuracy, although every effort has been made to correct errors where possible.
+Street names are checked against the County's master street dictionary
+and most misspellings and errors have been corrected.  Street types have
+been standardized across the County.  Address information varies in accuracy
+depending on the source.  Address information from registered deeds and plats
+is highly accurate.  Address information in rural and outlying areas
+is less accurate as it is derived from maps produced in 1988 when rural
+addresses were converted from rural route and box number to city-style
+addresses.  Efforts have been made to correct the errors as resources
+have permitted, but the user of this information should obtain independent
+verification of all address data.</attraccr>
+		</attracc>
+		<logic>Topological Validation on data set will be done beginning in Summer 2006.</logic>
+		<complete>All public and private streets in Wake County that can be determined
+from recorded road rights-of-way are included;  new streets are added within 30 days of
+plat recordation</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>This dataset is based on Wake County's
+cadastral database.  The original cadastral database delivered by
+the conversion vendor was compiled according to the "Technical
+Specifications for Base, Cadastral and Digital Mapping"
+(NC Land Records Management Program, NC Attorney General's Office)
+For updates, information from deeds and plats is digitized or
+entered using coordinate geometry and adjusted to the surrounding
+existing linework.  For updates, information from deeds and plats is
+used to digitize street centerlines within the mapped rights-of-way.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Wake County GIS</origin>
+						<pubdate>1992</pubdate>
+						<title>Cadastral basemap - Wake County</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Raleigh, North Carolina</pubplace>
+							<publish>Wake County GIS</publish>
+						</pubinfo>
+						<othercit>WCGIS distributes this dataset</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>1200</srcscale>
+				<typesrc>mylar</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1992</begdate>
+							<enddate>1998</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>existing cadastral map</srccurr>
+				</srctime>
+				<srccitea>basemap</srccitea>
+				<srccontr>digital cadastre used as a
+reference base for street centerline mapping.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Register of deeds</origin>
+						<pubdate>Unknown</pubdate>
+						<title>Recorded deeds and plats of Wake County</title>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Wake County</pubplace>
+							<publish>Register of Deeds</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>1200</srcscale>
+				<typesrc>paper</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1700</begdate>
+							<enddate>Present</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>Approximate time period of
+deed recordation</srccurr>
+				</srctime>
+				<srccitea>None</srccitea>
+				<srccontr>Official County records of reported property
+transactions including textural or graphic area delineations.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Information was digitized 'heads-up' using the cadastral basemap
+as background reference with supplemental sources for street name,
+street type, and address information.  The reference materials included
+recorded plats or deeds or existing mylar address overlays where no other
+information exists.  All segments were digitized from intersection to
+intersection, one at a time, and attributed at the time of digitizing.</procdesc>
+				<procdate>1992</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Wake County GIS</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>Mailing address</addrtype>
+							<address>P. O. Box 550</address>
+							<city>Raleigh</city>
+							<state>NC</state>
+							<postal>27602</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>(919)856-6212</cntvoice>
+						<cntfax>(919)856-6389</cntfax>
+						<cntemail>Carter.Vickery@co.wake.nc.us</cntemail>
+						<hours>8:30AM - 5:15PM</hours>
+						<cntinst>Phone and electronic mail preferred. For current price information: http://www.wakegov.com/gis/gisdigitaldata.htm</cntinst>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>The portion of the streets within the City of Raleigh's planning
+jurisdiction was digitized by City of Raleigh staff.  Wake County
+GIS furnished the City of Raleigh GIS with the application and all
+source code to accomplish primary input of streets in their jurisdiction,
+using the same prodedures and database design as Wake County.
+After completion of the project and quality control checks, the data was
+transferred to Wake County for long-term maintenance.</procdesc>
+				<procdate>1993</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>City of Raleigh GIS</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>Mailing address</addrtype>
+							<address>P. O. Box 590</address>
+							<city>Raleigh</city>
+							<state>North Carolina</state>
+							<postal>27602</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntvoice>(919)890-3125</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Information is digitized 'heads-up' using the cadastral basemap
+as background reference with supplemental sources for street name,
+street type, and address information.  The reference materials include
+recorded plats or deeds.  All segments are digitized from intersection to
+intersection, one at a time, and attributed at the time of digitizing. In
+the case of updates, the original segment is archived in the database, the
+new segment is added, and segment pointers in the database are updated.</procdesc>
+				<procdate>1998</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Carter Vickery</cntper>
+							<cntorg>Wake County GIS</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>Mailing address</addrtype>
+							<address>P. O. Box 550</address>
+							<city>Raleigh</city>
+							<state>NC</state>
+							<postal>27602</postal>
+							<country>U.S.A.</country>
+						</cntaddr>
+						<cntvoice>(919)856-6212</cntvoice>
+						<cntfax>(919)856-6389</cntfax>
+						<cntemail>Carter.Vickery@co.wake.nc.us</cntemail>
+						<hours>8:30am - 5:15pm</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>U:\060106\StreetCenterlines-WakeCountyNC.xml</srcused>
+				<procdate>2006</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>D:\WorkSpace\metadata\streets060106\WakeCountyNCStreetCenterlineMetadata.xml</srcused>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">Y:\Metadata\CURRENT\StreetCenterlines_WakeCountyNC.xml</srcused><date Sync="TRUE">20070131</date><time Sync="TRUE">20592800</time></procstep></lineage>
+		<cloud>Unknown</cloud>
+	</dataqual>
+	<spdoinfo>
+		<indspref>Street Name</indspref>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Streets">
+				<sdtstype Sync="TRUE">String</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Link</sdtstype>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Complete Chain</sdtstype>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Point</sdtstype>
+			</sdtsterm>
+			<esriterm Name="Streets"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">34.333333</stdparll><stdparll Sync="TRUE">36.166667</stdparll><longcm Sync="TRUE">-79.000000</longcm><latprjo Sync="TRUE">33.750000</latprjo><feast Sync="TRUE">2000000.002617</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000010</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="Streets">
+			<enttyp>
+				<enttypl Sync="TRUE">Streets</enttypl>
+				<enttypd>Street centerlines for all Wake County streets</enttypd>
+				<enttypds>Wake County recorded documents</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr>
+				<attrlabl>DIR_PRE</attrlabl>
+				<attrdef>Direction Prefix (N, S, NE, etc.)</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrmfrq>Daily</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>DIR_SUF</attrlabl>
+				<attrdef>Direction Suffix (N, S, NE, etc.)</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrmfrq>Daily</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>STID</attrlabl>
+				<attrdef>Unique name of segment extending from intersection to intersection</attrdef>
+				<attrdefs>software computed</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>00000001</rdommin>
+						<rdommax>99999999</rdommax>
+						<attrunit>feet</attrunit>
+						<attrmres>0.001</attrmres>
+					</rdom>
+				</attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>STNAME</attrlabl>
+				<attrdef>Name of street</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrmfrq>daily</attrmfrq>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>LABELNAME</attrlabl>
+				<attrdef>Full Street Name for Enhanced Labeling - attributed only at strategic locations</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr>
+			<attr>
+				<attrlabl>STYPE</attrlabl>
+				<attrdef>Street Type (NENA/USPS Standards)</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrmfrq>daily</attrmfrq>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+			<attr>
+				<attrlabl>STSEG</attrlabl>
+				<attrdef>Unique Street Segment identifier  - maintains relationship with GIS</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr>
+			<attr>
+				<attrlabl>F_ELEV</attrlabl>
+				<attrdef>Enhanced Routing number representing chain of segments with similar elevation:8,3,1</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>T_ELEV</attrlabl>
+				<attrdef>Enhanced Routing number representing chain of segments with similar elevation: 8,3,1</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>FRLEFT</attrlabl>
+				<attrdef>Left Low Address Expanded</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>TOLEFT</attrlabl>
+				<attrdef>Left High Address Expanded</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>FRRIGHT</attrlabl>
+				<attrdef>Right Low Address Expanded</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>TORIGHT</attrlabl>
+				<attrdef>Right High Address Expanded</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>FRLEFT_A</attrlabl>
+				<attrdef>Lowest address for segment on left side of street (Actual)</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>TOLEFT_A</attrlabl>
+				<attrdef>Highest address for segment on left side of street (Actual)</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>FRRIGHT_A</attrlabl>
+				<attrdef>Lowest address for segment on right side of street (Actual)</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>TORIGHT_A</attrlabl>
+				<attrdef>Highest address for segment on right side of street (Actual)</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>FT_COST</attrlabl>
+				<attrdef>Enhance Routing - Travel time in minutes</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>STATEROAD</attrlabl>
+				<attrdef>State Road or Highway Number</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>CARTONAME</attrlabl>
+				<attrdef>Full Street Name</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<subtype><stname Sync="TRUE">OOC - WF</stname><stcode Sync="TRUE">23</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">OCITY</stflddv></stfield></subtype><attr>
+				<attrlabl>CORP</attrlabl>
+				<attrdef>Municipality  - estimated - based on ownership of Right-of-Way - not adjacent property</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>CA</edomv>
+						<edomvd>Cary</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>RV</edomv>
+						<edomvd>Rolesville</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>FV</edomv>
+						<edomvd>Fuquay-Varina</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>KD</edomv>
+						<edomvd>Knightdale</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>GR</edomv>
+						<edomvd>Garner</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>WF</edomv>
+						<edomvd>Wake Forest</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>HS</edomv>
+						<edomvd>Holly Springs</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>MV</edomv>
+						<edomvd>Morrisville</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>AP</edomv>
+						<edomvd>Apex</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>WD</edomv>
+						<edomvd>Wendell</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>ZB</edomv>
+						<edomvd>Zebulon</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>RA</edomv>
+						<edomvd>Raleigh</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>AN</edomv>
+						<edomvd>Angier</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr>
+				<attrlabl>ONE_WAY</attrlabl>
+				<attrdef>One way street designation</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>FT</edomv>
+						<edomvd>Traffic flows with address sequence</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>TF</edomv>
+						<edomvd>Traffic flows against address sequence</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>BI</edomv>
+						<edomvd>Bi-directional</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>CLASSNAME</attrlabl>
+				<attrdef>Street Classification Abbreviation</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>INT</edomv>
+						<edomvd>Interstate</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>USHWY</edomv>
+						<edomvd>United States Highway</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>USBUS</edomv>
+						<edomvd>United States Business</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>USALT</edomv>
+						<edomvd>United States Alternate</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>NCHWY</edomv>
+						<edomvd>North Carolina Highway</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>NCBYP</edomv>
+						<edomvd>North Carolina Bypass</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>NCBUS</edomv>
+						<edomvd>North Carolina Business</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>SROAD</edomv>
+						<edomvd>State Road</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>LOCAL</edomv>
+						<edomvd>Local</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>PVT</edomv>
+						<edomvd>Private</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>CITY</edomv>
+						<edomvd>City</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>RAMP</edomv>
+						<edomvd>Ramp</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>OOC</edomv>
+						<edomvd>Out of County</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>OCITY</edomv>
+						<edomvd>Out of county but in a Wake County city</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+					<edom>
+						<edomv>INACT</edomv>
+						<edomvd>Inactive or "paper"</edomvd>
+						<edomvds>Wake County addressing team (GIS)</edomvds>
+					</edom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth></attr>
+			<attr>
+				<attrlabl>L_ZIPNAME</attrlabl>
+				<attrdef>Zip code Name on Left side of street - used as the geocoding zone</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>R_ZIPNAME</attrlabl>
+				<attrdef>Zip code Name on Right side of street - used as the geocoding zone</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">INPUT_</attrlabl><attalias Sync="TRUE">INPUT_</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth></attr><attr>
+				<attrlabl>CLASS</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">ERROR</attrlabl><attalias Sync="TRUE">ERROR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth></attr><attr>
+				<attrlabl>MAP</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+			<attr>
+				<attrlabl>SPEED</attrlabl>
+				<attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth></attr>
+			<attr>
+				<attrlabl>F_NODE</attrlabl>
+				<attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">13</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>T_NODE</attrlabl>
+				<attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">13</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>TF_COST</attrlabl>
+				<attrdef>Enhance Routing - Travel time in minutes</attrdef>
+				<attrdefs>Wake County addressing team (GIS)</attrdefs>
+				<attrdomv>
+					<udom>operator-assigned</udom>
+				</attrdomv>
+				<attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">PRIV</attrlabl><attalias Sync="TRUE">PRIV</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><subtype><stname Sync="TRUE">Interstate</stname><stcode Sync="TRUE">1</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">INT</stflddv></stfield></subtype><subtype><stname Sync="TRUE">US Highway</stname><stcode Sync="TRUE">2</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">USHWY</stflddv><stflddd><domname Sync="TRUE">BUSBYP</domname><domdesc Sync="TRUE">Business_Bypass</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><subtype><stname Sync="TRUE">NC Highway</stname><stcode Sync="TRUE">3</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">NCHWY</stflddv><stflddd><domname Sync="TRUE">BUSBYP</domname><domdesc Sync="TRUE">Business_Bypass</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><subtype><stname Sync="TRUE">Secondary</stname><stcode Sync="TRUE">4</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">STATE</stflddv></stfield></subtype><subtype><stname Sync="TRUE">Local</stname><stcode Sync="TRUE">5</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">LOCAL</stflddv></stfield><stfield><stfldnm Sync="TRUE">CARTO_LEVEL</stfldnm><stflddd><domname Sync="TRUE">BUSBYP</domname><domdesc Sync="TRUE">Business_Bypass</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield></subtype><subtype><stname Sync="TRUE">Ramp</stname><stcode Sync="TRUE">6</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">RAMP</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Apex</stname><stcode Sync="TRUE">8</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Cary</stname><stcode Sync="TRUE">9</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Fuquay Varina</stname><stcode Sync="TRUE">10</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Garner</stname><stcode Sync="TRUE">11</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Holly Springs</stname><stcode Sync="TRUE">12</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Knightdale</stname><stcode Sync="TRUE">13</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Morrisville</stname><stcode Sync="TRUE">14</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Raleigh</stname><stcode Sync="TRUE">15</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Rolesville</stname><stcode Sync="TRUE">16</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Wake Forest</stname><stcode Sync="TRUE">17</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Wendell</stname><stcode Sync="TRUE">18</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Zebulon</stname><stcode Sync="TRUE">19</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">Inactive</stname><stcode Sync="TRUE">20</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">INACT</stflddv></stfield></subtype><subtype><stname Sync="TRUE">Out of County</stname><stcode Sync="TRUE">21</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">OOC</stflddv></stfield></subtype><subtype><stname Sync="TRUE">City - Angier</stname><stcode Sync="TRUE">7</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">CITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">OOC - Cary</stname><stcode Sync="TRUE">24</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">OCITY</stflddv></stfield></subtype><subtype><stname Sync="TRUE">OOC - Raleigh</stname><stcode Sync="TRUE">22</stcode><stfield><stfldnm Sync="TRUE">CLASS</stfldnm><stflddv Sync="TRUE">2</stflddv></stfield><stfield><stfldnm Sync="TRUE">ONE_WAY</stfldnm><stflddv Sync="TRUE">BI</stflddv><stflddd><domname Sync="TRUE">OneWay</domname><domdesc Sync="TRUE">One Way</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">INPUT_</stfldnm><stflddv Sync="TRUE">ROW</stflddv><stflddd><domname Sync="TRUE">Input</domname><domdesc Sync="TRUE">Input Method</domdesc><domtype Sync="TRUE">Coded Value</domtype><mrgtype Sync="TRUE">Default value</mrgtype><splttype Sync="TRUE">Duplicate</splttype><domowner Sync="TRUE"></domowner><domfldtp Sync="TRUE">String</domfldtp></stflddd></stfield><stfield><stfldnm Sync="TRUE">CLASSNAME</stfldnm><stflddv Sync="TRUE">OCITY</stflddv></stfield></subtype><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">CARTO_LEVE</attrlabl><attalias Sync="TRUE">CARTO_LEVE</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<overview>
+			<eaover>A geodatabase feature class depicting the centerlines of the streets within Wake County.</eaover>
+			<eadetcit>None</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Wake County GIS</cntorg>
+				</cntorgp>
+				<cntpos>GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>P. O. Box 550</address>
+					<city>Raleigh</city>
+					<state>NC</state>
+					<postal>27602</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(919)856-6212</cntvoice>
+				<cntfax>(919)856-6389</cntfax>
+				<cntemail>Carter.Vickery@co.wake.nc.us</cntemail>
+				<hours>8:30AM - 5:15PM</hours>
+				<cntinst>Phone and electronic mail preferred. For current price information: http://www.wakegov.com/gis/gisdigitaldata.htm</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>Wake County GIS is charged with the development and maintenance
+of the County's corporate geographic  database and, in
+cooperation with other mapping organizations, is
+committed to offering its users accurate, useful, and
+current information about the County. Although every
+effort has been made to ensure the accuracy of information,
+errors and conditions originating from physical sources
+used to develop the database may be reflected
+in the data supplied.  The user must be aware of data
+conditions and bear responsibility for the appropriate
+use of the information with respect to possible errors,
+original map scale, collection methodology, currency
+of data, and other conditions specific to certain data.
+The use of trade names or commercial products does
+not constitute their endorsement by the County.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>DXF</formname>
+					<filedec>Unzip using the latest version of WinZip (6.0 or higher) or other decompression software.</filedec>
+					<transize>9.379</transize>
+					<dssize Sync="TRUE">0.000</dssize></digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+						<recfmt>9660 ISO</recfmt>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>Selected datasets on CD in shapefile format are $100. For pricing on custom orders, see: http://www.wakegov.com/gis/gisdigitaldata.htm</fees>
+			<ordering>Selected datasets are available in Shape file format. All shapes are compressed into a zipped format and they include data only. Selected ata are also available in DXF format and are compressed using PKZIP. For more information, see: http://www.wakegov.com/gis/gisdigitaldata.htm</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20080530</metd>
+		<metrd>20001010</metrd>
+		<metfrd>20001231</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Wake County GIS</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntpos>GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>Mailing address</addrtype>
+					<address>P. O. Box 550</address>
+					<city>Raleigh</city>
+					<state>NC</state>
+					<postal>27602</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(919)856-6212</cntvoice>
+				<cntfax>(919)856-6389</cntfax>
+				<cntemail>Carter.Vickery@co.wake.nc.us</cntemail>
+				<hours>8:30AM - 5:15PM</hours>
+				<cntinst>Phone and electronic mail preferred. For current price information: http://www.wakegov.com/gis/gisdigitaldata.htm</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None</metac>
+		<metuc>This metadata file is to accompany the data set identified
+and received from WCGIS.  WCGIS does not support secondary
+distribution. If this data file was received from anyone
+besides WCGIS, this metadata file and the data set it
+describes may contain discrepancies.</metuc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{E4468F10-9240-4B54-950F-02D36A25B5D2}</MetaID><CreaDate>20070131</CreaDate><CreaTime>20592800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20080530</SyncDate><SyncTime>06011100</SyncTime><ModDate>20080530</ModDate><ModTime>06011100</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20080530" Time="060202">FeatureClassToFeatureClass L:\PGDB\Transportation\streets.mdb\Streets Y:\Shapes\Transportation Streets # "STSEG STSEG true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,STSEG,-1,-1;STID STID true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,STID,-1,-1;DIR_PRE DIR_PRE true true false 2 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,DIR_PRE,-1,-1;STNAME STNAME true true false 25 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,STNAME,-1,-1;STYPE STYPE true true false 8 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,STYPE,-1,-1;DIR_SUF DIR_SUF true true false 2 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,DIR_SUF,-1,-1;CLASS CLASS true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,CLASS,-1,-1;FRLEFT FRLEFT true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,FRLEFT,-1,-1;TOLEFT TOLEFT true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,TOLEFT,-1,-1;FRRIGHT FRRIGHT true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,FRRIGHT,-1,-1;TORIGHT TORIGHT true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,TORIGHT,-1,-1;FRLEFT_A FRLEFT_A true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,FRLEFT_A,-1,-1;TOLEFT_A TOLEFT_A true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,TOLEFT_A,-1,-1;FRRIGHT_A FRRIGHT_A true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,FRRIGHT_A,-1,-1;TORIGHT_A TORIGHT_A true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,TORIGHT_A,-1,-1;STATEROAD STATEROAD true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,STATEROAD,-1,-1;CARTONAME CARTONAME true true false 50 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,CARTONAME,-1,-1;LABELNAME LABELNAME true true false 50 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,LABELNAME,-1,-1;F_ELEV F_ELEV true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,F_ELEV,-1,-1;T_ELEV T_ELEV true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,T_ELEV,-1,-1;CORP CORP true true false 10 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,CORP,-1,-1;SPEED SPEED true true false 2 Short 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,SPEED,-1,-1;ONE_WAY ONE_WAY true true false 2 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,ONE_WAY,-1,-1;INPUT_ INPUT_ true true false 4 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,INPUT_,-1,-1;CLASSNAME CLASSNAME true true false 5 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,CLASSNAME,-1,-1;L_ZIPNAME L_ZIPNAME true true false 25 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,L_ZIPNAME,-1,-1;R_ZIPNAME R_ZIPNAME true true false 25 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,R_ZIPNAME,-1,-1;ERROR ERROR true true false 11 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,ERROR,-1,-1;MAP MAP true true false 8 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,MAP,-1,-1;PRIV PRIV true true false 1 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,PRIV,-1,-1;FT_COST FT_COST true true false 4 Float 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,FT_COST,-1,-1;TF_COST TF_COST true true false 4 Float 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,TF_COST,-1,-1;F_NODE F_NODE true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,F_NODE,-1,-1;T_NODE T_NODE true true false 4 Long 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,T_NODE,-1,-1;CARTO_LEVE CARTO_LEVE true true false 10 Text 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,CARTO_LEVEL,-1,-1;Shape_Leng Shape_Length false true true 8 Double 0 0 ,First,#,L:\PGDB\Transportation\streets.mdb\Streets,Shape_Length,-1,-1" # Y:\Shapes\Transportation\Streets.shp</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.5.1450</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Streets</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">2004160.639999</westBL><eastBL Sync="TRUE">2220521.307849</eastBL><northBL Sync="TRUE">846791.521757</northBL><southBL Sync="TRUE">645186.860834</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-78.986017</westBL><eastBL Sync="TRUE">-78.253796</eastBL><northBL Sync="TRUE">36.076623</northBL><southBL Sync="TRUE">35.520499</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\data2\gis\Shapes\Transportation\Streets.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_North_Carolina_FIPS_3200_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Streets"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20080530</mdDateSt></metadata>

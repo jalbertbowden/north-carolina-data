@@ -1,0 +1,343 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: NCDENR, Albemarle-Pamlico National Estuary Partnership (APNEP)
+      Publication_Date: 2008
+      Title: Submerged Aquatic Vegetation - SAV
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Raleigh, North Carolina
+        Publisher: NCDENR, Albemarle-Pamlico National Estuary Partnership (APNEP)
+      Online_Linkage: http://www.apnep.org
+  Description:
+    Abstract: With funding from the Albemarle-Pamlico National Estuary Partnership (APNEP) and others [NC Division of Marine Fisheries (NC-DMF), National Oceanic and Atmospheric Administration (NOAA), and US Fish and Wildlife Service (US-FWS)], digital data of coastal submerged aquatic vegetation (SAV) was mapped by NC-DMF and Atkins for imagery years 2006-2008 with a planned update by the NC Department of Transportation for imagery years 2012-2013. In addition to its role as critical habitat for many aquatic fauna species, SAV is an important bio-indicator of environmental health because of its sensitivity to aquatic stressors. The ability to detect SAV is critical in understanding ecosystem health and effects of restoration and protection activities. As such, this dataset was developed and intended for research and/or planning. Because SAV distribution, abundance, and density varies seasonally and annually in response to climatic variability, large-scale SAV changes may occur and because of its dynamic nature, this data needs to be continually updated as monitoring continues in the APNEP region.
+    Purpose: This data was created to assist governmental agencies and others in making resource management decisions through use of a Geographic Information System (GIS).
+    Supplemental_Information: Mapping Extent: Visible SAV was mapped along the coast of North Carolina and northward into Back Bay, Virginia. This extent encompasses the coastal zone that lies within the APNEP regional boundary.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 2006
+        Ending_Date: 2008
+    Currentness_Reference: Original release and last revision dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: biota
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: submerged aquatic vegetation
+      Theme_Keyword: aquatic plants
+      Theme_Keyword: biota
+      Theme_Keyword: natural ecosystem
+      Theme_Keyword: natural community
+      Theme_Keyword: water
+      Theme_Keyword: seagrass
+      Theme_Keyword: aquatic habitat
+      Theme_Keyword: submerged aquatic plants
+      Theme_Keyword: aquatic plants
+      Theme_Keyword: natural ecosystems
+      Theme_Keyword: natural communities
+      Theme_Keyword: estuarine
+      Theme_Keyword: estuary
+      Theme_Keyword: fish habitat
+      Theme_Keyword: aquatic
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+      Place_Keyword: Virginia
+      Place_Keyword: coasts
+      Place_Keyword: coastline
+      Place_Keyword: coastal zone
+      Place_Keyword: coastlines
+      Place_Keyword: near-marine
+      Place_Keyword: near marine
+      Place_Keyword: coast
+      Place_Keyword: sound
+      Place_Keyword: Albemarle Sound
+      Place_Keyword: Pamlico Sound
+      Place_Keyword: Albemarle-Pamlico
+      Place_Keyword: Albemarle Pamlico
+      Place_Keyword: Albemarle-Pamlico National Estuary Partnership
+  Access_Constraints: None.
+  Use_Constraints: These data are intended for research or planning projects that will contribute to better protection for the ecological features involved. APNEP staff should be contacted prior to use of this dataset to ensure and confirm its currency.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Person_Primary:
+        Contact_Person: Dr. Dean Carpenter
+        Contact_Organization: NC-DENR, Albemarle-Pamlico National Estuary Partnership
+      Contact_Position: Program Scientist
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 1601 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: (919) 707-8634
+      Contact_Facsimile_Telephone: (919) 707-8634
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Preferred contact is by telephone
+  Data_Set_Credit: NC-DENR/Office of Conservation, Planning, and Community Affairs/APNEP/NC-DMF/ NC-DOT)/NOAA)/Atkins/USFWS
+  Native_Data_Set_Environment: Microsoft Windows; ESRI ArcGIS
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -78.53
+      East_Bounding_Coordinate: -74.93
+      North_Bounding_Coordinate: 36.61
+      South_Bounding_Coordinate: 33.81
+Data_Quality_Information:
+  Logical_Consistency_Report: Data developed and verified by APNEP and its partners.
+  Completeness_Report: These data represent the locations of visible SAV, as could be digitized from remotely-sensed imagery. A substantial portion of SAV beds remain invisible from remote sensing due to environmental factors above (e.g. haze and clouds), on (e.g. white caps), and below (e.g. turbidity) the water's surface.
+  Lineage:
+    Process_Step:
+      Process_Description:
+        All imagery was collected with Intergraphs Z/I Digital Mapping Camera (DMC).  The mainland and outer banks of Bogue Sound and Back Sound, and the mainland side of Core Sound north to Atlantic, North Carolina was collected on May 31 and June 1, 2006.  Aircraft height was 3,048 m for a final imagery product with a 0.3 m pixel size.  All other areas in the state were collected on October 12, 14, and 15, 2007 and May 27, 2008 with an aircraft height of 6,096 m for a final imagery product with a 1.0 m pixel size.
+
+        The imagery was loaded into ArcGIS for manual on-screen digitizing using procedures described in Rohman and Monaco (2005).  Digitizing scale was typically set to 1:1,500 except when larger homogeneous areas required zooming out to a greater extent that was usually accomplished at approximately 1:6,000.  Habitat boundaries were delineated around benthic habitat features (e.g. areas with visually discernible differences in color and texture patterns).  The scanned images were occasionally manipulated in terms of brightness, contrast and color balance to enhance interpretability of subtle features and boundaries. The classification scheme consisted of three thematic classes: (1) dense seagrass, (2) patchy seagrass and (3) unvegetated.  Dense seagrass was defined as areas covering 70% or greater of the substrate but may include unvegetated or sparsely vegetated areas that are smaller than the minimum mapping unit (MMU).  Patchy seagrass was defined as discontinuous communities covering more than 10% but less than 70% of the substrate.  These areas were diffuse and irregular, consisting of isolated patches that are below the MMU.  Areas with less than 10% seagrass are considered beyond the detection level for the imagery used and thus fell into the unvegetated category.
+
+        MMU is generally defined as the smallest feature (e.g., an individual seagrass bed) or aggregate of features (e.g., seagrass patches) that is delineated using a given source of imagery (Rohman and Monaco, 2005).  For this study the MMU was approximately 0.2 ha, or in general patches that were at least 15 m across on their longest axis.
+      Process_Date: 2006-2008
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC-DENR, Albemarle-Pamlico National Estuary Partnership (APNEP)
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1601 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: (919) 707-8634
+          Contact_Facsimile_Telephone: (919) 707-8634
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Preferred contact is by phone
+    Process_Step:
+      Process_Description:
+        An update to the 2006 -2008 North Carolina SAV mapping project was completed by Atkins in 2010 - 2011 following the initial mapping done by NC-DMF staff and Dr. Don Field at NOAA-Beaufort.  The work done by Dr. Field, between Oregon Inlet and Bogue Sound, would remain in the dataset.  The work done by NC-DMF staff was determined to be insufficient for this mapping effort and was re-mapped by Atkins in the areas north of Oregon Inlet and south of Bogue Sound.  According to specifications given to Atkins by APNEP, SAV was mapped at a minimum map unit of 15 meters on the longest axis.  The digitizing scale was set between 1:2,000 and 1:2,500.
+
+        The SAV was mapped using lines to draw the boundaries and points to classify the SAV based on density.  All lines created by Atkins analysts were smoothed and then generalized using a maximum allowable offset of 0.01 meters and 0.5 meters, respectively.  The density of the SAV was classified as Dense: 70-100% coverage, Patchy:  5-70% coverage or Absent: 0-5% coverage.  SAV was also mapped inside of waterfowl impoundments, but was given an impounded modifier (DENSE_I or PATCHY_I) to distinguish it from other SAV.  Additionally, aquaculture vegetation was mapped and classified as such.
+      Process_Date: Fall 2010 - Spring 2011
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC-DENR, Albemarle-Pamlico National Estuary Partnership
+          Contact_Address:
+            Address_Type: mailing address
+            Address: 1601 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: USA
+          Contact_Voice_Telephone: (919)707-8632
+          Contact_Facsimile_Telephone: (919)707-8632
+          Hours_of_Service: 8am - 5pm
+          Contact_Instructions: Preferred contact is by phone.
+    Process_Step:
+      Process_Description: Using a third party extension, Hawths Tools, the polygons and points were counted to ensure only one point existed inside of each polygon.  After any errors were corrected, the polygons classified as ABSENT were deleted from the dataset.  Using a modified version of the US-FWS National Wetland Inventory (NWI) Verification Tool, the dataset was checked to ensure that each polygon had an attribute that met the classification standard (DENSE, PATCHY,  DENSE_I, PATCHY_I, or AQUACULTURE).  All errors were corrected and the dataset was then complete.
+      Process_Date: Fall 2010 - Spring 2011
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC-DENR, Albemarle-Pamlico National Estuary Partnership
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 1601 MSC
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699-1601
+          Contact_Voice_Telephone: (919)707-8634
+          Contact_Facsimile_Telephone: (919)707-8634
+          Hours_of_Service: 8am-5pm
+          Contact_Instructions: Preferred contact is by phone.
+      Source_Used_Citation_Abbreviation: Rohman, S.O., and Monaco, M.E., 2005. Mapping southern Florida's shallow-water coral ecosystems; an implementation plan: National Oceanic and Atmospheric Administration Technical Memorandum NOS NCCOS 19, 39p.
+    Process_Step:
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NC-DENR, Albemarle-Pamlico National Estuary Partnership
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 1601 MSC
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699-1601
+          Contact_Voice_Telephone: (919) 707-8634
+          Contact_Facsimile_Telephone: (919) 707-8634
+          Hours_of_Service: 8am-5pm
+          Contact_Instructions: Preferred contact is by phone.
+      Process_Description: Delineation of 2012-2013 imagery is underway for a portion of the coastal zone in North Carolina.
+      Process_Date: 2012-2013
+  Cloud_Cover: Unknown
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      Approximately 1,000 field points were visited in years 2007 - 2008.  All of these points were used as training data to guide digitization of SAV habitats.  The points were randomly generated in GIS, based on areas where SAV were previously mapped or in water down to a depth of 2 m.  Points were located in small craft with the aid of Differential Global Positioning Systems (DGPS) or Wide Area Augmentation System (WAS) GPS accurate to approximately 5 m.  Areas were identified visually from the boat (or wading in shallow waters) or with the aid of rakes where the bottom could not be visualized.
+
+      It was hoped that up to one half of the 1,000 field points could be held out, not used at all by interpreters, and used in an accuracy assessment.  Unfortunately, due to less than ideal imagery quality in some locations and interpreters who did not have the opportunity to go out in the field, it was decided to forgo the accuracy assessment and use all the field points to aid interpretation.
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: None
+  Direct_Spatial_Reference_Method: Vector
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 1
+          Ordinate_Resolution: 1
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 1980
+      Semi-major_Axis: 6378137
+      Denominator_of_Flattening_Ratio: 298.257
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Submerged Aquatic Vegetation
+      Entity_Type_Definition: Locations of submerged aquatic vegetation areas along the North Carolina coast.
+      Entity_Type_Definition_Source: NC DENR - Albemarle-Pamlico National Estuary Partnership (APNEP)
+    Attribute:
+      Attribute_Label: CLASS
+      Attribute_Definition: Type of classification for submerged aquatic vegetation polygon.
+      Attribute_Definition_Source: Albemarle-Pamlico National Estuary Partnership (APNEP)
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: AQUACULTURE
+          Enumerated_Domain_Value_Definition: A polygon that consists of aquaculture vegetation.
+          Enumerated_Domain_Value_Definition_Source: Albemarle-Pamlico National Estuary Partnership (APNEP)
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DENSE
+          Enumerated_Domain_Value_Definition: A polygon with 70-100% submerged aquatic vegetation coverage.
+          Enumerated_Domain_Value_Definition_Source: Albemarle-Pamlico National Estuary Partnership (APNEP)
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: DENSE_I
+          Enumerated_Domain_Value_Definition: A polygon with 70-100% submerged aquatic vegetation coverage and is also a waterfowl impoundment.
+          Enumerated_Domain_Value_Definition_Source: Albemarle-Pamlico National Estuary Partnership (APNEP)
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PATCHY
+          Enumerated_Domain_Value_Definition: A polygon with 5-70% submerged aquatic vegetation coverage.
+          Enumerated_Domain_Value_Definition_Source: Albemarle-Pamlico National Estuary Partnership (APNEP)
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: PATCHY_I
+          Enumerated_Domain_Value_Definition: A polygon with 5-70% submerged aquatic vegetation coverage and is also a waterfowl impoundment.
+          Enumerated_Domain_Value_Definition_Source: Albemarle-Pamlico National Estuary Partnership (APNEP)
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: ABSENT
+          Enumerated_Domain_Value_Definition: A polygon with 0-5% submerged aquatic vegetation coverage.
+          Enumerated_Domain_Value_Definition_Source: Albemarle-Pamlico National Estuary Partnership (APNEP)
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC CGIA
+      Contact_Address:
+        Address_Type: Physical
+        Address: 3700 Wake Forest Rd. Road
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Resource_Description: Downloadable Data
+  Distribution_Liability:
+    NC-CGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NC-CGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NC-CGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/sav.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Technical_Prerequisites: All formats available from www.nconemap.com are in ESRI shapefile.
+  Available_Time_Period:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 2006
+        Ending_Date: 2008
+Metadata_Reference_Information:
+  Metadata_Date: 20130314
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC CGIA
+      Contact_Address:
+        Address_Type: Physical
+        Address: 3700 Wake Forest Rd. Road
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints:
+    This metadata file is to accompany the dataset. NCCGIA does not
+    support secondary distribution of this dataset without its current,
+    compliant metadata record. If the dataset described in this metadata
+    record was received from anyone besides NCCGIA, this metadata and
+    the dataset it describes may contain discrepancies.

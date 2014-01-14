@@ -1,0 +1,466 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: US Geological Survey-National Mapping Division
+      Publication_Date: 199812
+      Title: Pipe and Transmission Lines
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Reston, Virginia
+        Publisher: US Geological Survey-National Mapping Division
+      Other_Citation_Details: NCCGIA distributes this dataset
+      Online_Linkage: www.nconemap.com
+  Description:
+    Abstract:
+      The US Geological Survey-National Mapping Division created
+      the 1:24,000-scale Pipe and Transmission data for their
+      published maps.  The NC Center for Geographic Information
+      and Analysis, developed the NC statewide Transportation-
+      Miscellaneous (1:24,000) digital data as a base layer
+      showing pipe and transmission lines.  This data was compiled
+      directly from the DLGs.  Apparent inconsistencies in specific
+      areas may be due to different compliation dates of the source
+      maps. Airports and landing strips have been removed and are
+      stored in another file.
+    Purpose:
+      DLG's depict information about geographic features on or near
+      the surface of the Earth, terrain, and political and administrative
+      units.  These data were collected as part of the National Mapping
+      Program. NC CGIA digitizes and distributes dlgs to help agencies
+      and others make resource management and other types of decisions.
+    Supplemental_Information:
+      Refer to "USGS Digital Cartographic Data Standards,"
+      circular 895-G for USGS Coding Classification.
+
+      system filename: mtt24  approx. file size = 0.9 mb
+
+      Revisions and updates to this layer include:
+      >1.) filename: mtt24_1298 This data was previously stored in
+      >24 k quadrangle files.  CGIA combined the available 24 k
+      >files for North Carolina to enable easier use and distribution
+      >of this information. This was the first release of this data in
+      >a statewide format.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1938
+        Ending_Date: 1990
+    Currentness_Reference: Source map dates
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: As needed
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -84.478914
+      East_Bounding_Coordinate: -75.419213
+      North_Bounding_Coordinate: 36.656208
+      South_Bounding_Coordinate: 33.828419
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None
+      Theme_Keyword: Pipelines
+      Theme_Keyword: Powerlines
+      Theme_Keyword: Transmission lines
+      Theme_Keyword: transportation
+      Theme_Keyword: digital line graph
+      Theme_Keyword: DLG
+    Theme:
+      Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+      Theme_Keyword: utilitiesCommunication
+    Place:
+      Place_Keyword_Thesaurus:
+        William S. Powell, The North Carolina GAZETTEER, A
+        Dictionary of Tar Heel Places, (Chapel Hill: University
+        of North Carolina Press), August 1984.
+      Place_Keyword: North Carolina
+  Access_Constraints: None
+  Use_Constraints:
+    Acknowledgement of products derived from this
+    data set should cite the following: The source of the
+    Transportation-Miscellaneous (1:24,000)
+    data is the North Carolina Corporate Geographic
+    Database. Earlier versions of this dataset may exist. The user
+    must be sure to use the appropriate data set for the time period
+    of interest.  While efforts have been made to ensure that these
+    data are accurate and reliable within the state of the art,
+    CGIA cannot assume liability for any damages or
+    misrepresentation caused by any inaccuracies in the data or
+    as a result of changes to the data caused by system transfers.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      The digital line graphs (DLGs)for miscellaneous
+      transportation were delineated on USGS 1:24,000-scale topographic maps and
+      attributed with USGS DLG codes.  The digital files were supplied to
+      NCCGIA who makes attribute edits as errors are found.
+  Logical_Consistency_Report:
+    Using ESRI's ARC/INFO GIS software, the data set
+    was built for arc topology using the "build" command. Topology has not been
+    edited since the last build.
+  Completeness_Report:
+    These data represent miscellaneous transportation
+    features, including pipe and transmission lines,
+    as determined by the US Geological Survey 1:24,000-scale Digital Line
+    Graph program, for statewide North Carolina. Each feature is attributed
+    with various DLG codes.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        Miscellaneous transportation features were delineated on USGS
+        7.5 Minute series topographic maps, which meet National Map Accuracy
+        Standards. The DLGs were digitized and checked for positional accuracy
+        at the USGS. These files, which originally met the National Map
+        Accuracy Standards for 1:24,000-scale dlgs, have had
+        minor edits performed as missing features have been added.
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: US Geological Survey
+          Publication_Date: Unknown
+          Title: Digital Line Graphs
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: US Geological Survey
+          Other_Citation_Details: USGS 1:24,000-scale DLG Program
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: Paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1938
+            Ending_Date: 1990
+        Source_Currentness_Reference: Publication dates of quadrangles
+      Source_Citation_Abbreviation: None
+      Source_Contribution: Digital Line Graphs
+    Process_Step:
+      Process_Description:
+        1:24,000-scale digital line graph files were mapjoined to form
+        a statewide file for North Carolina representing the Miscellaneous
+        Transmission attributes as shown on the published USGS maps.
+      Process_Date: 1998
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: NCCGIA
+          Contact_Position: Database Administrator
+          Contact_Address:
+            Address_Type: Physical
+            Address: 333 E. Six Forks Rd.
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27609
+            Country: U.S.A.
+          Contact_Address:
+            Address_Type: Mailing
+            Address: 20322 Mail Service Center
+            City: Raleigh
+            State_or_Province: North Carolina
+            Postal_Code: 27699
+            Country: U.S.A.
+          Contact_Voice_Telephone: 919-754-6580
+          Contact_Facsimile_Telephone: 919-715-8551
+          Contact_Electronic_Mail_Address: dataq@its.nc.gov
+          Hours_of_Service: 8am to 5pm
+          Contact_Instructions: Phone and electronic mail preferred
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: None
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 4517
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Node, planar graph
+      Point_and_Vector_Object_Count: 3739
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: State Plane Coordinate System 1983
+        State_Plane_Coordinate_System:
+          SPCS_Zone_Identifier: 3200
+          Lambert_Conformal_Conic:
+            Standard_Parallel: 34.333333
+            Standard_Parallel: 36.166667
+            Longitude_of_Central_Meridian: -79.000000
+            Latitude_of_Projection_Origin: 33.750000
+            False_Easting: 609601.220000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.002048
+          Ordinate_Resolution: 0.002048
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Pipes and Transmission Lines
+      Entity_Type_Definition:
+        Pipelines, powerlines, and
+        other miscellaneous transmission features
+      Entity_Type_Definition_Source: USGS - National Mapping Division
+    Attribute:
+      Attribute_Label: MINOR2
+      Attribute_Definition: USGS Digital Line Graph code
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            USGS Digital Cartographic Data Standards,
+            circular 895-G
+          Codeset_Source: US Geological Survey
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: LENGTH
+      Attribute_Definition: Length of arc in coverage units
+      Attribute_Definition_Source: Software computed
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1.828
+          Range_Domain_Maximum: 16,567.870
+          Attribute_Units_of_Measure: meters
+          Attribute_Measurement_Resolution: 0.001
+      Attribute_Measurement_Frequency: As needed
+    Attribute:
+      Attribute_Label: MAJOR1
+      Attribute_Definition: USGS Digital Line Graph code
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            USGS Digital Cartographic Data Standards,
+            circular 895-G
+          Codeset_Source: US Geological Survey
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: MAJOR2
+      Attribute_Definition: USGS Digital Line Graph code
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            USGS Digital Cartographic Data Standards,
+            circular 895-G
+          Codeset_Source: US Geological Survey
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: MAJOR3
+      Attribute_Definition: USGS Digital Line Graph code
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            USGS Digital Cartographic Data Standards,
+            circular 895-G
+          Codeset_Source: US Geological Survey
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: MAJOR4
+      Attribute_Definition: USGS Digital Line Graph code
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            USGS Digital Cartographic Data Standards,
+            circular 895-G
+          Codeset_Source: US Geological Survey
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: OBJECTID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: MINOR3
+      Attribute_Definition: USGS Digital Line Graph code
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            USGS Digital Cartographic Data Standards,
+            circular 895-G
+          Codeset_Source: US Geological Survey
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: MINOR4
+      Attribute_Definition: USGS Digital Line Graph code
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            USGS Digital Cartographic Data Standards,
+            circular 895-G
+          Codeset_Source: US Geological Survey
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: MINOR1
+      Attribute_Definition: USGS Digital Line Graph code
+      Attribute_Definition_Source: US Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            USGS Digital Cartographic Data Standards,
+            circular 895-G
+          Codeset_Source: US Geological Survey
+      Attribute_Measurement_Frequency: None planned
+    Attribute:
+      Attribute_Label: SHAPE
+      Attribute_Definition: Feature geometry.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features.
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      An arc coverage depicting the
+      locations of miscellaneous transportation features, such as pipe and
+      transmission lines, as delineated by the
+      US Geological Survey.  The arc attribute table (AAT) has attribute data
+      including to- and from-node identifiers, left- and right-side polygon
+      identifiers, length of linear feature in feet, and two internal
+      identification numbers.  There are six additional items, which describe
+      the features, according to USGS Digital Line Graph codes.
+
+      >MTT24.AAT  Arc Attribute Table
+
+      >COLUMN  ITEM NAME   WIDTH OUTPUT TYPE  DEC  DESCRIPTION
+      >1       FNODE#        4      5    B     -   From-node id of linear feature
+      >5       TNODE#        4      5    B     -   To-node id of linear feature
+      >9       LPOLY#        4      5    B     -   Left-side polygon id of linear
+      >feature
+      >13      RPOLY#        4      5    B     -   Right-side polygon id of
+      >linear feature
+      >17      LENGTH        4     12    F     3   Length of linear feature in
+      >feet
+      >21      MTT24#        4      5    B     -   Internal id number
+      >25      MTT24-ID      4      5    B     -   Internal id number
+      >29      MAJOR1        6      6    I     -   USGS Digital Line Graph code
+      >35      MINOR1        6      6    I     -   USGS Digital Line Graph code
+      >41      MAJOR2        6      6    I     -   USGS Digital Line Graph code
+      >47      MINOR2        6      6    I     -   USGS Digital Line Graph code
+      >53      MAJOR3        6      6    I     -   USGS Digital Line Graph code
+      >59      MINOR3        6      6    I     -   USGS Digital Line Graph code
+      >65      MAJOR4        6      6    I     -   USGS Digital Line Graph code
+      >71      MINOR4        6      6    I     -   USGS Digital Line Graph code
+      >77      SYMBOL        2      2    I     -   Internal plotting code
+    Entity_and_Attribute_Detail_Citation:
+      Refer to USGS Digital
+      Cartographic Data Standards, circular 895-G for descriptions of the
+      DLG major/minor codes.
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: NC Center for Geographic Information and Analysis
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8:30AM - 5:30PM
+      Contact_Instructions: Phone and electronic mail preferred
+  Distribution_Liability:
+    NCCGIA is charged with the development and maintenance
+    of NC OneMap and, in cooperation with other mapping
+    organizations, is committed to offering its users accurate,
+    useful, and current information. Although
+    every effort has been made to ensure the accuracy of
+    information, errors and conditions originating from
+    physical sources used to develop this dataset may be
+    reflected in the data supplied. The user must be
+    aware of possible conditions and bear responsibility for
+    the appropriate use of the information with respect to
+    possible errors, original map scale, collection methodology,
+    currency of data, and other conditions specific to certain
+    data. NCCGIA does not support secondary distribution of
+    this dataset without its current, compliant metadata record. The
+    use of trade names or commercial products does not constitute their
+    endorsement by NCCGIA or North Carolina State Government.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: ESRI shapefile (*.shp)
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: ftp://ftp.nconemap.com/outgoing/vector/mtt.zip
+    Fees: None. Download from www.nconemap.com is free of charge.
+  Custom_Order_Process: Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.
+  Technical_Prerequisites: This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.
+Metadata_Reference_Information:
+  Metadata_Date: 20110610
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: North Carolina Center for Geographic Information and Analysis
+        Contact_Person: David Giordano
+      Contact_Position: Database Administration
+      Contact_Address:
+        Address_Type: Physical
+        Address: 333 E. Six Forks Rd.
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27609
+        Country: U.S.A.
+      Contact_Address:
+        Address_Type: Mailing
+        Address: 20322 Mail Service Center
+        City: Raleigh
+        State_or_Province: North Carolina
+        Postal_Code: 27699
+        Country: U.S.A.
+      Contact_Voice_Telephone: 919-754-6580
+      Contact_Facsimile_Telephone: 919-715-8551
+      Contact_Electronic_Mail_Address: dataq@its.nc.gov
+      Hours_of_Service: 8am to 5pm
+      Contact_Instructions: Phone and electronic mail preferred
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.

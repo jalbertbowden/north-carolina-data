@@ -1,0 +1,2550 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+  <NetworkLinkControl>
+    <Url>
+      <href>http://www.communitywalk.com/xml/kml/1468023</href>
+    </Url>
+    <minRefreshPeriod>3600</minRefreshPeriod>
+    <message>Thank you for using CommunityWalk. If you have any questions, comments, feedback, etc. please email me at communitywalk@gmail.com</message>
+  </NetworkLinkControl>
+  <Document>
+    <StyleMap id="green_CWStyleMap">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>green_CWNormal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>green_CWHighlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="orange_CWStyleMap">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>orange_CWNormal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>orange_CWHighlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="red_CWStyleMap">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>red_CWNormal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>red_CWHighlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <StyleMap id="blue_CWStyleMap">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>blue_CWNormal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>blue_CWHighlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="green_CWNormal">
+      <IconStyle>
+        <scale>0.5</scale>
+        <Icon>
+          <href>http://www.communitywalk.com/images/green/l.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ffff</color>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="green_CWHighlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.communitywalk.com/images/green/l.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="orange_CWNormal">
+      <IconStyle>
+        <scale>0.5</scale>
+        <Icon>
+          <href>http://www.communitywalk.com/images/orange/l.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ffff</color>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="orange_CWHighlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.communitywalk.com/images/orange/l.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="red_CWNormal">
+      <IconStyle>
+        <scale>0.5</scale>
+        <Icon>
+          <href>http://www.communitywalk.com/images/red/l.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ffff</color>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="red_CWHighlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.communitywalk.com/images/red/l.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="blue_CWNormal">
+      <IconStyle>
+        <scale>0.5</scale>
+        <Icon>
+          <href>http://www.communitywalk.com/images/blue/l.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff00ffff</color>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="blue_CWHighlight">
+      <IconStyle>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.communitywalk.com/images/blue/l.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <color>ffffffff</color>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Town of Nags Head</name>
+      <LookAt>
+        <longitude>-75.597053</longitude>
+        <latitude>35.932413</latitude>
+        <range>11200</range>
+      </LookAt>
+      <open>1</open>
+      <Folder>
+        <name>Municipal</name>
+        <Placemark>
+          <name>Fire Station</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/2/1/589021_s.jpg" style="height: 144px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/3/1/589031_s.jpg" style="height: 159px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.613682</longitude>
+            <latitude>35.93427</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#red_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.613682,35.93427,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Fire Station</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/2/6/589026_s.jpg" style="height: 130px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/2/7/589027_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/2/8/589028_s.jpg" style="height: 165px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.585508</longitude>
+            <latitude>35.886399</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#red_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.585508,35.886399,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Nags Head Municipal Building</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+The Town's Administration, Police, Tax and Planning Departments are located in this building.  normal operating hours are 8:30 - 5:00 Monday through Friday.
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/2/9/589029_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/3/3/589033_s.jpg" style="height: 121px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/3/0/589030_s.jpg" style="height: 141px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.612459</longitude>
+            <latitude>35.934583</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#red_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.612459,35.934583,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Ocean Rescue Station</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.627887</longitude>
+            <latitude>35.963584</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#red_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.627887,35.963584,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Parks</name>
+        <Placemark>
+          <name>Jockey's Ridge State Park</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+Jockey's Ridge is the tallest active sand dune along the Atlantic Coast of the United States. It is located between US 158 and the Roanoke Sound. The Ridge represents the southern extremity of a back barrier dune system which extends north along Currituck Spit into Virginia. Jockey's Ridge attracts many residents and visitors ever year. Climbing the dune and hang gliding are activities that people can enjoy.
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/2/4/589024_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/2/5/589025_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.633531</longitude>
+            <latitude>35.962568</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#green_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.633531,35.962568,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Satterfield Landing</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+Satterfield Landing is located off of US 158 on West Satterfield Landing Road. Satterfield Landing consists of two soccer fields, a concession building with a covered shelter and a parking lot.
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.649774</longitude>
+            <latitude>35.986862</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#green_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.649774,35.986862,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Town Park</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+Town Park is located off of US 158 on Barnes Street at Mile Post 11.  The Park is part of Nags Head Woods.  There is a picnic shelter, a children&#8217;s playground and an open grass area.  The picnic shelter area can be reserved by the calling the Town Administration office at 449-2021.
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/8/4/588984_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/8/5/588985_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/8/6/588986_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/8/7/588987_s.jpg" style="height: 183px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.647006</longitude>
+            <latitude>35.977937</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#green_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.647006,35.977937,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Whalebone Park </name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+Whalebone Park is located in Nags Head directly across the street from Jennette&#8217;s Pier.  The park was developed with grant funds from the Parks and Recreation Trust Fund (PARTF), the Division of Coastal Management (CAMA) and the Outerbanks Tourism Board.  It serves children between the ages of 2 and 12 and incorporates features which meet ADA guidelines.  The park also allows for inclusive play for all children regardless of physical or sensory abilities. Some of the parks features include; slides, ramps, swings, climbing features, panels for imaginative play, benches and covered picnic tables.  Whalebone Park is open all year. 
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.598136</longitude>
+            <latitude>35.908535</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#green_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.598136,35.908535,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Piers</name>
+        <Placemark>
+          <name>Jennette's Pier</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+The North Carolina Aquarium at Jennette&#8217;s Pier is an extension of the North Carolina Aquarium on Roanoke Island.  It is located on NC 12 at Whalebone Junction. The pier is eight hundred feet long and is open to the public for fishing.  It is also available to host special events such as fishing tournaments for youth and the visually impaired. The Pier draws special attention to alternative energy, conservation and sustainability, aquatic programs and camps, educational exhibits and fishing tournaments.  
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/9/3/588993_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.595894</longitude>
+            <latitude>35.909873</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#orange_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.595894,35.909873,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Nags Head Pier</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+Nags Head Pier is located in the northern end of Nags Head near Bainbridge Street.  The pier is approximately six hundred feet long.  The pier is open to the public for fishing and has a tackle shop and restaurant on site.
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.630805</longitude>
+            <latitude>35.973387</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#orange_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.630805,35.973387,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Outer Banks Pier</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+The Outer Banks Pier is located in south Nags Head near Isabella Street.  The Pier is six hundred feet long and is open to the public 24 hours a day for fishing.  The pier house contains a fully stocked tackle shop and restaurant. The restaurant is open for breakfast and lunch and outdoor dining and live music on the pier are also offered in the evenings.
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.582247</longitude>
+            <latitude>35.885208</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#orange_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.582247,35.885208,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Public Beach and Sound Access</name>
+        <Placemark>
+          <name>8th Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/8/1/588981_s.jpg" style="height: 162px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/8/2/588982_s.jpg" style="height: 194px; width: 239px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.644839</longitude>
+            <latitude>35.994449</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.644839,35.994449,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Abalone Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/7/7/588977_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/7/8/588978_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.64029</longitude>
+            <latitude>35.986966</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.64029,35.986966,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Admiral Street beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/7/5/588975_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.639389</longitude>
+            <latitude>35.985316</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.639389,35.985316,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Albatross Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/8/0/588980_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.64383</longitude>
+            <latitude>35.992903</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.64383,35.992903,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Bainbridge Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/5/588965_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/6/588966_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.63219</longitude>
+            <latitude>35.973595</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.63219,35.973595,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Baltic Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/7/3/588973_s.jpg" style="height: 151px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/7/4/588974_s.jpg" style="height: 320px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.63867</longitude>
+            <latitude>35.983632</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.63867,35.983632,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Barnes Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/7/2/588972_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.637296</longitude>
+            <latitude>35.9822</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.637296,35.9822,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Bittern Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/8/588968_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.634872</longitude>
+            <latitude>35.977815</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.634872,35.977815,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Blackman Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/7/1/588971_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.636857</longitude>
+            <latitude>35.980984</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.636857,35.980984,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Bladen Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/7/588967_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.634078</longitude>
+            <latitude>35.976157</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.634078,35.976157,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Bonnett Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+Restroom and shower facilties on site
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/9/588969_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/7/0/588970_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.635945</longitude>
+            <latitude>35.979369</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.635945,35.979369,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Catfish Farm Sound Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.600893</longitude>
+            <latitude>35.908327</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.600893,35.908327,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Causeway Estuarine Area Sound Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.604563</longitude>
+            <latitude>35.903008</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.604563,35.903008,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Conch Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/2/588962_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/3/588963_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.627501</longitude>
+            <latitude>35.965208</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.627501,35.965208,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Curlew Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.631256</longitude>
+            <latitude>35.970765</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.631256,35.970765,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Danube Street Sound Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.626879</longitude>
+            <latitude>35.943287</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.626879,35.943287,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Dowitcher Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.617244</longitude>
+            <latitude>35.94604</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.617244,35.94604,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Ehman Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/1/3/589013_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.565853</longitude>
+            <latitude>35.850918</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.565853,35.850918,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Enterprise Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/0/588960_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.615141</longitude>
+            <latitude>35.94287</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.615141,35.94287,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Epstein Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/6/588956_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/7/588957_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.611612</longitude>
+            <latitude>35.936242</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.611612,35.936242,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Forrest Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/3/588953_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.604616</longitude>
+            <latitude>35.923263</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.604616,35.923263,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Gallery Row Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/7/9/588979_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.64162</longitude>
+            <latitude>35.989605</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.64162,35.989605,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Glidden Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/4/9/588949_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/0/588950_s.jpg" style="height: 221px; width: 239px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.600078</longitude>
+            <latitude>35.915539</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.600078,35.915539,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Governor Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/9/6/588996_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.594714</longitude>
+            <latitude>35.905919</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.594714,35.905919,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Gray Eagle Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/4/6/588946_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.597782</longitude>
+            <latitude>35.911246</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.597782,35.911246,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Grouse Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/1/588951_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/2/588952_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.60143</longitude>
+            <latitude>35.917537</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.60143,35.917537,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Gulfstream Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/4/5/588945_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.595851</longitude>
+            <latitude>35.908718</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.595851,35.908718,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Gull Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/4/7/588947_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/4/8/588948_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.598994</longitude>
+            <latitude>35.913384</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.598994,35.913384,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Hargrove Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/0/0/589000_s.jpg" style="height: 152px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.591087</longitude>
+            <latitude>35.898663</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.591087,35.898663,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Holden Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/9/8/588998_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.592117</longitude>
+            <latitude>35.900818</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.592117,35.900818,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Hollowell Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/4/588964_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.629464</longitude>
+            <latitude>35.967969</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.629464,35.967969,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Huron Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/9/7/588997_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.593534</longitude>
+            <latitude>35.903782</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.593534,35.903782,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Ida Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/0/1/589001_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.584435</longitude>
+            <latitude>35.887147</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.584435,35.887147,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Indigo Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/0/6/589006_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.57979</longitude>
+            <latitude>35.878949</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.57979,35.878949,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Isabella Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/0/3/589003_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.582976</longitude>
+            <latitude>35.885078</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.582976,35.885078,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Islington Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/0/5/589005_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.582075</longitude>
+            <latitude>35.882983</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.582075,35.882983,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Jacob Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/1/0/589010_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.576046</longitude>
+            <latitude>35.871838</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.576046,35.871838,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>James Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/0/9/589009_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.576797</longitude>
+            <latitude>35.874038</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.576797,35.874038,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Jay Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/0/7/589007_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.578524</longitude>
+            <latitude>35.876706</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.578524,35.876706,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Jockey's Ridge Sound Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/8/8/588988_s.jpg" style="height: 108px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.631921</longitude>
+            <latitude>35.951903</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.631921,35.951903,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Juncos Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/1/1/589011_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.575016</longitude>
+            <latitude>35.869586</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.575016,35.869586,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>June Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/0/8/589008_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.578223</longitude>
+            <latitude>35.876115</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.578223,35.876115,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Limulis Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.570016</longitude>
+            <latitude>35.861579</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.570016,35.861579,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Little Bridge Sound Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/9/5/588995_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.615914</longitude>
+            <latitude>35.897898</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.615914,35.897898,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Loggerhead Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/8/588958_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/9/588959_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.614734</longitude>
+            <latitude>35.941515</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.614734,35.941515,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>McCall Court Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+McCall Court Beach Access
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.564051</longitude>
+            <latitude>35.848318</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.564051,35.848318,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Municipal Building Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/4/588954_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/5/5/588955_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.610968</longitude>
+            <latitude>35.934644</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.610968,35.934644,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>National Park Service</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/9/0/1/4/589014_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.564308</longitude>
+            <latitude>35.846622</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.564308,35.846622,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Old Road Sound Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.610399</longitude>
+            <latitude>35.920213</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.610399,35.920213,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Small Street Beach Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/6/1/588961_s.jpg" style="height: 159px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.617416</longitude>
+            <latitude>35.946701</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.617416,35.946701,0</coordinates>
+          </Point>
+        </Placemark>
+        <Placemark>
+          <name>Harvey Sound Access</name>
+          <Snippet/>
+          <description>
+&lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+
+&lt;br/&gt;
+The Harvey sound access is located near Grouse Street.  It consists of approximately one and one-half acres.  The site boasts a large pavilion with restrooms and approximately one-half acre of open space for activities.  
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/9/2/588992_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+  &lt;table width="240"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;
+    &lt;br/&gt;
+    &lt;hr/&gt;
+    &lt;br/&gt;
+    &lt;b&gt;&lt;/b&gt;
+    &lt;br/&gt;
+    &lt;img alt="" src="http://communitywalk.s3.amazonaws.com/photos/5/8/8/9/9/1/588991_s.jpg" style="height: 180px; width: 240px;" /&gt;
+    &lt;br/&gt;
+    
+  &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+
+
+
+</description>
+          <LookAt>
+            <longitude>-75.605228</longitude>
+            <latitude>35.915065</latitude>
+            <range>175</range>
+          </LookAt>
+          <styleUrl>#blue_CWStyleMap</styleUrl>
+          <Point>
+            <coordinates>-75.605228,35.915065,0</coordinates>
+          </Point>
+        </Placemark>
+      </Folder>
+      <Placemark>
+        <name>Beach Road multi-use path</name>
+        <Style>
+          <LineStyle>
+            <color>7f0000CC</color>
+            <width>4</width>
+          </LineStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>1</scale>
+          </LabelStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-75.645332,35.994153,0 -75.644624,35.993025,0 -75.642993,35.990195,0 -75.640869,35.986723,0 -75.637286,35.980715,0 -75.634625,35.976218,0 -75.63308,35.973387,0 -75.629947,35.967778,0 -75.627716,35.963922,0 -75.625076,35.959111,0 -75.623102,35.955655,0 -75.621128,35.952042,0 -75.618124,35.946622,0 -75.614026,35.939378,0 -75.60982,35.931838,0 -75.609198,35.930691,0 -75.609198,35.930309,0 -75.609262,35.92977,0 -75.609498,35.929266,0 -75.609541,35.928676,0 -75.609305,35.927998,0 -75.608768,35.927147,0 -75.608425,35.926434,0 -75.608146,35.925948,0 -75.607867,35.925461,0 -75.607417,35.924888,0 -75.606515,35.924419,0 -75.605764,35.924088,0 -75.605164,35.923515,0 -75.604305,35.921969,0 -75.603554,35.920648,0 -75.6007,35.915713,0 -75.599134,35.912863,0 -75.59731,35.909196,0 -75.597095,35.909074,0 -75.596752,35.90817,0 -75.596173,35.907145,0 -75.591173,35.89682,0 -75.590122,35.894543,0 -75.58892,35.892735,0 -75.586946,35.889728,0 -75.584714,35.88639,0 -75.581925,35.881105,0 -75.578814,35.875194,0 -75.575037,35.867508,0 -75.573471,35.864222,0 -75.569823,35.856761,0 -75.567355,35.851648,0 -75.566046,35.848726,0 -75.565016,35.846343,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>West side multi-use path</name>
+        <Style>
+          <LineStyle>
+            <color>7fFF0000</color>
+            <width>4</width>
+          </LineStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>1</scale>
+          </LabelStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-75.648615,35.99293,0</coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>US 158 Multi-Use Path</name>
+        <Style>
+          <LineStyle>
+            <color>7fFF0000</color>
+            <width>4</width>
+          </LineStyle>
+          <LabelStyle>
+            <color>ffffffff</color>
+            <scale>1</scale>
+          </LabelStyle>
+        </Style>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>-75.648551,35.992747,0 -75.645289,35.986601,0 -75.641921,35.979552,0 -75.639582,35.974481,0 -75.639088,35.973691,0 -75.638208,35.972475,0 -75.637178,35.971295,0 -75.63632,35.970444,0</coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

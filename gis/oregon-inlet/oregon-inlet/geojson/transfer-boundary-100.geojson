@@ -1,0 +1,191 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.788673, "Long": -75.533233 }, "geometry": { "type": "Point", "coordinates": [ -75.533233, 35.788673, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 2, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.780996, "Long": -75.529535 }, "geometry": { "type": "Point", "coordinates": [ -75.529535, 35.780996, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 3, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.781785, "Long": -75.525134 }, "geometry": { "type": "Point", "coordinates": [ -75.525134, 35.781785, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 4, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.781414, "Long": -75.523340 }, "geometry": { "type": "Point", "coordinates": [ -75.523340, 35.781414, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 5, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.778874, "Long": -75.520252 }, "geometry": { "type": "Point", "coordinates": [ -75.520252, 35.778874, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 6, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.778574, "Long": -75.519697 }, "geometry": { "type": "Point", "coordinates": [ -75.519697, 35.778574, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 7, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.777813, "Long": -75.519009 }, "geometry": { "type": "Point", "coordinates": [ -75.519009, 35.777813, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 8, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.777349, "Long": -75.518843 }, "geometry": { "type": "Point", "coordinates": [ -75.518843, 35.777349, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 9, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.771100, "Long": -75.516416 }, "geometry": { "type": "Point", "coordinates": [ -75.516416, 35.771100, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 10, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.766336, "Long": -75.513565 }, "geometry": { "type": "Point", "coordinates": [ -75.513565, 35.766336, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 11, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.761163, "Long": -75.510365 }, "geometry": { "type": "Point", "coordinates": [ -75.510365, 35.761163, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 12, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.757515, "Long": -75.508012 }, "geometry": { "type": "Point", "coordinates": [ -75.508012, 35.757515, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 13, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.756087, "Long": -75.512285 }, "geometry": { "type": "Point", "coordinates": [ -75.512285, 35.756087, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 14, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.757775, "Long": -75.513799 }, "geometry": { "type": "Point", "coordinates": [ -75.513799, 35.757775, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 15, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.758606, "Long": -75.514515 }, "geometry": { "type": "Point", "coordinates": [ -75.514515, 35.758606, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 16, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.759605, "Long": -75.515403 }, "geometry": { "type": "Point", "coordinates": [ -75.515403, 35.759605, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 17, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.761000, "Long": -75.516655 }, "geometry": { "type": "Point", "coordinates": [ -75.516655, 35.761000, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 18, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.761174, "Long": -75.516810 }, "geometry": { "type": "Point", "coordinates": [ -75.516810, 35.761174, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 19, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.762125, "Long": -75.517678 }, "geometry": { "type": "Point", "coordinates": [ -75.517678, 35.762125, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 20, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.762876, "Long": -75.518362 }, "geometry": { "type": "Point", "coordinates": [ -75.518362, 35.762876, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 21, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763168, "Long": -75.518628 }, "geometry": { "type": "Point", "coordinates": [ -75.518628, 35.763168, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 22, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763815, "Long": -75.519218 }, "geometry": { "type": "Point", "coordinates": [ -75.519218, 35.763815, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 23, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.764151, "Long": -75.519557 }, "geometry": { "type": "Point", "coordinates": [ -75.519557, 35.764151, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 24, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.764455, "Long": -75.519951 }, "geometry": { "type": "Point", "coordinates": [ -75.519951, 35.764455, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 25, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.764858, "Long": -75.520590 }, "geometry": { "type": "Point", "coordinates": [ -75.520590, 35.764858, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 26, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765056, "Long": -75.520947 }, "geometry": { "type": "Point", "coordinates": [ -75.520947, 35.765056, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 27, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765282, "Long": -75.521422 }, "geometry": { "type": "Point", "coordinates": [ -75.521422, 35.765282, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 28, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765485, "Long": -75.521990 }, "geometry": { "type": "Point", "coordinates": [ -75.521990, 35.765485, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 29, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765566, "Long": -75.523413 }, "geometry": { "type": "Point", "coordinates": [ -75.523413, 35.765566, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 30, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765669, "Long": -75.525239 }, "geometry": { "type": "Point", "coordinates": [ -75.525239, 35.765669, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 31, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.764546, "Long": -75.529021 }, "geometry": { "type": "Point", "coordinates": [ -75.529021, 35.764546, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 32, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763571, "Long": -75.532462 }, "geometry": { "type": "Point", "coordinates": [ -75.532462, 35.763571, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 33, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763372, "Long": -75.533392 }, "geometry": { "type": "Point", "coordinates": [ -75.533392, 35.763372, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 34, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763334, "Long": -75.533648 }, "geometry": { "type": "Point", "coordinates": [ -75.533648, 35.763334, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 35, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763329, "Long": -75.533909 }, "geometry": { "type": "Point", "coordinates": [ -75.533909, 35.763329, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 36, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763358, "Long": -75.534587 }, "geometry": { "type": "Point", "coordinates": [ -75.534587, 35.763358, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 37, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763414, "Long": -75.534980 }, "geometry": { "type": "Point", "coordinates": [ -75.534980, 35.763414, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 38, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763545, "Long": -75.535350 }, "geometry": { "type": "Point", "coordinates": [ -75.535350, 35.763545, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 39, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763617, "Long": -75.535475 }, "geometry": { "type": "Point", "coordinates": [ -75.535475, 35.763617, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 40, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.763830, "Long": -75.535841 }, "geometry": { "type": "Point", "coordinates": [ -75.535841, 35.763830, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 41, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.764258, "Long": -75.536554 }, "geometry": { "type": "Point", "coordinates": [ -75.536554, 35.764258, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 42, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.764711, "Long": -75.537407 }, "geometry": { "type": "Point", "coordinates": [ -75.537407, 35.764711, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 43, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765022, "Long": -75.538754 }, "geometry": { "type": "Point", "coordinates": [ -75.538754, 35.765022, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 44, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765211, "Long": -75.540817 }, "geometry": { "type": "Point", "coordinates": [ -75.540817, 35.765211, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 45, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765234, "Long": -75.541947 }, "geometry": { "type": "Point", "coordinates": [ -75.541947, 35.765234, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 46, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765250, "Long": -75.542738 }, "geometry": { "type": "Point", "coordinates": [ -75.542738, 35.765250, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 47, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765268, "Long": -75.543539 }, "geometry": { "type": "Point", "coordinates": [ -75.543539, 35.765268, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 48, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765327, "Long": -75.543944 }, "geometry": { "type": "Point", "coordinates": [ -75.543944, 35.765327, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 49, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765413, "Long": -75.544285 }, "geometry": { "type": "Point", "coordinates": [ -75.544285, 35.765413, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 50, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765501, "Long": -75.544631 }, "geometry": { "type": "Point", "coordinates": [ -75.544631, 35.765501, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 51, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765770, "Long": -75.545342 }, "geometry": { "type": "Point", "coordinates": [ -75.545342, 35.765770, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 52, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.765972, "Long": -75.545790 }, "geometry": { "type": "Point", "coordinates": [ -75.545790, 35.765972, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 53, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.766321, "Long": -75.546206 }, "geometry": { "type": "Point", "coordinates": [ -75.546206, 35.766321, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 54, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.766552, "Long": -75.546359 }, "geometry": { "type": "Point", "coordinates": [ -75.546359, 35.766552, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 55, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.767257, "Long": -75.546600 }, "geometry": { "type": "Point", "coordinates": [ -75.546600, 35.767257, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 56, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.767640, "Long": -75.546705 }, "geometry": { "type": "Point", "coordinates": [ -75.546705, 35.767640, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 57, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.767958, "Long": -75.546707 }, "geometry": { "type": "Point", "coordinates": [ -75.546707, 35.767958, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 58, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.770778, "Long": -75.546299 }, "geometry": { "type": "Point", "coordinates": [ -75.546299, 35.770778, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 59, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.771159, "Long": -75.546249 }, "geometry": { "type": "Point", "coordinates": [ -75.546249, 35.771159, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 60, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.771482, "Long": -75.546197 }, "geometry": { "type": "Point", "coordinates": [ -75.546197, 35.771482, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 61, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.772345, "Long": -75.546058 }, "geometry": { "type": "Point", "coordinates": [ -75.546058, 35.772345, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 62, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.773775, "Long": -75.545827 }, "geometry": { "type": "Point", "coordinates": [ -75.545827, 35.773775, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 63, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.774693, "Long": -75.545669 }, "geometry": { "type": "Point", "coordinates": [ -75.545669, 35.774693, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 64, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.775902, "Long": -75.545312 }, "geometry": { "type": "Point", "coordinates": [ -75.545312, 35.775902, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 65, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.776735, "Long": -75.545713 }, "geometry": { "type": "Point", "coordinates": [ -75.545713, 35.776735, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 66, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.777116, "Long": -75.545823 }, "geometry": { "type": "Point", "coordinates": [ -75.545823, 35.777116, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 67, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.777430, "Long": -75.545813 }, "geometry": { "type": "Point", "coordinates": [ -75.545813, 35.777430, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 68, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.777716, "Long": -75.545724 }, "geometry": { "type": "Point", "coordinates": [ -75.545724, 35.777716, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 69, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.777915, "Long": -75.545594 }, "geometry": { "type": "Point", "coordinates": [ -75.545594, 35.777915, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 70, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.778109, "Long": -75.545469 }, "geometry": { "type": "Point", "coordinates": [ -75.545469, 35.778109, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 71, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.779048, "Long": -75.544782 }, "geometry": { "type": "Point", "coordinates": [ -75.544782, 35.779048, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 72, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.779124, "Long": -75.544868 }, "geometry": { "type": "Point", "coordinates": [ -75.544868, 35.779124, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 73, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.779814, "Long": -75.545349 }, "geometry": { "type": "Point", "coordinates": [ -75.545349, 35.779814, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 74, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.780430, "Long": -75.545674 }, "geometry": { "type": "Point", "coordinates": [ -75.545674, 35.780430, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 75, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.781358, "Long": -75.546000 }, "geometry": { "type": "Point", "coordinates": [ -75.546000, 35.781358, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 76, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.781756, "Long": -75.546065 }, "geometry": { "type": "Point", "coordinates": [ -75.546065, 35.781756, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 77, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.782212, "Long": -75.546128 }, "geometry": { "type": "Point", "coordinates": [ -75.546128, 35.782212, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 78, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.782797, "Long": -75.546363 }, "geometry": { "type": "Point", "coordinates": [ -75.546363, 35.782797, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 79, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.783789, "Long": -75.546683 }, "geometry": { "type": "Point", "coordinates": [ -75.546683, 35.783789, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 80, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.787669, "Long": -75.547096 }, "geometry": { "type": "Point", "coordinates": [ -75.547096, 35.787669, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 81, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.790821, "Long": -75.546912 }, "geometry": { "type": "Point", "coordinates": [ -75.546912, 35.790821, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 82, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.798206, "Long": -75.546659 }, "geometry": { "type": "Point", "coordinates": [ -75.546659, 35.798206, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 83, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.798593, "Long": -75.542496 }, "geometry": { "type": "Point", "coordinates": [ -75.542496, 35.798593, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 84, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.800461, "Long": -75.538776 }, "geometry": { "type": "Point", "coordinates": [ -75.538776, 35.800461, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 85, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.794085, "Long": -75.532528 }, "geometry": { "type": "Point", "coordinates": [ -75.532528, 35.794085, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 86, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.792488, "Long": -75.531838 }, "geometry": { "type": "Point", "coordinates": [ -75.531838, 35.792488, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 87, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.791511, "Long": -75.531971 }, "geometry": { "type": "Point", "coordinates": [ -75.531971, 35.791511, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 88, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.788673, "Long": -75.533233 }, "geometry": { "type": "Point", "coordinates": [ -75.533233, 35.788673, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 89, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.768868, "Long": -75.525367 }, "geometry": { "type": "Point", "coordinates": [ -75.525367, 35.768868, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 90, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.767246, "Long": -75.524381 }, "geometry": { "type": "Point", "coordinates": [ -75.524381, 35.767246, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 91, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.768056, "Long": -75.522404 }, "geometry": { "type": "Point", "coordinates": [ -75.522404, 35.768056, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 92, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.769666, "Long": -75.523393 }, "geometry": { "type": "Point", "coordinates": [ -75.523393, 35.769666, 0.000000 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 93, "acre": 2912.397833, "ORIG_FID": 1, "Lat": 35.768868, "Long": -75.525367 }, "geometry": { "type": "Point", "coordinates": [ -75.525367, 35.768868, 0.000000 ] } }
+
+]
+}

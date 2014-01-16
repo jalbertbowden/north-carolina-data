@@ -1,0 +1,125 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.814038, "Long": -75.569210 }, "geometry": { "type": "Point", "coordinates": [ 3016963.181045, 768781.194457 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 2, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.810240, "Long": -75.573083 }, "geometry": { "type": "Point", "coordinates": [ 3015863.293844, 767360.156061 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 3, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.800599, "Long": -75.580949 }, "geometry": { "type": "Point", "coordinates": [ 3013653.241276, 763772.315950 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 4, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.801487, "Long": -75.582071 }, "geometry": { "type": "Point", "coordinates": [ 3013309.423783, 764083.797902 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 5, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.810272, "Long": -75.589817 }, "geometry": { "type": "Point", "coordinates": [ 3010904.018640, 767200.947473 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 6, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.814896, "Long": -75.578334 }, "geometry": { "type": "Point", "coordinates": [ 3014248.737206, 769000.173994 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 7, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.817573, "Long": -75.573494 }, "geometry": { "type": "Point", "coordinates": [ 3015649.426991, 770023.327295 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 8, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.817014, "Long": -75.573076 }, "geometry": { "type": "Point", "coordinates": [ 3015780.061163, 769824.149642 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 9, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.814883, "Long": -75.571470 }, "geometry": { "type": "Point", "coordinates": [ 3016282.888624, 769065.501388 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 10, "GiveTake": "Option Meeting", "Acres": 377.225045, "AreaSqFt": 11180053.342000, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 1, "Lat": 35.814038, "Long": -75.569210 }, "geometry": { "type": "Point", "coordinates": [ 3016963.181045, 768781.194457 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 11, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.847947, "Long": -75.593370 }, "geometry": { "type": "Point", "coordinates": [ 3009380.802420, 780870.422327 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 12, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.844150, "Long": -75.590723 }, "geometry": { "type": "Point", "coordinates": [ 3010212.359908, 779515.953299 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 13, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.829257, "Long": -75.571797 }, "geometry": { "type": "Point", "coordinates": [ 3016005.285659, 774291.326281 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 14, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.823595, "Long": -75.577537 }, "geometry": { "type": "Point", "coordinates": [ 3014375.738065, 772172.880059 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 15, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.841011, "Long": -75.587633 }, "geometry": { "type": "Point", "coordinates": [ 3011166.910711, 778405.318965 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 16, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.841846, "Long": -75.588537 }, "geometry": { "type": "Point", "coordinates": [ 3010888.691081, 778700.145446 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 17, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.839506, "Long": -75.591619 }, "geometry": { "type": "Point", "coordinates": [ 3010005.015426, 777817.367565 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 18, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.834998, "Long": -75.600308 }, "geometry": { "type": "Point", "coordinates": [ 3007487.410584, 776088.924941 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 19, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.834262, "Long": -75.602156 }, "geometry": { "type": "Point", "coordinates": [ 3006948.985022, 775802.465237 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 20, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.841252, "Long": -75.606321 }, "geometry": { "type": "Point", "coordinates": [ 3005628.389273, 778303.348690 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 21, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.845992, "Long": -75.606741 }, "geometry": { "type": "Point", "coordinates": [ 3005444.831186, 780023.309056 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 22, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.848038, "Long": -75.606278 }, "geometry": { "type": "Point", "coordinates": [ 3005556.427647, 780772.232939 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 23, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.848447, "Long": -75.605185 }, "geometry": { "type": "Point", "coordinates": [ 3005875.262173, 780932.158159 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 24, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.846832, "Long": -75.595804 }, "geometry": { "type": "Point", "coordinates": [ 3008673.755435, 780440.041842 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 25, "GiveTake": "Option Meeting", "Acres": 617.741861, "AreaSqFt": 22673340.563600, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 2, "Lat": 35.847947, "Long": -75.593370 }, "geometry": { "type": "Point", "coordinates": [ 3009380.802420, 780870.422327 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 26, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.765271, "Long": -75.527577 }, "geometry": { "type": "Point", "coordinates": [ 3029919.841743, 751470.381842 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 27, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.764649, "Long": -75.527217 }, "geometry": { "type": "Point", "coordinates": [ 3030034.536671, 751247.619971 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 28, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.764160, "Long": -75.526438 }, "geometry": { "type": "Point", "coordinates": [ 3030271.572236, 751077.872685 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 29, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.763621, "Long": -75.524826 }, "geometry": { "type": "Point", "coordinates": [ 3030756.287301, 750898.588882 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 30, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.763607, "Long": -75.524784 }, "geometry": { "type": "Point", "coordinates": [ 3030769.091679, 750893.852868 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 31, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.763099, "Long": -75.523755 }, "geometry": { "type": "Point", "coordinates": [ 3031080.551209, 750720.027716 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 32, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.762503, "Long": -75.523468 }, "geometry": { "type": "Point", "coordinates": [ 3031173.326734, 750505.931601 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 33, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.761722, "Long": -75.523756 }, "geometry": { "type": "Point", "coordinates": [ 3031097.883884, 750218.940431 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 34, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.760216, "Long": -75.525083 }, "geometry": { "type": "Point", "coordinates": [ 3030723.726287, 749657.191689 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 35, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.758986, "Long": -75.525218 }, "geometry": { "type": "Point", "coordinates": [ 3030699.142131, 749208.513324 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 36, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.757900, "Long": -75.525338 }, "geometry": { "type": "Point", "coordinates": [ 3030677.416930, 748812.008260 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 37, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.757280, "Long": -75.525390 }, "geometry": { "type": "Point", "coordinates": [ 3030669.976929, 748586.251588 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 38, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.755786, "Long": -75.525244 }, "geometry": { "type": "Point", "coordinates": [ 3030732.395529, 748044.332820 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 39, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.754636, "Long": -75.524690 }, "geometry": { "type": "Point", "coordinates": [ 3030911.319757, 747631.433170 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 40, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.753567, "Long": -75.523572 }, "geometry": { "type": "Point", "coordinates": [ 3031256.423426, 747254.216593 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 41, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.752735, "Long": -75.522327 }, "geometry": { "type": "Point", "coordinates": [ 3031636.190122, 746964.677628 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 42, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.751759, "Long": -75.521073 }, "geometry": { "type": "Point", "coordinates": [ 3032020.544708, 746622.634100 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 43, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.751353, "Long": -75.518343 }, "geometry": { "type": "Point", "coordinates": [ 3032835.130456, 746503.353606 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 44, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.751348, "Long": -75.517436 }, "geometry": { "type": "Point", "coordinates": [ 3033104.280090, 746511.000476 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 45, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.749294, "Long": -75.518016 }, "geometry": { "type": "Point", "coordinates": [ 3032958.492302, 745757.585047 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 46, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.748524, "Long": -75.518731 }, "geometry": { "type": "Point", "coordinates": [ 3032756.120925, 745470.083852 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 47, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.747293, "Long": -75.519044 }, "geometry": { "type": "Point", "coordinates": [ 3032679.149165, 745018.952173 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 48, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.745722, "Long": -75.519495 }, "geometry": { "type": "Point", "coordinates": [ 3032565.475446, 744442.930899 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 49, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.744527, "Long": -75.520308 }, "geometry": { "type": "Point", "coordinates": [ 3032339.655756, 743999.954952 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 50, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.743063, "Long": -75.519965 }, "geometry": { "type": "Point", "coordinates": [ 3032459.958622, 743470.831464 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 51, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.742135, "Long": -75.519957 }, "geometry": { "type": "Point", "coordinates": [ 3032474.056034, 743133.252799 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 52, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.760556, "Long": -75.531025 }, "geometry": { "type": "Point", "coordinates": [ 3028957.475071, 749719.182184 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 53, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.764726, "Long": -75.534398 }, "geometry": { "type": "Point", "coordinates": [ 3027904.304903, 751201.213230 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 54, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.764701, "Long": -75.533820 }, "geometry": { "type": "Point", "coordinates": [ 3028076.065270, 751198.169742 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 55, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.764900, "Long": -75.532890 }, "geometry": { "type": "Point", "coordinates": [ 3028349.292770, 751280.240577 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 56, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.765361, "Long": -75.531272 }, "geometry": { "type": "Point", "coordinates": [ 3028823.163815, 751464.557710 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 57, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.766094, "Long": -75.528697 }, "geometry": { "type": "Point", "coordinates": [ 3029577.287030, 751757.881874 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 58, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.765985, "Long": -75.527498 }, "geometry": { "type": "Point", "coordinates": [ 3029934.114275, 751730.865719 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 59, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.765325, "Long": -75.527571 }, "geometry": { "type": "Point", "coordinates": [ 3029920.917143, 751490.008661 ] } }
+,
+{ "type": "Feature", "properties": { "OBJECTID": 60, "GiveTake": "Option Meeting", "Acres": 270.712391, "AreaSqFt": 11792231.769200, "County": "Dare", "Name": "Meeting Polygon", "Owner": "North Carolina", "PIN": 0.000000, "ORIG_FID": 3, "Lat": 35.765271, "Long": -75.527577 }, "geometry": { "type": "Point", "coordinates": [ 3029919.841743, 751470.381842 ] } }
+
+]
+}

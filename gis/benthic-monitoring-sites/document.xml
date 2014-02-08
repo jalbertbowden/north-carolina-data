@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>NC DENR Division of Water Quality, Envrionmental Sciences Branch</origin>
+<pubdate>20030429</pubdate>
+<title>Benthic Monitoring Sites</title>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Raleigh, North Carolina</pubplace>
+<publish>NC DENR Clean Water Management Trust Fund</publish>
+</pubinfo>
+<othercit>NCCGIA distributes this dataset</othercit>
+<onlink>www.nconemap.com</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>The North Carolina Department of Environment and Natural Resources, Division of Water Quality, with funding from the NC Clean Water Management Trust Fund and in cooperation with the NC Center for Geographic Information and Analysis, developed the digital benthic monitoring data to enhance water quality assessment &amp; plan review of Trust Fund project applications. This file identifies points where benthic macroinvertebrate monitoring has occurred. This file enables users to review the current rating of water quality for each sampling site based on the monitoring results.</abstract>
+<purpose>These data were created to assist governmental agencies and others in making resource management decisions through use of a Geographic Information System (GIS).</purpose>
+<supplinf>
+system filename : bmr
+approx file size = 0.34 mb
+
+Revisions and updates to this layer include:
+2) filename: bmr900  CGIA received from DWQ an excel spreadsheet with a list of benthic monitoring sites through November 15, 2000.  This spreadsheet contained many latitude and longitude corrections from the original layer released by CGIA.  This version includes two additional attributes:  basinsite, which indicates whether a site is part of a routine sampling schedule, and sample type.
+1) filename: bmr600  The June 15, 2000 version was the
+first version released to the database.
+Original was data received and processed September 1998.
+Corrections to lat/longs were made in October 1998.
+Minor latitude attribute correction was made June 2000.
+(The coverage's projection was also defined.)
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>19980930</begdate>
+<enddate>20021115</enddate>
+</rngdates>
+</timeinfo>
+<current>Data collection dates</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-84.364992</westbc>
+<eastbc>-76.106074</eastbc>
+<northbc>36.589509</northbc>
+<southbc>33.832316</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>environment</themekey>
+</theme>
+<theme>
+<themekt>None</themekt>
+<themekey>benthic</themekey>
+<themekey>rating</themekey>
+<themekey>monitoring</themekey>
+<themekey>water quality</themekey>
+<themekey>bioclassification</themekey>
+<themekey>basin</themekey>
+<themekey>sub-basin</themekey>
+</theme>
+<place>
+<placekt>William S. Powell, The North Carolina GAZETTEER, A Dictionary of Tar Heel Places, (Chapel Hill: University of North Carolina Press), August 1984.</placekt>
+<placekey>North Carolina</placekey>
+</place>
+</keywords>
+<accconst>None</accconst>
+<useconst>Acknowledgement of products derived from this data set should cite the following: The source of the benthic monitoring data is the North Carolina Corporate Geographic Database. Earlier versions of this dataset may exist. The user must be sure to use the appropriate data set for the time period of interest. While efforts have been made to ensure that these data are accurate and reliable within the state of the art, CGIA cannot assume liability for any damages or misrepresentation caused by any inaccuracies in the data or as a result of changes to the data caused by system transfers.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Mark Hale</cntper>
+<cntorg>NC DENR Division of Water Quality</cntorg>
+</cntperp>
+<cntaddr>
+<addrtype>mailing address</addrtype>
+<address>1621 Mail Service Center</address>
+<city>Raleigh</city>
+<state>NC</state>
+<postal>27699-1621</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>(919) 733-6946</cntvoice>
+<cntemail>mark.hale@ncmail.net</cntemail>
+<hours>8am to 5pm</hours>
+<cntinst>Preferred contact is by e-mail or telephone</cntinst>
+</cntinfo>
+</ptcontac>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>The NC DENR-DWQ maintained the biological records in a 4D database with no geographic reference. The database includes attributes for river basin, subbasin, site description, collection date and water quality rating. The water quality ratings are assigned based on an analysis of field samplings using standard methodologies. The database was converted to an EXCEL spreadsheet for conversion to a GIS coverage. The digital file is updated as changes occur.</attraccr>
+</attracc>
+<logic>Using ESRI's ARC/INFO GIS software, the dataset was built for point topology using the "build" command. Topology has not been edited since the last "build" or "clean."</logic>
+<complete>These data represent the locations and results of the benthic macroinvertebrate sampling conducted and documented by the NCDWQ. Each point has an associated water quality rating based on the sampling results.</complete>
+<posacc>
+<horizpa>
+<horizpar>The NC DENR-DWQ maintained the biological data in a 4D database with no geographic reference. The monitoring points were manually mapped onto 24k USGS paper topographic maps which meet National Map Accuracy Standards, using a best estimate with reference to surrounding features. Latitudes and longitudes were generated using a grid overlay.  Points were checked for accuracy against NC Corporate GIS Data layers. In 1998 "TopoScout" software was purchased. The software generates lat/longs for the location of the cursor. DWQ will continue to refine the georeferencing of the sampling sites. DWQ converted the 4D data into an EXCEL spreadsheet for conversion to a GIS coverage. NCCGIA converted this dataset to a GIS coverage using ESRI's ARC/INFO software on UNIX. The digital file is updated as changes occur.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>NC DENR - Div. of Water Quality, Biological Assessment Unit</origin>
+<pubdate>200012</pubdate>
+<title>Benthic monitoring results</title>
+<geoform>Spreadsheet</geoform>
+<pubinfo>
+<pubplace>Raleigh, North Carolina</pubplace>
+<publish>NC DENR - Div. of Water Quality, Biological Assessment Unit</publish>
+</pubinfo>
+<othercit>layer developed by CGIA in collaboration with DWQ.</othercit>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>Digital</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>19820928</begdate>
+<enddate>200009</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Original release date</srccurr>
+</srctime>
+<srccitea>None</srccitea>
+<srccontr>spreadsheet with monitoring locations, identification numbers and water quality ratings</srccontr>
+</srcinfo>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>NC Center for Geographic Information and Analysis</origin>
+<pubdate>200012</pubdate>
+<title>Benthic monitoring results</title>
+<geoform>Map</geoform>
+<pubinfo>
+<pubplace>Raleigh, North Carolina</pubplace>
+<publish>NC Center for Geographic Information and Analysis</publish>
+</pubinfo>
+<othercit>CGIA distributes the data</othercit>
+</citeinfo>
+</srccite>
+<srcscale>24000</srcscale>
+<typesrc>Digital</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>19820928</begdate>
+<enddate>200011</enddate>
+</rngdates>
+</timeinfo>
+<srccurr>Original release and last revision date</srccurr>
+</srctime>
+<srccitea>None</srccitea>
+<srccontr>Creation of digital coverage, and file updates.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>The NC DENR-DWQ mapped the monitoring points onto 24k USGS paper topographic maps. DWQ entered the sampling data into a 4D database and geographically referenced the data by latitude &amp; longitude. DWQ converted the data to EXCEL spreadsheet. DWQ supplies CGIA with updates as they occur.</procdesc>
+<procdate>19980930</procdate>
+</procstep>
+<procstep>
+<procdesc>NCCGIA coverted the spreadsheet information to a digital coverage using ESRI's ARC/INFO GIS software on UNIX, Sun Sparc workstations. Points falling outside the state boundaries were referenced and DWQ contacted for corrected latitudes &amp; longitudes. CGIA updates the digital file as needed.</procdesc>
+<procdate>19980930</procdate>
+</procstep>
+<procstep>
+<procdesc>DWQ updated a shapefile and its associated ratings data and furnished it to CGIA.  CGIA checked the quality and edited the metadata.</procdesc>
+<procdate>20050315</procdate>
+<proccont>
+<cntinfo>
+<cntorgp>
+<cntorg>CGIA</cntorg>
+<cntper>Jeffrey Brown</cntper>
+</cntorgp>
+<cntpos>Project Manager</cntpos>
+<cntaddr>
+<addrtype>Physical</addrtype>
+<address>333 E. Six Forks Rd.</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27609</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing</addrtype>
+<address>20322 Mail Service Center</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27699</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>919-754-6580</cntvoice>
+<cntfax>919-715-8551</cntfax>
+<cntemail>dataq@its.nc.gov</cntemail>
+<hours>8am to 5pm</hours>
+<cntinst>Phone and electronic mail preferred</cntinst>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<indspref>County name, River basin name, sub-basin #, Card number, Lat/long</indspref>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>Entity point</sdtstype>
+<ptvctcnt>4818</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<gridsys>
+<gridsysn>State Plane Coordinate System 1983</gridsysn>
+<spcs>
+<spcszone>3200</spcszone>
+<lambertc>
+<stdparll>34.333333</stdparll>
+<stdparll>36.166667</stdparll>
+<longcm>-79.000000</longcm>
+<latprjo>33.750000</latprjo>
+<feast>609601.220000</feast>
+<fnorth>0.000000</fnorth>
+</lambertc>
+</spcs>
+</gridsys>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.002048</absres>
+<ordres>0.002048</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>Benthic Monitoring Sites</enttypl>
+<enttypd>Water quality ratings for specific sampling locations.</enttypd>
+<enttypds>NC DENR- Div. of Water Quality, Biological Assessment Unit</enttypds>
+</enttyp>
+<attr>
+<attrlabl>BASINSITE</attrlabl>
+<attrdef>A yes or no indication of whether a site is sampled routinely as part of the Basinwide Assessment Program.  If no value is given, the user should assume "no"</attrdef>
+<attrdefs>NC DENR - Div. of Water Quality, Biological Assessment Unit</attrdefs>
+<attrdomv>
+<edom>
+<edomv>yes</edomv>
+<edomvd>routine sampling</edomvd>
+<edomvds>NC DENR - Div. of Water Quality, Biological Assessment Unit</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>no</edomv>
+<edomvd>sampling is not routine</edomvd>
+<edomvds>NC DENR - Div. of Water Quality, Biological Assessment Unit</edomvds>
+</edom>
+</attrdomv>
+<begdatea>2002</begdatea>
+<enddatea>2003</enddatea>
+<attrmfrq>None planned</attrmfrq>
+</attr>
+<attr>
+<attrlabl>DATE</attrlabl>
+<attrdef>Date of field sample</attrdef>
+<attrdefs>NC DENR - Div. of Water Quality, Biological Assessment Unit</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>0</rdommin>
+<rdommax>200211</rdommax>
+</rdom>
+</attrdomv>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>BIOCLASS</attrlabl>
+<attrdef>Water quality classification based on biological monitoring</attrdef>
+<attrdefs>NC DENR Div. of Water Quality, Biological Assessment Unit</attrdefs>
+<attrdomv>
+<edom>
+<edomv>Excellent</edomv>
+<edomvd>Waters with very diverse benthic macroinvertebrate populations, including many pollutant intolerant species.</edomvd>
+<edomvds>NC DENR - Div. of Water Quality, Biological Assessment Unit</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Good</edomv>
+<edomvd>Waters with healthy but less diverse benthic macroinvertebrate populations and fewer pollutant intolerant species.</edomvd>
+<edomvds>NC DENR - Div. of Water Quality, Biological Assessment Unit</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Good-Fair</edomv>
+<edomvd>Waters with average benthic macroinvertebrate populations, numbers &amp; diversity.</edomvd>
+<edomvds>NC DENR - Div. of Water Quality, Biological Assessment Unit</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Fair</edomv>
+<edomvd>Waters with below average diversity or abundance of benthic macroinvertebrate populations. Tolerate species begin to dominate community.</edomvd>
+<edomvds>NC DENR - Div. of Water Quality, Biological Assessment Unit</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Poor</edomv>
+<edomvd>Waters with very limited benthic macroinvertebrate populations, low diversity and/or abundance. Tolerant species are generally dominant.</edomvd>
+<edomvds>NC DENR - Div. of Water Quality, Biological Assessment Unit</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Not Rated</edomv>
+<edomvd>Locations that have been sampled, but not assigned a water quality rating</edomvd>
+<edomvds>NC DENR - Div. of Water Quality, Biological Assessment Unit</edomvds>
+</edom>
+</attrdomv>
+<attrmfrq>None planned</attrmfrq>
+</attr>
+<attr>
+<attrlabl>LOCATION</attrlabl>
+<attrdef>Site description (e.g., SR 1203) for sampling location</attrdef>
+<attrdefs>NC DENR - Div. of Water Quality</attrdefs>
+<attrdomv>
+<udom>Descriptions vary in length and number of words.</udom>
+</attrdomv>
+<attrmfrq>None planned</attrmfrq>
+</attr>
+<attr>
+<attrlabl>LATITUDE</attrlabl>
+<attrdef>Measurement of the angle from the Earth's center to a point on the Earth's surface measured in a north-south direction.</attrdef>
+<attrdefs>NC DENR - Div. of Water Quality, Biological Assessment Unit</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>335255</rdommin>
+<rdommax>363411</rdommax>
+</rdom>
+</attrdomv>
+<attrmfrq>None planned</attrmfrq>
+</attr>
+<attr>
+<attrlabl>COUNTY</attrlabl>
+<attrdef>County names</attrdef>
+<attrdefs>State of North Carolina</attrdefs>
+<attrdomv>
+<udom>County names vary in length.</udom>
+</attrdomv>
+<attrmfrq>None planned</attrmfrq>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>LONGITUDE</attrlabl>
+<attrdef>Measurement of the angle from the Earth's center to a point on the Earth's surface measured in a east-west direction.</attrdef>
+<attrdefs>NC DENR - Div. of Water Quality, Biological Assessment Unit</attrdefs>
+<attrdomv>
+<rdom>
+<rdommin>753235</rdommin>
+<rdommax>841650</rdommax>
+</rdom>
+</attrdomv>
+<attrmfrq>None planned</attrmfrq>
+</attr>
+<attr>
+<attrlabl>WATERBODY</attrlabl>
+<attrdef>Name of stream</attrdef>
+<attrdefs>NC DENR - Div. of Water Quality</attrdefs>
+<attrdomv>
+<udom>Stream names vary in length and number of words.</udom>
+</attrdomv>
+<attrmfrq>As needed</attrmfrq>
+</attr>
+<attr>
+<attrlabl>TOTAL_TAXA</attrlabl>
+<attrdef>not sure</attrdef>
+<attrdefs>CGIA</attrdefs>
+<attrdomv>
+<udom>values vary by location</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>TOT_INTOL_</attrlabl>
+<attrdef>not sure</attrdef>
+<attrdefs>CGIA</attrdefs>
+<attrdomv>
+<udom>values vary by location</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBBASIN_</attrlabl>
+<attrdef>Sub-basin name</attrdef>
+<attrdefs>CGIA</attrdefs>
+<attrdomv>
+<udom>names vary by sub-basin</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>BIOTIC_IND</attrlabl>
+<attrdef>not sure</attrdef>
+<attrdefs>CGIA</attrdefs>
+<attrdomv>
+<udom>values vary by location</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SAMPLE_TYP</attrlabl>
+<attrdef>Sample type</attrdef>
+<attrdefs>NC Division of Water Quality</attrdefs>
+<attrdomv>
+<edom>
+<edomv>boat</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>EPT</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Full Scale</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Qual 4</edomv>
+<edomvd>or QUAL 4; not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Qual 5</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>Swamp</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DD_LAT</attrlabl>
+<attrdef>Latitude in decimal degrees</attrdef>
+<attrdefs>CGIA</attrdefs>
+<attrdomv>
+<udom>values vary by location</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>ECOREGION</attrlabl>
+<attrdef>Ecological Region</attrdef>
+<attrdefs>CGIA</attrdefs>
+<attrdomv>
+<edom>
+<edomv>CPT</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>EPT</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>NCP</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>NMT</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>SCP</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>SHS</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>SMT</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+<attrdomv>
+<edom>
+<edomv>SPT</edomv>
+<edomvd>not sure</edomvd>
+<edomvds>CGIA</edomvds>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>OBJECTID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SUBBASIN_N</attrlabl>
+<attrdef>Sub-basin number</attrdef>
+<attrdefs>CGIA</attrdefs>
+<attrdomv>
+<udom>values vary by sub-basin</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+</detailed>
+<overview>
+<eaover>
+A point coverage depicting stream locations sampled by the Division of Water Quality, Biological Assessment Unit. Each point includes a description of its location by county,river basin, sub-basin, location, and stream name. A latitude and longitude has been designated to geographically reference each sampling point. Each point has been assigned a water quality rating or "bioclassification" based on the quality and quantity of benthic macroinvertebrate life found at that site. The ratings are assigned on a scale of poor to excellent water quality. Bioclassifications are based on the number of taxa present and the relative pollution tolerance of each taxa. Stream and river reaches are then given a final bioclassification of Excellent, Good, Good-Fair, Fair, Poor, or Not Rated. These bioclassifications, which have been developed for major ecoregions, are used to assess the various impacts of both point source discharges and non-point source runoff.
+BMR.PAT  Point Attribute Table
+COLUMN  ITEM NAME         WIDTH OUTPUT TYPE  DEC   DESCRIPTION
+1       AREA                4     12     F    3    Total area in meters
+5       PERIMETER           4     12     F    3    Total perimeter
+9       BMR#                4      5     B    -    Point internal id number
+13      BMR-ID              4      5     B    -    Point internal id number
+17      CARD_NU             8     11     F    0    Collection card number
+25      COUNTY             14     14     C    -    County name
+39      BASIN               9      9     C    -    River basin name abbreviation
+48      SUB-BASIN           8     12     F    0    Sub-basin #
+56      LOCATION           15     15     C    -    Site description
+71      WATERBODY          17     17     C    -    Stream name
+88      LATITUDE            8      9     F    0    North-south georeference
+96      LONGITUDE           8     12     F    0    East-west georeference
+104     COLLECTION          8     10     D    -    Collection date
+112     BIOCLASS            9      9     C    -    Water quality rating
+</eaover>
+<eadetcit>Refer to source agency for published stream classification documents and standard procedure for benthic macroinvertebrate stream sampling and assessment methods.</eadetcit>
+</overview>
+</eainfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>NC Center for Geographic Information and Analysis</cntorg>
+</cntorgp>
+<cntpos>Database Administration</cntpos>
+<cntaddr>
+<addrtype>Physical</addrtype>
+<address>333 E. Six Forks Rd.</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27609</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing</addrtype>
+<address>20322 Mail Service Center</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27699</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>919-754-6580</cntvoice>
+<cntfax>919-715-8551</cntfax>
+<cntemail>dataq@its.nc.gov</cntemail>
+<hours>8:30AM - 5:30PM</hours>
+<cntinst>Phone and electronic mail preferred</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>
+NCCGIA is charged with the development and maintenance
+of NC OneMap and, in cooperation with other mapping
+organizations, is committed to offering its users accurate,
+useful, and current information. Although
+every effort has been made to ensure the accuracy of
+information, errors and conditions originating from
+physical sources used to develop this dataset may be
+reflected in the data supplied. The user must be
+aware of possible conditions and bear responsibility for
+the appropriate use of the information with respect to
+possible errors, original map scale, collection methodology,
+currency of data, and other conditions specific to certain
+data. NCCGIA does not support secondary distribution of
+this dataset without its current, compliant metadata record. The
+use of trade names or commercial products does not constitute their
+endorsement by NCCGIA or North Carolina State Government.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>ESRI shapefile (*.shp)</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>ftp://ftp.nconemap.com/outgoing/vector/benthic.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. Download from www.nconemap.com is free of charge.</fees>
+</stdorder>
+<custom>Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.</custom>
+<techpreq>This data is provided as an ESRI shapefile. Other formats are available on a cost-recovery basis - contact dataq@its.nc.gov or 919-754-6580 for more information. Format compatibility is the user's responsibility.</techpreq>
+</distinfo>
+<metainfo>
+<metd>20110610</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>North Carolina Center for Geographic Information and Analysis</cntorg>
+<cntper>David Giordano</cntper>
+</cntorgp>
+<cntpos>Database Administration</cntpos>
+<cntaddr>
+<addrtype>Physical</addrtype>
+<address>333 E. Six Forks Rd.</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27609</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing</addrtype>
+<address>20322 Mail Service Center</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27699</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>919-754-6580</cntvoice>
+<cntfax>919-715-8551</cntfax>
+<cntemail>dataq@its.nc.gov</cntemail>
+<hours>8am to 5pm</hours>
+<cntinst>Phone and electronic mail preferred</cntinst>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>None</metac>
+<metuc>This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.</metuc>
+</metainfo>
+</metadata>

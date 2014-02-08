@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>NC Department of Environment and Natural Resources, North Carolina Natural Heritage Program</origin>
+<pubdate>201307</pubdate>
+<title>Biodiversity/Wildlife Habitat Assessment (BWHA) - July 2013</title>
+<geoform>Digital vector data</geoform>
+<pubinfo>
+<pubplace>Raleigh, NC</pubplace>
+<publish>NC Department of Environment and Natural Resources, North Carolina Natural Heritage Program</publish>
+</pubinfo>
+<othercit>NCCGIA distributes this dataset</othercit>
+<onlink>http://www.ncnhp.org</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This dataset shows the state?s conservation priorities for aquatic and terrestrial species and habitats, and landscape functions and connectivity. The relative conservation values displayed by this dataset focus on (1) the biodiversity of aquatic and terrestrial species and communities, (2) large-scale landscapes, including core wildlife habitats and habitat connectors, and (3) lands important to ecosystem processes, such as riparian buffers and wetlands.</abstract>
+<purpose>This dataset illustrates the locations and conservation priorities of significant natural resources in North Carolina, and is utilized by local governments, state agencies, regional councils of governments, funding programs, and conservation organizations to support land use, conservation, mitigation and transportation planning and decision-making.</purpose>
+<supplinf>
+This dataset was created by the North Carolina Natural Heritage Program as part of the One NC Naturally initiative to identify, evaluate and prioritize areas that are important to maintain healthy and sustainable ecosystems statewide.  The relative conservation values displayed by this dataset focus on (1) the biodiversity of aquatic and terrestrial species and communities, (2) large-scale landscapes, including core wildlife habitats and habitat connectors, and (3) lands important to ecosystem processes, such as riparian buffers and wetlands. These data illustrate the locations and conservation values of significant natural resources throughout North Carolina, and have been applied by local governments, state agencies, regional councils of governments, funding programs, conservation organizations, and the private sector to support planning and decision-making for land use, conservation, mitigation, and transportation projects.
+
+Priorities for conservation of important biodiversity and wildlife habitats are depicted using a scale of 1 (moderate conservation value) to 10 (maximum conservation value).  Datasets used in this assessment are contributed by various state agencies and conservation organizations, and each individual data input is assigned a relative conservation value based on resource rarity and distinctiveness, resource function, and data precision, accuracy, and completeness.  These data inputs are processed and combined to show conservation priorities statewide.  Data inputs include significant natural heritage areas, rare species occurrences, core wildlife habitats and their connections, important aquatic resources (e.g., trout streams, fish habitat, fish nursery areas, outstanding resources waters), wetlands, and watershed priorities based on Federally-listed species and other factors.  (For more information on the data inputs, see Chapter 4 of the Conservation Planning Tool detailed report at http://portal.ncdenr.org/web/cpt/detailed-report). This assessment is intended to be used for planning purposes and should not substitute for field work at the project level.
+
+The download zip file includes a raster representation (TIF) of the Biodiversity/Wildlife Habitat Assessment data. Projected to NC Stateplane meters, NAD83. BWHA is distributed as a TIF file only. Previously, the data was distributed as an Arc/Info GRID and shapefile. The shapefile existed so it could be used by those without Esri's Spatial Analyst extension. The shapefile is not needed as the TIF can be used without the extension.
+</supplinf>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>Unknown</begdate>
+<enddate>201307</enddate>
+</rngdates>
+</timeinfo>
+<current>Data current as of July 2013</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Bi-annual</update>
+</status>
+<spdom>
+<bounding>
+<westbc>-84.422109</westbc>
+<eastbc>-75.416032</eastbc>
+<northbc>36.617254</northbc>
+<southbc>33.730554</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ISO 19115 Topic Category</themekt>
+<themekey>Biota</themekey>
+<themekey>Environment</themekey>
+</theme>
+<theme>
+<themekt>None</themekt>
+<themekey>green infrastructure</themekey>
+<themekey>natural resources</themekey>
+<themekey>biodiversity</themekey>
+<themekey>wildlife habitat</themekey>
+<themekey>core habitat</themekey>
+<themekey>terrestrial and aquatic resources</themekey>
+<themekey>connectivity</themekey>
+<themekey>landscape habitat indicator guilds</themekey>
+<themekey>rare species</themekey>
+<themekey>significant natural heritage areas</themekey>
+<themekey>streams</themekey>
+<themekey>wetlands</themekey>
+<themekey>wild brook trout</themekey>
+<themekey>anadromous fish spawning areas</themekey>
+<themekey>fish nursery areas</themekey>
+<themekey>threatened and endangered species</themekey>
+<themekey>priority watersheds</themekey>
+<themekey>oyster sanctuaries</themekey>
+<themekey>submerged aquatic vegetation</themekey>
+<themekey>shellfish growing areas</themekey>
+<themekey>shellbottom</themekey>
+<themekey>hardbottom</themekey>
+<themekey>important bird areas</themekey>
+<themekey>conservation planning</themekey>
+<themekey>conservation priorities</themekey>
+<themekey>conservation value</themekey>
+<themekey>ecosystems</themekey>
+<themekey>One NC Naturally</themekey>
+<themekey>NC Natural Heritage Program</themekey>
+<themekey>NCNHP</themekey>
+<themekey>NCDENR</themekey>
+</theme>
+</keywords>
+<accconst>none</accconst>
+<useconst>none</useconst>
+</idinfo>
+<distinfo>
+<distrib>
+<cntinfo>
+<cntorgp>
+<cntorg>NC Center for Geographic Information and Analysis</cntorg>
+</cntorgp>
+<cntpos>Database Administration</cntpos>
+<cntaddr>
+<addrtype>Physical</addrtype>
+<address>3700 Wake Forest Rd.</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27609</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing</addrtype>
+<address>20322 Mail Service Center</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27699</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>919-754-6580</cntvoice>
+<cntfax>919-715-8551</cntfax>
+<cntemail>dataq@its.nc.gov</cntemail>
+<hours>8:30AM - 5:30PM</hours>
+<cntinst>Phone and electronic mail preferred</cntinst>
+</cntinfo>
+</distrib>
+<resdesc>Downloadable Data</resdesc>
+<distliab>
+NCCGIA is charged with the development and maintenance
+of NC OneMap and, in cooperation with other mapping
+organizations, is committed to offering its users accurate,
+useful, and current information. Although
+every effort has been made to ensure the accuracy of
+information, errors and conditions originating from
+physical sources used to develop this dataset may be
+reflected in the data supplied. The user must be
+aware of possible conditions and bear responsibility for
+the appropriate use of the information with respect to
+possible errors, original map scale, collection methodology,
+currency of data, and other conditions specific to certain
+data. NCCGIA does not support secondary distribution of
+this dataset without its current, compliant metadata record. The
+use of trade names or commercial products does not constitute their
+endorsement by NCCGIA or North Carolina State Government.
+</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<formname>TIF (*.tif)</formname>
+</digtinfo>
+<digtopt>
+<onlinopt>
+<computer>
+<networka>
+<networkr>ftp://ftp.nconemap.com/outgoing/vector/bwha.zip</networkr>
+</networka>
+</computer>
+</onlinopt>
+</digtopt>
+</digform>
+<fees>None. Download from www.nconemap.com is free of charge.</fees>
+</stdorder>
+<custom>Data can be customized on a cost-recovery basis. Contact dataq@its.nc.gov or 919-754-6580 for more information.</custom>
+<techpreq>All vector formats available from www.nconemap.com are in ESRI shapefile. Format compatibility is the user's responsibility.</techpreq>
+<availabl>
+<timeinfo>
+<rngdates>
+<begdate>Unknown</begdate>
+<enddate>Present</enddate>
+</rngdates>
+</timeinfo>
+</availabl>
+</distinfo>
+<metainfo>
+<metd>201304</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>North Carolina Center for Geographic Information and Analysis</cntorg>
+<cntper>David Giordano</cntper>
+</cntorgp>
+<cntpos>Database Administration</cntpos>
+<cntaddr>
+<addrtype>Physical</addrtype>
+<address>3700 Wake Forest Rd.</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27609</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntaddr>
+<addrtype>Mailing</addrtype>
+<address>20322 Mail Service Center</address>
+<city>Raleigh</city>
+<state>North Carolina</state>
+<postal>27699</postal>
+<country>U.S.A.</country>
+</cntaddr>
+<cntvoice>919-754-6580</cntvoice>
+<cntfax>919-715-8551</cntfax>
+<cntemail>dataq@its.nc.gov</cntemail>
+<hours>8am to 5pm</hours>
+<cntinst>Phone and electronic mail preferred</cntinst>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metac>None</metac>
+<metuc>This metadata file is to accompany the dataset. NCCGIA does not support secondary distribution of this dataset without its current, compliant metadata record. If the dataset described in this metadata record was received from anyone besides NCCGIA, this metadata and the dataset it describes may contain discrepancies.</metuc>
+</metainfo>
+</metadata>
